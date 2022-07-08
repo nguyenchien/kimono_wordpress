@@ -1,0 +1,23 @@
+.wrap-web-price-info .sub-des {
+    font-size: 11px;
+}
+.wrap-choose-sl-wg .wraper-sl.wraper-sl-g-b .box-sl-choose-people {
+    flex-direction: column;
+}
+.wrap-choose-sl-wg .wraper-sl-g-b .lbl-name-sl {
+    width: auto;
+}
+.wrap-link-to-gallery .linkto-gallery {
+    font-size: 13px;
+}
+@media(min-width: 750px){
+    .wg-webpirce-box .box-price .sm-price{
+        font-size: 11px;
+    }
+    .wg-webpirce-box .box-price .lg-pirce{
+        font-size: 25px;
+    }
+    .wrap-corresponding-store-wg .wrap-link-more-wg .btn-link-more {
+        font-size: 12px;
+    }
+}

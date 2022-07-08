@@ -1,0 +1,49 @@
+/*=== Kimono Plan List EN ===*/
+/*=== MOBI FIRST===*/
+.wrap-list-plan-wg-vip-children .wrap-choose-sl-wg .wraper-sl .box-sl-choose-people{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.wg-webpirce-box .box-webprice .web, .wg-webpirce-box .box-webprice .bt-text{
+    font-size: 13px;
+}
+.wg-webpirce-box .box-price .lg-pirce var{
+    font-size: 13px;
+}
+.wg-webpirce-box .box-price .lg-pirce span{
+    font-size: 11px;
+}
+.wg-webpirce-box .box-webprice {
+    padding: 4px 5px;
+}
+@media (max-width: 360px){
+    .wrap-list-plan-wg-vip-children .wrap-choose-sl-wg .wraper-sl .sl-choose-people{
+        padding: 3px;
+    }
+}
+@media (min-width: 750px) {
+    .wrap-list-plan-wg-vip-children .wrap-choose-sl-wg .wraper-sl-g-b{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .wrap-list-plan-wg-vip-children .wrap-choose-sl-wg .wraper-sl .box-sl-choose-people:not(:last-child){
+        margin-bottom: 5px;
+    }
+    .text-des-list-vip{
+        font-size: 14px;
+    }
+    .wg-webpirce-box .box-webprice {
+        padding: 7px 5px;
+    }
+    .wg-webpirce-box .box-webprice .web, .wg-webpirce-box .box-webprice .bt-text,
+    .wg-webpirce-box .box-price .lg-pirce var {
+        font-size: 15px;
+    }
+    .wg-webpirce-box .box-price .lg-pirce span {
+        font-size: 13px;
+    }
+}

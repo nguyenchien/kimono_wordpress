@@ -1,0 +1,103 @@
+
+/* 
+    Created on : Mar 29, 2016, 2:00:26 PM
+    Author     : dai huynh
+*/
+/*
+Pages apply: /homongi, kurotomesode, irotomesode, seijin, sotsugyou, shichigosan/
+*/
+.wrap-halloween-campaign .container-halloween-campaign{
+	width: 100%;
+}
+.wrap-halloween-campaign .container-padding{
+	width: 100%;
+	padding: 0 7px;
+	box-sizing: border-box;
+}
+h2.title-halloween-campaign{
+	color: #f39800;
+	font-size: 32px;
+	font-size: 6.5vw;
+	font-weight: bold;
+	line-height: 1;
+	margin:5px 0 10px;
+}
+.wrap-halloween-campaign .wrap-banner-top,
+.wrap-halloween-campaign .wrap-banner-bottom{
+	margin-bottom: 10px;
+}
+/*--display block and none--*/
+.wrap-halloween-campaign .wrap-banner-top img.pc,
+.wrap-halloween-campaign .wrap-banner-bottom img.pc{
+	display: none;
+}
+.wrap-button-halloween-campaign a.link-more{
+	display: block;
+	background-color: #fff;
+	color: #F9A523;
+	border: 2px solid #F9A523;
+	font-size: 20px;
+	font-size: 6vw;
+	font-weight: bold;
+	line-height: 1;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+	text-decoration: none;
+	position: relative;
+}
+.wrap-button-halloween-campaign a.link-more.bg-F9A523{
+	background-color: #F9A523;
+	color: #fff;
+}
+.wrap-button-halloween-campaign a.link-more:after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border-left: 10px solid #F9A523;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	position: absolute;
+	top: 32%;
+	right: 5px;
+}
+.wrap-button-halloween-campaign a.link-more.bg-F9A523:after{
+	border-left: 10px solid #fff;
+}
+@media (min-width: 750px){
+	.wrap-halloween-campaign .container-halloween-campaign{
+		width: 960px;
+		margin: 0 auto;
+	}
+	.wrap-halloween-campaign .container-padding{
+		padding: 0 10px;
+	}
+	/*--display block and none--*/
+	.wrap-halloween-campaign .wrap-banner-top img.pc,
+	.wrap-halloween-campaign .wrap-banner-bottom img.pc{
+		display: block;
+	}
+	.wrap-halloween-campaign .wrap-banner-top img.sp,
+	.wrap-halloween-campaign .wrap-banner-bottom img.sp{
+		display: none;
+	}
+	h2.title-halloween-campaign{
+		font-size: 66px;
+		margin: 25px 0 20px;
+	}
+	.wrap-button-halloween-campaign a.link-more{
+		font-size: 35px;
+		margin-top: 10px;
+	}
+	.wrap-button-halloween-campaign a.link-more:last-child{
+		margin-right: 0;
+	}
+	.wrap-button-halloween-campaign a.link-more:after{
+		top: 19px;
+	}
+	.wrap-button-halloween-campaign a.link-more.bg-F9A523 {
+		width: 100%;
+	}
+}

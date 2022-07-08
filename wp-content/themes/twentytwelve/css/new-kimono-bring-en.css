@@ -1,0 +1,32 @@
+.wrap-top-banner .note .text{
+    font-size: 13px;
+}
+.wrap-title-bring-common{
+    font-size: 20px;
+}
+.wrap-prices .text{
+    font-size: 13px;
+}
+.wrap-options .item-options-3 .list-options{
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.wrap-des-wg-pl,
+.wrap-option-des-bring .text-opt-des{
+    font-size: 14px;
+}
+@media (min-width: 750px){
+    .wrap-top-banner .note .text {
+        font-size: 14px;
+    }
+    .wrap-prices{
+        margin-left: -15px;
+    }
+    .wrap-prices .item-price {
+        width: calc(100% * (1/3) - 15px);
+        margin: 0 0 15px 15px;
+    }
+    .wrap-prices .text {
+        font-size: 18px;
+    }
+}

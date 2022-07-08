@@ -1,0 +1,1503 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 8, 2016, 4:05:26 PM
+    Author     : duyenhoang
+*/
+/*
+Pages apply: /seijin, /sotsugyou, /homongi, /shichigosan, /irotomesode,/kurotomesode
+*/
+/*sotsugyou page*/
+.sotsugyou{
+	color: #ed1e79 !important;
+}
+.sotsugyou-bg{
+	background: #ed1e79 !important;
+}
+.graduate-page .img-graduate-sp{
+	display: none;
+}
+.graduate-page{
+	margin-bottom: 20px;
+}
+.graduate-page .link-page{
+	padding: 0;
+	overflow: hidden;
+}
+.graduate-page .link-page .text-left{
+	float: left;
+	width:51%;
+	margin-right: 2%;
+}
+.graduate-page .link-page .link-right{
+	float: right;
+	width:47%;
+}
+.graduate-page .link-page div p span{
+	position: relative;
+}
+.graduate-page .link-page div p span label{
+	position: relative;
+	z-index: 2;
+}
+.graduate-page .link-page div p:nth-child(1){
+	color: #ed1e79;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.1;
+}
+body.ru .graduate-page .link-page div p:nth-child(1){
+	font-size: 18px;
+}
+body.ru .graduate-page .link-page div p:nth-child(2){
+	font-size: 39px;
+}
+body.ja .graduate-page .link-page div p span.text:after {
+	bottom: 1px;
+}
+.graduate-page .link-page div p span.text:after {
+	content: " ";
+	width: 100%;
+	height: 10px;
+	background: #ffdf67;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 1;
+}
+body.ko .graduate-page .link-page div p span.text:after,
+body.en .graduate-page .link-page div p span.text:after,
+body.vi .graduate-page .link-page div p span.text:after{
+	height: 7px;
+}
+body.vi .graduate-page .link-page div p:nth-child(1),
+body.en .graduate-page .link-page div p:nth-child(1) {
+	font-size: 19px;
+}
+body.ko .graduate-page .link-page div p:nth-child(1){
+	font-size:21px;
+}
+.graduate-page .link-page div p:nth-child(2){
+	font-size: 37px;
+	font-weight: bold;
+	color: #ed1e79;
+	line-height: 1.3;
+}
+body.ko .graduate-page .link-page div p:nth-child(2){
+	font-size: 26px;
+}
+body.en .graduate-page .link-page div p:nth-child(2) {
+	font-size: 30px;
+	line-height: 1.1;
+}
+body.vi .graduate-page .link-page div p:nth-child(2) {
+	font-size: 26.4px;
+	line-height: 1.5;
+}
+.graduate-page .link-page div p:nth-child(3){
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 1.1;
+}
+body.ko .graduate-page .link-page div p:nth-child(3){
+	font-size: 16px;
+}
+body.en .graduate-page .link-page div p:nth-child(3) {
+	font-size: 18.4px;
+	line-height: 1.6;
+}
+body.vi .graduate-page .link-page div p:nth-child(3) {
+	font-size: 15.4px;
+	line-height: 1.6;
+}
+.graduate-page .link-page .link-right a{
+	color: #fff;
+	background: #ed1e79;
+	box-sizing: border-box;
+	font-size: 38px;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	padding: 40px 0;
+}
+body.vi .graduate-page .link-page .link-right a, body.en .graduate-page .link-page .link-right a {
+	padding: 21px 0;
+}
+body.ko .graduate-page .link-page .link-right a{
+	padding:8px 0;
+}
+/* #14437 */
+.graduate-page .list-sotsugyou {
+	margin: 30px 0 0 0;
+}
+
+.graduate-page .title{
+	background: #e71873;
+	padding: 3px;
+	line-height: 1;
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+
+.graduate-page .title.first {
+	margin-top: 0;
+}
+
+.graduate-page p.brief {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: right;
+	margin-bottom: 15px;
+	color: #000;
+}
+
+.graduate-page p.brief span {
+	font-size: 12px;
+}
+
+.graduate-page .title span {
+	color: #fff;
+}
+
+.graduate-page .title .left{
+	float: left;
+	font-size: 25px;
+	line-height: 1.2;
+}
+
+.graduate-page .title .right{
+	float: right;
+	font-size: 30px;
+	position: relative;
+	font-weight: bold;
+}
+
+.graduate-page .title .right var {
+	position: absolute;
+	top: -13px;
+	left: -30px;
+}
+
+.graduate-page .title .right small {
+	font-size: 20px;
+}
+
+.graduate-page .title .right em {
+	font-size: 15px;
+}
+
+.graduate-page .title .right var img {
+	width: 30px;
+}
+
+.graduate-page .content li {
+	width: 100%;
+	position: relative;
+	border-bottom: 1px dotted #e71873;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+
+.graduate-page .box:first-child .content li {
+	margin-bottom: 30px;
+	padding: 0;
+}
+
+.graduate-page .box:last-child li:last-child {
+	padding-bottom: 0;
+}
+
+.graduate-page .content li:last-child {
+	border-bottom: none;
+}
+
+.graduate-page .content li .item {
+	width: 50%;
+	float: left;
+}
+
+.graduate-page .content li .item img {
+	width: 100%;
+}
+
+.graduate-page .content .item.six,
+.graduate-page .content .item.eight,
+.graduate-page .content .item.ten,
+.graduate-page .content .item.twelve,
+.graduate-page .content .item.fourteen{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+/* page seijin */
+.seijin-group-4 ul li{
+	width: 25%;
+	float: left;
+}
+.seijin-group-3 ul li{
+	width: 33.3333333333%;
+	float: left;
+}
+.seijin-h1{
+	color: #894c8f;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px 0;
+}
+body.ru .seijin-h1{
+	font-size: 36px;
+}
+body.ru .seijin-h1 span{
+	font-size: 46px;
+}
+body.ru .seijin-block-1 h3{
+	font-size: 19px;
+}
+body.ru .seijin-block-1 h2{
+	font-size: 26px;
+}
+body.ru .seijin-block-2 a{
+	font-size: 30px;
+}
+body.ru .seijin-block-1 h4{
+	font-size: 16px;
+}
+.seijin-h1 span{
+	font-size: 50px;
+	position: relative;
+	top: 5px;
+}
+.seijin-section{
+	margin: 30px 0 15px 0;
+	color: #894c8f;
+}
+.seijin-section div{
+	float: left;
+	min-height: 1px;
+}
+.seijin-block-1{
+	width: 51%;
+	margin-right: 2%;
+}
+.seijin-block-2{
+	width: 47%;
+	background: #8b47a8;
+}
+.seijin-block-2 a{
+	color: #FFF;
+	font-size: 40px;
+	font-weight: bold;
+	display: block;
+	padding: 23px 0;
+	text-align: center;
+}
+.seijin-block-1 h2{
+	text-transform: uppercase;
+	font-size: 17.4px;
+	font-weight: bold;
+}
+.seijin-block-1 h3{
+	font-size: 26.4px;
+}
+.seijin-block-1 h4{
+	font-size: 14px;
+	color: #000;
+}
+.seijin-h1 span{
+	font-size: 60px;
+	top: 0;
+}
+.seijin-h1{
+	font-size: 50px;
+}
+.seijin-block-1 h2{
+	font-size: 48px;
+}
+.seijin-block-1 h3{
+	font-size: 24px;
+	font-weight: bold;
+}
+.seijin-block-1 h2,
+.seijin-block-1 h3,
+.seijin-block-1 h4{
+	line-height: 1.2;
+}
+.seijin-block-1 h4{
+	font-size: 18.4px;
+	font-weight: bold;
+}
+.seijin-block-1 h3 .text-1{
+	position: relative;
+}
+.seijin-block-1 h3 label{
+	position: relative;
+	z-index: 9;
+}
+.seijin-block-1 h3 .text-1:after{
+	content: " ";
+	width: 100%;
+	height: 10px;
+	background: #b8da99;
+	position: absolute;
+	left: 0;
+	bottom: 6px;
+	z-index: 1;
+}
+body.ru .seijin-h1{
+	font-size: 36px;
+}
+body.ru .seijin-h1 span{
+	font-size: 46px;
+}
+body.ru .seijin-block-1 h3{
+	font-size: 19px;
+}
+body.ru .seijin-block-1 h2{
+	font-size: 26px;
+}
+body.ru .seijin-block-2 a{
+	font-size: 30px;
+}
+body.ru .seijin-block-1 h4{
+	font-size: 16px;
+}
+.seijin-h1 span{
+	font-size: 50px;
+	position: relative;
+	top: 5px;
+}
+.seijin-section{
+	margin: 30px 0 15px 0;
+	color: #894c8f;
+}
+.seijin-section div{
+	float: left;
+	min-height: 1px;
+}
+.seijin-block-1{
+	width: 51%;
+	margin-right: 2%;
+}
+.seijin-block-2{
+	width: 47%;
+	background: #8b47a8;
+}
+.seijin-block-2 a{
+	color: #FFF;
+	font-size: 40px;
+	font-weight: bold;
+	display: block;
+	padding: 23px 0;
+	text-align: center;
+}
+.seijin-block-1 h2{
+	text-transform: uppercase;
+	font-size: 17.4px;
+	font-weight: bold;
+}
+.seijin-block-1 h3{
+	font-size: 26.4px;
+}
+.seijin-block-1 h4{
+	font-size: 14px;
+	color: #000;
+}
+.seijin-h1 span{
+	font-size: 60px;
+	top: 0;
+}
+.seijin-h1{
+	font-size: 50px;
+}
+.seijin-block-1 h2{
+	font-size: 48px;
+}
+.seijin-block-1 h3{
+	font-size: 24px;
+	font-weight: bold;
+}
+.seijin-block-1 h2,
+.seijin-block-1 h3,
+.seijin-block-1 h4{
+	line-height: 1.2;
+}
+.seijin-block-1 h4{
+	font-size: 18.4px;
+	font-weight: bold;
+}
+.seijin-block-1 h3 .text-1{
+	position: relative;
+}
+.seijin-block-1 h3 label{
+	position: relative;
+	z-index: 9;
+}
+.seijin-block-1 h3 .text-1:after{
+	content: " ";
+	width: 100%;
+	height: 10px;
+	background: #b8da99;
+	position: absolute;
+	left: 0;
+	bottom: 6px;
+	z-index: 1;
+}
+body.ko .seijin-block-1 h3 .text-1:after,
+body.vi .seijin-block-1 h3 .text-1:after,
+body.en .seijin-block-1 h3 .text-1:after{
+	height: 6px;
+	bottom: 2px;
+}
+body.ko .seijin-h1,
+body.vi .seijin-h1,
+body.en .seijin-h1{
+	font-size: 30px;
+}
+body.ko .seijin-h1 span,
+body.vi .seijin-h1 span,
+body.en .seijin-h1 span{
+	font-size: 44px;
+	top: 3px;
+}
+body.ko .seijin-block-1 h3{
+	font-size: 18px;
+}
+body.ko .seijin-block-1 h3,
+body.en .seijin-block-1 h3,
+body.vi .seijin-block-1 h3{
+	font-size: 21px;
+}
+body.ko .seijin-block-1 h2,
+body.en .seijin-block-1 h2,
+body.vi .seijin-block-1 h2{
+	font-size: 26px;
+	text-transform: inherit;
+}
+body.ko .seijin-block-1 h2{
+	font-size: 26px;
+}
+
+body.en .seijin-block-1 h2{
+	font-size: 30px;
+}
+body.vi .seijin-block-1 h4{
+	font-size: 12px;
+}
+body.ko .seijin-block-1 h4{
+	font-size: 16px;
+}
+body.en .seijin-block-1 h4{
+	font-size: 18px;
+}
+body.ko .seijin-block-2 a,
+body.en .seijin-block-2 a,
+body.vi .seijin-block-2 a{
+	padding: 15px 0;
+}
+body.ko .seijin-block-1 h2,
+body.ko .seijin-block-1 h3,
+body.ko .seijin-block-1 h4,
+body.en .seijin-block-1 h2,
+body.en .seijin-block-1 h3,
+body.en .seijin-block-1 h4{
+	line-height: 1.3;
+}
+body.vi .seijin-block-1 h2,
+body.vi .seijin-block-1 h3,
+body.vi .seijin-block-1 h4{
+	line-height: 1.5;
+}
+/*Begin-homongi-page*/
+.homongi-page{
+	padding-bottom: 20px;
+}
+.text-bottom{
+	font-size:10px;
+	color:#000;
+}
+.homongi-page .homongi-h1{
+	font-size: 68px;
+	text-align: center;
+	background: #7d3e8e;
+	font-weight: bold;
+	color: #fff;
+}
+.homongi-page .homongi-h1 > var{
+	font-size:50px;
+	font-weight: bold;
+}
+.homongi-h1 span{
+	font-size: 50px;
+	position: relative;
+	top: 5px;
+}
+.homongi-section{
+	margin: 30px 0 0px 0;
+	color: #894c8f;
+}
+.homongi-section div{
+	float: left;
+	min-height: 1px;
+}
+.homongi-block-1 h3{
+	overflow: hidden;
+}
+.homongi-block-1{
+	width: 51%;
+	margin-right: 2%;
+}
+.homongi-block-2{
+	width: 47%;
+	background: #8b47a8;
+}
+.homongi-block-2 a{
+	color: #FFF;
+	font-size: 40px;
+	font-weight: bold;
+	display: block;
+	padding: 24px 0;
+	text-align: center;
+}
+.homongi-block-1 h2{
+	text-transform: uppercase;
+	font-size: 17.4px;
+	font-weight: bold;
+}
+.homongi-block-1 h3{
+	font-size: 26.4px;
+}
+.homongi-block-1 h4{
+	font-size: 14px;
+	color: #000;
+}
+.homongi-h1 span{
+	font-size: 60px;
+	top: 0;
+}
+.homongi-h1{
+	font-size: 50px;
+}
+.homongi-block-1 h2{
+	font-size: 38px;
+}
+.homongi-block-1 h3{
+	font-size: 18px;
+	font-weight: bold;
+}
+.homongi-block-1 h2,
+.homongi-block-1 h3,
+.homongi-block-1 h4{
+	line-height: 1.2;
+}
+.homongi-block-1 h4{
+	font-size: 17px;
+	font-weight: bold;
+}
+.homongi-block-1 h3 .text-1{
+	position: relative;
+}
+.homongi-block-1 h3 label{
+	position: relative;
+	z-index: 9;
+}
+.homongi-section .text-bottom{
+	float:left;
+}
+.text-sp{
+	display: none;
+}
+.homongi-block-1{
+	overflow: hidden;
+}
+.homongi-block-1 h3 .text-1:after{
+	content: " ";
+	width: 100%;
+	height: 6px;
+	background: #f5db68;
+	position: absolute;
+	left: 0;
+	bottom: 5px;
+	z-index: 1;
+}
+.icon-homongi{
+	width:33%;
+}
+.homongi-text{
+	float:left;
+	width:67%;
+}
+.homongi-block-1 h3 img{
+	float:left;
+	height: 45px;
+}
+/*End-homongi-page*/
+/*css-irotome-page*/
+.homongi-page .irotome-h1{
+	font-size: 63px;
+	background: #64afc1;
+}
+.homongi-page .irotome-h1 > var{
+	font-size: 40px;
+}
+.irotome{
+	color: #64afc1;
+}
+/*css-kurotome-page*/
+.homongi-page .kurotome-h1{
+	background: #e99a44;
+	width:100%;
+}
+.homongi-section .kurotome-block-1{
+	float:left;
+	margin-right: 0;
+}
+.homongi-section .kurotome-block-2{
+	float:right;
+	width:49%;
+}
+.kurotome,.kurotome .homongi-block-1 ul li span.text1 label{
+	color: #a29565;
+	position: relative;
+	z-index: 9;
+}
+.homongi-section .text-bottom-kurotome{
+	padding:5px 0 0 0;
+	font-size:9px;
+}
+.kurotome .homongi-block-1 ul{
+	overflow: hidden;
+	width:100%;
+}
+.kurotome .homongi-block-1 ul li{
+	width: 50%;
+	height: 45px;
+}
+.kurotome .homongi-block-1 ul li span{
+	float:left;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+	line-height: 20px;
+}
+.kurotome .homongi-block-1 ul li span.text-contact-info{
+	position: relative;
+	bottom: 13px;
+}
+.kurotome .homongi-block-1 ul li span.text1{
+	position: relative;
+}
+.kurotome .homongi-block-1 ul li span.text1:after{
+	content: " ";
+	width: 100%;
+	height: 8px;
+	background: #b3e3fa;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+	z-index: 1;
+}
+.kurotome .homongi-block-1 ul li:nth-child(2n+1){
+	float:left;
+}
+.kurotome .homongi-block-1 ul li:nth-child(2n){
+	float:right;
+}
+/*css-753-page*/
+.homongi-page .page-753-h1{
+	background: #f27292;
+}
+.page-753{
+	color: #f27292;
+}
+/* end page seijin */
+@media all and (max-width: 767px) {
+	/*sotsugyou page*/
+	.graduate-page .link-page{
+		padding: 10px 0 20px 0;
+	}
+	.graduate-page .link-page .text-left, .graduate-page .link-page .link-right{
+		width: 100%;
+		float: none;
+	}
+	body.ja .graduate-page .link-page div p span.text:after {
+		bottom: 0.5vw;
+	}
+	.graduate-page .link-page .link-right{
+		padding-top: 20px;
+	}
+	.graduate-page .img-graduate-pc{
+		display: none;
+	}
+	.graduate-page .img-graduate-sp{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	/*--- #14437 ---*/
+	.graduate-page .title .left {
+		font-size: 2.9vw;
+	}
+
+	.graduate-page .title .right {
+		font-size: 3vw;
+	}
+
+	.graduate-page .title .right small{
+		font-size: 2.5vw;
+	}
+
+	.graduate-page .title .right em {
+		font-size: 2vw;
+	}
+
+	.graduate-page .title .right var {
+		left: -20px;
+	}
+
+	.graduate-page .title .right var img {
+		width: 20px;
+	}
+
+	.graduate-page p.brief {
+		font-size: 3.3vw;
+		margin-bottom: 7px;
+	}
+
+	.graduate-page p.brief span{
+		font-size: 2.3vw;
+	}
+
+	.graduate-page .content li {
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+		border-bottom: none;
+	}
+
+	.graduate-page .box:first-child .content li {
+		margin-bottom: 0px;
+	}
+
+	.graduate-page .content li .item {
+		float: none;
+		width: 100%;
+		border-bottom: 1px dotted #e71873;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+	}
+
+	.graduate-page .content li:last-child .item:last-child {
+		border-bottom: none;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+	}
+
+	.graduate-page .content .item.six, .graduate-page .content .item.eight, .graduate-page .content .item.ten, .graduate-page .content .item.twelve, .graduate-page .content .item.fourteen {
+		position: static;
+	}
+	body.ru .seijin-h1 span{
+		font-size: 22px;
+	}
+	body.ru .seijin-h1{
+		font-size: 12px;
+	}
+	body.ru .seijin-block-1 h3{
+		font-size: 11px;
+	}
+	body.ru .seijin-block-1 h2{
+		font-size: 21px;
+	}
+	body.ru .seijin-block-1 h4{
+		font-size: 12px;
+	}
+	body.ru .seijin-block-2 a{
+		font-size: 22px;
+	}
+}
+@media all and (max-width: 479px){
+	/*sotsugyou page*/
+	.graduate-page .link-page div p:nth-child(1){
+		font-size: 5.3vw;
+	}
+	body.ru .graduate-page .link-page div p:nth-child(1){
+		font-size: 3.5vw;
+	}
+	body.ko .graduate-page .link-page div p:nth-child(1){
+		font-size: 4.5vw;
+	}
+	body.ko .graduate-page .link-page .link-right a,
+	.graduate-page .link-page .link-right a, body.en .graduate-page .link-page .link-right a,
+	body.vi .graduate-page .link-page .link-right a{
+		font-size: 7.4vw;
+		padding: 9px 33px;
+	}
+	body.ko .graduate-page .link-page div p span.text:after,
+	.graduate-page .link-page div p span.text:after, body.en .graduate-page .link-page div p span.text:after,
+	body.vi .graduate-page .link-page div p span.text:after{
+		height: 6px;
+	}
+	.graduate-page .link-page div p:nth-child(2){
+		font-size: 9.4vw;
+	}
+	body.ru .graduate-page .link-page div p:nth-child(2){
+		font-size: 7.4vw;
+	}
+	body.ko .graduate-page .link-page div p:nth-child(2){
+		font-size: 5vw;
+		line-height: 1.8;
+	}
+	body.en .graduate-page .link-page div p:nth-child(2) {
+		font-size: 5.9vw;
+		line-height: 1.1;
+	}
+	body.vi .graduate-page .link-page div p:nth-child(2) {
+		font-size: 5.3vw;
+	}
+	.graduate-page .link-page div p:nth-child(3){
+		font-size: 3.44vw;
+	}
+	body.ko .graduate-page .link-page div p:nth-child(3){
+		font-size: 3.2vw;
+	}
+	body.en .graduate-page .link-page div p:nth-child(3){
+		line-height: 1.1;
+		font-size: 3.4vw;
+	}
+	body.vi .graduate-page .link-page div p:nth-child(3){
+		font-size: 3vw;
+	}
+	div.reserve-booking .link_gotopage_reserve a:before{
+		top: 4px;
+	}
+	.all-kimono-bring-plan .kimono-bring-plan .box-bring-details .top-bring-detials .info-view-details p{
+		margin-right: 0;
+	}
+	.homongi-block-1 h3 img{
+		height: 32px;
+	}
+	.text-bottom{
+		font-size:8px;
+	}
+}
+@media all and (min-width: 480px) and (max-width: 767px){
+	/*sotsugyou page*/
+	.graduate-page .link-page div p:nth-child(1){
+		font-size: 5.38vw;
+	}
+	body.vi .graduate-page .link-page div p:nth-child(1){
+		font-size: 4.4vw;
+	}
+	body.en .graduate-page .link-page div p:nth-child(1){
+		font-size: 4vw;
+	}
+	body.en .graduate-page .link-page div p span.text:after{
+		height:6px;
+	}
+	.graduate-page .link-page div p:nth-child(2){
+		font-size: 9.44vw;
+	}
+	body.en .graduate-page .link-page div p:nth-child(2){
+		font-size: 5.9vw;
+	}
+	body.vi .graduate-page .link-page div p:nth-child(2){
+		font-size: 5.3vw;
+	}
+	.graduate-page .link-page div p:nth-child(3){
+		font-size: 3.435vw;
+	}
+	body.en .graduate-page .link-page div p:nth-child(3){
+		font-size: 3.44vw;
+	}
+	body.vi .graduate-page .link-page div p:nth-child(3){
+		font-size: 3vw;
+	}
+	.graduate-page .link-page .link-right a, body.en .graduate-page .link-page .link-right a,
+	body.vi .graduate-page .link-page .link-right a{
+		padding: 4vw 6vw;
+		line-height: 28px;
+		text-align: center;
+		font-size: 7vw;
+	}
+
+	/* #14437 */
+	.graduate-page .title .right var{
+		left: -26px;
+	}
+
+	.graduate-page .title .right var img {
+		width: 25px;
+	}
+
+	.graduate-page p.brief {
+		font-size: 16px;
+	}
+
+	.graduate-page p.brief span{
+		font-size: 12px;
+	}
+}
+
+/* end fix style for language ko */
+@media (max-width: 959px){
+	/*sotsugyou page*/
+	.graduate-page {
+		padding: 0 7px;
+		box-sizing: border-box;
+	}
+}
+@media(min-width: 768px) and (max-width: 959px){
+	/*sotsugyou page*/
+	.graduate-page .link-page .link-right a, body.en .graduate-page .link-page .link-right a,
+	body.vi .graduate-page .link-page .link-right a{
+		font-size: 27px;
+		line-height: 2.5;
+		padding: 23px 0;
+		text-align: center;
+	}
+	body.en .graduate-page .link-page .link-right a{
+		padding: 18px 0;
+	}
+	body.vi .graduate-page .link-page .link-right a{
+		padding: 7px 0;
+	}
+	body.en .graduate-page .link-page div p span.text:after, body.vi .graduate-page .link-page div p span.text:after {
+		height:6px;
+	}
+	body.ja .graduate-page .link-page div p span.text:after{
+		height:7px;
+	}
+	body.en .graduate-page .link-page .link-right a,body.vi .graduate-page .link-page .link-right a{
+		line-height: 1.9;
+	}
+	.graduate-page .link-page div p:nth-child(1){
+		font-size: 21px;
+	}
+	body.ko .graduate-page .link-page div p:nth-child(1),
+	body.en .graduate-page .link-page div p:nth-child(1),
+	body.vi .graduate-page .link-page div p:nth-child(1){
+		font-size: 17px;
+	}
+	.graduate-page .link-page div p:nth-child(2){
+		font-size: 37px;
+	}
+	body.ko .graduate-page .link-page div p:nth-child(2){
+		font-size: 21px;
+	}
+	body.en .graduate-page .link-page div p:nth-child(2){
+		font-size: 23.4px;
+		line-height: 1.3;
+	}
+	body.vi .graduate-page .link-page div p:nth-child(2){
+		font-size: 21.2px;
+		line-height: 1.5;
+	}
+	.graduate-page .link-page div p:nth-child(3){
+		font-size: 14.4px;;
+	}
+	body.ko .graduate-page .link-page div p:nth-child(3){
+		font-size: 13px;
+	}
+	body.en .graduate-page .link-page div p:nth-child(3){
+		font-size: 14.4px;
+	}
+	body.vi .graduate-page .link-page div p:nth-child(3){
+		font-size: 12.2px;
+		line-height: 1.4;
+	}
+	/*Begin homongi-page*/
+	.homongi-section, .text-bottom{
+		padding: 0 7px;
+		box-sizing: border-box;
+	}
+	.homongi-page .homongi-h1{
+		font-size:55px;
+	}
+	.homongi-page .homongi-h1 > var{
+		font-size:40px;
+	}
+	.sotsugyou{
+		padding:0 !important;
+	}
+	.homongi-block-1 h3{
+		font-size: 14.8px;
+	}
+	.homongi-block-1 h2 {
+		font-size: 31px;
+	}
+	.homongi-block-1 h4 {
+		font-size: 14.2px;
+	}
+	.homongi-block-1 h3 img{
+		height: 40px;
+	}
+	.homongi-block-2 a {
+		font-size: 22px;
+		font-size: 3vw;
+		padding:29px 0;
+	}
+	/*End homongi-page*/
+	/*css kurotome*/
+	.kurotome .homongi-block-1 ul li span{
+		font-size: 16px;
+	}
+	.kurotome-h1 a{
+		font-size: 30px;
+	}
+	/*css irotome*/
+	.homongi-page .irotome-h1{
+		font-size:50px;
+	}
+	.seijin-section{
+		padding: 0 15px;
+		box-sizing: border-box;
+	}
+	.seijin-block-1 h3{
+		font-size: 18.4px;
+	}
+	.seijin-block-1 h2 {
+		font-size: 37px;
+	}
+	.seijin-block-1 h4 {
+		font-size: 14.2px;
+	}
+	.seijin-block-2 a {
+		font-size: 22px;
+		font-size: 3vw;
+	}
+	body.ko .seijin-h1,
+	body.vi .seijin-h1,
+	body.en .seijin-h1 {
+		font-size: 26px;
+		font-size: 3.4vw;
+	}
+	body.ko .seijin-h1 span,
+	body.vi .seijin-h1 span,
+	body.en .seijin-h1 span {
+		font-size: 36px;
+		font-size: 5vw;
+	}
+	body.ko .seijin-block-1 h3,
+	body.en .seijin-block-1 h3,
+	body.vi .seijin-block-1 h3 {
+		font-size: 15px;
+	}
+	body.vi .seijin-block-1 h2{
+		font-size: 20px;
+	}
+	body.ko .seijin-block-1 h2{
+		font-size: 20px;
+		font-size: 2.7vw;
+	}
+	body.en .seijin-block-1 h2 {
+		font-size: 23.2px;
+		font-size: 3vw;
+	}
+	body.vi .seijin-block-1 h4{
+		font-size: 9.4px;
+	}
+	body.ko .seijin-block-1 h4{
+		font-size: 12px;
+	}
+	body.en .seijin-block-1 h4 {
+		font-size: 13px;
+	}
+	body.ko .graduate-page .link-page .link-right a{
+		line-height: 1.5;
+	}
+	body.ko .graduate-page .link-page .text-left p{
+		line-height: 1.3;
+	}
+	body.ru .seijin-h1{
+		font-size: 24px;
+	}
+	body.ru .seijin-h1 span{
+		font-size: 36px;
+	}
+	body.ru .seijin-block-1 h3{
+		font-size: 15px;
+	}
+	body.ru .graduate-page .link-page div p:nth-child(1){
+		font-size: 15px;
+	}
+	body.ru .graduate-page .link-page div p:nth-child(2){
+		font-size: 31px;
+	}
+	body.ru .graduate-page .link-page div p:nth-child(3){
+		font-size: 12px;
+	}
+	body.ru .graduate-page .link-page .link-right a{
+		font-size: 23px;
+	}
+}
+@media all and (max-width: 767px){
+	.seijin-block-1,
+	.seijin-block-2{
+		width: 100%;
+	}
+	.seijin-h1{
+		font-size: 11px;
+		font-size: 3.4vw;
+	}
+	.seijin-h1 span{
+		font-size: 18px;
+		font-size: 6vw;
+		top: 2px;
+	}
+	.seijin-section{
+		padding: 0 15px;
+		box-sizing: border-box;
+	}
+	.seijin-block-2{
+		font-size: 24px;
+		margin-top: 10px;
+	}
+	.seijin-block-1 h3{
+		font-size: 16px;
+	}
+	.seijin-block-1 h2{
+		font-size: 10.4px;
+		font-size: 3.3vw;
+	}
+	.seijin-h1{
+		font-size: 21px;
+		font-size: 6.4vw;
+	}
+	.seijin-h1 span {
+		font-size: 28px;
+		top: 2px;
+		font-size: 9vw;
+	}
+	.seijin-block-1 h3{
+		font-size: 14.4px;
+		font-size: 4.4vw;
+	}
+	.seijin-block-1 h2{
+		font-size: 28px;
+		font-size: 8.8vw;
+	}
+	.seijin-block-1 h4{
+		font-size: 11.1px;
+		font-size: 3.4vw;
+	}
+	.seijin-block-1 h2,
+	.seijin-block-1 h3,
+	.seijin-block-1 h4{
+		line-height: 1.3;
+	}
+	.seijin-block-2 a{
+		font-size: 25px;
+		font-size: 8vw;
+	}
+	body.ko .seijin-h1,
+	body.vi .seijin-h1,
+	body.en .seijin-h1{
+		font-size: 11px;
+		font-size: 3.4vw;
+	}
+	body.ko .seijin-h1 span,
+	body.vi .seijin-h1 span,
+	body.en .seijin-h1 span{
+		font-size: 18px;
+		font-size: 5vw;
+		top: 2px;
+	}
+	body.vi .seijin-block-1 h3 {
+		font-size: 12px;
+		font-size: 4vw;
+	}
+	body.ko .seijin-block-1 h3{
+		font-size: 13px;
+		font-size: 4vw;
+	}
+	body.en .seijin-block-1 h3{
+		font-size: 15px;
+		font-size: 4.4vw;
+	}
+	body.vi .seijin-block-1 h2{
+		font-size: 16px;
+		font-size: 5vw;
+	}
+	body.ko .seijin-block-1 h2{
+		font-size: 16px;
+		font-size: 5vw;
+	}
+	body.en .seijin-block-1 h2 {
+		font-size: 17.8px;
+		font-size: 5.4vw;
+	}
+	body.ko .seijin-block-1 h4 {
+		font-size: 11px;
+		font-size: 3vw;
+	}
+	body.en .seijin-block-1 h4 {
+		font-size: 11.4px;
+		font-size: 3.4vw;
+	}
+	body.vi .seijin-block-1 h4{
+		font-size: 11px;
+		font-size: 3.5vw;
+	}
+	body.ko .seijin-block-2 a,
+	body.ja .seijin-block-2 a,
+	body.en .seijin-block-2 a,
+	body.vi .seijin-block-2 a{
+		padding: 10px 0;
+	}
+	.seijin-section {
+		margin: 15px 0 15px 0;
+	}
+	/*Begin-homongi-page*/
+	.homongi-page{
+		padding:0;
+	}
+	.homongi-page .homongi-h1{
+		font-size:6.4vw;
+	}
+	.homongi-page .homongi-h1 > var{
+		font-size: 5vw;
+	}
+	.text-bottom{
+		font-size:10px;
+	}
+	.text-sp{
+		display: block;;
+	}
+	.text-pc{
+		display: none;
+	}
+	.homongi-block-1,
+	.homongi-block-2{
+		width: 100%;
+		margin-right: 0;
+	}
+	.homongi-h1{
+		font-size: 11px;
+		font-size: 3.4vw;
+	}
+	.homongi-h1 span{
+		font-size: 18px;
+		font-size: 6vw;
+		top: 2px;
+	}
+	.homongi-section{
+		margin: 0;
+		padding: 10px 7px 10px 7px;
+		box-sizing: border-box;
+	}
+	.sotsugyou{
+		padding:0 0 10px 0;
+	}
+	.homongi-block-2{
+		font-size: 24px;
+		margin-top: 10px;
+	}
+	.homongi-h1{
+		font-size: 21px;
+		font-size: 6.4vw;
+	}
+	.homongi-h1 span {
+		font-size: 28px;
+		top: 2px;
+		font-size: 9vw;
+	}
+	.homongi-block-1 h3{
+		font-size: 14.4px;
+		font-size: 3.7vw;
+	}
+	.homongi-block-1 h2{
+		font-size: 28px;
+		font-size: 8vw;
+	}
+	.homongi-block-1 h4{
+		font-size: 11.1px;
+		font-size: 3.4vw;
+	}
+	.homongi-block-1 h2,
+	.homongi-block-1 h3,
+	.homongi-block-1 h4{
+		line-height: 1.3;
+	}
+	.homongi-block-2 a{
+		font-size: 25px;
+		font-size: 7.4vw;
+	}
+	.text-bottom{
+		font-size:10px;
+		padding:7px 0 0 0px
+	}
+	.homongi-block-2 a{
+		padding:10px 0;
+	}
+	/*End-homongi-page*/
+	/*css kurotome*/
+	.kurotome .homongi-block-1 ul li span img{
+		height: 40px;
+	}
+	.kurotome .homongi-block-1 ul li span{
+		font-size:3.8vw;
+	}
+	.homongi-section .kurotome-block-2{
+		width: 100%;
+		float:none;
+	}
+	.kurotome .homongi-block-1 ul li span.text1:after{
+		height: 6px;
+	}
+	/*css irotomesode*/
+	.homongi-page .irotome-h1{
+		font-size: 6vw;
+	}
+	.homongi-page .irotome-h1 > var{
+		font-size: 4.4vw;
+	}
+}
+@media only screen and (max-width: 736px) and (orientation: landscape) {
+	.seijin-block-1 h3 {
+		font-size: 35px;
+	}
+	.seijin-block-1 h2 {
+		font-size: 70.4px;
+	}
+	.seijin-block-1 h4 {
+		font-size: 27px;
+	}
+	body.vi .seijin-block-1 h2
+	body.vi .seijin-block-1 h2 {
+		font-size: 39px;
+		font-size: 5.3vw;
+	}
+	body.vi .seijin-block-1 h4 {
+		font-size: 19px;
+	}
+	body.vi .seijin-block-1 h3{
+		font-size: 24px;
+	}
+	body.en .seijin-block-1 h2 {
+		font-size: 43px;
+	}
+	body.en .seijin-block-1 h4 {
+		font-size: 26.4px;
+	}
+	body.en .seijin-block-1 h3 {
+		font-size: 27px;
+		font-size: 4vw;
+	}
+}
+
+@media only screen and (max-width: 667px) and (orientation: landscape) {
+	.seijin-block-1 h3 {
+		font-size: 31.4px;
+	}
+	.seijin-block-1 h2 {
+		font-size: 63.4px;
+	}
+	.seijin-block-1 h4 {
+		font-size: 24.4px;
+	}
+	body.vi .seijin-block-1 h4 {
+		font-size: 17px;
+	}
+	body.vi .seijin-block-1 h2 {
+		font-size: 35px;
+	}
+	body.vi .seijin-block-1 h3 {
+		font-size: 24px;
+	}
+	body.en .seijin-block-1 h2 {
+		font-size: 39px;
+	}
+	body.en .seijin-block-1 h4 {
+		font-size: 24px;
+	}
+}
+@media only screen and (max-width: 568px) and (orientation: landscape) {
+	.seijin-block-1 h3 {
+		font-size: 26.4px;
+	}
+	.seijin-block-1 h2 {
+		font-size: 53.4px;
+	}
+	.seijin-block-1 h4 {
+		font-size: 20.4px;
+	}
+	body.vi .seijin-block-1 h2 {
+		font-size: 29.4px;
+	}
+	body.en .seijin-block-1 h2 {
+		font-size: 33px;
+	}
+	body.en .seijin-block-1 h4 {
+		font-size: 20px;
+	}
+	/*css homongi*/
+	.homongi-block-1 h3 .text-1:after{
+		bottom:5px;
+	}
+}
+@media only screen and (max-width: 480px) and (orientation: landscape) {
+	.seijin-block-1 h3 {
+		font-size: 22.4px;
+	}
+	.seijin-block-1 h2 {
+		font-size: 44.4px;
+	}
+	.seijin-block-1 h4 {
+		font-size: 17.3px;
+	}
+	body.en .seijin-block-1 h2 {
+		font-size: 27.4px;
+	}
+	body.en .seijin-block-1 h4 {
+		font-size: 17px;
+	}
+	body.en .seijin-block-1 h3 {
+		font-size: 18px;
+	}
+	body.vi .seijin-block-1 h4 {
+		font-size: 12.2px;
+	}
+	body.vi .seijin-block-1 h2 {
+		font-size: 25px;
+	}
+	body.vi .seijin-block-1 h3 {
+		font-size: 18px;
+		font-size: 3.4vw;
+	}
+	body.ko .graduate-page .link-page div p:nth-child(2){
+		font-size: 25px;
+	}
+	body.ko .graduate-page .link-page div p:nth-child(3){
+		font-size: 15px;
+	}
+	.text-bottom{
+		font-size:8px;
+	}
+}
+@media all and (min-width: 640px) and (max-width: 767px){
+	.homongi-block-1 h3 img{
+		height: auto;
+	}
+	.homongi-block-1 h3 .text-1:after{
+		bottom:7px;
+	}
+	/*css kurotome*/
+	.kurotome .homongi-block-1 ul li{
+		height: 55px;
+	}
+	.kurotome .homongi-block-1 ul li span{
+		line-height: 25px;
+	}
+	.kurotome .homongi-block-1 ul li span img{
+		height: auto;
+	}
+}
+@media all and (max-width:480px){
+	body.ja .seijin-block-1 h3 .text-1:after{
+		height: 5px;
+	}
+}

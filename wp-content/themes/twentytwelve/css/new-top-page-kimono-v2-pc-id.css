@@ -1,0 +1,106 @@
+.right-column-top-v2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrap-text-des-logo .text-des-logo-wago,
+.section-plan-group .plan-info .wrap-btn a,
+.title-general-v2 .text-title-general-v2 .sub-text-title-v2,
+.section-faq-top .new-box-article-fm-maedori .box-faqs-item .text-faqs-title,
+.section-faq-top .new-box-article-fm-maedori .box-faqs-item-container .box-faqs-item-content,
+.section-column-spot .wrap-column-list .read-more,
+.box-intro-bottom .title-intro-bottom,
+.btn-link-v2 .link-to-v2,
+.wrap-list-spot-link-area .group-spot-link-area .spot-link-area,
+.wrap-list-spot-link-area .title-spot-link-area,
+.section-photo-instagram .wrap-title-slider-gallery .wrap-content-right .text-content-right,
+.title-general-new-style,
+.section-shop-list .list-shop-list .item-link-page .link-to-page a{
+    letter-spacing: 0;
+}
+.section-about-wargo .wrap-banner-tkh-new-kimono .des-banner-tkh,
+.section-news .wrap-news-formal .date-news,
+.section-news .wrap-news-formal .brief-news{
+    letter-spacing: 0!important;
+}
+.section-about-wargo .wrap-banner-tkh-new-kimono .des-banner-tkh{
+    font-size: 14px;
+}
+.section-about-wargo .wrap-text-des-logo .text-des-logo-wago {
+    font-size: 16px !important;
+}
+.section-plan-group .plan-info .plan-intro,
+.btn-link-v2 .link-to-v2{
+    font-size: 20px;
+}
+.section-plan-group .plan-info .plan-name{
+    font-size: 27px;
+}
+.section-shop-list .list-shop-list .box-info .wrap-btn-shop-list{
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+}
+.section-shop-list .list-shop-list .item .info p{
+    font-size: 12px;
+}
+.section-shop-list .list-shop-list .box-info .wrap-btn-shop-list a p{
+    font-size: 12px;
+    line-height: 1.4;
+}
+.section-shop-list .list-shop-list .item .title{
+    font-size: 21px;
+}
+.title-main-spot-ranking{
+    font-size: 45px;
+}
+.wrap-title-ranking-number .title-number-ranking{
+    font-size: 40px;
+}
+.wrap-title-ranking-number .title-number-ranking.other{
+    font-size: 35px;
+}
+.section-photo-instagram .wrap-title-slider-gallery .wrap-content-right .text-content-right{
+    left: 4px;
+    top: -12px;
+    padding: 10px;
+    font-size: 15px;
+}
+.section-column-spot .title-main{
+    font-size: 35px;
+}
+.section-column-spot .sub-title{
+    font-size: 25px;
+}
+.section-faq-top .new-box-article-fm-maedori .box-faqs-item-container .box-faqs-item-content{
+    font-size: 15px;
+}
+.box-intro-bottom .title-intro-bottom{
+    font-size: 28px;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-des-shop-wg{
+    font-size: 12px;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg .title-shopname-wg,
+.sub-data-shoplist-wg .sub-item-shop-wg .link-shoplist-wg{
+    font-size: 14px;
+    line-height: 1.3;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-label-shop{
+    font-size: 11px;
+    text-align: center;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .wrap-label-shop{
+    left: -9px;
+    top: -25px;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .wrap-label-shop.custom{
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .lg-label-shop.custom{
+    background-size: 55px 55px;
+    height: 55px;
+    width: 55px;
+}
+.section-shop-list .list-shop-list .item .info-title{
+    font-size: 13px;
+}

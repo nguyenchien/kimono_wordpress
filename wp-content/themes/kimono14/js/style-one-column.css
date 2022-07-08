@@ -1,0 +1,374 @@
+
+/*===========================================
+    Begin - Tab - Chien - 03/10/2014
+=============================================*/
+/*===================
+    page howto
+=====================*/
+/* Title */
+div.swe-tab ul.swe-tab-title{ 
+    width: 293px;
+    zoom: 1;
+    float: left;
+}
+
+div.swe-tab ul.swe-tab-title:before, 
+div.swe-tab ul.swe-tab-title:after{ 
+    content: '\0020'; 
+    display: block; 
+    overflow: hidden; 
+    visibility: hidden; 
+    width: 0; 
+    height: 0; 
+}
+
+div.swe-tab ul.swe-tab-title:after{ 
+    clear: both; 
+}
+
+div.swe-tab ul.swe-tab-title{ 
+    margin: 0px; 
+    list-style: none; 
+}
+
+div.swe-tab ul.swe-tab-title li{
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+div.swe-tab ul.swe-tab-title li a{ 
+    cursor: pointer; 
+    display: block;  
+    text-decoration: none;
+    color: #8a8a8a;
+    font-weight: bold; 
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+        
+div.swe-tab ul.swe-tab-title li a.active{
+    color: #000;
+    border-bottom: 2px solid #733d6d;
+}
+
+/* Content */
+div.swe-tab ul.swe-tab-content{ 
+    width: 625px;
+    margin: 0px; 
+    list-style: none; 
+    float: right; 
+}
+        
+div.swe-tab ul.swe-tab-content li {padding: 0;}
+
+div.swe-tab ul.swe-tab-content li{display: none;}
+
+div.swe-tab ul.swe-tab-content li li{display: block;}
+
+div.swe-tab ul.swe-tab-content li.active{display: block;}
+
+div.swe-tab ul.swe-tab-content ol li {display: list-item;}
+
+
+div.swe-tab ul.swe-tab-content .sub-title{
+    font-family: KozMinProSwe;
+    color: #444444;
+    font-size: 46px;
+    line-height: 1;
+    margin-bottom: 60px;
+}
+
+div.swe-tab ul.swe-tab-content .sub-cont-howto .point{
+    width: 90px;
+    height: 25px;
+    line-height: 25px;
+    display: block;
+    background: url("../images/bg-btn-link-howto.png") no-repeat 0 0;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* #tab-1 */
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-howto .item{
+    width: 293px;
+    float: left;
+    margin: 0 39px 30px 0;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-howto .item .image{
+    margin-bottom: 5px;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-howto .item .text{
+    font-size: 12px;
+    line-height: 1.8;
+    color: #444444;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-howto .item a{
+    color: #733d6d;
+    font-weight: bold;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-howto .item-last{
+    margin-right: 0;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-howto .item .point{
+    margin: 15px 0 -12px 0;
+}
+
+/* #tab-2 */
+div.swe-tab ul.swe-tab-content #tab-2 .sub-cont-howto .item{
+    margin-bottom: 25px;
+}
+
+div.swe-tab ul.swe-tab-content #tab-2 .sub-cont-howto .item-last{
+    margin-bottom: 0;
+}
+
+div.swe-tab ul.swe-tab-content #tab-2 .sub-cont-howto .item .t-item{
+    background: url("../images/bg-title-item-howto-tab-02.png") no-repeat 0 bottom;
+    font-weight: normal;
+    color: #e33f7b;
+    font-size: 16px;
+    padding-bottom: 4px;
+    margin-bottom: 5px;
+}
+
+div.swe-tab ul.swe-tab-content #tab-2 .sub-cont-howto .item .brief{
+    font-size: 12px;
+    line-height: 1.8;
+    color: #444444;
+}
+
+div.swe-tab ul.swe-tab-content #tab-2 .sub-cont-howto .item .brief .sect{
+    margin-bottom: 20px;
+}
+
+div.swe-tab ul.swe-tab-content #tab-2 .sub-cont-howto .item .brief .sect-last{
+    margin-bottom: 0;
+}
+
+div.swe-tab ul.swe-tab-content #tab-2 .sub-cont-howto .item .brief .sect .point{
+   margin: 10px 0 -20px 0;
+}
+
+div.swe-tab ul.swe-tab-content #tab-2 .sub-cont-howto .item .brief .sect .point-first{
+    margin-top: 0;
+}
+
+div.swe-tab ul.swe-tab-content #tab-2 .sub-cont-howto .item .brief .text-light{
+    background: #fff333;
+    color: #000;
+    font-weight: bold;
+    padding: 5px;
+    letter-spacing: 1.7px;
+    margin-top: 5px;
+}
+
+/* #tab-3 */
+div.swe-tab ul.swe-tab-content #tab-3 .sub-cont-howto .item-policy .text{
+    color: #444444;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+/*===================
+    page kimono
+=====================*/
+.main-image-page-kimono{
+    width: 960px;
+    height: 376px;
+    margin-bottom: 60px;
+}
+
+
+div.swe-tab ul.swe-tab-content .sub-title-kimono {
+    color: #444444;
+    font-family: KozMinProSwe;
+    font-size: 46px;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+
+/* #tab-1 */
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .box-overview{
+    color: #444444;
+    margin-bottom: 60px;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item{
+    width: 293px;
+    float: left;
+    margin:0 39px 60px 0;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item-last{
+    margin-right: 0;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item .image{
+    margin-bottom: 10px;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item .t-item{
+    margin-bottom: 10px;
+    width: 293px;
+    height: 40px;
+    line-height: 40px;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item .t-item span{
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    padding-left: 10px;
+    display: block;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item .text{
+    color: #444444;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item .price{
+    width: 293px;
+    height: 52px;
+    position: relative;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item .price .yen{
+    color: #e33f7b;
+    font-size: 40px;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item .price .small{
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item .price .big{
+    color: #e5235d;
+    font-size: 60px;
+    line-height: 1;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item .price .big i{
+    font-size: 21px;
+    font-style: normal;
+    position: relative;
+    top: -13px;
+    
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item .price .point-k{
+    width: 95px;
+    height: 21px;
+    text-align: center;
+    line-height: 21px;
+    background: url("../images/bg-point-kimono.png") repeat-y 0 0;
+    border-radius: 3px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+}
+
+/* .item-01 */
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item-01 .t-item{
+    background: url("../images/bg-title-item-kimono-01.png") no-repeat 0 0;
+}
+
+/* .item-02 */
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item-02 .t-item{
+    background: url("../images/bg-title-item-kimono-02.png") no-repeat 0 0;
+}
+
+/* .item-03 */
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item-03 .t-item{
+    background: url("../images/bg-title-item-kimono-03.png") no-repeat 0 0;
+}
+
+/* .item-04 */
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item-04 .t-item{
+    background: url("../images/bg-title-item-kimono-04.png") no-repeat 0 0;
+}
+
+/* .item-05 */
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item-05 .t-item{
+    background: url("../images/bg-title-item-kimono-05.png") no-repeat 0 0;
+}
+
+
+/*==========================================
+    End - Tab - Chien - 03/10/2014
+============================================*/
+
+/*==========================================
+    Toggle Box
+============================================*/
+ul.swe-toggle-box{ list-style: none; margin-left: 0px; }
+ul.swe-toggle-box > li{ position: relative; margin-bottom: 12px; } 
+ul.swe-toggle-box > li:last-child{ margin-bottom: 0px; } 
+ul.swe-toggle-box > li .toggle-box-title{ margin: 0px; padding: 7px 0px 7px 17px; font-size: 15px; cursor: pointer; background-position: 0px center; background-repeat: no-repeat; text-transform: uppercase; }
+ul.swe-toggle-box > li .toggle-box-content{ padding: 5px 20px 15px 38px; }
+
+ul.swe-toggle-box > li span.toggle-box-icon{ display: inline-block; margin-right: 12px; margin-bottom: 1px;
+	width: 8px; height: 8px; background-size: 8px 8px; }
+
+ul.swe-toggle-box li ul{ margin-left: 30px; list-style: disc; }
+ul.swe-toggle-box li li{ background: none; margin: 0px; overflow: visible; }
+
+ul.swe-toggle-box li .toggle-box-title{ color: #363636; } 
+ul.swe-toggle-box li{ background-color: #ffffff; } 
+ul.swe-toggle-box li{ border-color: #f5f5f5; } 
+ul.swe-toggle-box li{ background-color: #fff; } 
+li.active > .toggle-box-title > span.toggle-box-icon{ background-image: url(../images/icon/dark/accordion-title-active.png); } 
+span.accordion-icon, span.toggle-box-icon{ background-image: url(../images/icon/dark/accordion-title.png); } 
+/*page style*/
+
+/* contact form */
+
+.wpcf7-form-control-wrap input {
+    font-size: 16px;
+}
+
+.wpcf7-form-control-wrap .datepicker {
+    margin-top: -25px;
+}
+
+.wpcf7 input.wpcf7-form-control {
+    float: left;
+}
+.wpcf7 span.wpcf7-not-valid-tip {
+    float: left;
+    padding: 9px 9px;
+    font-size: 1.3em;
+}
+.wpcf7 p {
+    clear: both;
+}
+.wpcf7-form-control-wrap>div {
+    clear: left;
+}
+.datepicker {
+    clear: both;
+}
+.wpcf7 input#book-time {
+    clear: both;
+}
+.wpcf7 .datepicker {
+    float: left;
+    margin-bottom: 34px;
+    margin-right: 9px;
+}
+
+.wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors {
+    clear: left;
+}
+

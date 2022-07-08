@@ -1,0 +1,97 @@
+.footer-formal{
+    background-color: #ececec;
+}
+.top-footer-menu-name{
+    font-size: 14px;
+    color: #686868;
+    padding: 24px 0 24px 40px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+.top-footer-menu-item.active .top-footer-menu-name{
+    font-weight: bold;
+}
+.top-footer-menu-name:before{
+    position: absolute;
+    content: '';
+    left: 10px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    border-left: 1px solid #686868;
+    border-bottom: 1px solid #686868;
+    width: 11px;
+    height: 11px;
+}
+.top-footer-menu-item.active .top-footer-menu-name:before{
+    -webkit-transform: rotate(-225deg);
+    -ms-transform: rotate(-225deg);
+    transform: rotate(-225deg);
+    margin-top: 7px;
+}
+.top-footer-sub-menu{
+    overflow: hidden;
+    max-height: 0;
+    margin: 0;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    -o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+.top-footer-menu-item.active .top-footer-sub-menu{
+    -webkit-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+    transition: 0.4s ease;
+    padding-top: 20px;
+    max-height: 1000px;
+    overflow: hidden;
+}
+.top-footer-sub-item{
+    margin-bottom: 10px;
+    padding-left: 35px;
+}
+.top-footer-sub-item a{
+    color: #686868;
+    font-size: 12px;
+}
+.mid-footer-menu-item{
+    padding: 15px 10px;
+    border-bottom: 1px solid #ccc;
+}
+.mid-footer-menu-item a{
+    font-size: 12px;
+    color: #686868;
+}
+.footer-copyright{
+    padding: 15px 0 30px 0;
+}
+.copyright-text{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 11px;
+    color: #686868;
+}
+.top-footer-sub-menu{
+    padding-left: 10px;
+}
+.top-footer-sub-menu .area-shop-item > a{
+    font-size: 14px;
+    color: #686868;
+    font-weight: bold;
+}
+.area-shop-item .area-shoplist{
+    padding-top: 5px;
+}
+.more-link{
+    white-space: nowrap;
+}
+

@@ -1,0 +1,75 @@
+/*=== Kimono Reserve Cart EN ===*/
+.reserve-info{
+    font-size: 15px;
+}
+.reserve-text,
+.reserve-box .reserve-row .btn-remove-plan,
+.list-confirm-info .item-confirm-info .info-left,
+.btn-change-confirm,
+.new-kimono-product-confirm .product-subtotal-price p,
+.new-kimono-product-confirm .wrap-info-formal .list-confirm-info .item-total-price .price-formal-confirm{
+    font-size: 14px;
+}
+.wrap-info-formal-general .title-selected{
+    font-size: 16px;
+}
+.new-kimono-product-confirm .wrap-info-formal .list-confirm-info .plan-name .price-formal-confirm{
+    font-size: 13px;
+}
+.box-header .box-heading {
+    font-size: 16px;
+}
+.wrap-plan-list-popup .person-plan .plan-name {
+    font-size: 14px;
+}
+.sub-list-options .item-option-name, .sub-list-options .item-option-price {
+    font-size: 13px;
+}
+.book-options .option-group h5 {
+    font-size: 19px;
+}
+.form-group label {
+    font-size: 14px;
+}
+.form-group input, .form-group select {
+    font-size: 12px;
+    padding: 10px 5px;
+}
+@media (max-width: 360px){
+    .box-header .box-heading {
+        font-size: 15px;
+    }
+    .wrap-plan-list-popup .reserve-btn-group{
+        padding: 0;
+    }
+    .form-info {
+        padding: 15px 10px 10px;
+    }
+    .reserver-total .price {
+        font-size: 16px;
+    }
+    .btn-formal{
+        font-size: 16px;
+    }
+}
+@media (min-width: 750px){
+    .box-header .box-heading {
+        font-size: 18px;
+    }
+    .wrap-plan-list-popup .person-plan .plan-name {
+        font-size: 16px;
+    }
+    .item-group-options .name-option {
+        font-size: 15px;
+    }
+    .wrap-plan-list-popup .reserve-btn-group button {
+        font-size: 20px;
+    }
+    .credit-info, .customer-info{
+        width: 300px;
+    }
+    .reserve-btn-group .btn-formal{
+        width: 40%;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,227 @@
+/* title-page */
+.title-page {
+    display: block;
+    font-size: 11px;
+    margin-bottom: 10px;
+    padding: 0 8px;
+}
+.slick-slider {
+    padding-bottom: 0 !important;
+}
+.slick-slider .slick-dots li button:before {
+    display: none !important;
+}
+/**/
+.wrap-highend-v2 {
+    overflow-x: hidden;
+}
+.main-content .breadcrumbs-kimono {
+    width: 100%;
+}
+.main-content .breadcrumbs-kimono span.item,
+.main-content .breadcrumbs-kimono span a,
+.main-content .breadcrumbs-kimono span.breadcrumb_last{
+    height: 20px;
+    line-height: 21px;
+    display: inline-block;
+    padding: 0 5px;
+    color: #393939;
+}
+.main-content .breadcrumbs-kimono span span,
+.main-content .breadcrumbs-kimono span a {
+    font-family: 'Meiryo', arial, sans-serif;
+    font-size: 12px;
+    white-space: inherit;
+}
+.wrap-boths-column .right-column-list-yukata-plan{
+    font-family: 'Noto Sans JP';
+}
+.title-h1-page{
+    padding: 0 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.main-banner-yukata-page-v2 .slick-arrow {
+    background-color: rgba(255, 255, 255, 0.85);
+    z-index: 2;
+    padding: 20px;
+}
+.main-banner-yukata-page-v2 .slick-arrow:hover{
+    background-color: rgba(255, 255, 255, 1);
+}
+.main-banner-yukata-page-v2 .slick-prev:before,
+.main-banner-yukata-page-v2 .slick-next:before {
+    font-family: initial;
+    border-color: #000;
+    border-style: solid;
+    border-width: 2px 2px 0 0;
+    content: "";
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.main-banner-yukata-page-v2 .slick-prev{
+    left: 0;
+}
+.main-banner-yukata-page-v2 .slick-next{
+    right: 0;
+}
+.main-banner-yukata-page-v2 .slick-next:before{
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+.main-banner-yukata-page-v2 .slick-prev:before{
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(-135deg);
+    -ms-transform: translateX(-50%) translateY(-50%) rotate(-135deg);
+    transform: translateX(-50%) translateY(-50%) rotate(-135deg);
+}
+/* section intro */
+.section-intro {
+    margin-top: 30px;
+}
+.section-intro .wrap-6-point {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+.section-intro .title-6-point {
+    font-size: 20px;
+    color: #000;
+    line-height: 1;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: "ten-mincho", serif;
+}
+.wrap-intro-yukata-plan-v2 .title-top-intro{
+    text-align: center;
+    margin: 0 auto 15px;
+    font-family: serif;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+}
+.wrap-intro-yukata-plan-v2 .title-top-intro span {
+    position: relative;
+    z-index: 2;
+}
+.wrap-intro-yukata-plan-v2 .title-top-intro span:before {
+    content: "";
+    position: absolute;
+    top: 70%;
+    left: -5px;
+    right: 0;
+    bottom: -3px;
+    z-index: -1;
+    background: #F1C752;
+}
+.title-6-point span {
+    margin-left: -3px;
+}
+.title-6-point span img {
+    width: 30px;
+}
+
+.text-biger-bottom {
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.section-intro .items-option-point {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.section-intro .items-option-point:not(:last-child) {
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #000;
+}
+
+.section-intro .icon-option-point {
+    background-image: url(../../../../../images/landing-page/prime-wargo-six-sp.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+}
+
+.section-intro .icon-option-point.option-point-02 {
+    background-position: 0 -160px;
+}
+
+.section-intro .icon-option-point.option-point-03 {
+    background-position: 10px -308px;
+}
+
+.section-intro .icon-option-point.option-point-04 {
+    background-position: 10px -452px;
+}
+
+.section-intro .icon-option-point.option-point-05 {
+    background-position: 3px -606px;
+}
+
+.section-intro .icon-option-point.option-point-06 {
+    background-position: 4px -758px;
+}
+
+.section-intro .infor-option-point {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 8px;
+    color: #000;
+    width: 56px;
+    position: relative;
+    text-align: center;
+}
+.section-intro .infor-option-point .infor-bottom{
+    -ms-word-break: keep-all;
+    word-break: keep-all;
+    margin-top: 3px;
+}
+.section-intro .wrap-title-6-point {
+    margin-bottom: 15px;
+}
+
+.section-intro .list-items-option-point {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-bottom: 15px;
+    padding: 0 6px;
+}
+
+.section-intro .intro-title {
+    font-size: 13px;
+    font-family: "ten-mincho", serif;
+    text-align: center;
+}
+
+.list-items-option-point::-webkit-scrollbar {
+    height: 5px;
+}
+
+.list-items-option-point::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #efefef;
+}
+
+.list-items-option-point::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+.wrap-main-banner-yukata-page-v2 {
+    width: 100%;
+    min-height: 500px;
+}

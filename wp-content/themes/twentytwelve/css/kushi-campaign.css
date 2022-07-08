@@ -1,0 +1,112 @@
+
+/* 
+    Created on : Mar 29, 2016, 2:00:26 PM
+    Author     : dai huynh
+*/
+
+.wrap-kushi-campaign .container-kushi-campaign{
+	width: 100%;
+}
+.wrap-kushi-campaign .wrap-banner-top{
+	margin-bottom: 15px;
+}
+.wrap-kushi-campaign .wrap-banner-top p.des-kushi{
+	margin-top: 10px;
+	font-size: 10px;
+	font-size: 3vw;
+}
+.wrap-kushi-campaign .wrap-step-kushi{
+	margin-bottom: 20px;
+}
+.wrap-kushi-campaign .step-kushi{
+	margin-bottom: 15px;
+}
+/*--display block and none--*/
+.wrap-kushi-campaign .step-kushi img.pc{
+	display: none;
+}
+
+.wrap-button-kushi-campaign a.link-more{
+	display: block;
+	background-color: #fff;
+	color: #F9A523;
+	border: 2px solid #F9A523;
+	font-size: 20px;
+	font-size: 6vw;
+	font-weight: bold;
+	line-height: 1;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-bottom: 5px;
+	text-decoration: none;
+	position: relative;
+}
+.wrap-button-kushi-campaign a.link-more.bg-F9A523{
+	background-color: #F9A523;
+	color: #fff;
+}
+.wrap-button-kushi-campaign a.link-more:after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border-left: 10px solid #F9A523;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	position: absolute;
+	top: 32%;
+	right: 5px;
+}
+.wrap-button-kushi-campaign a.link-more.bg-F9A523:after{
+	border-left: 10px solid #fff;
+}
+.wrap-button-kushi-campaign{
+	margin-bottom: 20px;
+}
+@media (min-width: 750px){
+	.wrap-kushi-campaign .container-kushi-campaign{
+		width: 960px;
+		margin: 0 auto;
+	}
+	.wrap-kushi-campaign .wrap-banner-top p.des-kushi{
+		font-size: 16px;
+	}
+	.wrap-kushi-campaign .wrap-banner-top p.des-kushi br{
+		display: none;
+	}
+	.wrap-kushi-campaign .wrap-step-kushi,
+	.wrap-kushi-campaign .container-padding {
+		padding: 0 20px;
+		box-sizing: border-box;
+	}
+	/*--display block and none--*/
+	.wrap-kushi-campaign .step-kushi img.pc{
+		display: block;
+	}
+	.wrap-kushi-campaign .step-kushi img.sp{
+		display: none;
+	}
+	.wrap-kushi-campaign .step-kushi.step-2{
+		margin-bottom: 0;
+	}
+	.wrap-button-kushi-campaign a.link-more{
+		font-size: 35px;
+		margin-top: 10px;
+	}
+	.wrap-button-kushi-campaign a.link-more:last-child{
+		margin-right: 0;
+	}
+	.wrap-button-kushi-campaign a.link-more:after{
+		top: 19px;
+	}
+	.wrap-button-kushi-campaign a.link-more.bg-F9A523 {
+		width: 100%;
+	}
+}
+@media (min-width: 768px) and (max-width: 959px){
+	.wrap-kushi-campaign .container-kushi-campaign{
+		width: 100%;
+		margin: 0 auto;
+	}
+}

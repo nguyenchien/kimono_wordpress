@@ -1,0 +1,12 @@
+@media (min-width: 750px){
+    .top-shoplist-kyotostation:not(.top-shoplist-kyotostation-detail) .item-shoplist-wg-other .sub-list-other .link-shoplist-wg,
+    .top-shoplist-gion:not(.top-shoplist-gion-detail) .item-shoplist-wg-other .sub-list-other .link-shoplist-wg{
+        height: 170px;
+    }
+    .top-shoplist-kiyomizu .widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other:first-child{
+        width: 40%;
+    }
+    .top-shoplist-kiyomizu .widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other:first-child .link-shoplist-wg{
+        height: 170px;
+    }
+}

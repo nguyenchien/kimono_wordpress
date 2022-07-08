@@ -1,0 +1,158 @@
+#header-custom-sp{
+	width: 100%;
+	padding:5px;
+	box-sizing: border-box;
+	height: 44px;
+	display: block;
+	background-color: #703b67;
+	position: fixed;
+	margin-bottom: 10px;
+	z-index: 99999;
+	box-shadow: 0 0 5px #000;
+}
+#header-custom-sp{
+/*    position: fixed;
+    width: 100%;
+    z-index: 99999;
+	top: 0;
+    margin-top: 0;*/
+/*	transition: margin-top 0.8s;
+    -moz-transition: margin-top 0.8s;
+    -webkit-transition: margin-top 0.8s;
+    -ms-transition: margin-top 0.8s;
+    -o-transition: margin-top 0.8s;*/
+	/*box-shadow: none;*/
+}
+#header-custom-sp .left-header{
+	width: 23%;
+	float:left;
+}
+#header-custom-sp .center-header{
+	width: 55%;
+	float:left;
+	line-height: 34px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+#header-custom-sp .right-header{
+	width: 22%;
+	float:right;
+	top: 2px;
+	position: relative;
+}
+#header-custom-sp .left-header a span.back,
+#header-custom-sp .left-header a span.home{
+	border-radius: 4px;
+	float:left;
+	background-color: #4f254b;
+}
+#header-custom-sp .left-header a span.home{
+	margin-right: 0;
+}
+#header-custom-sp .left-header a{
+	padding: 2px;
+	display: block;
+	box-sizing: border-box;
+	float:left;
+	width: 27px;
+	height:27px;
+	margin-right: 8px;
+}
+#header-custom-sp .left-header a span.icon-back:before,
+#header-custom-sp .left-header a span.icon-home:before{
+	font-size: 30px;
+	color: #fff;
+	position: relative;
+	top: 7px;
+}
+#header-custom-sp .left-header a:last-child{
+	margin-right: 0;
+}
+#header-custom-sp .center-header{
+	text-align: center;
+    display: none;
+}
+#header-custom-sp .center-header span.s-total{
+	color: #fff;
+	font-size: 12px;
+	font-weight: normal;
+}
+#header-custom-sp .center-header span.s-price{
+	font-size: 16px;
+	font-weight: normal;
+	color: #fdc32b;
+}
+#header-custom-sp .center-header span.s-price+span{
+	font-family: Arial, Helvetica, sans-serif;
+}
+#header-custom-sp .center-header var{
+	font-size: 12px;
+	color: #fdc32b;
+	position: relative;
+	left: -5px;
+	font-weight: normal;
+}
+#header-custom-sp .right-header a{
+	border-radius: 4px;
+	background-color: #4f254b;
+	padding: 7px;
+	text-align: center;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 11px;
+	display: block;
+}
+body.vi #header-custom-sp .right-header a{
+	padding:5px;
+}
+body.id #header-custom-sp .right-header a{
+	font-size: 9px;
+}
+@font-face {
+font-family: "font-icon-sp";
+src:url("font/font-icon-sp.eot");
+src:url("font/font-icon-sp.eot?#iefix") format("embedded-opentype"),
+  url("font/font-icon-sp.woff") format("woff"),
+  url("font/font-icon-sp.ttf") format("truetype"),
+  url("font/font-icon-sp.svg#font-icon-sp") format("svg");
+font-weight: normal;
+font-style: normal;
+
+}
+
+[data-icon]:before {
+font-family: "font-icon-sp" !important;
+content: attr(data-icon);
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+text-transform: none;
+speak: none;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+font-family: "font-icon-sp";
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+text-transform: none;
+speak: none;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-back:before {
+content: "a";
+}
+.icon-home:before {
+content: "b";
+}
+.booking.booking-detail .sec-vacancy {
+    padding-top: 45px;
+}

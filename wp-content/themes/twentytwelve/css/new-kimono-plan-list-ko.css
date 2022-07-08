@@ -1,0 +1,30 @@
+.wrap-choose-sl-wg .wraper-sl.wraper-sl-g-b .box-sl-choose-people{
+    flex-direction: column;
+}
+.wrap-choose-sl-wg .wraper-sl-g-b .lbl-name-sl{
+    width: auto;
+}
+@media (min-width: 750px){
+    .wg-webpirce-box .box-webprice .web {
+        font-size: 20px;
+    }
+    .wg-webpirce-box .box-webprice .bt-text,
+    .wg-webpirce-box .box-webprice .bt-text .sm-text{
+        font-size: 11px;
+    }
+    .wg-webpirce-box .box-price .lg-pirce {
+        font-size: 25px;
+    }
+    .wg-webpirce-box .box-price .lg-pirce .sm-sub-price {
+        font-size: 10px;
+    }
+    .wg-webpirce-box .box-price .sm-price {
+        font-size: 10px;
+    }
+    .wrap-choose-sl-wg .wraper-sl .box-sl-choose-people {
+         flex-direction: inherit;
+    }
+    .wrap-web-price-info .sub-des{
+        font-size: 11px;
+    }
+}

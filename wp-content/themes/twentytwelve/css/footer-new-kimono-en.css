@@ -1,0 +1,10 @@
+.mid-footer-menu-item a,
+.top-footer-sub-item a{
+    font-size: 13px;
+}
+
+@media (min-width: 750px){
+    .new_kimono_footer .top-footer-menu-name {
+        font-size: 16px;
+    }
+}

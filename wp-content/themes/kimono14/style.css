@@ -1,0 +1,1371 @@
+@charset "utf-8";
+@-ms-viewport {
+	width: device-width;
+}
+@viewport {
+	width: device-width;
+}
+html {
+	overflow-y: scroll;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dt, dd, li, table, th, td, form, address, pre, caption, cite, code, dfn, var {
+	font-size: 100%;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+.layout-kimono-sp .main-content .container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+img {
+	border: 0;
+	vertical-align: bottom;
+	max-width: 100%;
+	height: auto;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th {
+	text-align: left;
+}
+fieldset {
+	border: 0;
+}
+hr {
+	display: none;
+}
+ol, ul {
+	list-style: none;
+}
+
+li {
+	width: auto;
+}
+
+q:before, q:after {
+	content: '';
+}
+
+abbr, acronym {
+	border: 0;
+}
+
+em {
+	font-style: normal;
+}
+
+input, select, textarea {
+    border-radius: 0;
+    outline: none;
+}
+
+input, textarea {
+	border: 1px solid #888;
+}
+
+::-webkit-input-placeholder {
+	color: #cccccc;
+}
+
+/* Firefox 18- */
+
+:-moz-placeholder {
+	color: #cccccc;
+}
+
+/* Firefox 19+ */
+
+::-moz-placeholder {
+	color: #cccccc;
+}
+
+/* Internet Explorer 10+ */
+
+:-ms-input-placeholder {
+	color: #cccccc;
+}
+
+/* # clearfix
+---------------------------------------------------------------------------- */
+
+.clearfix {
+	zoom: 1;
+}
+
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+/* # General Elements
+---------------------------------------------------------------------------- */
+
+a {
+	color: #000;
+	text-decoration: none !important;
+}
+
+a:hover {
+	text-decoration: none !important;
+}
+
+/* # body
+---------------------------------------------------------------------------- */
+
+body {
+	background: #fff;
+	color: #000;
+	font-size: 75%;
+	font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", Arial, "Hiragino Kaku Gothic Pro", "Lucida Grande", Verdana, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	line-height: 1.5;
+}
+body.cn{
+	font-family: 'Hiragino Sans GB','microsoft yahei',arial,sans-serif;
+}
+body.vi,
+body.en,
+body.ru,
+body.th,
+body.id,
+body.ms{
+	font-family: Vernada, arial, sans-serif, Meiryo;
+	font-size: 13px !important;
+}
+body.ko div.note-plan-sp{
+	display: none ;
+}
+
+@font-face {
+	font-family: 'KozukaGothicProBold';
+	src: url(css/font/KozGoPro-Bold.otf);
+	font-weight: bold;
+	font-style: normal;
+}
+
+.fl {
+	float: left;
+}
+
+/* End */
+
+#masthead .container {
+    width: 960px;
+    margin: 0 auto 12px;
+}
+
+.menu-top-kimono .container {
+	width: 980px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+}
+/* .banner_mainform */
+.banner_mainform a.kimono{
+	display:block;
+	overflow: hidden;
+}
+
+.banner_mainform .b-yukata{
+	float:left;
+}
+
+.banner_mainform .b-yukata a.yukata,
+.banner_mainform .b-kimono a.kimono{
+	margin-bottom:8px;
+}
+
+.banner_mainform .b-kimono{
+	float:right;
+}
+
+/* .Fix breadcrumbs-kimono */
+.main-content .breadcrumbs-kimono {
+	padding-top: 4px;
+	margin-bottom: 1px;
+	overflow: hidden;
+	height: 20px;
+}
+
+.main-content .breadcrumbs-kimono span span,
+.main-content .breadcrumbs-kimono span a{
+	font-family: 'Meiryo', arial, sans-serif;
+	font-size: 12px;
+	float: left;
+}
+body.cn .main-content .breadcrumbs-kimono span{
+	font-family: inherit;
+}
+.main-content .breadcrumbs-kimono span span {
+	display: inline;
+}
+
+.main-content .breadcrumbs-kimono span.item,
+.main-content .breadcrumbs-kimono span a,
+.main-content .breadcrumbs-kimono span.breadcrumb_last
+{
+	height: 20px;
+	line-height: 21px;
+	display: inline-block;
+	padding: 0 10px;
+	color: #393939;
+}
+
+.main-content .breadcrumbs-kimono span span.separator {
+	height: 20px;
+	line-height: 20px;
+	display: inline-block;
+	padding: 0;
+}
+
+.main-content .breadcrumbs-kimono span span a {
+	text-decoration: none;
+	color: #393939;
+}
+
+/*End fix breadcrumbs*/
+
+.main-content #box-main-image {
+	border: 1px solid #000;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 30px;
+}
+
+/* #box-news */
+
+.main-content #box-news {
+	border: 1px solid #000;
+	padding: 10px 0;
+}
+
+/* #box-image-link */
+
+.main-content #box-image-link {
+	clear: both;
+}
+
+.main-content #box-image-link .item {
+	background: #ccc;
+}
+
+.main-content #box-image-link .item p {
+	border: 1px solid #000;
+}
+
+.main-content #box-image-link .item-big p {
+	height: 228px;
+}
+
+.main-content #box-image-link .item-medium p {
+	height: 100px;
+}
+
+.main-content #box-image-link .item-small p {
+	height: 100px;
+}
+
+/* #box-for-rent-kimono */
+
+.main-content #box-for-rent-kimono {
+	border: 1px solid #000;
+	padding: 10px 0;
+}
+
+.main-content #box-for-rent-kimono .item {
+	background: #ddd;
+}
+
+.main-content #box-for-rent-kimono p {
+	margin: 10px 0;
+}
+/* #box-blog */
+
+.main-content #box-blog {
+	border: 1px solid #000;
+}
+
+.main-content #box-blog h2 {
+	margin: 10px 0;
+}
+
+.main-content #box-blog .content {
+	margin-bottom: 10px;
+}
+
+.main-content #box-blog .item {
+	margin-bottom: 10px;
+}
+
+.main-content #box-blog .item .image {
+	border: 1px solid #000;
+	padding: 80px 0;
+	background: #ccc;
+	margin-bottom: 10px;
+}
+
+.main-content #box-blog .item .text p.title {
+	margin-bottom: 5px;
+}
+
+div#classroom_banner div.container .item img:hover,
+div#classroom_banner div.container .item-group-8 img:hover{
+	opacity:0.7;
+}
+
+div#kyotoNightEvent{
+	width: 960px;
+	margin: 0 auto 15px;
+}
+
+div#kyotoNightEvent img{
+	width: 100%;
+}
+
+div#kyotoNightEvent img:hover{
+	opacity:0.7;
+}
+
+.list-group-banner{
+	margin-bottom: 30px;
+}
+
+
+div.colophon-zone-center div.container div.ft-linkto-left {
+	float: left;
+	width: 490px;
+}
+
+div.colophon-zone-center div.container div.ft-linkto-left > div {
+	width: 226px;
+	padding-right: 19px;
+	float: left;
+}
+
+
+div.ft-leftzone-001 h5 {
+	font-family: 'Meiryo', arial, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #444;
+}
+
+div.ft-leftzone-001 ul li {
+	margin-bottom: 10px;
+}
+
+div.ft-leftzone-001 ul li a img {
+	float: left;
+	margin-right: 6px;
+	width: 55px;
+	height: 55px;
+}
+
+div.ft-leftzone-001 ul li a p {
+	font-family: 'Meiryo', arial, sans-serif;
+	font-size: 14px;
+	color: #444;
+}
+
+div.colophon-zone-center div.container div.ft-linkto-right {
+	float: left;
+	width: 470px;
+}
+
+div.colophon-zone-center div.container div.ft-linkto-right ul li {
+	width: 225px;
+	margin-right: 20px;
+	float: left;
+}
+
+div.colophon-zone-center div.container div.ft-linkto-right ul li.mgrnone {
+	margin-right: 0 !important;
+}
+
+footer#colophon .colophon-zone-top .container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+div.colophon-zone-bottom div.container div.ft-showmore-link > div {
+	width: 225px;
+	float: left;
+	padding-right: 20px;
+}
+
+div.ft-showmore-link div.ft-zone-linkd {
+	padding-right: 0 !important;
+}
+
+div.ft-showmore-link div dl dt a {
+	font-size: 18px;
+	line-height: 18px;
+	color: #444444;
+	font-family: 'Meiryo', arial, sans-serif;
+	font-weight: bold;
+	display: block;
+	padding: 11px 0 1px 0;
+}
+
+div.ft-showmore-link div dl dt a:hover {
+	color: #8C48A9;
+}
+
+div.ft-showmore-link div dl dd a:hover {
+	color: #8C48A9;
+}
+
+div.ft-showmore-link div dl dd a {
+	font-size: 12px;
+	color: #444444;
+	font-family: 'Meiryo', arial, sans-serif;
+}
+
+ul.ft-getmenufollow-dl-t002,
+ul.ft-getmenufollow-dl-t004 {
+	min-height: 106px;
+}
+
+.ft-getmenufollow-dl-t002 li a,
+.ft-getmenufollow-dl-t004 li a,
+.ft-getmenufollow-dl-t005 li a {
+	color: #444444;
+	font-family: 'Meiryo', arial, sans-serif;
+}
+
+dl.ft-dl-t007 {
+	margin-top: 21px;
+}
+
+dl.ft-dl-t007 dt {
+	padding-bottom: 14px;
+}
+
+.ft-getmenufollow-dl-t001 li.menu-kimono a:hover,
+.ft-getmenufollow-dl-t006 li a:hover
+{
+	color: #8C48A9;
+}
+.ft-getmenufollow-dl-t001 li.menu-kimono a,
+.ft-getmenufollow-dl-t002 li a,
+.ft-getmenufollow-dl-t004 li a,
+.ft-getmenufollow-dl-t005 li a,
+.ft-getmenufollow-dl-t006 li a
+{
+	font-size: 18px;
+	line-height: 18px;
+	color: #444444;
+	font-family: 'Meiryo', arial, sans-serif;
+	font-weight: bold;
+	display: block;
+	padding: 11px 0 1px 0;
+}
+.ft-getmenufollow-dl-t001 ul.sub-menu li.menu-group ul.sub-menu li a:hover,
+.ft-getmenufollow-dl-t002 li ul.sub-menu li a:hover,
+.ft-getmenufollow-dl-t004 li ul.sub-menu li a:hover,
+.ft-getmenufollow-dl-t005 li ul.sub-menu li a:hover
+{
+	color: #8C48A9;
+}
+.ft-getmenufollow-dl-t001 ul.sub-menu li.menu-group ul.sub-menu li a,
+.ft-getmenufollow-dl-t002 li ul.sub-menu li a,
+.ft-getmenufollow-dl-t004 li ul.sub-menu li a,
+.ft-getmenufollow-dl-t005 li ul.sub-menu li a,
+.ft-getmenufollow-dl-t006 li ul.sub-menu li a
+{
+	color: #444444;
+	font-family: 'Meiryo', arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 20px;
+	padding: 0px;
+}
+ul.ft-getmenufollow-dl-t001 li.menu-group a[title="–"] {
+	display: none;
+}
+
+.ft-getmenufollow-dl-t001 li ul li a {
+	font-size: 12px;
+	color: #444444;
+	font-family: 'Meiryo', arial, sans-serif;
+}
+
+.ft-getmenufollow-dl-t001 li ul li a:hover,
+.ft-getmenufollow-dl-t002 li a:hover,
+.ft-getmenufollow-dl-t004 li a:hover,
+.ft-getmenufollow-dl-t005 li a:hover {
+	color: #8C48A9;
+}
+
+.box-gallery-images .box-title {
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom: 1px solid #000;
+	margin-bottom: 10px !important;
+}
+
+.box-gallery-images .box-content .g-item .image img {
+	width: 100%;
+}
+
+.box-gallery-images .box-content .g-item .text a {
+	text-decoration: none;
+}
+
+.box-gallery-images .box-content .g-item .text a:hover {
+	text-decoration: underline;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.box-gallery-images .box-content .four.columns {
+		width: 48%;
+		margin: 1%;
+	}
+}
+
+/*=============================
+    Style for page howto
+===============================*/
+
+article.page {
+	clear: both;
+}
+.clearAll {
+	clear: both;
+	font-size: 0px;
+	width: 0px;
+	height: 0px;
+}
+
+.mg_au {
+	margin: auto;
+}
+
+
+div.banner_mainform h1 {
+	display: block;
+	color: #fff;
+	font-size: 60px;
+	font-weight: bold;
+	position: absolute;
+	top: 206px;
+	left: 30px;
+	line-height: 60px;
+	font-family: 'Kozuka Gothic Pro', arial, sans-serif;
+}
+
+.background_fdf4e5 {
+	background: #fdf4e5;
+}
+
+.padding_right_50px {
+	padding-right: 30px;
+}
+
+.fl {
+	float: left;
+}
+
+/* Begin page */
+
+.ps_re {
+	position: relative;
+	z-index: 0;
+}
+
+.ps_ab {
+	position: absolute;
+}
+
+#header_main, #banner_main, #content_main, #footer_main {
+	width: 100%
+}
+
+.header_mainform {
+	height: 105px;
+}
+
+.header_mainform h1 a img {
+	margin-top: 29px;
+}
+.content_mainform .reserve{
+	margin: 10px 0 20px;
+}
+
+.content_mainform h3.reserve-960x120{
+	margin: 20px 0;
+}
+
+.content_mainform h3.reserve-960x120 img{
+	width:100%;
+}
+
+.content_mainform h3.reserve-960x120 img:hover{
+	opacity:0.7;
+}
+
+.content_mainform h2 span var {
+	color: #fdfaff;
+	letter-spacing: 0px;
+	font-style: normal;
+	display: inline-block;
+	height: 104px;
+	width: 206px;
+	text-align: center;
+	background: url(images/reserve.png);
+	background-position: 0px -628px;
+}
+
+.content_mainform h2 span {
+	color: #444;
+}
+
+div.item_page {
+	width: 306px;
+	min-height: 295px;
+	margin-right: 20px;
+}
+
+div.item_page_info {
+	min-height: 294px;
+}
+
+div.mg_right_none {
+	margin-right: 0px;
+}
+
+div.item_page_info img {
+	width: 306px;
+	height: 190px;
+}
+
+div.item_page_info h3 span {
+	top: 78px;
+	left: 4px;
+	color: #fff;
+	font-size: 22px;
+	width: 230px;
+	font-family: 'Kozuka Gothic Pro', arial;
+	font-weight: bold;
+	line-height: 30px;
+	display: block;
+	text-decoration: none;
+	text-shadow: 1px 2px 6px #000;
+}
+
+div.item_page_info p {
+	font-family: 'Meiryo', arial;
+	color: #444;
+	font-size: 12px;
+	line-height: 18px;
+	padding: 10px 0px 0px;
+	letter-spacing: 2.2px;
+	text-align: justify;
+}
+
+div.tn_item_preva {
+	width: 625px;
+	min-height: 190px;
+	margin-bottom: 30px;
+	background: #f5f4f0;
+}
+
+div.tn_item_preva h3 span {
+	top: 84px;
+	left: 4px;
+	color: #fff;
+	font-size: 22px;
+	width: 250px;
+	font-family: 'Kozuka Gothic Pro', arial;
+	font-weight: bold;
+	line-height: 30px;
+	display: block;
+	text-decoration: none;
+}
+
+div.tn_item_preva img {
+	float: left;
+	width: 293px;
+	height: 190px;
+	margin-right: 50px;
+}
+
+div.tn_item_preva p {
+	font-family: 'MS PGothic', arial;
+	color: #444;
+	font-size: 12px;
+	line-height: 18px;
+	padding: 7px 15px;
+	letter-spacing: 1px;
+}
+
+div.background_tt {
+	height: 39px;
+	padding-top: 18px;
+	text-align: left;
+}
+
+div.background_tt h3 a {
+	font-size: 18px;
+	color: #fff;
+	padding-left: 10px;
+}
+
+span.arr_title {
+	width: 16px;
+	height: 16px;
+	top: -16px;
+	left: 50px;
+	background: url(images/arr.png) no-repeat;
+}
+
+div.item_infor p {
+	font-size: 12px;
+	color: #333;
+	padding-top: 15px;
+	line-height: 20px;
+}
+
+div.two_text {
+	margin-top: 23px;
+}
+
+div.zone_text {
+	width: 465px;
+}
+
+div.zone_text h3 {
+	font-family: Meiryo, arial;
+	font-size: 18px;
+	font-weight: bold;
+	color: #743d6d;
+}
+
+div.zone_text p {
+	font-family: Meiryo, arial;
+	font-size: 12px;
+	color: #333;
+	padding-top: 5px;
+	line-height: 20px;
+}
+
+div.item_forit {
+	width: 206px;
+	margin-right: 45px;
+}
+
+div.content_mainform div.margin_right_none {
+	margin-right: 0px;
+}
+
+div.item_forit dl dt {
+	font-weight: bold;
+	font-size: 18px;
+	color: #333;
+	font-family: Meiryo, arial;
+}
+
+div.item_forit dl dd {
+	font-size: 12px;
+	color: #333;
+	line-height: 20px;
+	font-family: Meiryo, arial;
+}
+
+div.dldtdd {
+	margin-top: 30px;
+	margin-bottom: 55px;
+}
+
+div.dldtdd dl dt {
+	font-weight: bold;
+	font-size: 18px;
+	color: #333;
+	font-family: Meiryo, arial;
+}
+
+div.dldtdd dl dd {
+	font-size: 12px;
+	color: #333;
+	line-height: 20px;
+	font-family: Meiryo, arial;
+}
+
+div.alpha-blog {
+	margin-left: 0;
+}
+
+div.omega-blog {
+	margin-right: 0;
+}
+
+span.newtitle-top {
+	font-size: 10px;
+	font-family: 'Meiryo', arial;
+    font-weight: bold;
+	background: #f6ff00;
+	border-radius: 5px;
+	padding: 3px 4px;
+	margin-top: 0px;
+	color: #333;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+section.block-for-top-page div div.text p.title a:hover:after{
+	border-bottom-color: transparent;
+}
+
+section.block-for-top-page div div.text p.more {
+	padding-top: 4px;
+	color: #444;
+	font-family: 'Meiryo', arial;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: justify;
+}
+
+.contactwp .wpcf7 .ctf7-captcha{
+	width: 366px;
+    overflow: hidden;
+    height: auto;
+    line-height: 28px;    
+}
+.contactwp .wpcf7 .ctf7-captcha label {	
+	display: inline-block;
+	float: left;
+	line-height: 1;
+	margin-top: 20px;
+}
+.contactwp .wpcf7 .ctf7-captcha input{
+	margin-right: 0;
+	margin-bottom: 0;
+	width: 50%;
+	height:35px;
+}
+body.en .contactwp .wpcf7 .ctf7-captcha input,
+body.ru .contactwp .wpcf7 .ctf7-captcha input,
+body.th .contactwp .wpcf7 .ctf7-captcha input{
+	width: 25%;
+}
+.contactwp .wpcf7 .ctf7-captcha img{
+	margin-top: 10px;	
+}
+.contactwp .wpcf7 .ctf7-captcha img,
+.contactwp .wpcf7 .ctf7-captcha input{
+	float:right;	
+}
+/*END Duyen add css for /faq/contactwp */
+#book-time {
+	width: 230px;
+
+	padding: 5px;
+	height: 30px;
+	border: none;
+}
+
+#hour-list, #min-list {
+	width: 200px;
+	text-align: right;
+	margin-left: 40px;
+	padding: 5px 10px;
+	height: 40px;
+	background: #f1f1f1;
+	border: none;
+}
+
+#num-of-person {
+	width: 140px;
+	height: 40px;
+	padding: 0 5px;
+	border: none;
+}
+.radio-713 {
+	padding-top: 10px;
+	padding-bottom: 15px;
+	display: block;
+}
+
+div.wpcf7-f129-p23-o1 p:first {
+	padding-bottom: 10px;
+}
+
+a.back_to_top {
+	display: block;
+	width: 42px;
+	height: 42px;
+	text-decoration: none;
+	position: absolute;
+	right: 0px;
+	top: -91px;
+	background: url(images/back_to_top.png) no-repeat;
+}
+
+/*-- Create new contact form (news tabs)*/
+.contact-tabs li {
+	list-style:none;
+	display:inline;
+	margin-right: 6px;
+}
+.contact-tabs a {
+	padding:5px 10px;
+	display:inline-block;
+	background:#666;
+	color:#fff;
+	text-decoration:none;
+}
+.contact-tabs a.active {
+	cursor: default;
+	background: #40b672;
+}
+
+.contact-tabs li a{
+	background: #69d1b2;
+	line-height: 46px;
+	padding: 4px 15px 0 15px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+}
+ul.contact-tabs{
+	border-bottom: 8px solid #40b672;
+	margin-bottom: 30px;
+}
+div p label.formoption{
+	display: -webkit-inline-box;
+}
+ul.rentalMethod{
+	padding-bottom: 30px;
+}
+ul.rentalMethod li.required span.method{
+	float: left;
+}
+p label.radio-genre{
+	float: left;
+	padding-bottom: 30px;
+}
+span.group_name_valid{
+	padding: 9px 9px;
+	font-size: 1.3em;
+	color: #f00;
+	font-family: 'MS PGothic', arial;
+	display: none;
+}
+/****Form****/
+.wpcf7-list-item-label{
+	font-weight: normal;
+}
+input.onlynum{
+	width: 50px;
+	height: 30px;
+}
+label.dlin_block{
+	display: inline-block;
+	float: left;
+	line-height: 40px;
+}
+span.wpcf7-list-item-label.disable{
+	color: #999;
+}
+input#book-time{
+	cursor: text;
+    background: #f1f1f1!important;
+}
+select.select_company{
+	height: 30px;
+}
+label.iscompany , label.isaddress{
+	color: #999;
+}
+
+
+section#category-description div p {
+	color: #fff;
+	font-size: 14px;
+	line-height: 22px;
+	font-family: 'Meiryo', arial;
+	padding: 6px 10px;
+	letter-spacing: -0.2px;
+}
+
+/* Gellary */
+div.tn-item-gallery {
+	float: left;
+	width: 240px;
+}
+
+div.tn-item-gallery .image img, div.tn-item-gallery .image a img {
+	width: 240px;
+	height: 240px;
+}
+
+div.tn-item-gallery div.text p.title {
+	font-family: "Meiryo", arial;
+	padding-top: 10px;
+	font-size: 24px;
+	color: #444444;
+}
+
+div.tn-item-gallery div.text p {
+	font-family: "Meiryo", arial;
+	font-size: 12px;
+	color: #444444;
+}
+
+div.gallery-zone-one {
+	padding-bottom: 20px;
+}
+
+section.category-gallery-title {
+	background: url("images/bg-gallery-title.jpg") no-repeat;
+	min-height: 54px;
+}
+
+section.category-gallery-title h2 {
+	font-family: 'Meiryo', "Meiryo", arial;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 54px;
+	color: #fff;
+	text-indent: 40px;
+	margin-bottom: 14px;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	/* IE10+ CSS styles go here */
+	div.banner_mainform h1 {
+		margin-top: 33px;
+	}
+
+	div.logo-footer h3.title_fttop span.num {
+		padding: 20px 0 0 0;
+	}
+}
+
+/* Only Safari*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	input[type="radio"] {
+		border-radius: 50%;
+		border: 1px solid #444 !important;
+	}
+}
+a.goto_link_intext{
+	color: #b25ea9;
+	font-weight: bold;
+	text-decoration: underline!important;
+}
+a.goto_link_intext:hover{
+	text-decoration: none!important;
+}
+
+
+	
+div.kimono-couple-page div.box-general-kimono-couple-page .info .wrap.couple{
+	margin-bottom:25px;
+}
+
+div.kimono-couple-page div.box-general-kimono-couple-page .info .wrap h1{
+	font-weight: bold;
+	font-size: 40px;
+	color: #000000;
+	line-height: 40px;
+	padding-top: 7px;
+}
+
+div.kimono-couple-page div.box-general-kimono-couple-page .info .wrap.couple h1{
+	margin-bottom:5px;
+}
+
+div.kimono-couple-page div.box-general-kimono-couple-page .info .wrap p{
+	font-size: 14px;
+	color: #444444;
+	line-height: 22px;
+	letter-spacing: 1px;
+}
+
+div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul.last li{
+	padding-top: 0;
+	display: block;
+	background-image: url('images/icon/point_black.png');
+	background-repeat: no-repeat;
+	background-position: 0px 6px;
+	padding-left: 15px;
+	font-size: 14px;
+	color: #000000;
+}
+.title .title-list-option-kimono{
+	font-size: 30px;
+	font-weight: bold;
+	color:#000;
+	position: relative;
+}
+body.fr .title h1.title-list-option-kimono{
+	font-size: 28px;
+}
+#link_gotopage a:hover{
+	color: #38a1e6;
+}
+#link_gotopage img{
+	padding-right: 10px;
+}
+div.kimono-couple-page div.box-general-kimono-couple-page .image{
+	width: 350px;
+	height: 466px;
+	float: right;
+}
+
+/* Navigation */
+#nav-above {
+	padding: 24px 0;
+	padding: 1.714285714rem 0;
+}
+
+#nav-above {
+	display: none;
+}
+
+.paged #nav-above {
+	display: block;
+}
+
+
+.nav-single + .comments-area, #comment-nav-above {
+	margin: 48px 0;
+	margin: 3.428571429rem 0;
+}
+
+/* Navigation - modify - Chien */
+.nav-single-single {
+	width: 100%;
+}
+
+.nav-single-single .nav-previous,
+.nav-single-single .cate-link,
+.nav-single-single .nav-next {
+	width: 32.9%;
+	float: left;
+	display: inline-block;
+	min-height: 20px;
+}
+
+.nav-single-single .cate-link {
+	text-align: center;
+}
+
+.single ul, .category ul {
+	list-style: none;
+}
+
+
+
+.single ul li a, .category ul li a {
+	cursor: pointer;
+}
+
+.single ul li a:hover, .category ul li a:hover {
+	text-decoration: underline;
+}
+
+#blog-childs li.active a,
+#column-childs li.active a {
+	font-weight: bold;
+	color: #93539d;
+}
+
+.page-template-page-templatesone-column-php .box, .page-template-page-templatesfull-width-php .box {
+	border: 1px solid #000;
+	padding: 10px 0;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.page-template-page-templatesone-column-php .box.left, .page-template-page-templatesfull-width-php .box.left {
+	text-align: left;
+	padding-left: 10px;
+}
+
+.page-template-page-templatesone-column-php .box.backgroudC, .page-template-page-templatesfull-width-php .box.backgroudC {
+	background-color: #ccc;
+	color: #000;
+}
+
+.page-template-page-templatescolumn-page-php .title-page h1.entry-title {
+	position: static;
+}
+/*page apply1day*/
+.formAplly1Day{
+	font-family: Meiryo, serif;font-size: 12px;
+}
+.formAplly1Day h2{font-size: 20px;}
+.formAplly1Day h1{font-size: 36px;}
+.formAplly1Day h1{font-size: 36px;}
+.formAplly1Day select{
+	padding: 5px;height: 30px;font-size: 16px;
+}
+/*for contact form 7 message*/
+div.wpcf7-response-output {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/* SP menu: hide level 2 */
+div.menu-top-kimono-sp ul.sub-menu li ul.sub-menu {
+	display: none;
+}
+
+/* Long fix merge css  */
+.container.list-group-banner li{
+	float: left;
+    width: 32%;
+    margin-right: 2%;
+}
+.container.list-group-banner li:last-child{
+	margin-right: 0;
+}
+.container.list-group-banner li img{
+	box-shadow: 1px 3px 10px #000;
+	width: 100%;
+}
+.list-group-banner li img:hover {
+    opacity: 0.7;
+}
+
+.layout-kimono-sp .menu-top-kimono-sp {
+    display: none;
+}
+.list-group-name .image-sp{
+	display: none;
+}
+.section_general div.option-kimono-reserve-link.pc{
+	display: block;
+}
+.section_general div.option-kimono-reserve-link.sp{
+	display: none;
+}
+div .button-reserve{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+div .button-reserve a.link-reserve{
+	width: 50%;
+	font-size: 28px;
+	padding: 20px;
+	background-color: #F9A523;
+	color: #fff;
+	display: inline-block;
+	font-weight: bold;
+	line-height: 1;
+	text-align: center;
+	position: relative;
+	box-sizing: border-box;
+}
+
+div .button-reserve a.link-reserve:after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border-left: 10px solid #F9A523;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	position: absolute;
+	top: 38%;
+	right: 5px;
+}
+
+div .button-reserve a.link-reserve.bg-F9A523:after{
+	border-left: 10px solid #fff;
+}
+@media (max-width: 767px) {
+	.content_mainform .reserve li{
+		width: 100% !important;
+		margin:	auto;
+		margin-top: 8px;
+		float:none;
+	box-sizing: border-box;
+    }
+    body.ko div.note-plan-sp{
+        display: block ;
+    }
+
+	.layout-kimono-sp .menu-top-kimono-sp{
+		display: block;
+}
+	.list-group-name .image-pc{
+		display: none;
+}
+	.list-group-name .image-sp{
+		display: block;
+}
+	.section_general div.option-kimono-reserve-link.sp{
+		clear: both;
+		display: block;
+	}
+	.section_general div.option-kimono-reserve-link.pc{
+		display: none;
+	}
+	div .button-reserve a.link-reserve{
+		width: 100%;
+		font-size: 20px;
+		padding: 13px 10px 9px;
+	}
+	div .button-reserve a.link-reserve:after{
+		top: 33%;
+	}
+}
+/* End Long fix merge css  */
+@media (min-width: 768px) and (max-width: 959px) {
+	.layout-kimono-sp .main-content .container {
+		width: 100%;
+		box-sizing: border-box;
+	}
+}
+
+.section_general div.option-kimono-reserve-link{
+	margin-top: 50px;
+	border: 2px solid #733d6d;
+	text-align: center;
+	background: #93539d;
+}
+.section_general div.option-kimono-reserve-link:hover{
+	opacity: 0.5;
+}
+.section_general div.option-kimono-reserve-link a{
+	display:block;
+}
+.section_general div.option-kimono-reserve-link a p{
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 10px;
+}
+.detail-kimono-reserve-link{
+	text-align: center;
+	margin: 20px 0;
+}
+.detail-kimono-reserve-link a{
+	width: 60%;
+	display: inline-block;
+	border: 2px solid #733d6d;
+	text-align: center;
+	background: #93539d;
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 10px;
+}
+@media (max-width: 767px){
+	body.fr .title h1.title-list-option-kimono{
+		font-size: 19px;
+	}
+}

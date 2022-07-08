@@ -1,0 +1,259 @@
+/*lettter-spacing*/
+*{letter-spacing: 0 !important}
+/*Custom css for multilang*/
+.right-column-asakusa,
+.wrap-top-plan-circle-fm-v2 .list-scene-v2 .item-scene-v2 .inside-circle .num-circle{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrap-blog-shop-fm-v2.asakusa{
+    margin-bottom: 70px;
+}
+.wrap-shop-intro .intro-title,
+.plan-info .plan-name{
+    font-size: 28px;
+}
+.wrap-shop-intro .intro-title:after{
+    right: -32px;
+}
+.wrap-shop-intro .intro-title:before {
+    left: -32px;
+}
+.wrap-top-plan-circle-fm-v2 .list-scene-v2 .item-scene-v2 .inside-circle .num-circle{
+    font-size: 19px;
+}
+.wrap-top-plan-circle-fm-v2 .list-scene-v2 .item-scene-v2.color-circle-03 .num-circle{
+    font-size: 21px;
+}
+.kurashiki .box-intro-bottom .title-intro-bottom{
+    font-size: 23px;
+}
+.list-option-new-shop-left{
+    -webkit-box-flex: 6;
+    -ms-flex: 6;
+    flex: 6;
+    margin-right: 20px;
+}
+.wrap-list-option-detail-new-1 .list-option-detail-new:first-child{
+    width: 375px;
+}
+.wrap-list-option-detail-new-1 .list-option-detail-new:last-child{
+    width: 220px;
+}
+.wrap-list-option-detail-new-1 .otherlang.list-option-detail-new:last-child{
+    width: 310px;
+}
+.asakusa .list-option-detail-custom .otherlang.items-option-detail-new{
+    padding: 13px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.list-option-detail-new-machi .icon-arrow-r-link{
+    width: 90px;
+}
+.list-option-detail-new-machi .text-link{
+    font-size: 14px;
+}
+.okinawa-naha .list-option-detail-new-machi .text-link{
+    font-size: 18px;
+}
+.list-option-new-shop-second .items-text-detail-new{
+    padding: 4px 15px;
+}
+.list-ginza-store .item-ginza-store .info .lbl-name-store{
+    font-size: 15px;
+}
+.wrap-spots-shop-fm-v2.asakusa ul.list-content-spots .item-content-spots .text-content-spots .title-text,
+.content-reason .including-bottom a{
+    font-size: 20px;
+}
+.wrap-btn-v2 .btn-v2 a,
+.wrap-btn-v2 .btn-v2-reserve{
+    font-size: 18px;
+}
+.btn-v2 .text-link{
+    padding-left: 24px;
+}
+.wrap-reason-choose-fm-v2.asakusa .wrap-reason-03-ginza-yukata .inner .price{
+    font-size: 80px;
+}
+.content-reason .title-including{
+    line-height: 1.5;
+}
+.plan-info .plan-desc{
+    font-size: 16px;
+    line-height: 1.6;
+}
+.osaka-shinsaibashi-opa .list-sec-banner-general .des-sec-banner,
+.title-general-v2.title-general-v2-access .text-title-general-v2 .sub-text-title-v2{
+    font-size: 15px;
+}
+.content-reason .title-including .including-name{
+    font-size: 22px;
+}
+.wrap-blog-shop-fm-v2 .sub-item-info .link-to{
+    font-size: 14px;
+}
+.notes-bottom{
+    font-size: 13px;
+}
+.item-ginza-store .text-price-store{
+    font-size: 11px;
+}
+.wrap-spots-shop-fm-v2.asakusa ul.list-content-spots .item-content-spots .text-content-spots .title-text{
+    line-height: 1.2;
+    padding-bottom: 10px;
+}
+.list-reason .item-reason .title-item-reason .reason-name{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list-option-new-shop-second .items-option-detail-new:first-child p{
+    font-size: 20px;
+}
+/*===shinjuku-station===*/
+.shinjuku-station .inside-circle .num-circle-1.num-circle-photos{
+    margin: 0;
+}
+.shinjuku-station .wrap-top-plan-circle-fm-v2 .list-scene-v2 .item-scene-v2.color-circle-03 .num-circle {
+    font-size: 19px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.shinjuku-station .list-ginza-store .item-ginza-store .info .lbl-name-store {
+    height: 30px;
+}
+/*kurashiki*/
+.kurashiki .wrap-shop-intro .intro-title {
+    font-size: 32px;.wrap-top-plan-circle-fm-v2.kurashiki .wrap-scene-btn a
+}
+.wrap-top-plan-circle-fm-v2.kurashiki .wrap-scene-btn a {
+    font-size: 26px;
+}
+.kurashiki .wrap-list-option-detail-new-1 .list-option-detail-new:last-child {
+    width: 250px;
+}
+.kurashiki .list-option-new-shop-second .items-text-detail-new {
+    text-align: center;
+    padding: 4px 12px;
+    font-size: 12px;
+}
+.kurashiki .wrap-spots-shop-fm-v2.asakusa .title-big-spots {
+    font-size: 19px;
+}
+.kurashiki .wrap-google-map-fm-v2.kurashiki .wrap-list-option-detail-new-1 .list-option-detail-new:first-child {
+    width: 210px;
+}
+.kurashiki .list-option-detail-new-machi .text-link {
+    font-size: 13px;
+}
+.kurashiki .wrap-set-img .bag-img {
+    width: 230px;
+}
+/*kamakura*/
+.kamakura .wrap-shop-intro .intro-title {
+    font-size: 35px;
+}
+.kamakura .items-option-detail-new  {
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.kamakura .wrap-spots-shop-fm-v2.asakusa .title-big-spots {
+    font-size: 13px;
+    text-align: center;
+}
+.kamakura .wrap-spots-shop-fm-v2.asakusa .title-big-spots {
+    font-size: 17px;
+}
+.kamakura .wrap-spots-shop-fm-v2.asakusa .title-big-spots br{
+    display: none;
+}
+.kamakura .content-reason .title-including .including-name {
+    font-size: 22px;
+}
+.kamakura .wrap-shop-intro .intro-title:before {
+    left: -15px;
+}
+.kamakura .wrap-review-asakusa.wrap-review .intro .review-title {
+    font-size: 35px;
+}
+.kamakura .wrap-shop-intro .intro-title:after {
+    right: -15px;
+}
+.kamakura .wrap-top-plan-circle-fm-v2 .list-scene-v2 .item-scene-v2 .inside-circle .num-circle {
+    font-size: 17px;
+}
+.kamakura .detail-link {
+    font-size: 12px;
+}
+.kamakura .list-option-detail-new-machi .text-link {
+    font-size: 13px;
+}
+.kamakura .review-title {
+    font-size: 40px;
+}
+/*Dazaifu*/
+.new-access-child-page.dazaifu .wrap-list-option-detail-new-1 .list-option-detail-new:first-child{
+    width: 260px;
+}
+.new-access-child-page.dazaifu .wrap-list-option-detail-new-1 .list-option-detail-new:last-child {
+    width: 346px;
+}
+.new-access-child-page.dazaifu .list-option-detail-new-machi .text{
+    height: 50px;
+    padding: 10px 0;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.new-access-child-page.dazaifu .wrap-google-map-fm-v2.asakusa .list-option-new-shop-second .dazaifu-detail-list-option .items-option-detail-new{
+    min-height: 35px;
+}
+.new-access-child-page.dazaifu .wrap-google-map-fm-v2 .list-option-new-other .items-option-detail-new .items-text-detail-new{
+    font-size: 11px;
+    height: 100%;
+}
+/*kanazawa*/
+.kanazawa .wrap-shop-intro .intro-title {
+    font-size: 26px;
+}
+.kanazawa .wrap-top-plan-circle-fm-v2 .list-scene-v2 .item-scene-v2 .inside-circle .num-circle {
+    font-size: 16px;
+}
+.wrap-google-map-fm-v2.kanazawa .items-option-detail-new {
+    background-color: #958c12;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kanazawa .items-text-detail-new {
+    font-size: 12px;
+}
+.kanazawa .list-option-new-shop-left {
+    flex: 8;
+}
+.kanazawa .wrap-list-option-detail-new-1 .list-option-detail-new:last-child {
+    width: 270px;
+}
+.kanazawa .list-option-detail-new-machi .text-link {
+    font-size: 11px;
+    padding: 0px 7px;
+}
+.kanazawa .items-text-detail-new {
+    font-size: 10px;
+}
+.kanazawa .wrap-spots-shop-fm-v2.asakusa .title-big-spots {
+    font-size: 20px;
+}
+.kanazawa .content-reason .title-including .including-name {
+    font-size: 23px;
+}
+.kanazawa .content-reason .including-info {
+    font-size: 17px;
+}
+/*okinawa-naha*/
+.wrap-list-option-new-shop-first.okinawa-naha{
+    width: 625px;
+}

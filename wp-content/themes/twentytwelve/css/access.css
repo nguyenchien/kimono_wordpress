@@ -1,0 +1,2839 @@
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+@media all {
+	.left{
+		float: left !important;
+	}
+	.right{
+		float: right !important;
+	}
+	div.bg-pink{
+		display: none;
+	}
+	/* .access page
+	------------------------------------------------------------------------- */
+	#sb-site{
+		min-height: 0 !important;
+	}
+	.box-overview-page-howto-faq, .box-overview-kimono-page{
+		width: 960px;
+		height: auto;
+		margin-bottom: 20px;
+	}
+	.box-overview-page-howto-faq .image, .box-overview-kimono-page .image{
+		width: 470px;
+		height: 220px;
+		float: right;
+	}
+	.box-overview-page-howto-faq .image img, .box-overview-kimono-page .image img{
+		width: 470px;
+		height: 220px;
+	}
+	.box-overview-page-howto-faq .info, .box-overview-kimono-page .info{
+		width: 490px;
+		height: 220px;
+		float: left;
+		background: #f1ebf0;
+	}
+	.box-overview-page-howto-faq .info .wrap, .box-overview-kimono-page .info .wrap{
+		padding: 10px 10px 0 10px;
+	}
+	.content-column-page .wrap{
+		margin-bottom: 20px;
+	}
+	.access-page .box-overview-page-howto-faq .info .wrap h2{
+		font-size: 30px;
+	}
+	body.cn .box-overview-page-howto-faq .info .wrap h2, body.cn .box-overview-kimono-page .info .wrap h2{
+		font-family: inherit;
+	}
+	.box-overview-page-howto-faq .info .wrap h2, .box-overview-kimono-page .info .wrap h2{
+		font-family: 'Meiryo', arial, sans-serif;
+		font-size: 36px;
+		line-height: 16px;
+		color: #000000;
+		font-weight: bold;
+		line-height: 1.1;
+	}
+	.box-overview-page-howto-faq .info h1, .box-overview-kimono-page .info h1{
+		font-size: 24px;
+		line-height: 1.1;
+		color: #000;
+		font-weight: bold;
+		margin-bottom: 5px;
+	}
+	.box-overview-page-howto-faq .info p, .box-overview-kimono-page .info p{
+		color: #444;
+		font-size: 13px;
+		line-height: 1.7;
+		text-align: justify;
+	}
+	.access-page .box-overview-page-howto-faq .info .wrap h2{
+		font-size: 30px;
+	}
+	.access-page .child-page .page-item {
+		float: left;
+		margin-right: 5%;
+		overflow: hidden;
+		width: 30%;
+		box-sizing: border-box;
+		margin-bottom: 20px;
+		min-height: 410px;
+	}
+	.access-page .child-page .page-item:nth-child(3n+3) {
+		margin-right: 0;
+	}
+	body.cn .access-page .child-page .page-item h2 {
+		font-family: inherit;
+	}
+	.access-page .child-page .page-item h2 {
+		font-family: Meiryo, arial;
+		font-size: 20px;
+		color: #221e1f;
+		font-weight: bold;
+		line-height: 1;
+	}
+	.child-page.clearfix {
+		clear: both;
+		margin-top: 10px;
+	}
+	.access-page .child-page .page-item.gion-shijo h2,
+	.access-page .child-page .page-item.kinkakuji h2{
+		height: 40px;
+		position: relative;
+	}
+	.access-page .child-page .page-item.gion-shijo h2 a,
+	.access-page .child-page .page-item.kinkakuji h2 a{
+		position: absolute;
+		bottom: 0;
+	}
+	.access-page .child-page .page-item h2 a {
+		color: #221e1f;
+	}
+	.access-page .child-page .page-item .shop-detail {
+		font-size: 14px;
+		color: #444;
+		line-height: 1;
+	}
+	.access-page .child-page .page-item .shop-detail p {
+		line-height: 1;
+		margin-bottom: 5px;
+	}
+	body.hi .access-page .child-page .page-item .shop-detail p {
+		line-height: 1;
+		margin-bottom: 6px;
+	}
+	.access-page .child-page .page-item .shop-detail h3,
+	.access-page .child-page .page-item .shop-detail strong {
+		font-size: 16px;
+		color: #444;
+		line-height: 1;
+		font-weight: bold;
+		display: block;
+	}
+	body.hi .access-page .child-page .page-item .shop-detail strong {
+		font-size: 13px;
+	}
+	.access-page .child-page .page-item .shop-detail br {
+		content: "";
+		height: 5px;
+		line-height: 5px;
+		display: block;
+	}
+	body.hi .access-page .child-page .page-item .shop-detail br {
+		height: 2px;
+	}
+	.access-page .child-page .page-item .featured-post {
+		margin-bottom: 10px;
+		margin-top: 5px;
+	}
+	.access-page .child-page .page-item .featured-post img{
+		width: 100%;
+		height: auto;
+	}
+	.access-page .child-page div.google_map {
+		font-size: 16px;
+		color: #444;
+		margin-top: 20px;
+	}
+	.access-page div.google_map h2 {
+		font-size: 30px;
+		font-weight: bold;
+		font-family: Meiryo, arial;
+		color: #221e1f;
+	}
+	/* .access-child-page
+	------------------------------------------------------------------------*/
+	.access-child-page {
+		font-family: Meiryo, arial;
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+	body.cn .access-child-page {
+		font-family: inherit;
+	}
+	.access-child-page .shop-page-title{
+		width: 100%;
+		margin-top: 20px;
+	}
+	.access-child-page .shop-page-title div.left
+	{
+		width: 45%;
+		padding-top: 10px;
+	}
+	.access-child-page.formal-kyototower .map{
+		display: none;
+	}
+	.access-child-page .shop-page-title div.left .clearfix {
+		position: relative;
+	}
+	.access-child-page .shop-page-title div.right{
+		padding-bottom: 5px;
+	}
+	.access-child-page .shop-page-title div.left,
+	.access-child-page .shop-page-title div.right{
+		display: inline;
+	}
+	.access-child-page .shop-page-title .page-title {
+		font-weight: bold;
+		line-height: 1;
+		font-size: 42px;
+		float: left;
+	}
+	.access-child-page .shop-page-title.tokyoskytree .page-title{
+		font-size: 34px;
+	}
+	body.en .access-child-page.osaka-shinsaibashi .shop-page-title .page-title,
+	body.vi .access-child-page.osaka-shinsaibashi .shop-page-title .page-title{
+		font-size: 41px;
+	}
+	.access-child-page .shop-icon .shop-name-en {
+		position: absolute;
+		bottom: 0;
+		font-size: 20px;
+		line-height: 1.4;
+		color: #AFAFAF;
+		box-sizing: border-box;
+	}
+	.access-child-page .shop-icon.ninenzaka .shop-name-en{
+		bottom: 0;
+	}
+	.access-child-page.osaka-shinsaibashi .shop-icon .shop-name-en{
+		font-size: 18px;
+	}
+	body:not(.ja) .access-child-page .shop-icon .shop-name-en{
+		display: none;
+	}
+
+	/* shop-close-service */
+	.page-title-shop-close-service{
+		margin-right: 5px;
+	}
+	body:not(.ja) .access-child-page .shop-icon .shop-name-en-close-service{
+		display: block;
+		position: static;
+		line-height: 42px;
+	}
+	body:not(.ja) .access-child-page .shop-icon .shop-name-en-close-service span{
+		display: none;
+	}
+	body:not(.ja) .access-child-page .shop-icon .shop-name-en-close-service span.shop-close-service{
+		display: block;
+		clear: both;
+	}
+	.shop-close-service{
+		color: red;
+		margin-left: 5px;
+		font-weight: bold;
+	}
+
+	.access-child-page .shop-icon .shop_detail_2{
+		color: red;
+		font-size: 16px;
+	}
+	.access-child-page .shop-page-title.kyotostation div.list-icon-shop{
+		margin-top: 45px
+	}
+	.access-child-page .shop-icon .icon-shop{
+		display: inline-block;
+		float:left;
+		height: 45px;
+		font-size: 0;
+		width: 18px;
+		margin-right: 1px;
+		background-image: url(../../../../../images/icons/icon-access-child.png);
+		background-repeat: no-repeat;
+		background-position: -2px -48px;
+	}
+	.access-child-page .shop-icon .icon-shop:hover,
+	.access-child-page .shop-icon .icon-shop.active {
+		background-position: -2px 0px;
+	}
+	.access-child-page .shop-icon .icon-shop.shinkyogoku:hover,
+	.access-child-page .shop-icon .icon-shop.shinkyogoku.active{
+		background-position: -34px 0;
+	}
+	.access-child-page .shop-icon .icon-shop.shinkyogoku{
+		width: 32px;
+		background-position: -34px -48px;
+	}
+	.access-child-page .shop-icon .icon-shop.kiyomizuzaka{
+		width: 38px;
+		margin-right: 0;
+		background-position: -75px -48px;
+	}
+	.access-child-page .shop-icon .icon-shop.kiyomizuzaka:hover,
+	.access-child-page .shop-icon .icon-shop.kiyomizuzaka.active{
+		background-position: -75px 0;
+	}
+	.access-child-page .shop-icon .icon-shop.ninenzaka{
+		width: 27px;
+		margin-right: 0;
+		background-position: -167px -48px;
+	}
+	.access-child-page .shop-icon .icon-shop.ninenzaka:hover,
+	.access-child-page .shop-icon .icon-shop.ninenzaka.active{
+		background-position: -167px 0;
+	}
+	.access-child-page .shop-icon .icon-shop.kinkakuji{
+		width: 48px;
+		margin-right: 0;
+		background-position: -117px -48px;
+	}
+	.access-child-page .shop-icon .icon-shop.kinkakuji:hover,
+	.access-child-page .shop-icon .icon-shop.kinkakuji.active{
+		background-position: -117px 0;
+	}
+	.access-child-page .shop-icon .icon-shop.gion-shijo {
+		width: 23px;
+		margin-right: 0;
+		background-position: -56px -249px;
+	}
+	.access-child-page .shop-icon .icon-shop.gion-shijo:hover,
+	.access-child-page .shop-icon .icon-shop.gion-shijo.active{
+		background-position: -1px -249px;
+	}
+	.access-child-page .shop-icon .icon-shop.osaka-shinsaibashi{
+		width: 40px;
+		background-position: -38px -84px;
+		background-size: 220px auto;
+		margin-right: 1px;
+	}
+	.access-child-page .shop-icon .icon-shop.osaka-shinsaibashi.active,
+	.access-child-page .shop-icon .icon-shop.osaka-shinsaibashi:hover{
+		background-position: -88px -82px;
+
+	}
+	.access-child-page .shop-icon .icon-shop.kamakura {
+		width: 31px;
+		background-size: 230px auto;
+		background-position: -173px -206px;
+	}
+	.access-child-page .shop-icon .icon-shop.kamakura:hover,
+	.access-child-page .shop-icon .icon-shop.kamakura.active{
+		background-position: -104px -206px;
+	}
+	.access-child-page .shop-icon .icon-shop.asakusa, .asakusa-top-page > .asakusa{
+		width: 29px;
+		background-position: -137px -90px;
+		background-size: 220px auto;
+	}
+	.access-child-page .shop-icon .icon-shop.asakusa:hover,
+	.access-child-page .shop-icon .icon-shop.asakusa.active{
+		background-position: -180px -90px;
+	}
+	.access-child-page .shop-icon .icon-shop.kanazawa{
+		width: 33px;
+		background-position: -60px -264px;
+		background-size: 230px auto;
+		margin-right: 0;
+	}
+	.access-child-page .shop-icon .icon-shop.kanazawa:hover,
+	.access-child-page .shop-icon .icon-shop.kanazawa.active{
+		background-position: -3px -264px;
+	}
+	.access-child-page .shop-icon .icon-shop.arashiyama{
+		width: 40px;
+		background-size: 240px auto;
+		background-position: -190px -399px;
+		margin-right: 1px;
+	}
+	.access-child-page .shop-icon .icon-shop.arashiyama:hover,
+	.access-child-page .shop-icon .icon-shop.arashiyama.active{
+		background-position: -121px -399px;
+	}
+	.access-child-page .shop-icon .icon-shop.arashiyama-togetsukyo{
+		width: 37px;
+		background-size: 215px auto;
+		background-position: -165px -245px;
+		margin-right: 1px;
+	}
+	.access-child-page .shop-icon .icon-shop.arashiyama-togetsukyo:hover,
+	.access-child-page .shop-icon .icon-shop.arashiyama-togetsukyo.active{
+		background-position: -112px -244px;
+	}
+	.access-child-page .shop-icon .icon-shop.petitgionshijo{
+		width: 35px;
+		background-size: 240px auto;
+		background-position: -55px -339px;
+		margin-right: 2px;
+	}
+	.access-child-page .shop-icon .icon-shop.petitgionshijo:hover,
+	.access-child-page .shop-icon .icon-shop.petitgionshijo.active{
+		background-position: 0px -339px;
+	}
+	/*tokyoskytree shop*/
+	.access-child-page .shop-icon .icon-shop.tokyoskytree{
+		width: 16px;
+		background-size: 240px auto;
+		background-position: -63px -398px;
+		margin-right: 1px;
+	}
+	.access-child-page .shop-icon .icon-shop.tokyoskytree:hover,
+	.access-child-page .shop-icon .icon-shop.tokyoskytree.active{
+		background-position: -7px -398px;
+	}
+	/*petitkyotostation*/
+	.access-child-page .shop-icon .icon-shop.petitkyotostation{
+		width: 38px;
+		background-size: 240px auto;
+		background-position: -189px -339px;
+		margin-right: 2px;
+	}
+	.access-child-page .shop-icon .icon-shop.petitkyotostation:hover,
+	.access-child-page .shop-icon .icon-shop.petitkyotostation.active{
+		background-position: -122px -339px;
+	}
+	.access-child-page h2 {
+		background-color: #6d3a6f;
+		width: 100%;
+		font-size: 44px;
+		font-family: Meiryo, arial;
+		line-height: 54px;
+		color: #fff;
+		font-weight: bold;
+		height: 54px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		padding-left: 55px;
+		box-sizing: border-box;
+	}
+	body.cn .access-child-page h2 {
+		font-family: inherit;
+	}
+	.access-child-page h2.access{
+		padding-left:0;
+	}
+	.access-child-page section.block-viewbooking-top-page #choose-shop,
+	.access-child-page #booking_form .vacancy #choose-shop-and-date #choose-shop{
+		display: none;
+	}
+	.access-child-page .section-booking-top-page .booking h2{
+		padding-left:0;
+	}
+	.access-child-page h2 span.icon-user{
+		display: inline-block;
+		float: left;
+		height: 52px;
+		width: 33px;
+		margin-right: 5px;
+		background-image: url(../../../../../images/icons/icon-access-child.png);
+		background-repeat: no-repeat;
+		background-position: 2px -110px;
+	}
+
+	.access-child-page h2.blog {
+		background-image: url('../images/spriteme-sp.png');
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 80px;
+		background-size: 50px;
+		background-repeat: no-repeat;
+		background-color: #6d3a6f;
+		width: 100%;
+		font-size: 44px;
+		font-family: Meiryo, arial;
+		line-height: 54px;
+		color: #fff;
+		font-weight: bold;
+		height: 54px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		padding-left: 55px;
+		box-sizing: border-box;
+	}
+	body.en .access-child-page h2,
+	body.vi .access-child-page h2{
+		font-size: 30px;
+	}
+	.title-access{
+		background-color: #6d3a6f;
+	}
+	.access-child-page h2.access span{
+		font-size: 14px;
+		line-height: 21px;
+		display: inline-block;
+		margin-left: 5px;
+	}
+	.access-child-page h2.blog{
+		background-position: 10px -4497px;
+		padding-left: 66px;
+	}
+	.access-child-page h2.blog span{
+		font-size: 14px;
+		line-height: 21px;
+		display: inline-block;
+		margin-left: 14px;
+	}
+	.access-child-page h2.blog span.right{
+		font-size: 14px;
+		line-height: 21px;
+		display: inline-block;
+		height: 54px;
+		box-sizing: border-box;
+		padding-right: 14px;
+		padding-top: 25px;
+	}
+	.access-child-page h3 {
+		font-family: Meiryo, arial;
+		font-size: 30px;
+		font-weight: bold;
+		color: #444;
+		margin-bottom: 10px;
+		margin-top: 25px;
+	}
+	body.cn .access-child-page h3 {
+		font-family: inherit;
+	}
+	.access-child-page .page-excerpt {
+		width: 70%;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.access-child-page .page-excerpt-shop-has-slide{
+		width: 100%;
+		float: none !important;
+	}
+	.access-child-page .page-excerpt.no-gallery{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	/*gallery*/
+	.access-child-page .shop-list{
+		margin-bottom: 20px;
+		overflow: hidden;
+	}
+	.access-child-page .shop-list .slide-images .main-image {
+		box-shadow: 0px 1px 1px #171c19;
+		margin-bottom: 10px;
+	}
+	.access-child-page .shop-list .slide-images .main-image img {
+		width: 100%;
+		height: auto;
+		padding: 1px;
+		box-sizing: border-box;
+	}
+	.access-child-page .shop-list .slide-images .list-image {
+		width: 28%;
+		padding-left: 2%;
+	}
+	.access-child-page .shop-list .slide-images .list-image ul li {
+		box-shadow: 0px 1px 1px #4e0037;
+		float: left;
+		list-style: outside none none;
+		padding: 1px 1px 1px 0;
+		width: 50%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.access-child-page .shop-list .slide-images .list-image ul li:nth-child(5n+5) {
+		margin-right: 0;
+	}
+	.access-child-page .shop-list .slide-images .list-image ul li.last {
+		margin-right: 0;
+	}
+	.access-child-page .shop-list .slide-images .list-image img {
+		cursor: pointer;
+		width: 100%;
+		height: auto;
+	}
+	.access-child-page .shop-list .slide-images .list-image .description {
+		font-size: 14px;
+		margin-bottom: 6px;
+	}
+	.access-child-page .shop-list .slide-images .list-image .brand .item {
+		margin-bottom: 3px;
+		overflow: hidden;
+	}
+	.access-child-page .shop-list .slide-images .list-image .brand .item .title {
+		font-size: 14px;
+		border-bottom: 1px solid #ccc;
+		line-height: 17px;
+		padding-bottom: 1px;
+		margin-bottom: 1px;
+		font-weight: bold;
+	}
+	.access-child-page .shop-list .slide-images .list-image .brand .item div {
+		font-size: 13px;
+		margin-top: -1px;
+	}
+	.access-child-page .shop-list .slide-images .list-image .brand .item div a {
+		color: #000;
+	}
+	.access-child-page .shop-detail {
+		width: 100%;
+		font-family: Meiryo, arial;
+		color: #444;
+		font-size: 13px;
+		border-top: 4px solid #000;
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+	body.cn .access-child-page .shop-detail {
+		font-family: inherit;
+	}
+	.access-child-page .shop-detail .title {
+		background-color: #000;
+		color: #fff;
+		font-size: 27px;
+		padding: 5px 10px;
+		font-weight: bold;
+		float: left;
+		line-height: 40px;
+		width: 15%;
+		box-sizing: border-box;
+		text-align: center;
+	}
+	body.vi .access-child-page .shop-detail .title{
+		width: 22%;
+	}
+	body.fr .access-child-page .shop-detail .title{
+		font-size: 24px;
+	}
+	.access-child-page .shop-detail .shop-detail-3{
+		font-size: 19px;
+		line-height: 27px;
+		color: #000;
+		font-weight: bold;
+		float: left;
+		padding-top: 6px;
+		width: 85%;
+		box-sizing: border-box;
+		padding-left: 10px
+	}
+	body.vi .access-child-page .shop-detail .shop-detail-3{
+		width: 78%;
+	}
+	.access-child-page .shop-detail .shop-detail-3 .icon{
+		background-image: url(../images/spriteme-sp.png);
+		background-repeat: no-repeat;
+		background-size: 20px;
+		display: inline-block;
+	}
+	.access-child-page .shop-detail .shop-detail-3 .icon.clock{
+		padding-left: 25px;
+		background-position: 0px -1386px;
+	}
+	.access-child-page .shop-detail .shop-detail-3 .icon.phone{
+		padding-left: 30px;
+		background-position: 2px -1267px;
+	}
+	.access-child-page .shop-detail .shop-detail-3 .violet{
+		color: #6d3a6f;
+	}
+	.access-child-page .shop-detail h3 {
+		margin-top: 0;
+		line-height: 30px;
+		margin-bottom: 10px;
+	}
+	.access-child-page .shop-detail p {
+		margin-bottom: 0;
+	}
+	.access-child-page .shop-detail > p:first-child,
+	.access-child-page .shop-detail > p:first-of-type {
+		margin-bottom: 20px;
+	}
+	.access-child-page .shop-detail img {
+		margin-bottom: 10px;
+		width: 306px;
+		height: 218px;
+	}
+	.access-child-page .shop-detail p strong {
+		font-size: 16px;
+		font-weight: bold;
+	}
+	/*.access-child-page .shop-buttons*/
+	.access-child-page .shop-buttons{
+		height: auto;
+	}
+	.access-child-page .shop-buttons div{
+		box-shadow: 5px 5px 5px 1px #000;
+		display: block;
+		width: 32%;
+		margin-left: 2%;
+		float:left;
+	}
+	.access-child-page .shop-buttons div:first-child{
+		margin-left: 0;
+	}
+	.access-child-page .shop-buttons div a{
+		display: block;
+		margin: 0 auto;
+		padding: 0;
+		width:100%;
+	}
+	.access-child-page .shop-buttons div span{
+		display: block;
+		box-sizing: border-box;
+		float:left;
+	}
+	.access-child-page .shop-buttons div span:not(.icon){
+		color: #fff;
+		font-size: 19px;
+		line-height: 27px;
+		font-weight: bold;
+		padding: 26px 20px 26px 0;
+	}
+	body.en .access-child-page .shop-buttons div span:not(.icon){
+		font-size: 18px;
+	}
+	body.vi .access-child-page .shop-buttons div span:not(.icon),
+	body.ko .access-child-page .shop-buttons div span:not(.icon){
+		font-size: 16px;
+	}
+	body.ru .access-child-page .shop-buttons div span:not(.icon){
+		font-size: 15px;
+	}
+	.access-child-page .shop-buttons a:hover span:not(.icon){
+		text-decoration: underline;
+	}
+	.access-child-page .shop-buttons span.icon{
+		background-image: url('../images/spriteme-sp.png');
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 80px;
+		background-size: 50px;
+	}
+	.access-child-page .shop-buttons .plan,
+	.access-child-page .shop-buttons .plan span{
+		background-color: #f59231;
+	}
+	.access-child-page .shop-buttons .plan .icon{
+		background-position: 10px -1104px;
+		padding-left: 70px;
+	}
+	.access-child-page .shop-buttons .reserve,
+	.access-child-page .shop-buttons .reserve span{
+		background-color: #e9749a;
+	}
+	.access-child-page .shop-buttons .reserve .icon{
+		background-color: #e9749a;
+		background-position: 10px -4409px;
+		padding-left: 70px;
+	}
+	body.en .access-child-page .shop-buttons .reserve .icon,
+	body.vi .access-child-page .shop-buttons .reserve .icon,
+	body.ko .access-child-page .shop-buttons .reserve .icon{
+		background-position: 10px -4409px;
+		padding-left: 70px;
+	}
+	.access-child-page .shop-buttons .blog .icon{
+		background-color: #808080;
+		background-position: 10px -4483px;
+		padding-left: 70px;
+	}
+	.access-child-page .shop-buttons .blog,
+	.access-child-page .shop-buttons .blog span{
+		background-color: #808080;
+	}
+	/* END  - .access-child-page .shop-buttons */
+	.access-child-page .shop-instruction .map {
+		width: 455px;
+		height: 566px;
+		border: 4px solid #fff;
+		margin-right: 30px;
+		margin-top: 8px;
+		box-sizing: border-box;
+	}
+	.access-child-page .shop-instruction .map.shop iframe{
+		pointer-events: none;
+	}
+	.access-child-page .shop-instruction .instruction {
+		width: 475px;
+		margin-top: 8px;
+		color: #444;
+		font-family: Meiryo, arial;
+	}
+	body.cn .access-child-page .shop-instruction .instruction {
+		font-family: inherit;
+	}
+	.access-child-page .shop-instruction p {
+		font-size: 14px;
+		margin-bottom: 5px;
+		text-align: justify;
+		line-height: 1.4;
+	}
+	.access-child-page .shop-instruction p.title {
+		font-family: Meiryo, arial;
+		font-size: 16px;
+		line-height: 1.4;
+		padding-left: 25px;
+		margin-bottom: 5px;
+		text-align: left;
+		background: url('../images/spriteme-sp.png') no-repeat;
+		background-size: 20px;
+		display: inline;
+	 }
+	body.cn .access-child-page .shop-instruction p.title {
+		font-family: inherit;
+	}
+	.access-child-page .shop-instruction p.title.train {
+		background-position: 0px -1425px;
+	}
+	.access-child-page .shop-instruction p.title.bus {
+		background-position: 0px -1860px;
+	}
+	.access-child-page .shop-instruction p.title.taxi {
+		background-position: 0px -1824px;
+	}
+
+	.access-child-page .shop-instruction p.title.park {
+		background-position: 0px -1896px;
+	}
+
+	.access-child-page .shop-instruction p.title.inadmark {
+		background-position: 0px -1930px;
+	}
+	.access-child-page .image {
+		margin-top: 20px;
+	}
+	.access-child-page .youtube div {
+		float: left;
+		width: 49%;
+		margin-left: 1%;
+		height: 286px;
+	}
+	.access-child-page .youtube div:first-child {
+		margin-left: 0%;
+		margin-right: 1%;
+	}
+	.access-child-page .google_map_see_inside{
+		width: 100%;
+		height: 595px;
+		margin-top: 20px;
+		border: 10px solid #fff;
+		box-sizing: border-box;
+	}
+	.access-child-page .blog-shop {
+		margin-bottom: 20px !important;
+	}
+	.access-child-page .blog-shop .post-item {
+		float: left;
+		/*margin-left: 2%;*/
+		/*width: 23.5%;*/
+		color: #444;
+		line-height: 18px;
+		font-size: 12px;
+	}
+	.access-child-page .blog-shop .post-item:first-child,
+	.access-child-page .blog-shop .post-item.first{
+		margin-left: 0;
+	}
+	.access-child-page .blog-shop .post-item .featured-post {
+		width: 100%;
+		background-color: #eee;
+		margin-bottom: 5px;
+	}
+	.access-child-page .blog-shop .post-item img {
+		width: 100%;
+		height: auto;
+	}
+	.access-child-page .blog-shop .post-item a.shop_name {
+		color: #fff;
+		font-size: 12px;
+		font-family: Meiryo, arial;
+		background-color: #4e0037;
+		display: inline-block;
+		margin-right: 10px;
+		padding: 2px 5px;
+	}
+	.access-child-page .blog-shop .post-item span.blog-date {
+		font-size: 12px;
+		color: #444;
+	}
+	.access-child-page .blog-shop .post-item h3 {
+		padding: 0;
+		margin: 10px 0 0;
+	}
+	.access-child-page .blog-shop .post-item h3 a {
+		color: #8b5e86;
+		font-size: 20px;
+		font-family: Meiryo, arial;
+		line-height: 22px;
+	}
+
+	/* .instruction_full_width */
+	.instruction_full_width{
+		margin-bottom: 5px;
+	}
+	.asakusa_full_width{
+		margin-bottom: 10px;
+	}
+	.kanazawa_full_width{
+		display: flex;
+		flex-direction: column;
+	}
+	.instruction_full_width ul li{
+		float: left;
+		width: 455px;
+		margin-right: 30px;
+	}
+	.instruction_full_width ul li:nth-child(2n){
+		width: 475px;
+		margin-right: 0;
+	}
+
+	/* .distance-time */
+	.access-child-page ul.distance-time li{
+		margin-bottom: 12px;
+		overflow: hidden;
+	}
+	.access-child-page ul.distance-time li:last-child{
+		margin-bottom: 0;
+	}
+	.access-child-page ul.distance-time li label,
+	.access-child-page ul.distance-time li span{
+		display: inline-block;
+		float: left;
+		font-size: 18px;
+		font-weight: bold;
+		text-align: center;
+		box-sizing: border-box;
+		border-radius: 10px;
+		height:60px;
+		line-height: 60px;
+	}
+	body.hi .access-child-page ul.distance-time li label,
+	body.hi .access-child-page ul.distance-time li span{
+		font-size:14px;
+	}
+	body.id .kanazawa.access-child-page ul.distance-time li label,
+	body.id .kanazawa.access-child-page ul.distance-time li span{
+		font-size: 16px;
+	}
+	.access-child-page ul.distance-time li label{
+		width: 190px;
+		background-color: #723c6d;
+		color: #fff;
+	}
+	body.en .access-child-page ul.distance-time li label,
+	body.vi .access-child-page ul.distance-time li label,
+	body.ko .access-child-page ul.distance-time li label,
+	body.ru .access-child-page ul.distance-time li label,
+	body.th .access-child-page ul.distance-time li label,
+	body.id .access-child-page ul.distance-time li label{
+		width:205px;
+	}
+	body.en .kanazawa.access-child-page ul.distance-time li label,
+	body.vi .kanazawa.access-child-page ul.distance-time li label,
+	body.ko .kanazawa.access-child-page ul.distance-time li label,
+	body.ru .kanazawa.access-child-page ul.distance-time li label,
+	body.th .kanazawa.access-child-page ul.distance-time li label,
+	body.id .kanazawa.access-child-page ul.distance-time li label{
+		width:215px;
+	}
+	body.en .access-child-page ul.distance-time li label.title-distance,
+	body.vi .access-child-page ul.distance-time li label.title-distance,
+	body.ko .access-child-page ul.distance-time li label.title-distance,
+	body.ru .access-child-page ul.distance-time li label.title-distance,
+	body.th .access-child-page ul.distance-time li label.title-distance,
+	body.id .access-child-page ul.distance-time li label.title-distance{
+		line-height: 1.5;
+	}
+	body.hi .access-child-page ul.distance-time li label.title-distance
+	{
+		line-height: 1.7;
+	}
+	body.hi .petitkyotostation.access-child-page ul.distance-time li label.title-distance
+	{
+		line-height: 4.3;
+	}
+    body.hi .asakusa.access-child-page ul.distance-time li label.title-distance
+    {
+        line-height: 60px;
+    }
+	body.en .kanazawa.access-child-page ul.distance-time li label.title-distance,
+	body.vi .kanazawa.access-child-page ul.distance-time li label.title-distance,
+	body.ko .kanazawa.access-child-page ul.distance-time li label.title-distance,
+	body.ru .kanazawa.access-child-page ul.distance-time li label.title-distance,
+	body.th .kanazawa.access-child-page ul.distance-time li label.title-distance,
+	body.id .kanazawa.access-child-page ul.distance-time li label.title-distance,
+	body.cn .asakusa.access-child-page ul.distance-time li label.title-distance,
+	body.cn .kamakura.access-child-page ul.distance-time li label.title-distance{
+		line-height: 1.7;
+	}
+	body.fr .kanazawa.access-child-page ul.distance-time li label.long-text-label{
+		height: 75px;
+		line-height: 1.4;
+	}
+	body.fr .kanazawa.access-child-page ul.distance-time li span.long-text-span{
+		height: 75px;
+		line-height: 4;
+	}
+	.access-child-page ul.distance-time li span{
+		width: 285px;
+		border: 6px solid #723c6d;
+		color: #000000;
+		line-height: 48px;
+	}
+	body.en .access-child-page ul.distance-time li span,
+	body.vi .access-child-page ul.distance-time li span,
+	body.ko .access-child-page ul.distance-time li span,
+	body.ru .access-child-page ul.distance-time li span,
+	body.th .access-child-page ul.distance-time li span,
+	body.id .access-child-page ul.distance-time li span{
+		width: 270px;
+	}
+	body.en .kanazawa.access-child-page ul.distance-time li span,
+	body.vi .kanazawa.access-child-page ul.distance-time li span,
+	body.ko .kanazawa.access-child-page ul.distance-time li span,
+	body.ru .kanazawa.access-child-page ul.distance-time li span,
+	body.th .kanazawa.access-child-page ul.distance-time li span,
+	body.id .kanazawa.access-child-page ul.distance-time li span{
+		width: 260px;
+	}
+	body.en .access-child-page ul.distance-time li span.text-distance,
+	body.vi .access-child-page ul.distance-time li span.text-distance,
+	body.ko .access-child-page ul.distance-time li span.text-distance,
+	body.ru .access-child-page ul.distance-time li span.text-distance,
+	body.th .access-child-page ul.distance-time li span.text-distance,
+	body.id .access-child-page ul.distance-time li span.text-distance,
+	body.cn .access-child-page ul.distance-time li span.text-distance
+	{
+		line-height: 1.3;
+	}
+	body.hi .access-child-page ul.distance-time li span.text-distance
+	{
+		line-height: 1.7;
+	}
+    body.hi .arashiyama.access-child-page ul.distance-time li label.title-distance{
+        line-height: 4.5;
+    }
+    body.hi .kamakura.access-child-page ul.distance-time li label.title-distance{
+        line-height: 2.0;
+    }
+    body.hi .kanazawa.access-child-page ul.distance-time li label.title-distance{
+        line-height: 1.8;
+    }
+	body.vi .access-child-page .shop-instruction .instruction,
+	body.vi .access-child-page.hd-access{
+		font-family: Arial !important;
+	}
+	.access-page h2 span.region-title{
+		font-size: 24px;
+		box-sizing: border-box;
+	}
+	.access-page h2{
+		/*background-color: #733d6d;*/
+		font-family: 'Meiryo', arial;
+		font-weight: bold;
+		color: #712c7c;
+		/*height: 50px;*/
+		line-height: 50px;
+		margin-bottom: 10px;
+	}
+	.osaka-kimono span.region-title{
+		/*padding-left: 10px;*/
+		font-size: 24px;
+		box-sizing: border-box;
+	}
+	.osaka-kimono .child-page .shinsaibashi h2{
+		font-size: 22px;
+	}
+	/* customize instruction shop slide show */
+	.instruction-shop h3,
+	.youtube h3{
+		background-color: #6d3a6f;
+		width: 100%;
+		font-size: 30px;
+		font-family: Meiryo, arial;
+		line-height: 40px;
+		color: #fff;
+		font-weight: bold;
+		height: 40px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		padding-left: 10px;
+		box-sizing: border-box;
+	}
+	body.cn .instruction-shop h3{
+		font-family: inherit;
+	}
+	.instruction-shop .flexslider{
+		margin-bottom: 0;
+	}
+	.instruction-shop .flexslider .flex-direction-nav a{
+		width: 50px;
+		height: 50px;
+	}
+	.instruction-shop p.description{
+		margin-bottom: 20px;
+	}
+	.instruction-shop .flex-caption{
+		background-color: #E0C492;
+		padding: 5px;
+		box-sizing: border-box;
+		position: relative;
+		display: flex;
+		display: -webkit-flex;
+		flex-direction: row;
+		-webkit-flex-direction: row;
+	}
+	.instruction-shop .flex-caption .caption-slide{
+		width: 10%;
+		margin-right: 5%;
+		position: relative;
+	}
+	.instruction-shop .flex-caption .caption-slide span{
+		color: #501D0C;
+		font-weight: bold;
+	}
+	.instruction-shop .flex-caption .caption-slide span.item{
+		font-size: 75px;
+		padding-left: 10px;
+	}
+	.instruction-shop .flex-caption .caption-slide span.total-item{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		font-size: 30px;
+	}
+	.instruction-shop .flex-caption .name{
+		width: 85%;
+		font-size: 25px;
+		font-weight: bold;
+		background-color: #fff;
+		color: #501D0C;
+		padding: 0 50px 0 20px;
+		min-height: 110px;
+		box-sizing: border-box;
+	}
+	.tool{
+		display: flex;
+		display: -webkit-flex;
+		flex-flow: row wrap;
+		-webkit-flex-flow: row wrap;
+		-webkit-align-items: center;
+		justify-content: flex-end;
+		-webkit-justify-content: flex-end;
+		position: relative;
+		right: 40px;
+		top: -65px;
+		z-index: 0;
+	}
+	#carousel{
+		margin-right: 180px;
+		z-index: 1;
+	}
+	.navNext {
+		height: 20px;
+		width: 20px;
+		cursor: pointer;
+		background: url('../images/icon/next.png');
+	}
+	.navPrev {
+		height: 20px;
+		width: 20px;
+		cursor: pointer;
+		background: url('../images/icon/prev.png');
+	}
+	.navPlay {
+		height: 30px;
+		width: 30px;
+		cursor: pointer;
+		background: url('../images/icon/play-big.png') top left no-repeat;
+	}
+	.navPause {
+		height: 30px;
+		width: 30px;
+		cursor: pointer;
+		background: url('../images/icon/pause-big.png') top left no-repeat;
+	}
+
+	.instruction-shop #carousel .slides img:hover{
+		opacity: 0.5;
+		cursor: pointer;
+	}
+	/* End customize instruction shop slide show */
+	/*duyen #15699: 店舗WEBリニューアル*/
+	.access-child-page .topics{
+	}
+	.access-child-page .topics .two-columns{
+		margin-bottom: 21px;
+	}
+	.access-child-page .topics .two-columns li{
+		width: 48.90625%;
+		float: left;
+		margin-left:2.1875%;
+	}
+	.access-child-page .topics .two-columns li:first-child{
+		margin-left: 0;
+	}
+	.access-child-page .topics .three-columns li{
+		width: 49%;
+		float:left;
+		margin-left: 2%;
+	}
+	.access-child-page .topics .three-columns li:first-child{
+		margin-left: 0;
+	}
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+	.layout-kimono-sp .main-content > .container{
+		padding: 0 7px;
+		box-sizing: border-box;
+	}
+	body.vi .access-child-page .shop-page-title .page-title {
+		line-height: 42px;
+		font-size: 35px;
+	}
+	body.th .access-child-page .shop-page-title div.left,
+	body.id .access-child-page .shop-page-title div.left {
+		width: 100%;
+	}
+	body.th .access-child-page .shop-page-title div.right,
+	body.id .access-child-page .shop-page-title div.right,
+	body.th .access-child-page .shop-page-title.kyotostation div.right{
+		margin-top: 0;
+	}
+}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	.access-child-page.hd-access .container {
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+	.access-child-page .shop-page-title div.left{
+		width: 100%;
+	}
+	.instruction_full_width ul li,
+	body.fr .instruction_full_width ul li:nth-child(2n),
+	body.cn .instruction_full_width ul li:nth-child(2n){
+		width: 100%;
+	}
+	body.ru .access-child-page .shop-page-title div.left{
+		width:51%;
+	}
+	body.ru .access-child-page .kyotostation .page-title{
+		font-size:38px;
+	}
+	body.en .access-child-page.osaka-shinsaibashi .shop-page-title .page-title,
+	body.vi .access-child-page.osaka-shinsaibashi .shop-page-title .page-title{
+		font-size: 30px;
+		line-height: 1;
+	}
+	body.en .access-child-page.osaka-shinsaibashi .shop-page-title div.left,
+	body.vi .access-child-page.osaka-shinsaibashi .shop-page-title div.left{
+		padding-top: 20px;
+	}
+	.access-child-page.osaka-shinsaibashi .shop-icon .shop-name-en{
+		font-size: 15px;
+		line-height: 1;
+		margin-bottom: 2px;
+	}
+	.access-child-page .shop-detail .title {
+		font-size: 23px;
+	}
+	body.en .access-child-page .shop-detail .title {
+		font-size: 21px;
+	}
+	body.fr .access-child-page .shop-detail .title {
+		font-size: 19px;
+	}
+	body.en .access-child-page .shop-buttons div span:not(.icon){
+		font-size: 14px;
+	}
+	body.vi .access-child-page .shop-buttons div span:not(.icon){
+		font-size: 13px;
+	}
+	body.ko .access-child-page .shop-buttons div span:not(.icon){
+		font-size: 12px;
+	}
+	body.ru .access-child-page .shop-buttons div span:not(.icon){
+		font-size:11px;
+	}
+	.access-child-page .shop-detail .shop-detail-3 {
+		font-size: 16px;
+	}
+	.access-child-page .shop-buttons div span:not(.icon){
+		font-size: 16px;
+		padding: 26px 10px 26px 0 !important;
+	}
+	.access-child-page .youtube div{
+		margin-bottom: 10px;
+	}
+	.access-child-page .shop-instruction .map,
+	.access-child-page .shop-instruction .instruction,
+	.access-child-page .google_map_see_inside{
+		width: 100%;
+		margin-right: 0;
+		margin-top: 0;
+		margin-bottom: 10px;
+		border: 0;
+	}
+	.access-child-page .shop-instruction .map,
+	.access-child-page .google_map_see_inside{
+		height: 200px;
+	}
+	.access-child-page .blog-shop .post-item h3 a {
+		font-size: 13px;
+		line-height: 1;
+	}
+	.access-child-page .google_map_see_inside{
+		width: 100%;
+	}
+	.box-overview-page-howto-faq, .box-overview-kimono-page{
+		width: 100%;
+	}
+	.box-overview-page-howto-faq .image, .box-overview-kimono-page .image{
+		width: 48.958333%;
+	}
+	.box-overview-page-howto-faq .info, .box-overview-kimono-page .info{
+		width: 51.0016%;
+	}
+	.access-page .child-page .google_map p.access-map{
+		width: 100% !important;
+	}
+	.access-page .box-overview-page-howto-faq .info .wrap h2{
+		font-size: 28px;
+	}
+	body.en .access-page .box-overview-page-howto-faq .info .wrap h2,
+	body.vi .access-page .box-overview-page-howto-faq .info .wrap h2{
+		font-size: 24px;
+	}
+	body.ru .access-page .box-overview-page-howto-faq .info .wrap h2{
+		font-size:26px;
+	}
+	.access-child-page .youtube div{
+		margin-left: 0;
+	}
+	body.ru .box-overview-page-howto-faq .info p,
+	body.ru .box-overview-kimono-page .info p{
+		font-size:12px;
+	}
+
+	/* .distance-time */
+	.access-child-page ul.distance-time li label,
+	body.en .access-child-page ul.distance-time li label,
+	body.vi .access-child-page ul.distance-time li label,
+	body.ko .access-child-page ul.distance-time li label,
+	body.ru .access-child-page ul.distance-time li label,
+	body.th .access-child-page ul.distance-time li label,
+	body.id .access-child-page ul.distance-time li label,
+	.access-child-page ul.distance-time li span,
+	body.en .access-child-page ul.distance-time li span,
+	body.vi .access-child-page ul.distance-time li span,
+	body.ko .access-child-page ul.distance-time li span,
+	body.ru .access-child-page ul.distance-time li span,
+	body.th .access-child-page ul.distance-time li span,
+	body.id .access-child-page ul.distance-time li span,
+	body.en .kanazawa.access-child-page ul.distance-time li label,
+	body.vi .kanazawa.access-child-page ul.distance-time li label,
+	body.ko .kanazawa.access-child-page ul.distance-time li label,
+	body.ru .kanazawa.access-child-page ul.distance-time li label,
+	body.th .kanazawa.access-child-page ul.distance-time li label,
+	body.id .kanazawa.access-child-page ul.distance-time li label,
+	body.en .kanazawa.access-child-page ul.distance-time li span,
+	body.vi .kanazawa.access-child-page ul.distance-time li span,
+	body.ko .kanazawa.access-child-page ul.distance-time li span,
+	body.ru .kanazawa.access-child-page ul.distance-time li span,
+	body.th .kanazawa.access-child-page ul.distance-time li span,
+	body.id .kanazawa.access-child-page ul.distance-time li span{
+		width: 50%;
+		font-size: 18px;
+		height: 60px;
+		line-height: 60px;
+		border-radius: 10px;
+	}
+	body.hi .kanazawa.access-child-page ul.distance-time li span{
+		font-size: 16px;
+	}
+	body.hi .kamakura.access-child-page ul.distance-time li span{
+		line-height: 48px;
+	}
+	body.hi .access-child-page ul.distance-time li label,
+	body.hi .kamakura.access-child-page ul.distance-time li span{
+		font-size: 15px;
+	}
+
+	body.hi .kyotostation.access-child-page ul.distance-time li span{
+		font-size: 15px;
+	}
+	.access-child-page ul.distance-time li span{
+		border-width: 6px;
+		line-height: 48px;
+	}
+	body.fr .instruction-shop .flex-caption .name{
+		min-height: 202px;
+		font-size: 22px;
+	}
+	body.fr .petitkyotostation .instruction-shop .flex-caption .name{
+		min-height: 331px;
+	}
+	body.fr .instruction-shop .flex-caption .caption-slide span.item{
+		padding-left:0;
+	}
+	body.fr .access-page .box-overview-page-howto-faq .info p{
+		line-height: 1.5;
+	}
+	body.fr .access-page .box-overview-page-howto-faq .info .wrap h2{
+		margin-bottom: 0;
+	}
+
+    .sectionLinkToShop .box-overview-page-howto-faq{
+        display: flex;
+        display: -webkit-flex;
+        display: -ms-flex;
+    }
+    .sectionLinkToShop .box-overview-page-howto-faq>div{
+        width: auto;
+        flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+    }
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	div.bg-pink{
+		display: block;
+		background-color: #e7488c;
+		color: #fff;
+		padding:2px 0;
+		margin: 10px auto 5px auto;
+		text-indent: 8px;
+		font-size: 18px;
+	}
+	div.title-icon-shop{
+		font-size: 18px;
+		font-weight: bold;
+		margin-top: 20px;
+		line-height: 1;
+	}
+	.access-child-page .shop-page-title div.list-icon-shop{
+		float: none !important;
+		display: -webkit-flex; /* Safari */
+		display: flex;
+		justify-content: center;
+	}
+	.access-child-page .shop-page-title div.right{
+		padding-bottom: 10px;
+	}
+	.access-child-page.asakusa .shop-detail,
+	.access-child-page.kamakura .shop-detail{
+		margin-bottom: 0;
+	}
+	.access-child-page .shop-icon .icon-shop{
+		margin-right: 0;
+	}
+	.osaka-kimono .page-item{
+		margin-right: 2%!important;
+	}
+	.osaka-kimono .clearfix{
+		clear:both;
+	}
+	.osaka-kimono .osaka-map{
+		width: 100%!important;
+		margin-right: 0!important;
+	}
+	.osaka-kimono span.region-title{
+		font-size: 20px;
+	}
+	.access-page .child-page .page-item{
+		min-height: auto;
+	}
+	/* Access Page Tona*/
+	.access-page{
+		/*margin-bottom: 20px;*/
+	}
+	body.ko .access-page .box-overview-page-howto-faq .info .wrap h2{
+		font-size:27px;
+	}
+	.layout-kimono-sp .box-overview-page-howto-faq{
+		margin: 0;
+	}
+	.box-overview-page-howto-faq, .box-overview-kimono-page{
+		width: 100%;
+		height: auto;
+	}
+	.access-page div.child-page div.page-item{
+		width: 100%;
+		float: none;
+		box-sizing: border-box;
+		margin-right: 0;
+		padding: 7px 0;
+		background: #fff;
+	}
+	.access-child-page .page-excerpt{
+		width: 100%;
+	}
+	div.box-overview-page-howto-faq{
+		background: #fff;
+	}
+	body.vi .access-child-page .shop-page-title .page-title{
+		line-height: 1;
+	}
+	.access-child-page h2.blog{
+		font-size: 30px;
+		line-height: 45px;
+		background-size: 40px;
+		height: 45px;
+		padding-left: 50px;
+		background-position: 6px -3597px;
+	}
+	.access-page div.child-page div.page-item div.featured-post a img {
+		width: 100%;
+		height: auto;
+	}
+	.box-overview-page-howto-faq .image, .box-overview-kimono-page .image{
+		width: 100%;
+		height: auto;
+	}
+
+	.box-overview-page-howto-faq .image img, .box-overview-kimono-page .image img{
+		width: 100%;
+		height: auto;
+	}
+	.box-overview-page-howto-faq .info, .box-overview-kimono-page .info{
+		width: 100%;
+		height: auto;
+		margin-bottom: 12px;
+		background: #f1ebf0;
+	}
+	.layout-kimono-sp .box-overview-page-howto-faq .info .wrap{
+		padding: 7px;
+		box-sizing: border-box;
+	}
+	.access-page .content-column-page .wrap {
+		margin-bottom: 0;
+	}
+
+	.access-page div.google_map #access-map {
+		width: 100% !important;
+		height: 300px !important;
+	}
+	.access-child-page h3{
+		font-size: 20px;
+	}
+	.access-child-page .shop-page-title{
+		margin-top: 0;
+	}
+	.access-child-page .shop-page-title div.left {
+		width: 68%;
+		overflow: hidden;
+	}
+	.access-child-page .shop-page-title div.right{
+		margin-top: 12px;
+	}
+	.access-child-page .shop-page-title.kyotostation div.list-icon-shop {
+		margin-top: 34px;
+	}
+	body.vi .access-child-page .shop-page-title.kyotostation div.list-icon-shop,
+	body.en .access-child-page .shop-page-title.kyotostation div.list-icon-shop {
+		margin-top: 54px;
+	}
+
+	.access-child-page div.page-excerpt.forpc{
+		display: none;
+	}
+	.access-child-page div.page-excerpt.forsp {
+		margin-top: 20px;
+		width: 100%;
+		display: inline-block;
+		line-height: 1.5;
+		font-size: 15px;
+	}
+	.access-child-page .shop-buttons div a{
+		height: auto;
+	}
+	body.ru .access-child-page .shop-buttons div a{
+		height: 130px;
+	}
+	.access-child-page .shop-buttons div span{
+		margin: 0 auto;
+		float:none;
+	}
+	.access-child-page .shop-buttons div span:not(.icon){
+		padding: 10px 5px;
+		text-align: center;
+		line-height: 1;
+	}
+	.access-child-page .shop-list .slide-images .list-image ul,
+	.access-child-page .list-image-new ul{
+		width: 100%;
+	}
+	.access-child-page .shop-list .slide-images .list-image ul li,
+	.access-child-page .list-image-new ul li{
+		width: 25%;
+	}
+	.access-child-page .list-image-new ul li {
+		box-shadow: 0px 1px 1px #4e0037;
+		float: left;
+		list-style: outside none none;
+		padding: 1px 1px 1px 0;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.access-child-page .shop-list .slide-images .list-image,
+	.list-image-new{
+		width: 100%!important;
+		box-sizing: border-box;
+		padding-left: 0;
+	}
+
+	.access-child-page .shop-detail{
+		width: 100%;
+		box-sizing: border-box;
+		border: 1px solid #000;
+	}
+	.access-child-page .shop-detail .title {
+		width: 100%;
+	}
+	.access-child-page .shop-detail .shop-detail-3{
+		width: 100%;
+	}
+	.access-child-page h2 {
+		font-size: 30px;
+		line-height: 45px;
+		height: 45px;
+		padding-left: 35px;
+		background-size: 200px;
+	}
+	.access-child-page h2 span.icon-user{
+		height: 40px;
+		width: 34px;
+		background-position: 2px -82px;
+		background-size: 200px;
+	}
+	.access-child-page .youtube div {
+		float: left;
+		width: 100%;
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+	.access-child-page .image figure:first-child,
+	.access-child-page .youtube div:first-child {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.access-child-page .shop-instruction .instruction{
+		float: left!important;
+		width: 100%!important;
+		padding: 0 7px;
+		box-sizing: border-box;
+	}
+	.access-child-page .shop-instruction .map {
+		width: 100%;
+		height: 400px !important;
+		margin-top: 8px;
+		box-sizing: border-box;
+		border: 0;
+		margin: 0;
+	}
+	.access-child-page .google_map_see_inside {
+		height: 200px;
+		border: 0;
+		margin-bottom: 15px;
+	}
+	div.access-child-page div.blog-shop{
+		width: 100%;
+		box-sizing: border-box;
+	}
+	.access-child-page .blog-shop .post-item{
+		width: 49%;
+	}
+	.access-child-page .blog-shop .post-item:nth-child(2n+1){
+		margin-left: 0;
+	}
+	div.access-child-page div.blog-shop div.post-item div.featured-post{
+		width: 100%;
+		height: auto;
+	}
+	div.access-child-page div.blog-shop div.post-item div.featured-post a img{
+		width: 100%;
+		height: auto;
+	}
+	div.container div.access-child-page .blog-shop .post-item h3{
+		padding-bottom: 15px;
+		height: 42px;
+	}
+    .access-child-page div.shop-detail img{
+		width: 100%;
+		height: auto;
+    }
+	.access-child-page .blog-shop .post-item h3 a {
+		font-size: 13px;
+		line-height: 1;
+	}
+	body.en .access-child-page .shop-detail .title,
+	body.vi .access-child-page .shop-detail .title {
+		width: 100%;
+		font-size: 20px;
+	}
+	body.en .access-child-page .shop-detail .shop-detail-3 ,
+	body.vi .access-child-page .shop-detail .shop-detail-3 {
+		width: 100%;
+	}
+	body.en .access-child-page .shop-buttons div span:not(.icon),
+	body.vi .access-child-page .shop-buttons div span:not(.icon){
+		font-size: 12px;
+	}
+	body.en .access-child-page .shop-buttons .reserve .icon,
+	body.vi .access-child-page .shop-buttons .reserve .icon{
+		/*background-position: 0 -579px;*/
+	}
+	body.en .access-child-page .shop-buttons div,
+	body.vi .access-child-page .shop-buttons div{
+		height: 110px;
+	}
+	.access-child-page .shop-instruction .instruction p.title.inadmark {
+		background-position: 0px -1737px;
+		background-size: 18px;
+	}
+	body.page-slug-access .footer-region {
+		padding: 0 !important;
+	}
+
+	/* customize instruction shop slide show */
+	.instruction-shop .flexslider .flex-direction-nav a{
+		width: 30px;
+		height: 30px;
+		z-index: 2;
+	}
+	.instruction-shop .flexslider .flex-direction-nav a:before{
+		font-size: 25px;
+	}
+	.instruction-shop .flex-caption .caption-slide{
+		width: 10%;
+		margin-right: 3%;
+	}
+	.instruction-shop .flex-caption .caption-slide span.item{
+		font-size: 25px;
+		padding-left: 0;
+	}
+	.instruction-shop .flex-caption .caption-slide span.total-item{
+		font-size: 12px;
+	}
+	.instruction-shop .flex-caption .name{
+		width: 87%;
+		font-size:12px;
+		padding: 5px;
+		min-height: inherit;
+	}
+	.tool{
+		justify-content: center;
+		width: 100%;
+		margin: 10px 0;
+		top: 0;
+		right: inherit;
+	}
+	#carousel{
+		margin-right: 0;
+	}
+	/* End customize instruction shop slide show */
+
+	/* .distance-time */
+	.access-child-page ul.distance-time li label,
+	body.en .access-child-page ul.distance-time li label,
+	body.vi .access-child-page ul.distance-time li label,
+	body.ko .access-child-page ul.distance-time li label,
+	body.ru .access-child-page ul.distance-time li label,
+	body.th .access-child-page ul.distance-time li label,
+	body.id .access-child-page ul.distance-time li label,
+	.access-child-page ul.distance-time li span,
+	body.en .access-child-page ul.distance-time li span,
+	body.vi .access-child-page ul.distance-time li span,
+	body.ko .access-child-page ul.distance-time li span,
+	body.ru .access-child-page ul.distance-time li span,
+	body.th .access-child-page ul.distance-time li span,
+	body.id .access-child-page ul.distance-time li span,
+	body.en .kanazawa.access-child-page ul.distance-time li label,
+	body.vi .kanazawa.access-child-page ul.distance-time li label,
+	body.ko .kanazawa.access-child-page ul.distance-time li label,
+	body.ru .kanazawa.access-child-page ul.distance-time li label,
+	body.th .kanazawa.access-child-page ul.distance-time li label,
+	body.id .kanazawa.access-child-page ul.distance-time li label,
+	body.en .kanazawa.access-child-page ul.distance-time li span,
+	body.vi .kanazawa.access-child-page ul.distance-time li span,
+	body.ko .kanazawa.access-child-page ul.distance-time li span,
+	body.ru .kanazawa.access-child-page ul.distance-time li span,
+	body.th .kanazawa.access-child-page ul.distance-time li span,
+	body.id .kanazawa.access-child-page ul.distance-time li span{
+		width: 50%;
+		font-size: 13px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 5px;
+	}
+	body.hi .kanazawa.access-child-page ul.distance-time li span,
+	body.hi .kanazawa.access-child-page ul.distance-time li label{
+		font-size:10px;
+	}
+	body.en .kanazawa.access-child-page ul.distance-time li label.title-distance,
+	body.vi .kanazawa.access-child-page ul.distance-time li label.title-distance,
+	body.ko .kanazawa.access-child-page ul.distance-time li label.title-distance,
+	body.ru .kanazawa.access-child-page ul.distance-time li label.title-distance,
+	body.th .kanazawa.access-child-page ul.distance-time li label.title-distance,
+	body.id .kanazawa.access-child-page ul.distance-time li label.title-distance {
+		line-height: 1.5;
+	}
+	body.hi .kamakura.access-child-page ul.distance-time li span{
+		line-height:36px;
+	}
+	body.hi .kanazawa.access-child-page ul.distance-time li label.title-distance {
+		line-height: 2.0;
+	}
+	body.en .kanazawa.access-child-page ul.distance-time li label,
+	body.vi .kanazawa.access-child-page ul.distance-time li label,
+	body.ko .kanazawa.access-child-page ul.distance-time li label,
+	body.ru .kanazawa.access-child-page ul.distance-time li label,
+	body.th .kanazawa.access-child-page ul.distance-time li label,
+	body.id .kanazawa.access-child-page ul.distance-time li label{
+		width:52%;
+	}
+	body.en .kanazawa.access-child-page ul.distance-time li span,
+	body.vi .kanazawa.access-child-page ul.distance-time li span,
+	body.ko .kanazawa.access-child-page ul.distance-time li span,
+	body.ru .kanazawa.access-child-page ul.distance-time li span,
+	body.th .kanazawa.access-child-page ul.distance-time li span,
+	body.id .kanazawa.access-child-page ul.distance-time li span{
+		width:48%;
+	}
+	body.fr .kanazawa.access-child-page ul.distance-time li label,
+	body.fr .kanazawa.access-child-page ul.distance-time li span{
+		width:50%;
+	}
+	body.en .access-child-page ul.distance-time li label,
+	body.vi .access-child-page ul.distance-time li label,
+	body.ko .access-child-page ul.distance-time li label,
+	body.ru .access-child-page ul.distance-time li label,
+	body.th .access-child-page ul.distance-time li label,
+	body.id .access-child-page ul.distance-time li label,
+	body.en .access-child-page ul.distance-time li span,
+	body.vi .access-child-page ul.distance-time li span,
+	body.ko .access-child-page ul.distance-time li span,
+	body.ru .access-child-page ul.distance-time li span,
+	body.th .access-child-page ul.distance-time li span,
+	body.id .access-child-page ul.distance-time li span{
+		font-size: 12px;
+	}
+	body.hi .access-child-page ul.distance-time li span{
+		font-size: 10.5px;
+	}
+	body.hi .access-child-page ul.distance-time li label{
+		font-size: 10.5px;
+	}
+	body.hi .kyotostation.access-child-page ul.distance-time li span{
+		font-size: 9.5px;
+	}
+	body.hi .kyotostation.access-child-page ul.distance-time li label{
+		font-size: 9.5px;
+	}
+    body.hi .asakusa.access-child-page ul.distance-time li label.title-distance
+    {
+        line-height: 45px;
+    }
+	.access-child-page ul.distance-time li span{
+		border-width: 3px;
+		line-height: 34px;
+	}
+	.instruction_full_width ul li{
+		width: 100% !important;
+		float: none;
+		margin-bottom: 10px;
+	}
+	.instruction_full_width ul li:last-child{
+		margin-bottom: 0;
+	}
+	.access-child-page .topics .two-columns{
+		margin-bottom: 10px;
+	}
+	.access-child-page .topics .three-columns li{
+		width: 100%;
+		margin-bottom: 5px;
+		margin-left: 0;
+	}
+	body.fr .kanazawa.access-child-page ul.distance-time li label.long-text-label,
+	body.fr .kanazawa.access-child-page ul.distance-time li span.long-text-span{
+		height: 60px;
+	}
+	body.fr .kanazawa.access-child-page ul.distance-time li span.long-text-span{
+		line-height: 5;
+	}
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	.access-child-page .shop-page-title div.left {
+		width: 100%;
+	}
+	.access-page div.child-page div.page-item{
+		width: 49%;
+	}
+	.access-page .child-page .page-item.gion-shijo h2, .access-page .child-page .page-item.kinkakuji h2{
+		height: auto;
+	}
+	body.en .access-page .child-page .page-item.gion-shijo h2,body.en .access-page .child-page .page-item.kinkakuji h2{
+		height: auto;
+	}
+	body.vi .access-page .child-page .page-item.gion-shijo h2,body.vi .access-page .child-page .page-item.kinkakuji h2{
+		height: auto;
+	}
+	.access-page .child-page .page-item.gion-shijo h2 a, .access-page .child-page .page-item.kinkakuji h2 a{
+		margin-bottom: 13px;
+		position: static;
+	}
+	.access-page .child-page .kinkakuji .featured-post{
+		margin-top: 7px;
+	}
+	.access-page div.child-page div.shinkyogoku, .access-page div.child-page div.ninenzaka,
+	.access-page div.child-page div.kyotostation,
+	.access-page div.child-page div.arashiyama,
+	.access-page div.child-page div.petitkyotostation{
+		float:left;
+	}
+	.access-page div.child-page div.kiyomizuzaka, .access-page div.child-page div.kinkakuji,
+	.access-page div.child-page div.gion-shijo,
+	.access-page div.child-page div.petitgionshijo{
+		float:right;
+	}
+	body.en .access-child-page.osaka-shinsaibashi .shop-page-title .page-title,
+	body.vi .access-child-page.osaka-shinsaibashi .shop-page-title .page-title,
+	.access-child-page .shop-page-title .page-title,
+	.access-child-page .shop-page-title.tokyoskytree .page-title{
+		font-size: 20px;
+		padding-top: 4px;
+		line-height: 1;
+	}
+
+	.access-child-page .shop-page-title.kyotostation .shop-name-en {
+		font-size: 12px;
+		line-height: 13px;
+	}
+	.access-child-page .shop-page-title .shop-name-en {
+		font-size: 15px;
+		line-height: 1;
+	}
+	.access-child-page .shop-page-title.kyotostation div.list-icon-shop {
+		margin-top: 20px;
+	}
+	.access-child-page .shop-page-title div.list-icon-shop{
+		margin-top: 0;
+	}
+	.access-child-page .shop-buttons div span:not(.icon) {
+		font-size: 15px;
+		line-height: 1.5;
+		padding: 5px;
+	}
+	.access-child-page .shop-page-title div.list-icon-shop {
+		margin-top: 0;
+	}
+	body.en .access-child-page .shop-page-title.kyotostation div.list-icon-shop,
+	body.vi .access-child-page .shop-page-title.kyotostation div.list-icon-shop,
+	.access-child-page .shop-page-title.kyotostation div.list-icon-shop {
+		margin-top: 20px;
+	}
+	.access-child-page .page-excerpt{
+		font-size: 14px;
+	}
+	.access-child-page .shop-detail .shop-detail-3 {
+		font-size: 15px;
+	}
+	.access-child-page .shop-buttons span.icon {
+		width: 50px;
+		height: 55px;
+		background-size: 40px;
+	}
+	.access-child-page .shop-buttons .plan .icon {
+		background-position: 20px -885px;
+	}
+	.access-child-page .shop-buttons div span:not(.icon){
+		font-size: 13px;
+	}
+	body.ko .access-child-page .shop-buttons div span:not(.icon){
+		font-size:10px;
+	}
+	.access-child-page .shop-buttons .reserve .icon {
+		background-position: 15px -3470px;
+	}
+	body.en .access-child-page .shop-buttons .reserve .icon,
+	body.vi .access-child-page .shop-buttons .reserve .icon,
+	body.ko .access-child-page .shop-buttons .reserve .icon,
+	body.ru .access-child-page .shop-buttons .reserve .icon{
+		background-position: 15px -3526px;
+	}
+	body.en .access-child-page .shop-buttons div,
+	body.vi .access-child-page .shop-buttons div{
+		height: 100px;
+	}
+	.access-child-page .shop-buttons .blog .icon {
+		background-position: 15px -3588px;
+	}
+	.access-child-page div.page-excerpt{
+		width: 100%;
+	}
+	.access-child-page .shop-list{
+		margin-right: 0 !important;
+		width: 100%;
+	}
+	.access-child-page .shop-list .slide-images .main-image{
+		width: 100%;
+	}
+	.access-child-page .shop-list .slide-images img,
+	.access-child-page .shop-list .slide-images .list-image ul li img,
+	.access-child-page .list-image-new ul li img{
+		width: 100% !important;
+		height: auto !important;
+	}
+	.access-child-page .shop-instruction .instruction {
+		padding: 0 !important;
+	}
+	.access-child-page .blog-shop .post-item{
+		width: 49%;
+	}
+	.access-child-page .blog-shop .post-item:nth-child(2n+1){
+		margin-left: 0;
+	}
+	.access-child-page .blog-shop .post-item h3 a{
+		font-size: 15px;
+	}
+	div.container div.access-child-page .blog-shop .post-item h3 {
+		padding-bottom: 15px;
+		height: 62px;
+	}
+}
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px){
+	.access-child-page .shop-page-title .page-title{
+		font-size: 30px;
+	}
+	.access-child-page .shop-page-title.tokyoskytree .page-title{
+		font-size: 22px;
+	}
+	body.en .access-child-page .shop-page-title .page-title{
+		font-size: 28px;
+	}
+	body.en .access-child-page.osaka-shinsaibashi .shop-page-title .page-title,
+	body.vi .access-child-page.osaka-shinsaibashi .shop-page-title .page-title {
+		font-size: 22px;
+	}
+	body.vi .access-child-page .shop-page-title .page-title{
+		font-size: 25px;
+	}
+	.access-child-page .shop-icon .shop-name-en{
+		font-size: 15px;
+	}
+
+	/* shop-close-service */
+	body:not(.ja) .access-child-page .shop-icon .shop-name-en-close-service{
+		clear: both;
+		line-height: 1.1;
+		margin-bottom: 10px;
+	}
+	.shop-close-service{
+		margin-left: 0;
+	}
+	body.ja .access-child-page .shop-icon .shop-name-en-close-service,
+	body.ko .access-child-page .shop-icon .shop-name-en-close-service,
+	body.cn .access-child-page .shop-icon .shop-name-en-close-service,
+	body.tw .access-child-page .shop-icon .shop-name-en-close-service{
+		clear: none;
+		line-height: 30px;
+		margin-bottom: 0;
+	}
+	body.ja .access-child-page .shop-icon .shop-name-en-close-service .shop-close-service,
+	body.ko .access-child-page .shop-icon .shop-name-en-close-service .shop-close-service,
+	body.cn .access-child-page .shop-icon .shop-name-en-close-service .shop-close-service,
+	body.tw .access-child-page .shop-icon .shop-name-en-close-service .shop-close-service{
+		margin-left: 5px;
+	}
+
+	.access-child-page .shop-page-title div.right{
+		margin-top: 0;
+	}
+	.access-child-page div.page-excerpt.forsp{
+		line-height: 25px;
+		font-size: 14px;
+		text-align: justify;
+	}
+	.access-child-page .shop-detail .title{
+		font-size: 20px;
+		line-height: 1.5;
+	}
+	.access-child-page .shop-detail .shop-detail-3{
+		font-size: 13px;
+	}
+	body.fr .access-child-page .shop-detail .shop-detail-3{
+		font-size: 12px;
+	}
+	body.fr .access-child-page.arashiyama .shop-detail .shop-detail-3,
+	body.fr .kanazawa.access-child-page ul.distance-time li label,
+	body.fr .kanazawa.access-child-page ul.distance-time li span{
+		font-size: 11px;
+	}
+	.access-child-page .shop-instruction .instruction p.title{
+		font-size: 15px;
+	}
+	body.en .access-child-page .shop-buttons div, body.vi .access-child-page .shop-buttons div {
+		height: 130px;
+	}
+	.access-child-page h2{
+		font-size: 20px;
+		height: 40px;
+	}
+	body.vi .access-child-page .shop-page-title.kyotostation div.list-icon-shop,
+	body.en .access-child-page .shop-page-title.kyotostation div.list-icon-shop,
+	.access-child-page .shop-page-title.kyotostation div.list-icon-shop{
+		margin-top: 0;
+	}
+	.access-child-page .shop-page-title div.left {
+		position: relative;
+		width: 100%;
+	}
+	.access-child-page .shop-buttons  div span:not(.icon){
+		font-size: 13px;
+		line-height: 1.5;
+		padding: 5px;
+	}
+	body.ko .access-child-page .shop-buttons div span:not(.icon){
+		font-size:6px;
+	}
+	.access-child-page .blog-shop .post-item {
+		width: 100%;
+		margin-left: 0;
+	}
+	div.container div.access-child-page .blog-shop .post-item h3{
+		height: auto;
+	}
+	.access-child-page.osaka-shinsaibashi .shop-icon .shop-name-en{
+		font-size: 11px;
+		line-height: 1;
+	}
+	body.ru .access-child-page .shop-buttons div span:not(.icon){
+		font-size:11px;
+	}
+	body.ru .box-overview-page-howto-faq .info h1,
+	body.ru .box-overview-kimono-page .info h1{
+		font-size:18px;
+	}
+	body.ru .access-page .box-overview-page-howto-faq .info .wrap h2{
+		font-size:21px;
+	}
+	body.fr .kanazawa.access-child-page ul.distance-time li label.title-distance {
+		line-height: 1.9;
+	}
+	body.en .regionShops .shopItem,
+	body.vi .regionShops .shopItem,
+	body.tw .regionShops .shopItem,
+	body.ko .regionShops .shopItem,
+	body.ru .regionShops .shopItem,
+	body.fr .regionShops .shopItem,
+	body.cn .regionShops .shopItem,
+	body.hi .regionShops .shopItem{
+		width:100% !important;
+	}
+}
+@media (max-width: 414px){
+	.access-child-page .shop-icon .icon-shop{
+		margin-right: 0;
+	}
+	.access-child-page .shop-page-title .icon-shop {
+		height: 32px;
+		width: 15px;
+		background-position: 0 -31px;
+		background-size: 180px auto;
+	}
+	.access-child-page .shop-page-title .icon-shop.kyotostation.active,
+	.access-child-page .shop-page-title .icon-shop.kyotostation.hover{
+		background-position: 0 2px;
+	}
+	.access-child-page .shop-page-title .icon-shop.shinkyogoku {
+		width: 23px;
+		background-position: -22px -31px;
+	}
+	.access-child-page .shop-page-title .icon-shop.shinkyogoku:hover,
+	.access-child-page .shop-page-title .icon-shop.shinkyogoku.active {
+		background-position: -22px 2px;
+	}
+	.access-child-page .shop-page-title .icon-shop.kiyomizuzaka {
+		width: 28px;
+		margin-right: 0;
+		background-position: -49px -31px;
+	}
+	.access-child-page .shop-page-title .icon-shop.kiyomizuzaka:hover,
+	.access-child-page .shop-page-title .icon-shop.kiyomizuzaka.active {
+		background-position: -49px 2px;
+	}
+	.access-child-page .shop-page-title .icon-shop.ninenzaka {
+		width: 18px;
+		background-position: -112px -31px;
+	}
+	.access-child-page .shop-page-title .icon-shop.ninenzaka:hover,
+	.access-child-page .shop-page-title .icon-shop.ninenzaka.active {
+		background-position: -112px 2px;
+	}
+	.access-child-page .shop-page-title .icon-shop.kinkakuji {
+		width: 31px;
+		background-position: -79px -32px;
+	}
+	.access-child-page .shop-page-title .icon-shop.kinkakuji:hover,
+	.access-child-page .shop-page-title .icon-shop.kinkakuji.active {
+		background-position: -79px 1px;
+	}
+	.access-child-page .shop-icon .icon-shop.kamakura {
+		width: 21px;
+		background-position: -120px -143px;
+		background-size: 160px auto;
+	}
+	.access-child-page .shop-icon .icon-shop.kamakura:hover,
+	.access-child-page .shop-icon .icon-shop.kamakura.active {
+		background-position: -72px -143px;
+	}
+	.access-child-page .shop-icon .icon-shop.gion-shijo {
+		width: 18px;
+		margin-right: 0;
+		background-position: -36px -165px;
+	}
+	.access-child-page .shop-icon .icon-shop.gion-shijo:hover,
+	.access-child-page .shop-icon .icon-shop.gion-shijo.active {
+		background-position: 1px -165px;
+	}
+	.access-child-page .shop-icon .icon-shop.osaka-shinsaibashi {
+		width: 31px;
+		background-position: -30px -68px;
+		background-size: 170px auto;
+	}
+	.access-child-page .shop-icon .icon-shop.osaka-shinsaibashi:hover,
+	.access-child-page .shop-icon .icon-shop.osaka-shinsaibashi.active {
+		background-position: -68px -66px;
+	}
+	.access-child-page .shop-icon .icon-shop.asakusa {
+		width: 20px;
+		/* height: 35px; */
+		background-position: -93px -60px;
+		background-size: 150px auto;
+	}
+	.access-child-page .shop-icon .icon-shop.asakusa:hover,
+	.access-child-page .shop-icon .icon-shop.asakusa.active {
+		background-position: -123px -60px;
+	}
+	.access-child-page .shop-icon .icon-shop.kanazawa{
+		width: 27px;
+		background-position: -43px -197px;
+		background-size: 170px auto;
+	}
+	.access-child-page .shop-icon .icon-shop.kanazawa:hover,
+	.access-child-page .shop-icon .icon-shop.kanazawa.active {
+		background-position: -1px -196px;
+	}
+	.access-child-page .shop-icon .icon-shop.arashiyama{
+		width: 23px;
+		background-position: -111px -227px;
+		background-size: 140px auto;
+		margin-right: 1px;
+	}
+	.access-child-page .shop-icon .icon-shop.arashiyama:hover,
+	.access-child-page .shop-icon .icon-shop.arashiyama.active {
+		background-position: -71px -227px;
+	}
+	.access-child-page .shop-icon .icon-shop.arashiyama-togetsukyo{
+		width: 25px;
+		background-position: -115px -170px;
+		background-size: 150px auto;
+	}
+	.access-child-page .shop-icon .icon-shop.arashiyama-togetsukyo:hover,
+	.access-child-page .shop-icon .icon-shop.arashiyama-togetsukyo.active {
+		background-position: -78px -170px;
+	}
+	.access-child-page .shop-icon .icon-shop.petitgionshijo{
+		width: 21px;
+		background-position: -31px -192px;
+		background-size: 140px auto;
+	}
+	.access-child-page .shop-icon .icon-shop.petitgionshijo:hover,
+	.access-child-page .shop-icon .icon-shop.petitgionshijo.active {
+		background-position: 1px -192px;
+	}
+	/*tokyoskytree shop*/
+	.access-child-page .shop-icon .icon-shop.tokyoskytree{
+		width: 15px;
+		background-position: -40px -263px;
+		background-size: 160px auto;
+	}
+	.access-child-page .shop-icon .icon-shop.tokyoskytree:hover,
+	.access-child-page .shop-icon .icon-shop.tokyoskytree.active {
+		background-position: -2px -263px;
+	}
+	/*petitkyotostation*/
+	.access-child-page .shop-icon .icon-shop.petitkyotostation{
+		width: 23px;
+		background-position: -110px -192px;
+		background-size: 140px auto;
+		margin-right: 0;
+	}
+	.access-child-page .shop-icon .icon-shop.petitkyotostation:hover,
+	.access-child-page .shop-icon .icon-shop.petitkyotostation.active {
+		background-position: -71px -192px;
+	}
+}
+
+@media (max-width: 320px) {
+	.access-child-page .topics .two-columns{
+		margin-bottom: 0;
+	}
+	.access-child-page .topics .two-columns li,
+	.access-child-page .topics .two-columns li:first-child,
+	.access-child-page .topics .three-columns li,
+	.access-child-page .topics .three-columns li:first-child{
+		width: 100%;
+		margin-bottom:5px;
+		margin-left: 0;
+	}
+	.access-child-page .shop-page-title{
+		margin-bottom: 5px;
+	}
+	.access-child-page .shop-page-title div.list-icon-shop{
+		display: block;
+	}
+	.access-child-page .shop-detail .shop-detail-3 .icon.phone{
+		padding-left: 24px;
+	}
+	body.id .kanazawa.access-child-page ul.distance-time li span,
+	body.id .kanazawa.access-child-page ul.distance-time li label{
+		font-size: 11px;
+	}
+	body.id .kanazawa.access-child-page ul.distance-time li label.title-distance{
+		line-height: 1.9;
+	}
+	body.fr .access-child-page ul.distance-time li span{
+		font-size: 11px;
+	}
+
+}
+
+/*=======================================================================
+ 	New access page
+ ========================================================================*/
+/* .sectionLinkToShop */
+.list-shops-link{
+	display:-webkit-flex;
+	display:-ms-flex;
+	display:flex;
+	-ms-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.list-shops-link li{
+	width: 50%;
+	margin: 0 0 15px 0;
+}
+.list-shops-link li a{
+	color: #2E2E2E;
+	font-size: 17px;
+	font-weight: bold;
+	display:-webkit-flex;
+	display:-ms-flex;
+	display:flex;
+	align-items: center;
+	-webkit-align-items: center;
+}
+.list-shops-link li a:before{
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 10px solid #703b67;
+	display: block;
+	margin-right: 7px;
+}
+.sectionLinkToShop .region-footer-new{
+	display:-webkit-flex;
+	display:-ms-flex;
+	display:flex;
+	justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+}
+.sectionLinkToShop .region-footer-new .wrap-text span{
+	color: #000;
+	font-size: 10px;
+	font-weight: bold;
+}
+.sectionLinkToShop .region-footer-new .wrap-text .tel{
+	font-size: 27px;
+}
+.sectionLinkToShop .region-footer-new .wrap-text .pink-title{
+	background-color: #e3027f;
+	color: #fff;
+	font-weight: normal;
+	padding: 0 5px;
+	height: 15px;
+	line-height: 15px;
+	border-radius: 3px;
+	font-size: 10px;
+}
+.sectionLinkToShop .region-footer-new .wrap-pink{
+	display:-webkit-flex;
+	display:-ms-flex;
+	display:flex;
+}
+.sectionLinkToShop .region-footer-new .wrap-pink .pink-title{
+	margin-right: 5px;
+}
+.sectionLinkToShop .box-overview-page-howto-faq .info{
+	background-color: transparent;
+}
+/* .regionShops */
+.regionShops > div{
+	margin-bottom: 20px;
+}
+.regionShops .regionTitle{
+	font-size: 23px;
+	font-weight: bold;
+	color: #703b67;
+	margin: 0 0 25px 0;
+}
+.regionShops .regionWrap{
+	display:-webkit-flex;
+	display:-ms-flex;
+	display:flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0 0 0 -10px;
+}
+.regionShops .shopItem{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	width: calc(100% * (1/2) - 10px) !important;
+	margin: 0 0 30px 10px;
+	padding: 0 !important;
+	position: relative;
+}
+.regionShops .shopItem .shop-title {
+	display:-webkit-flex;
+	display:-ms-flex;
+	display:flex;
+	align-items: center;
+	-webkit-align-items: center;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	font-size: 17px;
+	font-weight: normal;
+	height: inherit !important;
+	color: #000;
+	margin-bottom: -3px;
+}
+.regionShops .shopItem .wrap-shop-title{
+	display:-webkit-flex;
+	display:-ms-flex;
+	display:flex;
+	align-items: flex-end;
+	-webkit-align-items: flex-end;
+}
+.regionShops .shopItem .wrap-featured-post{
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+}
+.regionShops .shopItem .disable-shop-text{
+	background-color: #d63e5f;
+	font-size: 17px;
+	color: #fff;
+	height: 25px;
+	line-height: 25px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:4px;
+	padding: 0 4px;
+	display: none;
+}
+body.en .regionShops .shopItem .disable-shop-text{
+	font-size: 13px;
+}
+body.vi .regionShops .shopItem .disable-shop-text,
+body.ko .regionShops .shopItem .disable-shop-text,
+body.th .regionShops .shopItem .disable-shop-text,
+body.ru .regionShops .shopItem .disable-shop-text,
+body.fr .regionShops .shopItem .disable-shop-text{
+	font-size: 12px;
+}
+body.hi .regionShops .shopItem .disable-shop-text{
+	font-size: 11px;
+}
+.regionShops .shopItem.disable .shop-title .fa-shop{
+	color: #9f9f9f;
+}
+.regionShops .shopItem.disable .shop-title h2{
+	color: #9f9f9f !important;
+}
+.regionShops .shopItem.disable .shop-title .disable-shop-text{
+	display: inline-block;
+}
+.regionShops .shop-title .fa-shop{
+	font-size: 30px;
+	margin: 0 3px 0 0;
+	line-height: 1;
+}
+.regionShops .shop-title a{
+	position: static !important;
+}
+.regionShops .shop-title a br{
+	display: none;
+}
+.regionShops .shopItem .shop-title a h2{
+	font-size: 14px;
+	color: #92539c;
+	height: initial !important;
+	margin: 0 0 7px 0;
+	font-weight: bold;
+}
+.regionShops .shopItem.petit .shop-title a h2{
+	color: #D2294D;
+}
+.regionShops .shopItem.shop-in-kyoto .shop-title a h2{
+	color: #92539c;
+	font-weight: bold;
+}
+.regionShops .shop-address{
+	background-color: #733d6c;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 4px 5px;
+}
+.regionShops .petit .shop-address{
+	background-color: #d2294d;
+}
+.regionShops .shop-distance{
+	color: #ff0000;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: right;
+}
+.regionShops .page-item.shopItem .shop-detail p{
+	color: #e3027f;
+	font-size: 17px;
+	margin-left: 12px;
+}
+.regionShops .page-item.shopItem .shop-detail strong{
+	color: #000;
+	font-size: 15px;
+	font-weight: normal;
+	margin-left: -12px;
+}
+.regionShops .shopItem .shop-type-meta{
+	position: absolute;
+	right: 0;
+	bottom: 34px;
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	justify-content: flex-end;
+	-webkit-justify-content: flex-end;
+}
+.regionShops .shopItem .shop-type-meta .type-meta{
+	width: 23px;
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+	background-color: #4e0037;
+	color: #fff;
+	font-weight: bold;
+	font-size: 10px;
+	margin-left: 1px;
+	display: none;
+}
+.regionShops .shopItem.regular .shop-type-meta .type-regular{
+	display: inline-block;
+}
+.regionShops .shopItem.vip .shop-type-meta .type-vip{
+	background-color: #d2a143;
+	color: #000;
+	display: inline-block;
+}
+.regionShops .shopItem.petit .shop-type-meta .type-petit{
+	background-color: #d2294e;
+	display: inline-block;
+}
+.regionShops .shopItem .link-to-shop a{
+	background-color: #4e0037;
+	color: #fff;
+	width: 100%;
+	display: block;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+.regionShops .shopItem.petit .link-to-shop a{
+	background-color: #d2294d;
+}
+.regionShops .shopItem .link-to-shop{
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	align-items: flex-end;
+	-webkit-align-items: flex-end;
+}
+.buttonBlog{
+	background-color: #4e0037;
+	color: #fff;
+	font-size: 12px;
+	font-family: Meiryo, arial;
+	border: 2px;
+	border-radius: 5px 5px 5px 5px;
+	text-align: center;
+	text-decoration: none;
+	padding: 9px 9px 9px 9px;
+	float: right;
+}
+.wrap-kanazawa-korobo .flex-direction-nav .flex-prev,
+.wrap-kanazawa-korobo .flex-direction-nav .flex-next{display: none;}
+.wrap-kanazawa-korobo .flex-direction-nav .flex-prev:before,
+.wrap-kanazawa-korobo .flex-direction-nav .flex-next:before{position: relative;
+	content: "";
+	width: 20px;
+	height: 20px;
+	border-right: 6px solid #fff;
+	border-top: 6px solid #fff;}
+.wrap-kanazawa-korobo .flex-direction-nav .flex-prev:before{
+	transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+	-ms-transform: rotate(-135deg);
+	float: right;
+}
+.wrap-kanazawa-korobo .flex-direction-nav .flex-next:before{
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	float: left;
+}
+.wrap-kanazawa-korobo .flex-control-paging li a{
+	background-color: #fff !important;
+}
+.wrap-kanazawa-korobo .flex-control-paging li a.flex-active{
+	background-color: #e62e8b  !important;
+}
+.access-child-page .shop-list .slide-images .main-image{box-shadow: none}
+.title-kanazawa-korobo{
+	padding-left: 10px !important; font-size: 20px !important;}
+
+/* .description-shop-slide */
+.title-des-shop-slide{
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 5px;
+	letter-spacing: -1px;
+}
+.text-des-shop-slide{
+	font-size: 13px;
+}
+
+@media (min-width: 750px) {
+	.sectionLinkToShop{
+		display:-webkit-flex;
+		display:-ms-flex;
+		display:flex;
+		flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		justify-content: space-between;
+		-webkit-justify-content: space-between;
+	}
+	.sectionLinkToShop .list-shops-link{
+		webkit-order: 1;
+		-ms-flex-order: 1;
+		order: 1;
+	}
+	.list-shops-link li{
+		width: auto;
+		margin: 0 10px 0 0;
+	}
+	.sectionLinkToShop .box-overview-page-howto-faq{
+		webkit-order: 3;
+		-ms-flex-order: 3;
+		order: 3;
+	}
+	.sectionLinkToShop .box-overview-page-howto-faq>div{
+		height: auto;
+	}
+	.sectionLinkToShop .box-overview-page-howto-faq .image{
+		/*width: 523px;*/
+		order: 2;
+	}
+	.sectionLinkToShop .box-overview-page-howto-faq .info{
+		width: 437px;
+		order: 1;
+		background-color: transparent;
+	}
+	.sectionLinkToShop .box-overview-page-howto-faq .image img{
+		width: 100%;
+		height: auto;
+	}
+	.sectionLinkToShop .region-footer-new{
+		webkit-order: 2;
+		-ms-flex-order: 2;
+		order: 2;
+	}
+
+	.regionShops .regionTitle{
+		font-size: 30px;
+		margin: 0 0 5px 0;
+	}
+	.regionShops .shopItem .shop-title a h2{
+		color: #733d6c;
+		font-weight: bold;
+		font-size: 16px;
+	}
+	body.en .regionShops .shopItem .shop-title a h2,
+	body.vi .regionShops .shopItem .shop-title a h2,
+	body.ru .regionShops .shopItem .shop-title a h2{
+		font-size: 11px;
+	}
+	body.ko .regionShops .shopItem .shop-title a h2{
+		font-size: 14px;
+	}
+	body.id .regionShops .shopItem .shop-title a h2,
+	body.ms .regionShops .shopItem .shop-title a h2,
+	body.fr .regionShops .shopItem .shop-title a h2,
+	body.hi .regionShops .shopItem .shop-title a h2{
+		font-size: 10px;
+	}
+	body.th .regionShops .shopItem .shop-title a h2{
+		font-size: 11px;
+	}
+	body.en .regionShops .shopItem .disable-shop-text,
+	body.fr .regionShops .shopItem .disable-shop-text,
+	body.ru .regionShops .shopItem .disable-shop-text,
+	body.id .regionShops .shopItem .disable-shop-text,
+	body.ms .regionShops .shopItem .disable-shop-text{
+		font-size: 9px;
+	}
+	body.th .regionShops .shopItem .disable-shop-text{
+		font-size: 10px;
+	}
+	body.vi .regionShops .shopItem .disable-shop-text,
+	body.hi .regionShops .shopItem .disable-shop-text{
+		font-size: 8px;
+	}
+	body.fr .regionShops .shopItem .link-to-shop a{
+		font-size: 14px;
+	}
+	.regionShops .regionWrap {
+		margin: 0 0 0 -25px;
+	}
+	.regionShops .shopItem {
+		width: 220px;
+		width: calc(100% * (1/4) - 25px) !important;
+		margin: 0 0 35px 25px !important;
+		min-height: initial !important;
+	}
+	.regionWrapTwoItem .shopItem {
+		width: 465px;
+		width: calc(100% * (1/2) - 25px) !important;
+	}
+	.regionWrapTwoItem .shopItem .wrap-featured-post{
+		flex-direction: row;
+		-webkit-flex-direction: row;
+	}
+	.regionWrapTwoItem .shopItem .featured-post{
+		width: 220px;
+		margin: 0 25px 0 0 !important;
+	}
+
+	.wrap-kanazawa-korobo .flex-direction-nav .flex-prev,
+	.wrap-kanazawa-korobo .flex-direction-nav .flex-next{display: block; overflow: inherit;}
+	.title-kanazawa-korobo{
+		font-size: 35px !important;}
+
+	/* .description-shop-slide */
+	.title-des-shop-slide{
+		font-size: 16px;
+		margin-top: 10px;
+	}
+	.text-des-shop-slide{
+		font-size: 14px;
+	}
+	.asakusa_full_width{
+		display: flex;
+	}
+	.asakusa_width,
+    .kanazawa_width{
+		width:62%;
+	}
+	.img-tourists-spot{
+		width: 90%;
+		margin: 31px 0 0 27px;
+	}
+	.kanazawa_full_width .img-tourists-spot{
+		margin: 31px 0 25px 27px;
+	}
+}
+@media (min-width: 960px) {
+	body.en .regionShops .shopItem .shop-title a h2,
+	body.vi .regionShops .shopItem .shop-title a h2,
+	body.th .regionShops .shopItem .shop-title a h2,
+	body.fr .regionShops .shopItem .shop-title a h2{
+		font-size: 15px;
+	}
+	body.ko .regionShops .shopItem .shop-title a h2,
+	body.ru .regionShops .shopItem .shop-title a h2{
+		font-size: 16px;
+	}
+	body.id .regionShops .shopItem .shop-title a h2,
+	body.ms .regionShops .shopItem .shop-title a h2 {
+		font-size: 15px;
+	}
+	body.hi .regionShops .shopItem .shop-title a h2 {
+		font-size: 13px;
+	}
+	body.en .regionShops .shopItem .disable-shop-text,
+	body.vi .regionShops .shopItem .disable-shop-text,
+	body.ko .regionShops .shopItem .disable-shop-text,
+	body.th .regionShops .shopItem .disable-shop-text,
+	body.ru .regionShops .shopItem .disable-shop-text,
+	body.fr .regionShops .shopItem .disable-shop-text{
+		font-size: 12px;
+	}
+	body.hi .regionShops .shopItem .disable-shop-text{
+		font-size: 11px;
+	}
+	body.fr .regionShops .shopItem .link-to-shop a {
+		font-size: 17px;
+	}
+	.kanazawa_full_width{
+		flex-direction: row;
+	}
+}

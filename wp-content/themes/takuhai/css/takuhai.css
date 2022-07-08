@@ -1,0 +1,878 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 19, 2016, 10:49:28 AM
+    Author     : duyenhoang
+*/
+.container {    
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.dp-flex{
+	display: flex;
+	display: -webkit-flex;
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+}
+
+/* Top page - logo
+----------------------------------------------------------*/
+.takuhai .box-logo {
+    padding: 8px 0;
+}
+/* Menu top PC
+----------------------------------------------------------*/
+.menu-top-kimono{
+	display: none;
+}
+
+/* Menu top SP
+----------------------------------------------------------*/
+.menu-top-kimono-sp{
+	/*background-color: #B52571;*/
+}
+.menu-top-kimono-sp ul{
+	background-color: #B52571;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+}
+.menu-top-kimono-sp ul li{
+	/*float: left;*/
+	/*width: 33.33333333333333%;*/
+	text-align: center;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	flex-grow: 1;
+	-webkit-flex-grow: 1;
+	margin: 0;
+	border-right: 1px solid #fff;
+	/*position: relative;*/
+}
+.menu-top-kimono-sp ul li a{
+	/*display: block;*/
+	color: #fff;
+	font-weight: bold;
+	/*border-right: 1px solid #fff;*/
+	padding: 5px 0;
+	box-sizing: border-box;
+}
+.menu-top-kimono-sp ul li p{
+	line-height: 1;
+}
+.menu-top-kimono-sp ul li.reserve{
+	background-color: #FCA826;
+	border-right: none;
+}
+.menu-top-kimono-sp ul li p.icon span.icon-fa{
+	font-size: 25px;
+	font-size: 8vw;
+}
+.menu-top-kimono-sp ul li p.name span{
+	font-size: 16px;
+	font-size: 5vw;
+	font-weight: bold;
+}
+/* Top page - title h1, h2
+----------------------------------------------------------*/
+.takuhai h1{
+	margin: 10px 0 -10px 0;
+	line-height: 1;
+	color: #000;
+	font-size: 21px;
+	font-weight: bold;
+	padding: 10px 0;
+	box-sizing: border-box;
+}
+
+.takuhai h2{
+	font-size: 21px;
+	background-color: #ae2f73;
+	clear: both;
+	height: 36px;
+	line-height: 40px;
+	padding-left: 8px;
+	margin: 20px 0 10px;
+	color: #ffffff;
+	font-weight: bold;
+}
+.takuhai h2 .icon-font-icon-polygon{
+	float: left;
+	font-size: 28px;
+	margin: 4px 10px 0 0;
+	line-height: 1;
+}
+/* Top page - Blog
+----------------------------------------------------------*/
+.takuhai .Blog ul{
+	margin-bottom: -10px;
+}
+.takuhai .Blog ul li{
+	width: 48.692810458%;
+	margin: 0 2.614379085% 2.614379085% 0;
+}
+.takuhai .Blog ul li:nth-child(2n){
+	margin-right: 0;
+}
+.takuhai .Blog ul li .image{
+	margin-bottom: 5px;
+}
+.takuhai .Blog ul li .image img{
+	width: 100%;
+	height: 32vw;
+}
+.takuhai .Blog ul li .date{
+	display: inline-block;
+	background-color: #ae2f73;
+	color: #ffffff;
+	font-size: 3.5vw;
+	line-height: 1;
+	padding: 1px 10px;
+	margin-bottom: 5px;
+
+}
+.takuhai .Blog ul li .title a{
+	color: #ae2f73;
+	font-size: 4.2vw;
+	font-weight: bold;
+	line-height: 1.4;
+}
+
+/* Top page - News
+----------------------------------------------------------*/
+.takuhai .News ul li {
+	margin-bottom: 10px;
+}
+.takuhai .News ul li img {
+	float: left;
+	margin-right: 10px;
+}
+.takuhai .News ul li p.date {
+	font-size: 3.8vw;
+	font-weight: bold;
+	color: #868686;
+	line-height: 1;
+	margin-bottom: 5px;
+	letter-spacing: 2px;
+}
+.takuhai .News ul li p.title-news{
+	font-weight: bold;
+	font-size: 5vw;
+	color: #000;
+	line-height: 1.3;
+}
+.takuhai .News ul li p.title-news a:hover{
+	color: #666666;
+}
+.takuhai .News ul li .content-news {
+	font-size: 4vw;
+	line-height: 1.6;
+	color: #444;
+}
+.takuhai .News .link-more{
+	text-align: center;
+	border-bottom: solid 1px #ebebeb;
+	padding-bottom: 10px;
+}
+.takuhai .News .link-more a{
+	font-size: 5vw;
+	color: #646464;
+}
+
+/* Top page - ReserveBanner
+----------------------------------------------------------*/
+.takuhai .ReserveBanner{
+	margin-bottom: 20px;
+}
+.takuhai .ReserveBanner ul li{
+	width: 100%;
+	margin-bottom: 5px;
+}
+.takuhai .ReserveBanner ul li:last-child{
+	margin-bottom: 0;
+}
+.takuhai .ReserveBanner ul li img{
+	width: 100%;
+}
+.takuhai .ReserveBanner ul li img:hover{
+	opacity: 0.7;
+}
+
+/* Top page - 6 advices
+----------------------------------------------------------*/
+.Section6advices h2{
+	margin-bottom: 10px;
+	padding-left: 25%;
+	font-size: 4.2vw;
+}
+.Section6advices h2 span{
+	font-size: 5vw;
+	font-weight: bold;
+}
+.Section6advices h2 var{
+	font-size: 4.2vw;
+	font-weight: normal;
+}
+.Section6advices .overview{
+	position: relative;
+}
+.Section6advices .overview .wrap{
+	padding-left: 25%;
+	position: relative;
+	z-index: 1;
+}
+.Section6advices .overview .img-absolute img{
+	position: absolute;
+	top:-65px;
+	left: 0;
+}
+.Section6advices .overview ul{
+	display: flex;
+	-webkit-display:flex;
+	-moz-display:flex;
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+}
+.Section6advices .overview ul li{
+	width: 31.829145729%;
+	margin-right: 1.005025126%;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	margin-bottom: 5px;
+}
+.Section6advices .overview ul li:nth-child(3n){
+	margin-right: 0;
+}
+.Section6advices .overview ul li .image img{
+	width: 100%;
+}
+.Section6advices .overview ul li .text{
+	flex-grow: 1;
+	-webkit-flex-grow: 1;
+	margin-top: 5px;
+	background-color: #7b1432;
+	color: #ffffff;
+	font-size: 3vw;
+	font-weight: bold;
+	line-height: 1.5;
+	padding: 10px 5px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	-webkit-align-items: center;
+	justify-content: center;
+	-webkit-justify-content: center;
+}
+
+/* .detail */
+.Section6advices .detail ul li{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.Section6advices .detail ul li h3{
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+.Section6advices .detail ul li h3 img{
+	float: left;
+	position: relative;
+	z-index: 1;
+	width: 57px;
+}
+.Section6advices .detail ul li h3 span{
+	font-size: 4.3vw;
+	font-weight: bold;
+	background: #ddb7c8;
+	color: #ae2f73;
+	display: block;
+	height: 47px;
+	line-height: 47px;
+	padding: 0 0 0 63px;
+	box-sizing: border-box;
+	position: relative;
+	top: 4px;
+}
+.Section6advices .detail ul li .content{
+	width: 100%;
+	clear: both;
+}
+.Section6advices .detail ul li .brief{
+	font-size: 4.2vw;
+	color: #241a16;
+	line-height: 1.6;
+}
+.Section6advices .detail ul li .img-relative{
+	float: right;
+	position: relative;
+	width: 20%;
+	margin-top: -57px;
+}
+
+/* takuhai/scene
+-----------------------------------------------------------*/
+#category-info{
+	background-color: #F1EBF0;
+	padding: 8px;
+	box-sizing: border-box;
+	width: 100%;
+}
+#category-info .show-pic-scene{
+	width: 40%;
+	float: left;
+	height: 35vw;
+	/*height: 230px;*/
+	overflow: hidden;
+	position: relative;
+}
+#category-info .show-pic-scene img{
+	position: absolute;
+	/*top: -9999px;*/
+	/*bottom: -9999px;*/
+	left: -9999px;
+	right: -9999px;
+	height: 230px;
+	margin: auto;
+	max-width: inherit;
+}
+#category-info .show-info-scene{
+	float: left;
+	width: 57.5%;
+	margin-left: 2.5%;
+}
+#category-info .show-info-scene h1{
+	font-weight: bold;
+	font-size: 5vw;
+	line-height: 1;
+	margin-bottom: 5px;
+}
+#category-info .show-info-scene p{
+	font-size: 3vw;
+}
+/* Top page - Footer
+-----------------------------------------------------------*/
+footer .icons-social{
+	display: flex;
+	justify-content: flex-end;
+	margin: 20px 0;
+}
+footer .icons-social a.twitter,
+footer .icons-social a.facebook,
+footer .icons-social a.instagram{
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	margin-left: 10px;
+	display: none;
+}
+footer .icons-social a.twitter{
+	background-color: #63C0E2;
+}
+footer .icons-social a.facebook{
+	background-color: #395791;
+}
+footer .icons-social a.instagram{
+	background-color: #336392;
+}
+footer .icons-social span.icon-fa{
+	font-size: 6vw;
+	color: #ffffff;
+	display: flex;
+}
+footer .footer-links{
+	background-color: #ae2f73;
+	padding-top: 20px;
+	color: #fff;
+}
+footer .footer-links .column-list h4,
+footer .footer-links .right h4{
+	color: #fff;
+	margin-bottom: 10px;
+	line-height: 1;
+	font-size: 16px;
+	font-weight: bold;
+}
+footer .footer-links .column-list span.icon-fa,
+footer .footer-links .right span.icon-fa{
+	font-size: 20px;
+	margin-right: 10px;
+	position: relative;
+	top: 3px;
+}
+footer .footer-links .column-list a.view-more{
+	float: right;
+	color: #fff;
+	font-size: 14px;
+	position: relative;
+	top: 9px;
+}
+footer .footer-links .column-list ul{
+	/*display: flex;*/
+	/*flex-wrap: wrap;*/
+	/*list-style: none;*/
+	/*margin-left: -8px;*/
+	/*padding: 0;*/
+}
+footer .footer-links .column-list ul li{
+	/*flex: 1 0 150px;*/
+	/*padding-left: 8px;*/
+	/*box-sizing: border-box;*/
+	width: 49%;
+	margin-right: 2%;
+}
+footer .footer-links .column-list ul li:nth-child(2n){
+	margin-right: 0;
+}
+footer .footer-links .column-list ul li img{
+	width: 100%;
+	height: 106px;
+	height: 34vw;
+}
+footer .footer-links .column-list ul li a{
+	color: #fff;
+	font-size: 12px;
+	display: block;
+	margin-top: 5px;
+}
+/*footer .footer-links .column-list ul li img{*/
+	/*width: inherit;*/
+/*}*/
+footer .footer-links .right {
+	border-top: 1px solid #fff;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+footer .footer-links .right ul li{
+	width: 100%;
+	display: block;
+	margin-bottom: 5px;
+}
+footer .footer-links .right ul li:after{
+	position: relative;
+	content: "";
+	width: 6px;
+	height: 6px;
+	border-right: 2px solid #808284;
+	border-top: 2px solid #808284;
+	transform: rotate(45deg);
+	top: 4px;
+	margin-right: 10px;
+	float: left;
+}
+footer .footer-links .right ul li a{
+	color: #fff;
+}
+footer .footer-links .right ul.first{
+	margin-bottom: 20px;
+}
+footer .copyright{
+	padding-top: 30px;
+	text-align: right;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+@media(min-width: 750px){
+	.container{
+		padding: 0;
+	}
+	/* Top page - title h2
+	----------------------------------------------------------*/
+	.takuhai h1{
+		margin: 0;
+		font-size: 52px;
+		padding: 20px 0;
+	}
+
+	.takuhai h2{
+		font-size: 24px;
+		height: 40px;
+		line-height: 44px;
+	}
+
+	.takuhai h2 .icon-font-icon-polygon{
+		margin-top: 6px;
+	}
+	/* Menu top SP
+	----------------------------------------------------------*/
+	.menu-top-kimono-sp{
+		display: none;
+	}
+	/* Menu top PC
+	----------------------------------------------------------*/
+	.menu-top-kimono {
+		width: 100%;
+		height: 50px;
+		background-color: #ae2f73;
+		clear: both;
+		display: block;
+		margin-bottom: 2px;
+	}	
+	.menu-top-kimono .container .main-navigation ul li {
+		float: left;
+		width: 20%;
+		text-align: center;
+		margin: 0;
+		position: relative;
+	}
+	.menu-top-kimono .container .main-navigation ul li a {
+		display: block;
+		color: #fff;
+		font-weight: bold;
+		font-size: 18px;
+		height: 50px;
+		line-height: 50px;
+		border-left: 1px solid #fff;
+	}
+	.menu-top-kimono .container .main-navigation ul li.mn-cart a{
+		background-color: #f68e1e;
+	}
+	.menu-top-kimono .container .main-navigation ul li.mn-cart a:hover{
+		background-color: #f68e1e;
+	}
+	.menu-top-kimono .container .main-navigation ul li:hover a{
+		background-color: #E271B2;
+	}
+	.menu-top-kimono .container .main-navigation ul li:last-child a {
+		border-right: 1px solid #fff;
+	}
+	.menu-top-kimono .container .main-navigation ul li > ul.sub-menu{
+		visibility: hidden;
+	}
+	.menu-top-kimono .container .main-navigation ul li:hover > ul.sub-menu{
+		visibility: visible;
+	}
+	.menu-top-kimono .container .main-navigation ul li ul.sub-menu {
+		width: 420px;
+		position: absolute;
+		display: block;
+		border-top: 2px solid #fff;
+		z-index: 9;
+		background-color: #fff;
+		border-right: 1px solid #fff;
+		border-left: 1px solid #fff;
+		box-sizing: border-box;
+	}
+	.menu-top-kimono .container .main-navigation ul li ul.sub-menu li{
+		width: 100%;
+		padding-left: 15px;
+		text-align: left;
+		box-sizing: border-box;
+		margin-bottom: 1px;
+		height: 70px;
+		position: relative;
+		background: url("../images/spriteme-bg-menu-takuhai.png");
+		background-repeat: no-repeat;
+	}
+	.menu-top-kimono .container .main-navigation ul li ul.sub-menu li:after{
+		display: block;
+		content: " ▶ ";
+		color: #AE2F73;
+		font-size: 20px;
+		text-shadow: #fff 0px 0px 2px;
+		position: absolute;
+		right: 10px;
+		z-index: 2;
+		top: 22px;
+	}
+	.menu-top-kimono .container .main-navigation ul li ul.sub-menu li:nth-child(1){
+		background-position: 0 0;
+	}
+	.menu-top-kimono .container .main-navigation ul li ul.sub-menu li:nth-child(2){
+		background-position: 0 -120px;
+		display: none;
+	}
+	.menu-top-kimono .container .main-navigation ul li ul.sub-menu li:nth-child(3){
+		background-position: 0 -240px;
+	}
+	.menu-top-kimono .container .main-navigation ul li ul.sub-menu li:nth-child(4){
+		background-position: 0 -360px;
+	}
+	.menu-top-kimono .container .main-navigation ul li ul.sub-menu li:nth-child(5){
+		background-position: 0 -480px;
+	}
+	.menu-top-kimono .container .main-navigation ul li ul.sub-menu li:nth-child(6){
+		background-position: 0 -600px;
+		display: none;
+	}
+	.menu-top-kimono .container .main-navigation ul li ul.sub-menu li:nth-child(7){
+		background-position: 0 -720px;
+	}
+	.menu-top-kimono .container .main-navigation ul li ul.sub-menu li:nth-child(8){
+		background-position: 0 -840px;
+	}
+	.menu-top-kimono .container .main-navigation ul li.menu-item-second ul.sub-menu li:nth-child(1){
+		background-position: 0 -960px;
+	}
+	.menu-top-kimono .container .main-navigation ul li.menu-item-second ul.sub-menu li:nth-child(2){
+		background-position: 0 -1080px;
+		display: block;
+	}
+	.menu-top-kimono .container .main-navigation ul li.menu-item-second ul.sub-menu li:nth-child(3){
+		background-position: 0 -1200px;
+	}
+	.menu-top-kimono .container .main-navigation ul li.menu-item-second ul.sub-menu li:nth-child(4){
+		background-position: 0 -1320px;
+	}
+	.menu-top-kimono .container .main-navigation ul li.menu-item-second ul.sub-menu li:nth-child(5){
+		background-position: 0 -1440px;
+	}
+	.menu-top-kimono .container .main-navigation ul li.menu-item-second ul.sub-menu li:nth-child(6){
+		background-position: 0 -1560px;
+		display: block;
+	}
+	.menu-top-kimono .container .main-navigation ul li.menu-item-second ul.sub-menu li:nth-child(7){
+		background-position: 0 -1680px;
+	}
+	.menu-top-kimono .container .main-navigation ul li.menu-item-second ul.sub-menu li:nth-child(8){
+		background-position: 0 -1800px;
+		display: none;
+	}
+	.menu-top-kimono .container .main-navigation ul li ul.sub-menu li a{
+		background: none;
+	}
+	.menu-top-kimono .container .main-navigation ul li ul.sub-menu li:hover a{
+		background-color: transparent;
+	}
+	.menu-top-kimono .container .main-navigation ul li ul.sub-menu li a{
+		border-left: none;
+		border-right: none;
+	}
+	.menu-top-kimono .container .main-navigation ul li ul.sub-menu li a{
+		line-height: 70px;
+		height: 70px;
+		display: block;
+	}
+	.menu-top-kimono .container .main-navigation ul li ul.sub-menu li:hover{
+		opacity: 0.7;
+	}
+	.menu-top-kimono .container .main-navigation ul li ul.sub-menu li a span.title-name,
+	.menu-top-kimono .container .main-navigation ul li ul.sub-menu li a span.title-name var{
+		color: #fff;
+		font-weight: bold;
+	}
+	.menu-top-kimono .container .main-navigation ul li ul.sub-menu li a span.title-name{
+		font-size: 36px;
+		display: block;
+	}
+	.menu-top-kimono .container .main-navigation ul li ul.sub-menu li a span.title-name var{
+		font-size: 26px;
+		margin-left: 15px;
+	}
+	.menu-top-kimono .container .main-navigation ul li ul.sub-menu li:nth-child(7) a span.title-name var,
+	.menu-top-kimono .container .main-navigation ul li ul.sub-menu li:nth-child(8) a span.title-name var{
+		font-size: 22px;
+		letter-spacing: 0;
+	}
+	.menu-top-kimono .container .main-navigation ul li.menu-item-second ul.sub-menu li a span.title-name,
+	.menu-top-kimono .container .main-navigation ul li.menu-item-second ul.sub-menu li a span.special{
+		color: #B52571;
+		font-weight: bold;
+	}
+	.menu-top-kimono .container .main-navigation ul li.menu-item-second ul.sub-menu li a span.special{
+		font-size: 14px;
+		display: inline-table;
+		line-height: 1;
+		position: relative;
+		top: -20px;
+	}
+
+	/* Top page - Blog
+	----------------------------------------------------------*/
+	.takuhai .Blog ul li{
+		width: 24.184782609%;
+		margin-right: 1.086956522%;
+		margin-bottom: 0;
+	}
+	.takuhai .Blog ul li:nth-child(2){
+		margin-right: 1.086956522%;
+	}
+	.takuhai .Blog ul li .image img{
+		height: 155px;
+	}
+	.takuhai .Blog ul li .date{
+		font-size: 13px;
+	}
+	.takuhai .Blog ul li .title a{
+		font-size: 17px;
+	}
+
+	/* Top page - News
+	----------------------------------------------------------*/
+	.takuhai .News ul li p.date{
+		font-size: 18px;
+		font-weight: normal;
+	}
+	.takuhai .News ul li p.title-news{
+		font-size: 22px;
+	}
+	.takuhai .News ul li .content-news{
+		font-size: 15px;
+	}
+	.takuhai .News .link-more a{
+		font-size: 18px;
+	}
+	.takuhai .News .link-more a:hover{
+		opacity: 0.6;
+	}
+
+	/* Top page - ReserveBanner
+	----------------------------------------------------------*/
+	.takuhai .ReserveBanner ul li{
+		width: 49.5%;
+		margin-right: 1%;
+		margin-bottom: 0;
+	}
+	.takuhai .ReserveBanner ul li:last-child{
+		margin-right: 0;
+	}
+
+	/* Top page - 6 advices
+	----------------------------------------------------------*/
+	.Section6advices h2{
+		padding-left: 85px;
+		font-size: 20px;
+		line-height: 1;
+	}
+	.Section6advices h2 em{
+		position: relative;
+		top:-8px;
+	}
+	.Section6advices h2 span{
+		font-size: 41px;
+		font-weight: bold;
+	}
+	.Section6advices h2 span var{
+		font-size: 24px;
+		position: relative;
+		top: -7px;
+	}
+	.Section6advices .overview{
+		margin-bottom: 100px;
+	}
+	.Section6advices .overview ul li{
+		width: 15.829145729%;
+	}
+	.Section6advices .overview ul li .text{
+		font-size: 18px;
+		line-height: 1.5;
+	}
+	.Section6advices .overview ul li:nth-child(3){
+		margin-right: 1%;
+	}
+	.Section6advices .overview .img-absolute img{
+		width: 110px;
+	}
+	.Section6advices .overview .wrap{
+		padding-left: 90px;
+	}
+	.Section6advices .detail ul li{
+		width: 48%;
+		float: left;
+		margin-right: 4%;
+		margin-bottom: 5px;
+	}
+	.Section6advices .detail ul li:nth-child(2n){
+		margin-right: 0;
+	}
+	.Section6advices .detail ul li:nth-child(5),
+	.Section6advices .detail ul li:nth-child(6){
+		margin-top: -50px;
+		position: relative;
+		z-index: -1;
+	}
+	.Section6advices .detail ul li h3 span{
+		font-size: 23px;
+	}
+	.Section6advices .detail ul li .brief{
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 1.7;
+	}
+	.Section6advices .detail ul li .img-relative{
+		width: inherit;
+	}
+	.Section6advices .detail ul li:nth-child(3) .img-relative{
+		margin-top: -50px;
+	}
+	/* takuhai/scene
+    -----------------------------------------------------------*/
+	#category-info{
+		background-color: transparent;
+		padding: 0;
+	}
+	#category-info .show-pic-scene {
+		width: 275px;
+		height: 180px;
+	}
+	#category-info .show-info-scene {
+		width: 675px;
+		margin-left: 10px;
+		background-color: #ECE6EB;
+		border: 3px solid #733D6D;
+		padding: 30px 20px;
+		box-sizing: border-box;
+		min-height: 180px;
+	}
+	#category-info .show-info-scene h1 {
+		font-size: 40px;
+	}
+	#category-info .show-info-scene h1 br{
+		display: none;
+	}
+	#category-info .show-info-scene p {
+		font-size: 12px;
+	}
+	/* Top page - Footer
+	---------------------------------------------------------*/
+	footer .copyright > p br{
+		display: none;
+	}
+	footer .footer-links .column-list ul li{
+		width: 23.5%;
+	}
+	footer .footer-links .column-list ul li:nth-child(2n){
+		margin-right: 2%;
+	}
+	footer .footer-links .column-list ul li:nth-child(4n){
+		margin-right: 0;
+	}
+	footer .footer-links .column-list ul li img {
+		height: 106px;
+	}
+	footer .icons-social span.icon-fa {
+		font-size: 5vw;
+	}
+	footer .footer-links{
+		padding-top: 40px;
+	}
+	footer .footer-links .left{
+		width: 66%;
+		margin-right: 2%;
+		float: left;
+	}
+	footer .footer-links .right{
+		width: 32%;
+		float: left;
+		border-top: none;
+		border-left: 1px solid #fff;
+		padding-left: 10px;
+		padding-top: 0;
+		margin-top: 0;
+		box-sizing: border-box;
+	}
+}

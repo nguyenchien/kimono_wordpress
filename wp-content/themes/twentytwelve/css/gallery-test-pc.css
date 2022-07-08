@@ -1,0 +1,253 @@
+/*===== Gallery =====*/
+.wrap-slider-gallery{
+    width: 700px;
+    margin-bottom: 70px;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+}
+.wrap-slider-gallery .slider-banner{
+    margin-bottom: 10px;
+}
+.wrap-slider-gallery .slider-banner img:hover{
+    opacity: 0.8;
+}
+.wrap-slider-gallery .gallery-desc{
+    padding: 0 20px 0 30px;
+    margin-bottom: 20px;
+}
+.wrap-slider-gallery .gallery-desc p{
+    font-size: 13px;
+}
+.wrap-slider-gallery .slider-gallery{
+    padding: 0 30px;
+}
+.slider-gallery .slick-prev{
+    left: 4px;
+}
+.slider-gallery .slick-next{
+    right: 4px;
+}
+.slider-gallery .slick-prev:before,
+.slider-gallery .slick-next:before{
+    color: #000;
+    content: '';
+    border-width: 0 0 3px 3px;
+    border-style: solid;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+}
+.slider-gallery .slick-prev:before{
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.slider-gallery .slick-next:before{
+    -webkit-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+.wrap-slider-gallery .slick-slide {
+    margin: 0 6px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.wrap-slider-gallery .wrap-gallery-img{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    overflow: hidden;
+    height: 150px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+.wrap-slider-gallery .gallery-ins-item{
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 0 0 -10px;
+}
+.wrap-slider-gallery .gallery-ins-item .wrap-gallery-img{
+    width: calc(100% * 1/4 - 10px);
+    margin-left: 10px;
+    -webkit-box-flex: inherit;
+    -ms-flex: inherit;
+    flex: inherit;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap-slider-gallery .wrap-gallery-img img{
+    -o-object-fit: contain;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+.wrap-slider-gallery .slick-list {
+    margin: 0 -6px;
+}
+.wrap-slider-gallery .link-gallery{
+    padding: 0 20px;
+}
+.wrap-slider-gallery .link-gallery{
+    text-align: right;
+}
+.wrap-slider-gallery .link-gallery a{
+    color: #000;
+    font-size: 15px;
+}
+.wrap-slider-gallery .icon-formal-girl{
+    font-size: 35px;
+}
+.wrap-slider-gallery .gallery-ins-item{
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 0 0 -10px;
+}
+.wrap-slider-gallery .gallery-ins-item .wrap-gallery-img{
+    margin-left: 10px;
+    -webkit-box-flex: inherit;
+    -ms-flex: inherit;
+    flex: inherit;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 320px;
+    height: 320px;
+}
+.wrap-slider-gallery .gallery-ins-item .wrap-gallery-img img{
+    width: 100%;
+}
+/*===== End Gallery =====*/
+
+/*======TEST NEWS====*/
+.wrap-news-formal{
+    margin-bottom: 20px;
+    background-color: rgba(225,225,225,0.4);
+    padding-top: 10px;
+}
+.wrap-news-formal .desc-news,
+.wrap-news-formal .desc-news a{
+    display: block;
+    color: #2a4ea0;
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.wrap-news-formal .desc-news{
+    background-color: #eaeaea;
+    border: 1px solid #627c89;
+    padding: 10px 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #2a4ea0;
+    margin-bottom: 20px;
+}
+.wrap-news-formal .wrap-list-news{
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap-news-formal .item-news{
+    border-bottom: 1px solid #aeaeae;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.wrap-news-formal .date-news,
+.wrap-news-formal .brief-news{
+    font-size: 12px;
+    color: #000;
+}
+.wrap-news-formal .date-news{
+    margin-right:15px;
+}
+.wrap-news-formal .brief-news{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.wrap-news-formal .read-more{
+    text-align: right;
+    padding: 5px 0;
+}
+.wrap-news-formal .read-more a{
+    font-size: 12px;
+    color: #727272;
+}
+
+/*=====TEST TKH=====*/
+.wrap-text-des-logo {
+    position: relative;
+}
+.wrap-text-des-logo .text-des-logo-wago {
+    position: absolute;
+    top: 73%;
+    bottom: 0;
+    left: 0;
+    font-size: 12px;
+    text-align: center;
+    color: #000;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+.wrap-banner-tkh-new-kimono {
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap-banner-tkh-new-kimono .list-banner-price-tkh-new-kimono {
+    margin-left: -14px;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+.wrap-banner-tkh-new-kimono .item {
+    margin: 0 0 14px 14px;
+    width: calc(100% * (1/5) - 10px);
+}
+.wrap-banner-tkh-new-kimono .item:first-child {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.wrap-banner-tkh-new-kimono .item img {
+    width: 100%;
+}
+.wrap-banner-tkh-new-kimono .item:first-child img {
+    width: 84%;
+}

@@ -1,0 +1,1738 @@
+/*
+    List Content
+    - Layout for PC (min-width: 960px)
+    - Layout for all Mobile (max-width: 767px)
+    - Layout for Mobile Landscape (min-width: 480px) and (max-width: 767px)
+    - Layout for Tablet (min-width: 768px) and (max-width: 959px)
+*/
+
+/* # Layout for PC.
+---------------------------------------------------------------------------- */
+@media all and (min-width: 960px) {
+	/*======================================================================
+	*** Begin - Top Page (Chien xam) ***
+	========================================================================*/
+
+
+	/*=====================================
+			.box-image-link-top
+	=======================================*/
+	.layout-kimono-sp .box-image-link-top section.page-images-top-sp {
+		display: none;
+	}
+
+	/*=====================================
+			.fixreserve-960x100
+	=======================================*/
+	.layout-kimono-sp .box-image-link-top .fixreserve-960x100.sp,
+	.layout-kimono-sp .section-content-mainform h3.reserve-960x100.sp {
+		display: none;
+	}
+
+	/*======================================================================
+	*** End - Top Page (Chien xam) ***
+	========================================================================*/
+
+}
+
+/* # Layout for all Mobile.
+---------------------------------------------------------------------------- */
+@media all and (max-width: 767px) {
+	/*======================================================================
+	*** Begin - Top Page (Chien xam) ***
+	========================================================================*/
+	.layout-kimono-sp .container {
+		/*width: 320px;*/
+		width: 100%;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+
+	.layout-kimono-sp .container .columns,
+	.layout-kimono-sp .container .column {
+		margin: 0;
+		position: relative;
+	}
+
+	.layout-kimono-sp .container .one.column,
+	.layout-kimono-sp .container .one.columns,
+	.layout-kimono-sp .container .two.columns,
+	.layout-kimono-sp .container .three.columns,
+	.layout-kimono-sp .container .four.columns {
+		/*width: 320px;*/
+		width: 100%;
+	}
+
+
+
+	/*===========================================================
+		.main-content
+	=============================================================*/
+	.main-content .full-width .banner_padding {
+		padding: 0 !important;
+	}
+
+
+	/*=====================================
+		.block-for-top-page (blog)
+	=======================================*/
+	.layout-kimono-sp section.block-for-top-page {
+		padding: 0;
+		background: #fff;
+		margin-bottom: 10px;
+	}
+
+	/*
+		Tile for block
+	-----------------------------------*/
+	.layout-kimono-sp .bg-top-page-title {
+		background: none;
+		border: none;
+		min-height: 0;
+		margin: 0;
+		background-color:  #703b67;
+	}
+
+	.layout-kimono-sp .bg-top-page-title h2 {
+		/*background: url(../images/sp/icon-arrow-8x11.png) no-repeat 7px 13px, url(../images/sp/flower-title-section-content-flower.png) no-repeat right bottom, #703b67;*/
+		color: #fff;
+		font-weight: bold;
+		/*background-color:  #703b67;*/
+		font-size: 25px !important;
+		padding: 9px 7px 5px 10px;
+		line-height: 1.5;
+	}
+
+	/*=====================================
+		.item-blog-top
+	=======================================*/
+	.layout-kimono-sp div.item-blog-top {
+		/*width: 320px;*/
+		width: 100%;
+		box-sizing: border-box;
+		padding: 7px;
+		border-bottom: 1px dotted #e0e0e0;
+	}
+
+	.layout-kimono-sp div.item-blog-top.last {
+		border-bottom: none;
+	}
+
+	.layout-kimono-sp div.item-blog-top .text span.newtitle-top.moved {
+		float: right;
+		margin: 0;
+	}
+
+	.layout-kimono-sp div.item-blog-top .image {
+		margin-bottom: 7px;
+	}
+
+	.layout-kimono-sp div.item-blog-top .image img {
+		width: 100%;
+		height: inherit;
+	}
+
+	.layout-kimono-sp div.item-blog-top .text p.first-title {
+		margin: 0 0 8px 0;
+	}
+
+	.layout-kimono-sp div.item-blog-top .text p.first-title span.shop-name {
+		padding-bottom: 2px;
+		line-height: 18px;
+	}
+
+	.layout-kimono-sp div.item-blog-top .text p.first-title span.date {
+		font-size: 13px;
+		color: #444;
+		letter-spacing: 1px;
+	}
+
+	.layout-kimono-sp div.item-blog-top .text p.title {
+		margin-bottom: 3px;
+	}
+
+	.layout-kimono-sp div.item-blog-top .text p.more {
+		padding: 0;
+		font-size: 13px;
+		line-height: 1.5;
+	}
+
+	/*=====================================
+		.box-news-top
+	=======================================*/
+	.layout-kimono-sp .box-news-top {
+		padding-bottom: 0 !important;
+		background: #fff;
+		margin-bottom: 10px;
+	}
+
+	.layout-kimono-sp .box-news-top .topp-box-news {
+		padding: 7px;
+		box-sizing: border-box;
+	}
+
+	.layout-kimono-sp .box-news-top .topp-box-news ul li {
+		font-size: 13px;
+		line-height: 1.5;
+		margin-bottom: 5px;
+	}
+
+	.layout-kimono-sp .box-news-top .topp-box-news ul li:last-child {
+		margin-bottom: 0;
+	}
+
+	/*=====================================
+		.box-image-link-top
+	=======================================*/
+	.box-image-link-top section.page-images-top-pc {
+		display: none;
+	}
+
+	.layout-kimono-sp .box-image-link-top section.page-images-top-sp {
+		margin-bottom: 3px;
+	}
+
+	.layout-kimono-sp .box-image-link-top section.page-images-top-sp .item {
+		float: left;
+		width: 49.0625%;
+		height: 30.3125%;
+		position: relative;
+		margin: 0 1.875% 1.875% 0;
+	}
+
+	.layout-kimono-sp .box-image-link-top section.page-images-top-sp .item.last {
+		margin-right: 0;
+	}
+
+	.layout-kimono-sp .box-image-link-top section.page-images-top-sp .item img {
+		width: 100%;
+	}
+
+	.layout-kimono-sp .box-image-link-top section.page-images-top-sp .item .text {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+
+	.layout-kimono-sp .box-image-link-top section.page-images-top-sp .item .text p.brief {
+		color: #fff;
+		font-size: 13px;
+		padding: 1.5625%;
+	}
+
+	.layout-kimono-sp .box-image-link-top section.page-images-top-sp .item.howto .text p.brief {
+		background: #ac75d2;
+	}
+
+	.layout-kimono-sp .box-image-link-top section.page-images-top-sp .item.kimono .text p.brief {
+		background: #e9343a;
+	}
+
+	.layout-kimono-sp .box-image-link-top section.page-images-top-sp .item.faq .text p.brief {
+		background: #35ac30;
+	}
+
+	.layout-kimono-sp .box-image-link-top section.page-images-top-sp .item.blog .text p.brief {
+		background: #ac75d2;
+	}
+
+	/*=====================================
+		.fixreserve-960x100
+	=======================================*/
+	.layout-kimono-sp .box-image-link-top .fixreserve-960x100.pc {
+		display: none;
+	}
+
+	.layout-kimono-sp .box-image-link-top .fixreserve-960x100 {
+		margin: 0 0 10px 0;
+	}
+
+	.layout-kimono-sp .box-image-link-top .fixreserve-960x100 img {
+		width: 100%;
+	}
+
+	/*=====================================
+		.section-booking-top-page
+	=======================================*/
+	.layout-kimono-sp .section-booking-top-page {
+		margin-bottom: 10px;
+		background: #fff;
+	}
+
+	.layout-kimono-sp .section-booking-top-page div#box-calendar {
+		padding: 0;
+	}
+
+	/* .description-plan-top
+	-----------------------------------*/
+	.layout-kimono-sp .section-booking-top-page .description-plan-top {
+		padding: 7px;
+		box-sizing: border-box;
+	}
+
+	.layout-kimono-sp .section-booking-top-page .description-plan-top ul li {
+		margin: 0;
+		line-height: 1.1;
+		font-size: 15px;
+	}
+
+	/* #choose-shop
+	-----------------------------------*/
+	.layout-kimono-sp .section-booking-top-page ul#choose-shop {
+		margin: 20px 0 7px 0;
+		background: rgba(101, 34, 112, 0.8);
+/*		overflow: hidden;*/
+	}
+
+	.layout-kimono-sp .section-booking-top-page ul#choose-shop li {
+		height: auto;
+		line-height: 1.1;
+		padding: 0 !important;
+		margin: 0 !important;
+		width: 20% !important;
+		text-align: center;
+		border:0;
+	}
+
+	.layout-kimono-sp .section-booking-top-page ul#choose-shop li.shop-1,
+	.layout-kimono-sp .section-booking-top-page ul#choose-shop li.shop-1.active {
+		background: url(../images/sp/bg-shop-01.png) no-repeat right center;
+	}
+
+	.layout-kimono-sp .section-booking-top-page ul#choose-shop li.shop-2,
+	.layout-kimono-sp .section-booking-top-page ul#choose-shop li.shop-2.active {
+		background: url(../images/sp/bg-shop-02.png) no-repeat right center;
+	}
+
+	.layout-kimono-sp .section-booking-top-page ul#choose-shop li.shop-3,
+	.layout-kimono-sp .section-booking-top-page ul#choose-shop li.shop-3.active {
+		background: url(../images/sp/bg-shop-03.png) no-repeat right center;
+	}
+
+	.layout-kimono-sp .section-booking-top-page ul#choose-shop li.shop-4,
+	.layout-kimono-sp .section-booking-top-page ul#choose-shop li.shop-4.active {
+		background: url(../images/sp/bg-shop-04.png) no-repeat right center;
+	}
+	
+	.layout-kimono-sp .section-booking-top-page ul#choose-shop li.shop-5,
+	.layout-kimono-sp .section-booking-top-page ul#choose-shop li.shop-5.active {
+		background: url(../images/sp/bg-shop-05.png) no-repeat right center;
+	}
+
+	.layout-kimono-sp .section-booking-top-page ul#choose-shop li input[type=radio] {
+		display: none;
+	}
+	
+/*	.layout-kimono-sp .section-booking-top-page ul#choose-shop li span.textpc{
+		display: none !important;
+	}
+	.layout-kimono-sp .section-booking-top-page ul#choose-shop li span.textsp{
+		display: block !important;
+		position: absolute;
+		top: 26px;
+		width: 100%;
+		text-align: center !important;
+		font-size: 8px !important;
+	}*/
+	section.block-viewbooking-top-page #choose-shop li span.textsp{
+		position: absolute;
+		top: 26px;
+		text-align: center;
+		width: 100%;
+		display: block;
+		font-size: 9px !important;
+	}
+
+	section.block-viewbooking-top-page #choose-shop li.shop-5 img{
+		position: absolute;
+		right: 4px;
+		top: -26px;
+		left: inherit;
+		width: 40px;
+		height: 37px;
+	}
+	.layout-kimono-sp .section-booking-top-page ul#choose-shop li label {
+		background: none !important;
+		padding: 14px 0 !important;
+		font-size: 9px;
+		display: block;
+		color: #fff;
+		font-weight: normal;
+		top: 0;
+		position: relative;
+	}
+
+	.layout-kimono-sp .section-booking-top-page ul#choose-shop li.active label {
+/*		box-shadow: 0 0 6px 1px #555;*/
+		background: rgba(227, 63, 123, 0.6) !important;
+		color: #fff;
+	}
+
+	/* #choose-date
+	-----------------------------------*/
+	/* common style */
+	.layout-kimono-sp table.plan thead tr td{
+		padding:2px;
+		font-size:12px !important;
+	}
+	
+	.layout-kimono-sp table.plan tbody p.timetable{
+		font-weight:normal !important;
+	}
+	
+	.layout-kimono-sp table.plan .hour .slot{
+		font-size:22.3px !important;
+		padding:2px;
+	}
+	/* End common style */
+	
+	.layout-kimono-sp .section-booking-top-page #choose-date p.date {
+		color: #444;
+		font-size: 16px;
+		font-weight: bold;
+		text-align: center;
+	}
+	
+	.layout-kimono-sp .section-booking-top-page #choose-date p.textsp {
+		color: #ff0000;
+		font-size: 18px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.layout-kimono-sp .section-booking-top-page #choose-date table.plan tr.even-early p.timetable {
+		font-size: 12px;
+		font-weight: normal;
+		height: auto;
+	}
+
+	.layout-kimono-sp .section-booking-top-page #choose-date table.plan th {
+		padding: 0 2px;
+	}
+
+	.layout-kimono-sp .section-booking-top-page #choose-date #paged {
+		padding: 15px 20px 10px;
+	}
+
+	.layout-kimono-sp .section-booking-top-page #choose-date #paged a {
+		margin: 0;
+		line-height: 1.1;
+		font-size: 13px;
+	}
+
+	/* .note-plan
+	-----------------------------------*/
+	.layout-kimono-sp .section-booking-top-page .note-plan {
+		padding: 0 7px 7px;
+		font-size: 13px;
+		line-height: 1.5;
+	}
+
+	/*=====================================
+		.section-content-mainform
+	=======================================*/
+	.layout-kimono-sp .section-content-mainform {
+		/*width: 320px;*/
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.layout-kimono-sp .section-content-mainform .width_form {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.layout-kimono-sp .section-content-mainform h3.reserve-960x100.pc {
+		display: none;
+	}
+
+	.layout-kimono-sp .section-content-mainform h3.reserve-960x100 {
+		margin: 0 0 10px 0;
+	}
+
+	.layout-kimono-sp .section-content-mainform h3.reserve-960x100 img {
+		width: 100%;
+	}
+
+	.layout-kimono-sp .section-content-mainform .top-fullbox {
+		padding: 0;
+		background: #fff;
+	}
+
+	.layout-kimono-sp .section-content-mainform .top-fullbox.pd-bt-15px {
+		padding: 0;
+	}
+
+	.layout-kimono-sp .section-content-mainform .top-fullbox div.item_page {
+		width: 100%;
+		height: inherit;
+		padding: 7px;
+		margin: 0;
+		box-sizing: border-box;
+		border-bottom: 1px dotted #e0e0e0;
+	}
+
+	.layout-kimono-sp .section-content-mainform .top-fullbox div.item_page_info h3 span {
+		overflow: hidden;
+		left: 6.5625%;
+		top: 30%;
+		width: 85%;
+	}
+	
+	.layout-kimono-sp .section-content-mainform .top-fullbox div.item_page_info h3 span.fix-item-06-vi-sp{
+			top:17%;
+	}
+
+	.layout-kimono-sp .section-content-mainform .top-fullbox div.item_page_info var {
+		top: 0;
+		left: 0;
+	}
+
+	.layout-kimono-sp .section-content-mainform .top-fullbox div.item_page_info p {
+		font-size: 13px;
+		line-height: 1.5;
+		padding-top: 7px;
+	}
+
+	.layout-kimono-sp .section-content-mainform .top-fullbox div.item_page.last {
+		border-bottom: none;
+	}
+
+	.layout-kimono-sp .section-content-mainform .top-fullbox div.item_page img {
+		width: 100%;
+		height: inherit;
+	}
+	/*add new title*/
+	.no-br-sp a br{
+		display: none !important;
+	}
+
+	.none-br a br{
+		display: none !important;
+	}
+	/*======================================================================
+	*** End Top Page (Chien xam) ***
+	========================================================================*/
+	/*======================================================================
+	*** Begin /howto Page (Chien xam) ***
+	========================================================================*/
+	.layout-kimono-sp .cont-page-howto.howto .cont-page-right{
+		display: none;
+	}
+        
+	.layout-kimono-sp .box-overview-page-howto-faq {
+		margin: 0;
+	}
+
+	.layout-kimono-sp .box-overview-page-howto-faq .info .wrap {
+		padding: 7px;
+		box-sizing: border-box;
+	}
+
+	.layout-kimono-sp .cont-page-howto.howto {
+		background: #fff;
+		padding-top: 10px;
+	}
+
+	.layout-kimono-sp .cont-page-howto.howto .cont-page-left {
+		padding: 7px;
+		box-sizing: border-box;
+	}
+
+	.layout-kimono-sp .cont-page-howto.howto .cont-page-left .item-last {
+		margin: 0;
+		padding: 0;
+	}
+
+	.layout-kimono-sp .cont-page-howto.howto .cont-page-left .item .i-left,
+	.layout-kimono-sp .cont-page-howto.howto .cont-page-left .item .i-right,
+	.layout-kimono-sp .cont-page-howto.howto .cont-page-left .item .i-right img {
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.layout-kimono-sp .cont-page-howto.howto .cont-page-left .item .i-left > p {
+		margin-bottom: 10px;
+	}
+
+	.layout-kimono-sp .cont-page-howto.howto .cont-page-left .item .i-left .point {
+		margin-bottom: 10px;
+	}
+
+
+/*======================================================================
+*** End /howto Page (Chien xam) ***
+========================================================================*/
+        
+/*======================================================================
+*** Begin /blog Page (Chien xam) ***
+========================================================================*/
+    .layout-kimono-sp section#category-description{
+        min-height: 0;
+        margin: 0;
+    }
+    
+    .layout-kimono-sp section#category-description img{
+        width: 100%;
+    }
+    
+    .layout-kimono-sp section#category-description .cate-name{
+        font-size: 20px;
+        line-height: 1.1;
+        left: 7px;
+        bottom: 7px;
+    }
+    
+    .layout-kimono-sp section#category-description div{
+        display: none;
+    }
+    
+    .layout-kimono-sp section#category-description div p{
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 13px;
+        line-height: 1.5;
+        font-size: 10px;
+    }
+    
+    .layout-kimono-sp .site-content-blog{
+        width: 100%;
+        background: #fff;
+        padding: 7px;
+        box-sizing: border-box;
+    }
+    
+    .layout-kimono-sp .site-content-blog div.tn-blog-cat{
+        padding: 0;
+    }
+    
+    .layout-kimono-sp .site-content-blog h2.tn-blog-title a{
+        font-size: 20px;
+        line-height: 1.1;
+    }
+    
+    .layout-kimono-sp div.tn-blog-content-sort a img{
+        width: 100%;
+        height: inherit;
+        float: none;
+        margin: 0 0 7px 0;
+    }
+
+    .layout-kimono-sp #sidebar-blog{
+        width: 100%;
+        padding: 7px;
+        box-sizing: border-box;
+        background: #fff;
+    }
+    
+    .layout-kimono-sp #sidebar-blog ul#blog-childs{
+        background: #fff;
+    }
+    
+    .layout-kimono-sp .site-content-blog .cont-blog-detail .title-post{
+        font-size: 20px;
+        line-height: 1.1;
+    }
+    
+    .layout-kimono-sp .site-content-blog .cont-blog-detail .image-featured{
+        margin-bottom: 10px;
+    }
+    
+    .layout-kimono-sp .site-content-blog .cont-blog-detail .image-featured img{
+        width: 100%;
+    }
+    
+    .layout-kimono-sp .site-content-blog .cont-blog-detail .content-post{
+        margin: 0 0 10px 0;
+    }
+    
+    .layout-kimono-sp .site-content-blog .cont-blog-detail .content-post img{
+        width: 100%;
+        height: inherit;
+        margin-bottom: 10px;
+    }
+    
+    .layout-kimono-sp .site-content-blog .cont-blog-detail .nav-single{
+        margin: 0;
+    }
+    
+    .layout-kimono-sp .site-content-blog .cont-blog-detail .nav-single span{
+        width: 32.3%;
+    }
+/*======================================================================
+*** End /blog Page (Chien xam)***
+========================================================================*/
+
+/*======================================================================
+*** Begin /notation Page (Chien xam)***
+========================================================================*/
+    .layout-kimono-sp article.page .content-page-first{
+        margin: 0 0 10px 0;
+    }
+    
+    .layout-kimono-sp .main-image-page-template .image img{
+        width: 100%;
+        height: inherit;
+	    min-height: 130px;
+    }
+    
+    .layout-kimono-sp .main-image-page-template h1{
+        font-size: 20px;
+        left: 7px;
+        bottom: 60px;
+    }
+    
+    .layout-kimono-sp .main-image-page-template .desc-banner{
+        min-height: 0;
+    }
+    
+    .layout-kimono-sp .main-image-page-template .desc-banner p{
+        padding: 7px;
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    
+    .layout-kimono-sp .content-page-notation{
+        background: #fff;
+    }
+    
+    .layout-kimono-sp .content-page-notation ul li{
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    
+    .layout-kimono-sp .content-page-notation ul li label{
+        width: 40%;
+    }
+    
+    .layout-kimono-sp .content-page-notation ul li .text{
+        width: 60%;
+    }
+/*======================================================================
+*** End /notation Page (Chien xam)***
+========================================================================*/
+        
+/*======================================================================
+*** Begin: /kimono Page - Tona ***
+========================================================================*/
+    .box-overview-kimono-page{
+        margin-bottom: 0;
+    }
+    .box-overview-page-howto-faq .info, .box-overview-kimono-page .info{
+        width: 100%;
+        height: auto;
+        background: none;
+    }
+    .box-overview-kimono-page .info .wrap{
+        padding: 7px;
+        box-sizing: border-box;
+    }
+
+	/*======================================================================
+	*** End /howto Page (Chien xam) ***
+	========================================================================*/
+	/*======================================================================
+	*** Begin /blog Page (Chien xam) ***
+	========================================================================*/
+	.layout-kimono-sp section#category-description {
+		min-height: 0;
+		margin: 0;
+	}
+
+	.layout-kimono-sp section#category-description img {
+		width: 100%;
+	}
+
+	.layout-kimono-sp section#category-description .cate-name {
+		font-size: 20px;
+		line-height: 1.1;
+		left: 7px;
+		bottom: 7px;
+	}
+
+	.layout-kimono-sp section#category-description div {
+		display: none;
+	}
+
+	.layout-kimono-sp section#category-description div p {
+		padding: 7px;
+		box-sizing: border-box;
+		font-size: 13px;
+		line-height: 1.5;
+		font-size: 10px;
+	}
+
+	.layout-kimono-sp .site-content-blog {
+		width: 100%;
+		background: #fff;
+		padding: 7px;
+		box-sizing: border-box;
+	}
+
+	.layout-kimono-sp .site-content-blog div.tn-blog-cat {
+		padding: 0;
+	}
+
+	.layout-kimono-sp .site-content-blog h2.tn-blog-title a {
+		font-size: 20px;
+		line-height: 1.1;
+	}
+
+	.layout-kimono-sp #sidebar-blog {
+		width: 100%;
+		padding: 7px;
+		box-sizing: border-box;
+		background: #fff;
+	}
+
+	.layout-kimono-sp #sidebar-blog ul#blog-childs {
+		background: #fff;
+	}
+
+	.layout-kimono-sp .site-content-blog .cont-blog-detail .title-post {
+		font-size: 20px;
+		line-height: 1.1;
+	}
+
+	.layout-kimono-sp .site-content-blog .cont-blog-detail .image-featured {
+		margin-bottom: 10px;
+	}
+
+	.layout-kimono-sp .site-content-blog .cont-blog-detail .image-featured img {
+		width: 100%;
+	}
+
+	.layout-kimono-sp .site-content-blog .cont-blog-detail .content-post {
+		margin: 0 0 10px 0;
+	}
+
+	.layout-kimono-sp .site-content-blog .cont-blog-detail .content-post img {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.layout-kimono-sp .site-content-blog .cont-blog-detail .nav-single {
+		margin: 0;
+	}
+
+	.layout-kimono-sp .site-content-blog .cont-blog-detail .nav-single span {
+		width: 32.3%;
+	}
+
+	/*======================================================================
+	*** End /blog Page (Chien xam)***
+	========================================================================*/
+	/*======================================================================
+	*** Begin: Tona ***
+	========================================================================*/
+	/*-- /kimono Page --- */
+	.box-overview-kimono-page {
+		margin-bottom: 0;
+	}
+
+	.box-overview-page-howto-faq .info, .box-overview-kimono-page .info {
+		width: 100%;
+		height: auto;
+		background: none;
+	}
+
+	.box-overview-kimono-page .info .wrap {
+		padding: 7px;
+		box-sizing: border-box;
+	}
+
+	.box-overview-page-howto-faq, .box-overview-kimono-page {
+		width: 100%;
+		height: auto;
+	}
+
+	.box-overview-page-howto-faq .image, .box-overview-kimono-page .image {
+		width: 100%;
+		height: auto;
+	}
+
+	.box-overview-page-howto-faq .image img, .box-overview-kimono-page .image img {
+		width: 100%;
+		height: auto;
+	}
+
+	div.box-overview-kimono-page {
+		background: #fff;
+	}
+
+	.box-overview-page-howto-faq .info h1,
+	.box-overview-kimono-page .info h1 {
+		font-size: 24px;
+		font-weight: bold;
+	}
+
+	div.general_title_box {
+		background: url(../images/sp/icon-arrow-8x11.png) no-repeat 7px 13px, url(../images/sp/flower-title-section-content-flower.png) no-repeat right bottom, #703b67;
+		padding: 9px 7px 5px 8px;
+		min-height: 0;
+	}
+
+	.box-content-page .cont-page-left {
+		width: 100%;
+	}
+
+	div.general_title_box h3 {
+		color: #fff;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 1;
+		padding: 0;
+	}
+
+	div.content_box {
+		padding: 7px;
+		box-sizing: border-box;
+		width: 100%;
+	}
+
+	div.content_box div.content_box_gell {
+		width: 100%;
+		min-height: 0;
+		margin: auto;
+		float: none;
+	}
+
+	div.content_box div.content_box_gell img.box-main-full {
+		width: 100%;
+		height: auto;
+	}
+
+	div.content_box div.content_box_gell > ul {
+		display: none;
+	}
+
+	div.content_box div.content_box_info_subpage {
+		width: 100%;
+		min-height: 0;
+		float: none;
+	}
+
+	div.content_box_info_subpage p.sub_description {
+		padding: 10px 0 0 0;
+		text-align: justify;
+	}
+
+	div.content_box_info_subpage ul.view_icon li {
+		width: 120px;
+	}
+
+	div.content_box_info_subpage ul.view_icon {
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	div.content_box_info_subpage ul.view_icon li {
+		width: 33.3333%;
+		box-sizing: border-box;
+		margin: 0;
+		margin-bottom: 5px;
+	}
+
+	div.content_box_info_subpage ul.view_icon li a img {
+		float: left;
+		width: 40px;
+		height: auto;
+	}
+
+	div.content_box_info_subpage ul.view_icon li p {
+		font-size: 13px;
+	}
+
+	div.content_box_info_subpage p.sub_description {
+		font-size: 13px;
+	}
+
+	div.content_box_info_subpage h4 {
+		padding: 10px 0 7px 0;
+	}
+
+	div.view_link_goto_page {
+		margin-left: 0;
+		padding-left: 0;
+	}
+
+	ul.view_price li.price_large p {
+		font-size: 51px;
+	}
+
+	div.content_box_info_subpage ul.view_price {
+		margin-left: 0;
+	}
+
+	section.section_general {
+		padding-bottom: 5px;
+		background: #fff;
+		margin-top: 10px;
+	}
+
+	div.box-content-page .cont-page-right {
+		width: 100%;
+		padding: 10px 7px;
+		margin-bottom: 5px;
+		box-sizing: border-box;
+		background: #f2f1f1;
+	}
+
+	div.box-sidebar-new ul.sidebar-kimono-page {
+		background: #fff;
+	}
+
+	/* End: /kimono Page */
+	/* Faq */
+	div.main-image-page-template .desc-banner{
+		position: inherit;
+	}
+	div.box-overview-page-howto-faq {
+		background: #fff;
+	}
+
+	section.box-faq-aandq div.box-title {
+		background: url(../images/sp/icon-arrow-8x11.png) no-repeat 7px 13px, url(../images/sp/flower-title-section-content-flower.png) no-repeat right bottom, #703b67;
+		padding: 9px 7px 5px 8px;
+		min-height: 0;
+	}
+
+	section.box-faq-aandq div.box-title p {
+		color: #fff;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 1;
+	}
+
+	div.cont-page-left section.box-faq-aandq {
+		background: #fff;
+		margin-top: 10px;
+	}
+
+	div.cont-page-left section.box-faq-aandq dl {
+		padding-left: 7px;
+		padding-right: 7px;
+		padding-bottom: 15px;
+	}
+
+	section.box-faq-aandq div.box-faq-more {
+		padding-bottom: 10px;
+	}
+
+	section.box-faq-aandq div.box-faq-more a.goto-more {
+		margin-right: 7px;
+	}
+
+	div.google_map {
+		margin: 10px 0 !important;
+	}
+
+	div.box-faq-more a.goto-more {
+		padding-bottom: 3px;
+	}
+
+	div.page-childs-howto-faq div.content ul.sbar_faqs {
+		background: #fff;
+	}
+
+	/* Faq/contactwp*/
+	div.cont-page-left ul.contact-tabs {
+		font-size: 0;
+	}
+
+	div.cont-page-left ul.contact-tabs li {
+		margin-right: 1px;
+	}
+
+	div.cont-page-left ul.contact-tabs li a {
+		padding-left: 8px;
+		padding-right: 8px;
+		font-size: 15px;
+	}
+
+	div.box-content-page div.cont-page-left {
+		background: #fff;
+	}
+
+	div#form-default,
+	div#form-option {
+		width: 100%;
+		padding: 0 7px;
+		box-sizing: border-box;
+	}
+
+	input.wpcf7-text {
+		width: 100%;
+		margin-right: 0;
+		box-sizing: border-box;
+	}
+
+	textarea.wpcf7-textarea {
+		box-sizing: border-box;
+	}
+
+	span.using_date_time input#book-time {
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.wpcf7 input.wpcf7-form-control,
+	select.select_company {
+		width: 100%;
+	}
+
+	
+
+	/* Reserve */
+	#formAddPlan table.add_plan tr td a.detail_tip {
+		width: 32px;
+		height: 32px;
+		background: url('../images/icon/tooltips.jpg') no-repeat;
+		font-size: 0;
+	}
+
+	td span#list_plans_1SelectBoxItContainer {
+		width: 86px;
+		height: 35px;
+	}
+
+	form#formAddPlan table.add_plan tr td span.selectboxit-btn {
+		height: 32px;
+		width: 86px !important;
+	}
+
+	form#formAddPlan table.add_plan tr td span.selectboxit-text span.text {
+		margin-top: -25px;
+	}
+
+	form#formAddPlan table.add_plan tr td span.selectboxit-text span.number {
+		font-size: 28px;
+		line-height: 34px;
+	}
+
+	form#formAddPlan table.add_plan tr td .selectboxit .selectboxit-arrow-container .selectboxit-arrow {
+		top: 42%;
+	}
+
+	div.container div#booking {
+		width: 100%;
+		margin-bottom: 0;
+		border-bottom: 10px solid #f2f1f1;
+	}
+
+	section#sec-booking-chooseplan {
+		padding-bottom: 0;
+	}
+
+	section#sec-booking-chooseplan header > p,
+	section#sec-booking-chooseplan div.banner-text-contactwp {
+		display: none;
+	}
+
+	.page-payment .title-sec, .booking .title-sec, #booking_form h3.title-sec, .ctrl-booking .title-sec {
+		background: url(../images/sp/icon-arrow-8x11.png) no-repeat 7px 20px, url(../images/sp/flower-title-section-content-flower.png) no-repeat right bottom, #703b67;
+		margin-bottom: 0;
+		padding: 0;
+		text-indent: 20px;
+		font-size: 24px;
+		line-height: 55px;
+	}
+
+	table.add_plan td select.list_plans {
+		font-size: 25px;
+	}
+
+	table.add_plan td select.list_plans span.text {
+		font-size: 25px;
+	}
+
+	section#sec-booking-chooseplan div.list-plan-selected form#formAddPlan table.add_plan tr.head th,
+	section#sec-booking-chooseplan div.list-plan-selected form#formAddPlan table.add_plan tr td {
+		box-sizing: border-box;
+		padding: 0 7px;
+	}
+
+	section#sec-booking-chooseplan div.list-plan-selected form#formAddPlan table.add_plan tr td:last-child {
+		padding-left: 0;
+	}
+
+	form#formAddPlan div.total p {
+		padding: 0;
+		font-size: 24px;
+		color: #444444;
+	}
+
+	form#formAddPlan div.total p > var {
+		display: inline-block;
+		padding-left: 7px;
+		width: 60%;
+	}
+
+	form#formAddPlan div.tn-Button-AddPlan {
+		background: none;
+		padding: 20px 0;
+	}
+
+	body.layout-kimono-sp .qtip-content {
+		max-width: 190px !important;
+		padding: 0!important;
+	}
+
+	.qtip-default {
+		border-left: 3px solid #ea6f9c !important;
+		border-right: 1px solid #ea6f9c !important;
+		border-bottom: 2px solid #ea6f9c !important;
+		border-top: 2px solid #ea6f9c !important;
+		box-shadow: 2px 5px 3px #dedede;
+		padding: 5px 10px 5px 5px !important;
+	}
+
+	div.container div.bc_step_by_step {
+		padding-top: 10px;
+		margin-bottom: 12px;
+	}
+
+	div.container div.bc_step_by_step div.step-by-step-sp {
+		background: url("../images/icon/bg-step.png") top center repeat-x;
+	}
+	div.container div.bc_step_by_step div.step-by-step-sp ul.tn-step-by-step-text-sp{
+		padding: 5px 0;
+	}
+
+	div.container div.bc_step_by_step > ul.tn-step-by-step {
+		display: none;
+	}
+
+	div.container div.bc_step_by_step div.step-by-step-sp {
+		display: block;
+	}
+
+	div.container div.bc_step_by_step div.step-by-step-sp ul.tn-step-by-step-ico-sp {
+		background: url("../images/icon/bg-ul-step-by-step.jpg") center repeat-x;
+		padding-top: 1px;
+	}
+
+	div.container div.bc_step_by_step div.step-by-step-sp ul.tn-step-by-step-ico-sp li {
+		display: inline-block;
+		position: relative;
+		width: 0;
+		height: 9px;
+		padding-left: 21.35%;
+	}
+
+	div.container div.bc_step_by_step div.step-by-step-sp ul.tn-step-by-step-ico-sp li.li-active {
+		background: url("../images/icon/step-active-li.png") no-repeat;
+		background-position: 19px 2px;
+		z-index: 3;
+	}
+
+	div.container div.bc_step_by_step div.step-by-step-sp ul.tn-step-by-step-ico-sp li:first-child {
+		padding-left: 0;
+	}
+
+	div.container div.bc_step_by_step div.step-by-step-sp ul.tn-step-by-step-ico-sp li span {
+		position: absolute;
+		display: block;
+		border-radius: 50%;
+		width: 29px;
+		height: 29px;
+		background: url("../images/icon/step-num.png") center;
+		line-height: 29px;
+		font-family: Arial, "Tahoma", "sans-serif";
+		font-weight: bold;
+		font-size: 15px;
+		color: #fff;
+		text-shadow: 0 0 3px #000;
+		z-index: 2;
+		top: -100%;
+		box-sizing: border-box;
+		padding-left: 10px;
+	}
+
+	div.container div.bc_step_by_step div.step-by-step-sp ul.tn-step-by-step-ico-sp li span.span-active {
+		background: url("../images/icon/step-num-active.png") no-repeat;
+		line-height: 28px;
+	}
+
+	div.container div.bc_step_by_step div.step-by-step-sp ul.tn-step-by-step-ico-sp li span.span-active-first {
+		background: url("../images/icon/step-num-active-first.png") no-repeat;
+		line-height: 28px;
+	}
+
+	div.container div.bc_step_by_step div.step-by-step-sp ul.tn-step-by-step-text-sp li {
+		display: none;
+	}
+
+	div.container div.bc_step_by_step div.step-by-step-sp ul.tn-step-by-step-text-sp li.active {
+		display: block;
+	}
+
+	div.container div.bc_step_by_step div.step-by-step-sp ul.tn-step-by-step-text-sp li.active span {
+		color: #fff;
+		font-size: 16px;
+		text-indent: 10px;
+		display: block;
+		background: url('../images/icon/ico-array.png') left center no-repeat;
+		margin-top: 10px;
+	}
+
+	/* Policy - page */
+	.tn-ct-policy{
+		padding: 10px 7px !important;
+		box-sizing: border-box;
+	}
+
+	div.container div.title-page div img {
+		width: 100%;
+		height: auto;
+	}
+
+	div.title-page h1.entry-title {
+		top: 45%;
+		left: 5%;
+		font-size: 24px;
+	}
+
+	article.policy h3.pc {
+		display: none;
+	}
+
+	article.policy h3.sp {
+		display: block !important;
+		margin-top: 10px;
+	}
+
+	article.policy h3.sp a img {
+		width: 100%;
+		height: auto;
+	}
+	/* Kimono/mamechiyo */
+	.mamechiyo .cont-page-left > p,
+	h3.title-h3-mamechiyo,
+	h4.mamechoyi-titlle-addpress,
+	ul.mamechiyo-addres-info
+	{
+		padding: 0 7px;
+	}
+
+	.layout-kimono-sp .main-image-page-template h1{
+		top: 27%;
+		bottom: auto;
+	}
+	.layout-kimono-sp .main-image-page-template .desc-banner p{
+		text-align: justify;
+	}
+	div.box-img-mamechiyo{
+		width: 100%;
+	    background: #fff;
+    }
+	div.swe-tab ul.swe-tab-content li{
+		margin-bottom: 0;
+	}
+	div.swe-tab ul.swe-tab-content{
+		float: left;
+	}
+	div.swe-tab ul.swe-tab-content{
+		width: 100%;
+		padding: 0 7px;
+		box-sizing: border-box;
+	}
+	.page-faqs .entry-content .swe-toggle-box .toggle-box-title{
+		background-position: 0 bottom!important;
+	}
+	.page-faqs .entry-content h2{
+		font-size: 25px!important;
+		line-height: 30px!important;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-top: 10px!important;
+		margin-bottom: 0!important;
+	}
+	ul.swe-toggle-box{
+		width: 100%;
+	}
+	.page-faqs .entry-content .swe-toggle-box .toggle-box-title{
+		font-size: 14px!important;
+		line-height: 1.5!important;
+		min-height: 40px;
+		padding-top: 10px;
+	}
+	.page-faqs .entry-content .swe-toggle-box .toggle-box-content{
+		/*line-height: 0;*/
+		padding: 0!important;
+	}
+	.layout-kimono-sp h3.reserve-960x100-pc{
+		display: none;
+    }
+	.layout-kimono-sp h3.reserve-960x100-sp{
+		display: block;
+	}
+	.layout-kimono-sp h3.reserve-960x100-sp a img{
+		width: 100%;
+		height: auto;
+	}
+	div.swe-tab > ul.swe-tab-title{
+		width: 100%;
+		text-transform: uppercase;
+		padding: 7px;
+		box-sizing: border-box;
+	}
+    /* Kimono*/
+	div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item{
+		width: 100%;
+	}
+	div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item div.image img{
+		width: 100%;
+		height: auto;
+	}
+	div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item-01 .t-item{
+		background: #e2e926 url("../images/kimono-title-1.jpg") right center no-repeat;
+		border-radius: 3px;
+	}
+	div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .box-overview{
+		margin-bottom: 15px;
+	}
+	div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item{
+		margin: 0;
+	}
+	div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item-02 .t-item{
+		background: #b57cb9 url("../images/kimono-title-5.jpg") right center no-repeat;
+		border-radius: 3px;
+	}
+	div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item-03 .t-item{
+		background: #8bae77 url("../images/kimono-title-4.jpg") right center no-repeat;
+		border-radius: 3px;
+	}
+	div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item-04 .t-item{
+		background: #42a4ec url("../images/kimono-title-3.jpg") right center no-repeat;
+		border-radius: 3px;
+	}
+	div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item-05 .t-item{
+		background: #e8733d url("../images/kimono-title-2.jpg") right center no-repeat;
+		border-radius: 3px;
+	}
+	div.swe-tab ul.swe-tab-content .sub-title-kimono{
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 2.5em;
+		margin-bottom: 10px;
+		line-height: 1.2;
+	}
+
+	/* Howto*/
+	div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-howto .item{
+		width: 100%;
+	}
+	div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-howto .item div.image img{
+		width: 100%;
+		float: none;
+	}
+	div.swe-tab ul.swe-tab-content .sub-title{
+		margin-bottom: 20px;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 25px;
+	}
+	h3.page-policy-pc{
+		display: none;
+	}
+	h3.page-policy-sp{
+		display: block;
+	}
+	h3.page-policy-sp a img{
+		width: 100%;
+		margin-top: 10px;
+	}
+	div.entry-content div.tn-ct-policy{
+		width: 100%;
+		padding: 7px;
+		box-sizing: border-box;
+	}
+	div.block-for-mamechiyo-page-title h2{
+		font-size: 13px!important;
+		text-indent: 20px!important;
+		background: url(../images/sp/icon-arrow-8x11.png) no-repeat 7px 20px,
+					url(../images/sp/flower-title-section-content-flower.png) no-repeat right bottom, #703b67;
+		width: 100%;
+	}
+	.en div.block-for-mamechiyo-page-title h2{
+		font-size: 12px!important;
+	}
+	article div.entry-content > p{
+		padding: 0 7px;
+    }
+	article div.entry-content h3.title-h3-mamechiyo{
+		padding: 0 7px;
+		font-size: 20px;
+	}
+	article div.entry-content div.box-img-mamechiyo{
+		width: 100%;
+		padding: 0 7px;
+		box-sizing: border-box;
+	}
+	article div.entry-content div.box-img-mamechiyo img{
+		width: 100%;
+		height: auto;
+		margin-bottom: 10px;
+	}
+	article div.entry-content h4.mamechoyi-titlle-pare{
+		padding: 22px 7px 3px 7px;
+	}
+	
+	/* Notation*/
+	.content-page-notation ul li label, body.en .content-page-notation ul li label{
+		width: 50%!important;
+	}
+
+	/* Kimono13/ top - page */
+	
+	div.box-image-link-top section.toppage-box-img div.image_470{
+		width: 100%;
+	}
+	.layout-kimono-sp .block-viewbooking-top-page p.note-plan{
+		display: block;
+		width: 100%;
+		padding: 0 7px;
+		box-sizing: border-box;
+	}
+	div#choose-date div.time_table p#paged{
+		width: 100%;
+		padding: 0 7px;
+		box-sizing: border-box;
+	}
+
+	/* Kimono13/column */
+	div.column-list-page header .desc p{
+		padding: 7px;
+		text-align: justify;
+	}
+	html body.layout-kimono-sp div.container .column-list-page header{
+		min-height: auto!important;
+	}
+	html body.layout-kimono-sp .content-column-page .con-left section.page-content{
+		width: 100%;
+		padding: 0 7px;
+		box-sizing: border-box;
+	}
+	html body.layout-kimono-sp .content-column-page .wrap-con{
+		width: 100%;
+	}
+	html body.layout-kimono-sp .content-column-page .con-left{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	html body.layout-kimono-sp .content-column-page .con-left section.page-content p{
+		width: 100%;
+	}
+	html body.layout-kimono-sp .content-column-page .con-left section.page-content p img{
+		width: 100%;
+		height: auto;
+	}
+	html body.layout-kimono-sp .content-column-page .con-left section.page-childs .list-item{
+		margin-top: 10px;
+	}
+	html body.layout-kimono-sp .content-column-page .con-left .h3-block .imageleft{
+		width: 100%;
+		padding: 0 7px;
+		box-sizing: border-box;
+	}
+	html body.layout-kimono-sp .content-column-page .con-left .h3-block .imageleft img{
+		width: 100%;
+		height: auto;
+		margin-bottom: 5px;
+	}
+	html body.layout-kimono-sp .content-column-page .con-left .h3-block p{
+		width: 100%;
+		padding: 0 7px;
+		display: block;
+		box-sizing: border-box;
+		height: auto;
+		text-align: justify;
+	}
+	html body.layout-kimono-sp .content-column-page .con-left .h3-block .h3-title-bar{
+		height: auto;
+	}
+	html body.layout-kimono-sp .content-column-page .con-right{
+		width: 100%;
+		float: left;
+	}
+	html body.layout-kimono-sp .content-column-page .con-right div.sidebar-column{
+		width: 100%;
+		/*padding: 0 7px;*/
+		box-sizing: border-box;
+	}
+	html body.layout-kimono-sp .hd-column-sidebar.sidebar-column .content{
+		width: auto;
+	}
+	html body.layout-kimono-sp .hd-column-sidebar.sidebar-column .title{
+		width: auto;
+		height: auto;
+	}
+	html body.layout-kimono-sp .hd-column-sidebar.sidebar-column .page-childs{
+		margin-bottom: 10px;
+	}
+	html body.layout-kimono-sp .hd-column-sidebar.sidebar-column .title{
+		font-weight: normal;
+	}
+	html body.layout-kimono-sp .content-column-page .con-left .other_pages ul li{
+		width: 100%;
+	}
+	html body.layout-kimono-sp .content-column-page .con-left .other_pages ul li a img{
+		width: 100%;
+		height: auto;
+	}
+	html body.layout-kimono-sp .content-column-page .con-left .h2-block-second{
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0 7px;
+	}
+	html body.layout-kimono-sp .content-column-page .con-left .h2-block .h2-title-bar{
+		width: auto;
+	}
+	.banner-lesson a img{
+		width: 100%;
+	}
+	html body.layout-kimono-sp .content-column-page .box-title .wrap{
+		width: 100%;
+		padding: 7px 7px;
+		box-sizing: border-box;
+	}
+	div#page div#classroom_banner{
+		margin: 15px auto 25px;
+	}
+
+	div#classroom_banner div.container a img{
+		width: 100%;
+		padding: 0 7px;
+		box-sizing: border-box;
+	}
+	div#page div#classroom_banner div.container a img{
+		margin-bottom: 15px;
+	}
+
+	div#classroom_banner div.container a img{
+		width: 100%;
+		padding: 0 7px;
+		box-sizing: border-box;
+	}
+
+    /*
+    * END - TONA--------------------------------------
+    */
+
+	/*--- page reserve: drop-down people (chien-xam) ---*/
+	.selectboxit-text{
+		text-indent: 0 !important;
+	}
+	.layout-kimono-sp .container .columns, .layout-kimono-sp .container .column {
+		margin: 0;
+		position: relative;
+	}
+	
+
+div#classroom_banner div.container .item {
+    width: 100%;
+}
+div#classroom_banner div.container .item img{
+	padding: 0;
+}
+body.tw #classroom_banner{
+	margin-bottom: 0;
+}
+div#page div#classroom_banner{
+	margin-bottom: 0;
+}
+}
+/*// end-767*/
+
+/* # Layout for Mobile Landscape.
+---------------------------------------------------------------------------- */
+@media all and (min-width: 480px) and (max-width: 767px) {
+	/*======================================================================
+	*** Begin Top Page (Chien xam) ***
+	========================================================================*/
+	body {
+		background: #f2f1f1 !important;
+	}
+
+	/*=====================================
+		.item-blog-top
+	=======================================*/
+	.layout-kimono-sp div.item-blog-top .text p.first-title span.date {
+		position: relative;
+		top: 2px;
+	}
+
+	/*======================================================================
+	*** End Top Page (Chien xam) ***
+	========================================================================*/
+	/* -- Start Tona -- */
+	div.container div.bc_step_by_step div.step-by-step-sp ul.tn-step-by-step-ico-sp li {
+		padding-left: 22.61%;
+	}
+
+	/* Kimono page */
+	div.content_box_info_subpage ul.view_icon li {
+		margin-bottom: 10px;
+	}
+
+	div.content_box_info_subpage ul.view_icon li {
+		width: 25%;
+	}
+
+	div.content_box_info_subpage ul.view_icon li a img {
+		width: 80px;
+	}
+
+	/* -- End Tona -- */
+}
+
+/* # Layout for Tablet.
+---------------------------------------------------------------------------- */
+@media all and (min-width: 768px) and (max-width: 959px) {
+	/*======================================================================
+	*** Begin Top Page (Chien xam) ***
+	========================================================================*/
+	body {
+		background: #f2f1f1 !important;
+	}
+
+
+	/*=====================================
+		.box-image-link-top
+	=======================================*/
+	.layout-kimono-sp .box-image-link-top section.page-images-top-sp {
+		display: none;
+	}
+
+	/*======================================================================
+	*** End Top Page (Chien xam) ***
+	========================================================================*/
+	#masthead .container{
+		width:100%;
+	}
+	/*
+    Menu top
+------------------------------------------*/
+	.menu-top-kimono .container{
+		width:100%;
+	}
+
+	.menu-top-kimono .container .bg-left,
+	.menu-top-kimono .container .bg-right{
+		width:1%;
+	}
+
+	.menu-top-kimono .container .main-navigation ul {
+		width: 98%;
+	}
+}
+
+/* Display: none for pc */
+.layout-kimono-sp h3.reserve-960x100-sp,
+.page-policy-sp
+{
+	display: none;
+}

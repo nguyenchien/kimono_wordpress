@@ -1,0 +1,52 @@
+.wrap-shoplist .list-shop-list .item-shop-list .details-shop-list .info-dt-shop .text-dt-shop{
+    font-size: 12px;
+}
+.title-general .sub-text-title{
+    font-size: 12px;
+}
+.wrap-slider-gallery .gallery-desc p{
+    font-size: 12px;
+}
+.wrap-new-kimono-howto .howto-textleft {
+    font-size: 14px;
+}
+.wrap-new-kimono-howto .howto-textright {
+    font-size: 13px;
+}
+@media (max-width: 360px){
+    .wrap-new-kimono-howto .howto-textleft {
+        width: 110px;
+    }
+    .wrap-new-kimono-howto .howto-textleft {
+        padding: 3px 5px;
+    }
+}
+@media (min-width: 750px){
+    .list-menu-new-kimono .item-menu-formal a{
+        font-size: 14px;
+    }
+    .wrap-topics-banner-widget .text-banner a{
+        font-size: 14px;
+    }
+    .wrap-topics-banner-widget .text-banner-right a{
+        font-size: 13px;
+    }
+    .title-general .sub-text-title{
+        font-size: 11px;
+    }
+    .intro-top-general .content-intro-top {
+        font-size: 13px;
+    }
+    .wrap-new-formal-widget-right .wrap-text-new-formal .text-new-formal-1, .text-new-formal-2{
+        font-size: 18px;
+    }
+    .wrap-new-kimono-howto .howto-textleft{
+        font-size: 16px;
+    }
+    .wrap-new-kimono-howto .howto-textright {
+        font-size: 15px;
+    }
+    .wrap-slider-gallery .gallery-desc p{
+        font-size: 14px;
+    }
+}

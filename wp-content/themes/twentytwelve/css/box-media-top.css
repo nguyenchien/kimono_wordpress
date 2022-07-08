@@ -1,0 +1,61 @@
+.box-media-top {
+    margin-bottom: 10px;
+}
+.box-media-top h2 {
+    background-image: url(../images/spriteme-sp.png);
+    background-position: 7px -9730px;
+    background-repeat: no-repeat;
+    padding: 0 7px 0 48px;
+    box-sizing: border-box;
+}
+.box-media-top .block-title-top-page-title {
+    margin-bottom: 10px;
+}
+.box-media-top .content {
+    padding: 0 7px;
+    box-sizing: border-box;
+}
+.box-media-top .content ul {
+    margin-bottom: 10px;
+}
+.box-media-top .content ul li {
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+.box-media-top .content .image {
+    margin-right: 10px;
+    width: 40%;
+}
+.box-media-top .content .text{
+    width: 60%;
+    word-break: break-all;
+}
+.box-media-top .content .image img {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.box-media-top .content .title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 5px;
+}
+.box-media-top .content .desc {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #595757;
+}
+.box-media-top .content .date {
+    font-size: 12px;
+    font-weight: 700;
+    color: #898989;
+}
+.box-media-top .more {
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: solid 1px #ebebeb;
+}

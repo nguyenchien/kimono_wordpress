@@ -1,0 +1,98 @@
+.wrap-content-v2 {
+    margin-bottom: 20px;
+}
+.wrap-banner-tkh-new-kimono {
+	padding: 0 10px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.wrap-banner-tkh-new-kimono .list-banner-price-tkh-new-kimono {
+	margin-left: -14px;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+}
+.wrap-banner-tkh-new-kimono .item {
+	margin: 0 0 14px 14px;
+	width: calc(100% * (1/5) - 10px);
+}
+.wrap-banner-tkh-new-kimono .item p{
+    line-height: 1.4;
+    font-size: 13px;
+}
+.wrap-banner-tkh-new-kimono .item:first-child {
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.wrap-banner-tkh-new-kimono .item img {
+	width: 100%;
+}
+.wrap-banner-tkh-new-kimono .item:first-child img {
+	width: 84%;
+}
+.wrap-btn-change {
+	margin: 10px auto 25px;
+	width: 50%;
+}
+/*===WIDGET BANNER CONTENT===*/
+.wrap-widget-banner {
+	padding: 0 10px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 40px;
+}
+.wrap-widget-banner .list-widget-banner,
+.widget-banner-tp-new-kimono-topic .list-banner-tp-new-kimono,
+.widget-banner-tp-new-kimono-options .list-banner-tp-new-kimono{
+	display: flex;
+	flex-direction: column;
+}
+.wrap-widget-banner .list-widget-banner .item-widget-banner,
+.widget-banner-tp-new-kimono-topic .item-banner {
+	width: 100%;
+	margin-bottom: 15px;
+}
+/*===WIDGET BANNER TOPIC===*/
+.widget-banner-tp-new-kimono-topic{
+	margin-bottom: 20px;
+}
+.widget-banner-tp-new-kimono-topic .list-banner-tp-new-kimono .info-des-banner{
+	color: #6b7a80;
+	text-decoration: underline;
+	font-size: 14px;
+	padding: 0 5px;
+	box-sizing: border-box;;
+	margin-top: 5px;
+}
+/*===WIDGET BANNER TOPIC OPTION===*/
+.widget-banner-tp-new-kimono-options .list-banner-tp-new-kimono {
+	padding: 0 10px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-left: -10px;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+.widget-banner-tp-new-kimono-options .list-banner-tp-new-kimono .item-banner {
+	width: calc(100% * (1/2) - 10px);
+	margin: 0 0 15px 10px;
+}
+.widget-banner-tp-new-kimono-options .list-banner-tp-new-kimono .item-banner img{
+	width: 100%;
+}
+.flex-order-new-kimono{
+	-ms-flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+}

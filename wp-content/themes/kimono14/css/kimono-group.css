@@ -1,0 +1,2816 @@
+/* Begin Page Group List - Chien */
+/*
+	.title-main
+------------------------------------------*/
+@import url('box-today-customer-pc.css');
+input,input.wpcf7-text,textarea.wpcf7-textarea,input.wpcf7-text{
+	-webkit-appearance: none;
+
+}
+.screen-reader-response{
+	display: none;
+}
+.kimono-group .title-main,
+.kimono-group .title-main var{
+	font-size:70px;
+	font-weight:bold;
+}
+
+.kimono-group .title-main{
+	border-bottom:35px solid #000;
+	height:83px;
+	margin-bottom: 25px;
+}
+body.fr .kimono-group .title-main,
+body.fr .kimono-group .title-main var{
+	font-size: 40px;
+	height: 54px;
+}
+body.hi .kimono-group .title-main,
+body.hi .kimono-group .title-main var{
+	font-size: 57px;
+}
+body.ko .kimono-group .title-main{
+	padding-bottom:5px;
+}
+
+.kimono-group .title-main var{
+	margin: 0 5px 0 25px;
+}
+
+.kimono-group .title-main span{
+	font-size:44px;
+}
+body.ru .kimono-group .title-main span{
+	font-size:35px;
+}
+body.th .kimono-group .title-main span{
+	font-size: 38px;
+}
+body.fr .kimono-group .title-main span{
+	font-size:36px;
+}
+/*
+	.item
+------------------------------------------*/
+.kimono-group .item{
+	border-bottom: 13px solid #000;
+	padding-bottom: 30px;
+	margin-bottom: 15px;
+}
+
+.kimono-group .item.plan_x{
+	border-bottom: none;
+	padding-bottom: 0;
+	margin-bottom: 30px;
+}
+
+/*--- .box-group-name ---*/
+.kimono-group .item .box-group-name{
+	margin-bottom: 10px;
+}
+
+.kimono-group .item .box-group-name .wrap-name{
+	overflow: hidden;
+	float: left;
+}
+
+.kimono-group .item .box-group-name .name{
+	float:left;
+	border: 3px solid #000;
+}
+
+.kimono-group .item .box-group-name .name span{
+	font-size: 50px;
+	font-weight: bold;
+	color: #000;
+	display: block;
+	float: left;
+	padding: 12px 9px 6px 9px;
+	box-sizing: border-box;
+	line-height: 1.1;
+}
+body.ru .kimono-group .item .box-group-name .name span{
+	font-size:35px;
+}
+body.fr .kimono-group .item .box-group-name .name span{
+	font-size: 38px;
+}
+body.hi .kimono-group .item .box-group-name .name span{
+	font-size: 42px;
+}
+
+.kimono-group .item .box-group-name .name span.ja,
+.kimono-group .item .box-group-name .name span.en,
+.kimono-group .item .box-group-name .name span.vi,
+.kimono-group .item .box-group-name .name span.tw,
+.kimono-group .item .box-group-name .name span.ko,
+.kimono-group .item .box-group-name .name span.ru,
+.kimono-group .item .box-group-name .name span.th,
+.kimono-group .item .box-group-name .name span.id{
+	background: #000;
+	color: #fff;
+}
+
+.kimono-group .item .box-group-name .bg-arrow{
+	width: 30px;
+	height: 36px;
+	float:left;
+	background: url("../images/bg-arrow-group-name.png") no-repeat 0 0;
+	margin: 21px 0 21px 50px;
+}
+
+.kimono-group .item.plan20 .box-group-name .bg-arrow{
+	margin: 21px 0 21px 40px;
+}
+
+.kimono-group .item .box-group-name .image{
+	width: 303px;
+	float:right;
+}
+
+.kimono-group .item .box-group-name .image img{
+	box-shadow: 1px 3px 10px #000;
+}
+
+.kimono-group .item .box-group-name .image img:hover{
+	opacity: 0.7;
+}
+
+/*--- .text-h1 ---*/
+.kimono-group .item .text-h1{
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 1;
+	margin-bottom: 10px;
+}
+body.ms .kimono-group .item .text-h1{
+	font-size: 38px;
+}
+body.ru .kimono-group .item .text-h1{
+	font-size:30px;
+}
+body.id .kimono-group .item .text-h1{
+	font-size: 38px;
+}
+.kimono-group .item .text-h1 .bold-off{
+	color: red;
+}
+
+.kimono-group .item .text-h1 .medium{
+	font-size: 55px;
+}
+body.ru .kimono-group .item .text-h1 .medium{
+	font-size:42px;
+}
+body.fr .kimono-group .item .text-h1 .medium {
+	font-size: 46px;
+}
+
+/* .box-info */
+.kimono-group .item .box-info{
+	width: 100%;
+	height: auto;
+	background: #e5e5e5;
+}
+
+.kimono-group .item .box-info .b-text{
+	width: 60%;
+	float:left;
+	padding:30px 15px 0 15px;
+	box-sizing: border-box;
+}
+
+.kimono-group .item .box-info .b-text .text-h2{
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+body.ru .kimono-group .item .box-info .b-text .text-h2{
+	font-size:24px;
+}
+body.vi .kimono-group .item .box-info .b-text .text-h2,
+body.en .kimono-group .item .box-info .b-text .text-h2{
+	font-size:23px;
+}
+body.ko .kimono-group .item .box-info .b-text .text-h2{
+	font-size: 25px;
+}
+body.th .kimono-group .item .box-info .b-text .text-h2{
+	font-size:26px;
+}
+body.id .kimono-group .item .box-info .b-text .text-h2,
+body.ms .kimono-group .item .box-info .b-text .text-h2{
+	font-size:22px;
+}
+body.fr .kimono-group .item .box-info .b-text .text-h2{
+	margin-bottom: 5px;
+}
+body.hi .kimono-group .item .box-info .b-text .text-h2{
+	font-size: 27px;
+}
+.kimono-group .item .box-info .b-text .text-h2 .t-left,
+.kimono-group .item .box-info .b-text .text-h2 .t-right{
+	float: left;
+}
+body.en .group20-container .wpcf7 .panel-body .listpeople input,
+body.vi .group20-container .wpcf7 .panel-body .listpeople input{
+	margin-left:27px;
+}
+body.ru .group20-container .wpcf7 .panel-body .listpeople input{
+	margin-left:47px;
+}
+body.fr .group20-container .wpcf7 .panel-body .listpeople input{
+	margin-left:55px;
+}
+body.hi .group20-container .wpcf7 .panel-body .listpeople input{
+	margin-left: 10px;
+}
+body.vi .group20-container .wpcf7 .panel-body .people-des .title{
+	white-space:nowrap;
+	display: block;
+}
+ body.vi .group20-container .wpcf7 .panel-body .people-des span[class^="gender"]{
+	width: 53px;
+}
+body.en .group20-container .wpcf7 .panel-body .people-des span[class^="gender"]{
+	width:72px;
+	display: block;
+}
+body.fr .group20-container .wpcf7 .panel-body .people-des span[class^="gender"]{
+	width: 100px;
+}
+body.ms .group20-container .wpcf7 .panel-body .people-des span[class^="gender"]{
+	width:100px;
+}
+body.ru .group20-container .wpcf7 .panel-body .people-des span[class^="gender"]{
+	width:88px;
+	display: block;
+}
+body.tw .group20-container .panel-body .panel-title span.bubble-circle{
+	font-size:16px;
+}
+body.vi .group20-container .panel-body .panel-title span.curency,body.en .group20-container .panel-body .panel-title span.curency{
+	width:auto;
+}
+body.en .group20-container .wpcf7 .panel-body .listpeople input[type="submit"]{
+	width:204px;
+}
+body.vi .group20-container .wpcf7 .panel-body .listpeople input[type="submit"]{ 
+	width: 166px;
+}
+body.vi .group20-container .wpcf7 .panel-body .listpeople input[type="submit"]{ 
+	display: block;
+	margin:auto;
+}
+.kimono-group .item .box-info .b-text .text-h2 .t-left{
+	margin-right: 7px;
+	line-height: 1.2;
+	text-align: right;
+}
+body.en .kimono-group .item .box-info .b-text .text-h2 .t-left,
+body.vi .kimono-group .item .box-info .b-text .text-h2 .t-left,
+body.ru .kimono-group .item .box-info .b-text .text-h2 .t-left{
+	line-height: 1.5;
+}
+body.th .kimono-group .item .box-info .b-text .text-h2 .t-left{
+	line-height: 1.3;
+}
+body.id .kimono-group .item .box-info .b-text .text-h2 .t-left,
+body.ms .kimono-group .item .box-info .b-text .text-h2 .t-left{
+	line-height: 1.2;
+}
+body.hi .kimono-group .item .box-info .b-text .text-h2 .t-left{
+	line-height: 1.3;
+}
+.kimono-group .item .box-info .b-text .text-h2 .t-right{
+	position: relative;
+	line-height: 1;
+}
+
+.kimono-group .item .box-info .b-text .text-h2 .t-right var{
+	font-weight: bold;
+}
+
+.kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+	color: red;
+	font-size: 80px;
+}
+body.en .kimono-group .item .box-info .b-text .text-h2 .t-right var.num,
+body.vi .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+	font-size: 70px;
+}
+body.ko .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+	font-size: 66px;
+}
+body.ru .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+	font-size: 71px;
+}
+body.th .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+	font-size: 69px;
+}
+body.id .kimono-group .item .box-info .b-text .text-h2 .t-right var.num,
+body.ms .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+	font-size: 55px;
+}
+body.cn .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+	font-size: 76px;
+}
+body.hi .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+	font-size: 70px;
+}
+body.en .kimono-group .item .box-info .b-text .text-h2 .t-right em,
+body.vi .kimono-group .item .box-info .b-text .text-h2 .t-right em{
+	font-size: 30px;
+	margin-right: 5px;
+}
+body.id .kimono-group .item .box-info .b-text .text-h2 .t-right em,
+body.ms .kimono-group .item .box-info .b-text .text-h2 .t-right em{
+	font-size: 25px;
+}
+body.hi .kimono-group .item .box-info .b-text .text-h2 .t-right em{
+	font-size: 40px;
+	margin-right: 5px;
+}
+.kimono-group .item .box-info .b-text .text-h2 .t-right var.yen{
+	color: red;
+	font-size: 46px;
+}
+body.cn .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen{
+	font-size: 35px;
+}
+body.en .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen,
+body.vi .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen,
+body.tw .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen em,
+body.hi .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen{
+	font-size: 30px;
+}
+body.ru .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen em,
+body.th .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen em,
+body.ko .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen em{
+	font-family: inherit;
+}
+body.cn .kimono-group .item .box-info .b-text .text-h2 .t-right em{
+	font-size: 23px;
+	font-family: inherit;
+}
+.kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+	font-size: 16px;
+	color: red;
+	position: absolute;
+	right: 30px;
+	top: 0px;
+}
+body.ko .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+	font-size:13px;
+	right:23px;
+}
+body.tw .group20-container .panel-body .panel-title span.curency .top{
+	margin-left: -3px;
+	white-space: nowrap;
+}
+body.tw .group20-container .panel-body .panel-title span.ext{
+	margin-left:-17px;
+}
+body.en .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax,
+body.vi .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+	top:9px;
+	right:0;
+}
+body.hi .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+	right: -10px;
+}
+body.vi .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+	right:-11px;
+}
+body.ru .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+	right:4px;
+}
+body.th .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+	right: 19px;
+}
+body.id .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+	right:-10px;
+	top:0;
+}
+body.fr .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+	right:-6px;
+}
+.kimono-group .item .box-info .b-text .text-excerpt p{
+	font-size: 17px;
+	line-height: 1.8;
+}
+body.tw .kimono-group .item .box-info .b-text .text-excerpt p{
+	letter-spacing: 2.3px;
+	text-align: justify;
+}
+.kimono-group .item .box-info .b-text .text-excerpt p.red{
+	color: red;
+	font-weight: bold;
+	background: url("../images/bg-text-red.png") no-repeat left center;
+	padding: 2px 0 2px 33px;
+	font-size: 18px;
+	height: 47px;
+	line-height: 60px;
+}
+body.th .kimono-group .item .box-info .b-text .text-excerpt p.red{
+	font-size: 16px;
+}
+body.ja .kimono-group .item .box-info .b-text .text-excerpt p.red,
+body.en .kimono-group .item .box-info .b-text .text-excerpt p.red,
+body.vi .kimono-group .item .box-info .b-text .text-excerpt p.red,
+body.cn .kimono-group .item .box-info .b-text .text-excerpt p.red{
+	line-height: 24px;
+}
+body.fr .kimono-group .item .box-info .b-text .text-excerpt p.red{
+	font-size: 17px;
+}
+body.hi .kimono-group .item .box-info .b-text .text-excerpt p.red{
+	line-height: 30px;
+}
+.kimono-group .item.plan_x .box-info .b-text .text-excerpt p.red{
+	display: none;
+}
+
+.kimono-group .item .box-info .b-image{
+	width: 40%;
+	float:right;
+}
+
+.kimono-group .item .box-info .b-image img{
+	width: 100%;
+	height: auto;
+}
+
+/*
+	.list-group-name
+------------------------------------------*/
+.kimono-group .list-group-name{
+	margin-bottom: 30px;
+}
+
+.kimono-group .list-group-name li{
+	width: 32%;
+	margin-right: 2%;
+	float: left;
+}
+.kimono-group .list-group-name li:last-child{
+	margin-right: 0;
+}
+
+.kimono-group .list-group-name li img{
+	width: 100%;
+	box-shadow: 1px 3px 10px #000;
+}
+
+.kimono-group .list-group-name li img:hover{
+	opacity: 0.7;
+}
+
+.kimono-group .list-group-name li:last-child{
+	margin-right: 0;
+}
+
+/*
+	.group.detail
+------------------------------------------*/
+
+.group.detail {
+	margin-top: 7px;
+}
+
+.kimono-group .group.detail .item{
+	border-bottom: none;
+	padding-bottom: 0;
+	margin-bottom: 20px;
+}
+
+/*--- .box-group-name ---*/
+.kimono-group .group.detail .item .box-group-name .bg-arrow,
+.kimono-group .group.detail .item .box-group-name .image{
+	display: none;
+}
+
+/*===========DAI GROUP 8=========*/
+.wrapp-all-group-8{
+	margin-bottom: 25px;
+}
+.wrapp-all-group-8 h3{
+	background-color: #000;
+	color: #fff;
+	font-size: 30px;
+	padding:8px 20px;
+	box-sizing: border-box;
+	font-weight: bold;
+}
+.wrapp-all-group-8 .wrapp-group-8 p,
+.wrapp-all-group-8 .wrapp-group-8-option p{
+	line-height: 2.1;
+	font-weight: bold;
+}
+.wrapp-all-group-8 .wrapp-group-8,
+.wrapp-all-group-8 .wrapp-group-8-option{
+	margin-bottom: 5px;
+	background-color: #ccc;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.wrapp-all-group-8 .wrapp-group-8-option{
+	margin-top: 10px;
+}
+.wrapp-all-group-8 .wrapp-group-8 p,
+.wrapp-all-group-8 .wrapp-group-8-option p{
+	font-size: 20px;
+}
+.wrapp-all-group-8 .wrapp-group-8 p var,
+.wrapp-all-group-8 .wrapp-group-8-option p var{
+	color:#ED1E79;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.wrapp-all-group-8 .wrapp-group-8 p.wrapp-group-8-red a,
+.wrapp-all-group-8 .wrapp-group-8 p span,
+.wrapp-all-group-8 .wrapp-group-8 p.wrapp-group-8-red,
+.wrapp-all-group-8 .wrapp-group-8-option p.wrapp-group-8-red{
+	color:#ED1C24;
+}
+.wrapp-all-group-8 .wrapp-group-8-option h4{
+	color:#ED1C24;
+	font-size: 29px;
+	padding-left: 50px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	background: url(../../../../../images/icons/icon-g-8-hair.png) no-repeat left
+}
+.wrapp-all-group-8 .wrapp-group-8-option h4 var{
+	font-size: 20px;
+	font-weight: bold;
+}
+.wrapp-all-group-8 .wrapp-group-8-option p.bg-g8-black{
+	background: #000;
+	padding: 0px 5px;
+	color: #fff;
+	font-size: 18px;
+	width: 48%;
+	margin-bottom: 30px;
+}
+body.ru .wrapp-all-group-8 .wrapp-group-8-option p.bg-g8-black{
+	width:62%;
+}
+/* Long */
+.content-plan-x{
+	background: #CCCCCC;
+ 	display: inline-block;
+ 	width: 100%;
+ 	box-sizing: border-box;
+}
+.content-plan-x section{
+	padding: 20px;
+}
+.content-plan-x section p{
+	border-bottom: 1px solid #000;
+	font-weight: bold;
+	font-size: 24px;
+	padding-bottom: 7px;
+}
+.content-plan-x .wpcf7 div.wpcf7-response-output,
+.group20-container .wpcf7 div.wpcf7-response-output{
+	color: red;
+	margin-left: 20px;
+}
+.group20-container .wpcf7 div.wpcf7-response-output{
+	margin-right: 20px;
+}
+.page-plan-x .contact-plan-group span.wpcf7-not-valid-tip,
+.group20-container .wpcf7 .panel-body .col-left p span.wpcf7-form-control-wrap span.wpcf7-not-valid-tip,
+.group20-container .ctf7-captcha span.wpcf7-not-valid-tip{
+	color: red;
+}
+.group20-container .ctf7-captcha span.wpcf7-not-valid-tip,
+.page-plan-x .ctf7-captcha span.wpcf7-not-valid-tip{
+	display: table;
+	width:100%;
+}
+.contact-plan-group{
+	width: 50%;
+	box-sizing: border-box;
+	padding: 15px 20px 5px 20px;
+	float: left;
+}
+ .contact-plan-group{
+ 	width: 50%;
+ 	box-sizing: border-box;
+ }
+.contact-plan-x input[type="text"],
+.contact-plan-x input.wpcf7-text{
+	width: 100%;
+	margin-bottom: 5px;
+	height: 53px;
+}
+body.cn .contact-plan-x input[type="text"],
+body.cn .contact-plan-x input.wpcf7-text{
+	font-family: inherit;
+}
+body.ru .contact-plan-x p br{
+	display: none;
+}
+.contact-plan-x var{
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+	line-height: 30px;
+}
+body.en .contact-plan-x var{
+	font-size: 17px;
+}
+body.vi .contact-plan-x var{
+	font-size:15px;
+}
+.contact-plan-x input{
+	width: 100%;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	box-sizing: border-box;
+	border-color: #fff; 
+}
+.contact-plan-x textarea.wpcf7-textarea{
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	box-sizing: border-box;
+	height: 241px;
+	resize: none;
+	border-color: #fff; 
+}
+.contact-plan-group.weCaptcha{
+	padding-top: 0px;
+}
+.contact-plan-x .form-submit{
+	text-align: right;
+}
+.wpcf7 .contact-plan-x .form-submit input.wpcf7-form-control{
+	display: inline-block;
+	float: none;
+	margin: 0;
+	background: #F7931E;
+	border-color: #F7931E;
+	color: #fff;
+	font-weight: bold;
+	width: auto;
+	padding: 5px 35px;
+	line-height: 1.3;
+	font-weight: bold;
+	font-size: 39px;
+	height: auto;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+body.cn .wpcf7 .contact-plan-x .form-submit input.wpcf7-form-control{
+	font-family: 'Hiragino Sans GB','microsoft yahei',arial,sans-serif;
+}
+.wpcf7 .contact-plan-x .form-submit input.wpcf7-form-control:hover{
+	text-decoration: none;
+}
+.plan-x-submit{
+	padding-top: 27px;
+}
+.page-plan-x h3{
+	background-color: #000;
+	padding: 8px 20px;
+	color: #fff;
+	font-size: 30px;
+	box-sizing: border-box;
+	font-weight: bold;
+}
+.plan-x-mobile{
+	display: none;
+}
+.page-plan-x .wpcf7-response-output.wpcf7-validation-errors{
+	margin: 0 20px;
+	box-sizing: border-box;
+}
+.content-plan-x .wpcf7 p var{
+	display: inline-block;
+	padding: 3px 0;
+	font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Lucida Grande", Verdana, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+body.cn .content-plan-x .wpcf7 p var{
+	font-family: inherit;
+}
+body.ru .content-plan-x .wpcf7 p var{
+	font-family: Arial;
+}
+
+/* end Long */
+/*------------------
+TRUNG DAVID
+--------------------*/
+
+/*Begin wpcf7*/
+.group20-container .wpcf7,.group20-container .content{
+	background-color: #e5e5e5;
+	margin-bottom: 19px;
+}
+.group20-container .wpcf7 input, .group20-container .wpcf7 textarea{
+	background-color: #FFFFFF;
+}
+.group20-container .panel-body{
+	padding: 10px 20px;
+	background: #e5e5e5;
+}
+
+.group20-container .panel-header h3{
+	background-color: #000;
+	color: #fff;
+	font-size: 30px;
+	padding: 8px 20px;
+	box-sizing: border-box;
+	font-weight: bold;
+}
+body.th .group20-container .panel-body .panel-title{
+	font-size: 20px;
+}
+.group20-container .panel-body .panel-title {
+	border-bottom: 1px solid;
+	padding: 20px 0 32px;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	position: relative;
+}
+.group20-container .wpcf7 label{
+	font-size: 19px;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 8px;
+}
+body.en .group20-container .wpcf7 .captchar label{
+	display: inline-block;
+}
+body.fr .group20-container .wpcf7 label{
+	font-size: 17px;
+}
+body.en .group20-container .wpcf7 .captchar label br{
+	display: none;
+}
+.group20-container .wpcf7 .captcha-group-page label{
+	margin-top: 31px;
+}
+body.en .group20-container .wpcf7 .captcha-group-page label{
+	margin-top: 0;
+}
+body.th .group20-container .wpcf7 .captcha-group-page label,
+body.id .group20-container .wpcf7 .captcha-group-page label,
+body.hi .group20-container .wpcf7 .captcha-group-page label{
+	margin-top: 31px;
+}
+.group20-container .wpcf7 .captcha-group-page .cap-left,
+.group20-container .wpcf7 .captcha-group-page .cap-right{
+	float:left;
+}
+body.tw .group20-container .wpcf7 .captcha-group-page .cap-left input,
+body.ko .group20-container .wpcf7 .captcha-group-page .cap-left input{
+	margin-left: 20px;
+}
+.group20-container .wpcf7 .captcha-group-page .cap-right{
+	margin-top: 31px;
+	margin-left: 22px;
+}
+.content-plan-x .wpcf7 .captcha-group-page .cap-left{
+	float:left;
+}
+.content-plan-x .wpcf7 .captcha-group-page .cap-right{
+	margin-top: 27px;
+	float:left;
+	margin-left: 10px;
+}
+.group20-container .wpcf7 input,
+.group20-container .wpcf7 .panel-body .col-left select{
+	width: 375px;
+	height: 53px;
+	margin: 0 0 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	font:16px 'Meiryo', arial;
+	border-color: #fff;
+	background: #fff;
+}
+body.cn .group20-container .wpcf7 input,
+body.cn .group20-container .wpcf7 .panel-body .col-left select{
+	font-family: inherit;
+}
+.group20-container .wpcf7 .wpcf7-validation-errors{
+	color: red;
+}
+.group20-container .wpcf7 .panel-body .col-left{
+	margin-right: 25px;
+	width: 355px;
+}
+.group20-container .wpcf7 .panel-body .col-left input,
+.group20-container .wpcf7 .panel-body .col-right textarea,
+.group20-container .wpcf7 .panel-body .col-left select{
+	border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;
+}
+.group20-container .wpcf7 .panel-body .col-left input,
+.group20-container .wpcf7 .panel-body .col-left select{
+	width: 100%;
+}
+.group20-container .wpcf7 .panel-body .col-left select{
+	-webkit-appearance:none;
+}
+.group20-container .wpcf7 .panel-body .col-right textarea{
+	width: 488px;
+	height: 641px;
+	font:16px 'Meiryo', arial;
+	resize: none;
+	border-color: #fff;
+}
+body.cn .group20-container .wpcf7 .panel-body .col-right textarea{
+	font-family: inherit;
+}
+.group20-container .wpcf7 .panel-body .people-des{
+	width: 40px;
+	float: left;
+	font:19px 'Meiryo', arial;
+	color:black;
+	margin-right: 11px;
+	vertical-align: bottom;
+}
+body.cn .group20-container .wpcf7 .panel-body .people-des{
+	font-family:inherit;
+}
+body.id .group20-container .wpcf7 .panel-body .people-des{
+	width:100px;
+	margin-right: 0;
+}
+body.ms .group20-container .wpcf7 .panel-body .people-des{
+	width:100px;
+	margin-right: 0;
+	font-size: 16px;
+}
+body.vi .group20-container .wpcf7 .panel-body .people-des{
+	width:53px;
+}
+body.hi .group20-container .wpcf7 .panel-body .people-des{
+	width:50px;
+}
+.group20-container .wpcf7 .panel-body .people-des .title{
+	height: 28px;
+}
+.group20-container .wpcf7 .panel-body .people-des span[class^="gender"],
+body.hi .group20-container .wpcf7 .panel-body .people-des span[class^="gender"]{
+	width: 100%;
+	text-align: center;
+	color:white;
+	height: 28px;
+	line-height: 28px;
+}
+body.vi .group20-container .wpcf7 .panel-body .people-des span[class^="gender"]{
+	width: 100% !important;
+	display: block;
+}
+.group20-container .wpcf7 .panel-body .people-des .gender-g{
+	background-color: #ED1E79;
+}
+.group20-container .wpcf7 .panel-body .people-des .gender-b{
+	background-color: #29ABE2;
+	
+
+}
+.group20-container .wpcf7 .panel-body .listpeople input,
+.content-plan-x .wpcf7 .captcha-group-page .cap-left input{
+	width: 78px;
+	height: 45px;
+	text-decoration: none;
+	margin-top: 10px;
+}
+.group20-container .wpcf7 .panel-body .ext{
+	font:19px 'Meiryo', arial;
+	color:black;
+	margin: 34px 11px 0 3px;
+	display: inline-block;
+	
+}
+.group20-container .wpcf7 .panel-body .listpeople p{
+	float: left;
+	clear:none;
+}
+.group20-container .wpcf7 .panel-body .listpeople input[type="submit"]{
+	width: 223px;
+	background-color: #F7931E;
+	border-color: #F7931E;
+	color: #fff;
+	font-weight: bold;
+	float: right;
+	display: inline-block;
+	line-height: 57px;
+	font-size: 39px;
+	height: 67px;
+	margin-top: -10px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+/*Begin .content*/
+.group20-container .content .panel-body .panel-title{
+	padding-top: 0px;
+}
+.group20-container .panel-body .panel-title span.price {
+	font-size: 74px;
+	font-weight: bold;
+	color: #FF0000;
+}
+body.fr .group20-container .panel-body .panel-title span.price{
+	font-size: 55px;
+}
+.group20-container .panel-body .panel-title span.curency{
+	display: inline-block;
+	width: 56px;
+	color: #FF0000;
+}
+body.ru .group20-container .panel-body .panel-title span.curency,
+body.hi .group20-container .panel-body .panel-title span.curency{
+	width:auto;
+}
+.group20-container .panel-body .panel-title span.curency .top{
+	font-size: 15px;
+	display: block;
+	margin-left: -8px;
+	margin-bottom: 6px;
+}
+body.ko .group20-container .panel-body .panel-title span.curency .top{
+	font-size:10px;
+}
+body.ru .group20-container .panel-body .panel-title span.curency .top{
+	font-size:12px;
+	margin-left: -5px;
+	margin-bottom: 11px;
+}
+body.vi .group20-container .panel-body .panel-title span.curency .top,
+body.en .group20-container .panel-body .panel-title span.curency .top{
+	margin-left:0px;
+}
+body.hi .group20-container .panel-body .panel-title span.curency .top{
+	margin-left: -3px;
+}
+
+body.vi.group20-container .panel-body .panel-title span.bubble-circle,
+body.en.group20-container .panel-body .panel-title span.bubble-circle{
+	top:-2px !important;
+}
+
+.group20-container .panel-body .panel-title span.curency .bottom{
+	font-size: 50px;
+	display: block;
+	line-height: 34px;
+}
+body.cn .group20-container .panel-body .panel-title span.curency .bottom{
+	font-size: 27px;
+}
+body.fr .group20-container .panel-body .panel-title span.ext{
+	font-size: 50px;
+}
+.group20-container .panel-body .panel-title span.ext{
+	color: #FF0000;
+	font-size: 63px;
+	margin-left: -26px;
+}
+body.en .group20-container .panel-body .panel-title span.ext{
+	margin-left:-9px;
+}
+body.fr .group20-container .panel-body .panel-title span.ext{
+	margin-left:-17px;
+}
+body.vi .group20-container .panel-body .panel-title span.ext{
+	margin-left:-7px;
+}
+body.ru .group20-container .panel-body .panel-title span.ext{
+	margin-left: -13px;
+}
+body.ko .group20-container .panel-body .panel-title span.ext{
+	margin-left:-16px;
+}
+body.hi .group20-container .panel-body .panel-title span.ext{
+	margin-left: 3px;
+}
+.group20-container .panel-body .panel-title span.bubble-circle{
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	background-color: yellow;
+	width: 71px;
+	height: 71px;
+	display: inline-block;
+	text-align: center;
+	font-size: 28px;
+	line-height: 71px;
+	position: absolute;
+	top: 17px;
+	margin-left: -8px;
+	}
+body.ms .group20-container .panel-body .panel-title span.bubble-circle{
+	font-size: 20px;
+}
+body.ru .group20-container .panel-body .panel-title span.bubble-circle{
+	font-size:18px;
+}
+body.ko .group20-container .panel-body .panel-title span.bubble-circle{
+	font-size:22px;
+	margin-left:3px;
+}
+body.th .group20-container .panel-body .panel-title span.bubble-circle{
+	font-size: 16px;
+	margin-left: 5px;
+}
+body.fr .group20-container .panel-body .panel-title span.bubble-circle{
+	font-size: 26px;
+	top:-7px;
+}
+body.hi .group20-container .panel-body .panel-title span.bubble-circle{
+	font-size: 17px;
+}
+.group20-container .panel-body .panel-title span.bubble-circle:before{
+	right: 94%;
+	top: 28%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-right-color: yellow;
+	border-width: 13px;
+	margin-top: -1px;
+}
+
+.group20-container .panel-body .panel-title div.note{
+	font-size: 19px;
+	color: #333333;
+	float: right;
+}
+.group20-container .panel-body .panel-content{
+	font-size: 19px;
+	color: #333333;
+	font-weight: 600;
+	line-height: 1.8;
+	text-align: justify;
+}
+.group20-container .panel-body .panel-content .pink{
+	color:#ED1E79;
+}
+.group20-container .panel-body .panel-content .gray{
+	color:#666666;
+}
+.group20-container .panel-body .panel-content .blue{
+	color:#0071BC;
+}
+.group20-container div#classroom_banner div.container .item img {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+}
+body.vi .group20-container .wpcf7 .panel-body .people-des{
+    font-family: 'arial';
+}
+body.vi .listpeople > label{
+	font-size: 22px;
+}
+/*End TRUNG*/
+div#classroom_banner div.container .item-group-8 img{
+	width:100%;
+	box-shadow: 1px 3px 10px #000;
+}
+.kimono-group .item .box-group-name .image img.image-group-sp{
+	display: none;
+}
+
+.wpcf7 label{
+	display: block;
+}
+.left{
+	float: left;
+}
+.group20-container .wpcf7 .panel-body .listpeople input[type="submit"]{
+	margin-top: 10px;
+}
+.contact-plan-x textarea.wpcf7-textarea{
+	width: 100%;
+}
+body.cn .contact-plan-x textarea.wpcf7-textarea{
+	font-family: inherit;
+}
+/* 
+Duyen - Style for CAPTCHA in contact form 7
+------------------------------------------------------------------------------*/
+/*plan20*/
+.group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha,
+.group20-container .wpcf7 .panel-body .listpeople p.captcha-group-page{
+	width: 648px;
+	clear: both;
+}
+.group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha span.title,
+.group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha input{
+	font:19px 'Meiryo', arial, sans-serif;		
+}
+.group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha input,
+.group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha img{		
+	float: right;	
+	margin-right: 36%;
+}
+body.vi .group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha input,
+body.vi .group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha img{			
+	margin-right: 46%;
+}
+body.ru .group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha input,
+body.ru .group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha img{
+	margin-right: 30%;
+}
+body.th .group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha input,
+body.th .group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha img{
+	margin-right: 55%;
+}
+.group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha span.title{
+	font: 19px 'Meiryo', arial, sans-serif;
+    float: left;
+    line-height: 1;
+    margin-top: 10px;
+    margin-right: 11px;
+    padding-top: 20px;
+}
+.group20-container .wpcf7 .panel-body .listpeople > p.ctf7-captcha:nth-child(8) span.title{
+	padding-top: 30px;
+}
+.group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha img{
+	margin-top: 20.5px;
+	margin-bottom: 10.5px;
+}
+/*plan_x*/
+.contact-plan-x .contact-plan-group p.ctf7-captcha{
+	min-height: 53px;
+}
+.contact-plan-x .contact-plan-group p.ctf7-captcha var{	
+	margin-top: 24px;
+}
+.contact-plan-x .contact-plan-group p.ctf7-captcha img{
+	margin: 12px 0;
+}
+.contact-plan-x .contact-plan-group p.ctf7-captcha img,
+.contact-plan-x .contact-plan-group p.ctf7-captcha input{
+	float: right;
+}
+.contact-plan-x .contact-plan-group p.ctf7-captcha input{
+	width: 50%;
+    float: right;
+    margin-right: 0;
+    margin-bottom: 0;
+    height: 53px;
+}
+body.en .contact-plan-x .contact-plan-group p.ctf7-captcha input,
+body.ru .contact-plan-x .contact-plan-group p.ctf7-captcha input{
+	width: 25%;
+}
+/*END Duyen add captcha*/
+
+/*
+Duyen - Style for Plan X Blog
+------------------------------------------------------------------------------*/
+.kimono-group .group.detail .sec-planx-blog{
+	
+}
+.kimono-group .group.detail .sec-planx-blog .forsp{
+	display: none;
+}
+.kimono-group .group.detail .sec-planx-blog #link-form-planx{
+	background-image: url('../../../../../images/group/plan_x/btn_planx_detail.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: block;
+    padding-left: 26px;
+    margin-bottom: 26px;
+    margin-top: 4px;
+    line-height: 100px;
+    font-family: Meiryo, sans-serif;
+    font-size: 41px;
+    font-weight: bold;
+    color: #fff;
+}
+.kimono-group .group.detail .sec-blog .more-info {
+    border-top: 1px solid #aaa;
+    margin-top: 28px;
+	margin-bottom: 56px;
+    padding-top: 34px;
+    font-family: Meiryo, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+body.cn .kimono-group .group.detail .sec-blog .more-info{
+	font-family: inherit;
+}
+.kimono-group .group.detail .sec-planx-blog article{	
+	margin-bottom: 55px;
+}
+.kimono-group .group.detail .sec-planx-blog article .entry-header{
+	margin-bottom: 20px;
+}
+
+.kimono-group .group.detail .sec-planx-blog article div.tn-blog-content-sort p,
+.kimono-group .group.detail .sec-planx-blog article div.tn-blog-content-sort p.first-title{
+	font-size: 14px;	
+}
+.kimono-group .group.detail .sec-planx-blog article div.tn-blog-content-sort p:not(.first-title){
+	margin-bottom: 27px;
+}
+.kimono-group .group.detail .sec-planx-blog article div.tn-blog-content-sort a{
+	font-size: 13px;	
+}
+body.single-post .container .cate-blog-main.detail-page .sect-cate-item h2{
+	background-image: url('../../../../../images/group/plan_x/logo_planx.gif');
+    background-repeat: no-repeat;
+    font-family: Meiryo, sans-serif;
+    font-size: 41px;
+    color: #343434;
+    font-weight: bold;
+    min-height: 30px;
+    line-height: 1;
+    background-position: center left;
+    padding-left: 59px;
+	margin-bottom: 27px;
+}
+body.single-post .container.cat-planx_collaboration .cate-blog-main.detail-page .sect-cate-item h2 small{
+	font-size: 18px;
+}
+body.single-post .container.cat-planx_collaboration .site-content-blog .cont-blog-detail article .entry-content{
+	font-size: 14px;
+}
+body.single-post .container.cat-planx_collaboration .site-content-blog .cont-blog-detail article .entry-content img{
+	width: 100%;
+}
+/*END Duyen - Style for Plan X Blog*/
+/*start #14638*/
+.kimono-group .sec-blog{
+	display: block !important;
+}
+.kimono-group .sec-blog .wrap-blogtop{
+	margin-top: 10px;
+	padding: 0 !important;
+}
+/*end #14638*/
+@media (max-width: 959px){
+	body .container.kimono-group{
+		padding: 0 7px;
+		box-sizing: border-box;
+		width: 100%;
+	}
+	.group20-container .wpcf7 .panel-body .listpeople p.button-submit{
+		float:right;
+	}
+	/*	
+	Duyen - Style for Plan X Blog
+	------------------------------------------------------------------------------*/
+	.main-content .container img{
+		max-width: 100%;
+		height: auto;
+	}
+	.kimono-group .group.detail .sec-planx-blog #link-form-planx{
+		background-size: 100%;
+		font-size: 30px;
+		line-height: 80px;	
+		margin-bottom: 10px;
+	}
+	.kimono-group .group.detail .sec-planx-blog article{
+		margin-bottom: 30px;
+	}
+	.kimono-group .group.detail .sec-planx-blog article .entry-header{
+		margin-bottom: 10px;
+	}
+	.kimono-group .group.detail .sec-planx-blog article .entry-header h2.tn-blog-title a{
+		font-size: 25px;
+		line-height: 1;
+	}
+	.kimono-group .group.detail .sec-planx-blog .more-info{
+		margin-top: 18px;
+		margin-bottom: 16px;
+		padding-top: 14px;
+	}
+	body.single-post .container.cat-planx_collaboration .cate-blog-main .sect-cate-item .image-cate{		
+		background-color: #fff;
+		min-height: 0;
+	}
+	body.single-post .container.cat-planx_collaboration .cate-blog-main.detail-page .sect-cate-item h2{
+		font-size: 30px;
+		margin-bottom: 17px;
+	}
+	body.single-post .container.cat-planx_collaboration .site-content-blog{
+		width: 65%;
+	}
+	body.single-post .container.cat-planx_collaboration .site-content-blog .cont-blog-detail .title-post{
+		font-size: 20px;
+	}
+	body.single-post .container.cat-planx_collaboration #sidebar-blog{
+		width: 30%;
+	}
+	/* END Duyen - Style for Plan X Blog*/
+	/*start #14638*/
+	.kimono-group .sec-blog{
+		margin-top: 0;
+	}
+	/*end #14638*/
+}
+@media (min-width: 768px) and (max-width: 959px){
+	.group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha,
+	.group20-container .wpcf7 .panel-body .listpeople p.captcha-group-page{
+		width: 70%;
+	}
+	.group20-container .wpcf7 .panel-body .col-right textarea{
+		height: 300px;
+	}
+	body.en .kimono-group .item .box-info .b-text .text-h2 .t-left,
+	body.vi .kimono-group .item .box-info .b-text .text-h2 .t-left{
+		line-height: 1.3;
+	}
+	body.th .kimono-group .item .box-info .b-text .text-h2 .t-left{
+		line-height: 1;
+	}
+	.group20-container .wpcf7 .panel-body .listpeople input[type="submit"],
+	body.en .group20-container .wpcf7 .panel-body .listpeople input[type="submit"]{
+		width:180px;
+	}
+	body.ru .group20-container .wpcf7 .panel-body .listpeople .captchar input {
+		margin-left: 7px;
+	}
+	body.ru .group20-container .wpcf7 .panel-body .listpeople .button-submit input{
+		margin-left: 10px;
+	}
+	.content-plan-x .wpcf7 .captcha-group-page .cap-left input{
+		width:100px;
+	}
+	body.ru .content-plan-x .wpcf7 .captcha-group-page .cap-left input{
+		width:76px;
+	}
+	.kimono-group .item .text-h1 .medium{
+		font-size:53px;
+	}
+	body.fr .kimono-group .item .text-h1 .medium {
+		font-size: 35px;
+	}
+	.group20-container .panel-body .panel-title span.curency .bottom{
+		font-size:40px;
+	}
+	.contact-plan-x var{
+		font-size: 16px;
+	}
+	body.en .contact-plan-x var{
+		font-size:14px;
+	}
+	body.vi .contact-plan-x var {
+		font-size: 12px;
+	}
+	body.en .contact-plan-x .cap-left var{
+		width:175px;
+	}
+	body.ja .wrapp-all-group-8 .wrapp-group-8-option p.bg-g8-black,
+	body.vi .wrapp-all-group-8 .wrapp-group-8-option p.bg-g8-black,
+	body.tw .wrapp-all-group-8 .wrapp-group-8-option p.bg-g8-black{
+		width:70%;
+	}
+	.kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+		font-size:60px;
+	}
+	body.cn .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+		font-size:56px;
+	}
+	body.hi .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+		font-size: 53px;
+	}
+	.kimono-group .item .box-info .b-text .text-h2{
+		font-size:23px;
+	}
+	body.hi .kimono-group .item .box-info .b-text .text-h2{
+		font-size:21px;
+	}
+	.kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+		right:26px;
+		top:-3px;
+	}
+	body.ru .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+		font-size: 14px;
+		right:0;
+	}
+	body.vi .kimono-group .item .box-info .b-text .text-h2,
+	body.en .kimono-group .item .box-info .b-text .text-h2{
+		font-size:19px;
+	}
+	body.id .kimono-group .item .box-info .b-text .text-h2,
+	body.ms .kimono-group .item .box-info .b-text .text-h2{
+		font-size:18px;
+	}
+	body.th .kimono-group .item .box-info .b-text .text-h2{
+		font-size: 24px;
+	}
+	body.vi .kimono-group .item .box-info .b-text .text-h2 .t-right var.num,
+	body.en .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+		font-size:50px;
+	}
+	body.th .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+		font-size: 52px;
+	}
+	body.id .kimono-group .item .box-info .b-text .text-h2 .t-right var.num,
+	body.ms .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+		font-size:48px;
+	}
+	body.vi .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen,
+	body.en .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen,
+	body.en .kimono-group .item .box-info .b-text .text-h2 .t-right em,
+	body.vi .kimono-group .item .box-info .b-text .text-h2 .t-right em{
+		font-size:24px;
+	}
+	body.ko .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen{
+		font-size: 25px;
+	}
+	body.id .kimono-group .item .box-info .b-text .text-h2 .t-right em,
+	body.ms .kimono-group .item .box-info .b-text .text-h2 .t-right em{
+		font-size: 17px;
+	}
+	body.ms .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen{
+		font-size: 20px;
+	}
+	body.en .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax,
+	body.vi .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax,
+	body.tw .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+		top:1px;
+		right:10px;
+		font-size:12px;
+	}
+	body.id .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+		right:-10px;
+	}
+	body.vi .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+		top:4px;
+		right:-4px;
+	}
+	body.fr .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+		right:0;
+	}
+	body.hi .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+		font-size: 14px;
+		right:-14px;
+	}
+	body.tw .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen{
+		font-size: 30px;
+	}
+	body.vi .contact-plan-x .contact-plan-group p.ctf7-captcha input{
+		width:40%;
+	}
+	body.ko .group20-container .panel-body .panel-title{
+		font-size:18px;
+	}
+	body.ko .kimono-group .item .box-info .b-text .text-h2{
+		font-size:22px;
+	}
+	.kimono-group .item .box-group-name .name span{
+		font-size: 38px;
+	}
+	body.hi .kimono-group .item .box-group-name .name span {
+		font-size: 31px;
+	}
+	.kimono-group .item .box-group-name .image{
+		width: auto;
+	}
+	.kimono-group .item .box-group-name .image img{
+		height: 65px;
+	}
+	.kimono-group .item .text-h1{
+		font-size: 32px;
+	}
+	body.ms .kimono-group .item .text-h1{
+		font-size: 30px;
+	}
+	.kimono-group .item .text-h1 .bold-off{
+		font-size: 60px;
+	}
+	body.fr .kimono-group .item .text-h1 .bold-off {
+		font-size: 46px;
+	}
+	body.vi .kimono-group .item .text-h1 .bold, body.vi .kimono-group .item .text-h1 .bold-off {
+		font-size: 26px;
+	}
+	.group20-container .panel-body .panel-title span.price{
+		font-size: 65px;
+	}
+	
+	/* Chien fix */
+	.kimono-group .item .box-info .b-text{
+		padding-bottom: 20px;
+	}
+	.kimono-group .item .box-info .b-text .text-excerpt p.red{
+		background-size: inherit;
+		min-height: 47px;
+		height: auto;
+		line-height: normal;
+	}
+	
+	.kimono-group .item .box-group-name .bg-arrow{
+		margin: 14px 0 14px 50px;
+	}
+	
+	.group20-container .wpcf7 label{
+		margin-top: 10px;
+	}
+	/*ru*/
+	body.ru .wrapp-all-group-8 .wrapp-group-8-option p.bg-g8-black{
+		width:auto;
+	}
+	body.ru .contact-plan-x var{
+		font-size:16px;
+	}
+	body.ru .kimono-group .title-main, .kimono-group .title-main var{
+		font-size:55px;
+	}
+	body.hi .kimono-group .title-main,
+	body.hi .kimono-group .title-main var{
+		font-size:50px;
+	}
+	body.ru .kimono-group .item .box-group-name .name span{
+		font-size:28px;
+	}
+	body.ru .kimono-group .item .text-h1 .medium{
+		font-size: 37px;
+	}
+	body.ru .kimono-group .item .text-h1{
+		font-size: 28px;
+	}
+	body.ru .kimono-group .item .text-h1 .bold-off{
+		font-size:47px;
+	}
+	body.ru .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+		font-size:61px;
+	}
+	body.ru .kimono-group .item .box-info .b-text .text-h2{
+		font-size:20px;
+	}
+	body.ru .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen{
+		font-size: 28px;
+	}
+	body.ru .kimono-group .title-main span{
+		font-size:30px;
+	}
+	body.ko .group20-container .panel-body .panel-title span.curency .top{
+		font-size:10px;
+		margin-bottom:8px;
+	}
+	body.ko .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+		font-size:57px;
+	}
+	body.ko .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+		top:0;
+		right:0;
+	}
+	body.ru .group20-container .panel-body .panel-title span.ext,
+	body.ko .group20-container .panel-body .panel-title span.ext{
+		margin-left: -26px;
+	}
+	body.ru .group20-container .panel-body .panel-title span.ext{
+		font-size:55px;
+	}
+	body.ko .group20-container .panel-body .panel-title span.bubble-circle{
+		margin-left: -14px;
+	}
+	body.en .group20-container .panel-body .panel-title span.bubble-circle,
+	body.vi .group20-container .panel-body .panel-title span.bubble-circle{
+		margin-left:-20px;
+	}
+	body.fr .group20-container .panel-body .panel-title span.bubble-circle{
+		margin-left: 5px;
+	}
+	body.ru .group20-container .panel-body .panel-title span.bubble-circle{
+		margin-left:-29px;
+	}
+	body.th .group20-container .panel-body .panel-title span.bubble-circle{
+		margin-left: 5px;
+	}
+	body.th .kimono-group .title-main span{
+		font-size: 34px;
+	}
+	body.th .kimono-group .title-main,
+	body.th .kimono-group .title-main var{
+		font-size: 45px;
+	}
+	body.fr .wrapp-all-group-8 .wrapp-group-8-option p.bg-g8-black{
+		width: 50%;
+	}
+	body.fr .group20-container .wpcf7 .panel-body .listpeople input {
+		margin-left: 34px;
+	}
+	body.fr .group20-container .wpcf7 .panel-body .people-des span[class^="gender"] {
+		width: 79px;
+	}
+	body.fr .group20-container .wpcf7 .panel-body .people-des{
+		font-size: 15px;
+	}
+	body.fr .kimono-group .title-main, body.fr .kimono-group .title-main var{
+		font-size: 38px;
+	}
+	body.fr .kimono-group .title-main span {
+		font-size: 25px;
+	}
+	body.fr .kimono-group .item .box-group-name .name span {
+		font-size: 30px;
+	}
+	body.fr .group20-container .wpcf7 .captchar label br{
+		display: block;
+	}
+	body.cn .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen{
+		font-size: 30px;
+	}
+	body.cn .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen em{
+		font-size: 25px;
+	}
+	body.hi .kimono-group .title-main{
+		height: 70px;
+	}
+}
+@media screen and (max-width:767px){
+/*style for blog*/
+	.layout-kimono-sp div.item-blog-top .image{
+		margin-bottom: 7px;
+	}
+	.wrap-blogtop .one-third {
+		width: calc(100% *(1/2) - 10px);
+		margin: 0 0 10px 10px;
+	}
+	/*end style for blog*/
+	.content-plan-x .wpcf7 p var{
+		line-height: 1.5;
+	}
+	.content-plan-x .wpcf7 p br{
+		display: none;
+	}
+	.plan-x-submit{
+		float:right;
+	}
+	.page-plan-x .contact-plan-group span.wpcf7-not-valid-tip{
+		font-size: 11px;
+	}
+	.content-plan-x .wpcf7 div.wpcf7-response-output{
+		margin-left: 10px;
+	}
+	body.en .page-plan-x .contact-plan-group span.wpcf7-not-valid-tip,
+	body.vi .page-plan-x .contact-plan-group span.wpcf7-not-valid-tip{
+		font-size: 14px;
+	}
+	.group20-container .wpcf7 .panel-body .listpeople p.captcha-group-page{
+		width:100%;
+	}
+	.layout-kimono-sp .main-content .container{
+		width: 100%;
+	}
+	/*--- .title-main ---*/
+	.kimono-group .title-main,
+	.kimono-group .title-main var{
+		font-size:36px;
+	}
+
+	.kimono-group .title-main{
+		border-bottom:10px solid #000;
+		height: auto;
+		margin-bottom: 10px;
+		padding:0 10px;
+		box-sizing: border-box;
+		line-height: 1;
+	}
+
+	.kimono-group .title-main var{
+		margin: 0;
+	}
+
+	.kimono-group .title-main span{
+		font-size:19px;
+	}
+	body.vi .kimono-group .title-main span{
+		font-size:19.1px;
+	}
+	body.en .kimono-group .title-main span,
+	body.ru .kimono-group .title-main span{
+		font-size:17.6px;
+	}
+	/*--- .item ---*/
+	.kimono-group .item{
+		border-bottom: 6px solid #000;
+		padding-bottom: 10px;
+		margin-bottom: 20px;
+	}
+
+	.kimono-group .item.plan_x{
+		margin-bottom: 20px;
+	}
+	
+	/*--- .box-group-name ---*/
+	.kimono-group .item .box-group-name{
+		margin-bottom: 10px;
+	}
+	
+	.kimono-group .item .box-group-name .wrap-name{
+		float: none;
+		padding:0;
+	}
+
+	.kimono-group .item .box-group-name .name{
+		width: 100%;
+		margin-bottom: 10px;
+		box-sizing: border-box;
+	}
+
+	.kimono-group .item .box-group-name .name span,
+	body.hi .kimono-group .item .box-group-name .name span{
+		font-size: 24px;
+		padding: 6px 9px;
+	}
+	body.fr .kimono-group .item .box-group-name .name span{
+		font-size: 25px;
+	}
+	body.ru .kimono-group .item .box-group-name .name span{
+		font-size:23px;
+	}
+	.kimono-group .item .box-group-name .bg-arrow{
+		display: none;
+	}
+
+	.kimono-group .item .box-group-name .image{
+		float:none;
+		width: 100%;
+		box-sizing: border-box;
+		/*padding:0 10px;*/
+	}
+	
+	/*--- .text-h1 ---*/
+	.kimono-group .item .text-h1,
+	body.ru .kimono-group .item .text-h1,
+	body.id .kimono-group .item .text-h1,
+	body.ms .kimono-group .item .text-h1{
+		font-size: 20px;
+		margin-bottom: 10px;
+		padding:0 10px;
+		box-sizing: border-box;
+	}
+
+	.kimono-group .item .text-h1 .bold{
+		font-size: 30px;
+	}
+
+	.kimono-group .item .text-h1 .bold-off{
+		font-size: 30px;
+	}
+
+	.kimono-group .item .text-h1 .medium,body.ru .kimono-group .item .text-h1 .medium{
+		font-size: 30px;
+	}
+	body.fr .kimono-group .item .text-h1 .medium{
+		font-size: 27px;
+	}
+
+	/* .box-info */
+	.kimono-group .item .box-info{
+		height: auto;
+	}
+
+	.kimono-group .item .box-info .b-text{
+		width: 100%;
+		float:none;
+		padding: 10px;
+	}
+
+	.kimono-group .item .box-info .b-text .text-h2,
+	body.hi .kimono-group .item .box-info .b-text .text-h2{
+		margin-bottom: 7px;
+		font-size: 20px;
+	}
+	body.vi .kimono-group .item .box-info .b-text .text-h2,
+	body.en .kimono-group .item .box-info .b-text .text-h2{
+		font-size:20px;
+	}
+	body.ms .kimono-group .item .box-info .b-text .text-h2{
+		 font-size: 19px;
+	 }
+	body.fr .kimono-group .item .box-info .b-text .text-h2{
+		font-size: 20px;
+	}
+	.kimono-group .item .box-info .b-text .text-excerpt p{
+		font-size: 15px;
+		font-weight: bold;
+	}
+	
+	.kimono-group .item .box-info .b-text .text-excerpt p.red{
+		font-size: 15px;
+		height: auto;
+		line-height: 1.5;
+		padding: 16px 0 16px 33px;
+		background-position-y: 3px;
+	}
+	body.cn .kimono-group .item .box-info .b-text .text-excerpt p.red,
+	body.hi .kimono-group .item .box-info .b-text .text-excerpt p.red{
+		line-height: 1.5;
+	}
+	.kimono-group .item .box-info .b-text .text-h2 .t-left{
+		line-height: 1;
+	}
+	body.en .kimono-group .item .box-info .b-text .text-h2 .t-left,
+	body.vi .kimono-group .item .box-info .b-text .text-h2 .t-left,
+	body.ru .kimono-group .item .box-info .b-text .text-h2 .t-left,
+	body.ko .kimono-group .item .box-info .b-text .text-h2 .t-left{
+		line-height: 1.2;
+	}
+	body.fr .kimono-group .item .box-info .b-text .text-h2 .t-left{
+		line-height: 1.1;
+	}
+	body.ru .kimono-group .item .box-info .b-text .text-h2 .t-left{
+		font-size: 21px;
+	}
+	body.ko .kimono-group .item .box-info .b-text .text-h2 .t-left{
+		font-size: 18px;
+	}
+	body.tw .kimono-group .item .box-info .b-text .text-h2 .t-left{
+		line-height: 1.1;
+	}
+	body.ms .kimono-group .item .box-info .b-text .text-h2 .t-left{
+		line-height: 1.3;
+	}
+	body.en .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen,
+	body.en .kimono-group .item .box-info .b-text .text-h2 .t-right em,
+	body.vi .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen,
+	body.vi .kimono-group .item .box-info .b-text .text-h2 .t-right em{
+		font-size: 24px;
+	}
+	body.id .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen,
+	body.id .kimono-group .item .box-info .b-text .text-h2 .t-right em,
+	body.ms .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen,
+	body.ms .kimono-group .item .box-info .b-text .text-h2 .t-right em{
+		font-size: 19px;
+	}
+	.kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+		font-size: 40px;
+	}
+	body.en .kimono-group .item .box-info .b-text .text-h2 .t-right var.num,
+	body.vi .kimono-group .item .box-info .b-text .text-h2 .t-right var.num,
+	body.tw .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+		font-size: 50px;
+	}
+	body.ru .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+		font-size: 52px;
+	}
+	body.ko .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+		font-size: 45px;
+	}
+	body.cn .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+		font-size: 48px;
+	}
+	body.hi .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+		font-size: 50px;
+	}
+	.kimono-group .item .box-info .b-text .text-h2 .t-right var.yen,
+	body.cn .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen em{
+		font-size: 22px;
+	}
+	body.cn .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen {
+		font-size: 25px;
+	}
+	.kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+		font-size: 9px;
+		right:20px;
+		top: 2px;
+	}
+	body.en .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax,
+	body.vi .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+		right:14px;
+		top:0;
+		font-size: 11px;
+	}
+	body.vi .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax {
+		right: 8px;
+	}
+	body.tw .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+		top:-2px;
+		font-size:12px;
+		right:0;
+	}
+	body.ko .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+		right: 20px;
+		top:0;
+		font-size:10px;
+	}
+	body.ru .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+		top:-5px;
+		right:7px;
+		font-size:12px;
+	}
+	body.th .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+		right: 9px;
+	}
+	body.id .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+		right:0;
+	}
+	body.fr .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+		right:13px;
+	}
+	body.cn .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+		right:12px;
+	}
+	body.hi .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+		right: 3px;
+	}
+	.kimono-group .item .box-info .b-image{
+		width: 100%;
+		float:none;
+	}
+	
+	.kimono-group .item .box-info .b-image img{
+		width: 100%;
+		height: auto;
+	}
+	
+	/*--- .list-group-name ---*/
+	.kimono-group .list-group-name{
+		margin-bottom: 10px;
+	}
+
+	.kimono-group .list-group-name li:last-child{
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+	
+	/*--- .group.detail ---*/
+	.kimono-group .group.detail .item{
+		margin-bottom: 10px;
+	}
+	
+	.kimono-group .group.detail .item .box-group-name{
+		margin-bottom: 0;
+	}
+	
+	
+	.contact-plan-x var{
+		font-size: 22px;
+		display: inline-block;
+		padding: 3px 0 7px 0;
+	}
+	.contact-plan-x input.wpcf7-text{
+		height: 45px;
+	}
+
+	.contact-plan-group{
+ 		width: 100%;
+ 		padding: 0 10px;
+	}
+	.content-plan-x section{
+		padding: 10px;
+	}
+
+	.contact-plan-x input.wpcf7-text{
+		height: 45px;
+	}
+	.content-plan-x section p{
+		font-size: 18px;
+	}
+	.plan-x-submit{
+		margin-top: 0;
+	 }
+	 .wpcf7 .contact-plan-x .form-submit.plan-x-mobile input.wpcf7-form-control,
+	 .wpcf7 .contact-plan-x .form-submit.plan-x-mobile{
+		 display: block;
+		 float: right;
+	 }
+	 .page-plan-x .wpcf7-response-output.wpcf7-validation-errors{
+		margin: 0 10px;
+	}
+	/* end Long */
+	
+	/*-Dai group 8--*/
+	.wrapp-all-group-8 {
+	  margin-bottom: 0px;
+ 	}
+	.wrapp-all-group-8 .wrapp-group-8, .wrapp-all-group-8 .wrapp-group-8-option {
+	  padding: 10px;
+	  margin-bottom: 10px;
+	}
+	.wrapp-all-group-8 .wrapp-group-8 p, .wrapp-all-group-8 .wrapp-group-8-option p {
+	  font-size: 3vw;
+	}
+	.wrapp-all-group-8 .wrapp-group-8-option h4 {
+	  font-size: 4vw;
+	  padding-left: 33px;
+	  margin-bottom: 5px;
+	  background-size: contain;
+	}
+	body.fr .wrapp-all-group-8 .wrapp-group-8-option h4{
+		padding-left: 50px;
+	}
+	.wrapp-all-group-8 .wrapp-group-8-option h4 var {
+		font-size: 3vw;
+	}
+	.wrapp-all-group-8 .wrapp-group-8-option p.bg-g8-black{
+	  font-size: 3vw;
+	  width: auto;
+	  margin-bottom: 10px;
+	}
+	body.ru .wrapp-all-group-8 .wrapp-group-8-option p.bg-g8-black{
+		width:auto;
+	}
+	.wrapp-all-group-8 .wrapp-group-8 p,
+	.wrapp-all-group-8 .wrapp-group-8-option p{
+		line-height: 1.8;
+	}
+	.page-plan-x h3{
+		font-size: 5vw;
+	}
+	/*Trung*/
+	
+	.group20-container .panel-body .panel-title span.curency .bottom{
+		font-size: 50px;
+	}
+	body.tw .group20-container .panel-body .panel-title span.curency .bottom{
+		font-size:45px;
+	}
+	body.cn .group20-container .panel-body .panel-title span.curency .bottom{
+		font-size:27px;
+	}
+	body.en .group20-container .panel-body .panel-title span.curency .bottom,
+	body.vi .group20-container .panel-body .panel-title span.curency .bottom,
+	body.hi .group20-container .panel-body .panel-title span.curency .bottom,
+	body.hi .group20-container .panel-body .panel-title span.ext{
+		font-size:40px;
+	}
+	.group20-container .panel-body .panel-title,
+	.group20-container .panel-body .panel-title div.note,
+	.group20-container .wpcf7 label,
+	.group20-container .panel-body .panel-content,
+	body.th .group20-container .panel-body .panel-title{
+		font-size: 15px;
+	}
+	.group20-container .panel-header h3{
+		font-size: 20px;
+		padding: 5px 10px;
+		box-sizing: border-box;
+	}
+	.group20-container .panel-body .panel-title{
+		padding:6px 0 11px;
+	}
+	.group20-container .panel-body .panel-title span.price,
+	body.fr .group20-container .panel-body .panel-title span.price{
+		font-size:60px;
+	}
+	body.tw .group20-container .panel-body .panel-title span.price{
+		font-size:55px;
+	}
+	.group20-container .panel-body .panel-title span.ext{
+		font-size:60px;
+	}
+	.group20-container .panel-body .panel-title span.curency .top,
+	body.ko .group20-container .panel-body .panel-title span.curency .top{
+		font-size: 12px;
+		margin-bottom: 9px;
+		margin-left: 1px;
+	}
+	body.ko .group20-container .panel-body .panel-title span.curency .top{
+		margin-bottom:9px;
+		margin-left:-8px;
+		font-size:10px;
+	}
+	.group20-container .panel-body .panel-title span.ext,
+	body.ko .group20-container .panel-body .panel-title span.ext{
+		margin-left: -26px;
+	}
+	body.hi .group20-container .panel-body .panel-title span.ext{
+		margin-left: -17px;
+	}
+	body.en .group20-container .wpcf7 .panel-body .listpeople input,
+	body.vi .group20-container .wpcf7 .panel-body .listpeople input
+	{
+		margin-left:42px;
+	}
+	body.fr .group20-container .wpcf7 .panel-body .listpeople input{
+		margin-left: 55px;
+	}
+	body.hi .group20-container .wpcf7 .panel-body .listpeople input{
+		margin-left: 10px;
+	}
+	.group20-container .wpcf7 .panel-body .col-left{
+		margin-right: 0px;
+	}
+	body.ru .group20-container .panel-body .panel-title span.bubble-circle{
+		margin-left:7px;
+	}
+	.group20-container .wpcf7 .panel-body .col-right textarea{
+		width: 100%;
+		height: 204px;
+	}
+	.group20-container .wpcf7 .panel-body .listpeople p:nth-child(5){
+		clear:left;
+	}
+	.group20-container .wpcf7 .panel-body div[class^="col-"]{
+		width: 100%;
+	}
+	.group20-container .panel-body .panel-title span.bubble-circle,
+	body.fr .group20-container .panel-body .panel-title span.bubble-circle{
+		top: 5px;
+		width: 40px;
+		height: 40px;
+		font-size: 16px;
+		line-height: 40px;
+		margin-left: -17px;
+	}
+	body.ko .group20-container .panel-body .panel-title span.bubble-circle{
+		font-size:13px;
+		margin-left:-15px;
+	}
+	body.en .group20-container .panel-body .panel-title span.bubble-circle,
+	body.vi .group20-container .panel-body .panel-title span.bubble-circle{
+		margin-left: -28px;
+	}
+	body.th .group20-container .panel-body .panel-title span.bubble-circle{
+		margin-left: 5px;
+		font-size: 11px;
+		height: 50px;
+		width:50px;
+		line-height: 50px;
+	}
+	body.id .group20-container .panel-body .panel-title span.bubble-circle{
+		margin-left: -12px;
+	}
+	body.fr .group20-container .panel-body .panel-title span.bubble-circle{
+		margin-left: -15px;
+	}
+	body.hi .group20-container .panel-body .panel-title span.bubble-circle{
+		width: 50px;
+		height: 50px;
+		top:0;
+		font-size: 12px;
+		line-height: 50px;
+	}
+	body.hi .group20-container .panel-body .panel-title span.bubble-circle{
+		margin-left: -17px;
+	}
+	.group20-container .panel-body .panel-title span.bubble-circle:before{
+		border-width: 8px;
+	}
+	.group20-container .wpcf7 input{
+		height: 45px;
+	}
+	.group20-container .wpcf7 .panel-body .listpeople input[type="submit"]{
+		height: 48px;
+		line-height: 1.3;
+		font-size: 25px;
+		width: 150px !important;
+		margin: auto;
+		margin-top: 0px;
+	}
+	body.vi .group20-container .wpcf7 .panel-body .listpeople input[type="submit"],
+	body.en .group20-container .wpcf7 .panel-body .listpeople input[type="submit"]{
+		margin: auto;
+	}
+	body.tw .group20-container .panel-body .panel-title span.ext{
+		margin-left: -26px;
+	}
+	body.tw .group20-container .panel-body .panel-title span.bubble-circle{
+		font-size: 11px;
+		width: 41px;
+		height: 41px;
+		line-height: 44px;
+		top: -1px;
+	}
+	/*End trung*/
+	
+	/*-Dai group 8--*/
+	.wrapp-all-group-8 .wrapp-group-8 p, .wrapp-all-group-8 .wrapp-group-8-option p {
+	  font-size: 12px;
+	}
+	.wrapp-all-group-8 .wrapp-group-8-option h4 {
+	  font-size: 18px;
+	}
+	body.ms .wrapp-all-group-8 .wrapp-group-8-option h4 {
+		/*font-size: 13px;*/
+	}
+	body.vi .wrapp-all-group-8 .wrapp-group-8-option h4 {
+	  font-size: 16px;
+	}
+	body.ru .wrapp-all-group-8 .wrapp-group-8-option h4{
+		font-size:13px;
+	}
+	.wrapp-all-group-8 .wrapp-group-8-option h4 var {
+	  font-size: 12px;
+	}
+	.wrapp-all-group-8 .wrapp-group-8-option p.bg-g8-black {
+	  font-size: 12px;
+	}
+	body.fr .wrapp-all-group-8 .wrapp-group-8-option p.bg-g8-black {
+		font-size: 14px;
+	}
+	.wrapp-all-group-8 h3{
+		font-size: 20px;
+		padding:5px 10px;
+		font-weight: bold;
+	}
+	/*--end Dai group 8--*/
+	/* Long */
+	.contact-plan-x var{
+ 		font-size: 14px;
+ 	}
+	.content-plan-x section p{
+		font-size: 19px;
+		font-weight: bold;
+	}
+	.wpcf7 .contact-plan-x .form-submit input.wpcf7-form-control{
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	.content-plan-x .wpcf7 .captcha-group-page .cap-right{
+		float: left;
+		margin-left: 10px;
+	}
+	
+	.page-plan-x h3{
+		font-size: 20px;
+		padding: 5px 10px;
+	}
+	/*Trung*/
+	.group20-container .wpcf7 .panel-body .listpeople input,
+	body.hi .group20-container .wpcf7 .panel-body .listpeople input{
+		width: 53px;
+		box-sizing: border-box;
+	}
+	.group20-container .wpcf7 .panel-body .listpeople .captchar input,
+	body.en .group20-container .wpcf7 .panel-body .listpeople .captchar input,
+	body.vi .group20-container .wpcf7 .panel-body .listpeople .captchar input,
+	body.tw .group20-container .wpcf7 .panel-body .listpeople .captchar input,
+	body.ko .group20-container .wpcf7 .panel-body .listpeople .captchar input{
+		margin-left: 10px;
+	}
+	.group20-container .panel-body .panel-title span.bubble-circle:before{
+		border-width: 10px;
+	}
+/*	End Trung*/
+	div#classroom_banner div.container .item.item-group-8{
+		/*width: 49.5%;
+		margin-right: 1%;*/
+	}	
+	div#classroom_banner div.container .item.i-left.item-group-8:last-of-type{
+		margin-right: 0;
+	}
+	.layout-kimono-sp div#classroom_banner div.container .item.i-right.item-group-8{
+		display: block;
+	}
+	.kimono-group .list-group-name li{
+		/*width: 32%;
+		margin-right: 2%;
+		float: left;*/
+	}
+	.kimono-group .list-group-name li:last-child{
+		margin-right: 0;
+	}
+	/* DUYEN - style for Captcha
+	--------------------------------------------------------------------------*/
+	.group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha{
+		width: 274px;
+		padding-right: 11px;
+		box-sizing: border-box;
+	}
+	body.tw .group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha{
+		width: 256px;
+	}
+	body.id .group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha{
+		width:100%;
+	}
+	.group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha input,
+	.group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha img,
+	body.en .group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha input,
+	body.en .group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha img,
+	body.vi .group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha input,
+	body.vi .group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha img,
+	body.ru .group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha img,
+	body.ru .group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha input{
+		margin-right: 0;
+		margin-left: 0;
+	}
+	
+	.group20-container .wpcf7 label,
+	body.en .group20-container .wpcf7 .captcha-group-page label{
+		margin-top: 10px;
+	}
+	body.th .group20-container .wpcf7 .captcha-group-page label,
+	body.id .group20-container .wpcf7 .captcha-group-page label,
+	body.hi .group20-container .wpcf7 .captcha-group-page label{
+		margin-top: 31px;
+	}
+	/* END DUYEN - style for Captcha*/
+	/* DUYEN - Style for Plan X Blog
+	--------------------------------------------------------------------------*/
+	.kimono-group .group.detail .sec-planx-blog .forpc{
+		display: none;
+	}
+	.kimono-group .group.detail .sec-planx-blog .forsp{
+		display: block;
+	}
+	body.single-post .container.cat-planx_collaboration .cate-blog-main .sect-cate-item .image-cate img {
+		width: 100%;
+		position: static;
+	}
+	
+	body.single-post .container.cat-planx_collaboration .site-content-blog,
+	body.single-post .container.cat-planx_collaboration #sidebar-blog,
+	body.single-post .container.cat-planx_collaboration .site-content-blog .cont-blog-detail article .entry-content{
+		width: 100%;
+		padding: 0;
+	}
+	body.single-post .container.cat-planx_collaboration .cate-blog-main.detail-page .sect-cate-item h2 {
+		font-size: 25px;
+		margin-bottom: 22px;
+		margin-top: 20px;
+	}
+	body.single-post .container.cat-planx_collaboration .site-content-blog .cont-blog-detail .title-post {
+		font-size: 18px;
+	}
+	body.ru .group20-container .panel-body .panel-title span.bubble-circle{
+		font-size:10px;
+		margin-left:-31px;
+		top:18px;
+	}
+	.content-plan-x .wpcf7 .captcha-group-page .cap-left input{
+		width:78px;
+		margin-left: 10px;
+	}
+	body.en .content-plan-x .wpcf7 .captcha-group-page .cap-left input{
+		width:70px;
+		margin-left: 0;
+	}
+	body.vi .content-plan-x .wpcf7 .captcha-group-page .cap-left input{
+		margin-left: 0;
+	}
+	body.en .content-plan-x .wpcf7 .captcha-group-page .cap-right{
+		margin-left: 3px;
+	}
+	body.vi .content-plan-x .wpcf7 .captcha-group-page .cap-right{
+		margin-left: 7px;
+	}
+	/* END DUYEN - Style for Plan X Blog*/
+	/*start #14638*/
+	.kimono-group .sec-blog{
+		margin-top: 20px;
+	}
+	.contact-plan-x textarea.wpcf7-textarea{
+		height: 250px;
+	}
+	body.ms .group20-container .panel-body .panel-title span.bubble-circle {
+		font-size: 11px;
+		margin-left: -17px;
+	}
+	body.fr .group20-container .wpcf7 .captchar label br{
+		display: block;
+	}
+	body.hi .kimono-group .item .box-info .b-text .text-h2 .t-right em {
+		font-size: 25px;
+	}
+	/*end #14638*/
+}
+@media all and (min-width:640px) and (max-width: 767px){
+	body.id .group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha{
+		width:71%;
+	}
+}
+@media all and (min-width:480px) and (max-width: 767px){
+	.group20-container .wpcf7 .captcha-group-page .cap-left span input{
+		margin-left: 40px;
+	}
+	body.en .wpcf7 .contact-plan-x .form-submit input.wpcf7-form-control{
+		margin-top: 10px;
+	}
+	body.th .wpcf7 .contact-plan-x .form-submit input.wpcf7-form-control{
+		margin-top: 0;
+	}
+	body.en .content-plan-x .wpcf7 p var{
+		margin-right: 20px;
+	}
+	body.th .content-plan-x .wpcf7 p var{
+		margin-right: 0;
+	}
+	body.en .content-plan-x .wpcf7 p var br{
+		display: none;
+	}
+	body.vi .group20-container .wpcf7 .panel-body .listpeople input[type="submit"], 
+	body.en .group20-container .wpcf7 .panel-body .listpeople input[type="submit"]{
+		margin-top: 10px;
+	}
+	body.th .group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha
+	{
+		width: 50%;
+	}
+	.kimono-group .item .box-group-name .image img{
+		width: 100%;
+	}
+	/* 
+	DUYEN - Style for Plan X Blog
+	--------------------------------------------------------------------------*/
+	.kimono-group .group.detail .sec-planx-blog #link-form-planx {
+		background-size: 100%;
+		font-size: 20px;
+		line-height: 50px;
+		margin-bottom: 10px;
+	}
+	/* END DUYEN - Style for Plan X Blog*/
+	body.fr .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+		font-size: 49px;
+	}
+	body.fr .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen{
+		font-size: 40px;
+	}
+	body.fr .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax {
+		font-size: 15px;
+		top: -8px;
+	}
+	body.fr .group20-container .panel-body .panel-title span.ext {
+		margin-left: -20px;
+	}
+	body.fr .kimono-group .title-main, body.fr .kimono-group .title-main var {
+		font-size: 20px;
+		height: 35px;
+	}
+	body.hi .kimono-group .title-main,
+	body.hi .kimono-group .title-main var{
+		font-size: 25px;
+	}
+	body.hi .kimono-group .title-main{
+		height: 40px;
+	}
+}
+@media all and (max-width:479px){
+	.group20-container .wpcf7 .captcha-group-page .cap-left{
+		width: 175px;
+	}
+	body.en .group20-container .wpcf7 .captcha-group-page .cap-left,
+	body.ru .group20-container .wpcf7 .captcha-group-page .cap-left{
+		width: 194px;
+	}
+	body.hi .group20-container .wpcf7 .captcha-group-page .cap-left{
+		width:auto
+	}
+	body.ru .group20-container .wpcf7 .captcha-group-page label{
+		margin-top: 21px;
+	}
+	body.vi .group20-container .wpcf7 .captcha-group-page .cap-left{
+		width: 190px;
+	}
+	body.en .group20-container .wpcf7 .captchar label br{
+		display: block;
+	}
+	.group20-container .wpcf7 .captcha-group-page .cap-right{
+		margin-left: 0;
+	}
+	body.hi .group20-container .wpcf7 .captcha-group-page .cap-right{
+		margin-left: 5px;
+	}
+	body.en .group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha{
+		width:274px;
+	}
+	body.ru .content-plan-x .wpcf7 p var{
+		display: block;
+	}
+	body.ru .content-plan-x .wpcf7 .captcha-group-page .cap-left input{
+		margin-left: 0;
+		margin-top: 0;
+	}
+	body.ru .content-plan-x .wpcf7 .captcha-group-page .cap-right{
+		margin-top: 42px;
+	}
+	body.ru .content-plan-x .wpcf7 .captcha-group-page .cap-left input{
+		width: 150px;
+	}
+	body.id .group20-container .wpcf7 .captcha-group-page .cap-left label{
+		width: 135px;
+	}
+	body.ru .group20-container .wpcf7 .captcha-group-page .cap-left input,
+	body.id .group20-container .wpcf7 .captcha-group-page .cap-left input{
+		margin-left: 5px;
+	}
+	body.id .group20-container .wpcf7 .panel-body .listpeople .captchar input{
+		margin-right: 0;
+		margin-left:0;
+	}
+	body.ru .group20-container .wpcf7 .captcha-group-page label{
+		width:131px;
+	}
+	/*label captcha*/
+	.contact-plan-x var, body.en .contact-plan-x var{
+		font-size: 13px;
+	}
+ 	.contact-plan-x input.wpcf7-text{
+ 		height: 45px;
+ 	}
+	.content-plan-x section p{
+		font-size: 20px;
+	}
+	.wpcf7 .contact-plan-x .form-submit input.wpcf7-form-control{
+		font-size: 30px;
+		font-family: 'Meiryo', arial;
+		margin-top: 10px;
+	}
+	body.en .wpcf7 .contact-plan-x .form-submit input.wpcf7-form-control{
+		font-size: 26px;
+	}
+	.group20-container .panel-body .panel-title span.bubble-circle:before{
+		border-width: 9px;	
+	}
+	/*--- .box-info ---*/
+	.kimono-group .item .box-info .b-text .text-h2 .t-right var.num,
+	body.tw .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+		font-size: 40px;
+	}
+	body.en .kimono-group .item .box-info .b-text .text-h2 .t-right var.num,
+	body.vi .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+		font-size:30px;
+	}
+	body.ko .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+		font-size: 35px;
+	}
+	body.ru .kimono-group .item .box-info .b-text .text-h2 .t-right var.num,
+	body.cn .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+		font-size: 37px;
+	}
+	body.th .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+		font-size: 34px;
+	}
+	body.hi .kimono-group .item .box-info .b-text .text-h2 .t-right var.num{
+		font-size: 35px;
+	}
+	.kimono-group .item .box-info .b-text .text-h2 .t-right var.yen{
+		font-size: 24px;
+	}
+	body.en .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen,
+	body.en .kimono-group .item .box-info .b-text .text-h2 .t-right em,
+	body.vi .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen,
+	body.vi .kimono-group .item .box-info .b-text .text-h2 .t-right em{
+		font-size: 16px;
+	}
+	body.ru .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen{
+		font-size: 20px;
+	}
+	body.ko .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+		font-size: 8px;
+	}
+	body.ko .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen{
+		font-size: 22px;
+	}
+	body.id .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen,
+	body.id .kimono-group .item .box-info .b-text .text-h2 .t-right em,
+	body.ms .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen,
+	body.ms .kimono-group .item .box-info .b-text .text-h2 .t-right em{
+		font-size: 13px;
+	}
+	body.hi .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen{
+		font-size: 24px;
+	}
+	body.cn .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen,
+	body.cn .kimono-group .item .box-info .b-text .text-h2 .t-right var.yen em{
+		font-size: 18px;
+	}
+	body.cn .kimono-group .item .box-info .b-text .text-h2 .t-right em{
+		font-size: 16px;
+	}
+	.kimono-group .item .box-info .b-text .text-h2 .t-right var.tax,
+	body.en .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax,
+	body.vi .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax,
+	body.ru .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+		font-size: 8px;
+	}
+	body.en .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax,
+	body.vi .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+		right:0;
+	}
+	body.id .kimono-group .item .box-info .b-text .text-h2 .t-right var.tax{
+		right:-5px;
+	}
+	.kimono-group .item .box-info .b-text .text-excerpt p.red{
+		padding: 15px 0 15px 33px;
+	}
+	.group20-container .panel-body .panel-title,
+	.group20-container .panel-body .panel-title div.note,
+	.group20-container .wpcf7 label,
+	.group20-container .panel-body .panel-content,
+	body.th .group20-container .panel-body .panel-title{
+		font-size: 12px;
+	}
+	.kimono-group .item .box-info .b-text .text-excerpt p.red,
+	body.th .kimono-group .item .box-info .b-text .text-excerpt p.red,
+	body.fr .kimono-group .item .box-info .b-text .text-excerpt p.red{
+		font-size:12px;
+	}
+	body.en .kimono-group .item .box-info .b-text .text-h2,
+	body.vi .kimono-group .item .box-info .b-text .text-h2,
+	body.fr .kimono-group .item .box-info .b-text .text-h2{
+		font-size:13px;
+	}
+	body.th .kimono-group .item .box-info .b-text .text-h2{
+		font-size: 15px;
+	}
+	body.en .kimono-group .item .box-info .b-text .text-h2 .t-left,
+	body.vi .kimono-group .item .box-info .b-text .text-h2 .t-left{
+		line-height: 1.1;
+	}
+	body.tw .kimono-group .item .box-info .b-text .text-h2 .t-left,
+	body.hi .kimono-group .item .box-info .b-text .text-h2 .t-left{
+		line-height: 1.2;
+	}
+	body.ko .kimono-group .item .box-info .b-text .text-h2 .t-left{
+		line-height: 1.2;
+		font-size: 14px;
+	}
+	body.ru .kimono-group .item .box-info .b-text .text-h2 .t-left{
+		line-height: 1.2;
+		font-size: 15px;
+	}
+	body.ms .kimono-group .item .box-info .b-text .text-h2 .t-left{
+		line-height: 1.2;
+	}
+	body.ms .kimono-group .item .box-info .b-text .text-h2{
+		font-size: 12px;
+		line-height: 1.2;
+	}
+	body.ru .kimono-group .item .box-group-name .name span{
+		font-size:18px;
+	}
+	.kimono-group .item .box-info .b-text .text-h2{
+		font-size:15px;
+	}
+	body.hi .kimono-group .item .box-info .b-text .text-h2{
+		font-size:14px;
+	}
+	body.ru .kimono-group .item .box-info .b-text .text-h2{
+		font-size:15px;
+	}
+	body.ru .kimono-group .title-main,
+	body.ru .kimono-group .title-main var{
+		font-size:20px;
+	}
+	body.ru .kimono-group .title-main span{
+		font-size:13px;
+	}
+	body.th .group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha img{
+		margin-top: 6px;
+	}
+	body.id .group20-container .wpcf7 .panel-body .people-des,
+	body.id .group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha span.title{
+		font-size: 16px;
+	}
+	/* 
+	DUYEN - Style for Plan X Blog
+	--------------------------------------------------------------------------*/
+	.kimono-group .group.detail .sec-planx-blog #link-form-planx {
+		background-size: 100%;
+		font-size: 15px;
+		line-height: 30px;
+		margin-bottom: 10px;
+		padding-left: 5px;
+	}
+	.kimono-group .group.detail .sec-planx-blog article .entry-header p.date{
+		font-size: 14px;
+	}
+	.kimono-group .group.detail .sec-planx-blog article .entry-header h2.tn-blog-title a {
+		font-size: 18px;
+		line-height: 1;
+	}
+	.kimono-group .group.detail .sec-planx-blog article div.tn-blog-content-sort p:not(.first-title){
+		margin-bottom: 0;
+	}
+	.kimono-group .group.detail .sec-planx-blog article div.tn-blog-content-sort p.first-title{
+		display: none;
+	}
+	.kimono-group .group.detail .sec-planx-blog .more-info{
+		font-size: 14px;
+	}
+	.content-plan-x section p{
+		font-size:14px;
+	}
+	.kimono-group .item .box-info .b-text .text-excerpt p{
+		font-size: 12px;
+	}
+	body.id .wrapp-all-group-8 .wrapp-group-8-option h4{
+		font-size: 15px;
+	}
+	body.ms .wrapp-all-group-8 .wrapp-group-8-option h4 {
+		padding-left: 50px;
+	}
+	body.fr .wrapp-all-group-8 h3{
+		font-size: 15px;
+	}
+	body.fr .group20-container .panel-header h3{
+		font-size: 18px;
+	}
+	body.fr .group20-container .wpcf7 label{
+		font-size: 13px;
+	}
+	body.fr .page-plan-x h3 {
+		font-size: 16px;
+	}
+	/*End DUYEN - Style for Plan X Blog*/
+	body.fr .kimono-group .title-main,
+	body.fr .kimono-group .title-main var{
+		font-size: 21px;
+		height: auto;
+	}
+	body.fr .kimono-group .item .box-group-name .name span {
+		font-size: 20px;
+		padding: 4px 6px;
+	}
+	body.hi .kimono-group .title-main,
+	body.hi .kimono-group .title-main var{
+		font-size: 20px !important;
+	}
+	body.hi .kimono-group .title-main span {
+		font-size: 18px;
+	}
+	body.hi .kimono-group .item .box-group-name .name span {
+		font-size: 21px;
+	}
+	body.hi .kimono-group .title-main{
+		height: 37px;
+	}
+}
+@media (max-width: 320px){
+	body.en .kimono-group .title-main, 
+	body.en .kimono-group .title-main var,
+	body.vi .kimono-group .title-main, 
+	body.vi .kimono-group .title-main var{
+		font-size: 28px;
+		padding-left: 0;
+	}
+	body.vi .kimono-group .item .text-h1 .bold{
+		font-size: 40px;
+	}
+	body.vi .kimono-group .item .text-h1 .bold-off{
+		font-size: 30px;
+	}
+	/* 
+	DUYEN - style for Captcha
+	--------------------------------------------------------------------------*/
+	.group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha,
+	body.en .group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha,
+	body.vi .group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha
+	{
+		width: 100%;
+	}
+	body.tw .group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha{
+		width: 92%;
+	}
+	body.en .group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha span.title{
+		padding-top: 0;
+		width: 165px;
+		display: block;
+	}
+	body.ru .group20-container .wpcf7 .panel-body .listpeople p.ctf7-captcha span.title{
+		padding-top: 0;
+		width: 165px;
+		display: block;
+	}
+	body.en .group20-container .wpcf7 .panel-body .listpeople > p.ctf7-captcha:nth-child(8) span.title {
+		padding-top: 9px;
+	}
+	body.cn .kimono-group .title-main,
+	body.cn .kimono-group .title-main var{
+		font-size: 25px;
+	}
+	/* END DUYEN - style for Captcha*/
+	/* 
+	DUYEN - style for Plan X Blog
+	--------------------------------------------------------------------------*/
+	body.single-post .container.cat-planx_collaboration .cate-blog-main.detail-page .sect-cate-item h2 small{
+		display: block;
+		padding: 7px 0;
+	}
+	.kimono-group .list-group-name li{
+		float: none;
+		margin-right:0;
+		margin-bottom: 10px;
+		width: 100%;
+	}
+	body.ms .wrapp-all-group-8 h3{
+		font-size: 15px;
+	}
+	body.fr .kimono-group .title-main,
+	body.fr .kimono-group .title-main var{
+		font-size: 21px;
+		height: auto;
+	}
+	/* END DUYEN - style for Plan X Blog*/
+	body.hi .kimono-group .item .text-h1 .bold-off{
+		font-size: 34px;
+	}
+	body.hi .kimono-group .item .text-h1{
+		font-size: 22px;
+	}
+}

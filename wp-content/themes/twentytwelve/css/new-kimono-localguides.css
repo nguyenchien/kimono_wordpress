@@ -1,0 +1,49 @@
+.wrap-localguides .main-banner{
+    margin-bottom: 50px;
+}
+.wrap-localguides .title{
+    background-color: #4e0037;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 5px;
+    padding: 13px 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+	font-weight: bold;
+}
+.wrap-localguides .content{
+    padding: 0 20px 20px 20px;
+	margin-bottom: 35px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	font-size: 16px;
+}
+.wrap-localguides .box-item-01 .content{
+	letter-spacing: 3px;
+}
+.wrap-localguides .box-item-02 .content{
+	letter-spacing: 2px;
+}
+.wrap-localguides .wrap-text-box{
+	display: flex;
+	margin-bottom: 15px;
+}
+.wrap-localguides .black-box{
+	font-size: 25px;
+	margin-top: -6px;
+}
+.wrap-localguides .text-title-general {
+	font-weight: bold;
+	font-size: 16px;
+}
+.wrap-localguides .lbl-name-sl{
+	font-size: 18px;
+}
+@media(min-width: 750px){
+	.wrap-localguides .title{
+		font-size: 18px;
+	}
+}

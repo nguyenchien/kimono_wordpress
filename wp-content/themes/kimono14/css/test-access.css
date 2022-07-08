@@ -1,0 +1,1744 @@
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+@media all {
+	.left{
+		float: left !important;
+	}
+	.right{
+		float: right !important;
+	}
+	/* .access page
+	------------------------------------------------------------------------- */
+	#sb-site{
+		min-height: 0 !important;
+	}
+	.box-overview-page-howto-faq, .box-overview-kimono-page{
+		width: 960px;
+		height: auto;
+		margin-bottom: 20px;
+	}
+	.box-overview-page-howto-faq .image, .box-overview-kimono-page .image{
+		width: 470px;
+		height: 220px;
+		float: right;
+	}
+	.box-overview-page-howto-faq .image img, .box-overview-kimono-page .image img{
+		width: 470px;
+		height: 220px;
+	}
+	.box-overview-page-howto-faq .info, .box-overview-kimono-page .info{
+		width: 490px;
+		height: 220px;
+		float: left;
+		background: #f1ebf0;
+	}
+	.box-overview-page-howto-faq .info .wrap, .box-overview-kimono-page .info .wrap{
+		padding: 10px 10px 0 10px;
+	}
+	.content-column-page .wrap{
+		margin-bottom: 20px;
+	}
+	.access-page .box-overview-page-howto-faq .info .wrap h2{
+		font-size: 30px;
+	}
+	.box-overview-page-howto-faq .info .wrap h2, .box-overview-kimono-page .info .wrap h2{
+		font-family: 'Meiryo', arial, sans-serif;
+		font-size: 36px;
+		line-height: 16px;
+		color: #000000;
+		font-weight: bold;
+		line-height: 1.1;
+	}
+	.box-overview-page-howto-faq .info h1, .box-overview-kimono-page .info h1{
+		font-size: 24px;
+		line-height: 1.1;
+		color: #000;
+		font-weight: bold;
+		margin-bottom: 5px;
+	}
+	.box-overview-page-howto-faq .info p, .box-overview-kimono-page .info p{
+		color: #444;
+		font-size: 13px;
+		line-height: 1.7;
+		text-align: justify;
+	}
+	.access-page .box-overview-page-howto-faq .info .wrap h2{
+		font-size: 30px;
+	}
+	.access-page .child-page .page-item {
+		float: left;
+		margin-right: 5%;
+		overflow: hidden;
+		width: 30%;
+		box-sizing: border-box;
+		margin-bottom: 20px;
+		min-height: 410px;
+	}
+	body.vi .access-page .child-page .page-item{
+		min-height: 416px;
+	}
+	body.ko .access-page .child-page .page-item{
+		min-height:470px
+	}
+	.access-page .child-page .page-item:nth-child(3n+3) {
+		margin-right: 0;
+	}
+	.access-page .child-page .page-item h2 {
+		font-family: Meiryo, arial;
+		font-size: 20px;
+		color: #221e1f;
+		font-weight: bold;
+		line-height: 1;
+	}
+	.child-page.clearfix {
+		clear: both;
+		margin-top: 10px;
+	}
+	.access-page .child-page .page-item.gion-shijo h2,
+	.access-page .child-page .page-item.kinkakuji h2{
+		height: 40px;
+		position: relative;
+	}
+	.access-page .child-page .page-item.gion-shijo h2 a,
+	.access-page .child-page .page-item.kinkakuji h2 a{
+		position: absolute;
+		bottom: 0;
+	}
+	.access-page .child-page .page-item h2 a {
+		color: #221e1f;
+	}
+	.access-page .child-page .page-item .shop-detail {
+		font-size: 14px;
+		color: #444;
+		line-height: 1;
+	}
+	.access-page .child-page .page-item .shop-detail p {
+		line-height: 1;
+		margin-bottom: 5px;
+	}
+	.access-page .child-page .page-item .shop-detail h3,
+	.access-page .child-page .page-item .shop-detail strong {
+		font-size: 16px;
+		color: #444;
+		line-height: 1;
+		font-weight: bold;
+		display: block;
+	}
+	.access-page .child-page .page-item .shop-detail br {
+		content: "";
+		height: 5px;
+		line-height: 5px;
+		display: block;
+	}
+	.access-page .child-page .page-item .featured-post {
+		margin-bottom: 10px;
+		margin-top: 5px;
+	}
+	.access-page .child-page .page-item .featured-post img{
+		width: 100%;
+		height: auto;
+	}
+	.access-page .child-page div.google_map {
+		font-size: 16px;
+		color: #444;
+		margin-top: 20px;
+	}
+	.access-page div.google_map h2 {
+		font-size: 30px;
+		font-weight: bold;
+		font-family: Meiryo, arial;
+		color: #221e1f;
+	}
+	/* .access-child-page
+	------------------------------------------------------------------------*/
+	.access-child-page {
+		font-family: Meiryo, arial;
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+	.access-child-page .shop-page-title{
+		width: 100%;
+		margin-top: 20px;
+	}
+	.access-child-page .shop-page-title div.left
+	{
+		position: relative;
+		width: 60%;
+		padding-top: 10px;
+	}
+	.access-child-page .shop-page-title div.right{
+		padding-bottom: 5px;
+	}
+	.access-child-page .shop-page-title div.left,
+	.access-child-page .shop-page-title div.right{
+		display: inline;
+	}
+	.access-child-page .shop-page-title .page-title {
+		font-weight: bold;
+		line-height: 1;
+		font-size: 42px;
+		float: left;
+	}
+	body.en .access-child-page.osaka-shinsaibashi .shop-page-title .page-title,
+	body.vi .access-child-page.osaka-shinsaibashi .shop-page-title .page-title{
+		font-size: 41px;
+	}
+	.access-child-page .shop-icon .shop-name-en {
+		position: absolute;
+		bottom: 24px;
+		font-size: 20px;
+		line-height: 1.4;
+		color: #AFAFAF;
+		box-sizing: border-box;
+	}
+	.access-child-page .shop-icon.ninenzaka .shop-name-en{
+		bottom: 0;
+	}
+	.access-child-page.osaka-shinsaibashi .shop-icon .shop-name-en{
+		font-size: 18px;
+	}
+	body:not(.ja) .access-child-page .shop-icon .shop-name-en{
+		display: none;
+	}
+	.access-child-page .shop-icon .shop_detail_2{
+		color: red;
+		font-size: 16px;
+	}
+	.access-child-page .shop-page-title.kyotostation div.list-icon-shop{
+		margin-top: 45px
+	}
+	.access-child-page .shop-icon .icon-shop{
+		display: inline-block;
+		float:left;
+		height: 45px;
+		font-size: 0;
+		width: 22px;
+		margin-right: 5px;
+		background-image: url(../../../../../images/icons/icon-access-child.png);
+		background-repeat: no-repeat;
+		background-position: -1px -49px;
+	}
+	.access-child-page .shop-icon .icon-shop:hover,
+	.access-child-page .shop-icon .icon-shop.active {
+		background-position: 0 0;
+	}
+	.access-child-page .shop-icon .icon-shop.shinkyogoku:hover,
+	.access-child-page .shop-icon .icon-shop.shinkyogoku.active{
+		background-position: -33px 0;
+	}
+	.access-child-page .shop-icon .icon-shop.shinkyogoku{
+		width: 34px;
+		background-position: -33px -48px;
+	}
+	.access-child-page .shop-icon .icon-shop.kiyomizuzaka{
+		width: 40px;
+		background-position: -74px -48px;
+	}
+	.access-child-page .shop-icon .icon-shop.kiyomizuzaka:hover,
+	.access-child-page .shop-icon .icon-shop.kiyomizuzaka.active{
+		background-position: -74px 0;
+	}
+	.access-child-page .shop-icon .icon-shop.ninenzaka{
+		width: 27px;
+		margin-right: 0;
+		background-position: -167px -48px;
+	}
+	.access-child-page .shop-icon .icon-shop.ninenzaka:hover,
+	.access-child-page .shop-icon .icon-shop.ninenzaka.active{
+		background-position: -167px 0;
+	}
+	.access-child-page .shop-icon .icon-shop.kinkakuji{
+		width: 49px;
+		background-position: -117px -48px;
+	}
+	.access-child-page .shop-icon .icon-shop.kinkakuji:hover,
+	.access-child-page .shop-icon .icon-shop.kinkakuji.active{
+		background-position: -117px 0;
+	}
+	.access-child-page .shop-icon .icon-shop.gion-shijo {
+		width: 27px;
+		background-position: -55px -249px;
+	}
+	.access-child-page .shop-icon .icon-shop.gion-shijo:hover,
+	.access-child-page .shop-icon .icon-shop.gion-shijo.active{
+		background-position: 0 -249px;
+	}
+	.access-child-page .shop-icon .icon-shop.osaka-shinsaibashi{
+		width: 56px;
+		margin-right: 0;
+		background-position: -43px -111px;
+	}
+	.access-child-page .shop-icon .icon-shop.osaka-shinsaibashi.active,
+	.access-child-page .shop-icon .icon-shop.osaka-shinsaibashi:hover{
+		background-position: -104px -108px;
+
+	}
+	.access-child-page .shop-icon .icon-shop.kamakura {
+		width: 42px;
+		background-position: -199px -249px;
+	}
+	.access-child-page .shop-icon .icon-shop.kamakura:hover,
+	.access-child-page .shop-icon .icon-shop.kamakura.active{
+		background-position: -118px -249px;
+	}
+	.access-child-page .shop-icon .icon-shop.asakusa, .asakusa-top-page > .asakusa{
+		width: 48px;
+		margin-right: 0;
+		height: 48px;
+		background-position: -162px -117px;
+	}
+	.access-child-page .shop-icon .icon-shop.asakusa:hover,
+	.access-child-page .shop-icon .icon-shop.asakusa.active{
+		background-position: -215px -117px;
+	}
+	.access-child-page h2 {
+		background-color: #6d3a6f;
+		width: 100%;
+		font-size: 44px;
+		font-family: Meiryo, arial;
+		line-height: 54px;
+		color: #fff;
+		font-weight: bold;
+		height: 54px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		padding-left: 55px;
+		box-sizing: border-box;
+	}
+	.access-child-page h2.access{
+		padding-left:0;
+	}
+	.access-child-page section.block-viewbooking-top-page #choose-shop,
+	.access-child-page #booking_form .vacancy #choose-shop-and-date #choose-shop{
+		display: none;
+	}
+	.access-child-page .section-booking-top-page .booking h2{
+		padding-left:0;
+	}
+	.access-child-page h2 span.icon-user{
+		display: inline-block;
+		float: left;
+		height: 52px;
+		width: 33px;
+		margin-right: 5px;
+		background-image: url(../../../../../images/icons/icon-access-child.png);
+		background-repeat: no-repeat;
+		background-position: 2px -110px;
+	}
+
+	.access-child-page h2.blog {
+		background-image: url('../images/spriteme-sp.png');
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 80px;
+		background-size: 50px;
+		background-repeat: no-repeat;
+		background-color: #6d3a6f;
+		width: 100%;
+		font-size: 44px;
+		font-family: Meiryo, arial;
+		line-height: 54px;
+		color: #fff;
+		font-weight: bold;
+		height: 54px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		padding-left: 55px;
+		box-sizing: border-box;
+	}
+	body.en .access-child-page h2,
+	body.vi .access-child-page h2{
+		font-size: 30px;
+	}
+	.title-access{
+		background-color: #6d3a6f;
+	}
+	.access-child-page h2.access span{
+		font-size: 14px;
+		line-height: 21px;
+		display: inline-block;
+		margin-left: 5px;
+	}
+	.access-child-page h2.blog{
+		background-position: 10px -4497px;
+		padding-left: 66px;
+	}
+	.access-child-page h2.blog span{
+		font-size: 14px;
+		line-height: 21px;
+		display: inline-block;
+		margin-left: 14px;
+	}
+	.access-child-page h2.blog span.right{
+		font-size: 14px;
+		line-height: 21px;
+		display: inline-block;
+		height: 54px;
+		box-sizing: border-box;
+		padding-right: 14px;
+		padding-top: 25px;
+	}
+	.access-child-page h3 {
+		font-family: Meiryo, arial;
+		font-size: 30px;
+		font-weight: bold;
+		color: #444;
+		margin-bottom: 10px;
+		margin-top: 25px;
+	}
+
+	.access-child-page .page-excerpt {
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.access-child-page .page-excerpt.no-gallery{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	/*gallery*/
+	.access-child-page .shop-list{
+		margin-bottom: 20px;
+		overflow: hidden;
+	}
+	.access-child-page .shop-list .slide-images .main-image img {
+		width: 100%;
+		height: auto;
+		box-sizing: border-box;
+	}
+	.access-child-page .shop-list .slide-images .list-image ul li {
+		width: 49.5%;
+		margin-bottom: 10px;
+	}
+	.access-child-page .shop-list .slide-images .list-image ul li:nth-child(2n+1){
+		float:left;
+	}
+	.access-child-page .shop-list .slide-images .list-image ul li:nth-child(2n){
+		float:right;
+	}
+	.access-child-page .shop-list .slide-images .list-image ul li:nth-child(5n+5) {
+		margin-right: 0;
+	}
+	.access-child-page .shop-list .slide-images .list-image ul li.last {
+		margin-right: 0;
+	}
+	.access-child-page .shop-list .slide-images .list-image img {
+		cursor: pointer;
+		width: 100%;
+		height: auto;
+	}
+	.access-child-page .shop-list .slide-images .list-image a{
+		display: inline-block;
+		padding: 1px;
+		background-color: #fff;
+		border-radius: 4px;
+		transition: background-color 0.5s ease-out;
+	}
+	.access-child-page .shop-list .slide-images .list-image a:hover{
+		background-color: #4ae;
+		transition: none;
+	}
+	.access-child-page .shop-list .slide-images .list-image .description {
+		font-size: 14px;
+		margin-bottom: 6px;
+	}
+	.access-child-page .shop-list .slide-images .list-image .brand .item {
+		margin-bottom: 3px;
+		overflow: hidden;
+	}
+	.access-child-page .shop-list .slide-images .list-image .brand .item .title {
+		font-size: 14px;
+		border-bottom: 1px solid #ccc;
+		line-height: 17px;
+		padding-bottom: 1px;
+		margin-bottom: 1px;
+		font-weight: bold;
+	}
+	.access-child-page .shop-list .slide-images .list-image .brand .item div {
+		font-size: 13px;
+		margin-top: -1px;
+	}
+	.access-child-page .shop-list .slide-images .list-image .brand .item div a {
+		color: #000;
+	}
+	.access-child-page .shop-detail {
+		width: 100%;
+		font-family: Meiryo, arial;
+		color: #444;
+		font-size: 13px;
+		border-top: 4px solid #000;
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+	.access-child-page .shop-detail .title {
+		background-color: #000;
+		color: #fff;
+		font-size: 27px;
+		padding: 5px 10px;
+		font-weight: bold;
+		float: left;
+		line-height: 40px;
+		width: 15%;
+		box-sizing: border-box;
+		text-align: center;
+	}
+	body.vi .access-child-page .shop-detail .title{
+		width: 22%;
+	}
+	.access-child-page .shop-detail .shop-detail-3{
+		font-size: 19px;
+		line-height: 27px;
+		color: #000;
+		font-weight: bold;
+		float: left;
+		padding-top: 6px;
+		width: 85%;
+		box-sizing: border-box;
+		padding-left: 10px
+	}
+	body.vi .access-child-page .shop-detail .shop-detail-3{
+		width: 78%;
+	}
+	.access-child-page .shop-detail .shop-detail-3 .icon{
+		background-image: url(../images/spriteme-sp.png);
+		background-repeat: no-repeat;
+		background-size: 20px;
+		display: inline-block;
+	}
+	.access-child-page .shop-detail .shop-detail-3 .icon.clock{
+		padding-left: 25px;
+		background-position: 0px -1386px;
+	}
+	.access-child-page .shop-detail .shop-detail-3 .icon.phone{
+		padding-left: 30px;
+		background-position: 5px -1267px;
+	}
+	.access-child-page .shop-detail .shop-detail-3 .violet{
+		color: #6d3a6f;
+	}
+	.access-child-page .shop-detail h3 {
+		margin-top: 0;
+		line-height: 30px;
+		margin-bottom: 10px;
+	}
+	.access-child-page .shop-detail p {
+		margin-bottom: 0;
+	}
+	.access-child-page .shop-detail > p:first-child,
+	.access-child-page .shop-detail > p:first-of-type {
+		margin-bottom: 20px;
+	}
+	.access-child-page .shop-detail img {
+		margin-bottom: 10px;
+		width: 306px;
+		height: 218px;
+	}
+	.access-child-page .shop-detail p strong {
+		font-size: 16px;
+		font-weight: bold;
+	}
+	/*.access-child-page .shop-buttons*/
+	.access-child-page .shop-buttons{
+		height: auto;
+	}
+	.access-child-page .shop-buttons div{
+		box-shadow: 5px 5px 5px 1px #000;
+		display: block;
+		width: 32%;
+		margin-left: 2%;
+		float:left;
+	}
+	.access-child-page .shop-buttons div:first-child{
+		margin-left: 0;
+	}
+	.access-child-page .shop-buttons div a{
+		display: block;
+		margin: 0 auto;
+		padding: 0;
+		width:100%;
+	}
+	.access-child-page .shop-buttons div span{
+		display: block;
+		box-sizing: border-box;
+		float:left;
+	}
+	.access-child-page .shop-buttons div span:not(.icon){
+		color: #fff;
+		font-size: 19px;
+		line-height: 27px;
+		font-weight: bold;
+		padding: 26px 20px 26px 0;
+	}
+	body.en .access-child-page .shop-buttons div span:not(.icon){
+		font-size: 18px;
+	}
+	body.vi .access-child-page .shop-buttons div span:not(.icon),
+	body.ko .access-child-page .shop-buttons div span:not(.icon){
+		font-size: 16px;
+	}
+	body.ru .access-child-page .shop-buttons div span:not(.icon){
+		font-size: 15px;
+	}
+	.access-child-page .shop-buttons a:hover span:not(.icon){
+		text-decoration: underline;
+	}
+	.access-child-page .shop-buttons span.icon{
+		background-image: url('../images/spriteme-sp.png');
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 80px;
+		background-size: 50px;
+	}
+	.access-child-page .shop-buttons .plan,
+	.access-child-page .shop-buttons .plan span{
+		background-color: #f59231;
+	}
+	.access-child-page .shop-buttons .plan .icon{
+		background-position: 10px -1104px;
+		padding-left: 70px;
+	}
+	.access-child-page .shop-buttons .reserve,
+	.access-child-page .shop-buttons .reserve span{
+		background-color: #e9749a;
+	}
+	.access-child-page .shop-buttons .reserve .icon{
+		background-color: #e9749a;
+		background-position: 10px -4409px;
+		padding-left: 70px;
+	}
+	body.en .access-child-page .shop-buttons .reserve .icon,
+	body.vi .access-child-page .shop-buttons .reserve .icon,
+	body.ko .access-child-page .shop-buttons .reserve .icon{
+		background-position: 10px -4409px;
+		padding-left: 70px;
+	}
+	.access-child-page .shop-buttons .blog .icon{
+		background-color: #808080;
+		background-position: 10px -4483px;
+		padding-left: 70px;
+	}
+	.access-child-page .shop-buttons .blog,
+	.access-child-page .shop-buttons .blog span{
+		background-color: #808080;
+	}
+	/* END  - .access-child-page .shop-buttons */
+	.access-child-page .shop-instruction .map {
+		width: 455px;
+		height: 566px;
+		border: 4px solid #fff;
+		margin-right: 30px;
+		margin-top: 8px;
+		box-sizing: border-box;
+	}
+	.access-child-page .shop-instruction .map.shop iframe{
+		pointer-events: none;
+	}
+	.access-child-page .shop-instruction .instruction {
+		width: 475px;
+		margin-top: 8px;
+		color: #444;
+		font-family: Meiryo, arial;
+	}
+	.access-child-page .shop-instruction p {
+		font-size: 14px;
+		margin-bottom: 5px;
+		text-align: justify;
+		line-height: 1.4;
+	}
+	.access-child-page .shop-instruction p.title {
+		font-family: Meiryo, arial;
+		font-size: 16px;
+		line-height: 1.4;
+		padding-left: 25px;
+		margin-bottom: 5px;
+		text-align: left;
+		background: url('../images/spriteme-sp.png') no-repeat;
+		background-size: 20px;
+		display: inline;
+	}
+	.access-child-page .shop-instruction p.title.train {
+		background-position: 0px -1425px;
+	}
+	.access-child-page .shop-instruction p.title.bus {
+		background-position: 0px -1860px;
+	}
+	.access-child-page .shop-instruction p.title.taxi {
+		background-position: 0px -1824px;
+	}
+
+	.access-child-page .shop-instruction p.title.park {
+		background-position: 0px -1896px;
+	}
+
+	.access-child-page .shop-instruction p.title.inadmark {
+		background-position: 0px -1930px;
+	}
+	.access-child-page .image {
+		margin-top: 20px;
+	}
+	.access-child-page .youtube div {
+		float: left;
+		width: 49%;
+		margin-left: 1%;
+		height: 286px;
+	}
+	.access-child-page .youtube div:first-child {
+		margin-left: 0%;
+		margin-right: 1%;
+	}
+	.access-child-page .google_map_see_inside{
+		width: 100%;
+		height: 595px;
+		margin-top: 20px;
+		border: 10px solid #fff;
+		box-sizing: border-box;
+	}
+	.access-child-page .blog-shop {
+		margin-bottom: 20px !important;
+	}
+	.access-child-page .blog-shop .post-item {
+		float: left;
+		margin-left: 2%;
+		width: 23.5%;
+		color: #444;
+		line-height: 18px;
+		font-size: 12px;
+	}
+	.access-child-page .blog-shop .post-item:first-child,
+	.access-child-page .blog-shop .post-item.first{
+		margin-left: 0;
+	}
+	.access-child-page .blog-shop .post-item .featured-post {
+		width: 100%;
+		background-color: #eee;
+		margin-bottom: 5px;
+	}
+	.access-child-page .blog-shop .post-item img {
+		width: 100%;
+		height: auto;
+	}
+	.access-child-page .blog-shop .post-item a.shop_name {
+		color: #fff;
+		font-size: 12px;
+		font-family: Meiryo, arial;
+		background-color: #733d6d;
+		display: inline-block;
+		margin-right: 10px;
+		padding: 2px 5px;
+	}
+	.access-child-page .blog-shop .post-item span.blog-date {
+		font-size: 12px;
+		color: #444;
+	}
+	.access-child-page .blog-shop .post-item h3 {
+		padding: 0;
+		margin: 10px 0 0;
+	}
+	.access-child-page .blog-shop .post-item h3 a {
+		color: #8b5e86;
+		font-size: 20px;
+		font-family: Meiryo, arial;
+		line-height: 22px;
+	}
+
+	/* .instruction_full_width */
+	.instruction_full_width{
+		margin-bottom: 5px;
+	}
+	.instruction_full_width ul li{
+		float: left;
+		width: 455px;
+		margin-right: 30px;
+	}
+	.instruction_full_width ul li:nth-child(2n){
+		width: 475px;
+		margin-right: 0;
+	}
+
+	/* .distance-time */
+	.access-child-page ul.distance-time li{
+		margin-bottom: 12px;
+		overflow: hidden;
+	}
+	.access-child-page ul.distance-time li:last-child{
+		margin-bottom: 0;
+	}
+	.access-child-page ul.distance-time li label,
+	.access-child-page ul.distance-time li span{
+		display: inline-block;
+		float: left;
+		font-size: 18px;
+		font-weight: bold;
+		text-align: center;
+		box-sizing: border-box;
+		border-radius: 10px;
+		height:60px;
+		line-height: 60px;
+	}
+	.access-child-page ul.distance-time li label{
+		width: 190px;
+		background-color: #723c6d;
+		color: #fff;
+	}
+	.access-child-page ul.distance-time li span{
+		width: 285px;
+		border: 6px solid #723c6d;
+		color: #000000;
+		line-height: 48px;
+	}
+
+	body.vi .access-child-page .shop-instruction .instruction,
+	body.vi .access-child-page.hd-access{
+		font-family: Arial !important;
+	}
+	.access-page h2 span.region-title{
+		font-size: 24px;
+		box-sizing: border-box;
+	}
+	.access-page h2{
+		/*background-color: #733d6d;*/
+		font-family: 'Meiryo', arial;
+		font-weight: bold;
+		color: #712c7c;
+		/*height: 50px;*/
+		line-height: 50px;
+		margin-bottom: 10px;
+	}
+	.osaka-kimono span.region-title{
+		/*padding-left: 10px;*/
+		font-size: 24px;
+		box-sizing: border-box;
+	}
+	.osaka-kimono .child-page .shinsaibashi h2{
+		font-size: 22px;
+	}
+	/* customize instruction shop slide show */
+	.instruction-shop h3{
+		background-color: #6d3a6f;
+		width: 100%;
+		font-size: 30px;
+		font-family: Meiryo, arial;
+		line-height: 40px;
+		color: #fff;
+		font-weight: bold;
+		height: 40px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		padding-left: 10px;
+		box-sizing: border-box;
+	}
+	.instruction-shop .flexslider{
+		margin-bottom: 0;
+	}
+	.instruction-shop .flexslider .flex-direction-nav a{
+		width: 50px;
+		height: 50px;
+	}
+	.instruction-shop p.description{
+		margin-bottom: 20px;
+	}
+	.instruction-shop .flex-caption{
+		background-color: #E0C492;
+		padding: 5px;
+		box-sizing: border-box;
+		position: relative;
+		display: flex;
+		display: -webkit-flex;
+		flex-direction: row;
+		-webkit-flex-direction: row;
+	}
+	.instruction-shop .flex-caption .caption-slide{
+		width: 10%;
+		margin-right: 5%;
+		position: relative;
+	}
+	.instruction-shop .flex-caption .caption-slide span{
+		color: #501D0C;
+		font-weight: bold;
+	}
+	.instruction-shop .flex-caption .caption-slide span.item{
+		font-size: 55px;
+	}
+	.instruction-shop .flex-caption .caption-slide span.total-item{
+		position: absolute;
+		top: 38px;
+		font-size: 29px;
+		left: 28px;
+	}
+	.instruction-shop .flex-caption .name{
+		width: 85%;
+		font-size: 18px;
+		font-weight: bold;
+		background-color: #fff;
+		color: #501D0C;
+		padding: 0 50px 0 20px;
+		min-height: 110px;
+		box-sizing: border-box;
+		display: flex;
+		display: -webkit-flex;
+		align-items: center;
+		-webkit-align-items: center;
+	}
+	.tool{
+		display: flex;
+		display: -webkit-flex;
+		flex-flow: row wrap;
+		-webkit-flex-flow: row wrap;
+		-webkit-align-items: center;
+		justify-content: flex-end;
+		-webkit-justify-content: flex-end;
+		position: relative;
+		right: 15px;
+		top: 5px;
+		z-index: 0;
+	}
+	#carousel{
+		margin-right: 180px;
+		z-index: 1;
+	}
+	.navNext {
+		height: 20px;
+		width: 20px;
+		cursor: pointer;
+		background: url('../images/icon/next.png');
+	}
+	.navPrev {
+		height: 20px;
+		width: 20px;
+		cursor: pointer;
+		background: url('../images/icon/prev.png');
+	}
+	.navPlay {
+		height: 30px;
+		width: 30px;
+		cursor: pointer;
+		background: url('../images/icon/play-big.png') top left no-repeat;
+	}
+	.navPause {
+		height: 30px;
+		width: 30px;
+		cursor: pointer;
+		background: url('../images/icon/pause-big.png') top left no-repeat;
+	}
+
+	.instruction-shop #carousel .slides img:hover{
+		opacity: 0.5;
+		cursor: pointer;
+	}
+	/* End customize instruction shop slide show */
+	/*duyen #15699: 店舗WEBリニューアル*/
+	.access-child-page .topics{
+	}
+	.access-child-page .topics .two-columns{
+		margin-bottom: 21px;
+	}
+	.access-child-page .topics .two-columns li{
+		width: 48.90625%;
+		float: left;
+		margin-left:2.1875%;
+	}
+	.access-child-page .topics .two-columns li:first-child{
+		margin-left: 0;
+	}
+	.access-child-page .topics .three-columns li{
+		width: 31.87500%;
+		float:left;
+		margin-left: 2.1875%;
+	}
+	.access-child-page .topics .three-columns li:first-child{
+		margin-left: 0;
+	}
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+	.layout-kimono-sp .main-content > .container{
+		padding: 0 7px;
+		box-sizing: border-box;
+	}
+	body.vi .access-child-page .shop-page-title .page-title {
+		line-height: 42px;
+		font-size: 35px;
+	}
+	body.th .access-child-page .shop-page-title div.left,
+	body.id .access-child-page .shop-page-title div.left {
+		width: 100%;
+	}
+	body.th .access-child-page .shop-page-title div.right,
+	body.id .access-child-page .shop-page-title div.right,
+	body.th .access-child-page .shop-page-title.kyotostation div.right{
+		margin-top: 0;
+	}
+}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	.access-child-page.hd-access .container {
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+	.access-child-page .shop-page-title div.left {
+		width: 55%;
+	}
+	body.ru .access-child-page .shop-page-title div.left{
+		width:51%;
+	}
+	body.ru .access-child-page .kyotostation .page-title{
+		font-size:38px;
+	}
+	body.en .access-child-page.osaka-shinsaibashi .shop-page-title .page-title,
+	body.vi .access-child-page.osaka-shinsaibashi .shop-page-title .page-title{
+		font-size: 30px;
+		line-height: 1;
+	}
+	body.en .access-child-page.osaka-shinsaibashi .shop-page-title div.left,
+	body.vi .access-child-page.osaka-shinsaibashi .shop-page-title div.left{
+		padding-top: 20px;
+	}
+	.access-child-page.osaka-shinsaibashi .shop-icon .shop-name-en{
+		font-size: 15px;
+		line-height: 1;
+		margin-bottom: 2px;
+	}
+	.access-child-page .shop-detail .title {
+		font-size: 23px;
+	}
+	body.en .access-child-page .shop-detail .title {
+		font-size: 21px;
+	}
+	body.en .access-child-page .shop-buttons div span:not(.icon){
+		font-size: 14px;
+	}
+	body.vi .access-child-page .shop-buttons div span:not(.icon){
+		font-size: 13px;
+	}
+	body.ko .access-child-page .shop-buttons div span:not(.icon){
+		font-size: 12px;
+	}
+	body.ru .access-child-page .shop-buttons div span:not(.icon){
+		font-size:11px;
+	}
+	.access-child-page .shop-detail .shop-detail-3 {
+		font-size: 16px;
+	}
+	.access-child-page .shop-buttons div span:not(.icon){
+		font-size: 16px;
+		padding: 26px 10px 26px 0 !important;
+	}
+	.access-child-page .youtube div{
+		margin-bottom: 10px;
+	}
+	.access-child-page .shop-instruction .map,
+	.access-child-page .shop-instruction .instruction,
+	.access-child-page .google_map_see_inside{
+		width: 100%;
+		margin-right: 0;
+		margin-top: 0;
+		margin-bottom: 10px;
+		border: 0;
+	}
+	.access-child-page .shop-instruction .map,
+	.access-child-page .google_map_see_inside{
+		height: 200px;
+	}
+	.access-child-page .blog-shop .post-item h3 a {
+		font-size: 13px;
+		line-height: 1;
+	}
+	.access-child-page .google_map_see_inside{
+		width: 100%;
+	}
+	.box-overview-page-howto-faq, .box-overview-kimono-page{
+		width: 100%;
+	}
+	.box-overview-page-howto-faq .image, .box-overview-kimono-page .image{
+		width: 48.958333%;
+	}
+	.box-overview-page-howto-faq .info, .box-overview-kimono-page .info{
+		width: 51.0016%;
+	}
+	.access-page .child-page .google_map p.access-map{
+		width: 100% !important;
+	}
+	.access-page .box-overview-page-howto-faq .info .wrap h2{
+		font-size: 28px;
+	}
+	body.en .access-page .box-overview-page-howto-faq .info .wrap h2,
+	body.vi .access-page .box-overview-page-howto-faq .info .wrap h2{
+		font-size: 24px;
+	}
+	body.ru .access-page .box-overview-page-howto-faq .info .wrap h2{
+		font-size:26px;
+	}
+	body.vi .access-page .child-page .page-item.ninenzaka h2{
+		margin-top: 20px;
+	}
+	.access-child-page .youtube div{
+		margin-left: 0;
+	}
+	body.ru .box-overview-page-howto-faq .info p,
+	body.ru .box-overview-kimono-page .info p{
+		font-size:12px;
+	}
+
+	/* .distance-time */
+	.access-child-page ul.distance-time li label,
+	.access-child-page ul.distance-time li span{
+		width: 50%;
+		font-size: 18px;
+		height: 60px;
+		line-height: 60px;
+		border-radius: 10px;
+	}
+	.access-child-page ul.distance-time li span{
+		border-width: 6px;
+		line-height: 48px;
+	}
+
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	.osaka-kimono .page-item{
+		margin-right: 2%!important;
+	}
+	.osaka-kimono .clearfix{
+		clear:both;
+	}
+	.osaka-kimono .osaka-map{
+		width: 100%!important;
+		margin-right: 0!important;
+	}
+	.osaka-kimono span.region-title{
+		font-size: 20px;
+	}
+	.access-page .child-page .page-item{
+		min-height: auto;
+	}
+	/* Access Page Tona*/
+	.access-page{
+		/*margin-bottom: 20px;*/
+	}
+	body.ko .access-page .box-overview-page-howto-faq .info .wrap h2{
+		font-size:27px;
+	}
+	.layout-kimono-sp .box-overview-page-howto-faq{
+		margin: 0;
+	}
+	.box-overview-page-howto-faq, .box-overview-kimono-page{
+		width: 100%;
+		height: auto;
+	}
+	.access-page div.child-page div.page-item{
+		width: 100%;
+		float: none;
+		box-sizing: border-box;
+		margin-right: 0;
+		padding: 7px 0;
+		background: #fff;
+	}
+	.access-child-page .page-excerpt{
+		width: 100%;
+	}
+	div.box-overview-page-howto-faq{
+		background: #fff;
+	}
+	body.vi .access-child-page .shop-page-title .page-title{
+		line-height: 1;
+	}
+	.access-child-page h2.blog{
+		font-size: 30px;
+		line-height: 45px;
+		background-size: 40px;
+		height: 45px;
+		padding-left: 50px;
+		background-position: 6px -3597px;
+	}
+	.access-page div.child-page div.page-item div.featured-post a img {
+		width: 100%;
+		height: auto;
+	}
+	.box-overview-page-howto-faq .image, .box-overview-kimono-page .image{
+		width: 100%;
+		height: auto;
+	}
+
+	.box-overview-page-howto-faq .image img, .box-overview-kimono-page .image img{
+		width: 100%;
+		height: auto;
+	}
+	.box-overview-page-howto-faq .info, .box-overview-kimono-page .info{
+		width: 100%;
+		height: auto;
+		margin-bottom: 12px;
+		background: #f1ebf0;
+	}
+	.layout-kimono-sp .box-overview-page-howto-faq .info .wrap{
+		padding: 7px;
+		box-sizing: border-box;
+	}
+	.access-page .content-column-page .wrap {
+		margin-bottom: 0;
+	}
+
+	.access-page div.google_map #access-map {
+		width: 100% !important;
+		height: 300px !important;
+	}
+	.access-child-page h3{
+		font-size: 20px;
+	}
+	.access-child-page .shop-page-title{
+		margin-top: 0;
+	}
+	.access-child-page .shop-page-title div.left {
+		width: 68%;
+		overflow: hidden;
+	}
+	.access-child-page .shop-page-title div.right{
+		margin-top: 12px;
+	}
+	.access-child-page .shop-page-title.kyotostation div.list-icon-shop {
+		margin-top: 34px;
+	}
+	body.vi .access-child-page .shop-page-title.kyotostation div.list-icon-shop,
+	body.en .access-child-page .shop-page-title.kyotostation div.list-icon-shop {
+		margin-top: 54px;
+	}
+
+	.access-child-page div.page-excerpt.forpc{
+		display: none;
+	}
+	.access-child-page div.page-excerpt.forsp {
+		margin-top: 20px;
+		width: 100%;
+		display: inline-block;
+		line-height: 1.5;
+		font-size: 15px;
+	}
+	.access-child-page .shop-buttons div a{
+		height: auto;
+	}
+	body.ru .access-child-page .shop-buttons div a{
+		height: 130px;
+	}
+	.access-child-page .shop-buttons div span{
+		margin: 0 auto;
+		float:none;
+	}
+	.access-child-page .shop-buttons div span:not(.icon){
+		padding: 10px 5px;
+		text-align: center;
+		line-height: 1;
+	}
+	.access-child-page .shop-list .slide-images .list-image ul{
+		width: 100%;
+	}
+	.access-child-page .shop-list .slide-images .list-image ul li{
+		margin-bottom: 5px;
+	}
+	.access-child-page .shop-list .slide-images .list-image{
+		width: 100%!important;
+		box-sizing: border-box;
+		padding-left: 0;
+	}
+
+	.access-child-page .shop-detail{
+		width: 100%;
+		box-sizing: border-box;
+		border: 1px solid #000;
+	}
+	.access-child-page .shop-detail .title {
+		width: 100%;
+	}
+	.access-child-page .shop-detail .shop-detail-3{
+		width: 100%;
+	}
+	.access-child-page h2 {
+		font-size: 30px;
+		line-height: 45px;
+		height: 45px;
+		padding-left: 35px;
+		background-size: 200px;
+	}
+	.access-child-page h2 span.icon-user{
+		height: 40px;
+		width: 34px;
+		background-position: 2px -82px;
+		background-size: 200px;
+	}
+	.access-child-page .youtube div {
+		float: left;
+		width: 100%;
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+	.access-child-page .image figure:first-child,
+	.access-child-page .youtube div:first-child {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.access-child-page .shop-instruction .instruction{
+		float: left!important;
+		width: 100%!important;
+		padding: 0 7px;
+		box-sizing: border-box;
+	}
+	.access-child-page .shop-instruction .map {
+		width: 100%;
+		height: 400px !important;
+		margin-top: 8px;
+		box-sizing: border-box;
+		border: 0;
+		margin: 0;
+	}
+	.access-child-page .google_map_see_inside {
+		height: 200px;
+		border: 0;
+		margin-bottom: 15px;
+	}
+	div.access-child-page div.blog-shop{
+		width: 100%;
+		box-sizing: border-box;
+	}
+	.access-child-page .blog-shop .post-item{
+		width: 49%;
+	}
+	.access-child-page .blog-shop .post-item:nth-child(2n+1){
+		margin-left: 0;
+	}
+	div.access-child-page div.blog-shop div.post-item div.featured-post{
+		width: 100%;
+		height: auto;
+	}
+	div.access-child-page div.blog-shop div.post-item div.featured-post a img{
+		width: 100%;
+		height: auto;
+	}
+	div.container div.access-child-page .blog-shop .post-item h3{
+		padding-bottom: 15px;
+		height: 42px;
+	}
+	.access-child-page div.shop-detail img{
+		width: 100%;
+		height: auto;
+	}
+	.access-child-page .blog-shop .post-item h3 a {
+		font-size: 13px;
+		line-height: 1;
+	}
+	body.en .access-child-page .shop-detail .title,
+	body.vi .access-child-page .shop-detail .title {
+		width: 100%;
+		font-size: 20px;
+	}
+	body.en .access-child-page .shop-detail .shop-detail-3 ,
+	body.vi .access-child-page .shop-detail .shop-detail-3 {
+		width: 100%;
+	}
+	body.en .access-child-page .shop-buttons div span:not(.icon),
+	body.vi .access-child-page .shop-buttons div span:not(.icon){
+		font-size: 12px;
+	}
+	body.en .access-child-page .shop-buttons .reserve .icon,
+	body.vi .access-child-page .shop-buttons .reserve .icon{
+		/*background-position: 0 -579px;*/
+	}
+	body.en .access-child-page .shop-buttons div,
+	body.vi .access-child-page .shop-buttons div{
+		height: 110px;
+	}
+	.access-child-page .shop-instruction .instruction p.title.inadmark {
+		background-position: 0px -1737px;
+		background-size: 18px;
+	}
+	body.page-slug-access .footer-region {
+		padding: 0 !important;
+	}
+
+	/* customize instruction shop slide show */
+	.instruction-shop .flexslider .flex-direction-nav a{
+		width: 30px;
+		height: 30px;
+		z-index: 2;
+	}
+	.instruction-shop .flexslider .flex-direction-nav a:before{
+		font-size: 25px;
+	}
+	.instruction-shop .flex-caption .caption-slide{
+		width: 10%;
+		margin-right: 3%;
+	}
+	.instruction-shop .flex-caption .caption-slide span.item{
+		font-size: 25px;
+		padding-left: 0;
+	}
+	.instruction-shop .flex-caption .caption-slide span.total-item{
+		font-size: 12px;
+		right: 0;
+		bottom: 0;
+		top: initial;
+		left: initial;
+	}
+	.instruction-shop .flex-caption .name{
+		width: 87%;
+		font-size:12px;
+		padding: 5px;
+		min-height: inherit;
+	}
+	.tool{
+		justify-content: center;
+		width: 100%;
+		margin: 10px 0;
+		top: 0;
+		right: inherit;
+	}
+	#carousel{
+		margin-right: 0;
+	}
+	/* End customize instruction shop slide show */
+
+	/* .distance-time */
+	.access-child-page ul.distance-time li label,
+	.access-child-page ul.distance-time li span{
+		width: 50%;
+		font-size: 13px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 5px;
+	}
+	.access-child-page ul.distance-time li span{
+		border-width: 3px;
+		line-height: 34px;
+	}
+	.instruction_full_width ul li{
+		width: 100% !important;
+		float: none;
+		margin-bottom: 10px;
+	}
+	.instruction_full_width ul li:last-child{
+		margin-bottom: 0;
+	}
+	.access-child-page .topics .two-columns{
+		margin-bottom: 10px;
+	}
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	.access-child-page .shop-page-title div.left {
+		width: 100%;
+	}
+	.access-page div.child-page div.page-item{
+		width: 49%;
+		min-height: 480px;
+	}
+	body.ko .access-page div.child-page div.page-item{
+		min-height: 490px;
+	}
+	.access-page .child-page .page-item.gion-shijo h2, .access-page .child-page .page-item.kinkakuji h2{
+		height: auto;
+	}
+	body.en .access-page .child-page .page-item.gion-shijo h2,body.en .access-page .child-page .page-item.kinkakuji h2{
+		height: auto;
+	}
+	body.vi .access-page .child-page .page-item.gion-shijo h2,body.vi .access-page .child-page .page-item.kinkakuji h2{
+		height: auto;
+	}
+	.access-page .child-page .page-item.gion-shijo h2{
+		margin-top: 19px;
+	}
+	.access-page .child-page .page-item.gion-shijo h2 a, .access-page .child-page .page-item.kinkakuji h2 a{
+		margin-bottom: 13px;
+		position: static;
+	}
+	.access-page .child-page .kinkakuji .featured-post{
+		margin-top: 7px;
+	}
+	.access-page div.child-page div.shinkyogoku, .access-page div.child-page div.ninenzaka,
+	.access-page div.child-page div.kyotostation{
+		float:left;
+	}
+	.access-page div.child-page div.kiyomizuzaka, .access-page div.child-page div.kinkakuji,
+	.access-page div.child-page div.gion-shijo{
+		float:right;
+	}
+	body.en .access-child-page.osaka-shinsaibashi .shop-page-title .page-title,
+	body.vi .access-child-page.osaka-shinsaibashi .shop-page-title .page-title,
+	.access-child-page .shop-page-title .page-title {
+		font-size: 20px;
+		padding-top: 4px;
+		line-height: 1;
+	}
+
+	.access-child-page .shop-page-title.kyotostation .shop-name-en {
+		font-size: 12px;
+		line-height: 13px;
+	}
+	.access-child-page .shop-page-title .shop-name-en {
+		font-size: 15px;
+		line-height: 1;
+	}
+	.access-child-page .shop-page-title.kyotostation div.list-icon-shop {
+		margin-top: 20px;
+	}
+	.access-child-page .shop-page-title div.list-icon-shop{
+		margin-top: 0;
+	}
+	.access-child-page .shop-buttons div span:not(.icon) {
+		font-size: 15px;
+		line-height: 1.5;
+		padding: 5px;
+	}
+	.access-child-page .shop-icon .shop-name-en {
+		bottom: 24px;
+	}
+	.access-child-page .shop-page-title div.list-icon-shop {
+		margin-top: 0;
+	}
+	body.en .access-child-page .shop-page-title.kyotostation div.list-icon-shop,
+	body.vi .access-child-page .shop-page-title.kyotostation div.list-icon-shop,
+	.access-child-page .shop-page-title.kyotostation div.list-icon-shop {
+		margin-top: 20px;
+	}
+	.access-child-page .page-excerpt{
+		font-size: 14px;
+	}
+	.access-child-page .shop-detail .shop-detail-3 {
+		font-size: 15px;
+	}
+	.access-child-page .shop-buttons span.icon {
+		width: 50px;
+		height: 55px;
+		background-size: 40px;
+	}
+	.access-child-page .shop-buttons .plan .icon {
+		background-position: 20px -885px;
+	}
+	.access-child-page .shop-buttons div span:not(.icon){
+		font-size: 13px;
+	}
+	body.ko .access-child-page .shop-buttons div span:not(.icon){
+		font-size:10px;
+	}
+	.access-child-page .shop-buttons .reserve .icon {
+		background-position: 15px -3470px;
+	}
+	body.en .access-child-page .shop-buttons .reserve .icon,
+	body.vi .access-child-page .shop-buttons .reserve .icon,
+	body.ko .access-child-page .shop-buttons .reserve .icon,
+	body.ru .access-child-page .shop-buttons .reserve .icon{
+		background-position: 15px -3526px;
+	}
+	body.en .access-child-page .shop-buttons div,
+	body.vi .access-child-page .shop-buttons div{
+		height: 100px;
+	}
+	.access-child-page .shop-buttons .blog .icon {
+		background-position: 15px -3588px;
+	}
+	.access-child-page div.page-excerpt{
+		width: 100%;
+	}
+	.access-child-page .shop-list{
+		margin-right: 0 !important;
+		width: 100%;
+	}
+	.access-child-page .shop-list .slide-images .main-image{
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	.access-child-page .shop-list .slide-images img,
+	.access-child-page .shop-list .slide-images .list-image ul li img{
+		width: 100% !important;
+		height: auto !important;
+	}
+	.access-child-page .shop-instruction .instruction {
+		padding: 0 !important;
+	}
+	.access-child-page .blog-shop .post-item{
+		width: 49%;
+	}
+	.access-child-page .blog-shop .post-item:nth-child(2n+1){
+		margin-left: 0;
+	}
+	.access-child-page .blog-shop .post-item h3 a{
+		font-size: 15px;
+	}
+	div.container div.access-child-page .blog-shop .post-item h3 {
+		padding-bottom: 15px;
+		height: 62px;
+	}
+}
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px){
+	.access-child-page .shop-page-title .page-title{
+		font-size: 30px;
+	}
+	body.en .access-child-page .shop-page-title .page-title{
+		font-size: 28px;
+	}
+	body.en .access-child-page.osaka-shinsaibashi .shop-page-title .page-title,
+	body.vi .access-child-page.osaka-shinsaibashi .shop-page-title .page-title {
+		font-size: 22px;
+	}
+	body.vi .access-child-page .shop-page-title .page-title{
+		font-size: 25px;
+	}
+	.access-child-page .shop-icon .shop-name-en{
+		font-size: 15px;
+	}
+
+	.access-child-page .shop-page-title div.right{
+		margin-top: 0;
+	}
+	.access-child-page div.page-excerpt.forsp{
+		line-height: 25px;
+		font-size: 14px;
+		text-align: justify;
+	}
+	.access-child-page .shop-detail .title{
+		font-size: 20px;
+		line-height: 1.5;
+	}
+	.access-child-page .shop-detail .shop-detail-3{
+		font-size: 13px;
+	}
+	.access-child-page .shop-instruction .instruction p.title{
+		font-size: 15px;
+	}
+	body.en .access-child-page .shop-buttons div, body.vi .access-child-page .shop-buttons div {
+		height: 130px;
+	}
+	.access-child-page h2{
+		font-size: 20px;
+		height: 40px;
+	}
+	body.vi .access-child-page .shop-page-title.kyotostation div.list-icon-shop,
+	body.en .access-child-page .shop-page-title.kyotostation div.list-icon-shop,
+	.access-child-page .shop-page-title.kyotostation div.list-icon-shop{
+		margin-top: 0;
+	}
+	.access-child-page .shop-page-title div.left {
+		position: relative;
+		width: 100%;
+	}
+	.access-child-page .shop-buttons  div span:not(.icon){
+		font-size: 13px;
+		line-height: 1.5;
+		padding: 5px;
+	}
+	body.ko .access-child-page .shop-buttons div span:not(.icon){
+		font-size:6px;
+	}
+	.access-child-page .blog-shop .post-item {
+		width: 100%;
+		margin-left: 0;
+	}
+	div.container div.access-child-page .blog-shop .post-item h3{
+		height: auto;
+	}
+	.access-child-page.osaka-shinsaibashi .shop-icon .shop-name-en{
+		font-size: 11px;
+		line-height: 1;
+	}
+	body.ru .access-child-page .shop-buttons div span:not(.icon){
+		font-size:11px;
+	}
+	body.ru .box-overview-page-howto-faq .info h1,
+	body.ru .box-overview-kimono-page .info h1{
+		font-size:18px;
+	}
+	body.ru .access-page .box-overview-page-howto-faq .info .wrap h2{
+		font-size:21px;
+	}
+}
+@media (max-width: 399px){
+	.access-child-page .shop-page-title .icon-shop {
+		height: 35px;
+		width: 17px;
+		background-position: 0 -35px;
+		background-size: 200px auto;
+	}
+	.access-child-page .shop-page-title .icon-shop.shinkyogoku {
+		width: 25px;
+		background-position: -24px -35px;
+	}
+	.access-child-page .shop-page-title .icon-shop.shinkyogoku:hover,
+	.access-child-page .shop-page-title .icon-shop.shinkyogoku.active {
+		background-position: -25px 0;
+	}
+	.access-child-page .shop-page-title .icon-shop.kiyomizuzaka {
+		width: 30px;
+		background-position: -55px -35px;
+	}
+	.access-child-page .shop-page-title .icon-shop.kiyomizuzaka:hover,
+	.access-child-page .shop-page-title .icon-shop.kiyomizuzaka.active {
+		background-position: -55px 0;
+	}
+	.access-child-page .shop-page-title .icon-shop.ninenzaka {
+		width: 20px;
+		background-position: -125px -35px;
+	}
+	.access-child-page .shop-page-title .icon-shop.ninenzaka:hover,
+	.access-child-page .shop-page-title .icon-shop.ninenzaka.active {
+		background-position: -125px 0;
+	}
+	.access-child-page .shop-page-title .icon-shop.kinkakuji {
+		width: 35px;
+		background-position: -88px -35px;
+	}
+	.access-child-page .shop-page-title .icon-shop.kinkakuji:hover,
+	.access-child-page .shop-page-title .icon-shop.kinkakuji.active {
+		background-position: -88px 0;
+	}
+	.access-child-page .shop-icon .icon-shop.kamakura {
+		width: 36px;
+		background-position: -147px -185px;
+	}
+	.access-child-page .shop-icon .icon-shop.kamakura:hover,
+	.access-child-page .shop-icon .icon-shop.kamakura.active {
+		background-position: -85px -185px;
+	}
+	.access-child-page .shop-icon .icon-shop.gion-shijo {
+		width: 18px;
+		background-position: -41px -185px;
+	}
+	.access-child-page .shop-icon .icon-shop.gion-shijo:hover,
+	.access-child-page .shop-icon .icon-shop.gion-shijo.active {
+		background-position: 0 -185px;
+	}
+	.access-child-page .shop-icon .icon-shop.osaka-shinsaibashi {
+		width: 38px;
+		background-position: -34px -81px;
+	}
+	.access-child-page .shop-icon .icon-shop.osaka-shinsaibashi:hover,
+	.access-child-page .shop-icon .icon-shop.osaka-shinsaibashi.active {
+		background-position: -79px -79px;
+	}
+	.access-child-page .shop-icon .icon-shop.asakusa {
+		width: 38px;
+		height: 35px;
+		background-position: -119px -87px;
+	}
+	.access-child-page .shop-icon .icon-shop.asakusa:hover,
+	.access-child-page .shop-icon .icon-shop.asakusa.active {
+		background-position: -159px -87px;
+	}
+}
+
+@media (max-width: 320px) {
+	.access-child-page .topics .two-columns{
+		margin-bottom: 0;
+	}
+	.access-child-page .topics .two-columns li,
+	.access-child-page .topics .two-columns li:first-child,
+	.access-child-page .topics .three-columns li,
+	.access-child-page .topics .three-columns li:first-child{
+		width: 100%;
+		margin-bottom:5px;
+		margin-left: 0;
+	}
+}

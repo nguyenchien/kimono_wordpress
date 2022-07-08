@@ -1,0 +1,106 @@
+.wrap-spots-shop-fm-v2.asakusa ul.list-content-spots .item-content-spots .text-content-spots .title-text{
+    font-size: 16px;
+    font-weight: bold;
+}
+.wrap-google-map-fm-v2 .list-option-new-other .items-option-detail-new .items-text-detail-new{
+    font-size: 11px;
+}
+.osaka-shinsaibashi-opa .notes-bottom,
+.notes-bottom,
+.osaka-shinsaibashi-opa .including-info p,
+.including-info p{
+    font-size: 11px;
+}
+.list-step-date .note-date:after{
+    right: -5px;
+}
+.list-step-date .note-date:before{
+    left: 5px;
+}
+.osaka-shinsaibashi-opa .osaka-bg-blue{
+    font-size: 14px;
+}
+.osaka-shinsaibashi-opa .btn-v2 .text-link,
+.plan-info .wrap-btn a{
+    font-size: 16px;
+}
+.osaka-shinsaibashi-opa .wrap-shop-intro .intro-title,
+.osaka-shinsaibashi-opa .wrap-top-plan-circle-fm-v2.asakusa .wrap-text-scene-above{
+    font-size: 18px;
+}
+.osaka-shinsaibashi-opa .wrap-title-v2 .lbl-title{
+    font-size: 20px;
+}
+.plan-desc,
+.list-access-shop .des-access-shop .text-access-shop{
+    font-size: 13px;
+}
+.section-topics .list-sec-banner-general .item-sec-banner .link-page-banner img{
+    margin-bottom: 5px;
+}
+.section-topics .list-sec-banner-general .item-sec-banner{
+    margin-bottom: 20px;
+}
+.kurashiki .box-intro-bottom .title-intro-bottom{
+    font-size: 14px;
+}
+.kurashiki.okinawa-noha .box-intro-bottom .title-intro-bottom{
+    font-size: 16px;
+}
+.wrap-blog-shop-fm-v2 .sub-item-info .name{
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+/*sendai-parco2*/
+.wrap-spots-shop-fm-v2.sendai-parco2 .title-big-spots {
+    font-size: 22px;
+}
+    /*kurashiki*/
+.wrap-spots-shop-fm-v2.kurashiki .title-big-spots {
+    font-size: 18px
+}
+.kurashiki .list-option-detail-new-machi .text-link {
+    font-size: 11px;
+}
+/*===kamakura===*/
+.kamakura .plan-img .plan-name{
+    font-size: 20px;
+}
+.kamakura .plan-img .detail-plan {
+    font-size: 14px;
+}
+.kamakura .notes-bottom{
+    font-size: 10px;
+}
+.kurashiki .list-option-detail-new-machi .text-link {
+    font-size: 11px;
+}
+.kamakura .plan-desc {
+    font-size: 12px;
+}
+.kamakura .item-reason.active .text-orange-kamakura.price {
+    color: #ffffff;
+}
+/*kanazawa*/
+.kanazawa .wrap-spots-shop-fm-v2.asakusa .title-big-spots {
+    font-size: 14px;
+}
+.kanazawa .wrap-shop-intro .intro-title {
+    font-size: 20px;
+}
+.kanazawa .wrap-top-plan-circle-fm-v2.kanazawa .wrap-scene-btn a {
+    background-position: 0 28px;
+}
+.kanazawa .wrap-google-map-fm-v2 .list-option-new-other .items-option-detail-new .items-text-detail-new {
+    font-size: 9px;
+}
+
+/*dazaifu*/
+.content-reason .including-bottom a{
+    letter-spacing: 0;
+}
+.new-access-child-page.dazaifu .list-option-new-shop-second .items-text-detail-new{
+    padding: 4px 12px 4px 12px;
+}

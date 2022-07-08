@@ -1,0 +1,119 @@
+.wrap-media .title{
+	height: 50px;
+	line-height: 55px;
+	background-color: #733d6d;
+	background-image: url(/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png);
+	background-position: -153px -581px;
+	background-repeat: no-repeat;
+	padding: 0 7px 0 58px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+.wrap-media .title span{
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+}
+.wrap-media .title span.ja{
+	font-size: 15px;
+	margin-left: 3px;
+}
+.wrap-media .media-list{
+	padding: 0 7px;
+	box-sizing: border-box;
+}
+.wrap-media .media-list ul li{
+	border-bottom: 1px solid #e6e6e6;
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+}
+.wrap-media .media-list ul li:last-child{
+	border-bottom: none;
+	padding-bottom: 0;
+	margin-bottom: 30px;
+}
+.wrap-media .media-list ul li h3{
+	color: #000;
+	font-size: 26px;
+	font-weight: bold;
+	line-height: 1.2;
+	margin-bottom: 5px;
+}
+.wrap-media .media-list ul li h3 br{
+	display: none;
+}
+.wrap-media .media-list ul li h3 span{
+	display: block;
+	font-size: 16px;
+	font-weight: normal;
+	color: #898989;
+}
+.wrap-media .media-list .info > div{
+	display: block;
+	width: 100%;
+}
+.wrap-media .media-list .info > div img{
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+.wrap-media .media-list .info p{
+	color: #595757;
+	font-size: 14px;
+}
+.wrap-media .media-list .info p a{
+	color: #036EB8;
+}
+.wrap-media .media-list .info .left{
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.wrap-media .media-list .image-feat img{
+	width: 118px;
+	height: 166px;
+	float: left;
+	margin-right: 10px;
+}
+.wrap-media .media-list .image-content img{
+	width: 100%;
+}
+
+@media (min-width: 750px) {
+	.wrap-media .media-list{
+		padding: 0;
+	}
+	.wrap-media .media-list ul li h3{
+		font-size: 28px;
+		margin-bottom: 10px;
+	}
+	.wrap-media .media-list ul li h3 span{
+		font-size: 18px;
+	}
+	.wrap-media .media-list .info .left{
+		width: 580px;
+		float: left;
+	}
+	.wrap-media .media-list .image-feat img{
+		width: 186px;
+		height: 263px;
+	}
+	.wrap-media .media-list .info .right{
+		width: 370px;
+		float: right;
+	}
+	.wrap-media .media-list .image-content img{
+		width: 370px;
+		height: 263px;
+	}
+	.wrap-media .media-list .info p{
+		font-size: 15px;
+	}
+}
+
+@media (min-width : 768px) and (max-width : 959px){
+	.wrap-media .media-list .info .left{
+		width: 69.5%;
+	}
+	.wrap-media .media-list .info .right{
+		width: 29.5%;
+	}
+}

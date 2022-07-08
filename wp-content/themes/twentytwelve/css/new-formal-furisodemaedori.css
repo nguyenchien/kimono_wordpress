@@ -1,0 +1,95 @@
+.right-column-fm-furisodemaedori .wrap-banner-fm-maedori {
+    margin-bottom: 0px;
+}
+.right-column-fm-furisodemaedori .box-article-fm-maedori .sub-title.line{
+    border-bottom: 1px solid #7A7A7B;
+    padding-bottom: 10px;
+    margin: 0 10px 10px;
+}
+.women{
+    text-align: center;
+}
+.text-r-color{
+    color: #C1272D;
+    font-weight: bold;
+}
+.right-column-fm-furisodemaedori .box-article-fm-maedori .text-large-available {
+    margin-bottom: 7px;
+}
+.right-column-fm-furisodemaedori .box-faqs-item .text-faqs-title{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+@media (max-width: 767px){
+    .right-column-fm-furisodemaedori .list-available .item-vailable:last-child{
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+@media(min-width: 750px){
+    .right-column-fm-furisodemaedori .wrap-banner-fm-maedori {
+        margin-bottom: 30px;
+    }
+    .wrap-furisode-women{
+        position: relative;
+    }
+    .wrap-furisode-women .women{
+        position: absolute;
+        right: 40px;
+        top: -5%;
+        z-index: 1;
+    }
+    .right-column-fm-furisodemaedori .box-article-fm-maedori .pic-icon img {
+        margin-bottom: 100px;
+        width: 90%;
+    }
+    .right-column-fm-furisodemaedori .box-article-fm-maedori .reserve-list{
+        padding: 20px 0;
+    }
+    .right-column-fm-furisodemaedori .list-available .item-vailable {
+        width: calc(100% * (1/3) - 15px);
+    }
+    .right-column-fm-furisodemaedori .list-available .item-vailable div.first{
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        width: inherit;
+        padding: 10px;
+        font-size: 16px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .right-column-fm-furisodemaedori .list-available .item-vailable div.text-second{
+        font-size: 14px;
+    }
+    .right-column-fm-furisodemaedori .wrap-info-phone-number {
+        width: 820px;
+    }
+    .right-column-fm-furisodemaedori .title-wrap-phone-number {
+        font-size: 20px;
+    }
+    .right-column-fm-furisodemaedori .image-phone-number {
+        margin-right: 3%;
+    }
+    .right-column-fm-furisodemaedori .image-phone-number img{
+        width: 130px;
+    }
+    .right-column-fm-furisodemaedori .wrap-phone-number {
+        width: 75%;
+        padding-bottom: 10px;
+    }
+    .right-column-fm-furisodemaedori .box-article-fm-maedori .icon-phone-number {
+        font-size: 40px;
+    }
+    .right-column-fm-furisodemaedori .text-phone-number {
+        font-size: 27px;
+    }
+    .right-column-fm-furisodemaedori .box-article-fm-maedori .icon-phone-number{
+        letter-spacing: 15px !important;
+    }
+}

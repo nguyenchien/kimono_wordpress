@@ -1,0 +1,27 @@
+/* .wrap-group-cate-for-post */
+.wrap-group-cate-for-post .title-right-sidebar a{
+    font-size: 16px;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+/*.wrap-group-cate-for-post .title-right-sidebar span:before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    margin-right: 5px;
+}*/
+.wrap-group-cate-for-post .container-rsb{
+    padding-left: 0;
+}
+.wrap-group-cate-for-post .archive-child-list{
+    margin-left: 25px;
+}
+
+/* .wrap-group-cate-list-pages */
+.wrap-group-cate-list-pages .blog_link_item_full{
+    width: 100%;
+    box-sizing: border-box;
+}

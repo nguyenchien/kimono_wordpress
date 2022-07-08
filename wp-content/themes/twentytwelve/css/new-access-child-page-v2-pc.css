@@ -1,0 +1,4573 @@
+/*wrap-top-plan-circle-fm-v2*/
+.wrap-top-plan-circle-fm-v2.asakusa .wrap-text-scene-above .text-left{
+    margin-right: 30px;
+}
+.wrap-top-plan-circle-fm-v2.asakusa .list-scene-v2 .item-scene-v2.color-circle-01 .out-circle,
+.wrap-top-plan-circle-fm-v2.asakusa .item-scene-v2.color-circle-01 .inside-circle,
+.wrap-top-plan-circle-fm-v2.asakusa .list-scene-v2 .item-scene-v2.color-circle-01 .num-circle{
+    border-color: #F29544;
+    color: #F29544;
+}
+.wrap-top-plan-circle-fm-v2.kamakura .list-scene-v2 .item-scene-v2.color-circle-01 .out-circle,
+.wrap-top-plan-circle-fm-v2.kamakura .item-scene-v2.color-circle-01 .inside-circle,
+.wrap-top-plan-circle-fm-v2.kamakura .list-scene-v2 .item-scene-v2.color-circle-01 .num-circle{
+    border-color: #c17954;
+    color: #c17954;
+}
+.wrap-top-plan-circle-fm-v2.kanazawa .list-scene-v2 .item-scene-v2.color-circle-01 .out-circle,
+.wrap-top-plan-circle-fm-v2.kanazawa .item-scene-v2.color-circle-01 .inside-circle,
+.wrap-top-plan-circle-fm-v2.kanazawa .list-scene-v2 .item-scene-v2.color-circle-01 .num-circle{
+    border-color: #f29544;
+    color: #f29544;
+}
+.wrap-top-plan-circle-fm-v2.shinjuku-station .list-scene-v2 .item-scene-v2.color-circle-01 .out-circle,
+.wrap-top-plan-circle-fm-v2.shinjuku-station .item-scene-v2.color-circle-01 .inside-circle,
+.wrap-top-plan-circle-fm-v2.shinjuku-station .list-scene-v2 .item-scene-v2.color-circle-01 .num-circle{
+    border-color: #d84d96;
+    color: #d84d96;
+}
+.wrap-top-plan-circle-fm-v2.asakusa .list-scene-v2 .item-scene-v2.color-circle-02 .out-circle,
+.wrap-top-plan-circle-fm-v2.asakusa .item-scene-v2.color-circle-02 .inside-circle,
+.wrap-top-plan-circle-fm-v2.asakusa .list-scene-v2 .item-scene-v2.color-circle-02 .num-circle{
+    border-color: #799B9B;
+    color: #799B9B;
+}
+.wrap-top-plan-circle-fm-v2.asakusa .list-scene-v2 .item-scene-v2.color-circle-03 .out-circle,
+.wrap-top-plan-circle-fm-v2.asakusa .item-scene-v2.color-circle-03 .inside-circle,
+.wrap-top-plan-circle-fm-v2.asakusa .list-scene-v2 .item-scene-v2.color-circle-03 .num-circle{
+    border-color: #B48C00;
+    color: #B48C00;
+}
+.wrap-top-plan-circle-fm-v2.kurashiki .list-scene-v2 .item-scene-v2.color-circle-03 .num-circle .custom-other{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+.wrap-top-plan-circle-fm-v2.kurashiki .list-scene-v2 .item-scene-v2.color-circle-03 .num-circle .custom-other-bottom{
+    font-size: 26px;
+    font-weight: 700;
+}
+/*wrap-google-map-fm-v2 custom kurashiki*/
+.wrap-google-map-fm-v2.kurashiki .list-option-new-shop-left,
+.wrap-google-map-fm-v2.dazaifu .list-option-new-shop-left{
+    -webkit-box-flex: 4;
+    -ms-flex: 4;
+    flex: 4;
+    margin-right: 50px;
+}
+.wrap-google-map-fm-v2.kurashiki .items-option-detail-new.items-option-detail-new-custom,
+.wrap-google-map-fm-v2.dazaifu .items-option-detail-new.items-option-detail-new-custom{
+    width: calc(100% * (1/2) - 5px);
+}
+.wrap-google-map-fm-v2.kurashiki .wrap-list-option-detail-new-1 .list-option-detail-new:first-child,
+.wrap-google-map-fm-v2.dazaifu .wrap-list-option-detail-new-1 .list-option-detail-new:first-child{
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    width: 180px;
+    margin-right: 20px;
+}
+.wrap-google-map-fm-v2.kurashiki .wrap-list-option-detail-new-1 .list-option-detail-new:last-child,
+.wrap-google-map-fm-v2.dazaifu .wrap-list-option-detail-new-1 .list-option-detail-new:last-child{
+    height: 75px;
+}
+.wrap-google-map-fm-v2.kurashiki .wrap-list-option-detail-new-1,
+.wrap-google-map-fm-v2.dazaifu .wrap-list-option-detail-new-1{
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    justify-content: left;
+}
+/*wrap-google-map-fm-v2*/
+.wrap-google-map-fm-v2.asakusa{
+    border: 1px solid #F29544;
+    background-color: #FCE5CE;
+    margin-bottom: 30px;
+}
+.wrap-google-map-fm-v2.kamakura{
+    border: 1px solid #c17954;
+    background-color: #f7dcd0;
+}
+.wrap-google-map-fm-v2.kanazawa{
+    border: none;
+    background-color: #fff5af;
+}
+.wrap-google-map-fm-v2.kurashiki{
+    border: 1px solid #336666;
+    background-color: #cce5e5;
+}
+.wrap-google-map-fm-v2.shinjuku-station{
+    border: 1px solid #d84d96;
+    background-color: #f9e8f3;
+}
+.wrap-google-map-fm-v2.asakusa .text-addess-map{
+     background-color: #F29544;
+ }
+.wrap-google-map-fm-v2.kamakura .text-addess-map{
+    background-color: #c17954;
+}
+.wrap-google-map-fm-v2.kanazawa .text-addess-map{
+    background-color: #958c12;
+}
+.wrap-google-map-fm-v2.kurashiki .text-addess-map{
+    background-color: #336666;
+}
+.wrap-google-map-fm-v2.shinjuku-station .text-addess-map{
+    background-color: #d84d96;
+}
+.wrap-google-map-fm-v2.asakusa .jusho-color{
+    color: #F29544;
+}
+.wrap-google-map-fm-v2.kamakura .jusho-color{
+    color: #c17954;
+}
+.wrap-google-map-fm-v2.kanazawa .jusho-color{
+    color: #f29444;
+}
+.wrap-google-map-fm-v2.kurashiki .jusho-color{
+    color: #336666;
+}
+.wrap-google-map-fm-v2.shinjuku-station .jusho-color{
+    color: #d84d96;
+}
+.wrap-google-map-fm-v2.okinawa-naha .jusho-color{
+    color: #FF652E;
+}
+.wrap-google-map-fm-v2.asakusa .wrap-btn-v2-map .btn-v2{
+    background-color: #B48C00;
+}
+.wrap-google-map-fm-v2.kanazawa .wrap-btn-v2-map .btn-v2{
+    background-color: #79bb9b;
+    width: 100%;
+}
+.wrap-google-map-fm-v2.kurashiki .wrap-btn-v2-map .btn-v2{
+    background-color: #336666;
+    width: 100%;
+}
+.wrap-google-map-fm-v2.asakusa .items-option-detail-new{
+     background-color: #F29544;
+ }
+.wrap-google-map-fm-v2.kamakura .items-option-detail-new{
+    background-color: #c17954;
+}
+.wrap-google-map-fm-v2.kanazawa .items-option-detail-new{
+    background-color: #958c12;
+}
+.wrap-google-map-fm-v2.kurashiki .items-option-detail-new{
+    background-color: #336666;
+}
+.wrap-google-map-fm-v2.shinjuku-station .items-option-detail-new{
+    background-color: #d84d96;
+}
+.wrap-google-map-fm-v2.asakusa .list-option-detail-new-machi-2{
+    background-color: #799B9B;
+}
+.wrap-google-map-fm-v2.kanazawa .list-option-detail-new-machi-2{
+    background-color: #79bb9b;
+}
+.wrap-google-map-fm-v2.kurashiki .list-option-detail-new-machi-2{
+    background-color: #339966;
+}
+.wrap-google-map-fm-v2.asakusa .list-option-new-shop-second .items-option-detail-new{
+    background-color: #fff;
+    border: 1px solid #F29544;
+}
+.wrap-google-map-fm-v2.kamakura .list-option-new-shop-second .items-option-detail-new{
+    border: 1px solid #c17954;
+}
+.wrap-google-map-fm-v2.kanazawa .list-option-new-shop-second .items-option-detail-new{
+    border: 1px solid #dacc4a;
+}
+.wrap-google-map-fm-v2.kurashiki .list-option-new-shop-second .items-option-detail-new{
+    border: 1px solid #336666;
+}
+.wrap-google-map-fm-v2.shinjuku-station .list-option-new-shop-second .items-option-detail-new{
+    border: 1px solid #d84d96;
+}
+.wrap-google-map-fm-v2.asakusa .list-option-new-shop-second .items-option-detail-new:first-child{
+    border: none;
+    background-color: inherit;
+}
+.wrap-google-map-fm-v2.asakusa .google-map-shop-access-new{
+    height: 250px;
+    border: 1px solid #ccc;
+}
+.list-option-new-shop-right.kanazawa .items-option-detail-new,
+.list-option-new-shop-right.kurashiki .items-option-detail-new{
+    width: calc(100% * (1/2) - 5px);
+    -webkit-box-flex: inherit;
+    -ms-flex: inherit;
+    flex: inherit;
+}
+/* BEGIN: .wrap-general-google-map-btn.asakusa */
+.wrap-general-google-map-btn.asakusa{
+    margin: 0 0 85px -20px;
+}
+.wrap-general-google-map-btn.asakusa.shinjuku-station{
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.wrap-general-google-map-btn.asakusa.kanazawa,
+.wrap-general-google-map-btn.asakusa.kurashiki{
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.wrap-general-google-map-btn.asakusa .wrap-item{
+    width: 50%;
+}
+.wrap-general-google-map-btn.asakusa .wrap-item .btn-v2{
+    width: 100%;
+}
+.wrap-general-google-map-btn.asakusa .wrap-buttons{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 35px 30px 0 0;
+}
+.wrap-general-google-map-btn.asakusa .wrap-btn-v2,
+.wrap-general-google-map-btn.asakusa .wrap-link-btn{
+    margin-bottom: 0;
+}
+.wrap-general-google-map-btn.asakusa.kanazawa .wrap-btn-v2 {
+    margin-top: 30px;
+}
+
+.wrap-general-google-map-btn.asakusa.shinjuku-station .wrap-btn-v2,
+.wrap-general-google-map-btn.asakusa.kurashiki .wrap-btn-v2{
+    margin-bottom: 30px;
+}
+.wrap-general-google-map-btn.asakusa .box-link-btn{
+    width: 100%;
+}
+.wrap-general-google-map-btn.asakusa .wrap-link-btn .box-link-btn .link-to-btn{
+    border-bottom: 1px solid #b48c00;
+    line-height: 1;
+    font-size: 22px;
+    padding: 0 10px 10px 0;
+    position: relative;
+    color: #b48c00;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    letter-spacing: 2px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.wrap-general-google-map-btn.asakusa .wrap-link-btn .box-link-btn .link-to-btn:after{
+    position: absolute;
+    right: 0;
+    content: '';
+    width: 10px;
+    height: 1px;
+    background-color: #b48c00;
+    -webkit-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    transform: rotate(40deg);
+}
+.wrap-general-google-map-btn.asakusa .wrap-link-btn .box-link-btn .link-to-btn .read-more-link{
+    font-size: 14px;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+.wrap-general-google-map-btn.asakusa .wrap-link-btn .box-link-btn .link-to-btn .link-name{
+    font-weight: bold;
+}
+.wrap-general-google-map-btn.asakusa .text-banner{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+/* END: .wrap-general-google-map-btn.asakusa */
+
+/*Banner Photo Session*/
+.section-banner-photo-session.asakusa .wrap-title-v2{
+    margin-bottom: 36px;
+}
+.section-banner-photo-session.asakusa .wrap-banner-photo-session .box-photo-sesstion{
+    padding: 0;
+}
+.box-photo-sesstion .banner-photo-session{
+    margin-bottom: 30px;
+}
+.box-photo-sesstion .des-photo-session{
+    margin-bottom: 100px;
+    line-height: 1.8;
+    font-size: 18px;
+}
+.section-banner-photo-session.asakusa .des-photo-session p{
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+.item-ginza-store .text-price-store{
+    text-decoration: underline;
+    line-height: 1.4;
+    font-size: 18px;
+}
+/*wrap-products-shop-store*/
+.wrap-products-shop-store.asakusa .list-ginza-store .item-ginza-store .info .group-price-store{
+    color: #b48c00;
+}
+.wrap-products-shop-store.asakusa .more-list-ginza .more-info {
+    background-color: #F29544;
+}
+.wrap-products-shop-store.kamakura .more-list-ginza .more-info {
+    background-color: #c17954;
+}
+.wrap-products-shop-store.kanazawa .more-list-ginza .more-info {
+    background-color: #958c12;
+}
+.wrap-products-shop-store.kurashiki .more-list-ginza .more-info {
+    background-color: #336666;
+}
+.wrap-products-shop-store.shinjuku-station .more-list-ginza .more-info {
+    background-color: #d84d96;
+}
+/*Shop Spots*/
+.wrap-spots-shop-fm-v2.asakusa.asakusa{
+    background: -webkit-repeating-linear-gradient(210deg, #fbd7b4,
+    #fbd7b4 5px,
+    #fcdfc3 5px,
+    #fcdfc3 10px
+    );
+    background: -o-repeating-linear-gradient(210deg, #fbd7b4,
+    #fbd7b4 5px,
+    #fcdfc3 5px,
+    #fcdfc3 10px
+    );
+    background: repeating-linear-gradient(-120deg, #fbd7b4,
+    #fbd7b4 5px,
+    #fcdfc3 5px,
+    #fcdfc3 10px
+    );
+    margin-bottom: 90px;
+}
+.wrap-spots-shop-fm-v2.asakusa.kamakura{
+    background: -webkit-repeating-linear-gradient(210deg, #f7dcd0,
+    #f7dcd0 5px,
+    #f5e4da 5px,
+    #f5e4da 10px
+    );
+    background: -o-repeating-linear-gradient(210deg, #f7dcd0,
+    #f7dcd0 5px,
+    #f5e4da 5px,
+    #f5e4da 10px
+    );
+    background: repeating-linear-gradient(-120deg, #f7dcd0,
+    #f7dcd0 5px,
+    #f5e4da 5px,
+    #f5e4da 10px
+    );
+    margin-bottom: 90px;
+}
+.wrap-spots-shop-fm-v2.asakusa.kanazawa{
+    background: -webkit-repeating-linear-gradient(210deg, #fff5af,
+    #fff5af 5px,
+    #fff7bf 5px,
+    #fff7bf 10px
+    );
+    background: -o-repeating-linear-gradient(210deg, #fff5af,
+    #fff5af 5px,
+    #fff7bf 5px,
+    #fff7bf 10px
+    );
+    background: repeating-linear-gradient(-120deg, #fff5af,
+    #fff5af 5px,
+    #fff7bf 5px,
+    #fff7bf 10px
+    );
+    margin-bottom: 90px;
+    border: 1px solid #958c12;
+}
+.wrap-spots-shop-fm-v2.asakusa.kurashiki{
+    background: -webkit-repeating-linear-gradient(210deg, #99cccc,
+    #99cccc 5px,
+    #add6d6 5px,
+    #add6d6 10px
+    );
+    background: -o-repeating-linear-gradient(210deg, #99cccc,
+    #99cccc 5px,
+    #add6d6 5px,
+    #add6d6 10px
+    );
+    background: repeating-linear-gradient(-120deg, #99cccc,
+    #99cccc 5px,
+    #add6d6 5px,
+    #add6d6 10px
+    );
+    margin-bottom: 90px;
+    border: none;
+}
+.wrap-spots-shop-fm-v2.asakusa.shinjuku-station{
+    background: -webkit-repeating-linear-gradient(210deg, #f9e8f3,
+    #f9e8f3 5px,
+    #faedf5 5px,
+    #faedf5 10px
+    );
+    background: -o-repeating-linear-gradient(210deg, #f9e8f3,
+    #f9e8f3 5px,
+    #faedf5 5px,
+    #faedf5 10px
+    );
+    background: repeating-linear-gradient(-120deg, #f9e8f3,
+    #f9e8f3 5px,
+    #faedf5 5px,
+    #faedf5 10px
+    );
+    margin-bottom: 90px;
+}
+.wrap-spots-shop-fm-v2.asakusa .title-small-spots{
+    color: #F29544;
+}
+.wrap-spots-shop-fm-v2.kamakura .title-small-spots{
+    color: #c17954;
+}
+.wrap-spots-shop-fm-v2.kanazawa .title-small-spots{
+    color: #996633;
+}
+.wrap-spots-shop-fm-v2.kurashiki .title-small-spots{
+    color: #336666;
+}
+.wrap-spots-shop-fm-v2.shinjuku-station .title-small-spots{
+    color: #d84d96;
+}
+.wrap-spots-shop-fm-v2.asakusa .title-big-spots{
+    background-image: url(/wordpress/wp-content/themes/twentytwelve/images/shop-fomal-v2/title-big-spots.svg);
+    color: #F29544;
+    font-size: 22px;
+}
+.wrap-spots-shop-fm-v2.kamakura .title-big-spots{
+    color: #c17954;
+    background-image: url(/wordpress/wp-content/themes/twentytwelve/images/shop-fomal-v2/title-big-spots-kamakura.svg);
+}
+.wrap-spots-shop-fm-v2.kanazawa .title-big-spots{
+    color: #996633;
+    background-image: url(/wordpress/wp-content/themes/twentytwelve/images/shop-fomal-v2/title-big-spots-kanazawa.svg);
+}
+.wrap-spots-shop-fm-v2.kurashiki .title-big-spots{
+    color: #336666;
+    background-image: url(/wordpress/wp-content/themes/twentytwelve/images/shop-fomal-v2/title-big-spots-kurashiki.svg);
+}
+.wrap-spots-shop-fm-v2.shinjuku-station .title-big-spots{
+    color: #d84d96;
+    background-image: url(/wordpress/wp-content/themes/twentytwelve/images/shop-fomal-v2/title-big-spots-shinjuku.svg);
+}
+.wrap-spots-shop-fm-v2.asakusa .wrap-des-spots p{
+    margin-bottom: 15px;
+}
+.wrap-spots-shop-fm-v2.asakusa ul.list-content-spots .item-content-spots .text-content-spots .title-text{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.wrap-spots-shop-fm-v2.asakusa.kanazawa ul.list-content-spots .item-content-spots .text-content-spots .title-text{
+    color: #996633;
+}
+.wrap-spots-shop-fm-v2.asakusa.kurashiki ul.list-content-spots .item-content-spots .text-content-spots .title-text{
+    color: #336666;
+    border-bottom: 1px solid #336666;
+}
+.wrap-spots-shop-fm-v2.asakusa .pattern.ginza:after{
+    border-style: unset;
+}
+.wrap-spots-shop-fm-v2.asakusa .pattern.ginza:before{
+    border-color: #F29544 transparent transparent transparent;
+    left: 0;
+    top: -50px;
+    border-width: 30px 30px 0 0;
+}
+.wrap-spots-shop-fm-v2.kamakura .pattern.ginza:before{
+    border-color: #c17954 transparent transparent transparent;
+}
+.wrap-spots-shop-fm-v2.kanazawa .pattern.ginza:before{
+    border-color: #958c12 transparent transparent transparent;
+}
+.wrap-spots-shop-fm-v2.kurashiki .pattern.ginza:before{
+    border-color: #336666 transparent transparent transparent;
+}
+.wrap-spots-shop-fm-v2.shinjuku-station .pattern.ginza:before{
+    border-color: #d84d96 transparent transparent transparent;
+}
+.wrap-spots-shop-fm-v2.asakusa .pattern.ginza.last{
+    width: inherit;
+}
+/*wrap-reason*/
+.wrap-reason-choose-fm-v2.asakusa .list-reason .item-reason.active{
+    background: -webkit-repeating-linear-gradient(210deg, #f29544,
+    #f29544 5px,
+    rgba(242,149,68,0.9) 5px,
+    rgba(242,149,68,0.9) 10px
+    );
+    background: -o-repeating-linear-gradient(210deg, #f29544,
+    #f29544 5px,
+    rgba(242,149,68,0.9) 5px,
+    rgba(242,149,68,0.9) 10px
+    );
+    background: repeating-linear-gradient(-120deg, #f29544,
+    #f29544 5px,
+    rgba(242,149,68,0.9) 5px,
+    rgba(242,149,68,0.9) 10px
+    )
+}
+.wrap-reason-choose-fm-v2.kamakura .list-reason .item-reason.active{
+    background: -webkit-repeating-linear-gradient(210deg, #c17954,
+    #c17954 5px,
+    rgba(193,121,84,0.9) 5px,
+    rgba(193,121,84,0.9) 10px
+    );
+    background: -o-repeating-linear-gradient(210deg, #c17954,
+    #c17954 5px,
+    rgba(193,121,84,0.9) 5px,
+    rgba(193,121,84,0.9) 10px
+    );
+    background: repeating-linear-gradient(-120deg, #c17954,
+    #c17954 5px,
+    rgba(193,121,84,0.9) 5px,
+    rgba(193,121,84,0.9) 10px
+    )
+}
+.wrap-reason-choose-fm-v2.kanazawa .list-reason .item-reason.active{
+    background: -webkit-repeating-linear-gradient(210deg, #958c12,
+    #958c12 5px,
+    rgba(149,140,18,0.9) 5px,
+    rgba(149,140,18,0.9) 10px
+    );
+    background: -o-repeating-linear-gradient(210deg, #958c12,
+    #958c12 5px,
+    rgba(149,140,18,0.9) 5px,
+    rgba(149,140,18,0.9) 10px
+    );
+    background: repeating-linear-gradient(-120deg, #958c12,
+    #958c12 5px,
+    rgba(149,140,18,0.9) 5px,
+    rgba(149,140,18,0.9) 10px
+    )
+}
+.wrap-reason-choose-fm-v2.kurashiki .list-reason .item-reason.active{
+    background: -webkit-repeating-linear-gradient(210deg, #99cccc,
+    #99cccc 5px,
+    rgba(154,204,204,0.9) 5px,
+    rgba(154,204,204,0.9) 10px
+    );
+    background: -o-repeating-linear-gradient(210deg, #99cccc,
+    #99cccc 5px,
+    rgba(154,204,204,0.9) 5px,
+    rgba(154,204,204,0.9) 10px
+    );
+    background: repeating-linear-gradient(-120deg, #99cccc,
+    #99cccc 5px,
+    rgba(154,204,204,0.9) 5px,
+    rgba(154,204,204,0.9) 10px
+    )
+}
+.wrap-reason-choose-fm-v2.asakusa .content-reason:before{
+    border-bottom: 34px solid #fce5ce;
+}
+.wrap-reason-choose-fm-v2.kamakura .content-reason:before{
+    border-bottom: 34px solid #f7dcd0;
+}
+.wrap-reason-choose-fm-v2.kanazawa .content-reason:before{
+    border-bottom: 34px solid #cac588;
+}
+.wrap-reason-choose-fm-v2.kurashiki .content-reason:before{
+    border-bottom: 34px solid #99cccc;
+}
+.wrap-reason-choose-fm-v2.kurashiki .content-reason.reason-4:before{
+    left: 28%;
+}
+.wrap-reason-choose-fm-v2.kurashiki .content-reason.reason-5:before{
+    left: 50%;
+}
+.wrap-reason-choose-fm-v2.asakusa .title-item-reason .reason-name:after{
+    background-color: #f29544;
+    height: 1px;
+}
+.wrap-reason-choose-fm-v2.kamakura .title-item-reason .reason-name:after{
+    background-color: #c17954;
+}
+.wrap-reason-choose-fm-v2.kanazawa .title-item-reason .reason-name:after{
+    background-color: #958c12;
+}
+.wrap-reason-choose-fm-v2.asakusa .item-reason.active .title-item-reason .reason-name:after{
+    background-color: #fff;
+}
+.wrap-reason-choose-fm-v2.asakusa .item-reason.active .reason-special{
+    color: #fff;
+}
+.wrap-reason-choose-fm-v2.kurashiki .list-including .item-including-other{
+    background-color: #99cccc;
+    border: 1px solid #336666;
+    color: #336666;
+}
+.wrap-reason-choose-fm-v2.kurashiki .list-including .item-including-other .line-including:after,
+.wrap-reason-choose-fm-v2.kurashiki .list-including .item-including-other .line-including:before{
+    border-bottom: 1px solid #336666;
+}
+.wrap-reason-choose-fm-v2.kurashiki .list-including .item-including-other:after{
+    background: url(/images/formal-rental/formal-list-v2/price-pattern-kurashiki.svg) no-repeat;
+    width: 60px;
+    height: 60px;
+}
+.wrap-reason-choose-fm-v2.asakusa .list-including .item-including-other .des-sub-including{
+    font-size: 12px;
+}
+.wrap-reason-choose-fm-v2.kurashiki .list-reason .item-reason.custom-reason{
+    margin-left: 60px;
+}
+.bg-reason-orange-asakusa{
+    background-color: #f29544;
+}
+.bg-reason-orange-kamakura{
+    background-color: #c17954;
+}
+.bg-reason-orange-kanazawa{
+    background-color: #958c12;
+}
+.bg-reason-orange-kurashiki{
+    background-color: #336666;
+}
+.bg-reason-orange-kanazawa-other{
+    background-color: #f29444;
+}
+.bg-reason-orange-kurashiki-other{
+    background-color: #336666;
+}
+.bg-light-orange-asakusa{
+    background-color: #fce5ce;
+}
+.bg-light-orange-kamakura{
+    background-color: #f7dcd0;
+}
+.bg-light-orange-kanazawa{
+    background-color: #cac588;
+}
+.bg-light-orange-kurashiki{
+    background-color: #99cccc;
+}
+.text-green-kurashiki{
+    color: #336666;
+}
+.bg-green-kurashiki{
+    background-color: #336666;
+}
+.text-gold-other{
+    color: #b38b00;
+}
+.text-gold-brown{
+    color: #996633;
+}
+.text-green-kurashiki .arrow:after{
+    background-color: #336666;
+}
+.wrap-reason-choose-fm-v2.asakusa .box-type.store .item-including:after{
+    border-top: 10px solid #f29544;
+}
+.wrap-reason-choose-fm-v2.kamakura .box-type.store .item-including:after{
+    border-top: 10px solid #c17954;
+}
+.wrap-reason-choose-fm-v2.kanazawa .box-type.store .item-including:after{
+    border-top: 10px solid #958c12;
+}
+.wrap-reason-choose-fm-v2.kurashiki .box-type.store .item-including:after{
+    border-top: 10px solid #336666;
+}
+.text-orange-asakusa{
+    color: #f29544;
+}
+.text-orange-kamakura{
+    color: #c17954;
+}
+.text-orange-kanazawa{
+    color: #958c12;
+}
+.text-orange-kurashiki{
+    color: #336666;
+}
+.text-orange-brown-kanazawa{
+    color: #937733;
+}
+.text-orange-brown-kurashiki{
+    color: #336666;
+}
+.text-orange-shinjuku-station{
+    color: #d84d96;
+}
+.border-orange-asakusa{
+    border-color: #f29544;
+}
+.border-orange-kamakura{
+    border-color: #c17954;
+}
+.border-orange-kanazawa{
+    border-color: #958c12;
+}
+.border-orange-kurashiki{
+    border-color: #336666;
+}
+.border-orange-shinjuku-station{
+    border-color: #d84d96;
+}
+.bg-light-green-asakusa{
+    background-color: #799b9b;
+}
+.wrap-reason-choose-fm-v2.asakusa .wrap-info-clo{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.wrap-reason-choose-fm-v2.asakusa .wrap-reason-03-left{
+    -webkit-box-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+}
+.wrap-reason-choose-fm-v2.asakusa .text-reason-03-first{
+    margin-bottom: 5px;
+}
+.wrap-reason-choose-fm-v2.asakusa .text-reason-03{
+    font-size: 16px;
+}
+.wrap-reason-choose-fm-v2.asakusa .wrap-reason-03-ginza-yukata .item-logo-confidence-02{
+    width: 45%;
+}
+.wrap-reason-choose-fm-v2.asakusa .wrap-reason-03-ginza-yukata .box-cleaning-price{
+    margin: 0 0 30px 120px;
+}
+.wrap-reason-choose-fm-v2.asakusa .box-cleaning-price{
+    border-radius: 6px;
+    margin-bottom: 20px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.wrap-reason-choose-fm-v2.asakusa .wrap-reason-03-ginza-yukata .box-cleaning-price .inner{
+    background-color: inherit;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    line-height: 1;
+}
+.wrap-reason-choose-fm-v2.asakusa .wrap-reason-03-ginza-yukata .inner .price{
+    font-size: 107px;
+    letter-spacing: -17px;
+    line-height: 0;
+}
+.wrap-reason-choose-fm-v2.asakusa .inner .price{
+    font-size: 58px;
+    font-weight: 700;
+}
+.wrap-reason-choose-fm-v2.asakusa .wrap-reason-03-ginza-yukata .inner .price small{
+    font-size: 84px;
+}
+.wrap-reason-choose-fm-v2.asakusa .wrap-reason-03-ginza-yukata .inner .price .second-sm {
+    font-size: 97px;
+}
+.wrap-reason-03-right{
+    -webkit-box-flex: 4;
+    -ms-flex: 4;
+    flex: 4;
+}
+.wrap-reason-choose-fm-v2.asakusa .wrap-reason-03-ginza-yukata .detail-link{
+    margin: inherit;
+    width: 160px;
+    height: 160px;
+}
+.wrap-reason-choose-fm-v2.asakusa .wrap-reason-03-right .item-image-reason-03 img{
+    width: 420px;
+}
+.wrap-reason-choose.kamakura .content-reason .including-average{
+    background-color: #c17954;
+}
+.wrap-reason-choose.kurashiki .content-reason .including-average{
+    background-color: #901c32;
+}
+.wrap-reason-choose.shinjuku-station .content-reason .including-average{
+    background-color: #d84d96;
+}
+.wrap-reason-choose.kanazawa .content-reason .title-including .including-price{
+    color: #996633;
+}
+.wrap-reason-choose.kurashiki .content-reason .title-including .including-price{
+    color: #e03344;
+}
+.inner-yukata .price {
+    font-size: 52px;
+    font-weight: bold;
+    letter-spacing: -7px;
+    line-height: 1;
+}
+.active .inner-yukata .price{
+    color: #fff;
+}
+/*wrap-review*/
+.wrap-review-asakusa{
+    background-color: #fce5ce;
+}
+.wrap-review-kamakura{
+    background-color: #f7dcd0;
+}
+.wrap-review-kanazawa{
+    background-color: #d2d699;
+}
+.wrap-review-kurashiki{
+    background-color: #99cccc;
+    border: 1px solid #336666;
+    padding: 32px 18px 10px 18px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap-review-asakusa{
+    padding: 32px 18px 10px 18px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap-review.wrap-review-kurashiki .wrap-box-review{
+    margin-bottom: 0;
+}
+.wrap-review.wrap-review-kurashiki  .wrap-btn-v2{
+    margin-bottom: 20px;
+}
+.wrap-review-shinjuku-station{
+    background-color: #f7dcd0;
+}
+.wrap-review-asakusa .intro-bg:after{
+    border-right: 18px solid #f29544;
+}
+.wrap-review-kamakura .intro-bg:after{
+    border-right: 18px solid #c17954;
+}
+.wrap-review-kanazawa .intro-bg:after{
+    border-right: 18px solid #79bb9b;
+}
+.wrap-review-kurashiki .intro-bg:after{
+    border-right: 18px solid #336666;
+}
+.wrap-review-shinjuku-station .intro-bg:after{
+    border-right: 18px solid #c17954;
+}
+.wrap-review-asakusa .sub-title-intro{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+.wrap-review-asakusa .sub-title-intro .name{
+    font-size: 18px;
+    margin-right: 10px;
+    letter-spacing: 1px;
+}
+.wrap-review-asakusa .sub-title-intro .num{
+    font-size: 30px;
+    color: #b48c00;
+    margin-right: 5px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    line-height: 1;
+}
+.wrap-review-asakusa .sub-title-intro var{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.wrap-review-asakusa .intro,
+.wrap-review-kurashiki .sub-title-intro{
+    margin-bottom: 30px;
+}
+.wrap-review-kurashiki .wrap-title-thank-you,
+.wrap-review-asakusa .wrap-title-thank-you{
+    width: 75%;
+    margin: 0 auto 20px;
+}
+.wrap-review-kurashiki .intro,
+.wrap-review-asakusa .intro,
+.wrap-review-dazaifu .intro{
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.wrap-review-kurashiki.wrap-review .intro .review-title,
+.wrap-review-dazaifu.wrap-review .intro .review-title,
+.wrap-review-asakusa.wrap-review .intro .review-title {
+    font-size: 48px;
+    margin-bottom: 0;
+}
+.wrap-review-kurashiki .sub-title-intro .name,
+.wrap-review-dazaifu .sub-title-intro .name,
+.wrap-review-asakusa .sub-title-intro .name{
+    font-size: 30px;
+    line-height: 1;
+    margin-right: 0;
+}
+.wrap-review-kurashiki .sub-title-intro var,
+.wrap-review-dazaifu .sub-title-intro var,
+.wrap-review-asakusa .sub-title-intro var{
+    font-size: 18px;
+    line-height: 1;
+}
+.wrap-review-kurashiki .sub-title-intro var.average-rank-star-ct,
+.wrap-review-dazaifu .sub-title-intro var.average-rank-star-ct,
+.wrap-review-asakusa .sub-title-intro var.average-rank-star-ct{
+    color: #b48b00;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: 0;
+}
+.wrap-review-kurashiki .sub-title-intro .num,
+.wrap-review-asakusa .sub-title-intro .num,
+.wrap-review-dazaifu .sub-title-intro .num{
+    font-size: 50px;
+    color: #000;
+}
+.wrap-review-asakusa .box-review:before,
+.wrap-review-asakusa .box-review:after{
+    background-color: #f29544;
+}
+.wrap-review-asakusa .pd-review .link-more{
+    background-color: #f29544;
+}
+.wrap-review-kamakura .box-review:before,
+.wrap-review-kamakura .box-review:after,
+.wrap-review-kamakura .pd-review .link-more{
+    background-color: #c17954;
+}
+.wrap-review-kanazawa .box-review:before,
+.wrap-review-kanazawa .box-review:after{
+    background-color: #f29544;
+}
+.wrap-review-kurashiki .box-review:before,
+.wrap-review-kurashiki .box-review:after
+{
+    background-color: #336666;
+}
+.wrap-review-kanazawa .pd-review .link-more{
+    background-color: #958c12;
+}
+.wrap-review-kurashiki .pd-review .link-more{
+    background-color: #336666;
+}
+.wrap-review .wrap-pd-img .pd-img{
+    background-image: -webkit-repeating-linear-gradient(left, #f29544 0%, #f29544 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(left, #f29544 0%, #f29544 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #f29544 0%, #f29544 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #f29544 0%, #f29544 50%, transparent 50%, transparent 100%);
+    background-image: -o-repeating-linear-gradient(left, #f29544 0%, #f29544 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(left, #f29544 0%, #f29544 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, #f29544 0%, #f29544 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, #f29544 0%, #f29544 50%, transparent 50%, transparent 100%);
+    background-image: repeating-linear-gradient(to right, #f29544 0%, #f29544 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to right, #f29544 0%, #f29544 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, #f29544 0%, #f29544 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, #f29544 0%, #f29544 50%, transparent 50%, transparent 100%);
+}
+.wrap-review-kamakura .wrap-pd-img .pd-img{
+    background-image: -webkit-repeating-linear-gradient(left, #c17954 0%, #c17954 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(left, #c17954 0%, #c17954 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #c17954 0%, #c17954 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #c17954 0%, #f29544 50%, transparent 50%, transparent 100%);
+    background-image: -o-repeating-linear-gradient(left, #c17954 0%, #c17954 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(left, #c17954 0%, #c17954 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, #c17954 0%, #c17954 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, #c17954 0%, #c17954 50%, transparent 50%, transparent 100%);
+    background-image: repeating-linear-gradient(to right, #c17954 0%, #c17954 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to right, #c17954 0%, #c17954 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, #c17954 0%, #c17954 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, #c17954 0%, #c17954 50%, transparent 50%, transparent 100%);
+}
+.wrap-review-kanazawa .wrap-pd-img .pd-img{
+    background-image: -webkit-repeating-linear-gradient(left, #958c12 0%, #958c12 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(left, #958c12 0%, #958c12 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #958c12 0%, #958c12 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #958c12 0%, #f29544 50%, transparent 50%, transparent 100%);
+    background-image: -o-repeating-linear-gradient(left, #958c12 0%, #958c12 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(left, #958c12 0%, #958c12 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, #958c12 0%, #958c12 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, #958c12 0%, #958c12 50%, transparent 50%, transparent 100%);
+    background-image: repeating-linear-gradient(to right, #958c12 0%, #958c12 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to right, #958c12 0%, #958c12 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, #958c12 0%, #958c12 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, #958c12 0%, #958c12 50%, transparent 50%, transparent 100%);
+}
+.wrap-review-kurashiki .wrap-pd-img .pd-img{
+    background-image: -webkit-repeating-linear-gradient(left, #336666 0%, #336666 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(left, #336666 0%, #336666 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #336666 0%, #336666 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #336666 0%, #f29544 50%, transparent 50%, transparent 100%);
+    background-image: -o-repeating-linear-gradient(left, #336666 0%, #336666 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(left, #336666 0%, #336666 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, #336666 0%, #336666 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, #336666 0%, #336666 50%, transparent 50%, transparent 100%);
+    background-image: repeating-linear-gradient(to right, #336666 0%, #336666 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to right, #336666 0%, #336666 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, #336666 0%, #336666 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, #336666 0%, #336666 50%, transparent 50%, transparent 100%);
+}
+.wrap-review-kanazawa .intro-bg:before{
+    border-left: 18px solid #f9b29b;
+}
+.wrap-review-kurashiki .intro-bg:before{
+    border-left: 18px solid #336666;
+}
+/*wrap-blog-shop*/
+.wrap-blog-shop-fm-v2.asakusa{
+    margin: 100px 0 195px;
+}
+.wrap-blog-shop-fm-v2.asakusa.kurashiki{
+    margin-bottom: 60px;
+}
+.wrap-blog-shop-fm-v2.asakusa .content-new-info{
+    padding: 0;
+}
+.wrap-blog-shop-fm-v2.asakusa .sub-item-info-other .bg-item-outside{
+    background-color: rgba(242,149,68,0.1);
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100%;
+}
+.wrap-blog-shop-fm-v2.kamakura .sub-item-info-other .bg-item-outside{
+    background-color: rgba(193,121,84,0.1);
+}
+.wrap-blog-shop-fm-v2.kanazawa .sub-item-info-other .bg-item-outside{
+    background-color: #dfdcb7;
+}
+.wrap-blog-shop-fm-v2.kurashiki .sub-item-info-other .bg-item-outside{
+    background-color: #99cccc;
+}
+.wrap-blog-shop-fm-v2.shinjuku-station .sub-item-info-other .bg-item-outside{
+    background-color: rgba(247,215,237,0.1);
+}
+.wrap-blog-shop-fm-v2.asakusa .sub-item-info-other .bg-item-inside{
+    background-color: rgba(242,149,68,0.2);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.wrap-blog-shop-fm-v2.kamakura .sub-item-info-other .bg-item-inside{
+    background-color: rgba(193,121,84,0.2);
+}
+.wrap-blog-shop-fm-v2.kanazawa .sub-item-info-other .bg-item-inside{
+    background-color: #bcc067;
+}
+.wrap-blog-shop-fm-v2.kurashiki .sub-item-info-other .bg-item-inside{
+    background-color: #33b699;
+}
+.wrap-blog-shop-fm-v2.shinjuku-station .sub-item-info-other .bg-item-inside{
+    background-color: rgba(249,189,228,0.2);
+}
+.wrap-blog-shop-fm-v2 .sub-item-info .wrap-link-to{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+.wrap-blog-shop-fm-v2 .sub-item-info .link-to{
+    border-bottom: 1px solid #000;
+    position: relative;
+    text-align: right;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.wrap-blog-shop-fm-v2 .sub-item-info .link-to:after{
+    content: '';
+    position: absolute;
+    right: 4px;
+    bottom: -2px;
+    width: 1px;
+    height: 10px;
+    -webkit-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+    background-color: #000;
+}
+.wrap-blog-shop-fm-v2 .sub-item-info .link-to a{
+    margin-right: 16px;
+    letter-spacing: 1px;
+}
+/*Shop intro*/
+/*cut*/
+/*Rental plan*/
+.wrap-rental-plan .plan-item{
+    margin-bottom: 50px;
+}
+.plan-item .wrap-plan-item{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -15px;
+}
+.wrap-plan-item .wrap-btn-v2{
+    margin: 30px auto 0 auto;
+}
+.wrap-plan-item .wrap-btn-v2-custom{
+    width: 100%;
+}
+.wrap-plan-item .wrap-box{
+    margin-left: 15px;
+    width: calc(100% * 1/2 - 15px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.wrap-box .box-plan{
+    margin-bottom: 20px;
+    /*display: -webkit-box;*/
+    /*display: -ms-flexbox;*/
+    /*display: flex;*/
+    /*-webkit-box-orient: vertical;*/
+    /*-webkit-box-direction: normal;*/
+    /*-ms-flex-direction: column;*/
+    /*flex-direction: column;*/
+}
+.wrap-rental-plan-shinjuku-station .wrap-box .box-plan{
+    margin-bottom: 15px;
+}
+.box-plan .plan-info{
+    margin-top: 20px;
+    /*display: none;*/
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+#yukata-plan .box-plan .plan-info:not(.open){
+    display: none;
+}
+.box-plan .plan-info.open{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.plan-info .wrap-btn a{
+    color: #f29544;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    border: 2px solid #f29544;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto 20px auto;
+    position: relative;
+    letter-spacing: 2px;
+}
+.wrap-rental-plan-asakusa .wrap-btn .btn-booking{
+     border: none;
+     background-color: #f3313d;
+     color: #fff;
+     width: 80%;
+     font-size: 18px;
+     font-weight: bold;
+     border-radius: 30px;
+     text-align: center;
+     padding: 12px 10px;
+ }
+.wrap-rental-plan-asakusa .wrap-btn .btn-booking:after{
+    display: none;
+}
+.wrap-rental-plan-sendai-parco2 .plan-info .wrap-btn a{
+    color: #00A7B0;
+    border: 2px solid #00A7B0;
+}
+.wrap-rental-plan-sapporo-susukinostation .plan-info .wrap-btn a{
+    color: #535FA3;
+    border: 2px solid #535FA3;
+}
+.wrap-rental-plan-kamakura .plan-info .wrap-btn a{
+    border: 2px solid #c17954;
+    color: #c17954;
+}
+/*.wrap-rental-plan-kanazawa .plan-info .wrap-btn a{*/
+    /*border: 2px solid #dacc4a;*/
+    /*color: #996633;*/
+/*}*/
+.wrap-rental-plan-kurashiki .plan-info .wrap-btn a{
+    border: 1px solid #336666;
+    color: #336666;
+}
+.wrap-rental-plan-shinjuku-station .plan-info .wrap-btn a{
+    border: 2px solid #d84d96;
+    color: #d84d96;
+}
+.plan-info .wrap-btn a:after{
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    content: "";
+    background: url(/images/new-kimono/access/yellow-dotted.svg) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 8px;
+}
+.wrap-rental-plan-sendai-parco2 .plan-info .wrap-btn a:after{
+    background: url(/images/new-kimono/access/yellow-dotted-sendai.svg) no-repeat;
+    background-size: cover;
+}
+.wrap-rental-plan-kurashiki .plan-info .wrap-btn a:after{
+    background: url(/images/new-kimono/access/yellow-dotted-kurashiki.svg) no-repeat;
+    background-size: cover;
+}
+.wrap-rental-plan-sapporo-susukinostation .plan-info .wrap-btn a:after{
+    background: url(/images/new-kimono/access/yellow-dotted-sapporo.svg) no-repeat;
+    background-size: cover;
+}
+#kimono-plan .plan-info .show-less{
+    display: none;
+}
+#kimono-plan .wrap-box .box-plan{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+#kimono-plan .wrap-box .box-plan:not(:last-child){
+    margin-bottom: 40px
+}
+.plan-info .show-less span{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border: 2px solid #f29544;
+    cursor: pointer;
+}
+.wrap-rental-plan-kamakura .plan-info .show-less span{
+    border: 2px solid #c17954;
+}
+.wrap-rental-plan-kanazawa .plan-info .show-less span{
+    border: 2px solid #dacc4a;
+}
+.wrap-rental-plan-kurashiki .plan-info .show-less span{
+    border: 1px solid #336666;
+}
+.wrap-rental-plan-shinjuku-station .plan-info .show-less span{
+    border: 2px solid #d84d96;
+}
+.wrap-rental-plan-sendai-parco2 .plan-info .show-less span{
+    border: 2px solid #00A7B0;
+}
+.wrap-rental-plan-sapporo-susukinostation .plan-info .show-less span{
+    border: 2px solid #535FA3;
+}
+.plan-info .show-less span:before{
+    content: '';
+    display: inline-block;
+    border-right: 2px solid #f29544;
+    border-bottom: 2px solid #f29544;
+    width: 15px;
+    height: 15px;
+    -webkit-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+    transform: rotate(225deg);
+    position: relative;
+    top: 3px;
+}
+.wrap-rental-plan-kamakura .plan-info .show-less span:before{
+    border-right: 2px solid #c17954;
+    border-bottom: 2px solid #c17954;
+}
+.wrap-rental-plan-kanazawa .plan-info .show-less span:before{
+    border-right: 2px solid #dacc4a;
+    border-bottom: 2px solid #dacc4a;
+}
+.wrap-rental-plan-kurashiki .plan-info .show-less span:before{
+    border-right: 2px solid #336666;
+    border-bottom: 2px solid #336666;
+}
+.wrap-rental-plan-shinjuku-station .plan-info .show-less span:before{
+    border-right: 2px solid #d84d96;
+    border-bottom: 2px solid #d84d96;
+}
+.wrap-rental-plan-sendai-parco2 .plan-info .show-less span:before{
+    border-right: 2px solid #00A7B0;
+    border-bottom: 2px solid #00A7B0;
+}
+.wrap-rental-plan-sapporo-susukinostation .plan-info .show-less span:before{
+    border-right: 2px solid #535FA3;
+    border-bottom: 2px solid #535FA3;
+}
+.box-plan .plan-img{
+    position: relative;
+    color: #fff;
+    cursor: pointer;
+}
+.box-plan .plan-img .img {
+    padding-bottom: calc(277/435 * 100%);
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.box-plan .plan-img .img img {
+    position: absolute;
+    top: 50%;
+    left:0;
+    width: 100%;
+    height: auto;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.plan-img .plan-name,
+.plan-img .detail-plan{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.plan-img .plan-name{
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+.plan-img .detail-plan{
+    bottom: 16%;
+    font-size: 19px;
+}
+.plan-img .detail-plan:after{
+    content: '';
+    position: absolute;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    bottom: -20px;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) rotate(45deg);
+    transform: translateX(-50%) rotate(45deg);
+    left: 50%;
+}
+.plan-info .plan-intro{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-align: center;
+    line-height: 1;
+}
+.plan-info .plan-name{
+    font-size: 29px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    position: relative;
+    display: table;
+    margin: 0 auto 10px auto;
+}
+.plan-info .plan-name:before,
+.plan-info .plan-name:after{
+    position: absolute;
+    content: '';
+    background: url('/images/new-kimono/access/flower-pt.svg') no-repeat;
+    background-size: cover;
+    width: 55px;
+    height: 55px;
+    top: -10px;
+}
+.wrap-rental-plan-sendai-parco2 .plan-info .plan-name:before,
+.wrap-rental-plan-sendai-parco2 .plan-info .plan-name:after{
+    background: url('/images/new-kimono/access/flower-pt-sendai-parco2.svg') no-repeat;
+    background-size: cover;
+}
+.wrap-rental-plan-sapporo-susukinostation .plan-info .plan-name:before,
+.wrap-rental-plan-sapporo-susukinostation .plan-info .plan-name:after{
+    background: url('/images/new-kimono/access/flower-pt-sapporo.svg') no-repeat;
+    background-size: cover;
+}
+/*plan for shinjuku shop*/
+.wrap-group-plan-item{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 22px 20px 20px 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.wrap-plan-item-shinjuku{
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.wrap-group-plan-item .bd-box-pl{
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 3px 6px;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+.wrap-group-plan-item .name-box-pl{
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+.wrap-group-plan-item-other{
+    padding: 18px 20px 20px 20px;
+}
+.wrap-group-plan-item-other .name-box-pl{
+    font-size: 36px;
+}
+.wrap-group-plan-item.men-yukata .name-box-pl{
+    font-size: 28px;
+}
+.wrap-group-plan-item-other .title-box-plan{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+.wrap-group-plan-item .price-box-pl{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1;
+}
+.wrap-group-plan-item .box-dt-pl{
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    font-size: 18px;
+    line-height: 1;
+}
+.wrap-rental-plan-kamakura .plan-info .plan-name:before,
+.wrap-rental-plan-kamakura .plan-info .plan-name:after{
+    background-image: url('/images/new-kimono/access/flower-pt-kamakura.svg');
+}
+.wrap-rental-plan-kanazawa .plan-info .plan-name:before,
+.wrap-rental-plan-kanazawa .plan-info .plan-name:after{
+    background-image: url('/images/new-kimono/access/flower-pt-kanazawa.svg');
+}
+.wrap-rental-plan-kurashiki .plan-info .plan-name:before,
+.wrap-rental-plan-kurashiki .plan-info .plan-name:after{
+    background-image: url('/images/new-kimono/access/flower-pt-kurashiki.svg');
+}
+.wrap-rental-plan-shinjuku-station .plan-info .plan-name:before,
+.wrap-rental-plan-shinjuku-station .plan-info .plan-name:after{
+    background-image: url('/images/new-kimono/access/flower-pt-shinjuku.svg');
+}
+.plan-info .plan-name:before{
+    left: -35px;
+}
+.plan-info .plan-name:after{
+    right: -35px;
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.plan-info .price{
+    line-height: 1;
+    color: #cf434b;
+    font-size: 40px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+.wrap-rental-plan-kurashiki .plan-info .price{
+    color: #336666;
+    font-weight: 700;
+}
+.plan-info .plan-desc{
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    /*min-height: 200px;*/
+}
+
+/*Shop ranking*/
+.wrap-wg-fm-gallery-access.shop-ranking{
+    padding: 0;
+    margin-bottom: 50px;
+}
+.shop-ranking .filter-shop-ranking{
+    margin-bottom: 40px;
+}
+.shop-ranking .widget-top-product-formal-cate{
+    margin: 0;
+    padding: 0;
+}
+.widget-formal-product-by-shop .filter-shop-ranking .group-btn{
+    margin: 0 2px 5px 0;
+    border-radius: 20px;
+    background-color: #f29544;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.kamakura-ranking .widget-formal-product-by-shop .filter-shop-ranking .group-btn{
+    background-color: #c17954;
+}
+.kanazawa-ranking .widget-formal-product-by-shop .filter-shop-ranking .group-btn{
+    background-color: #958c12;
+}
+.kurashiki-ranking .widget-formal-product-by-shop .filter-shop-ranking .group-btn{
+    background-color: #958c12;
+}
+.shinjuku-station-ranking .widget-formal-product-by-shop .filter-shop-ranking .group-btn{
+    background-color: #d84d96;
+    padding: 0 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.widget-formal-product-by-shop .filter-shop-ranking .group-btn.active{
+    background-color: #c6641a;
+    border: none;
+}
+.shinjuku-station-ranking .widget-formal-product-by-shop .filter-shop-ranking .group-btn.active{
+    background-color: #aa2b6e;
+}
+.kanazawa-ranking .widget-formal-product-by-shop .filter-shop-ranking .group-btn.active{
+    background-color: #5e5a23;
+}
+.kurashiki-ranking .widget-formal-product-by-shop .filter-shop-ranking .group-btn.active{
+    background-color: #5e5a23;
+}
+.shop-ranking .wrap-list-product{
+    margin-bottom: 50px;
+}
+.shop-ranking .widget-list-product-highend.more-items ul.list{
+    padding: 0 30px;
+}
+.shop-ranking .widget-list-product-highend.more-items .list .slick-list{
+    margin: 0 -10px;
+    padding-top: 20px;
+}
+.shop-ranking .widget-list-product-highend.more-items ul.list li{
+    margin: 0 10px 15px 10px;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+    position: relative;
+}
+.shop-ranking  .list li:nth-child(-n+3):before {
+    content: '';
+    position: absolute;
+    top: -16px;
+    left: -1px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 50%;
+    z-index: 10;
+}
+.shop-ranking .list li:first-child:before {
+    content: '1';
+    background-color: #b38b00;
+}
+.shop-ranking .list li:nth-child(2):before {
+    content: '2';
+    background-color: #8f8f8f;
+}
+.shop-ranking .list li:nth-child(3):before {
+    content: '3';
+    background-color: #613b00;
+}
+.shop-ranking .widget-list-product-highend ul.list li .image img{
+    border: none;
+}
+.asakusa-ranking .widget-list-product-highend.more-items ul.list li .image{
+    background-image: -webkit-repeating-linear-gradient(left,#f29544 0,#f29544 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(left,#f29544 0,#f29544 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(top,#f29544 0,#f29544 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(top,#f29544 0,#f29544 50%,transparent 50%,transparent 100%);
+    background-image: -o-repeating-linear-gradient(left,#f29544 0,#f29544 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(left,#f29544 0,#f29544 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(top,#f29544 0,#f29544 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(top,#f29544 0,#f29544 50%,transparent 50%,transparent 100%);
+    background-image: repeating-linear-gradient(to right,#f29544 0,#f29544 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to right,#f29544 0,#f29544 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to bottom,#f29544 0,#f29544 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to bottom,#f29544 0,#f29544 50%,transparent 50%,transparent 100%);
+    background-position: left top,left bottom,left top,right top;
+    background-repeat: repeat-x,repeat-x,repeat-y,repeat-y;
+    background-size: 6px 1px,6px 1px,1px 6px,1px 6px;
+    height: inherit;
+    margin-bottom: 12px;
+}
+.kamakura-ranking .widget-list-product-highend.more-items ul.list li .image{
+    background-image: -webkit-repeating-linear-gradient(left,#c17954 0,#c17954 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(left,#c17954 0,#c17954 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(top,#c17954 0,#c17954 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(top,#c17954 0,#c17954 50%,transparent 50%,transparent 100%);
+    background-image: -o-repeating-linear-gradient(left,#c17954 0,#c17954 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(left,#c17954 0,#c17954 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(top,#c17954 0,#c17954 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(top,#c17954 0,#c17954 50%,transparent 50%,transparent 100%);
+    background-image: repeating-linear-gradient(to right,#c17954 0,#c17954 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to right,#c17954 0,#c17954 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to bottom,#c17954 0,#c17954 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to bottom,#c17954 0,#c17954 50%,transparent 50%,transparent 100%);
+    background-position: left top,left bottom,left top,right top;
+    background-repeat: repeat-x,repeat-x,repeat-y,repeat-y;
+    background-size: 6px 1px,6px 1px,1px 6px,1px 6px;
+    height: inherit;
+    margin-bottom: 12px;
+}
+.kanazawa-ranking .widget-list-product-highend.more-items ul.list li .image{
+    background-image: -webkit-repeating-linear-gradient(left,#958c12 0,#958c12 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(left,#958c12 0,#958c12 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(top,#958c12 0,#958c12 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(top,#958c12 0,#958c12 50%,transparent 50%,transparent 100%);
+    background-image: -o-repeating-linear-gradient(left,#958c12 0,#958c12 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(left,#958c12 0,#958c12 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(top,#958c12 0,#958c12 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(top,#958c12 0,#958c12 50%,transparent 50%,transparent 100%);
+    background-image: repeating-linear-gradient(to right,#958c12 0,#958c12 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to right,#958c12 0,#958c12 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to bottom,#958c12 0,#958c12 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to bottom,#958c12 0,#958c12 50%,transparent 50%,transparent 100%);
+    background-position: left top,left bottom,left top,right top;
+    background-repeat: repeat-x,repeat-x,repeat-y,repeat-y;
+    background-size: 6px 1px,6px 1px,1px 6px,1px 6px;
+    height: inherit;
+    margin-bottom: 12px;
+}
+.kurashiki-ranking .widget-list-product-highend.more-items ul.list li .image{
+    background-image: -webkit-repeating-linear-gradient(left,#336666 0,#336666 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(left,#336666 0,#336666 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(top,#336666 0,#336666 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(top,#336666 0,#336666 50%,transparent 50%,transparent 100%);
+    background-image: -o-repeating-linear-gradient(left,#336666 0,#336666 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(left,#336666 0,#336666 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(top,#336666 0,#336666 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(top,#336666 0,#336666 50%,transparent 50%,transparent 100%);
+    background-image: repeating-linear-gradient(to right,#336666 0,#336666 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to right,#336666 0,#336666 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to bottom,#336666 0,#336666 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to bottom,#336666 0,#336666 50%,transparent 50%,transparent 100%);
+    background-position: left top,left bottom,left top,right top;
+    background-repeat: repeat-x,repeat-x,repeat-y,repeat-y;
+    background-size: 6px 1px,6px 1px,1px 6px,1px 6px;
+    height: inherit;
+    margin-bottom: 12px;
+}
+.shinjuku-station-ranking .widget-list-product-highend.more-items ul.list li .image{
+    background-image: -webkit-repeating-linear-gradient(left,#d84d96 0,#d84d96 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(left,#d84d96 0,#d84d96 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(top,#d84d96 0,#d84d96 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(top,#d84d96 0,#d84d96 50%,transparent 50%,transparent 100%);
+    background-image: -o-repeating-linear-gradient(left,#d84d96 0,#d84d96 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(left,#d84d96 0,#d84d96 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(top,#d84d96 0,#d84d96 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(top,#d84d96 0,#d84d96 50%,transparent 50%,transparent 100%);
+    background-image: repeating-linear-gradient(to right,#d84d96 0,#d84d96 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to right,#d84d96 0,#d84d96 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to bottom,#d84d96 0,#d84d96 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to bottom,#d84d96 0,#d84d96 50%,transparent 50%,transparent 100%);
+    background-position: left top,left bottom,left top,right top;
+    background-repeat: repeat-x,repeat-x,repeat-y,repeat-y;
+    background-size: 6px 1px,6px 1px,1px 6px,1px 6px;
+    height: inherit;
+    margin-bottom: 12px;
+    position: relative;
+}
+.shinjuku-station-ranking .widget-list-product-highend.more-items ul.list li .image:before {
+    content: '';
+    display: block;
+    width: 100%;
+    padding-bottom: 100%;
+}
+.shinjuku-station-ranking .widget-list-product-highend.more-items ul.list li .image img {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    max-width: calc(100% - 10px);
+    max-height: calc(100% - 10px);
+    object-fit: contain;
+    object-position: center;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.sapporo-susukinostation-ranking .widget-list-product-highend.more-items ul.list li .image{
+    background-image: -webkit-repeating-linear-gradient(left,#535FA3 0,#535FA3 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(left,#535FA3 0,#535FA3 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(top,#535FA3 0,#535FA3 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(top,#535FA3 0,#535FA3 50%,transparent 50%,transparent 100%);
+    background-image: -o-repeating-linear-gradient(left,#535FA3 0,#535FA3 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(left,#535FA3 0,#535FA3 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(top,#535FA3 0,#535FA3 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(top,#535FA3 0,#535FA3 50%,transparent 50%,transparent 100%);
+    background-image: repeating-linear-gradient(to right,#535FA3 0,#535FA3 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to right,#535FA3 0,#535FA3 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to bottom,#535FA3 0,#535FA3 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to bottom,#535FA3 0,#535FA3 50%,transparent 50%,transparent 100%);
+    background-position: left top,left bottom,left top,right top;
+    background-repeat: repeat-x,repeat-x,repeat-y,repeat-y;
+    background-size: 6px 1px,6px 1px,1px 6px,1px 6px;
+    height: inherit;
+    margin-bottom: 12px;
+}
+.shop-ranking .widget-list-product-highend ul.list li .info .name {
+    color: #252525;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.asakusa-ranking .widget-list-product-highend ul.list li .wrap-price .price,
+.asakusa-ranking .widget-list-product-highend ul.list li .wrap-price .price .currency,
+.asakusa-ranking .widget-list-product-highend ul.list li .wrap-price .price .tax {
+    color: #f29544;
+    font-weight: 400;
+    font-size: 14px;
+}
+.kamakura-ranking .widget-list-product-highend ul.list li .wrap-price .price,
+.kamakura-ranking .widget-list-product-highend ul.list li .wrap-price .price .currency,
+.kamakura-ranking .widget-list-product-highend ul.list li .wrap-price .price .tax {
+    color: #c17954;
+}
+.shinjuku-station-ranking .widget-list-product-highend ul.list li .wrap-price .price,
+.shinjuku-station-ranking .widget-list-product-highend ul.list li .wrap-price .price .currency,
+.shinjuku-station-ranking .widget-list-product-highend ul.list li .wrap-price .price .tax {
+    color: #d84d96;
+}
+.sendai-parco2-ranking .widget-list-product-highend ul.list li .wrap-price .price,
+.sendai-parco2-ranking .widget-list-product-highend ul.list li .wrap-price .price .currency,
+.sendai-parco2-ranking .widget-list-product-highend ul.list li .wrap-price .price .tax {
+    color: #00A7B0;
+}
+.sapporo-susukinostation-ranking .widget-list-product-highend ul.list li .wrap-price .price,
+.sapporo-susukinostation-ranking .widget-list-product-highend ul.list li .wrap-price .price .currency,
+.sapporo-susukinostation-ranking .widget-list-product-highend ul.list li .wrap-price .price .tax {
+    color: #535FA3;
+}
+.shop-ranking .widget-list-product-highend ul.list li .info{
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.shop-ranking .slick-next:before,
+.shop-ranking .slick-prev:before {
+    color: #909090;
+    font-size: 30px;
+    font-weight: 700;
+}
+.shop-ranking .slick-prev:before {
+    content: '\3008';
+}
+.shop-ranking .slick-next:before {
+    content: '\3009';
+}
+.shop-ranking .slick-next,
+.shop-ranking .slick-prev {
+    top: 40%;
+    width: 30px;
+    height: 45px;
+}
+.shop-ranking .slick-prev {
+    left: -10px;
+}
+.shop-ranking .slick-next {
+    right: -10px;
+}
+.shinjuku-station-ranking #filter_product_product_by_shop_v2_list_view .wrap-btn-v2,
+.shinjuku-station-ranking #filter_product_product_by_shop_v2_2_list_view .wrap-btn-v2,
+.sapporo-susukinostation-ranking #filter_product_product_by_shop_v2_1_list_view .wrap-btn-v2,
+.sapporo-susukinostation-ranking #filter_product_product_by_shop_v2_2_list_view .wrap-btn-v2{
+    display: none;
+}
+/*Column post*/
+.wrap-column-post{
+    margin-bottom: 30px;
+}
+.wrap-column-post .title{
+    margin-bottom: 40px;
+}
+.wrap-column-post .title img{
+    width: 70%;
+    margin: auto;
+    display: table;
+}
+.wrap-column-post .title .column-title{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+.column-list{
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    padding: 0 50px;
+}
+.column-list li{
+    width: calc(100% * 1/2 - 40px);
+    margin: 0 0 50px 40px;
+    border: 2px solid #f29544;
+    padding: 15px 15px 35px 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+.wrap-column-post-kamakura .column-list li{
+    border: 2px solid #c17954;
+}
+.wrap-column-post-kanazawa .column-list li{
+    border: 2px solid #958c12;
+}
+.wrap-column-post-kurashiki .column-list li{
+    border: 2px solid #336666;
+}
+.wrap-column-post-shinjuku-station .column-list li{
+    border: 2px solid #d84d96;
+}
+.wrap-column-post-sapporo-susukinostation .column-list li{
+    border: 2px solid #535FA3;
+}
+.wrap-column-post-sendai-parco2 .column-list li{
+    border: 2px solid #00A7B0;
+}
+.column-list li .post-num{
+    position: absolute;
+    top: -20px;
+    left: -15px;
+    border: 2px solid #f29544;
+    font-size: 50px;
+    font-weight: bold;
+    color: #f29544;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background-color: #fff;
+    -webkit-box-shadow: 4px 4px 0 0 rgba(242,149,68,1);
+    box-shadow: 4px 4px 0 0 rgba(242,149,68,1);
+}
+.wrap-column-post-kamakura .column-list li .post-num{
+    border: 2px solid #c17954;
+    color: #c17954;
+    -webkit-box-shadow: 4px 4px 0 0 rgba(193,121,84,1);
+    box-shadow: 4px 4px 0 0 rgba(193,121,84,1);
+}
+.wrap-column-post-kanazawa .column-list li .post-num{
+    border: 2px solid #958c12;
+    color: #958c12;
+    -webkit-box-shadow: 4px 4px 0 0 #958c12;
+    box-shadow: 4px 4px 0 0 #958c12;
+}
+.wrap-column-post-kurashiki .column-list li .post-num{
+    border: 2px solid #336666;
+    color: #336666;
+    -webkit-box-shadow: 4px 4px 0 0 #336666;
+    box-shadow: 4px 4px 0 0 #336666;
+}
+.wrap-column-post-shinjuku-station .column-list li .post-num{
+    border: 2px solid #d84d96;
+    color: #d84d96;
+    -webkit-box-shadow: 4px 4px 0 0 rgba(216,77,150,1);
+    box-shadow: 4px 4px 0 0 rgba(216,77,150,1);
+}
+.wrap-column-post-sapporo-susukinostation .column-list li .post-num{
+    border: 2px solid #535FA3;
+    color: #535FA3;
+    -webkit-box-shadow: 4px 4px 0 0 rgba(83,95,163,1);
+    box-shadow: 4px 4px 0 0 rgba(83,95,163,1);
+}
+.wrap-column-post-sendai-parco2 .column-list li .post-num{
+    border: 2px solid #00A7B0;
+    color: #00A7B0;
+    -webkit-box-shadow: 4px 4px 0 0 rgba(0,167,175,1);
+    box-shadow: 4px 4px 0 0 rgba(0,167,175,1);
+}
+.column-list li .img a{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px dashed #f29544;
+    height: 220px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.wrap-column-post-kamakura .column-list li .img a{
+    border-bottom: 2px dashed #c17954;
+}
+.wrap-column-post-kanazawa .column-list li .img a{
+    border-bottom: 2px dashed #958c12;
+}
+.wrap-column-post-kurashiki .column-list li .img a{
+    border-bottom: 2px dashed #336666;
+}
+.wrap-column-post-shinjuku-station .column-list li .img a{
+    border-bottom: 2px dashed #d84d96;
+}
+.wrap-column-post-sapporo-susukinostation .column-list li .img a{
+    border-bottom: 2px dashed #535FA3;
+}
+.wrap-column-post-sendai-parco2 .column-list li .img a{
+    border-bottom: 2px dashed #00A7B0;
+}
+.column-list li .img img{
+    -o-object-fit: contain;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+}
+.column-list li .column-title{
+    font-size: 22px;
+    font-weight: bold;
+    color: #f29544;
+    text-align: center;
+    padding: 0 10px;
+}
+.wrap-column-post-kamakura .column-list li .column-title{
+    color: #c17954;
+}
+.wrap-column-post-kanazawa .column-list li .column-title{
+    color: #958c12;
+}
+.wrap-column-post-kurashiki .column-list li .column-title{
+    color: #336666;
+}
+.wrap-column-post-shinjuku-station .column-list li .column-title{
+    color: #d84d96;
+}
+.wrap-column-post-sendai-parco2 .column-list li .column-title{
+    color: #00A7B0;
+}
+.wrap-column-post-sapporo-susukinostation .column-list li .column-title{
+    color: #535FA3;
+}
+.column-list li .read{
+    width: 80px;
+    height: 70px;
+    font-size: 17px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+.column-list li .read:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 70px 80px;
+    border-color: transparent transparent #f29544 transparent;
+    z-index: -1;
+}
+.wrap-column-post-kamakura .column-list li .read:after{
+    border-color: transparent transparent #c17954 transparent;
+}
+.wrap-column-post-kanazawa .column-list li .read:after{
+    border-color: transparent transparent #958c12 transparent;
+}
+.wrap-column-post-kurashiki .column-list li .read:after{
+    border-color: transparent transparent #336666 transparent;
+}
+.wrap-column-post-shinjuku-station .column-list li .read:after{
+    border-color: transparent transparent #d84d96 transparent;
+}
+.wrap-column-post-sapporo-susukinostation .column-list li .read:after{
+    border-color: transparent transparent #535FA3 transparent;
+}
+.wrap-column-post-sendai-parco2 .column-list li .read:after{
+    border-color: transparent transparent #00A7B0 transparent;
+}
+.wrap-column-list .more-column{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+.wrap-column-list .read-more{
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+    letter-spacing: 1px;
+    background: url(/images/new-kimono/access/arrow-column.svg) no-repeat;
+    background-size: 100%;
+    background-position: 0 20px;
+    height: 40px;
+    padding: 0 50px 0 5px;
+}
+
+/*Wrap experience*/
+.wrap-experience{
+    padding: 0 30px;
+    margin: 130px 0 100px;
+}
+.wrap-experience .ex-title{
+    background-image: -webkit-repeating-linear-gradient(left,#000 0,#000 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(left,#000 0,#000 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(top,#000 0,#000 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(top,#000 0,#000 50%,transparent 50%,transparent 100%);
+    background-image: -o-repeating-linear-gradient(left,#000 0,#000 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(left,#000 0,#000 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(top,#000 0,#000 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(top,#000 0,#000 50%,transparent 50%,transparent 100%);
+    background-image: repeating-linear-gradient(to right,#000 0,#000 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to right,#000 0,#000 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to bottom,#000 0,#000 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to bottom,#000 0,#000 50%,transparent 50%,transparent 100%);
+    background-position: left top,left bottom,left top,right top;
+    background-repeat: repeat-x,repeat-x,repeat-y,repeat-y;
+    background-size: 6px 2px,6px 2px,2px 6px,2px 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 10px 10px 0 0 rgba(242,149,68,1);
+    box-shadow: 10px 10px 0 0 rgba(242,149,68,1);
+    text-align: center;
+    padding: 15px 40px;
+    margin: 0 auto 40px auto;
+    position: relative;
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: table;
+}
+.wrap-experience .ex-title span{
+    position: absolute;
+    top: -60px;
+    left: -30px;
+    font-size: 30px;
+    font-weight: 500;
+    -webkit-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+.wrap-experience .ex-title span:before,
+.wrap-experience .ex-title span:after{
+    position: absolute;
+    content: '';
+    width: 1px;
+    background-color: #000;
+}
+.wrap-experience .ex-title span:before{
+    left: -20px;
+    bottom: -15px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    height: 55px;
+
+}
+.wrap-experience .ex-title span:after{
+    height: 40px;
+    top: 10px;
+    right: -12px;
+    -webkit-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+.wrap-video-youtube{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -40px;
+}
+.wrap-video-youtube .video-item{
+    background-color: #b1b0b7;
+    margin-bottom: 50px;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 8px;
+    position: relative;
+    -webkit-box-shadow: 10px 10px 0 0 rgba(242,149,68,1);
+    box-shadow: 10px 10px 0 0 rgba(242,149,68,1);
+    width: calc(100% * 1/2 - 40px);
+    height: 300px;
+    margin-left: 40px;
+}
+.wrap-video-youtube .video-item:before,
+.wrap-video-youtube .video-item:after{
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 50px;
+}
+.wrap-video-youtube .video-item:before {
+    bottom: -50px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url('/images/new-kimono/access/curve-arrow-01.svg') no-repeat;
+    background-size: 100%;
+}
+.wrap-video-youtube .video-item:after {
+    bottom: -53px;
+    left: 52%;
+    -webkit-transform: translateX(-52%);
+    -ms-transform: translateX(-52%);
+    transform: translateX(-52%);
+    background: url(/images/new-kimono/access/curve-arrow-02.svg) no-repeat;
+    background-size: 100%;
+    z-index: -1;
+}
+
+/*Instagram gallery*/
+.wrap-gallery-shop-fm-v2 .wrap-slider-gallery {
+    margin-bottom: 30px;
+}
+.wrap-slider-gallery{
+    width: 100%;
+}
+.wrap-slider-gallery  .slick-prev,
+.wrap-slider-gallery .slick-next {
+    width: 40px;
+    height: 40px;
+}
+.wrap-slider-gallery .slick-prev:before,
+.wrap-slider-gallery .slick-next:before {
+    border: none;
+    color: #f29544;
+    font-size: 35px;
+    font-family: inherit;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    width: initial;
+    height: initial;
+}
+.wrap-slider-gallery-kamakura.wrap-slider-gallery .slick-prev:before,
+.wrap-slider-gallery-kamakura.wrap-slider-gallery .slick-next:before{
+    color: #c17954;
+}
+.wrap-slider-gallery-kanazawa.wrap-slider-gallery .slick-prev:before,
+.wrap-slider-gallery-kanazawa.wrap-slider-gallery .slick-next:before{
+    color: #958c12;
+}
+.wrap-slider-gallery-kurashiki.wrap-slider-gallery .slick-prev:before,
+.wrap-slider-gallery-kurashiki.wrap-slider-gallery .slick-next:before{
+    color: #336666;
+}
+.wrap-slider-gallery-shinjuku-station.wrap-slider-gallery .slick-prev:before,
+.wrap-slider-gallery-shinjuku-station.wrap-slider-gallery .slick-next:before{
+    color: #d84d96;
+}
+.wrap-slider-gallery .slick-prev:before {
+    content: '\3008';
+}
+.wrap-slider-gallery  .slick-next:before {
+    content: '\3009';
+}
+.wrap-gallery-shop-fm-v2 .wrap-slider-gallery .slick-prev {
+    left: -25px;
+}
+.wrap-gallery-shop-fm-v2 .wrap-slider-gallery .slick-next {
+    right: -30px;
+}
+.wrap-gallery-shop-fm-v2 .slider-gallery .gallery-parent{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin: 0;
+}
+.slider-gallery .gallery-parent .gallery-ins-item{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.wrap-slider-gallery .gallery-parent .gallery-ins-item .wrap-gallery-img {
+    width: 100%;
+}
+.wrap-review .wrap-pd-img .pd-img img{
+    max-height: 192px;
+}
+.wrap-line-v2-kamakura{
+    margin-bottom: 90px;
+}
+.wrap-reservation-status-fm-v2.asakusa.kanazawa .wrap-btn-v2,
+.wrap-reservation-status-fm-v2.asakusa.kurashiki .wrap-btn-v2{
+    margin-bottom: 100px;
+}
+.wrap-line-v2-shinjuku-station{
+    margin-bottom: 90px;
+}
+
+/*SENDAI PARCO*/
+.wrap-boths-column .right-column-sendai-parco2,
+.wrap-boths-column .right-column-sapporo-susukinostation{
+    margin-left: 65px;
+}
+.wrap-top-plan-circle-fm-v2.sendai-parco2 .list-scene-v2 .item-scene-v2.color-circle-01 .out-circle,
+.wrap-top-plan-circle-fm-v2.sendai-parco2 .item-scene-v2.color-circle-01 .inside-circle,
+.wrap-top-plan-circle-fm-v2.sendai-parco2 .list-scene-v2 .item-scene-v2.color-circle-01 .num-circle{
+    border-color: #00A7B0;
+    color: #00A7B0;
+}
+.wrap-top-plan-circle-fm-v2.sapporo-susukinostation .list-scene-v2 .item-scene-v2.color-circle-01 .out-circle,
+.wrap-top-plan-circle-fm-v2.sapporo-susukinostation .item-scene-v2.color-circle-01 .inside-circle,
+.wrap-top-plan-circle-fm-v2.sapporo-susukinostation .list-scene-v2 .item-scene-v2.color-circle-01 .num-circle{
+    border-color: #535FA3;
+    color: #535FA3;
+}
+.wrap-products-shop-store.sendai-parco2 .more-list-ginza .more-info{
+    background-color: #00A7B0;
+}
+.wrap-products-shop-store.sapporo-susukinostation .more-list-ginza .more-info{
+    background-color: #535FA3;
+}
+.wrap-google-map-fm-v2.sendai-parco2{
+    border: 1px solid #00A7B0;
+    background-color: #E0F4F4;
+}
+.wrap-google-map-fm-v2.sapporo-susukinostation{
+    border: 1px solid #535FA3;
+    background-color: #E4E8F9;
+}
+.wrap-google-map-fm-v2.sendai-parco2 .text-addess-map{
+    background-color: #00A7B0;
+}
+.wrap-google-map-fm-v2.sapporo-susukinostation .text-addess-map{
+    background-color: #535FA3;
+}
+.wrap-google-map-fm-v2.sendai-parco2 .jusho-color{
+    color: #00A7B0;
+}
+.wrap-google-map-fm-v2.sapporo-susukinostation .jusho-color{
+    color: #535FA3;
+}
+.wrap-google-map-fm-v2.sendai-parco2 .items-option-detail-new{
+    background-color: #00A7B0;
+}
+.wrap-google-map-fm-v2.sapporo-susukinostation .items-option-detail-new{
+    background-color: #535FA3;
+}
+.wrap-google-map-fm-v2.sendai-parco2 .list-option-new-shop-second .items-option-detail-new{
+    border: 1px solid #00A7B0;
+}
+.wrap-google-map-fm-v2.sapporo-susukinostation .list-option-new-shop-second .items-option-detail-new{
+    border: 1px solid #535FA3;
+}
+.wrap-google-map-fm-v2.sapporo-susukinostation .list-option-new-shop-second .items-option-other-first.sapporo-susukinostation{
+    border: 1px solid #535FA3;
+    background-color: #fff;
+}
+.wrap-google-map-fm-v2.sendai-parco2 .list-option-new-shop-left{
+    flex: unset;
+    width: 520px
+}
+.wrap-google-map-fm-v2.sapporo-susukinostation .list-option-new-shop-left{
+    flex: unset;
+    width: 520px
+}
+.wrap-google-map-fm-v2.sendai-parco2 .wrap-list-option-detail-new-1 .list-option-detail-new:last-child{
+    width: 135px;
+    margin-left: 15px;
+}
+.wrap-google-map-fm-v2.sendai-parco2 .list-option-detail-new-machi .icon-arrow-r-link{
+    width: 105px;
+}
+.wrap-google-map-fm-v2.sendai-parco2 .wrap-list-option-detail-new-1{
+    justify-content: unset;
+}
+.wrap-google-map-fm-v2.sendai-parco2 .list-option-detail-new-machi-2{
+    background-color: #799B9B;
+}
+.wrap-google-map-fm-v2.sendai-parco2 .list-option-new-shop-second .list-option-new-other .items-option-other-first.sendai-parco2{
+    background-color: #fff;
+    border: 1px solid #00A7B0;
+}
+.wrap-google-map-fm-v2.kanazawa .list-option-new-shop-second .list-option-new-other .items-option-other-first.kanazawa{
+    background-color: #fff;
+    border: 1px solid #dacc4a;
+}
+.wrap-google-map-fm-v2.kurashiki .list-option-new-shop-second .list-option-new-other .items-option-other-first.kurashiki{
+    background-color: #fff;
+    border: 1px solid #336666;
+}
+.wrap-btn-v2 .btn-v2-sendai-parco2{
+    background-color: #00A7B0;
+}
+.wrap-btn-v2 .btn-v2-sapporo-susukinostation{
+    background-color: #535FA3;
+}
+.btn-v2-sendai-parco2 .pattern:before {
+    border-color: #D9C580 transparent transparent transparent;
+}
+.btn-v2-sendai-parco2 .pattern:after {
+    border-color: transparent transparent transparent #B3A6CF;
+}
+.wrap-general-google-map-btn.sendai-parco2{
+    display: flex;
+    justify-content: center;
+}
+.wrap-general-google-map-btn.sendai-parco2 .wrap-btn-v2{
+    margin-bottom: 36px;
+}
+.wrap-general-google-map-btn.sendai-parco2 .wrap-btn-v2{
+    margin-bottom: 36px;
+}
+.wrap-general-google-map-btn.sendai-parco2 .wrap-item{
+    width: 425px;
+}
+.sendai-parco2-ranking .widget-list-product-highend.more-items ul.list li .image{
+    background-image: -webkit-repeating-linear-gradient(left,#00A7B0 0,#00A7B0 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(left,#00A7B0 0,#00A7B0 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(top,#00A7B0 0,#00A7B0 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(top,#00A7B0 0,#00A7B0 50%,transparent 50%,transparent 100%);
+    background-image: -o-repeating-linear-gradient(left,#00A7B0 0,#00A7B0 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(left,#00A7B0 0,#00A7B0 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(top,#00A7B0 0,#00A7B0 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(top,#00A7B0 0,#00A7B0 50%,transparent 50%,transparent 100%);
+    background-image: repeating-linear-gradient(to right,#00A7B0 0,#00A7B0 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to right,#00A7B0 0,#00A7B0 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to bottom,#00A7B0 0,#00A7B0 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to bottom,#00A7B0 0,#00A7B0 50%,transparent 50%,transparent 100%);
+    background-position: left top,left bottom,left top,right top;
+    background-repeat: repeat-x,repeat-x,repeat-y,repeat-y;
+    background-size: 6px 1px,6px 1px,1px 6px,1px 6px;
+    height: inherit;
+    margin-bottom: 12px;
+}
+.sendai-parco2-ranking .widget-formal-product-by-shop .filter-shop-ranking .group-btn.active{
+    background-color: #057F7F;
+}
+.sapporo-susukinostation-ranking .widget-formal-product-by-shop .filter-shop-ranking .group-btn.active{
+    background-color: #2a3477;
+}
+.sendai-parco2-ranking .widget-formal-product-by-shop .filter-shop-ranking .group-btn{
+    background-color: #00A7B0;
+}
+.sapporo-susukinostation-ranking .widget-formal-product-by-shop .filter-shop-ranking .group-btn{
+    background-color: #535FA3;
+}
+.wrap-spots-shop-fm-v2.asakusa.sendai-parco2{
+    background: -webkit-repeating-linear-gradient(210deg, #E0F4F4,
+    #E0F4F4 5px,
+    #DCF7F6 5px,
+    #DCF7F6 10px
+    );
+    background: -o-repeating-linear-gradient(210deg, #E0F4F4,
+    #E0F4F4 5px,
+    #DCF7F6 5px,
+    #DCF7F6 10px
+    );
+    background: repeating-linear-gradient(-120deg, #E0F4F4,
+    #E0F4F4 5px,
+    #DCF7F6 5px,
+    #DCF7F6 10px
+    );
+    margin-bottom: 90px;
+}
+.wrap-spots-shop-fm-v2.asakusa.sapporo-susukinostation{
+    background: -webkit-repeating-linear-gradient(210deg, #e4e8f9,
+    #e4e8f9 5px,
+    #e9edfa 5px,
+    #e9edfa 10px
+    );
+    background: -o-repeating-linear-gradient(210deg, #e4e8f9,
+    #e4e8f9 5px,
+    #e9edfa 5px,
+    #e9edfa 10px
+    );
+    background: repeating-linear-gradient(-120deg, #e4e8f9,
+    #e4e8f9 5px,
+    #e9edfa 5px,
+    #e9edfa 10px
+    );
+    margin-bottom: 90px;
+}
+.wrap-spots-shop-fm-v2.sendai-parco2 .pattern.ginza:before,
+.wrap-spots-shop-fm-v2.sendai-parco2 .pattern.ginza:before{
+    border-color: #00A7B0 transparent transparent transparent;
+}
+.wrap-spots-shop-fm-v2.sapporo-susukinostation .pattern.ginza:before,
+.wrap-spots-shop-fm-v2.sapporo-susukinostation .pattern.ginza:before{
+    border-color: #535FA3 transparent transparent transparent;
+}
+.wrap-spots-shop-fm-v2.sendai-parco2 .title-small-spots,
+.wrap-spots-shop-fm-v2.sendai-parco2 .title-big-spots{
+    color: #00A7B0;
+}
+.wrap-spots-shop-fm-v2.sapporo-susukinostation .title-small-spots,
+.wrap-spots-shop-fm-v2.sapporo-susukinostation .title-big-spots{
+    color: #535FA3;
+}
+.wrap-btn-v2.sendai-parco2 .btn-v2 .icon-arrow-r-link{
+    width: 20px;
+    margin-right: 13px;
+    left: 15px;
+}
+.wrap-blog-shop-fm-v2.sendai-parco2 .sub-item-info-other .bg-item-inside{
+    background-color: #e0f4f4;
+}
+.wrap-blog-shop-fm-v2.sapporo-susukinostation .sub-item-info-other .bg-item-inside{
+    background-color: #C6CEF4;
+}
+.wrap-blog-shop-fm-v2.sendai-parco2 .sub-item-info-other .bg-item-outside{
+    background-color: #cae8e6;
+}
+.wrap-blog-shop-fm-v2.sapporo-susukinostation .sub-item-info-other .bg-item-outside{
+    background-color: #E4E8F9;
+}
+.wrap-top-plan-circle-fm-v2.sendai-parco2 .wrap-scene-btn a{
+    background: url(/images/new-kimono/access/bg-btn-bubble-sendai-parco2.svg) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+.sendai-parco2 .intro-title:before,
+.sendai-parco2 .intro-title:after{
+    background: url('/images/new-kimono/access/flower-pt-sendai-parco2.svg') no-repeat;
+}
+.page-slug-shinjuku-station .banner-top-highend-v2{
+    display: none;
+}
+.wrap-reservation-status-fm-v2.sendai-parco2  .wrap-btn-v2.first{
+    margin-right: 50px;
+}
+.wrap-reservation-status-fm-v2.sendai-parco2 .wrap-btn{
+    justify-content: center;
+}
+.wrap-reservation-status-fm-v2.sendai-parco2 .wrap-btn-v2{
+    margin-bottom: 0;
+}
+.wrap-rental-plan-sendai-parco2 .wrap-box .box-plan{
+    margin-bottom: 15px;
+}
+.wrap-reservation-status-fm-v2.sendai-parco2 .wrap-grid-booking-access .wrap-btn-v2:first-child{
+    margin-right: 15px;
+}
+.wrap-reservation-status-fm-v2.sapporo-susukinostation .wrap-grid-booking-access .wrap-btn-v2:first-child{
+    margin-right: 15px;
+}
+.wrap-reservation-status-fm-v2.sendai-parco2 .wrap-booking-content .wrap-choose-info{
+    padding: 0 0 15px 25px;
+}
+.wrap-top-plan-circle-fm-v2.sendai-parco2 .wrap-text-scene-above,
+.wrap-top-plan-circle-fm-v2.sapporo-susukinostation .wrap-text-scene-above{
+    font-size: 22px;
+}
+.wrap-slider-gallery-sendai-parco2.wrap-slider-gallery .slick-prev:before,
+.wrap-slider-gallery-sendai-parco2.wrap-slider-gallery .slick-next:before{
+    color: #00A7B0;
+}
+.wrap-slider-gallery-sapporo-susukinostation.wrap-slider-gallery .slick-prev:before,
+.wrap-slider-gallery-sapporo-susukinostation.wrap-slider-gallery .slick-next:before{
+    color: #535FA3;
+}
+.list-option-new-other .items-option-detail-new{
+    width: calc(100% * 1/4);
+    margin-bottom: 10px;
+}
+.wrap-option-detail-other .textbox-option-new-other{
+    width: 125px;
+    margin-right: 10px;
+}
+/*access to shop kanazawa*/
+.wrap-access-to-shop-fm-v2.kanazawa .list-access-shop .num-item{
+    color: #958c12;
+}
+.wrap-access-to-shop-fm-v2.kanazawa.shinjuku .list-access-shop .num-item{
+    color: #d84d96;
+}
+.wrap-access-to-shop-fm-v2.kanazawa .list-access-shop .slick-next:before{
+    content: url(../images/shop-fomal-v2/next-arrow-kanazawa.svg);
+}
+.wrap-access-to-shop-fm-v2.kanazawa.shinjuku .list-access-shop .slick-next:before{
+    content: url(../images/shop-fomal-v2/next-arrow-shinjuku.svg);
+}
+.wrap-access-to-shop-fm-v2.kanazawa .list-access-shop .slick-prev:before {
+    content: url(../images/shop-fomal-v2/prev-arrow-kanazawa.svg);
+}
+.wrap-access-to-shop-fm-v2.kanazawa.shinjuku .list-access-shop .slick-prev:before {
+    content: url(../images/shop-fomal-v2/prev-arrow-shinjuku.svg);
+}
+.wrap-access-to-shop-fm-v2.kanazawa .list-access-shop .item-list-access-shop:nth-child(3):after,
+.wrap-access-to-shop-fm-v2.kanazawa .list-access-shop .item-list-access-shop:nth-child(5):after,
+.wrap-access-to-shop-fm-v2.kanazawa .list-access-shop .item-list-access-shop.slick-current:nth-child(7):after,
+.wrap-access-to-shop-fm-v2.kanazawa .list-access-shop .item-list-access-shop:nth-child(9):after {
+    content: url(../images/shop-fomal-v2/next-arrow-kanazawa.svg);
+}
+.wrap-access-to-shop-fm-v2.kanazawa.shinjuku .list-access-shop .item-list-access-shop:nth-child(3):after,
+.wrap-access-to-shop-fm-v2.kanazawa.shinjuku .list-access-shop .item-list-access-shop:nth-child(5):after,
+.wrap-access-to-shop-fm-v2.kanazawa.shinjuku .list-access-shop .item-list-access-shop:nth-child(7):after,
+.wrap-access-to-shop-fm-v2.kanazawa.shinjuku .list-access-shop .item-list-access-shop.slick-current:nth-child(9):after,
+.wrap-access-to-shop-fm-v2.kanazawa.shinjuku .list-access-shop .item-list-access-shop:nth-child(11):after {
+    content: url(../images/shop-fomal-v2/next-arrow-shinjuku.svg);
+}
+.wrap-access-to-shop-fm-v2.kanazawa.shinjuku .list-access-shop .item-list-access-shop.slick-current:nth-child(9):after{
+    left: 350px;
+}
+.btn-v2-01-kanazawa .pattern.ginza-honten:before,
+.btn-v2-kanazawa .pattern:before{
+    border-color: #d9af80 transparent transparent transparent;
+}
+/*intro bottom*/
+.kurashiki.section-intro-bottom {
+    margin-bottom: 30px;
+}
+.kurashiki .box-intro-bottom .title-intro-bottom {
+    font-size: 30px;
+    line-height: 1;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.kurashiki .box-intro-bottom .des-intro-bottom {
+    font-size: 17px;
+    line-height: 1.8;
+}
+/*==Dazaifu==*/
+.dazaifu-bg-pink{
+    background-color: #E03344;
+}
+.text-color-blue{
+    color: #83C2C5;
+}
+.border-pink{
+    border-color: #E03344;
+}
+
+.bg-light-orange-dazaifu.content-reason .title-including .including-price{
+    color: #E03344;
+}
+.bg-light-orange-dazaifu .content-reason .title-including .including-price{
+    color: #B48C00;
+
+}
+.dazaifu .content-reason .title-including .including-price{
+    color: #E03344;
+}
+.bg-light-orange-dazaifu .list-including .item-including-other:after{
+    background: url(/images/new-kimono/access/price-pattern-dazaifu.svg) no-repeat;
+}
+.text-pink .dazaifu-bg-pink.arrow:after {
+    background-color: #E03344;
+}
+.bg-light-orange-dazaifu{
+    background-color: #F2C0C9;
+}
+.wrap-btn-v2 .btn-v2-dazaifu,
+.wrap-btn-v2 .btn-v2-01.btn-v2-01-dazaifu,
+.wrap-btn-v2 .btn-v2-01.bg-dazaifu,
+.wrap-btn-v2 .btn-v2-01.btn-v2-dazaifu{
+    background-color: #EA6374;
+}
+.btn-v2-asakusa .dazaifu.pattern:before {
+    border-color: #FBD7B4 transparent transparent transparent;
+}
+.btn-v2-asakusa .dazaifu.pattern:after {
+    border-color: transparent transparent transparent #f2c0c9;
+}
+.wrap-google-map-fm-v2.dazaifu .text-addess-map{
+    background-color: #E03344;
+}
+.wrap-google-map-fm-v2.dazaifu .items-option-detail-new{
+    background-color: #E03344;
+}
+.wrap-google-map-fm-v2.dazaifu .list-option-detail-new-machi-2:nth-child(1){
+    background-color: #E03344;
+}
+.wrap-google-map-fm-v2.dazaifu .list-option-detail-new-machi-2:nth-child(2){
+    background-color: #CC6666;
+}
+.wrap-google-map-fm-v2.asakusa .list-option-new-shop-second .dazaifu-detail-list-option .items-option-detail-new{
+    background-color: #fff;
+    border: 1px solid #909090;
+}
+.wrap-google-map-fm-v2.dazaifu .list-option-new-shop-second .items-option-detail-new .textbox-option-new-other:first-child{
+    border: none;
+    background-color: inherit;
+}
+.wrap-google-map-fm-v2.dazaifu .list-option-new-shop-second .items-option-detail-new{
+    border: 1px solid #909090;
+}
+.wrap-google-map-fm-v2.dazuifu .list-option-new-shop-second .items-option-detail-new:first-child{
+    border: 1px solid #909090;
+}
+.dazaifu .wrap-spots-shop-fm-v2.asakusa {
+    background: -webkit-repeating-linear-gradient(210deg, #f2c0c9, #f2c0c9 5px, #f5cdd4 5px, #f5cdd4 10px );
+    background: -o-repeating-linear-gradient(210deg, #f2c0c9,
+    #f2c0c9 5px,
+    #f5cdd4 5px,
+    #f5cdd4 10px
+    );
+    background: -o-repeating-linear-gradient(210deg, #f2c0c9, #f2c0c9 5px, #f5cdd4 5px, #f5cdd4 10px );
+    background: repeating-linear-gradient(-120deg, #f2c0c9, #f2c0c9 5px, #f5cdd4 5px, #f5cdd4 10px );
+    margin-bottom: 90px;
+}
+.dazaifu .wrap-spots-shop-fm-v2 {
+    background: -webkit-repeating-linear-gradient(210deg, #e1dcec,
+    #e1dcec 5px,
+    #e6e2ef 5px,
+    #e6e2ef 10px
+    );
+    background: -o-repeating-linear-gradient(210deg, #e1dcec,
+    #e1dcec 5px,
+    #e6e2ef 5px,
+    #e6e2ef 10px
+    );
+    background: repeating-linear-gradient(-120deg, #e1dcec,
+    #e1dcec 5px,
+    #e6e2ef 5px,
+    #e6e2ef 10px
+    );
+    margin-bottom: 90px;
+}
+.dazaifu .wrap-spots-shop-fm-v2.asakusa .title-small-spots{
+    color: #EA6374;
+}
+.dazaifu .wrap-spots-shop-fm-v2.asakusa .title-big-spots{
+    color: #EA6374;
+}
+.dazaifu .wrap-spots-shop-fm-v2.asakusa .pattern.ginza:before{
+    border-color: #E03344 transparent transparent transparent;
+    left: 0;
+    top: -50px;
+    border-width: 30px 30px 0 0;
+}
+.wrap-reason-choose-fm-v2.dazaifu .list-reason .item-reason.active {
+    background: -webkit-repeating-linear-gradient(210deg, #f2c0c9, #f2c0c9 5px, #f5cdd4 5px, #f5cdd4 10px );
+    background: -o-repeating-linear-gradient(210deg, #f2c0c9,#f2c0c9 5px,#f5cdd4 5px,#f5cdd4 10px);
+    background: -o-repeating-linear-gradient(210deg, #f2c0c9, #f2c0c9 5px, #f5cdd4 5px, #f5cdd4 10px );
+    background: repeating-linear-gradient(-120deg, #f2c0c9, #f2c0c9 5px, #f5cdd4 5px, #f5cdd4 10px );
+}
+.wrap-reason-choose-fm-v2.dazaifu .content-reason:before{
+    border-bottom: 34px solid #F2C0C9;
+}
+.bg-light-orange-dazaifu{
+    background-color: #F2C0C9;
+}
+.text-pink{
+    color: #E03344;
+}
+.text-orange-dazaifu{
+    color: #E03344;
+}
+.dazaifu .wrap-list-option-detail-new-1 .list-option-detail-new:last-child{
+    width: 310px;
+    height: 75px;
+}
+.dazaifu-option-detail-new {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+}
+.dazaifu .wrap-scene-btn a {
+    background: url(/images/new-kimono/access/bg-btn-bubble-dazaifu.svg) no-repeat;
+    background-position: bottom;
+}
+.wrap-google-map-fm-v2.dazaifu{
+    background-color: #F2C0C9;
+    border: 1px solid #E03344;
+}
+.wrap-google-map-fm-v2.dazaifu .text-pink{
+    color: #E03344;
+}
+.dazaifu .btn-v2-asakusa .pattern:before {
+    border-color: #FBD7B4 transparent transparent transparent;
+}
+.dazaifu .btn-v2-asakusa .pattern:after {
+    border-color: transparent transparent transparent #f2c0c9;
+}
+.btn-v2-dazaifu .pattern:before{
+    border-color: #FBD7B4 transparent transparent transparent;
+}
+.btn-v2-dazaifu .pattern.dazaifu-bg-pink:after{
+    border-color: transparent transparent transparent #f2c0c9;
+}
+.dazaifu .content-reason .including-average{
+    background-color: #E03344;
+}
+.box-spots-shop-fm-v2 ul.list-content-spots .item-content-spots .text-content-spots .title-text.text-pink{
+    color: #E03344;
+    border-bottom: 1px solid #E03344;
+}
+.dazaifu .column-list li .post-num{
+    border: 2px solid #E03344;
+    color: #E03344;
+    -webkit-box-shadow: 4px 4px 0 0 #E03344;
+    box-shadow: 4px 4px 0 0 #E03344;
+}
+.wrap-column-post-dazaifu .column-list li{
+    border: 2px solid #E03344;
+}
+.wrap-column-post-dazaifu .column-list li .img a{
+    border-bottom: 2px dashed #E03344;
+}
+.wrap-column-post-dazaifu .column-list li .column-title{
+    color: #E03344;
+}
+.wrap-column-post-dazaifu .column-list li .read:after{
+    border-color: transparent transparent #E03344 transparent;
+}
+.wrap-blog-shop-fm-v2.dazaifu .sub-item-info-other .bg-item-inside{
+    background-color: #E27187;
+}
+.wrap-reason-choose-fm-v2.dazaifu .title-item-reason .reason-name:after{
+    background-color: #E03344;
+}
+.dazaifu .list-including .item-including-other .line-including:after,
+.dazaifu .list-including .item-including-other .line-including:before {
+    border-bottom: 1px solid #E03344;
+}
+.wrap-blog-shop-fm-v2.ginza-honten.dazaifu .sub-item-info-other .bg-item-outside {
+    background-color: #F2C0C9;
+}
+.bg-light-orange-dazaifu.content-reason .including-info{
+    font-weight: bold;
+}
+.dazaifu .wrap-shop-intro .intro-title:before,
+.dazaifu .wrap-shop-intro .intro-title:after{
+    background: url(/images/new-kimono/access/flower-pt-dazaifu.svg) no-repeat;
+    right: -35px;
+}
+.dazaifu .wrap-shop-intro .intro-title:before,
+.dazaifu .wrap-shop-intro .intro-title:before{
+    background: url(/images/new-kimono/access/flower-pt-dazaifu.svg) no-repeat;
+    left: -42px;
+}
+.dazaifu .wrap-rental-plan-kanazawa .plan-info .plan-name:before,
+.dazaifu .wrap-rental-plan-kanazawa .plan-info .plan-name:after {
+    background-image: url(/images/new-kimono/access/flower-pt-dazaifu.svg);
+}
+.dazaifu .wrap-rental-plan-kanazawa .plan-info .plan-name:before,
+.dazaifu .wrap-rental-plan-kanazawa .plan-info .plan-name:before {
+    background-image: url(/images/new-kimono/access/flower-pt-dazaifu.svg)
+}
+.wrap-rental-plan-dazaifu .plan-info .wrap-btn a{
+    border: 2px solid #E03344;
+    color: #E03344;
+}
+.wrap-rental-plan-dazaifu .plan-info .show-less span {
+    border: 2px solid #E03344;
+}
+.wrap-rental-plan-dazaifu .plan-info .show-less span:before {
+    border-right: 2px solid #E03344;
+    border-bottom: 2px solid #E03344;
+}
+.text-orange-brown-dazaifu{
+    color: #E03344;
+}
+.wrap-reason-choose-fm-v2.dazaifu .wrap-reason-03-ginza-yukata .detail-link {
+    margin: inherit;
+    width: 160px;
+    height: 160px;
+}
+.bg-reason-orange-dazaifu{
+    background-color: #E03344;
+}
+.wrap-reason-choose-fm-v2.dazaifu .list-reason .item-reason {
+    margin-left: 60px;
+}
+.wrap-reason-choose-fm-v2.dazaifu .list-reason .item-reason:nth-child(1) {
+    margin-left: 10px;
+}
+.dazaifu .reason-2:before {
+    left: 24%;
+}
+.wrap-reason-choose-fm-v2.dazaifu .content-reason.reason-5::before {
+    left: 46%;
+}
+.dazaifu .wrap-list-option-detail-new-1{
+    justify-content: left;
+}
+.dazaifu .content-reason .bag-img .wrap-bt-set .bt-set {
+    border: 2px solid #E03344;
+}
+.dazaifu .box-intro-bottom .title-intro-bottom{
+    font-size: 26px;
+}
+.dazaifu .box-intro-bottom .des-intro-bottom {
+    font-size: 15px;
+}
+
+
+/*===osaka-shinsaibashi===*/
+.wrap-google-map-fm-v2.osaka-shinsaibashi-opa .text-addess-map {
+    background-color: #1F66A8;
+}
+.wrap-google-map-fm-v2.osaka-shinsaibashi-opa {
+    border: 1px solid rgba(31,102,168,0.5);
+    background-color: rgba(102,175,204,0.5);
+    margin-bottom: 30px;
+}
+.wrap-google-map-fm-v2.osaka-shinsaibashi-opa .jusho-color {
+    color: #1F66A8;
+}
+.wrap-google-map-fm-v2.osaka-shinsaibashi-opa .wrap-btn-v2-map .btn-v2 {
+    background-color: #597ABA;
+}
+.wrap-google-map-fm-v2.osaka-shinsaibashi-opa .items-option-detail-new.list-option-detail-new-machi-1 {
+    background-color: #1F66A8;
+}
+.wrap-google-map-fm-v2.osaka-shinsaibashi-opa .items-option-detail-new.list-option-detail-new-machi-2 {
+    background-color: #597ABA;
+}
+.osaka-shinsaibashi-opa .text-sub-line:after{
+    background-color: #666666;
+}
+.osaka-shinsaibashi-opa .list-option-new-shop-second {
+    border-top: 1px solid #666666;
+}
+.wrap-google-map-fm-v2.osaka-shinsaibashi-opa .list-option-new-shop-second .items-option-detail-new {
+    border: 1px solid #1F66A8;
+}
+.wrap-google-map-fm-v2.osaka-shinsaibashi-opa .items-option-detail-new {
+    background-color: #1F66A8;
+}
+.wrap-google-map-fm-v2.osaka-shinsaibashi-opa .list-option-new-shop-second ul .items-option-detail-new:first-child {
+    border: 1px solid #1F66A8;
+    background-color: #fff;
+}
+.wrap-general-google-map-btn.osaka-shinsaibashi-opa {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.wrap-general-google-map-btn.osaka-shinsaibashi-opa .wrap-link-btn .box-link-btn .link-to-btn{
+    color: #1F66A8;
+}
+.wrap-general-google-map-btn.osaka-shinsaibashi-opa .wrap-link-btn .box-link-btn .link-to-btn {
+    border-bottom: 1px solid #1F66A8;
+}
+.osaka-shinsaibashi-opa.wrap-general-google-map-btn .wrap-link-btn .box-link-btn .link-to-btn:after{
+    background-color: #1F66A8;
+}
+.osaka-shinsaibashi-opa .wrap-rental-plan-kanazawa .plan-info .wrap-btn a {
+    border: 2px solid #1F66A8;
+}
+.osaka-shinsaibashi-opa .wrap-rental-plan-kanazawa .plan-info .show-less span {
+    border: 2px solid #1F66A8;
+}
+.osaka-shinsaibashi-opa .wrap-btn-v2 .btn-v2-kanazawa,
+.osaka-shinsaibashi-opa .wrap-btn-v2 .btn-v2-01.btn-v2-01-kanazawa,
+.osaka-shinsaibashi-opa.wrap-btn-v2 .btn-v2-01.bg-ginza-kanazawa,
+.osaka-shinsaibashi-opa .wrap-btn-v2 .btn-v2-01.btn-v2-kanazawa,
+.wrap-btn-v2 .btn-v2-01.btn-v2-osaka-shinsaibashi-opa{
+    background-color: #597ABA;
+}
+.btn-v2-01-kanazawa.osaka-shinsaibashi-opa .pattern.ginza-honten:before,
+.btn-v2-kanazawa.osaka-shinsaibashi-opa .pattern:before {
+    border-color: #EDC099 transparent transparent transparent;
+}
+.osaka-shinsaibashi-opa .btn-v2-asakusa .pattern:after {
+    border-color: transparent transparent transparent #5E4D9D;
+}
+.osaka-shinsaibashi-opa .wrap-rental-plan-kanazawa .plan-info .show-less span:before {
+    border-right: 2px solid #1F66A8;
+    border-bottom: 2px solid #1F66A8;
+}
+.wrap-products-shop-store.osaka-shinsaibashi-opa .more-list-ginza .more-info {
+    background-color: #1F66A8;
+}
+.osaka-shinsaibashi-opa .kanazawa-ranking .widget-formal-product-by-shop .filter-shop-ranking .group-btn {
+    background-color: #1F66A8;
+}
+.osaka-shinsaibashi-opa .wrap-btn-v2 .btn-v2-asakusa {
+    background-color: #597ABA;
+}
+.wrap-spots-shop-fm-v2.osaka-shinsaibashi-opa .pattern.ginza:before {
+    border-color: #1F66A8 transparent transparent transparent;
+}
+.wrap-spots-shop-fm-v2.asakusa.osaka-shinsaibashi-opa {
+    background: -webkit-repeating-linear-gradient(210deg, #b2d6e5,
+    #b2d6e5 5px,
+    #c1deea 5px,
+    #c1deea 10px
+    );
+    background: -o-repeating-linear-gradient(210deg, #b2d6e5,
+    #b2d6e5 5px,
+    #c1deea 5px,
+    #c1deea 10px
+    );
+    background: repeating-linear-gradient(-120deg, #b2d6e5,
+    #b2d6e5 5px,
+    #c1deea 5px,
+    #c1deea 10px
+    );
+    margin-bottom: 90px;
+    border: 1px solid rgba(89,122,186,0.5);
+}
+.wrap-spots-shop-fm-v2.asakusa.osaka-shinsaibashi-opa .title-small-spots {
+    color: #1F66A8;
+}
+.osaka-shinsaibashi-opa .box-spots-shop-fm-v2 ul.list-content-spots .item-content-spots .text-content-spots .title-text {
+    border-bottom: 1px solid #1F66A8;
+    color: #1F66A8;
+}
+.wrap-reason-choose-fm-v2.asakusa.osaka-shinsaibashi-opa .list-reason .item-reason.active {
+    background: -webkit-repeating-linear-gradient(210deg, #1f66a8,
+    #1f66a8 5px,
+    #3575b1 5px,
+    #3575b1 10px
+    );
+    background: -o-repeating-linear-gradient(210deg, #1f66a8,
+    #1f66a8 5px,
+    #3575b1 5px,
+    #3575b1 10px
+    );
+    background: repeating-linear-gradient(-120deg, #1f66a8,
+    #1f66a8 5px,
+    #3575b1 5px,
+    #3575b1 10px
+    );
+}
+.osaka-shinsaibashi-opa .text-orange-kanazawa {
+    color: #1F66A8;
+}
+.osaka-shinsaibashi-opa .wrap-order-reason-ginza-shop .title-item-reason .reason-name:after {
+    background-color: #1F66A8;
+}
+.osaka-shinsaibashi-opa .text-purple-other{
+    color: #5E4D9D;
+}
+.osaka-shinsaibashi-opa .osaka-text-red{
+    color: #CF424B;
+}
+.wrap-reason-choose-fm-v2.asakusa.osaka-shinsaibashi-opa .content-reason:before {
+    border-bottom: 34px solid #8eb2d3;
+}
+.bg-light-blue-osaka{
+    background-color: rgba(31,102,168,0.5);
+}
+.osaka-shinsaibashi-opa .content-reason .title-including .including-price {
+    color: #1F66A8;
+}
+.osaka-shinsaibashi-opa .content-reason .including-average {
+    background-color: #1F66A8;
+}
+.osaka-shinsaibashi-opa .osaka-boder-blue{
+    border-color: #1F66A8;
+}
+.osaka-shinsaibashi-opa .osaka-text-blue{
+    color: #1F66A8;
+}
+.osaka-shinsaibashi-opa .list-including .item-including-other .line-including:after,
+.osaka-shinsaibashi-opa .list-including .item-including-other .line-including:before {
+    border-bottom: 1px solid #1F66A8;
+}
+.osaka-shinsaibashi-opa .osaka-bg-blue{
+    background-color: #1F66A8;
+}
+.osaka-shinsaibashi-opa .osaka-bg-blue .arrow:after {
+    background-color: #1F66A8;
+}
+.osaka-shinsaibashi-opa .including-bottom .text-including .arrow:after{
+    background-color: #1F66A8;
+}
+.wrap-reason-choose-fm-v2.osaka-shinsaibashi-opa .box-type.store .item-including:after {
+    border-top: 10px solid #F29544;
+}
+.osaka-shinsaibashi-opa .osaka-bg-blue-light{
+    background-color: #597ABA;
+}
+.osaka-shinsaibashi-opa .osaka-bg-purple{
+    background-color: #5E4D9D;
+}
+.osaka-shinsaibashi-opa .osaka-pink-light{
+    background-color: #EDC099;
+}
+.osaka-shinsaibashi-opa .intro-bg:before {
+    border-left: 18px solid #EDC099;
+}
+.osaka-shinsaibashi-opa .wrap-review-asakusa .intro-bg:after {
+    border-right: 18px solid #5E4D9D;
+}
+.osaka-shinsaibashi-opa .wrap-review-asakusa .sub-title-intro .num {
+    color: #5E4D9D;
+}
+.osaka-shinsaibashi-opa .wrap-review-asakusa {
+    background-color: #abbcdc;
+}
+.osaka-shinsaibashi-opa .wrap-blog-shop-fm-v2.asakusa .sub-item-info-other .bg-item-inside {
+    background-color: #819ecc;
+}
+.osaka-shinsaibashi-opa .wrap-blog-shop-fm-v2.asakusa .sub-item-info-other .bg-item-outside {
+    background-color: #bcd2e5;
+}
+.osaka-shinsaibashi-opa .wrap-list-option-detail-new .items-text-detail-new{
+    color: #ffffff;
+}
+.osaka-shinsaibashi-opa .wrap-shop-intro .intro-title:before,
+.osaka-shinsaibashi-opa .wrap-shop-intro .intro-title:after {
+    background: url(/images/new-kimono/access/flower-pt-osaka-opa.svg) no-repeat;
+}
+.osaka-shinsaibashi-opa .wrap-scene-btn a {
+    background: url(/images/new-kimono/access/bg-btn-bubble-osaka-opa.svg) no-repeat;
+    background-position: bottom;
+}
+.osaka-shinsaibashi-opa .wrap-rental-plan-kanazawa .plan-info .plan-name:before,
+.osaka-shinsaibashi-opa .wrap-rental-plan-kanazawa .plan-info .plan-name:after {
+    background-image: url(/images/new-kimono/access/flower-pt-osaka-opa.svg);
+}
+.osaka-shinsaibashi-opa .wrap-rental-plan-kanazawa .plan-info .wrap-btn a{
+    color: #5E4D9D;
+}
+
+/*==Okinawa Naha==*/
+
+.wrap-general-google-map-btn.okinawa-naha{
+    justify-content: center;
+}
+.banner-top-sales-okinawa{
+    margin-bottom: 40px;
+}
+.okinawa-naha .wrap-shop-intro .intro-title:before,
+.okinawa-naha .wrap-shop-intro .intro-title:after{
+    background: url('/images/new-kimono/access/flower-pt-okinawa-naha.svg') no-repeat;
+}
+.wrap-top-plan-circle-fm-v2.okinawa-naha .wrap-scene-btn a{
+    background: url(/images/new-kimono/access/bg-btn-bubble-okinawa-naha.svg) no-repeat;
+    background-position: bottom;
+}
+.wrap-rental-plan-okinawa-noha #yukata-plan .box-plan .plan-info:not(.open){
+    display: flex;
+}
+.wrap-top-plan-circle-fm-v2.okinawa-naha .list-scene-v2 .item-scene-v2.color-circle-01 .out-circle,
+.wrap-top-plan-circle-fm-v2.okinawa-naha .item-scene-v2.color-circle-01 .inside-circle,
+.wrap-top-plan-circle-fm-v2.okinawa-naha .list-scene-v2 .item-scene-v2.color-circle-01 .num-circle{
+    border-color: #00A7B0;
+    color: #00A7B0;
+}
+.wrap-google-map-fm-v2.okinawa-naha{
+    border: 1px solid #FF652E;
+    background-color: #F4C9BE;
+}
+.wrap-products-shop-store.okinawa-naha .more-list-ginza .more-info,
+.wrap-google-map-fm-v2.okinawa-naha .items-option-detail-new,
+.wrap-google-map-fm-v2.okinawa-naha .text-addess-map,
+.wrap-btn-v2 .btn-v2-01.btn-v2-okinawa-naha,
+.wrap-btn-v2 .btn-v2-okinawa-naha{
+    background-color: #FF652E;
+}
+.wrap-google-map-fm-v2.okinawa-naha .list-option-detail-new-machi-1{
+    background-color: #C17954;
+}
+.wrap-google-map-fm-v2.okinawa-naha .list-option-new-shop-second .items-option-detail-new{
+    border-color: #FF652E;
+}
+.wrap-rental-plan-okinawa-noha .plan-info .wrap-btn a{
+    color: #FF652E;
+    border: 2px solid #FF652E;
+}
+.okinawa-naha-ranking .widget-list-product-highend.more-items ul.list li .image{
+    background-image: -webkit-repeating-linear-gradient(left,#FF652E 0,#FF652E 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(left,#FF652E 0,#FF652E 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(top,#FF652E 0,#FF652E 50%,transparent 50%,transparent 100%),-webkit-repeating-linear-gradient(top,#FF652E 0,#FF652E 50%,transparent 50%,transparent 100%);
+    background-image: -o-repeating-linear-gradient(left,#FF652E 0,#FF652E 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(left,#FF652E 0,#FF652E 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(top,#FF652E 0,#FF652E 50%,transparent 50%,transparent 100%),-o-repeating-linear-gradient(top,#FF652E 0,#FF652E 50%,transparent 50%,transparent 100%);
+    background-image: repeating-linear-gradient(to right,#FF652E 0,#FF652E 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to right,#FF652E 0,#FF652E 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to bottom,#FF652E 0,#FF652E 50%,transparent 50%,transparent 100%),repeating-linear-gradient(to bottom,#FF652E 0,#FF652E 50%,transparent 50%,transparent 100%);
+}
+.okinawa-naha-ranking .widget-list-product-highend ul.list li .wrap-price .price,
+.okinawa-naha-ranking .widget-list-product-highend ul.list li .wrap-price .price .currency,
+.okinawa-naha-ranking .widget-list-product-highend ul.list li .wrap-price .price .tax {
+    color: #FF652E;
+}
+.wrap-reservation-status-fm-v2.okinawa-naha .wrap-grid-booking-access .wrap-btn-v2:first-child {
+    margin-right: 45px;
+}
+.btn-okinawa-naha-custom .btn-v2 .text-link{
+    padding-left: 0;
+}
+.wrap-spots-shop-fm-v2.okinawa-naha .pattern.ginza:before{
+    border-color: #FF652E transparent transparent transparent;
+}
+.wrap-spots-shop-fm-v2.okinawa-naha .title-big-spots{
+    background-image: url(/images/new-kimono/access/title-big-spots-okinawa-naha.svg);
+    height: 80px;
+}
+.wrap-spots-shop-fm-v2.asakusa.okinawa-naha .title-small-spots{
+    margin-bottom: 20px;
+}
+.wrap-spots-shop-fm-v2.asakusa.okinawa-naha .title-small-spots,
+.wrap-spots-shop-fm-v2.asakusa.okinawa-naha .title-big-spots{
+    color: #FF652E;
+}
+.wrap-spots-shop-fm-v2.asakusa.okinawa-naha{
+    background: -webkit-repeating-linear-gradient(210deg, #f1d5cd,
+    #f1d5cd 5px,
+    #eecac0 5px,
+    #eecac0 10px
+    );
+    background: -o-repeating-linear-gradient(210deg, #f1d5cd,
+    #f1d5cd 5px,
+    #eecac0 5px,
+    #eecac0 10px
+    );
+    background: repeating-linear-gradient(-120deg, #f1d5cd,
+    #f1d5cd 5px,
+    #eecac0 5px,
+    #eecac0 10px
+    );
+}
+.wrap-spots-shop-fm-v2.okinawa-naha .box-spots-shop-fm-v2 ul.list-content-spots .item-content-spots .text-content-spots .title-text{
+    color: #BB7147;
+    border-bottom: 1px solid #BB7147;
+}
+.wrap-reason-choose-fm-v2.okinawa-naha .list-reason .item-reason.active{
+    background: -webkit-repeating-linear-gradient(210deg, #FF652E,
+    #FF652E 5px,
+    rgba(255,101,46,0.9) 5px,
+    rgba(255,101,46,0.9) 10px
+    );
+    background: -o-repeating-linear-gradient(210deg, #FF652E,
+    #FF652E 5px,
+    rgba(255,101,46,0.9) 5px,
+    rgba(255,101,46,0.9) 10px
+    );
+    background: repeating-linear-gradient(-120deg, #FF652E,
+    #FF652E 5px,
+    rgba(255,101,46,0.9) 5px,
+    rgba(255,101,46,0.9) 10px
+    )
+}
+.wrap-reason-choose-fm-v2.okinawa-naha .list-including .item-including-other:after{
+    background: url(/images/new-kimono/access/price-pattern-okinawa-naha.svg) no-repeat;
+}
+.wrap-reason-choose-fm-v2.okinawa-naha .box-type.store .item-including:after{
+    border-top: 10px solid #FF652E;
+}
+.text-orange-okinawa-naha,
+.wrap-reason-choose-fm-v2.okinawa-naha .content-reason .title-including .including-price{
+    color: #FF652E;
+}
+.wrap-reason-choose-fm-v2.okinawa-naha .title-item-reason .reason-name:after,
+.wrap-reason-choose-fm-v2.okinawa-naha .content-reason .including-average,
+.bg-orange-okinawa-naha,
+.wrap-reason-choose-fm-v2.okinawa-naha .including-bottom .text-including .arrow:after{
+    background-color: #FF652E;
+}
+.wrap-reason-choose-fm-v2.okinawa-naha.content-reason .title-including .including-price{
+    color: #FF652e
+}
+.wrap-reason-choose-fm-v2.okinawa-naha .list-including .item-including-other .line-including:after,
+.wrap-reason-choose-fm-v2.okinawa-naha .list-including .item-including-other .line-including:before{
+    border-bottom: 1px solid #FF652e;
+}
+.wrap-reason-choose-fm-v2.okinawa-naha .bg-light-orange-okinawa-naha{
+    background-color: #F4C9BE;
+}
+.wrap-reason-choose-fm-v2.okinawa-naha .content-reason:before{
+    border-bottom: 34px solid #F4C9BE;
+}
+.border-orange-okinawa-naha{
+    border-color: #FF652e;
+}
+.wrap-review-okinawa-naha{
+    background-color: #F4C9BE;
+}
+.wrap-review-okinawa-naha .intro-bg:after{
+    border-right: 18px solid #FFA20C;
+}
+.wrap-review-okinawa-naha .intro-bg:before{
+    border-left: 18px solid #9EC580;
+}
+.wrap-review-okinawa-naha .sub-title-intro .name{
+    margin-right: 15px;
+}
+.wrap-review-okinawa-naha .sub-title-intro .num{
+    color: #FF652e;
+}
+.wrap-review-okinawa-naha .box-review:before,
+.wrap-review-okinawa-naha .box-review:after,
+.wrap-review-okinawa-naha .pd-review .link-more{
+    background-color: #FF652e;
+}
+.wrap-review-okinawa-naha .wrap-pd-img .pd-img{
+    background-image: -webkit-repeating-linear-gradient(left, #FF652e 0%, #FF652e 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(left, #FF652e 0%, #FF652e 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #FF652e 0%, #FF652e 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #FF652e 0%, #FF652e 50%, transparent 50%, transparent 100%);
+    background-image: -o-repeating-linear-gradient(left, #FF652e 0%, #FF652e 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(left, #FF652e 0%, #FF652e 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, #FF652e 0%, #FF652e 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, #FF652e 0%, #FF652e 50%, transparent 50%, transparent 100%);
+    background-image: repeating-linear-gradient(to right, #FF652e 0%, #FF652e 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to right, #FF652e 0%, #FF652e 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, #FF652e 0%, #FF652e 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, #FF652e 0%, #FF652e 50%, transparent 50%, transparent 100%);
+}
+.wrap-column-post-okinawa-naha .column-list li{
+    border: 2px solid #FF652e;
+}
+.wrap-column-post-okinawa-naha .column-list li .column-title{
+    color: #FF652e;
+}
+.wrap-column-post-okinawa-naha .column-list li .img a{
+    border-bottom: 2px dashed #FF652e;
+}
+.wrap-column-post-okinawa-naha .column-list li .read:after{
+    border-color: transparent transparent #FF652e transparent;
+}
+.wrap-column-post-okinawa-naha .column-list li .post-num{
+    border: 2px solid #FF652e;
+    color: #FF652e;
+    -webkit-box-shadow: 4px 4px 0 0 rgba(255,101,46,1);
+    box-shadow: 4px 4px 0 0 rgba(255,101,46,1);
+}
+.wrap-wg-fm-gallery-access.okinawa-naha-ranking .widget-formal-product-by-shop .filter-shop-ranking .group-btn{
+    background-color: #FF652e;
+}
+.wrap-wg-fm-gallery-access.okinawa-naha-ranking .widget-formal-product-by-shop .filter-shop-ranking .group-btn.active{
+    background-color: #FC3B00;
+}
+.wrap-blog-shop-fm-v2.okinawa-naha .sub-item-info-other .bg-item-outside{
+    background-color: #FBD7B4;
+}
+.wrap-blog-shop-fm-v2.okinawa-naha .sub-item-info-other .bg-item-inside{
+    background-color: #F29544;
+}
+.wrap-products-shop-store.okinawa-naha .wrap-title-ginza-store .lg-title,
+.wrap-products-shop-store.okinawa-naha .more-list-ginza .more-info,
+.wrap-spots-shop-fm-v2.asakusa.okinawa-naha .title-small-spots,
+.wrap-spots-shop-fm-v2.okinawa-naha .box-spots-shop-fm-v2 ul.list-content-spots .item-content-spots .text-content-spots .title-text{
+    font-weight: bold;
+}
+.wrap-review-okinawa-naha .wrap-review .intro{
+    margin-bottom: 20px;
+}
+.wrap-review-okinawa-naha .review-info .ctm-name strong{
+    font-size: 25px;
+}
+/*==Title general v2==*/
+.title-general-v2{
+    width: 100%;
+    margin-bottom: 40px;
+    border-radius: 50px;
+    background-color: #3b002a;
+    padding: 10px 40px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    line-height: 1;
+}
+.title-general-v2 .text-title-general-v2 .en-text-title{
+    font-size: 40px;
+    font-style: italic;
+    margin-right: 10px;
+    font-weight: 400;
+    font-family: FontTitleSanta;
+}
+.title-general-v2.title-general-v2-access{
+    background-color: #1f66a8;
+}
+.title-general-v2.title-general-v2-access .text-title-general-v2 .en-text-title{
+    margin-right: 25px;
+}
+.osaka-shinsaibashi-opa .section-banner-general{
+    margin-bottom: 35px;
+}
+.osaka-shinsaibashi-opa .list-sec-banner-general{
+    margin-left: -25px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.item-sec-banner .des-sec-banner{
+    line-height: 1.5;
+    font-size: 15px;
+}
+.osaka-shinsaibashi-opa .list-sec-banner-general .item-sec-banner{
+    width: calc(100% * (1/2) - 25px);
+    margin: 0 0 20px 25px;
+}
+.osaka-shinsaibashi-opa .list-sec-banner-general .item-sec-banner .link-page-banner{
+    display: block;
+    line-height: 1;
+}
+.osaka-shinsaibashi-opa .list-sec-banner-general .item-sec-banner .link-page-banner img{
+    margin-bottom: 7px;
+    width: 100%;
+}
+.bg-light-orange-asakusa .list-sec-banner-general .item-sec-banner .des-sec-banner{
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.osaka-shinsaibashi-opa .wrap-info-clo .info-clo .notes-bottom p{
+    font-size: 11px;
+}
+.osaka-shinsaibashi-opa .wrap-slider-gallery-kanazawa.wrap-slider-gallery .slick-prev:before,
+.osaka-shinsaibashi-opa .wrap-slider-gallery-kanazawa.wrap-slider-gallery .slick-next:before {
+    color: #1F66A8;
+}
+.wrap-review-osaka-shinsaibashi-opa .box-review:before,
+.wrap-review-osaka-shinsaibashi-opa .box-review:after {
+    background-color: #5E4D9D;
+}
+.wrap-review-osaka-shinsaibashi-opa .box-review:before,
+.wrap-review-osaka-shinsaibashi-opa .box-review:after {
+    background-color: #5E4D9D;
+}
+.wrap-review-osaka-shinsaibashi-opa .pd-review .link-more {
+    background-color: #1F66A8;
+}
+.osaka-shinsaibashi-opa .wrap-review .wrap-pd-img .pd-img {
+    background-image: -webkit-repeating-linear-gradient(left, #1F66A8 0%, #1F66A8 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(left, #1F66A8 0%, #1F66A8 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #1F66A8 0%, #1F66A8 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #1F66A8 0%, #1F66A8 50%, transparent 50%, transparent 100%);
+    background-image: -o-repeating-linear-gradient(left, #1F66A8 0%, #1F66A8 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(left, #1F66A8 0%, #1F66A8 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, #1F66A8 0%, #1F66A8 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, #1F66A8 0%, #1F66A8 50%, transparent 50%, transparent 100%);
+    background-image: repeating-linear-gradient(to right, #1F66A8 0%, #1F66A8 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to right, #1F66A8 0%, #1F66A8 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, #1F66A8 0%, #1F66A8 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, #1F66A8 0%, #1F66A8 50%, transparent 50%, transparent 100%);
+}
+.btn-osaka-opa-custom .btn-v2 .text-link{
+    padding-left: 0;
+}
+.wrap-column-post-osaka-shinsaibashi-opa .column-list li .post-num {
+    border: 2px solid #1F66A8;
+    color: #1F66A8;
+    box-shadow: 4px 4px 0 0 #1F66A8;
+}
+.wrap-column-post-osaka-shinsaibashi-opa .column-list li .img a {
+    border-bottom: 2px dashed #1F66A8;
+}
+.wrap-column-post-osaka-shinsaibashi-opa .column-list li .column-title {
+    color: #1F66A8;
+}
+.wrap-column-post-osaka-shinsaibashi-opa .column-list li .read:after {
+    border-color: transparent transparent #1F66A8 transparent;
+}
+.wrap-column-post-osaka-shinsaibashi-opa .column-list li {
+    width: calc(100% * 1 / 2 - 40px);
+    margin: 0 0 50px 40px;
+    border: 2px solid #1F66A8;
+}
+.osaka-shinsaibashi-opa .list-option-new-other .items-option-detail-new {
+    width: calc(100% * 1/3 - 10px);
+}
+.osaka-shinsaibashi-opa .text-sub-line {
+    color: #565656;
+}
+.osaka-shinsaibashi-opa .wrap-spots-shop-fm-v2.asakusa .title-big-spots {
+    color: #1F66A8;
+}
+.osaka-shinsaibashi-opa .wrap-grid-booking-access .wrap-btn-v2:first-child {
+    margin-right: 15px;
+}
+.osaka-shinsaibashi-opa .kurashiki .box-intro-bottom .des-intro-bottom {
+    font-size: 16px;
+}
+.osaka-shinsaibashi-opa .block-viewbooking-top-page .row {
+    padding: 0 7px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.osaka-shinsaibashi-opa .list-including .item-including-other:after {
+    position: absolute;
+    display: block;
+    top: -45px;
+    right: -12px;
+    content: "";
+    background: url(/images/new-kimono/access/price-pattern-osaka-opa.svg) no-repeat;
+}
+.osaka-shinsaibashi-opa .list-including .item-including .sub-including-name {
+    font-size: 14px;
+}
+.osaka-shinsaibashi-opa .box-intro-bottom .title-intro-bottom{
+    display: table;
+    position: relative;
+}
+.osaka-shinsaibashi-opa .box-intro-bottom .title-intro-bottom:before,
+.osaka-shinsaibashi-opa .box-intro-bottom .title-intro-bottom:after {
+    background-image: url(/images/new-kimono/access/flower-pt-osaka-opa.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    content: '';
+    background-size: cover;
+    width: 55px;
+    height: 55px;
+    top: -16px;
+}
+.osaka-shinsaibashi-opa .box-intro-bottom .title-intro-bottom:before {
+    left: -17px;
+}
+.osaka-shinsaibashi-opa .box-intro-bottom .title-intro-bottom:after {
+    right: -12px;
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.wrap-review-osaka-shinsaibashi-opa .wrap-line-v2 .line-v2-single{
+    background-image: url(/images/new-kimono/access/line-single-osaka-opa-pc.svg);
+}
+.osaka-shinsaibashi-opa .widget-formal-product-by-shop .filter-shop-ranking .group-btn.active{
+    background-color: #094d8c;
+}
+.asakusa .list-option-detail-custom .items-option-detail-new{
+    padding: 13px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.tos-caption {
+    display: none;
+}
+.tos-slide img {
+    max-height: 120%;
+    min-width: 400px;
+}
+body:not(.ja) .osaka-shinsaibashi-opa .list-access-shop .slick-prev:before {
+    content: '\3008'
+}
+body:not(.ja) .osaka-shinsaibashi-opa .list-access-shop .slick-next:before {
+    content: '\3009'
+}
+body:not(.ja) .osaka-shinsaibashi-opa .list-access-shop .slick-prev,
+body:not(.ja) .osaka-shinsaibashi-opa .list-access-shop .slick-next{
+    width: 50px;
+}
+body:not(.ja) .osaka-shinsaibashi-opa .list-access-shop .slick-prev {
+    left: -30px;
+}
+body:not(.ja) .osaka-shinsaibashi-opa .list-access-shop .slick-next {
+    right: -30px;
+}
+body:not(.ja) .osaka-shinsaibashi-opa .list-access-shop .slick-next:before,
+body:not(.ja) .osaka-shinsaibashi-opa .list-access-shop .slick-prev:before {
+    color: #1f66a8;
+    font-size: 35px;
+    cursor: pointer;
+}
+/*===banner===*/
+.wrap-new-main-banner-access article{
+    position: absolute;
+    left: 4%;
+    top: 8%;
+    max-width: 420px;
+}
+.wrap-new-main-banner-access{
+    position: relative;
+}
+.wrap-new-main-banner-access .text-area {
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #fffbc3;
+    display: inline-block;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 2px;
+}
+.wrap-new-main-banner-access .shop-name {
+    font-size: 55px;
+    font-weight: 600;
+    color: #410b3c;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+.wrap-new-main-banner-access .name-store {
+    font-size: 18px;
+    color: #fec1e2;
+    margin-bottom: 86px;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+.wrap-new-main-banner-access .intro-store {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.wrap-reservation-status-fm-v2 .wrap-rental-plan-asakusa{
+    width: 50%;
+}
+.wrap-reservation-status-fm-v2 .wrap-rental-plan-asakusa .wrap-btn .btn-booking{
+    width: 100%;
+    font-size: 24px;
+    padding: 15px;
+}
+.wrap-rental-plan-kamakura .wrap-btn .btn-booking{
+    border: none !important;
+    background-color: #f3313d;
+    color: #fff !important;
+    width: 80%;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 30px;
+    text-align: center;
+    padding: 12px 10px;
+}
+.plan-info .wrap-btn a:after {
+    background: none;
+}
+.wrap-column-post-kamakura .text-banner {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+.wrap-column-post-kamakura .wrap-item {
+    width: 50%;
+    margin: 30px auto;
+}
+
+.banner-customer-thanksgiving .slick-dots{
+    bottom: -15px;
+}
+.banner-customer-thanksgiving .slick-dots li{
+    margin: 0;
+}
+.banner-customer-thanksgiving .slick-dots li button:before{
+    font-size: 50px;
+}
+.banner-customer-thanksgiving .slick-prev:before,
+.banner-customer-thanksgiving .slick-next:before{
+    content: '';
+    border-style: solid;
+    display: inline-block;
+    border-color: #fff;
+    opacity: 1;
+    width: 20px;
+    height: 20px;
+    border-width: 2px 2px 0 0;
+}
+.banner-customer-thanksgiving .slick-prev,
+.banner-customer-thanksgiving .slick-next{
+    z-index: 99;
+}
+.banner-customer-thanksgiving .slick-prev{
+    left: 15px;
+}
+.banner-customer-thanksgiving .slick-next{
+    right: 15px;
+}
+.banner-customer-thanksgiving .slick-prev:before{
+    -webkit-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+.banner-customer-thanksgiving .slick-next:before{
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.banner-customer-thanksgiving .slick-arrow{
+    display: none !important;
+}
+.banner-customer-thanksgiving:hover .slick-arrow{
+    display: block !important;
+}
+/*kanazawa-thai*/
+.wrap-rental-plan-kanazawa .wrap-btn .btn-booking {
+    border: none;
+    background-color: #f3313d;
+    color: #fff;
+    width: 80%;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 30px;
+    text-align: center;
+    padding: 12px 10px;
+}
+.wrap-rental-plan-asakusa.kanazawa .wrap-btn .btn-booking {
+    background-color: #a5ae33;
+    border: 1px solid #286533;
+}
+.wrap-rental-plan-kanazawa .wrap-btn-v2 .btn-plan {
+    margin-bottom: 10px;
+}
+.wrap-reservation-status-fm-v2.kanazawa .wrap-buttons {
+    margin-left: -20px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+.wrap-reservation-status-fm-v2.kanazawa .wrap-kanazawa-bt {
+    width: calc((100% * 1/2) - 20px);
+    margin-left: 20px;
+}
+.wrap-reservation-status-fm-v2.kanazawa .wrap-rental-plan-asakusa {
+    width: 100%;
+    cursor: pointer;
+}
+.wrap-review.wrap-review-kanazawa .intro {
+    width: 84%;
+}
+.wrap-rental-plan .wrap-btn .btn-booking{
+    border: none !important;
+    background-color: #f3313d;
+    color: #fff !important;
+    width: 80%;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    text-align: center;
+    padding: 12px 10px;
+}
+.wrap-rental-plan .wrap-btn .btn-booking:after{
+    display: none !important;
+}
+/*Kyoto-station*/
+.kyotostation .shop-info .main-image{
+    margin-bottom: 0;
+}
+.kyotostation .wrap-scene-btn a{
+    background: url(/images/new-kimono/access/bg-btn-bubble-kyoto.svg) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+.wrap-google-map-fm-v2.kyotostation{
+    padding-bottom: 15px;
+    border: 1px solid #dc9b59;
+    background-color: #fad6b4;
+}
+.wrap-google-map-fm-v2.kyotostation .list-option-new-shop-second.option-new-shop-kyoto .list-option-detail-new{
+    margin-left: 0;
+}
+.wrap-google-map-fm-v2.kyotostation .list-option-new-shop-second.option-new-shop-kyoto .items-option-detail-new{
+    width: calc(100% * (1/4) - 35px);
+    margin: 0 35px 5px 0;
+}
+.wrap-google-map-fm-v2.kyotostation .list-option-new-shop-second.option-new-shop-kyoto .items-option-detail-new .items-text-detail-new{
+    background-color: #fff;
+    border: 1px solid #8f8f8f;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    padding: 7px 5px;
+    font-size: 18px;
+}
+.wrap-google-map-fm-v2.kyotostation .list-option-new-shop-second .items-option-detail-new .items-text-detail-new.no-border{
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    justify-content: left;
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: inherit;
+    border: none;
+}
+.wrap-google-map-fm-v2.kyotostation .list-option-new-shop-second.option-new-shop-kyoto .items-option-detail-new{
+    background-color: inherit;
+    border: none;
+}
+.wrap-google-map-fm-v2.kyotostation .des-infor-map-area{
+    color:#000;
+    font-size: 14px;
+    line-height: 1.8;
+}
+.wrap-google-map-fm-v2.kyotostation .items-option-detail-new,
+.wrap-google-map-fm-v2.kyotostation .text-addess-map{
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    background-color: #dc9b59;
+}
+.wrap-google-map-fm-v2.kyotostation .list-option-detail-new-machi-2,
+.wrap-google-map-fm-v2.kyotostation .wrap-btn-v2-map .btn-v2{
+    background-color: #ff9933;
+}
+.wrap-google-map-fm-v2.kyotostation .wrap-btn-v2-map .btn-v2{
+    width: 60%;
+}
+.wrap-google-map-fm-v2.kyotostation .wrap-btn-v2 .btn-v2 .icon-arrow-r-link{
+    left: 3px;
+}
+.wrap-google-map-fm-v2.kyotostation .jusho-color,
+.wrap-spots-shop-fm-v2.kyotostation .title-small-spots,
+.kyotostation .box-spots-shop-fm-v2 ul.list-content-spots .item-content-spots .text-content-spots .title-text,
+.wrap-column-post-kyotostation .column-list li .column-title,
+.kyotostation .list-access-shop .num-item{
+    color: #dc9b59;
+}
+.kyotostation .box-spots-shop-fm-v2 ul.list-content-spots .item-content-spots .text-content-spots .title-text{
+    border-bottom: 1px solid #e03344;
+}
+.kyotostation .wrap-shop-intro .intro-title:before,
+.kyotostation .wrap-shop-intro .intro-title:after{
+    width: 90px;
+    height: 85px;
+}
+.kyotostation .wrap-shop-intro .intro-title:before,
+.kyotostation .wrap-shop-intro .intro-title:after,
+.kyotostation .plan-info .plan-name:before,
+.kyotostation .plan-info .plan-name:after{
+    background: url(/images/new-kimono/access/flower-pt-kyoto.svg) no-repeat;
+    background-size: cover;
+}
+.kyotostation .btn-v2-kyoto,
+.kyotostation .wrap-btn-v2 .btn-v2-01.btn-v2-kyotostation{
+    background-color: #ffaf53;
+}
+.kyotostation .btn-v2-kyoto .pattern:before,
+.kyotostation .btn-v2-kyotostation.btn-v2-asakusa .pattern:before,
+.kyotostation .btn-v2-kyoto .pattern.ginza-honten:before{
+    border-color: #ffe772 transparent transparent transparent;
+}
+.kyotostation .btn-v2-kyoto .pattern:after,
+.kyotostation .btn-v2-kyotostation.btn-v2-asakusa .pattern:after,
+.kyotostation .btn-v2-kyoto .pattern.ginza-honten:after{
+    border-color: transparent transparent transparent #a2b6ff;
+}
+.kyotostation .wrap-btn-v2 .btn-plan{
+    color: #ffaf53;
+    border: 2px solid #ffaf53;
+}
+.kyotostation .wrap-link-btn .box-link-btn .link-to-btn{
+    color: #ff9933;
+}
+.kyotostation .box-photo-sesstion .des-photo-session{
+    margin-bottom: 60px;
+}
+.kyotostation .wrap-experience .ex-title{
+    -webkit-box-shadow: 10px 10px 0 0 #dc9b59;
+    box-shadow: 10px 10px 0 0 #dc9b59;
+}
+.kyotostation .wrap-video-youtube .video-item{
+    -webkit-box-shadow: 10px 10px 0 0 #dc9b59;
+    box-shadow: 10px 10px 0 0 #dc9b59;
+}
+.wrap-column-post-kyotostation{
+    margin-bottom: 70px;
+}
+.wrap-spots-shop-fm-v2.kyotostation .title-big-spots{
+    background-image: url(../images/shop-fomal-v2/title-big-spots-kyoto.svg);
+    color: #dc9b59;
+}
+.wrap-spots-shop-fm-v2.kyotostation .pattern.ginza:before {
+    border-color: #dc9b59 transparent transparent transparent;
+}
+.wrap-spots-shop-fm-v2.asakusa.kyotostation {
+    background: -webkit-repeating-linear-gradient(210deg, #fad6b4, #fad6b4 5px, #fcdfc3 5px, #fcdfc3 10px );
+    background: -o-repeating-linear-gradient(210deg, #fad6b4, #fad6b4 5px, #fcdfc3 5px, #fcdfc3 10px );
+    background: repeating-linear-gradient(-120deg, #fad6b4, #fad6b4 5px, #fcdfc3 5px, #fcdfc3 10px );
+    margin-bottom: 90px;
+}
+.wrap-column-post-kyotostation .column-list li{
+    border: 2px solid #dc9b59;
+}
+.wrap-column-post-kyotostation .column-list li .post-num{
+    border: 2px solid #dc9b59;
+    color: #dc9b59;
+    -webkit-box-shadow: 4px 4px 0 0 #dc9b59;
+    box-shadow: 4px 4px 0 0 #dc9b59;
+}
+.wrap-column-post-kyotostation .column-list li .img a{
+    border-bottom: 2px dashed #dc9b59;
+}
+.wrap-column-post-kyotostation .column-list li .read:after{
+    border-color: transparent transparent #dc9b59 transparent;
+}
+.kyotostation .list-access-shop .slick-prev:before {
+    content: url(../images/shop-fomal-v2/prev-arrow-kyoto.svg);
+}
+.kyotostation .list-access-shop .slick-next:before,
+.kyotostation .list-access-shop .item-list-access-shop:nth-child(3):after,
+.kyotostation .list-access-shop .item-list-access-shop:nth-child(5):after,
+.kyotostation .list-access-shop .item-list-access-shop.slick-current:nth-child(7):after,
+.kyotostation .list-access-shop .item-list-access-shop:nth-child(9):after{
+    content: url(../images/shop-fomal-v2/next-arrow-kyoto.svg);
+}
+.wrap-review-kyotostation{
+    background-color: #fad6b4;
+}
+.wrap-review-kyotostation .item-total-ctm-review-kyotostation {
+    border: 2px solid #ff9933;
+}
+.wrap-review-kyotostation .wrap-title-name-review-kyotostation {
+    border-bottom: 1px solid #ff9933;
+}
+.wrap-review-kyotostation .item-total-ctm-review-custom .star-medium,
+.wrap-review-kyotostation .sub-title-intro var.average-rank-star-ct{
+    color: #ff9933;
+}
+.wrap-blog-shop-fm-v2.kyotostation .sub-item-info-other .bg-item-outside{
+    background-color: #fad6b4;
+}
+.wrap-blog-shop-fm-v2.kyotostation .sub-item-info-other .bg-item-inside,
+.kyotostation .title-general-v2.title-general-v2-access{
+    background-color: #dc9b59;
+}
+.wrap-blog-shop-fm-v2.kyotostation{
+    margin-bottom: 100px;
+}
+.section-banner-general.kyoto-station{
+    margin-bottom: 45px;
+}
+.kyoto-station.section-intro-bottom{
+    margin-bottom: 50px;
+}
+.wrap-reservation-status-fm-v2.asakusa.kyotostation .wrap-btn-v2{
+    margin-bottom: 80px;
+}
+.wrap-rental-plan-kyoto .plan-info .price{
+    font-weight: bold;
+}
+/*Reason Kyoto*/
+.text-orange-price-kyoto{
+    color: #ef7e00;
+}
+.text-orange-kyoto{
+    color: #dc9b59;
+}
+.text-orange-other{
+    color: #83c2c5;
+}
+.border-orange-kyoto {
+    border-color: #ef7e00;
+}
+.border-orange-kyoto-other{
+    border-color: #dc9b59;
+}
+.bg-orange-kyoto{
+    background-color: #dc9b59;
+}
+.bg-light-orange-kyoto{
+    background-color: #fad6b4;
+}
+.wrap-reason-choose-fm-v2.kyotostation .content-reason:before{
+    border-bottom: 34px solid #fad6b4;
+}
+.wrap-reason-choose-fm-v2.kyotostation .list-including .item-including-other:after{
+    background: url(/images/formal-rental/formal-list-v2/price-pattern-kyoto.svg) no-repeat;
+}
+.wrap-reason-choose-fm-v2.kyotostation .content-reason .title-including .including-price,
+.wrap-reason-choose-fm-v2.kyotostation .active .inner-yukata .price{
+    color: #ef7e00;
+}
+.wrap-reason-choose-fm-v2.kyotostation .content-reason .including-average{
+    background-color: #dc9b59;
+}
+.wrap-reason-choose-fm-v2.kyotostation .text-orange-kyoto.arrow:after,
+.wrap-reason-choose-fm-v2.kyotostation .bg-orange-kyoto.arrow{
+    background-color: #ef7e00;
+}
+.wrap-reason-choose-fm-v2.kyotostation .list-including .item-including-other .line-including:after,
+.wrap-reason-choose-fm-v2.kyotostation .list-including .item-including-other .line-including:before {
+    border-bottom: 1px solid #e03344;
+}
+.wrap-reason-choose-fm-v2.kyotostation .list-including .item-including-other .line-including{
+    margin-bottom: 20px;
+}
+.wrap-reason-choose-fm-v2.kyotostation .list-reason .item-reason .title-item-reason .reason-name{
+    margin-bottom: 15px;
+}
+.wrap-reason-choose-fm-v2.kyotostation .list-reason .item-reason.active .title-item-reason .reason-name,
+.wrap-reason-choose-fm-v2.kyotostation .item-reason.active .reason-special{
+    color: #dc9b59;
+}
+.wrap-reason-choose-fm-v2.kyotostation .item-reason.active .title-item-reason .reason-name:after {
+    background-color: #dc9b59;
+}
+.wrap-reason-choose-fm-v2.kyotostation .list-reason .item-reason.active{
+    background: -webkit-repeating-linear-gradient(210deg, #fbd7b4,
+    #fbd7b4 5px,
+    rgba(251,215,180,0.9) 5px,
+    rgba(251,215,180,0.9) 10px
+    );
+    background: -o-repeating-linear-gradient(210deg, #fbd7b4,
+    #fbd7b4 5px,
+    rgba(251,215,180,0.9) 5px,
+    rgba(251,215,180,0.9) 10px
+    );
+    background: repeating-linear-gradient(-120deg, #fbd7b4,
+    #fbd7b4 5px,
+    rgba(251,215,180,0.9) 5px,
+    rgba(251,215,180,0.9) 10px
+    );
+    color: #ef7e00;
+}
+.wrap-reason-choose-fm-v2.kyotostation .wrap-set-img .set-img img{
+    margin-bottom: 40px;
+}
+.wrap-reason-choose-fm-v2.kyotostation .wrap-info-clo .img,
+.wrap-reason-choose-fm-v2.kyotostation .reason-5 .img{
+    width: auto;
+    margin-bottom: 0;
+}
+.wrap-list-shop-kyoto{
+    background-color: #fce7d2;
+    padding: 50px 8px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 -26px;
+}
+.wrap-list-shop-kyoto .wrap-group-step-col{
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.wrap-list-shop-kyoto .step-info.step-info-name{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-left: 12px;
+}
+.wrap-list-shop-kyoto .step-info.step-info-name .title-shop-name:first-child{
+    margin-bottom: 10px;
+}
+.wrap-list-shop-kyoto .wrap-col-02 .step-info.step-info-name .title-shop-name:first-child,
+.wrap-list-shop-kyoto .wrap-col-04 .detail-02 .step-info.step-info-name .title-shop-name:first-child{
+    margin-bottom: 0;
+}
+.wrap-list-shop-kyoto .group-step-col.group-step-col-top{
+    margin-bottom: 30px;
+}
+.wrap-list-shop-kyoto .wrap-col{
+    width: 100%;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+}
+.wrap-list-shop-kyoto .step-info{
+    width: calc(100% * 1/2 - 14px);
+    font-size: 19px;
+    line-height: 1;
+    color: #242424;
+}
+.wrap-list-shop-kyoto .step-info-address{
+    padding: 12px 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.wrap-list-shop-kyoto .wrap-col-01 .step-info-address,
+.wrap-list-shop-kyoto .wrap-col-03 .step-info-address{
+    padding: 40px 0;
+    border-radius: 20px;
+}
+.wrap-list-shop-kyoto .wrap-col.wrap-col-02,
+.wrap-list-shop-kyoto .wrap-col.wrap-col-04{
+    margin-left: 30px;
+}
+.wrap-list-shop-kyoto .title-shop-name{
+    position: relative;
+    white-space: nowrap;
+}
+.wrap-list-shop-kyoto .title-shop-name:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 15px solid #dc9b59;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+}
+.wrap-list-shop-kyoto .link-to-shop-detail{
+    margin-left: 20px;
+}
+.wrap-list-shop-kyoto .wrap-col-04 .wrap-col-detail:first-child{
+    margin-bottom: 10px;
+}
+/*new-kid-content*/
+.wrap-product-kid-content .title-kid{
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.wrap-product-kid-content .banner-kid-image {
+    margin-bottom: 30px;
+}
+.wrap-product-kid-content .wrap-img-des-kid {
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.wrap-product-kid-content .wrap-des-kid .sub-title{
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 22px;
+    text-align: center;
+}
+.wrap-product-kid-content .wrap-des-kid .des-text {
+    font-size: 18px;
+    margin-bottom: 80px;
+    line-height: 1.5;
+}
+.wrap-product-kid-content .btn-non-link {
+    border: 2px solid #535FA3;
+}
+.wrap-product-kid-content .btn-non-link a:after,
+.wrap-product-kid-content .btn-non-link .text .text-link{
+    color: #535FA3;
+}
+.wrap-product-kid-content .wrap-btn-v2-ginza-shop{
+    margin-bottom: 100px;
+}
+.wrap-product-kid-content .sendai .btn-non-link {
+    border: 2px solid #00A7B0;
+}
+.wrap-product-kid-content .sendai .btn-non-link a:after,
+.wrap-product-kid-content .sendai .btn-non-link .text .text-link {
+    color: #00A7B0;
+}
+#filter_product_product_by_shop_v2_1_list_view .btn-v2-sendai-parco2{
+    display: none;
+}
+
+/*Rental plan*/
+.plan-section .wrap-main-btn {
+    margin: 0
+}
+
+.plan-section .plan-intro-desc {
+    margin-bottom: 30px
+}
+
+.plan-section .plan-intro-desc p {
+    font-size: 16px;
+    line-height: 1.5
+}
+.wrap-plan-group{
+    margin-bottom: 40px;
+}
+.wrap-title-plan{
+    align-items: center;
+    margin-bottom: 20px;
+}
+.wrap-title-plan .icon-toggle{
+    position: relative;
+    top: -5px;
+    display: inline-block;
+    margin-left: auto;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+.wrap-title-plan.active .icon-toggle{
+    top: 0;
+    transform: rotate(0);
+}
+.wrap-title-plan .icon-toggle:after{
+    content: '';
+    display: inline-block;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='23.616' height='13.503' viewBox='0 0 23.616 13.503'%3E%3Cpath id='Icon_ionic-ios-arrow-down' data-name='Icon ionic-ios-arrow-down' d='M18,20.679l8.93-8.937a1.681,1.681,0,0,1,2.384,0,1.7,1.7,0,0,1,0,2.391L19.2,24.258a1.685,1.685,0,0,1-2.327.049L6.68,14.14a1.688,1.688,0,0,1,2.384-2.391Z' transform='translate(29.804 24.749) rotate(180)'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 20px;
+}
+.wrap-title-plan .icon{
+    margin-right: 5px;
+}
+.wrap-title-plan .icon img{
+    width: 35px;
+}
+.wrap-title-plan .lbl-title{
+    font-weight: bold;
+    font-size: 22px;
+}
+.wrap-title-plan .lbl-sub-title{
+    font-size: 18px;
+}
+.plan-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -20px;
+    margin-bottom: 20px
+}
+
+.plan-list li {
+    margin-left: 20px;
+    width: calc(100% * (1/2) - 20px)
+}
+
+.plan-list li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.plan-list li .plan-img {
+    margin-bottom: 12px;
+}
+.plan-list li .plan-info {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.plan-list li .plan-info .plan-intro {
+    font-size: 20px;
+    margin-bottom: 8px;
+    text-align: center;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-family: "ten-mincho", serif;
+}
+.plan-list li .plan-info .plan-name {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: "ten-mincho", serif;
+}
+.plan-list li .plan-info .plan-price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    color: #c90000;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "ten-mincho", serif;
+}
+.plan-info .plan-price .sm-price {
+    font-size: 20px;
+    color: #000;
+    padding: 0 0 5px 10px;
+}
+.plan-list li .plan-info .show-desc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #000;
+}
+.plan-list li .plan-info .show-desc:after {
+    content: "";
+    display: inline-block;
+    margin-left: 20px;
+    border-style: solid;
+    border-width: 12px 9px 0 9px;
+    border-color: #000 transparent transparent transparent;
+}
+.plan-list li .plan-info .show-desc.active:after {
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.plan-list li .plan-info .plan-desc {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.plan-list li .plan-btn {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "ten-mincho", serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    background-color: #c90000;
+    padding: 15px;
+}
+.wrap-link-btn .link-to {
+    background-color: #eeb001;
+    color: #fff;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 440px;
+    text-align: center;
+}
+.formal-plan .plan-item{
+    position: relative;
+    overflow: hidden;
+}
+.formal-plan .plan-item:before {
+    content: "";
+    display: block;
+    width: 100%;
+    padding-bottom: calc(140/440 * 100%);
+}
+.formal-plan .plan-item a {
+    display: block;
+    width: 100%;
+}
+.formal-plan .plan-item .detail-plan {
+    position: absolute;
+    top: 18%;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px
+}
+.formal-plan .plan-item .detail-plan .text-plan {
+    border: 1px solid #ffffff;
+    padding: 23px 0 23px 10px;
+    width: 240px;
+    font-weight: bold
+}
+.formal-plan .plan-item img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/*Slider popup*/
+.popup-overlay{
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+.wrap-slider-content{
+    position: relative;
+    margin-bottom: 30px;
+}
+.wrap-slider-popup{
+    position: absolute;
+    z-index: 10001;
+    top: 0;
+    left: 0;
+    display: none;
+    background-color: #fff;
+    width: 100%;
+}
+.wrap-slider-popup .close-popup{
+    position: absolute;
+    top: -34px;
+    right: 0;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 5px;
+    cursor: pointer;
+}
+.wrap-slider-popup .close-popup:before{
+    content: '\00D7';
+    position: absolute;
+    font-size: 26px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.slider-content .item{
+    cursor: pointer;
+}
+.slider-content .slick-prev:before{
+    left: 10px;
+}
+.slider-content .slick-next:before{
+    right: 10px;
+}
+.slider-content .slick-prev:before,
+.slider-content .slick-next:before {
+    content: '';
+    font-family: inherit;
+    display: inline-block;
+    border-right: 2px solid #333;
+    border-bottom: 2px solid #333;
+    width: 15px;
+    height: 15px;
+}
+.slider-content .slick-prev:before{
+    transform: rotate(135deg);
+}
+.slider-content .slick-next:before{
+    transform: rotate(-45deg);
+}
+.slider-content .slick-dots li{
+    margin: 0;
+}
+.slider-content .slick-dots li button:before {
+    font-size: 40px;
+    font-family: inherit;
+}
+.slider-content .slick-dots li button:before {
+    color: #E2E2E2;
+    opacity: 1;
+}
+.slider-content .slick-dots li.slick-active button:before{
+    color: #000;
+}
+.slider-popup .item{
+    cursor: initial;
+}
+.slider-popup .item .desc{
+    font-size: 14px;
+    padding: 15px 20px 30px 20px;
+}
+.slider-popup .slick-prev:before,
+.slider-popup .slick-next:before {
+    content: '';
+    font-family: inherit;
+    display: inline-block;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    width: 15px;
+    height: 15px;
+}
+.animated {
+    -webkit-animation-duration: 500ms;
+    animation-duration: 500ms;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3)
+    }
+    50% {
+        opacity: 1
+    }
+}
+.zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn
+}
+@keyframes zoomOut {
+    0% {
+        opacity: 1
+    }
+    50% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3)
+    }
+    to {
+        opacity: 0
+    }
+}
+.zoomOut {
+    -webkit-animation-name: zoomOut;
+    animation-name: zoomOut
+}
+/* Custom FAQ */
+.section-faq {
+    margin-bottom: 60px;
+}
+.section-faq .wrap-title {
+    font-family: "ten-mincho", serif;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-end;
+    -moz-align-items: flex-end;
+    -ms-align-items: flex-end;
+    align-items: flex-end;
+}
+.section-faq .wrap-title .main-title {
+    font-size: 35px;
+    color: #945191;
+    margin-right: 20px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.section-faq .wrap-title .sub-title {
+    font-size: 16px;
+}
+.section-faq .wrap-title:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url(../../../../../images/new-kimono-v3/title-pattern-bg-pc.png) no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 7px;
+}
+.section-faq .box-faqs-item .wrap-arrow-faqs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.section-faq .box-faqs-item .icon-fa {
+    width: 12px;
+    height: 12px;
+    border-right: 1px solid #eeb001;
+    border-bottom: 1px solid #eeb001;
+    cursor: pointer;
+    position: relative;
+    left: -15px;
+}
+.section-faq .box-faqs-item .icon-fa {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    top: -3px;
+}
+.section-faq .box-faqs-item .box-faqs-title.active .icon-fa {
+    transform: rotate(225deg);
+    top: 5px;
+}
+.section-faq .box-faqs-item .text-faqs-title {
+    font-size: 20px;
+    padding: 16px 0;
+    letter-spacing: 2px;
+    font-weight: 700;
+    line-height: 1;
+    width: 100%;
+    text-align: center;
+}
+.section-faq .icon-answer {
+    color: red;
+    font-size: 30px;
+}
+.section-faq .box-faqs-title {
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+}
+.section-faq .box-faqs-title:before {
+    position: absolute;
+    content: "";
+    background: url(../../../../../images/landing-page/icon-question.svg) no-repeat;
+    width: 30px;
+    height: 30px;
+    left: 12px;
+}
+.section-faq .box-faqs-item-container {
+    margin-bottom: 10px;
+}
+.section-faq .box-faqs-item-container:last-child {
+    margin-bottom: 0;
+}
+.section-faq .box-faqs-item-container .box-faqs-item {
+    border: 1px solid #dddddd;
+    color: #000;
+}
+.section-faq .box-faqs-item-container .box-faqs-item-content:before {
+    position: absolute;
+    content: "";
+    background: url(../../../../../images/landing-page/icon-answer.svg) no-repeat;
+    width: 30px;
+    height: 30px;
+    left: 12px;
+    top: 16px;
+}
+.section-faq .box-faqs-item-container .box-faqs-item-content {
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #f4f4f4;
+    display: none;
+}
+.section-faq .box-faqs-item-container .box-faqs-item-content .text-item-content {
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    margin-left: 45px;
+}
+.instruction-shop .slick-dots li {
+    margin: 0px 0px 4px 0;
+}
+.instruction-shop .slick-dots li button:before {
+    font-size: 35px;
+}
+.shop-video {
+    margin-top: 50px !important;
+}
+.shop-video.hidden {
+    display: none;
+}
+.instruction-shop.hidden {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+.instruction-shop.hidden #slider {
+    height: 350px;
+}
+.container-box {
+    position: relative;
+}

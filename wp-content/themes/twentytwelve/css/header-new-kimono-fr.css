@@ -1,0 +1,59 @@
+.top-header .wrap-congress-store .top-text-cg-store {
+    font-size: 12px;
+    text-align: center;
+}
+.wrap-top-header .wrap-congress-store .number-store .num {
+    font-size: 10px;
+}
+.wrap-top-header .wrap-congress-store .number-store{
+    flex-direction: column;
+}
+.wrap-top-header .wrap-congress-store .number-store .nation {
+    flex-direction: row;
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+.wrap-top-header .wrap-congress-store .number-store .nation span:first-child{
+    font-weight: bold;
+    margin-right: 3px;
+}
+.wrap-congress-store{
+    width: 30%;
+}
+.wrap-top-header .wrap-congress-store .number-store .num,
+.wrap-top-header .wrap-congress-store .number-store var{
+    font-size: 12px;
+}
+.wrap-top-header .wrap-congress-store .number-store var{
+    margin-left: 4px;
+}
+.wrap-top-header .wrap-info .visitor {
+    width: 50%;
+}
+.box-header .visitor .left-vst .box-vst{
+    flex-wrap: wrap;
+}
+.box-header .visitor .left-vst .icon-crown img{
+    margin-right: 3px;
+    width: 25px;
+}
+.box-header .visitor .left-vst .text-vst{
+    font-size: 14px;
+}
+.box-header .visitor .left-vst .num-vst{
+    font-size: 25px;
+}
+.box-header .visitor .left-vst .num-vst var{
+    margin-left: 3px;
+}
+
+@media (max-width: 767px){
+    .list-menu-new-kimono .item-menu-formal a {
+        padding: 10px 0;
+    }
+}
+@media (min-width: 750px){
+    .list-menu-new-kimono .item-menu-formal a {
+        font-size: 12px;
+    }
+}

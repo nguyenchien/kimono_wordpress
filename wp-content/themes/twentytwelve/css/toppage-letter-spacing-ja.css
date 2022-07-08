@@ -1,0 +1,147 @@
+/*===Header===*/
+.wrap-logo .title-name-access-top{
+    letter-spacing: 2px;
+}
+/*===Content top page===*/
+.title-list{
+    letter-spacing: 4px;
+}
+.wrap-slider-gallery .gallery-desc p{
+    letter-spacing: 2px;
+}
+.wrap-slider-gallery .link-gallery a{
+    letter-spacing: 5px;
+}
+.wrap-banner-tkh-new-kimono .des-banner-tkh{
+    letter-spacing: 5px;
+}
+.widget-banner-tp-new-kimono .list-banner-tp-new-kimono .info-des-banner{
+    letter-spacing: 3px;
+}
+.wrap-kimono-content-sidebar-widget .new-formal-widget-right p{
+    letter-spacing: 2px;
+}
+.wrap-kimono-content-sidebar-widget .new-formal-widget-right .text-new-kimono-option-title {
+    letter-spacing: 6px;
+}
+.wrap-kimono-content-sidebar-widget .new-formal-widget-right .text-new-kimono-option-title-2{
+    letter-spacing: 8px;
+}
+.wrap-kimono-content-sidebar-widget .new-formal-widget-right .text-new-kimono-option-title.new-kimono-option-text-1{
+    letter-spacing: 4px;
+}
+.wrap-kimono-content-sidebar-widget .new-formal-widget-right .text-new-kimono-option-title-2.new-kimono-option-text-3-under{
+    letter-spacing: 3px;
+}
+.new-kimono-top-topics .item-banner .text-banner a{
+    letter-spacing: 3px;
+}
+.wrap-new-kimono-howto .howto-textleft{
+    letter-spacing: 3px;
+}
+.wrap-new-kimono-howto .howto-textright {
+    letter-spacing: 4.5px;
+}
+.box-check-availbility-kimono{
+    letter-spacing: 4px;
+}
+.wrap-check-availbility-kimono-sp .wrap-general-check-availbility .num-check-availbility{
+    letter-spacing: 7px;
+}
+.wrap-check-availbility-kimono-sp .wrap-general-check-availbility .text-check-availbility{
+    letter-spacing: 5px;
+}
+.wrap-check-availbility-kimono-sp .wrap-general-check-availbility .date-check-availbility{
+    letter-spacing: 5px;
+}
+.wrap-topics-banner-kimono-widget .item-banner .text-banner{
+    letter-spacing: 1.5px;
+}
+.wrap-new-kimono-sidebar-left .title-general .sub-text-title{
+    letter-spacing: 2px;
+}
+.sub-descript-title-general,
+.sub-text-title{
+    letter-spacing: 2px;
+}
+.wrap-new-arrival-kimono-sp .sub-descript-title-general{
+    letter-spacing: 0.8px;
+}
+.intro-top-general .content-intro-top{
+    letter-spacing: 1px;
+}
+/*===Widget top shoplist===*/
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg .title-shopname-wg,
+.widget-top-shoplist .list-shoplist-wg-other .item-sub-list-other .text-shop-wg .title-shopname-wg{
+    letter-spacing: 2px;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-des-shop-wg,
+.widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other .text-des-shop-wg{
+    letter-spacing: 2px;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .new-text-shop{
+    letter-spacing: 3px;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-label-shop{
+    letter-spacing: 2px;
+}
+.sub-data-shoplist-wg .sub-item-shop-wg .link-shoplist-wg{
+    letter-spacing: 2px;
+}
+.list-opt-check .item-check{
+    width: calc(100% * (1/2) - 10px);
+    letter-spacing: 1px;
+}
+/*===Footer===*/
+.top-footer-menu-name{
+    letter-spacing: 3px;
+}
+
+@media (max-width: 767px){
+    /*===Content top page===*/
+    .wrap-new-kimono-howto .howto-textleft{
+        letter-spacing: 2px;
+    }
+    .wrap-new-kimono-howto .howto-textright{
+        letter-spacing: 2px;
+    }
+}
+
+@media (min-width: 750px){
+    /*===Header===*/
+    .box-header .visitor .left-vst .year-vst {
+        letter-spacing: 2px;
+    }
+
+    /*===Content top page===*/
+    .widget-banner-tp-new-kimono .list-banner-tp-new-kimono .info-des-banner{
+        letter-spacing: 0.8px;
+    }
+    .wrap-widget-banner-option .info-banner-option{
+        letter-spacing: 4px;
+    }
+    .wrap-topics-banner-kimono-widget .item-banner .text-banner{
+        letter-spacing: 2px;
+    }
+    .wrap-news-formal .item-news p{
+        letter-spacing: 3px;
+    }
+
+    /*===Widget top shoplist===*/
+    .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .new-text-shop{
+        letter-spacing: 0;
+    }
+    .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg .title-shopname-wg,
+    .sub-data-shoplist-wg .sub-item-shop-wg .link-shoplist-wg {
+        letter-spacing: 3px;
+    }
+    .top-shoplist-kiyomizu .widget-top-shoplist .list-shoplist-wg-other .item-sub-list-other .text-shop-wg .title-shopname-wg{
+        letter-spacing: 3px;
+    }
+
+    /*===Footer===*/
+    .new_kimono_footer .top-footer-sub-item a{
+        letter-spacing: 2px;
+    }
+}
+

@@ -1,0 +1,5 @@
+@media (min-width: 750px){
+    .credit-info, .customer-info{
+        width: 230px;
+    }
+}

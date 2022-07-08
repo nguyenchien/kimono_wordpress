@@ -1,0 +1,200 @@
+
+@font-face {
+    font-family: 'BellGothicStd-Black';
+    src: url('font/BellGothicStd-Black.eot') format('embedded-opentype'), url('font/BellGothicStd-Black.ttf')  format('truetype'), url('font/BellGothicStd-Black.svg#BellGothicStd-Black') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* noto-sans-jp-300 - latin_japanese */
+@font-face {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 300;
+    src: url('font/noto-san/noto-sans-jp-v23-latin-300.eot');
+    src: local('Noto Sans Japanese Light'), local('NotoSansJapanese-Light'), url('font/noto-san/noto-sans-jp-v23-latin-300.eot?#iefix') format('embedded-opentype'), url('font/noto-san/noto-sans-jp-v23-latin-300.woff2') format('woff2'), url('font/noto-san/noto-sans-jp-v23-latin-300.woff') format('woff'), url('font/noto-san/noto-sans-jp-v23-latin-300.ttf') format('truetype'), url('font/noto-san/noto-sans-jp-v23-latin-300.svg#NotoSans JP') format('svg');
+}
+/* noto-sans-jp-regular - latin_japanese */
+@font-face {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    src: url('font/noto-san/noto-sans-jp-v23-latin-regular.eot');
+    src: local('Noto Sans Japanese Regular'), local('NotoSansJapanese-Regular'), url('font/noto-san/noto-sans-jp-v23-latin-regular.eot?#iefix') format('embedded-opentype'), url('font/noto-san/noto-sans-jp-v23-latin-regular.woff2') format('woff2'), url('font/noto-san/noto-sans-jp-v23-latin-regular.woff') format('woff'), url('font/noto-san/noto-sans-jp-v23-latin-regular.ttf') format('truetype'), url('font/noto-san/noto-sans-jp-v23-latin-regular.svg#NotoSans JP') format('svg');
+}
+/* noto-sans-jp-500 - latin_japanese */
+@font-face {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 500;
+    src: url('font/noto-san/noto-sans-jp-v23-latin-500.eot');
+    src: local('Noto Sans Japanese Medium'), local('NotoSansJapanese-Medium'), url('font/noto-san/noto-sans-jp-v23-latin-500.eot?#iefix') format('embedded-opentype'), url('font/noto-san/noto-sans-jp-v23-latin-500.woff2') format('woff2'), url('font/noto-san/noto-sans-jp-v23-latin-500.woff') format('woff'), url('font/noto-san/noto-sans-jp-v23-latin-500.ttf') format('truetype'), url('font/noto-san/noto-sans-jp-v23-latin-500.svg#NotoSans JP') format('svg');
+}
+/* noto-sans-jp-700 - latin_japanese */
+@font-face {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 700;
+    src: url('font/noto-san/noto-sans-jp-v23-latin-700.eot');
+    src: local('Noto Sans Japanese Bold'), local('NotoSansJapanese-Bold'), url('font/noto-san/noto-sans-jp-v23-latin-700.eot?#iefix') format('embedded-opentype'), url('font/noto-san/noto-sans-jp-v23-latin-700.woff2') format('woff2'), url('font/noto-san/noto-sans-jp-v23-latin-700.woff') format('woff'), url('font/noto-san/noto-sans-jp-v23-latin-700.ttf') format('truetype'), url('font/noto-san/noto-sans-jp-v23-latin-700.svg#NotoSans JP') format('svg');
+}
+.wrap-content-ubugi-brand{
+    font-family: 'Noto Sans JP';
+}
+.title-name-formal{
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.right-column-list.right-cate-list-v3{
+    margin-left: 50px;
+}
+.banner-top-v2.ubugi-brand{
+    margin-bottom: 35px;
+}
+
+/*.wrap-infor-brand-banner*/
+.wrap-banner-child-bugi-brand{
+    background-image: url("../../../../../images/formal-rental/formal-list-v3/bg-title-ubugi-boy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 25px;
+}
+.wrap-banner-child-bugi-brand.ubugi-brand-girl{
+    background-image: url("../../../../../images/formal-rental/formal-list-v3/bg-title-ubugi-girl.jpg");
+}
+.wrap-banner-child-bugi-brand .wrap-infor-brand-banner{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    flex-direction: column;
+}
+.wrap-title-bt{
+    align-items: center;
+}
+.wrap-infor-brand-banner .top-title,
+.wrap-infor-brand-banner .title-ubugi-brand{
+    color: #fff;
+    line-height: 1;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "ten-mincho", serif;
+    margin-right: 15px;
+}
+.wrap-infor-brand-banner .sub-text-en-brand{
+    color: #fff;
+    line-height: 1;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "ten-mincho", serif;
+}
+
+/*wrap-ranking-ubugi-brand*/
+.wrap-ranking-ubugi-brand .widget-list-product-highend.more-items ul.list{
+    margin-left: -10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.wrap-ranking-ubugi-brand .widget-list-product-highend.more-items ul.list li{
+    width: calc(100% * (1/4) - 10px);
+    margin: 0 0 40px 10px;
+}
+.wrap-ranking-ubugi-brand .widget-list-product-highend.more-items ul.list li .image {
+    border: 1px solid #f7a78b;
+    margin-bottom: 13px;
+    height: inherit;
+}
+.wrap-ranking-ubugi-brand .widget-list-product-highend ul.list li .image img{
+    border: none;
+    height: 100%;
+}
+.wrap-ranking-ubugi-brand .widget-list-product-highend ul.list li .info {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.wrap-ranking-ubugi-brand .widget-list-product-highend ul.list li .info .name {
+    font-size: 14px;
+    text-align: left;
+    color: #5b5b5b;
+    margin-bottom: 3px;
+}
+.wrap-ranking-ubugi-brand .widget-list-product-highend ul.list li .wrap-price .price,
+.wrap-ranking-ubugi-brand .widget-list-product-highend ul.list li .wrap-price .price .currency,
+.wrap-ranking-ubugi-brand .widget-list-product-highend ul.list li .wrap-price .price .tax {
+    color: #ff0000;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+}
+.wrap-ranking-ubugi-brand .wrap-btn-link.wrap-btn-custom {
+    display: none;
+}
+
+/*wrap-btn-v2*/
+.wrap-btn-v2 {
+    width: 100%;
+    margin: 0 auto 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.wrap-btn-v2 .btn-v2 {
+    width: 700px;
+    text-align: center;
+    background-color: #bf0000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 65px;
+}
+.wrap-btn-v2 .btn-list {
+    background-color: #fff;
+    border: 1px solid #bf0000;
+}
+.wrap-btn-v2 .btn-list .text-link {
+    color: #bf0000;
+    font-size: 22px;
+    line-height: 1;
+    letter-spacing: 1px;
+    position: relative;
+}
+.wrap-btn-v2 .btn-list .text-link:after {
+    content: "";
+    position: absolute;
+    right: -27px;
+    top: 55%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-style: solid;
+    border-width: 8px 0 8px 11px;
+    border-color: transparent transparent transparent #bf0000;
+}
+/*btn*/
+.wrap-content-ubugi-brand .wrap-btn-v2 .btn-v2 {
+    width: 400px;
+}
+.wrap-content-ubugi-brand .wrap-btn-v2 .btn-list.arrow-left .text-link:after{
+    border-width: 8px 11px 8px 0px;
+    border-color: transparent   #bf0000 transparent transparent;
+    content: "";
+    position: absolute;
+    right: 291px;
+    top: 55%;
+}

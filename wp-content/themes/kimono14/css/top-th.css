@@ -1,0 +1,15 @@
+/*Title topics*/
+.ranking.block-title-top-page-title h2 span.small-title{
+    top:0;
+}
+.block-title-top-page-title h2 span.small-title,
+.topics-title-top-page-title h2 span.small-title{
+    font-size: 16px;
+}
+.topics-title-top-page-title h2 span.small-title{
+    margin-left: 5px;
+}
+/*==BOX 6 POINTS==*/
+.section-6advices .title-sect .big{
+    font-size: 12vw;
+}

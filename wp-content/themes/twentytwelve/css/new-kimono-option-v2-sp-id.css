@@ -1,0 +1,36 @@
+*{letter-spacing: 0 !important}
+.group-sub-banner-content .name-tag-sub{
+    background-image: url(../../../../../images/option/icon-name-tag-id.svg);
+}
+.group-sub-banner-content .sub-banner-07 .name-tag-sub{
+    background-image: url(../../../../../images/option/icon-name-tag-07-id.svg);
+}
+.wrap-main-banner-option-v2 .des-infor-banner{
+    font-size: 14px;
+    padding: 0 7px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.group-sub-banner-content .des-sub-content{
+    font-size: 13px;
+}
+.group-sub-banner-content .group-title-sub{
+    padding: 9px 30px 7px 30px;
+}
+@media (max-width: 360px){
+    .wrap-main-banner-option-v2 .des-infor-banner{
+        font-size: 13px;
+    }
+    .wrap-button-reserve-option {
+        width: 90%;
+    }
+    .group-sub-banner-content .wrap-name-title-sub .name-sub-items{
+        font-size: 13px;
+    }
+    .group-sub-banner-content .des-sub-content{
+        font-size: 12px;
+    }
+    .group-sub-banner-content .group-title-sub{
+        padding: 9px 25px 7px 25px;
+    }
+}

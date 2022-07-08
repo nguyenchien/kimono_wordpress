@@ -1,0 +1,784 @@
+
+/* # Layout for PC.
+---------------------------------------------------------------------------- */
+@media all and (min-width: 960px) {
+	.layout-kimono-sp .box-image-link-top .fixreserve-960x100.sp,
+	.layout-kimono-sp .section-content-mainform h3.reserve-960x100.sp {
+		display: none;
+	}
+	.layout-kimono-sp .tbl-price-sp{
+		display: none;
+	}
+}
+@media all and (max-width: 767px) {
+	/*=====================================
+		.box-image-link-top
+	=======================================*/
+	.box-image-link-top section.page-images-top-pc {
+		display: none;
+	}
+
+	.layout-kimono-sp .box-image-link-top section.page-images-top-sp {
+		margin-bottom: 3px;
+	}
+
+	.layout-kimono-sp .box-image-link-top section.page-images-top-sp .item {
+		float: left;
+		width: 49.0625%;
+		height: 30.3125%;
+		position: relative;
+		margin: 0 1.875% 1.875% 0;
+	}
+
+	.layout-kimono-sp .box-image-link-top section.page-images-top-sp .item.last {
+		margin-right: 0;
+	}
+
+	.layout-kimono-sp .box-image-link-top section.page-images-top-sp .item img {
+		width: 100%;
+	}
+
+	.layout-kimono-sp .box-image-link-top section.page-images-top-sp .item .text {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+
+	.layout-kimono-sp .box-image-link-top section.page-images-top-sp .item .text p.brief {
+		color: #fff;
+		font-size: 13px;
+		padding: 1.5625%;
+	}
+
+	.layout-kimono-sp .box-image-link-top section.page-images-top-sp .item.howto .text p.brief {
+		background: #ac75d2;
+	}
+
+	.layout-kimono-sp .box-image-link-top section.page-images-top-sp .item.kimono .text p.brief {
+		background: #e9343a;
+	}
+
+	.layout-kimono-sp .box-image-link-top section.page-images-top-sp .item.faq .text p.brief {
+		background: #35ac30;
+	}
+
+	.layout-kimono-sp .box-image-link-top section.page-images-top-sp .item.blog .text p.brief {
+		background: #ac75d2;
+	}
+
+	/*=====================================
+		.fixreserve-960x100
+	=======================================*/
+	.layout-kimono-sp .box-image-link-top .fixreserve-960x100.pc {
+		display: none;
+	}
+
+	.layout-kimono-sp .box-image-link-top .fixreserve-960x100 {
+		margin: 0 0 10px 0;
+	}
+
+	.layout-kimono-sp .box-image-link-top .fixreserve-960x100 img {
+		width: 100%;
+	}
+
+	.content_mainform h3.reserve-960x120{
+		margin:0 0 10px 0 !important;
+		padding: 0 7px;
+	}
+
+	layout-kimono-sp .section-booking-top-page .description-plan-top ul li.text-call{
+		line-height: 18px;
+		font-size: 13px;
+		font-weight: normal;
+		margin-bottom:0;
+	}
+
+	/* #choose-date
+	-----------------------------------*/
+	/* common style */
+	.layout-kimono-sp table.plan thead tr td,.layout-kimono-sp table.plan tr.thead td{
+		padding: 2px !important;
+	}
+
+	.layout-kimono-sp #choose-shop-and-date #choose-date table.plan tbody p.timetable{
+		font-weight:normal;
+	}
+
+/*	.layout-kimono-sp #choose-shop-and-date #choose-date table.plan .hour .slot{
+		font-size:22.3px !important;
+	}*/
+	/* End common style */
+	.layout-kimono-sp .section-booking-top-page #choose-date p.textsp {
+		color: #ff0000;
+		font-size: 18px;
+		font-weight: bold;
+		text-align: center;
+	}
+	.layout-kimono-sp .section-booking-top-page #choose-date table.plan td.early p.timetable {
+		font-size: 12px;
+		font-weight: normal;
+		height: auto;
+	}
+
+	.layout-kimono-sp .section-booking-top-page #choose-date table.plan th {
+		padding: 0 2px;
+	}
+
+	.layout-kimono-sp .section-booking-top-page #choose-date #paged {
+		padding: 15px 20px 0 10px;
+	}
+
+
+	.layout-kimono-sp .section-booking-top-page #choose-date #paged a {
+		margin: 0;
+		line-height: 1.1;
+		font-size: 13px;
+	}
+
+	/* .note-plan
+	-----------------------------------*/
+	.layout-kimono-sp .section-booking-top-page .note-plan {
+		padding: 0 7px 7px;
+		font-size: 13px;
+		line-height: 1.5;
+	}
+
+	#booking_form .vacancy #choose-shop-and-date #choose-date p#paged{
+		padding:7px 7px 0 7px;
+	}
+	#booking_form .vacancy #choose-shop-and-date .time-plan .label{
+		padding-left: 7px;
+		box-sizing: border-box;
+	}
+
+    /*=====================================
+			.tn-thanks-you-formb
+	=======================================*/
+	div.tn-thanks-you-form a{
+		width: 100%;
+	}
+	div.tn-blog-content-sort p{
+		font-size: 13px !important;
+	}
+	.layout-kimono-sp .section-footer .box-widget-blog .ft-linkto-left,
+	.layout-kimono-sp .section-footer .box-widget-blog .ft-linkto-right {
+		clear: both;
+	}
+
+	.layout-kimono-sp .section-footer .box-widget-blog .ft-linkto-left{
+		float:none;
+		width:100%;
+	}
+
+	.layout-kimono-sp .section-footer .box-widget-blog .item {
+		width: 100%;
+		padding: 0;
+		float: none;
+		box-sizing: border-box;
+		padding: 7px 10px;
+		border-bottom: 1px dotted #e0e0e0;
+	}
+
+	.layout-kimono-sp .section-footer .box-widget-blog .item h5 {
+		line-height: 1.1;
+		margin-bottom: 7px;
+		font-size: 24px;
+	}
+
+	.layout-kimono-sp .section-footer .box-widget-blog .item ul li p {
+		font-size: 13px;
+	}
+
+	.layout-kimono-sp .section-footer .box-widget-blog .item a.goto-more {
+		text-decoration: none !important;
+		display: block;
+		font-size: 13px;
+	}
+	t-blog .item.last {
+		border-bottom: none;
+	}
+	.layout-kimono-sp .section-footer .box-widget-blog .item.last {
+		border-bottom: none;
+	}
+
+	.layout-kimono-sp .section-footer .box-widget-blog .item.last ul li {
+		width: 100%;
+		margin: 0 0 10px 0;
+		float: none;
+	}
+
+	/*=====================================
+		.box-widget-menu
+	=======================================*/
+	.layout-kimono-sp .section-footer .box-widget-menu .wrap-menu-footer {
+		text-align: left;
+	}
+	.layout-kimono-sp .section-footer .box-widget-menu .menu-footermenu-container {
+		background: #733d6d;
+	  }
+	.section-footer .box-widget-menu .menu-footermenuja-container{
+		background: #733d6d;
+	}
+
+	.layout-kimono-sp .section-footer .box-widget-menu ul.tn-link-footer {
+		padding: 3px 0;
+	}
+
+	.section-footer .box-widget-menu ul.tn-link-footer li {
+		float: none;
+		border-bottom: 1px dotted #42153c;
+		display: block !important;
+	}
+
+	.layout-kimono-sp .section-footer .box-widget-menu ul.tn-link-footer li:last-child {
+		border-bottom: none;
+	}
+
+	.section-footer .box-widget-menu ul.tn-link-footer li a {
+		border: none;
+		display: block;
+		text-decoration: none !important;
+		color: #fff;
+		font-weight: bold;
+		font-size: 15px;
+		line-height: 1.4;
+		padding: 6px 10px 6px 28px;
+		position: relative;
+	}
+	.section-footer .box-widget-menu ul.tn-link-footer li a:before{
+		width: 15px;
+		height: 15px;
+		content: " ";
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		background: url(../images/spriteme-sp.png) no-repeat;
+		background-size: 15px;
+		background-position: 0px -1117px;
+	}
+
+	.layout-kimono-sp .section-footer .box-widget-menu p {
+		text-align: center;
+		padding: 10px;
+		background: #f2f1f1;
+	}
+	/*======================================================================
+	*** Begin /blog Page (Chien xam) ***
+	========================================================================*/
+	.layout-kimono-sp section#category-description {
+		min-height: 0;
+		margin: 0;
+	}
+
+	.layout-kimono-sp section#category-description img {
+		width: 100%;
+	}
+
+	.layout-kimono-sp section#category-description .cate-name {
+		font-size: 20px;
+		line-height: 1.1;
+		left: 7px;
+		bottom: 7px;
+	}
+
+	.layout-kimono-sp section#category-description div {
+		display: none;
+	}
+
+	.layout-kimono-sp section#category-description div p {
+		padding: 7px;
+		box-sizing: border-box;
+		font-size: 13px;
+		line-height: 1.5;
+		font-size: 10px;
+	}
+	/* .section-flow-exper */
+	.layout-kimono-sp .section-flow-exper .item{
+		padding: 0 7px;
+		box-sizing: border-box;
+		background-position-x: 21px !important;
+	}
+
+	.layout-kimono-sp .section-flow-exper .item h3{
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+	/*======================================================================
+	*** Begin - /reserve (Chien xam) ***
+	========================================================================*/
+	/* plan option */
+	.booking .sec-choose-kimono .person-list .person .person_detail .plan-option .option-list input{
+		margin-top: 4px;
+	}
+	.booking .sec-choose-kimono .person-list .person .person_detail .plan-option .option-list label{
+		position: relative;
+		top:-3px;
+	}
+	div.general_title_box.general_title_box_bring{
+		background-color: #1c403d;
+	}
+	div.general_title_box h3.selected_title {
+		padding: 6px 0px 3px 0px;
+	}
+	div.box-about-kimono{
+		padding:10px;
+		box-sizing:border-box;
+	}
+	.title h1.title-list-option-kimono{
+		font-size: 20px;
+		margin-bottom: 10px;
+	 }
+	body.hi .title h1.title-list-option-kimono{
+		margin: 10px 0;
+	}
+	.section.section_general{
+		padding: 8px 0 0 0;
+	}
+	div.content_box div.content_box_gell > ul {
+		display: none;
+	}
+	div.content_box_info_subpage ul.view_icon li {
+		width: 120px;
+	}
+
+	div.content_box_info_subpage ul.view_icon {
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	div.content_box_info_subpage ul.view_icon li {
+		width: 33.3333%;
+		box-sizing: border-box;
+		margin: 0;
+		margin-bottom: 5px;
+	}
+
+	div.content_box_info_subpage ul.view_icon li a img {
+		float: left;
+		width: 40px;
+		height: auto;
+	}
+	div.kimono-couple-page div.view_link_goto_page a.goto_page img{
+		width: 12px;
+		position: relative;
+		top: -4px;
+		margin-right: -2px;
+	}
+	div.content_box_info_subpage ul.view_icon li p {
+		font-size: 13px;
+		margin-left: 46%;
+		margin-top: -2px;
+		font-family: 'Meiryo', arial;
+		font-weight: normal;
+		color: #444;
+		line-height: 1.7;
+
+	}
+	div.content_box_info_subpage p.sub_description {
+		font-size: 8px;
+		color: #000;
+		line-height: 1.7;
+		padding-top: 3px;
+	}
+
+	div.content_box_info_subpage h4 {
+		padding: 10px 0 7px 0;
+		font-family: "Meiryo", arial;
+		font-size: 20px;
+		color: #733d6d;
+		font-weight: bold;
+	}
+    div.box-about-kimono dl dd{
+	    color: #444;
+	    font-size: 14px;
+	    line-height: 20px;
+	    padding-top: 6px;
+	    padding-bottom: 10px;
+    }
+
+	div.box-sidebar-new ul.sidebar-kimono-page {
+		background: #fff;
+	}
+	span.using_date_time input#book-time {
+		width: 100%;
+		box-sizing: border-box;
+	}
+	form#formAddPlan div.total p {
+		padding: 0;
+		font-size: 24px;
+		color: #444444;
+	}
+
+	form#formAddPlan div.total p > var {
+		display: inline-block;
+		padding-left: 7px;
+		width: 60%;
+	}
+	body.layout-kimono-sp .qtip-content {
+		max-width: 190px !important;
+	}
+
+	.qtip-default {
+		border-left: 3px solid #ea6f9c !important;
+		border-right: 1px solid #ea6f9c !important;
+		border-bottom: 2px solid #ea6f9c !important;
+		border-top: 2px solid #ea6f9c !important;
+		box-shadow: 2px 5px 3px #dedede;
+		padding: 5px 10px 5px 5px !important;
+	}
+
+	/* Kimono/tenimotsu */
+	.box-time-tenimotsu ul li{
+		margin: 0;
+		width: 100%;
+	}
+	.box-img-tenimotsu ul li.item{
+		width:100%
+	}
+
+	.left-kimono-block-option li:hover .mask{
+		font-size: 7px;
+	}
+	.left-kimono-block-option li:hover .mask-4{
+		font-size: 7px;
+	}
+	.left-kimono-block-option li.mask-4{
+		padding:18px;
+		box-sizing: border-box;
+		}
+	.left-kimono-block-option li:hover .mask-4 p.name-10-list{
+		font-size:7px;
+		}
+	.left-kimono-block-option li:hover .mask-4 p.name-10-list span{
+		text-align: left;
+		font-size:7px;
+		}
+	.left-kimono-block-option li:hover .mask-4 p.name-10-list var{
+		text-align: right;
+		float:right;
+		font-size:7px;
+		}
+	p.name-10-list br{
+		display: none;
+	}
+	.left-kimono-block-option li:hover .mask-4 p.line-list{
+		border-top:1px solid #fff;
+		font-size: 7px;
+		}
+	.left-kimono-block-option li:hover .mask-4 p.underline-text{
+		border-bottom: none;
+		padding: 0;
+	}
+
+	div.reserve-booking div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul .text{
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	 .tr-line tr-line-price{
+		  border-bottom: 20px solid #fff;
+	  }
+	div.container div#booking{
+		border-bottom: none;
+	}
+	.banner-text-contactwp{
+		padding: 10px;
+		margin-bottom: 20px;
+	}
+	.banner-text-contactwp img{
+		max-width: 100%;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li var{
+		font-size: 6px;
+	}
+	div.reserve-booking div.kimono-couple-page.yukata-reserve div.box-general-kimono-couple-page .info{
+		width: 100%;
+	}
+
+	div.reserve-booking div.kimono-couple-page.yukata-reserve div.box-general-kimono-couple-page .info div.option-kimono-couple ul .text{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.layout-kimono-sp div.kimono-couple-page.yukata-reserve div.box-general-kimono-couple-page .info div.option-kimono-couple ul .list{
+		width: 82%;
+	}
+
+	div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options.wrap-options-bring .lists {
+		border: 2px solid #1C403D;
+	}
+	div.tabs ul.tab-links{
+		/*border-bottom-width: 5px !important;*/
+	}
+	div.reserve-booking div.kimono-couple-page.yukata-reserve div.box-general-kimono-couple-page .info div.option-kimono-couple ul li{
+		margin-right: 5px;
+	}
+	div.kimono-couple-page.yukata-reserve div.box-general-kimono-couple-page .info div.option-kimono-couple ul .list{
+		padding: 0;
+	}
+	div.reserve-booking table.add_plan tbody tr td div.children span.sex{
+		background: #e65894;
+		color: #FFF;
+		font-size: 8px;
+		font-weight: bold;
+		padding: 0 5px;
+		display: inline-block;
+		margin-right: 5px;
+	}
+	div.reserve-booking .children .selectboxit-container{
+		display: block;
+		margin-top: 3px;
+	}
+	div.reserve-booking table.add_plan tbody tr td div.children span.sex.sex-boy{
+		background: #59c4ef;
+	}
+
+	/* khoata - 20160415 - start */
+	div.reserve-booking ul.add_plan li div.children span.sex{
+		background: #e65894;
+		color: #FFF;
+		font-size: 8px;
+		font-weight: bold;
+		padding: 0 5px;
+		position: relative;
+		bottom: 3px;
+		float: left;
+	}
+	div.reserve-booking ul.add_plan li div.children span.sex.sex-boy{
+		background: #59c4ef;
+	}
+	div.reserve-booking .list-choose .time-selected.next-yukata-child .children{
+		margin-bottom: 15px;
+	}
+	/* khoata - 20160415 - end */
+
+	div.reserve-booking table.add_plan tbody tr td div.children span.sex{
+		background: #e65894;
+		color: #FFF;
+		font-size: 8px;
+		font-weight: bold;
+		padding: 0 5px;
+		display: inline-block;
+		margin-right: 5px;
+	}
+	div.reserve-booking .children .selectboxit-container{
+		display: block;
+		margin-top: 3px;
+	}
+	div.reserve-booking table.add_plan tbody tr td div.children span.sex.sex-boy{
+		background: #59c4ef;
+	}
+	div.reserve-booking ul.info_kimono > li.next-yukata-child{
+		width: 49%;
+	}
+
+	div.reserve-booking ul.info_kimono > li.go-to-page-yukata-child{
+		text-align: right;
+		width: 49%;
+
+	}
+	div.reserve-booking table.add_plan tr td li.go-to-page-yukata-child a{
+		margin-top: 73px;
+	}
+	div.reserve-booking ul.info_kimono > li.go-to-page-yukata-child a{
+		display: inline-block;
+	}
+	/*--- page reserve: drop-down people (chien-xam) ---*/
+	.selectboxit-text{
+		text-indent: 0px !important;
+	}
+
+	form#formAddPlan table.add_plan tr td span.selectboxit-text span.number{
+		font-size:24px;
+	}
+
+	span.selectboxit-text span.text{
+		padding-left:30px !important;
+	}
+	body.hi span.selectboxit-text span.text{
+		padding-left:20px !important;
+	}
+	#choose-shop-and-date #choose-date table.plan tr.even-early td{
+		position: relative;
+	}
+	div#kyotoNightEvent{
+		width: 100%;
+		box-sizing: border-box;
+		margin-bottom:10px;
+	}
+}
+
+@media only screen and (max-device-width : 320px)
+and (orientation : landscape)
+{
+	div.reserve-booking .link_gotopage_reserve a {
+		font-size: 8px !important;
+	  }
+}
+@media only screen and (max-device-width : 480px)
+and (orientation : landscape)
+{
+
+	div.reserve-booking .link_gotopage_reserve a {
+		font-size: 10px !important;
+	  }
+}
+
+
+/* # Layout for Mobile 350 and lower . */
+@media (max-width: 350px) {
+
+	.layout-kimono-sp .section-booking-top-page #choose-date table.plan tr.even-early p.timetable{
+		font-size: 11px;
+	}
+}
+
+/* # Layout for Mobile Landscape.
+---------------------------------------------------------------------------- */
+@media all and (min-width: 480px) and (max-width: 767px) {
+	/*======================================================================
+	*** Begin (Chien xam) ***
+	========================================================================*/
+	body {
+		background: #f2f1f1 !important;
+	}
+
+	/*=====================================
+		.menu-top-kimono-sp
+	=======================================*/
+	ul.menu-lang-right ul.qtranxs_language_chooser{
+/*		left: -80px;*/
+	}
+
+	/*=====================================
+		.item-blog-top
+	=======================================*/
+	.layout-kimono-sp div.item-blog-top .text p.first-title span.date {
+		position: relative;
+		top: 2px;
+	}
+
+	.layout-kimono-sp div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .prices{
+		padding: 5px 10px;
+	}
+	.layout-kimono-sp div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li.price_large p{
+		font-size: 60px;
+		line-height: 55px;
+	 }
+	body.cn .layout-kimono-sp div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li.price_large p{
+		font-size: 40px;
+	}
+	.layout-kimono-sp .section-6advices .box-overview ul li p.text-tw {
+		font-size: 3.4vw !important;
+	  }
+	/*======================================================================
+	*** End (Chien xam) ***
+	========================================================================*/
+	/* -- Start Tona -- */
+	div.container div.bc_step_by_step div.step-by-step-sp ul.tn-step-by-step-ico-sp li {
+		padding-left: 22.61%;
+	}
+
+	/* Kimono page */
+	div.content_box_info_subpage ul.view_icon li {
+		margin-bottom: 10px;
+	}
+
+	div.content_box_info_subpage ul.view_icon li {
+		width: 25%;
+	}
+
+	div.content_box_info_subpage ul.view_icon li a img {
+		width: 80px;
+	}
+
+	.layout-kimono-sp .box-image-link-top .fixreserve-960x100.sp,
+	.layout-kimono-sp .section-content-mainform h3.reserve-960x100.sp {
+		display: none;
+	}
+	/* -- End Tona -- */
+
+	div.bc_step_by_step.bc_step_custom p.title_first_step{
+		font-size: 11px;
+	}
+
+}
+
+/* # Layout for Tablet.
+---------------------------------------------------------------------------- */
+@media all and (min-width: 768px) and (max-width: 959px) {
+	/*======================================================================
+	*** Begin Top Page (Chien xam) ***
+	========================================================================*/
+	body {
+		background: #f2f1f1 !important;
+	}
+	/*=====================================
+		.menu-top-kimono-sp
+	=======================================*/
+	.layout-kimono-sp .box-image-link-top .fixreserve-960x100.sp,
+	.layout-kimono-sp .section-content-mainform h3.reserve-960x100.sp {
+		display: none;
+	}
+
+	/*======================================================================
+	*** End Top Page (Chien xam) ***
+	========================================================================*/
+	/* kimono/tenimotsu */
+	.box-time-tenimotsu ul li{
+		margin-left: 0px;
+	}
+	#masthead .container{
+		width:100%;
+	}
+	.banner_mainform .b-yukata,
+	.banner_mainform .b-kimono{
+		width:49.5%;
+	}
+
+	.banner_mainform.width_form a img{
+		width:100%;
+	}
+	img.topic-left-new{
+		width:100%;
+	}
+	img.topic-right-new{
+		width:100%;
+	}
+
+
+	/*
+		Menu top
+	------------------------------------------*/
+	.menu-top-kimono .container{
+		width:100%;
+	}
+
+	.menu-top-kimono .container .bg-left,
+	.menu-top-kimono .container .bg-right{
+		width:1%;
+	}
+
+	.menu-top-kimono .container .main-navigation ul {
+		width: 98%;
+	}
+	/*
+		Block Booking
+	------------------------------------------*/
+
+	/*Lan fix topics*/
+	div.topic-left,
+	div.topic-right{
+		margin-bottom: 10px;
+	}
+	div.topic-left:last-child,
+	div.topic-right:last-child{
+		margin-bottom:0px;
+	}
+	div.topic-left{
+		width:49.5%;
+	}
+	div.topic-right{
+		width:49.5%;
+	}
+}
+

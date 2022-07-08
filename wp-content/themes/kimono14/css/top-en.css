@@ -1,0 +1,25 @@
+/*==BOX SLIDER==*/
+.kimono-slider-home .flexslider {
+    margin-bottom: 10px;
+}
+/*==BOX 6 POINTS==*/
+.section-6advices .box-overview ul li p.text{
+    word-break: break-word;
+}
+.section-6advices .box-list ul li .item p {
+    font-size: 13px;
+    color: #000;
+}
+.section-6advices .box-list ul li .item img.sub-item-advice-content-03 {
+    margin: -20px 0 0 10px;
+}
+.section-6advices .box-list ul li .item img.sub-item-advice-content-02 {
+    margin: -30px 0 0 10px;
+}
+.section-6advices .title-sect .big {
+    text-shadow: 3px 2px 0 rgba(0,0,0,.7);
+}
+/*==BOX RANKING==*/
+.block-title-top-page-title h2 span.ja {
+    display: none;
+}

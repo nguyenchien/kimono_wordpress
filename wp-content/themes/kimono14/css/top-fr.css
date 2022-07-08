@@ -1,0 +1,11 @@
+/*Fix*/
+.fr{
+   float: none;
+}
+
+/*==BOX 6 POINTS==*/
+
+.section-6advices .box-overview ul li p.text{
+    flex-direction: column;
+    justify-content: center;
+}

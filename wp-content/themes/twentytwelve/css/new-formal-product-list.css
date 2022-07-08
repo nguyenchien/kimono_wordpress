@@ -1,0 +1,115 @@
+.wrap-banner-tkh-new-kimono{
+    padding: 0 25px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap-banner-tkh-new-kimono .list-banner-price-tkh-new-kimono{
+    margin-left: -14px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.wrap-banner-tkh-new-kimono .item{
+    margin: 0 0 14px 14px;
+    width: calc(100% * (1/2) - 14px);
+}
+.wrap-banner-tkh-new-kimono .item img{
+    width: 100%;
+}
+.wrap-banner-tkh-new-kimono .item:first-child{
+    width: 100%;
+}
+
+.banner-top-highend-v2.shichigosan{
+    margin-bottom: 20px;
+}
+.wrap-banner-topics{
+    margin-bottom: 40px;
+}
+.set-content .wrap-content{
+    display: block;
+}
+.wrap-rental-step .step-text,
+.wrap-rental-step .set-image{
+    margin-bottom: 20px;
+}
+.wrap-rental-step .set-option,
+.wrap-rental-step .set-buttons{
+    margin-bottom: 40px;
+}
+.wrap-rental-step .set-image img,
+.wrap-rental-step .set-option img{
+    width: 100%;
+}
+.wrap-rental-step .set-buttons{
+    width: 100%;
+}
+.wrap-rental-step .set-buttons .btn-formal{
+    margin-bottom: 30px;
+    font-weight: normal;
+    letter-spacing: 5px;
+    background-color: #d81271;
+}
+
+@media (min-width: 750px) {
+    .banner-top-highend-v2.shichigosan{
+        margin-bottom: 30px;
+    }
+    .sub-banner-fm{
+        margin-left: -20px;
+        margin-bottom: 40px;
+    }
+    .sub-banner-fm li{
+        margin-left: 20px;
+    }
+    .list-cate-wg{
+        margin-left: -20px;
+    }
+    .list-cate-wg .item{
+        margin-left: 20px;
+    }
+    .title-general{
+        line-height:1;
+        padding: 10px 10px 10px 30px;
+    }
+    .wrap-rental-step .text-title-general{
+        position: static;
+        font-size: 25px;
+    }
+    .wrap-rental-step .step-content-img{
+        padding-left: 0;
+    }
+    .set-content .set-title{
+        padding-left: 20px;
+        border-bottom: none;
+        margin-bottom: 20px;
+    }
+    .set-content .wrap-content{
+        padding: 0 20px;
+    }
+    .set-title .icon img{
+        width: 40px;
+    }
+    .wrap-rental-step .step-content{
+        margin-bottom: 60px;
+    }
+    .wrap-rental-step .step-text,
+    .wrap-rental-step .set-image{
+        margin-bottom: 40px;
+    }
+    .wrap-rental-step .set-image{
+        border-bottom: 1px solid #000;
+        padding-bottom: 10px;
+    }
+    .wrap-rental-step .set-option,
+    .wrap-rental-step .set-buttons{
+        margin-bottom: 80px;
+    }
+    .wrap-rental-step .set-buttons{
+        width: 450px;
+        padding-left: 80px;
+    }
+    .wrap-rental-step .set-buttons .btn-formal{
+        font-size: 20px;
+        padding: 25px;
+    }
+}

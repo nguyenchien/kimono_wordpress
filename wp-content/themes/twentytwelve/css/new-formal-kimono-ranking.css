@@ -1,0 +1,316 @@
+/*===Mobi first==*/
+.order-right-item{
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+}
+.banner-fm-ranking{
+    position: relative;
+    margin-bottom: 15px;
+}
+.banner-fm-ranking .fm-ranking-title{
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    line-height: 0.8;
+}
+.banner-fm-ranking .fm-ranking-title .icon{
+    font-size: 30px;
+    color: #FFC200;
+    margin-left: 10px;
+}
+.fm-ranking-title .first-title{
+    font-size: 20px;
+    align-items: flex-end;
+}
+.fm-ranking-title .second-title{
+    font-size: 14px;
+}
+.wrap-fm-ranking-content .wrap-fm-ranking-tab{
+    margin-bottom: 50px;
+}
+.wrap-fm-ranking-tab .fm-ranking-tab-list{
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.fm-ranking-tab-list .fm-ranking-tab-item{
+    width: calc(100% * 1/4);
+    border: 1px solid #808080;
+    margin-left: -1px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.fm-ranking-tab-item .fm-ranking-sub-list{
+    display: none;
+    position: absolute;
+    top: 48px;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #fff;
+}
+.fm-ranking-tab-item .fm-ranking-sub-list .fm-ranking-tab-item{
+    width: 100%;
+    margin-bottom: -1px;
+}
+.fm-ranking-tab-list .fm-ranking-tab-item.active{
+    background-color: #FFFF00;
+}
+.fm-ranking-tab-list .fm-ranking-tab-item.pc{
+    display: none;
+}
+.fm-ranking-tab-list .fm-ranking-tab-item.last{
+    border-right: 0;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    position: relative;
+}
+.fm-ranking-tab-list .fm-ranking-tab-item.last:after{
+    position: absolute;
+    content: '\25BC';
+    right: 5px;
+    top: 15px;
+    font-size: 12px;
+}
+.fm-ranking-tab-list .fm-ranking-tab-item .fm-ranking-tab-title{
+    font-weight: normal;
+    font-size: 13px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.fm-ranking-content .fm-ranking-content-desc{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.fm-ranking-content .fm-ranking-content-desc p{
+    font-size: 13px;
+    line-height: 1.8;
+    letter-spacing: 5px;
+}
+.wrap-fm-ranking-content .fm-ranking-content-list{
+    padding: 0 20px;
+}
+.wrap-fm-ranking-content .fm-ranking-content-list .fm-ranking-content{
+    display: none;
+    margin-bottom: 70px;
+}
+.wrap-fm-ranking-content .fm-ranking-content .first-title,
+.wrap-fm-ranking-content .fm-ranking-content .second-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.wrap-fm-ranking-content .fm-ranking-content .first-title{
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+.wrap-fm-ranking-content .fm-ranking-content .second-title{
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 8px;
+}
+.wrap-fm-ranking-content .fm-ranking-content .second-title .visit,
+.wrap-fm-ranking-content .fm-ranking-content .second-title .price{
+    font-weight: bold;
+}
+.wrap-fm-ranking-content .fm-ranking-content .second-title .price{
+    color: #E00012;
+}
+.fm-ranking-content .fm-ranking-product{
+    text-align: center;
+}
+.fm-ranking-product .fm-ranking-product-item:not(:last-child){
+    margin-bottom: 70px;
+}
+.fm-ranking-product-item .fm-ranking-product-img{
+    margin-bottom: 30px;
+}
+.fm-ranking-product-item .fm-ranking-product-img img{
+    width: 70%;
+}
+.fm-ranking-product-item .fm-ranking-product-info{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    line-height: 1.8;
+}
+.fm-ranking-product-item .fm-ranking-product-info .price-name,
+.fm-ranking-product-item .fm-ranking-product-info .product-price{
+    font-weight: bold;
+}
+.fm-ranking-product-item .fm-ranking-product-info .price-name{
+    font-size: 16px;
+    position: relative;
+    padding: 0 10px;
+    letter-spacing: 3px;
+}
+.fm-ranking-product-item .fm-ranking-product-info .price-name:before,
+.fm-ranking-product-item .fm-ranking-product-info .price-name:after{
+    position: absolute;
+    content: '|';
+    top: -5px;
+    font-size: 20px;
+}
+.fm-ranking-product-item .fm-ranking-product-info .price-name:before{
+    left: -20px;
+    -webkit-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+.fm-ranking-product-item .fm-ranking-product-info .price-name:after{
+    right: -20px;
+    -webkit-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+.fm-ranking-product-item .fm-ranking-product-info .product-price{
+    font-size: 22px;
+}
+.fm-ranking-product-info .view-product{
+    font-size: 12px;
+    background-color: #FF0000;
+    padding: 4px 40px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+.wrap-other-kimono h5{
+    font-weight: normal;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+.wrap-fm-ranking-content .wrap-other-kimono .wrap-fm-ranking-tab{
+    margin-bottom: 30px;
+}
+.wrap-other-kimono .fm-ranking-content-list{
+    padding: 0;
+}
+.wrap-other-kimono .fm-ranking-content-list .product-img-link{
+    margin-bottom: 10px;
+}
+.wrap-other-kimono .fm-ranking-content-list .recommend{
+    text-align: center;
+}
+
+
+@media (max-width: 360px){
+    .wrap-fm-ranking-content .fm-ranking-content .second-title{
+        letter-spacing: 4px;
+    }
+}
+/*===For PC==*/
+@media (min-width: 750px){
+    .right-column-fm-kimono-ranking{
+        padding-left: 20px;
+    }
+    .fm-ranking-tab-list .fm-ranking-tab-item.sp{
+        display: none;
+    }
+    .fm-ranking-tab-list .fm-ranking-tab-item.pc{
+        display: block;
+    }
+    .banner-fm-ranking .fm-ranking-title{
+        line-height: 1;
+    }
+    .fm-ranking-title .first-title{
+        font-size: 42px;
+    }
+    .fm-ranking-title .second-title{
+        font-size: 30px;
+    }
+    .banner-fm-ranking .fm-ranking-title .icon{
+        font-size: 60px;
+    }
+    .fm-ranking-tab-list .fm-ranking-tab-item.active .fm-ranking-tab-title{
+        position: relative;
+        top: 1px;
+        border-bottom: 1px solid #fff;
+    }
+    .fm-ranking-tab-list .fm-ranking-tab-item{
+        width: calc(100% * 1/7);
+        cursor: pointer;
+        border-bottom: 0;
+    }
+    .fm-ranking-product .fm-ranking-product-item{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+    }
+    .fm-ranking-tab-list .fm-ranking-tab-item .fm-ranking-tab-title{
+        padding: 8px;
+    }
+    .wrap-fm-ranking-content .wrap-fm-ranking-tab {
+        margin-bottom: 80px;
+        padding-right: 100px;
+        border-bottom: 1px solid #888888;
+    }
+    .wrap-fm-ranking-content .fm-ranking-content .first-title{
+        font-size: 16px;
+    }
+    .wrap-fm-ranking-content .fm-ranking-content .second-title{
+        font-size: 30px;
+        letter-spacing: 10px;
+    }
+    .fm-ranking-content .fm-ranking-content-desc p{
+        font-size: 14px;
+    }
+    .fm-ranking-content .fm-ranking-content-desc p br{
+        display: none;
+    }
+    .fm-ranking-product-item .fm-ranking-product-info .price-name{
+        font-size: 20px;
+    }
+    .fm-ranking-product-item .fm-ranking-product-info .product-price{
+        font-size: 36px;
+    }
+    .fm-ranking-product-info .view-product{
+        font-size: 14px;
+        padding: 4px 0;
+        width: 100%;
+    }
+    .fm-ranking-product-item .fm-ranking-product-info .price-name:before,
+    .fm-ranking-product-item .fm-ranking-product-info .price-name:after{
+        font-size: 24px;
+    }
+    .fm-ranking-product-item .fm-ranking-product-img{
+        margin-right: 50px;
+    }
+    .fm-ranking-product-item .order-right-item.fm-ranking-product-img{
+        margin: 0 0 0 50px;
+    }
+    .fm-ranking-product-item .fm-ranking-product-img img{
+        width: 90%;
+    }
+    .wrap-other-kimono h5{
+        padding: 0;
+    }
+    .wrap-other-kimono .fm-ranking-content-list .fm-ranking-content{
+        padding: 0 30px;
+    }
+    .wrap-other-kimono .fm-ranking-content-list .recommend{
+        text-align: left;
+    }
+}

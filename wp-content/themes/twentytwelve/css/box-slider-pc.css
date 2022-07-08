@@ -1,0 +1,53 @@
+.kimono-slider-home img.slide-img-pc{
+    display: block;
+}
+.kimono-slider-home img.slide-img-sp{
+    display: none;
+}
+.kimono-slider-home .flex-control-nav {
+    bottom: 0;
+}
+.kimono-slider-home .flexslider{
+    margin-bottom: 10px;
+}
+.flexslider:hover .flex-direction-nav .flex-prev,
+.flexslider:hover .flex-direction-nav .flex-next{
+    opacity: .7;
+}
+.flexslider:hover .flex-direction-nav .flex-prev{
+    left: 10px;
+}
+.flexslider:hover .flex-direction-nav .flex-next {
+    right: 10px;
+}
+.kimono-slider-home .flex-direction-nav a,
+.shop-has-slide .flex-direction-nav a,
+.slide-shop-asakusa .flex-direction-nav a{
+    display: block;
+    overflow: inherit;
+}
+.kimono-slider-home .flex-direction-nav a.flex-next:before,
+.kimono-slider-home .flex-direction-nav a.flex-prev:before,
+.shop-has-slide .flex-direction-nav a.flex-next:before,
+.shop-has-slide .flex-direction-nav a.flex-prev:before{
+    position: relative;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-right: 6px solid #fff;
+    border-top: 6px solid #fff;
+}
+.kimono-slider-home .flex-direction-nav a.flex-prev:before,
+.shop-has-slide .flex-direction-nav a.flex-prev:before{
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    float: right;
+}
+.kimono-slider-home .flex-direction-nav a.flex-next:before,
+.shop-has-slide .flex-direction-nav a.flex-next:before{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    float: left;
+}

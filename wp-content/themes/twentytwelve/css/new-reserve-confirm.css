@@ -1,0 +1,347 @@
+.new-kimono-product-confirm .list-confirm-info .item-confirm-info {
+    padding: 15px 0;
+}
+.new-kimono-product-confirm .btn-change-confirm{
+    padding: 10px 20px;
+}
+.new-kimono-product-confirm .list-confirm-info .item-confirm-info{
+    color: #3d3d3d;
+}
+.new-kimono-product-confirm .wrap-info-formal-general .title-selected{
+    font-weight: bold;
+}
+.new-kimono-product-confirm .wrap-list-confirm-info{
+    padding: 0;
+}
+.new-kimono-product-confirm .wrap-info-formal .list-confirm-info li{
+    border: none !important;
+}
+.new-kimono-product-confirm .product-subtotal-price{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.new-kimono-product-confirm .list-confirm-info .item-total-price .name-formal-confirm-bold,
+.new-kimono-product-confirm .list-confirm-info .item-total-price:nth-child(3) .name-formal-confirm{
+    font-weight: normal;
+}
+.new-kimono-product-confirm .wrap-info-formal .list-confirm-info .plan-name{
+    margin-bottom: 10px;
+}
+.new-kimono-product-confirm .wrap-info-formal .list-confirm-info .plan-name .name-formal-confirm{
+    font-size: 14px;
+    font-weight: bold;
+}
+.new-kimono-product-confirm .list-confirm-info li .name-formal-confirm{
+    margin-right: 10px;
+}
+.new-kimono-product-confirm .product-subtotal-price p{
+    font-weight: bold;
+}
+.new-kimono-product-confirm .wrap-info-formal .list-confirm-info .item-total-price-border:last-child{
+    background-image: -webkit-gradient(linear,left top, right top,color-stop(20%, #919191),color-stop(10%, rgba(78,0,55,0)));
+    background-image: -webkit-linear-gradient(left,#919191 20%,rgba(78,0,55,0) 10%);
+    background-image: -o-linear-gradient(left,#919191 20%,rgba(78,0,55,0) 10%);
+    background-image: linear-gradient(to right,#919191 20%,rgba(78,0,55,0) 10%);
+    background-position: top;
+    background-size: 6px 2px;
+    background-repeat: repeat-x;
+    padding: 10px 0 0;
+}
+.new-kimono-product-confirm .wrap-info-formal .list-confirm-info .item-total-price .name-formal-confirm,
+.new-kimono-product-confirm .wrap-info-formal .list-confirm-info .item-total-price .price-formal-confirm{
+    font-size: 12px;
+}
+.wrap-person-plan-confirm .plan-name-first .price-formal-confirm{
+    text-decoration: line-through;
+}
+.new-kimono-product-confirm .reservation-total{
+    border-top: 1px solid #919191;
+}
+.new-kimono-product-confirm .box-info-confirm .wrap-info-formal-general .wrap-info-formal{
+    padding:0;
+    margin: 0 0 20px;
+}
+.new-kimono-product-confirm .wrap-form-formal .list-confirm-info .item-form-formal .form-element-left,
+.new-kimono-product-confirm .wrap-form-formal .list-confirm-info .item-form-formal .form-element-right{
+    font-size: 12px;
+}
+/*===== Book options =====*/
+.book-options{
+    background-color: #eaeaea;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.book-options .box-heading{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1;
+    color: #000;
+}
+.book-options .list-options .item-group-options{
+    font-size: 13px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+.book-options .sub-book-options{
+    width: 100%;
+}
+.book-options .sub-book-options .wrap-item-option{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 3px 0 3px 10px;
+    font-size: 12px;
+}
+.book-options .list-options .item-group-options .title-option{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.book-options .total-cost-book-option{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #000;
+    padding-top: 10px;
+}
+.button-cancel-reservation{
+    text-align:  center;
+}
+.button-cancel-reservation > button{
+    background-color: #020202;;
+    color: #fff;
+}
+.reservation-total{
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+}
+.reservation-total .price-item{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.reservation-total .name-formal-confirm{
+    margin-left: 0;
+}
+.boths-btn-payment{
+    margin: 0 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.boths-btn-payment button{
+    width: 100%;
+    height: 50px;
+    padding: 0 10px;
+}
+.boths-btn-payment .btn-payment{
+    margin-bottom: 10px;
+}
+.wrap-shop-text-only{
+	margin-top: -20px;
+	color: red;
+	font-size: 16px;
+}
+@media (max-width: 360px){
+    .new-kimono-product-confirm .wrap-info-formal .list-confirm-info .plan-name .name-formal-confirm {
+        font-size: 12px;
+    }
+}
+@media (max-width: 767px){
+    .new-kimono-product-confirm .product-subtotal-price > div{
+        margin-bottom: 8px;
+    }
+}
+@media (min-width: 750px){
+    .reservation-total{
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    /*.reservation-total .coupon-input-wrapper*/
+    .reservation-total .prices-wrapper{
+        width: 50%;
+    }
+    .reservation-total .name-formal-confirm{
+        margin-left: 40px;
+    }
+    .reservation-total .price-formal-confirm{
+        padding-left: 0;
+        width: 50%;
+    }
+    .new-kimono-product-confirm .list-confirm-total-price{
+        margin-left: 0;
+    }
+    .new-kimono-product-confirm .wrap-info-formal-general .title-selected{
+        width: 15%;
+    }
+    .new-kimono-product-confirm .product-selected{
+        padding: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .new-kimono-product-confirm .wrap-info-formal .list-confirm-info .item-total-price-border:last-child{
+        background: none;
+        margin-top: 0;
+    }
+    .new-kimono-product-confirm .wrap-info-formal{
+        border: none;
+    }
+    .new-kimono-product-confirm .reservation-total{
+        padding: 20px 10px;
+    }
+    .new-kimono-product-confirm .box-info-confirm .wrap-info-formal-general .wrap-info-formal{
+        margin: 0 0 30px 0;
+        width: calc(100% * 1/2 - 42px);
+    }
+    .new-kimono-product-confirm .box-info-confirm .wrap-info-formal-general .wrap-info-formal:nth-child(odd){
+        border-right: 1px solid #919191;
+        padding-right: 40px;
+    }
+    .new-kimono-product-confirm .box-info-confirm .wrap-info-formal-general .wrap-info-formal:nth-child(even){
+        margin-left: 40px;
+    }
+    .new-kimono-product-confirm .wrap-info-formal .list-confirm-total-price{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .new-kimono-product-confirm .wrap-info-formal .list-confirm-info li p{
+        text-align: left;
+        padding: 0;
+    }
+    .new-kimono-product-confirm .wrap-info-formal .list-confirm-info .item-total-price{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        width: 100%;
+        padding: 5px 0 5px 5px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .new-kimono-product-confirm .wrap-info-formal .list-confirm-info .item-total-price-border{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .new-kimono-product-confirm .product-subtotal-price{
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        margin: 0;
+        padding-top: 15px;
+        border-top: 1px solid #919191;
+    }
+    .new-kimono-product-confirm .wrap-info-formal .list-confirm-info .plan-name{
+        margin-bottom: 5px;
+    }
+    .new-kimono-product-confirm .wrap-btn-change-confirm{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+    }
+    .new-kimono-product-confirm .btn-change-confirm-pc{
+        margin: 0;
+        width: 30%;
+    }
+    .new-kimono-product-confirm .wrap-info-formal .list-confirm-info .item-total-price .item-double{
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 4px 0 4px 10px;
+    }
+    .new-kimono-product-confirm .wrap-info-formal .list-confirm-info .item-total-price:last-child .price-formal-confirm{
+        margin-bottom: 0;
+    }
+    /*===== Book options =====*/
+    .book-options {
+        padding: 20px;
+        width: 80%;
+    }
+    .book-options .box-heading {
+        font-size: 18px;
+        color: #000;
+        margin-bottom: 20px;
+    }
+    .book-options .list-options .item-group-options{
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    .book-options .list-options .item-group-options .title-option {
+        width: 40%;
+    }
+    .book-options .sub-book-options .wrap-item-option {
+        padding: 5px 0;
+    }
+    .boths-btn-payment{
+        flex-direction: row;
+    }
+    .boths-btn-payment button{
+        width: 250px;
+    }
+    .boths-btn-payment .btn-payment {
+        margin-bottom: 0;
+    }
+	.btn-confirm-next.btn-color-disable:hover{
+		opacity: 1;
+	}
+	.wrap-shop-text-only{
+		margin-top: -10px;
+		padding-left: 315px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}

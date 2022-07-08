@@ -1,0 +1,162 @@
+.main-banner-top-page {
+    /*padding-bottom: calc(370/375 * 100%);*/
+    position: relative;
+    background: url('../../../../../images/loading.gif') no-repeat center center #eee;
+}
+.main-banner-top-page.imagesLoaded {
+    padding-bottom: unset !important;
+    background: unset !important;
+}
+.main-banner-top-page.imagesLoaded img {
+    opacity: 1;
+    position: static;
+    height: auto;
+}
+.wrap-new-shop-information {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.shop-detail .justify-content-between {
+    display: block;
+}
+.new-access-child-page .wrap-new-shop-name .new-shop-name-access {
+    font-size: 21px;
+    font-weight: bold;
+    color: #4c4c4c;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+.new-access-child-page .wrap-new-shop-name .new-shop-name-access .new-shop-name-small.wrap-shop-name-small{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 16px;
+}
+.new-access-child-page .wrap-new-shop-name .new-shop-name-access .new-shop-name-small.wrap-shop-name-small .new-shop-name-access {
+    font-size: 21px;
+}
+.new-access-child-page .new-shop-detail{
+    font-size: 12px;
+    color: #3d3d3d;
+    line-height: 2;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.new-access-child-page .new-shop-detail .text-shop-dt{
+    line-height: 1.6;
+}
+.new-access-child-page .wrap-link-new-page-access{
+    height: 50px;
+    background-color: #cec0aa;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.new-access-child-page .wrap-link-new-page-access .link-new-page-access {
+    font-size: 14px;
+    color: #fff;
+}
+.wrap-option-new-access-shop{
+    width: 100%;
+    border: 1px solid #565656;
+    padding: 15px 15px 0 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap-new-main-banner-access.kyototower article {
+    top: 52%;
+    left: 3%;
+}
+/*.new-access-child-page .shop-has-slide.flexslider .slides img{*/
+    /*max-height: 132px;*/
+/*}*/
+.shop-has-slide .slides .slick-slide{
+    position: relative;
+    display: block !important;
+    min-height: 104px;
+}
+
+/*===banner===*/
+.wrap-new-main-banner-access article{
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+.imagesLoaded article{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s ease;
+}
+.wrap-new-main-banner-access{
+    position: relative;
+}
+.wrap-new-main-banner-access .text-area {
+    background-color: #fffbc3;
+    font-size: 10px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 4px;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 2px;
+}
+.wrap-new-main-banner-access .shop-name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    line-height: 1;
+    color: #410b3c;
+    letter-spacing: 2px;
+}
+.wrap-new-main-banner-access .name-store {
+    font-size: 12px;
+    color: #fec1e2;
+    margin-bottom: 21px;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+.wrap-new-main-banner-access.kyototower .name-store{
+    margin-bottom: 32px;
+}
+.wrap-new-main-banner-access .intro-store {
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-size: 8px;
+    color: #666;
+}
+.wrap-new-main-banner-access.kyototower .intro-store{
+    width: 55%;
+}
+.wrap-new-main-banner-access.tokyoskytree article {
+    top: 56%;
+    left: 5%;
+}
+.wrap-new-main-banner-access.kyototower article {
+    top: 52%;
+    left: 3%;
+}
+.wrap-new-main-banner-access.tokyoskytree .shop-name{
+    font-size: 19px;
+    width: 58%;
+}
+.wrap-new-main-banner-access.tokyoskytree .intro-store{
+    width: 58%;
+}
+.wrap-new-main-banner-access.tokyoskytree .name-store {
+    font-size: 10px;
+    margin-bottom: 25px;
+}

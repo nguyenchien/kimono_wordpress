@@ -1,0 +1,502 @@
+.main-banner-top-page {
+    position: relative;
+    overflow: hidden;
+}
+.main-banner-top-page:before{
+    content: "";
+    display: block;
+    padding-bottom: calc(375/401 * 100%);
+    background: url(../../../../../images/loading.gif) no-repeat center center #eee;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.main-banner-top-page.imagesLoaded:before {
+    padding-bottom: 0;
+    background: unset;
+    overflow: unset;
+}
+.main-banner-top-page.imagesLoaded img {
+    position: static;
+    height: auto;
+    opacity: 1;
+}
+.shop-has-slide .slides .slick-slide{
+    position: relative;
+    display: block !important;
+    min-height: 72px;
+}
+/* end banner */
+.wrap-new-main-banner-access{
+    position: relative;
+}
+.wrap-new-main-banner-access article{
+    position: absolute;
+    left: 3%;
+    top: 56%;
+    width: 57%;
+}
+.wrap-new-main-banner-access .text-area {
+    font-size: 10px;
+    font-weight: 600;
+    background-color: #fffbc3;
+    display: inline-block;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 2px;
+    margin-bottom: 8px;
+}
+.wrap-new-main-banner-access .shop-name {
+    font-size: 25px;
+    font-weight: 400;
+    color: #410b3c;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+.wrap-new-main-banner-access .name-store {
+    font-size: 12px;
+    color: #fec1e2;
+    margin-bottom: 31px;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+.wrap-new-main-banner-access .intro-store {
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: #666;
+}
+.wrap-rental-plan-kamakura .box-plan .plan-info{
+    display: block;
+}
+.wrap-rental-plan-kamakura .wrap-btn .btn-booking {
+    border: none;
+    background-color: #f3313d;
+    color: #fff;
+    width: 80%;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 30px;
+    text-align: center;
+    padding: 12px 10px;
+}
+.kamakura .plan-info .wrap-btn a:after {
+    background: none;
+}
+.kamakura .wrap-column-post-kamakura .text-banner {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+.kamakura .wrap-banner-map{
+    margin-bottom: 15px;
+}
+
+.banner-customer-thanksgiving .slick-dots{
+    bottom: -15px;
+}
+.banner-customer-thanksgiving .slick-dots li{
+    margin: 0;
+}
+.banner-customer-thanksgiving .slick-dots li button:before{
+    font-size: 50px;
+}
+.banner-customer-thanksgiving .slick-prev:before,
+.banner-customer-thanksgiving .slick-next:before{
+    content: '';
+    border-style: solid;
+    display: inline-block;
+    border-color: #fff;
+    opacity: 1;
+    width: 10px;
+    height: 10px;
+    border-width: 2px 2px 0 0;
+}
+.banner-customer-thanksgiving .slick-prev,
+.banner-customer-thanksgiving .slick-next{
+    z-index: 99;
+}
+.banner-customer-thanksgiving .slick-prev{
+    left: 0;
+}
+.banner-customer-thanksgiving .slick-next{
+    right: 0;
+}
+.banner-customer-thanksgiving .slick-prev:before{
+    -webkit-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+.banner-customer-thanksgiving .slick-next:before{
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.padding-v2{
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+/* new-access-child-page-v2-sp.css */
+.shop-info{
+    margin-bottom: 30px;
+}
+.shop-info .main-image{
+    margin: 0 -10px 10px -10px;
+}
+.wrap-top-plan-circle-fm-v2.asakusa .wrap-text-scene-above{
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.wrap-top-plan-circle-fm-v2.kanazawa .wrap-text-scene-above,
+.wrap-top-plan-circle-fm-v2.kurashiki .wrap-text-scene-above{
+    font-size: 16px;
+}
+.wrap-top-plan-circle-fm-v2.asakusa.sapporo-susukinostation .wrap-text-scene-above{
+    font-size: 15px;
+}
+.wrap-top-plan-circle-fm-v2.asakusa .wrap-text-scene-above .text-left{
+    margin-right: 30px;
+}
+.wrap-top-plan-circle-fm-v2.kanazawa .wrap-text-scene-above .text-left,
+.wrap-top-plan-circle-fm-v2.kurashiki .wrap-text-scene-above .text-left{
+    margin-right: 15px;
+}
+.wrap-top-plan-circle-fm-v2.asakusa .list-scene-v2 .item-scene-v2.color-circle-01 .out-circle,
+.wrap-top-plan-circle-fm-v2.asakusa .item-scene-v2.color-circle-01 .inside-circle,
+.wrap-top-plan-circle-fm-v2.asakusa .list-scene-v2 .item-scene-v2.color-circle-01 .num-circle{
+    border-color: #F29544;
+    color: #F29544;
+}
+.wrap-top-plan-circle-fm-v2.asakusa .list-scene-v2 .item-scene-v2.color-circle-02 .out-circle,
+.wrap-top-plan-circle-fm-v2.asakusa .item-scene-v2.color-circle-02 .inside-circle,
+.wrap-top-plan-circle-fm-v2.asakusa .list-scene-v2 .item-scene-v2.color-circle-02 .num-circle{
+    border-color: #799B9B;
+    color: #799B9B;
+}
+.wrap-top-plan-circle-fm-v2 .list-scene-v2 .item-scene-v2.color-circle-03 .out-circle,
+.wrap-top-plan-circle-fm-v2 .item-scene-v2.color-circle-03 .inside-circle,
+.wrap-top-plan-circle-fm-v2 .list-scene-v2 .item-scene-v2.color-circle-03 .num-circle{
+    border-color: #B48C00;
+    color: #B48C00;
+}
+.wrap-top-plan-circle-fm-v2 .wrap-scene-btn{
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 0 20px -15px;
+    padding: 0 10px;
+}
+.wrap-top-plan-circle-fm-v2.asakusa .list-scene-v2 .item-scene-v2.color-circle-01 .out-circle,
+.wrap-top-plan-circle-fm-v2.asakusa .item-scene-v2.color-circle-01 .inside-circle,
+.wrap-top-plan-circle-fm-v2.asakusa .list-scene-v2 .item-scene-v2.color-circle-01 .num-circle{
+    border-color: #F29544;
+    color: #F29544;
+}
+.wrap-top-plan-circle-fm-v2.kamakura .list-scene-v2 .item-scene-v2.color-circle-01 .out-circle,
+.wrap-top-plan-circle-fm-v2.kamakura .item-scene-v2.color-circle-01 .inside-circle,
+.wrap-top-plan-circle-fm-v2.kamakura .list-scene-v2 .item-scene-v2.color-circle-01 .num-circle{
+    border-color: #c17954;
+    color: #c17954;
+}
+.wrap-top-plan-circle-fm-v2.kanazawa .list-scene-v2 .item-scene-v2.color-circle-01 .out-circle,
+.wrap-top-plan-circle-fm-v2.kanazawa .item-scene-v2.color-circle-01 .inside-circle,
+.wrap-top-plan-circle-fm-v2.kanazawa .list-scene-v2 .item-scene-v2.color-circle-01 .num-circle{
+    border-color: #f29544;
+    color: #f29544;
+}
+.wrap-top-plan-circle-fm-v2.shinjuku-station .list-scene-v2 .item-scene-v2.color-circle-01 .out-circle,
+.wrap-top-plan-circle-fm-v2.shinjuku-station .item-scene-v2.color-circle-01 .inside-circle,
+.wrap-top-plan-circle-fm-v2.shinjuku-station .list-scene-v2 .item-scene-v2.color-circle-01 .num-circle{
+    border-color: #d84d96;
+    color: #d84d96;
+}
+.wrap-top-plan-circle-fm-v2.asakusa .list-scene-v2 .item-scene-v2.color-circle-02 .out-circle,
+.wrap-top-plan-circle-fm-v2.asakusa .item-scene-v2.color-circle-02 .inside-circle,
+.wrap-top-plan-circle-fm-v2.asakusa .list-scene-v2 .item-scene-v2.color-circle-02 .num-circle{
+    border-color: #799B9B;
+    color: #799B9B;
+}
+.wrap-top-plan-circle-fm-v2.asakusa .list-scene-v2 .item-scene-v2.color-circle-03 .out-circle,
+.wrap-top-plan-circle-fm-v2.asakusa .item-scene-v2.color-circle-03 .inside-circle,
+.wrap-top-plan-circle-fm-v2.asakusa .list-scene-v2 .item-scene-v2.color-circle-03 .num-circle{
+    border-color: #B48C00;
+    color: #B48C00;
+}
+.wrap-top-plan-circle-fm-v2.kurashiki .list-scene-v2 .item-scene-v2.color-circle-03 .num-circle .custom-other{
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+.wrap-top-plan-circle-fm-v2.kurashiki .list-scene-v2 .item-scene-v2.color-circle-03 .num-circle .custom-other-bottom{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+.wrap-top-plan-circle-fm-v2.asakusa .list-scene-v2,
+.wrap-top-plan-circle-fm-v2.asakusa .list-scene-v2 .item-scene-v2{
+    margin: 0;
+}
+.wrap-top-plan-circle-fm-v2.asakusa .list-scene-v2 .color-circle-02{
+    margin: 0 0 0px 15px;
+}
+.wrap-top-plan-circle-fm-v2.asakusa .list-scene-v2 .color-circle-03{
+    margin-top: -10px;
+}
+.wrap-top-plan-circle-fm-v2.asakusa .list-scene-v2{
+    margin-bottom: 20px;
+}
+.wrap-top-plan-circle-fm-v2.asakusa.shinjuku-station .list-scene-v2 .item-scene-v2.color-circle-03 .num-circle-1,
+.wrap-top-plan-circle-fm-v2.asakusa.sapporo-susukinostation .list-scene-v2 .item-scene-v2.color-circle-03 .num-circle-1{
+    font-size: 15px;
+}
+.wrap-scene-btn a{
+    width: calc(100% * 1/2 - 15px);
+    margin-left: 15px;
+    background: url('../../../../../images/new-kimono/access/bg-btn-bubble.svg') no-repeat;
+    background-size: 100%;
+    background-position: 0px 20px;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100px;
+}
+.wrap-top-plan-circle-fm-v2.kamakura .wrap-scene-btn a{
+    background: url(../../../../../images/new-kimono/access/bg-btn-bubble-kamakura.svg) no-repeat;
+    background-size: 100%;
+    background-position: 0 14px;
+}
+.wrap-top-plan-circle-fm-v2.kanazawa .wrap-scene-btn a{
+    background: url(../../../../../images/new-kimono/access/bg-btn-bubble-kanazawa.svg) no-repeat;
+    background-size: 100%;
+    background-position: 0 26px;
+    font-size: 12px;
+    width: calc(100% * 1/3 - 10px);
+    margin-left: 10px;
+}
+.wrap-top-plan-circle-fm-v2.kurashiki .wrap-scene-btn a{
+    background: url(../../../../../images/new-kimono/access/bg-btn-bubble-kurashiki.svg) no-repeat;
+    background-size: 100%;
+    background-position: 0 23px;
+    height: 110px;
+}
+.wrap-top-plan-circle-fm-v2.shinjuku-station .wrap-scene-btn a{
+    background: url(../../../../../images/new-kimono/access/bg-btn-bubble-shinjuku.svg) no-repeat;
+    background-size: 100%;
+    background-position: 0 20px;
+    height: 110px;
+}
+.wrap-top-plan-circle-fm-v2.sapporo-susukinostation .wrap-scene-btn a{
+    background: url(../../../../../images/new-kimono/access/bg-btn-bubble-sapporo.svg) no-repeat;
+    background-size: 100%;
+    background-position: 0 20px;
+    height: 110px;
+}
+.wrap-title-v2.column .wrap-text-title{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.btn-v2-asakusa{
+    background-color: #F29544;
+}
+.wrap-btn-v2 .btn-v2-kamakura,
+.wrap-btn-v2 .btn-v2-01.btn-v2-01-kamakura,
+.wrap-btn-v2 .btn-v2-01.bg-ginza-kamakura,
+.wrap-btn-v2 .btn-v2-01.btn-v2-kamakura{
+    background-color: #c17954;
+}
+.wrap-btn-v2 .btn-v2-kanazawa,
+.wrap-btn-v2 .btn-v2-01.btn-v2-01-kanazawa,
+.wrap-btn-v2 .btn-v2-01.bg-ginza-kanazawa,
+.wrap-btn-v2 .btn-v2-01.btn-v2-kanazawa{
+    background-color: #a5ae33;
+}
+.wrap-btn-v2 .btn-v2-kurashiki,
+.wrap-btn-v2 .btn-v2-01.btn-v2-01-kurashiki,
+.wrap-btn-v2 .btn-v2-01.bg-ginza-kurashiki,
+.wrap-btn-v2 .btn-v2-01.btn-v2-kurashiki{
+    background-color: #33b699;
+}
+.wrap-btn-v2 .btn-v2-shinjuku-station,
+.wrap-btn-v2 .btn-v2-01.btn-v2-01-shinjuku-station,
+.wrap-btn-v2 .btn-v2-01.bg-ginza-shinjuku-station,
+.wrap-btn-v2 .btn-v2-01.btn-v2-shinjuku-station{
+    background-color: #d84d96;
+}
+.wrap-btn-v2 .btn-v2-sapporo-susukinostation,
+.wrap-btn-v2 .btn-v2-01.btn-v2-01-sapporo-susukinostation,
+.wrap-btn-v2 .btn-v2-01.bg-ginza-sapporo-susukinostation,
+.wrap-btn-v2 .btn-v2-01.btn-v2-sapporo-susukinostation{
+    background-color: #535FA3;
+}
+.wrap-btn-ginza-book.kurashiki{
+    margin-bottom: 40px;
+}
+.btn-v2-asakusa .pattern:before {
+    border-color: #dac680 transparent transparent transparent;
+}
+.btn-v2-asakusa.btn-v2-kurashiki .pattern:before,
+.btn-v2-kurashiki .pattern:before{
+    border-color: #f6eca5 transparent transparent transparent;
+}
+.btn-v2-asakusa .pattern:after {
+    border-color: transparent transparent transparent #b3a6cf;
+}
+.btn-v2-asakusa.btn-v2-kurashiki .pattern:after,
+.btn-v2-kurashiki .pattern:after{
+    border-color: transparent transparent transparent #99c4e9;
+}
+.wrap-btn-v2-asakusa .btn-v2:last-child{
+    margin-left: 0;
+}
+.wrap-btn-v2-asakusa .btn-v2 .text-link{
+    font-weight: bold;
+}
+.wrap-sidebar-products-pkr-fm-v2 .wrap-btn-v2-ginza .text-link{
+    padding-left: 30px;
+}
+/*title*/
+.cate-desc{
+    font-size: 12px;
+    padding: 0 10px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+.wrap-title-v2{
+    margin-bottom: 28px;
+    line-height: 1;
+}
+.wrap-title-v2.column .wrap-text-title{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.shop-has-slide{
+    padding: 0 40px;
+}
+.shop-has-slide .slick-next:before,
+.shop-has-slide .slick-prev:before {
+    color: #909090;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: inherit;
+}
+.shop-has-slide .slick-prev:before {
+    content: '\3008';
+}
+.shop-has-slide .slick-next:before {
+    content: '\3009';
+}
+.shop-has-slide .slick-prev{
+    left: -30px;
+}
+.shop-has-slide .slick-next{
+    right: -30px;
+}
+
+
+/*Shop intro*/
+.wrap-shop-intro{
+    padding: 0 10px;
+    margin-bottom: 30px;
+}
+.wrap-shop-intro .intro-title{
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+}
+.wrap-shop-intro-sapporo.wrap-shop-intro .intro-title{
+    font-size: 15px;
+}
+.shinjuku-station .wrap-shop-intro .intro-title{
+    font-size: 16px;
+}
+.wrap-shop-intro .intro-title:before,
+.wrap-shop-intro .intro-title:after{
+    position: absolute;
+    content: '';
+    background: url('../../../../../images/new-kimono/access/flower-pt.svg') no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    top: -10px;
+}
+.kamakura .wrap-shop-intro .intro-title:before,
+.kamakura .wrap-shop-intro .intro-title:after{
+    background: url('../../../../../images/new-kimono/access/flower-pt-kamakura.svg') no-repeat;
+    background-size: cover;
+}
+.kanazawa .wrap-shop-intro .intro-title:before,
+.kanazawa .wrap-shop-intro .intro-title:after{
+    background: url('../../../../../images/new-kimono/access/flower-pt-kanazawa.svg') no-repeat;
+    background-size: cover;
+}
+.kurashiki .wrap-shop-intro .intro-title:before,
+.kurashiki .wrap-shop-intro .intro-title:after{
+    background: url('../../../../../images/new-kimono/access/flower-pt-kurashiki.svg') no-repeat;
+    background-size: cover;
+}
+.shinjuku-station .wrap-shop-intro .intro-title:before,
+.shinjuku-station .wrap-shop-intro .intro-title:after{
+    background: url('../../../../../images/new-kimono/access/flower-pt-shinjuku.svg') no-repeat;
+    background-size: cover;
+}
+.sapporo-susukinostation .wrap-shop-intro .intro-title:before,
+.sapporo-susukinostation .wrap-shop-intro .intro-title:after{
+    background: url('../../../../../images/new-kimono/access/flower-pt-sapporo.svg') no-repeat;
+    background-size: cover;
+}
+.wrap-shop-intro .intro-title:before{
+    left: 10px;
+}
+.sapporo-susukinostation .wrap-shop-intro .intro-title:before,
+.shinjuku-station .wrap-shop-intro .intro-title:before{
+    left: 0;
+}
+.wrap-shop-intro .intro-title:after{
+    right: 10px;
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.sapporo-susukinostation .wrap-shop-intro .intro-title:after,
+.shinjuku-station .wrap-shop-intro .intro-title:after{
+    right: 0;
+}
+.wrap-shop-intro p{
+    line-height: 1.6;
+    font-size: 12px;
+}

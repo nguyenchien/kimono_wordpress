@@ -1,0 +1,163 @@
+.title-general {
+    background-color: #4e0037;
+}
+.fixed-body {
+    overflow: hidden;
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9;
+    padding-bottom: 10px;
+}
+.wrap-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+.text-align-center{
+    text-align: center;
+}
+/*===Header===*/
+.wrap-nav{
+    background-color: #4e0037;
+    padding: 20px 0;
+}
+.list-menu .item{
+    margin-right: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.list-menu .item a{
+    color: #fff;
+}
+.wrap-general-luggage{
+    letter-spacing: 3px;
+}
+.wrap-banner-big{
+    margin-bottom: 25px;
+}
+.wrap-banner-small{
+    margin-bottom: 15px;
+}
+.wrap-banner-small img{
+    width: 80%;
+}
+.title-lug{
+    font-size: 24px;
+    font-weight: bold;
+    color: #8d8502;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+.title-lug small{
+    font-size: 15px;
+    margin-left: 5px;
+}
+.wrap-des-lug{
+    font-size: 12px;
+}
+.des-lug{
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    line-height: 1.8;
+}
+
+.content-about-wargo:not(:last-child){
+    margin-bottom: 30px;
+}
+.wrap-about-wargo .wrap-content .box-icon{
+    width: 35%;
+    margin-right: 20px;
+}
+.wrap-about-wargo .wrap-content .box-content{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.wrap-logo-menu .logo{
+    text-align: left;
+}
+.wrap-logo-menu .logo img{
+    width: 70%;
+}
+.toggle-menu{
+    width: 50px;
+}
+.box-detail-service{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.wrap-grid-booking{
+    margin-bottom: 30px;
+}
+.wrap-choose-shop-modal .area-shop-list-item .wrap-shop-name-modal{
+    width: initial;
+}
+.wrap-shop-name-modal .shop-name-modal{
+    font-size: 14px;
+}
+.wrap-choose-shop-modal .shop-list .shop-list-item {
+    width: calc(100% * 1/2 - 15px);
+}
+.formal-hour-table {
+    width: 100%;
+}
+.qtip.qtip-default {
+    border: 0px!important;
+    box-shadow: none;
+}
+.breadcrumbs-formal{
+    padding: 0 10px;
+}
+@media (max-width: 767px){
+    .row{
+        padding: 0 20px;
+    }
+    .row-fluid{
+        padding: 0;
+    }
+    .side-nav {
+        height: 100%;
+        width: 85%;
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        left: -100%;
+        background-color: #4e0037;
+        overflow-x: hidden;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+    }
+    .side-nav.open {
+        left: 0;
+    }
+    .close-sb{
+        text-align: right;
+        padding: 0 20px;
+    }
+    .close-sb .closed{
+        font-size: 40px;
+        color: #fff;
+    }
+    .list-menu-sp .item {
+        border-bottom: 1px solid #612e52;
+    }
+    .list-menu-sp .item a{
+        font-size: 14px;
+        color: #fff;
+        padding: 10px 20px;
+        width: 100%;
+        display: block;
+        letter-spacing: 2px;
+    }
+
+}

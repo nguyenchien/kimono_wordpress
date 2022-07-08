@@ -1,0 +1,42 @@
+.kimono-slider-home .banner-link {
+    width: 49.1666666667%;
+    float: left
+}
+.kimono-slider-home .kimono-link {
+    margin-right: 1.66666666%
+}
+.kimono-slider-home img.slide-img-pc{
+    display: none;
+}
+.kimono-slider-home .flex-control-paging li a.flex-active,
+.blog-shop .flex-control-paging li a.flex-active,
+.shop-has-slide .flex-control-paging li a.flex-active{
+    background-color: #e62e8b;
+}
+.kimono-slider-home .flex-control-paging li a,
+.blog-shop .flex-control-paging li a,
+.shop-has-slide .flex-control-paging li a{
+    background-color: #fff;
+}
+.blog-shop .flex-direction-nav a {
+	height: 45px;
+	display: none;
+}
+.blog-shop .flex-direction-nav a.flex-next:before,
+.blog-shop .flex-direction-nav a.flex-prev:before
+{
+	color: white;
+}
+.kimono-slider-home .flexslider{
+    margin-bottom: 45px;
+}
+.kimono-slider-home .flex-direction-nav a,
+.shop-has-slide .flex-direction-nav a{
+    display: none;
+}
+
+@media (min-width: 750px) {
+	.blog-shop .flex-direction-nav a {
+		display: block;
+	}
+}

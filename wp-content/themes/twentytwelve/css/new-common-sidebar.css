@@ -1,0 +1,106 @@
+.wrap-cm-user{
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+/*===Box user info sidebar===*/
+.cm-user .box-cm-user{
+    background-color: #fff;
+}
+.wrap-cm-user .title-cm-user{
+    margin-bottom: 30px;
+}
+.box-user-info .list-info .info-item{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+@media (max-width: 767px){
+    /*.cm-user .box-cm-user{*/
+        /*padding: 0;*/
+    /*}*/
+    /*===Box user info===*/
+    .box-info-item .list-info{
+        /*background-color: #ececec;*/
+        padding: 6px 10px;
+        font-size: 15px;
+    }
+    /*.box-user-info{*/
+        /*border-bottom: 1px solid #cecece;*/
+    /*}*/
+    /*.box-user-info .list-info .info-item a:after{*/
+        /*position: absolute;*/
+        /*top: 25px;*/
+        /*right: 25px;*/
+        /*display: inline-block;*/
+        /*content: '';*/
+        /*border-right: 1px solid #000;*/
+        /*border-bottom: 1px solid #000;*/
+        /*width: 12px;*/
+        /*height: 12px;*/
+        /*-webkit-transform: rotate(-45deg);*/
+        /*-ms-transform: rotate(-45deg);*/
+        /*transform: rotate(-45deg);*/
+    /*}*/
+    /*.box-user-info .list-info .info-item:not(:last-child){*/
+        /*border-bottom: 1px solid #cecece;*/
+    /*}*/
+    /*.box-user-info .list-info .info-item a{*/
+        /*width: 100%;*/
+        /*padding: 20px 25px 20px 30px;*/
+        /*font-size: 17px;*/
+        /*position: relative;*/
+    /*}*/
+    .box-info-item .list-info-content{
+        padding: 20px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .title-cm-user .closed{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        font-size: 30px;
+    }
+    .wrap-btn{
+        padding: 0 20px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+}
+
+
+.wrap-cm-user .title-cm-user .icon-formal-cm-user-info{
+    font-size: 65px;
+}
+/*===Box user info===*/
+.wrap-left-common-sidebar .cm-user .box-cm-user{
+    padding: 30px 20px;
+    border: 2px solid #3B002A;
+    border-radius: 16px;;
+}
+.wrap-left-common-sidebar .box-info-item .user-name-info{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #3B002A;
+    line-height: 1;
+}
+.wrap-left-common-sidebar .box-user-info .box-info-item{
+    line-height: 1;
+}
+.wrap-left-common-sidebar .box-user-info .box-info-item:not(:last-child){
+    margin-bottom: 30px;
+}
+.box-user-info .list-info .info-item:not(:last-child){
+    margin-bottom: 5px;
+}
+.box-user-info .list-info .info-item a{
+    font-size: 16px;
+    color: #3B002A;
+}
+

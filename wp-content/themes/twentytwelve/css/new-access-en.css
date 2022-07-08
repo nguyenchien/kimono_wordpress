@@ -1,0 +1,38 @@
+.list-opt-check .item-check{
+    width: calc(100% * (1/2));
+    font-size: 13px;
+}
+.new-access-child-page .distance-time li label{
+    font-size: 15px;
+}
+.new-access-child-page .distance-time li span{
+    font-size: 13px;
+}
+
+@media (min-width: 750px) {
+    .wrap-option-new-access-shop{
+        padding: 15px;
+    }
+    .list-opt-check .item-check{
+        font-size: 15px;
+    }
+    .new-access-child-page .shop-instruction{
+        padding: 0 30px;
+    }
+    .new-access-child-page .instruction_full_width .items-new-access-infor{
+        font-size: 15px;
+    }
+    .new-access-child-page .distance-time li span,
+    .new-access-child-page .distance-time li label{
+        padding: 9px;
+    }
+    /*Arashiyama*/
+    .top-shoplist-arashiyama-detail .sub-list-other .link-shoplist-wg .text-shop-wg{
+        padding: 0 5px;
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+        height: 138px;
+    }
+
+}

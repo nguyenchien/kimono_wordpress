@@ -1,0 +1,8 @@
+.title-general:not(.title-list) .text-title-general {
+    top: 6px;
+}
+@media (min-width: 750px){
+    .wrap-topics-banner-widget .text-banner-right a {
+        font-size: 12px;
+    }
+}

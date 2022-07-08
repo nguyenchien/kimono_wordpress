@@ -1,0 +1,103 @@
+.title-list-vip{
+    background-color: #a8824a;
+}
+.wrap-banner-top-vip{
+    margin-bottom: 20px;
+}
+.wrap-banner-top-vip .box-banner-top-vip{
+    margin-bottom: 10px;
+}
+.section-des-banner-vip .title-banner-vip{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.section-des-banner-vip .des-banner-vip{
+    font-size: 12px;
+}
+.top-new-plan-list-vip .title-top-new-pl .text-top-title-vip {
+    border: none;
+    color: #fff;
+    background-color: #a8824a;
+}
+.wrap-option-vip-list{
+    margin-bottom: 50px;
+}
+.wrap-option-vip .title-opt-vip{
+    line-height: 1;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #383838;
+}
+.list-opt-vip{
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -10px;
+}
+.list-opt-vip .item-opt-vip{
+    width: calc(100% * (1/3) - 10px);
+    margin: 0 0 20px 10px;
+}
+.list-opt-vip .item-opt-vip .image-opt-vip{
+    margin-bottom: 10px;
+}
+.list-opt-vip .item-opt-vip .des-opt-vip{
+    font-size: 11px;
+    text-align: center;
+}
+.list-opt-vip .item-opt-vip .des-opt-vip .item-opt-vip{
+    margin-bottom: 8px;
+}
+.list-opt-vip .item-opt-vip .des-opt-vip .text-opt-vip-red a{
+    font-size: 9px;
+    color: red;
+}
+.list-opt-vip .item-opt-vip .des-opt-vip .text-opt-vip-red span{
+    text-decoration: underline;
+}
+.text-des-list-vip{
+    color: #e60012;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.wg-webpirce-box-vip{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.wg-webpirce-box-vip .box-webprice{
+    text-align: center;
+}
+.wg-webpirce-box-vip .box-webprice .web {
+    font-size: 27px;
+    font-weight: normal;
+}
+@media (min-width: 750px){
+    .wrap-option-vip .title-opt-vip {
+        margin-bottom: 30px;
+    }
+    .wrap-option-vip-list {
+        margin-bottom: 0;
+    }
+    .list-opt-vip{
+        margin-left: -15px;
+    }
+    .list-opt-vip .item-opt-vip{
+        width: calc(100% * (1/5) - 15px);
+        margin: 0 0 20px 15px;
+    }
+    .list-opt-vip .item-opt-vip img{
+        width: 100%;
+    }
+    .list-opt-vip .item-opt-vip .des-opt-vip{
+        font-size: 13px;
+    }
+    .list-opt-vip .item-opt-vip .des-opt-vip .text-opt-vip-red a{
+        font-size: 10px;
+    }
+    .wrap-boths-column .right-column .intro-top-general.intro-top-general-vip{
+        margin: 50px 0 10px 0;
+    }
+}

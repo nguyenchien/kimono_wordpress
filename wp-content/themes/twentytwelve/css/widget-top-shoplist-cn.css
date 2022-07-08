@@ -1,0 +1,12 @@
+@media (min-width: 750px){
+    .list-shoplist-wg-other{
+        width: 100%;
+    }
+    .top-shoplist-kyotostation:not(.top-shoplist-kyotostation-detail) .item-shoplist-wg-other .sub-list-other li a{
+        height: 171px;
+    }
+    .widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other .text-des-shop-wg {
+        font-size: 11px;
+    }
+
+}

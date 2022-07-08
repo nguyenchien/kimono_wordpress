@@ -1,0 +1,63 @@
+.box-formal-product-thankyou{
+	padding: 0 20px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.box-formal-product-thankyou  .formal-product-thankyou-info{
+	border-top: 1px solid #919191;
+	border-bottom: 1px solid #919191;
+	padding: 20px 0;
+}
+.box-formal-product-thankyou  .formal-product-thankyou-info .text-thankyou{
+	color: #3d3d3d;
+	font-size: 11px;
+}
+.box-formal-product-thankyou  .formal-product-thankyou-info .text-thankyou-01,
+.box-formal-product-thankyou  .formal-product-thankyou-info .text-thankyou-03{
+	margin-bottom: 20px;
+}
+.btn-link-thankyou{
+	margin: 20px auto;
+}
+.title-sns{
+	font-size: 20px;
+	text-align: center;
+	margin: 50px 0 20px 0;
+}
+.wrap-social-bottom{
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.wrap-social-bottom .social{
+	width: 40px;
+	margin: 0 3px;
+}
+.wrap-social-bottom .social img{
+	visibility: visible !important;
+	width: 100%;
+}
+.sns-txt{
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.4;
+}
+@media (min-width: 750px){
+	.box-formal-product-thankyou{
+		padding: 0;
+	}
+	.box-formal-product-thankyou  .formal-product-thankyou-info .text-thankyou-01{
+		margin-bottom: 0;
+	}
+	.box-formal-product-thankyou .formal-product-thankyou-info{
+		padding: 30px 0;
+	}
+	.box-formal-product-thankyou .formal-product-thankyou-info .text-thankyou{
+		font-size: 12px;
+	}
+	.btn-link-thankyou{
+		width: 40%;
+	}
+	.btn-link-thankyou .btn-formal{
+		padding: 15px;
+	}
+}

@@ -1,0 +1,200 @@
+.wrap-fireworks-event .banner-fireworks{
+	position: relative;
+}
+.wrap-fireworks-event .banner-fireworks .title-header-fireworks{
+	position: absolute;
+	bottom: -6px;
+	line-height: 1;
+	color: #000;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.wrap-fireworks-event .banner-fireworks .title-header-fireworks .top-text{
+	border-bottom: 1px solid #000;
+	font-size: 54px;
+	font-size: 14vw;
+	font-weight: bold;
+	line-height: 1;
+	margin-bottom: 3px;
+	display: inline-block;
+	letter-spacing: 1px;
+}
+.wrap-fireworks-event .banner-fireworks .title-header-fireworks .bottom-text{
+	letter-spacing: 7.5px;
+	font-size: 12px;
+	font-size: 3vw;
+}
+.wrap-fireworks-event .content-fireworks{
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background-image: url('../../../../../images/bg-fireworks.jpg');
+	background-repeat: repeat-y;
+}
+.content-fireworks .event-row{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.event-row .event-col{
+	width: 50%;
+	color: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+.event-item .event-name{
+	font-size: 17px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-bottom: 5px;
+}
+.event-item .event-name:before{
+	display: inline-block;
+	content: '';
+	width: 8px;
+	height: 20px;
+	background-color: #e4007e;
+	margin-right: 5px;
+}
+.event-row .event-col .event-item {
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px 1px 0 1px;
+	border-color: #fff;
+	position: relative;
+	margin-bottom: 13px;
+	margin-top: 1px;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+.event-row .event-col .event-item:after {
+	background: url(../../../../../images/bg-box-item.png) no-repeat;
+	position: absolute;
+	left: -1px;
+	bottom: -22px;
+	content: "";
+	height: 24px;
+	width: calc(100% + 2.5px);
+	background-size: 100%;
+}
+.event-row  .event-col:nth-child(even) .event-item{
+	margin-left: -1px;
+}
+.event-item .event-calendar{
+	font-size: 11px;
+}
+.event-item .event-calendar{
+	font-size: 11px;
+}
+.event-item .event-calendar:not(:last-child){
+	margin-bottom: 15px;
+}
+.event-calendar .event-date{
+	font-weight: bold;
+	font-size: 13px;
+}
+p .sub-text{
+	font-weight: bold;
+	font-size: 11px;
+}
+.content-fireworks .notice{
+	margin-top: 15px;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 3px;
+	color: #fff;
+	font-size: 11px;
+}
+.content-fireworks  .notice p{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+}
+
+@media (max-width: 360px){
+	.event-row .event-col .event-item{
+		margin-bottom: 11px;
+	}
+	.wrap-fireworks-event .banner-fireworks .title-header-fireworks .top-text {
+		font-size: 44px;
+		font-size: 13.5vw;
+	}
+	.wrap-fireworks-event .banner-fireworks .title-header-fireworks .bottom-text {
+		letter-spacing: 7px;
+		font-size: 8px;
+		font-size: 2.5vw;
+	}
+}
+
+@media (min-width: 750px){
+	.wrap-fireworks-event .content-fireworks{
+		padding: 25px 75px;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.event-row .event-col{
+		width: 25%;
+	}
+	.event-item .event-name:before{
+		height: 24px;
+		margin-top: -5px;
+	}
+	.event-row .event-col:nth-child(even) .event-item ,
+	.event-row .event-col:nth-child(3) .event-item {
+		margin-left: -2px;
+	}
+	.event-row .event-col .event-item{
+		padding: 15px;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		margin-bottom: 18px;
+	}
+	.event-row .event-col .event-item {
+		border-width: 2px 2px 0 2px;
+	}
+	.event-row .event-col .event-item:after {
+		bottom: -21px;
+		left: -2px;
+		width: calc(100% + 4px);
+	}
+	.event-item .event-name{
+		font-size: 24px;
+	}
+	.event-calendar .event-date{
+		font-size: 18px;
+		line-height: 1;
+	}
+	p .sub-text {
+		font-size: 16px;
+	}
+	.event-item .event-calendar{
+		font-size: 14px;
+	}
+	.wrap-fireworks-event .banner-fireworks .title-header-fireworks {
+		bottom: 18px;
+		padding: 0 75px;
+	}
+	.wrap-fireworks-event .banner-fireworks .title-header-fireworks .top-text {
+		font-size: 147px;
+		margin-bottom: 6px;
+	}
+	.wrap-fireworks-event .banner-fireworks .title-header-fireworks .bottom-text {
+		letter-spacing: 29px;
+		font-size: 21px;
+	}
+}

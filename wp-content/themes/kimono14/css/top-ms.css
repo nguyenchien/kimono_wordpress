@@ -1,0 +1,11 @@
+/*==BOX SLIDER==*/
+.kimono-slider-home .flexslider {
+    margin-bottom: 10px;
+}
+/*==BOX 6 POINTS==*/
+.section-6advices .title-sect .big {
+    font-size: 15vw;
+}
+.section-6advices .box-list ul li .item img.sub-item-advice-content-03{
+    margin: -25px 0 0 10px;
+}

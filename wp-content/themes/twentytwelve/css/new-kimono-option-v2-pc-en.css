@@ -1,0 +1,13 @@
+*{letter-spacing: 0 !important}
+.group-sub-banner-content .name-tag-sub{
+    background-image: url(../../../../../images/option/icon-name-tag-en.svg);
+}
+.group-sub-banner-content .sub-banner-07 .name-tag-sub{
+    background-image: url(../../../../../images/option/icon-name-tag-07-en.svg);
+}
+.group-sub-banner-content .group-title-sub{
+    padding: 9px 100px 10px 80px;
+}
+.button-reserve-option{
+    font-size: 20px;
+}

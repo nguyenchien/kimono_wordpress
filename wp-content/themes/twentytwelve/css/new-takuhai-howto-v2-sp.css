@@ -1,0 +1,415 @@
+/*wrap-search-scene-v2-takuhai-howto*/
+.wrap-howto-reserve-takuhai-howto-v2{
+    margin-bottom: 10px;
+    padding: 0 6px;
+}
+.wrap-search-scene-v2-takuhai-howto .title-search-scene-v2 .title-search-scene-name{
+    margin-bottom: 0;
+}
+.wrap-search-scene-v2-takuhai-howto .title-search-scene-v2 .title-search-scene-name .sub-title-search-scene-name{
+    font-size: 20px;
+    line-height: 1;
+    font-weight: bold;
+}
+.wrap-search-scene-v2-takuhai-howto .title-search-scene-v2{
+    margin-bottom: 10px;
+}
+.wrap-search-scene-v2-takuhai-howto  .title-search-scene-v2 .title-search-scene-name:before,
+.wrap-search-scene-v2-takuhai-howto  .title-search-scene-v2 .title-search-scene-name:after,
+.wrap-search-scene-v2-takuhai-howto .title-search-scene-v2 .sub-title-search-scene-name:before,
+.wrap-search-scene-v2-takuhai-howto .title-search-scene-v2 .sub-title-search-scene-name:after{
+    height: 25px;
+}
+.wrap-search-scene-v2-takuhai-howto .title-search-scene-v2 .sub-title-search-scene-name:before,
+.wrap-search-scene-v2-takuhai-howto .title-search-scene-v2 .sub-title-search-scene-name:after {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 1px;
+    top: 1px;
+}
+.wrap-search-scene-v2-takuhai-howto .title-search-scene-v2 .title-search-scene-name:before{
+    -webkit-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+    left: 0;
+    top: 0;
+}
+.wrap-search-scene-v2-takuhai-howto .title-search-scene-v2 .title-search-scene-name:after{
+    -webkit-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    transform: rotate(25deg);
+    right: 0;
+    top: 0;
+}
+.wrap-search-scene-v2-takuhai-howto .title-search-scene-v2 .sub-title-search-scene-name:before {
+    left: 5px;
+    display: block;
+    -webkit-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+    border-left: 1px solid #242424;
+}
+.wrap-search-scene-v2-takuhai-howto .title-search-scene-v2 .sub-title-search-scene-name:after{
+    right: 5px;
+    -webkit-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    transform: rotate(25deg);
+    border-right: 1px solid #242424;
+}
+/*wrap-content-takuhai-howto-scene*/
+.wrap-content-takuhai-howto-scene{
+    margin-bottom: 30px;
+}
+.wrap-slider-new-takuhai-howto-v2{
+    margin: 10px 10px 50px;
+}
+.wrap-slider-new-takuhai-howto-v2 .wrap-title-v2 .wrap-text-title{
+    display: block;
+}
+.content-takuhai-howto-scene{
+    font-size: 12px;
+    line-height: 1.6;
+}
+/*wrap-content-slider-new-takuhai-howto*/
+.wrap-content-slider-new-takuhai-howto{
+    margin-bottom: 40px;
+}
+.wrap-slider-new-takuhai-howto-v2 .wrap-title-v2 {
+    margin-bottom: 15px;
+}
+.wrap-content-slider-new-takuhai-howto .sub-des-title-takuhai{
+    font-size: 12px;
+}
+.wrap-content-slider-new-takuhai-howto .other-sub-des-title-takuhai{
+    font-size: 13px;
+    font-weight: normal;
+}
+.wrap-set-icon-option-takuhai{
+    width: 60%;
+    margin: 0 auto 20px;
+}
+.des-set-icon-option-takuhai{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.wrap-howto-reserve-takuhai-howto-v2 .bg-shop.wrap-circle-link-irotomesode .circle-link,
+.btn-v2-takuhai-howto,
+.bg-takuhai{
+    background-color: #3b002a;
+}
+.bg-yellow-takuhai{
+    background-color: #efda54;
+}
+.btn-v2-takuhai-howto .pattern:after {
+    border-color: transparent transparent transparent #cae0de;
+}
+
+.box-howto-reserve .bg-shop.wrap-r-icon-takuhai-howto,
+.box-howto-reserve .bg-web.wrap-r-icon-takuhai-howto{
+    background-position: 0 -1600px;
+}
+.color-takuhai{
+    color: #3b002a;
+}
+.link-mailto{
+    color: #901C32;
+}
+.wrap-howto-reserve-takuhai-howto-v2 .text-square{
+    font-size: 20px;
+}
+.wrap-group-step-5 .sub-text-title-square,
+.link-brand-search{
+    font-size: 12px;
+}
+.link-brand-search{
+    color: #901c32;
+}
+.mg-step-5{
+    margin-bottom: 20px;
+}
+.wrap-howto-reserve-takuhai-howto-v2 .wrap-flow-delivery .group-step-flow,
+.wrap-howto-reserve-takuhai-howto-v2 .wrap-flow-delivery .group-step-flow.last{
+    /*background-image: none;*/
+    /*border-bottom: none;*/
+}
+.wrap-flow-delivery .group-step-flow-other{
+    padding-bottom: 5px;
+}
+.title-group-return-method{
+    font-size: 15px;
+    font-weight: bold;
+}
+.wrap-set-content .title-set-content.title-sub-slug-takuhai-howto,
+.wrap-flow-delivery .title-sub-slug-takuhai-howto {
+    background: -webkit-repeating-linear-gradient(210deg, #3b002a,
+    #3b002a 5px,
+    rgba(59,0,42,0.8) 5px,
+    rgba(59,0,42,0.8) 10px
+    );
+    background: -o-repeating-linear-gradient(210deg, #3b002a,
+    #3b002a 5px,
+    rgba(59,0,42,0.8) 5px,
+    rgba(59,0,42,0.8) 10px
+    );
+    background: repeating-linear-gradient(-120deg, #3b002a,
+    #3b002a 5px,
+    rgba(59,0,42,0.8) 5px,
+    rgba(59,0,42,0.8) 10px
+    );
+}
+.wrap-flow-delivery .text-flow-deivery-takuhai{
+    margin-bottom: 20px;
+}
+.wrap-flow-delivery .about-return-carrier{
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}
+.wrap-return-method .group-step-flow .title-group-step{
+    margin-bottom: 0;
+    line-height: 1;
+}
+.wrap-return-method .group-step-flow{
+    padding-bottom: 0;
+}
+.wrap-return-method.wrap-flow-delivery .group-step-flow{
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+.wrap-return-method.wrap-flow-delivery .group-step-flow .des-group-step p{
+    font-size: 13px;
+}
+.wrap-return-method.wrap-flow-delivery .group-step-flow .title-group-step,
+.wrap-return-method .title-group-step .step-num{
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.wrap-return-method .title-group-step var:before{
+    font-size: 18px;
+}
+.wrap-title-method-takuhai{
+    margin-bottom: 20px;
+}
+.wrap-title-method-takuhai .title-method-takuhai{
+    font-size: 11px;
+    font-weight: bold;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    display: inline-block;
+    letter-spacing: 2px;
+    -webkit-box-shadow: 5px 5px #3b002a;
+    box-shadow: 5px 5px #3b002a;
+}
+.wrap-content-takuhai-method.takuhai-howto .group-icon{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.wrap-content-takuhai-method .group-icon .wrap-l-icon.wrap-l-icon-takuhhai-method{
+    margin-right: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.wrap-content-takuhai-method .group-icon .wrap-l-icon.wrap-l-icon-takuhhai-method img{
+    width: 70px;
+}
+.wrap-r-text-takuhai-method{
+    line-height: 1;
+}
+.r-text-takuhai-method{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.r-text-takuhai-method.other{
+    font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 1.4;
+    font-weight: bold;
+}
+.r-text-takuhai-method.color-line-bottom{
+    font-size: 14px;
+}
+.color-line-bottom{
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-weight: bold;
+}
+.color-line-bottom:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 10px;
+    background-color: #f2d10a;
+    bottom: 0;
+    left: 2px;
+    z-index: -1;
+}
+.r-text-des-bottom{
+    line-height: 1.5;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.box-howto-reserve-last{
+    border-bottom: none;
+}
+.box-howto-reserve-takuhai.last{
+    background-image: none;
+}
+.wrap-howto-reserve-takuhai-howto-v2 .wrap-content-howto-reserve{
+    margin-bottom: 0;
+}
+.wrap-group-step-payment-method{
+    border: 2px solid #000;
+    -webkit-box-shadow: 6px 6px #3b002a;
+    box-shadow: 6px 6px #3b002a;
+    position: relative;
+}
+.wrap-flow-delivery .group-step-flow .des-group-step-other.last{
+    margin-bottom: 0;
+}
+.wrap-group-step-payment-method .sub-list-option-takuhai {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    top: -32px;
+}
+.wrap-group-step-payment-method .sub-list-option-takuhai .text-sub-line{
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #fff;
+    padding: 0 10px;
+}
+.sm-text-list-option-takuhai{
+    text-align: center;
+    font-size: 10px;
+    margin: -16px 0 30px;
+}
+.box-howto-reserve .group-icon.wrap-sub-group-step-payment-method {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+.wrap-content-howto-reserve.takuhai-howto .box-howto-reserve{
+    border-bottom: none;
+    background-image: none;
+}
+.wrap-r-icon-payment{
+    background-image: url(../../../../../images/formal-rental/formal-list-v2/icon-arrow-takuhai.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-right: 25px;
+    margin-top: 20px;
+}
+.wrap-r-icon-payment .color-takuhai{
+    font-size: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    top: -4px;
+    color: #000;
+    white-space: nowrap;
+}
+.wrap-l-icon-takuhai{
+    margin-right: 5px;
+}
+.wrap-l-icon-takuhai.icon-takuhai-01 img{
+    width: 45px;
+}
+.wrap-l-icon-takuhai.icon-takuhai-03{
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+.wrap-l-icon-takuhai.icon-takuhai-03 img{
+    width: 50px;
+}
+.wrap-r-icon-takuhai.icon-takuhai-04 img{
+    width: 32px;
+}
+.wrap-r-icon-takuhai.icon-takuhai-04{
+    text-align: center;
+}
+.sub-text-payment-takuhai{
+    margin-bottom: 3px;
+    font-size: 7px;
+    white-space: nowrap;
+}
+.sub-text-payment-takuhai.others{
+    text-align: center;
+    margin-bottom: 8px;
+}
+.wrap-group-step-payment-method{
+    padding: 20px 16px 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+.sub-group-step-payment-method.first{
+    margin-bottom: 25px;
+}
+.wrap-r-icon-takuhai .wrap-both-price .box-outside-price{
+    position: relative;
+    border: 2px solid #000;
+    background-color: #fff;
+    -webkit-transform: skew(-30deg, 0deg);
+    -ms-transform: skew(-30deg, 0deg);
+    transform: skew(-30deg, 0deg);
+    width: 28px;
+    height: 10px;
+}
+.wrap-r-icon-takuhai .wrap-both-price .box-inside-price{
+    border: 2px solid #000;
+    position: absolute;
+    background-color: #fff;
+    -webkit-transform: skew(0deg, 0deg);
+    -ms-transform: skew(0deg, 0deg);
+    transform: skew(0deg, 0deg);
+    width: 28px;
+    height: 10px;
+    left: 2px;
+    top: -6px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.wrap-r-icon-takuhai .wrap-both-price .box-inside-price span{
+    font-size: 14px;
+    font-weight: bold;
+}
+.box-current-price{
+    margin-left: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    font-size: 10px;
+    font-weight: bold;
+}
+.wrap-content-takuhai-method{
+    margin-bottom: 50px;
+}
+.wrap-link-to-top-takuhai{
+    padding: 0 10px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,177 @@
+.content-highend-customer-remark{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+/*  .main-posts  */
+.main-posts{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.main-posts .baner-cus-voice{
+    margin-bottom: 15px;
+}
+.main-posts .post{
+    margin-bottom: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+    padding: 0 0 30px 0;
+}
+.main-posts .post:last-child{
+    margin-bottom: 0;
+}
+.main-posts .title-post{
+    background: url("../images/tt_post_h_cus_remark.png") no-repeat left bottom;
+    background-size: cover;
+    height: 43px;
+    line-height: 43px;
+    font-size: 18px;
+    font-size: 4.8vw;
+    font-weight: bold;
+    color: #fff;
+    padding: 0 10px 0 32px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.main-posts .content-post{
+    padding: 0 7px;
+    margin-bottom: 20px;
+}
+.main-posts .content-post p{
+    font-size: 13px;
+    font-size: 3.5vw;
+    line-height: 1.7;
+    color: #444;
+}
+.main-posts .content-post a{
+    color: #0000ff;
+    text-decoration: underline !important;
+}
+.main-posts .feat-img{
+    margin-bottom: 5px;
+}
+.main-posts .date-post{
+    border-top: solid 1px #e9e9e9;
+    margin: 20px 7px 0 7px;
+    padding-top: 15px;
+}
+.main-posts .date-post span{
+    color: #444;
+    font-size: 13px;
+    font-size: 3.5vw;
+}
+
+/*  .list-cate-post  */
+.list-cate-post{
+    padding: 0 7px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+.list-cate-post .title-cate{
+    color: #636363;
+    font-size: 13px;
+    font-size: 3.5vw;
+    font-weight: bold;
+    border-top: 4px double #EDEDED;
+    padding-top: 10px;
+    margin-bottom: 7px;
+}
+.list-cate-post ul li a{
+    background: url("../images/icon_arrow.png") no-repeat left center;
+    padding-left: 13px;
+    font-size: 13px;
+    font-size: 3.5vw;
+    color: #ba0b22;
+    line-height: 1.7;
+}
+.list-cate-post ul li a:hover{
+    color: #9a3c3c;
+}
+.list-cate-post ul li.current-cat a{
+    font-weight: bold;
+}
+
+@media (min-width: 750px) {
+    .content-highend-customer-remark{
+        flex-wrap: nowrap;
+        -webkit-flex-wrap: nowrap;
+        justify-content: space-between;
+        -webkit-justify-content: space-between;
+    }
+
+    /*  .main-posts  */
+    .main-posts{
+        width: 73%;
+        margin-bottom: 0;
+    }
+    .main-posts .post{
+        padding: 20px;
+    }
+    .list-cate-post{
+        width: 25%;
+    }
+    .main-posts .title-post{
+        height: 43px;
+        line-height: 43px;
+        font-size: 18px;
+        margin-bottom: 10px;
+        padding-left: 35px;
+    }
+    .main-posts .content-post{
+        padding: 0;
+    }
+    .main-posts .content-post p{
+        font-size: 13px;
+    }
+    .main-posts .date-post{
+        margin: 25px 0 0 0;
+        padding-top: 20px;
+        text-align: right;
+    }
+    .main-posts .date-post span{
+        color: #444;
+        font-size: 13px;
+    }
+
+    /*  .list-cate-post  */
+    .list-cate-post{
+        padding: 0;
+    }
+    .list-cate-post .title-cate{
+        font-size: 13px;
+    }
+    .list-cate-post ul li a{
+        font-size: 13px;
+    }
+
+    /* .paging-customer-remart */
+    .paging-customer-remart{
+        text-align: center;
+    }
+    .paging-customer-remart span,
+    .paging-customer-remart a{
+        display: inline-block;
+        background: rgba(0,0,0,0.02);
+        border: solid 1px rgba(0,0,0,0.1);
+        border-radius: 1px;
+        padding: 5px 8px;
+        margin: 0 2px;
+    }
+    .paging-customer-remart a:hover{
+        color: #9a3c3c;
+    }
+    .paging-customer-remart .current{
+        border: 1px solid rgba(204,204,204,1);
+        color: rgba(255,255,255,1);
+        background-color: rgba(190,185,164,1);
+    }
+}

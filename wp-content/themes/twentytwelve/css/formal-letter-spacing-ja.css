@@ -1,0 +1,169 @@
+/*===Banner===*/
+.wrap-plan-intro .main-plan-title{
+    letter-spacing: 2px;
+}
+.wrap-plan-intro-size-new .main-plan-title {
+    letter-spacing: 0;
+}
+.wrap-plan-intro .wrap-plan-desc p{
+    letter-spacing: 2px;
+}
+/*===Howto===*/
+.inner-info-banner .text-banner-fm-flow{
+    letter-spacing: 6px;
+}
+.text-warning-fm-howto{
+    letter-spacing: 5px;
+}
+.wrap-link-formal-truck .text-formal-truck{
+    letter-spacing: 1px;
+}
+
+/*===Formal Furisode Maedori====*/
+.box-title-h1-maedori .title-h1-maedori{
+    letter-spacing: 5px;
+}
+.title-content-fm-maedori .title-maedori{
+    letter-spacing: 3px;
+}
+.text-fm-maedori{
+    letter-spacing: 2px;
+}
+.box-article-fm-maedori .sub-title{
+    letter-spacing: 7px;
+}
+.box-article-fm-maedori .main-btn{
+    letter-spacing: 6px;
+}
+.box-article-fm-maedori .text-large{
+    letter-spacing: 8px;
+}
+.box-article-fm-maedori .text-large-available{
+    letter-spacing: 4px;
+}
+.box-article-fm-maedori .text-small{
+    letter-spacing: 2px;
+}
+.box-article-fm-maedori .icon-phone-number{
+    letter-spacing: 2px;
+}
+.box-faqs-item .text-faqs-title{
+    letter-spacing: 5px;
+}
+.box-faqs-item-container .box-faqs-item-content {
+    letter-spacing: 5px;
+}
+.title-wrap-phone-number{
+    letter-spacing: 5px;
+}
+.text-phone-number{
+    letter-spacing: 3px;
+}
+.text-below-top-banner{
+    letter-spacing: 3px;
+}
+/*==News v2===*/
+.wrap-news-formal .desc-news,
+.wrap-news-formal .desc-news a{
+    letter-spacing: 5px;
+}
+.widget-top-product-formal-cate .link-to-cate a{
+    letter-spacing: 2px;
+}
+.wrap-fm-howto .howto-textright{
+    letter-spacing: 6px;
+}
+.full-top-product-formal-cate-btn{
+    letter-spacing: 2px;
+}
+.right-scene-list .main-title,
+.new-fm-list-scene .title,
+.sub-list-scene-banners .sub-list-title{
+    letter-spacing: 3px;
+}
+
+@media (max-width: 360px){
+    /*===Formal Furisode Maedori====*/
+    .title-content-fm-maedori .title-maedori{
+        letter-spacing: 2px;
+    }
+    .title-wrap-phone-number{
+        letter-spacing: 3px;
+    }
+}
+
+@media (min-width: 750px) {
+    /*===Howto===*/
+    .inner-info-banner .text-banner-fm-flow{
+        letter-spacing: 6px;
+    }
+    .text-warning-fm-howto{
+        letter-spacing: 8px;
+    }
+    .inner-info-banner .title-banner-fm-howto {
+        letter-spacing: 6px;
+    }
+    .wrap-content-fm-howto .title-content-fm-howto h2{
+        letter-spacing: 8px;
+    }
+    .wrap-content-fm-howto .content-fm-howto .text-fm-howto{
+        letter-spacing: 1px;
+    }
+
+    /*===Formal Furisode Maedori====*/
+    .text-fm-maedori {
+        letter-spacing: 4px;
+    }
+    .title-content-fm-maedori .title-maedori{
+        letter-spacing: 7px;
+    }
+    .box-article-fm-maedori .text-large-available {
+        letter-spacing: 10px;
+    }
+    .box-article-fm-maedori .text-small{
+        letter-spacing: 7px;
+    }
+    .title-wrap-phone-number{
+        letter-spacing: 6px;
+    }
+    /*==== BANNER ====*/
+    .wrap-plan-intro .main-plan-title{
+        letter-spacing: 10px;
+    }
+    .wrap-plan-intro-size-new .main-plan-title{
+        letter-spacing: 5px;
+        font-size: 25px;
+    }
+    .wrap-plan-intro .wrap-plan-desc p{
+        letter-spacing: 4px;
+    }
+    .wrap-topics-banner-widget .text-banner a{
+        letter-spacing: 2px;
+    }
+    .wrap-new-banner-formal-options .text-banner a{
+        letter-spacing: 0.8px;
+    }
+    .wrap-fm-howto .howto-textleft{
+        letter-spacing: 2px;
+    }
+}
+@media (min-width: 1000px){
+    .inner-info-banner .text-banner-fm-flow{
+        letter-spacing: 11px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

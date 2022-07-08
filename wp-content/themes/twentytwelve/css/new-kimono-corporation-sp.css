@@ -1,0 +1,274 @@
+.title-name-corporation{
+    font-size: 12px;
+    margin: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* Form Contact */
+.wrap-new-corporation .new-kimono-contact-faqs{
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap-new-corporation .new-kimono-contact-faqs .screen-reader-response{
+    display: none;
+}
+.wrap-new-corporation .wrap-des-contact-faqs{
+    font-size:12px;
+    line-height: 1.7;
+    padding: 0 20px;
+    margin-bottom: 40px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap-new-corporation .new-kimono-contact-faqs .row-title{
+    font-size: 12px;
+    color: #333;
+    line-height:1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.wrap-new-corporation .new-kimono-contact-faqs .row-title .require{
+    font-size: 10px;
+    color: #d2003e;
+    margin-left: 10px;
+}
+.wrap-new-corporation .new-kimono-contact-faqs .row-contact{
+    margin-bottom: 12px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.wrap-new-corporation .new-kimono-contact-faqs .row-col-2{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: -13px;
+}
+.wrap-new-corporation .new-kimono-contact-faqs .row-col-2 span{
+    margin-left: 13px;
+}
+.wrap-new-corporation .new-kimono-contact-faqs .row-field input,
+.wrap-new-corporation .new-kimono-contact-faqs .row-field textarea{
+    width: 100%;
+    border: 1px solid #969696;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 15px;
+    color: #000;
+}
+.wrap-new-corporation .new-kimono-contact-faqs .wpcf7-validation-errors,
+.wrap-new-corporation .new-kimono-contact-faqs .wpcf7-mail-sent-ok{
+    border: 2px solid #f7e700;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 11px;
+}
+.wrap-new-corporation .new-kimono-contact-faqs .row-field .wpcf7-not-valid-tip{
+    color: red;
+    font-size: 11px;
+    margin-left: 0;
+}
+.wrap-new-corporation .new-kimono-contact-faqs .row-contact-captchar input{
+    width: 45%;
+    margin-right: 10px;
+}
+.wrap-new-corporation .new-kimono-contact-faqs .row-field input{
+    height: 34px;
+}
+.wrap-new-corporation .checkbox-corporation input[type=checkbox]:checked,
+.wrap-new-corporation .checkbox-amount input[type=checkbox]:checked {
+    background-image: url(../../../../../images/formal-rental/checkbox.png);
+    background-color: #fff;
+    background-size: contain;
+}
+/*checkbox*/
+.wrap-new-corporation .checkbox-corporation .wpcf7-form-control{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -15px;
+}
+.wrap-new-corporation .checkbox-corporation span.wpcf7-list-item{
+    width: calc(100% * (1/2) - 15px);
+    margin: 0 0 10px 15px;
+}
+.wrap-new-corporation .checkbox-amount span.wpcf7-list-item{
+    margin: 0 15px 10px 0;
+}
+.wrap-new-corporation .checkbox-corporation input[type="checkbox"],
+.wrap-new-corporation .checkbox-amount input[type="checkbox"]{
+    width: auto;
+    color: #fff;
+    font-size: 10px;
+}
+.wrap-new-corporation .checkbox-corporation input[type=checkbox],
+.wrap-new-corporation .checkbox-amount input[type=checkbox] {
+    margin: 0 5px 0 0;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #a0a0a0;
+    background-color: #fff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: initial;
+}
+.wrap-new-corporation .checkbox-corporation .wpcf7-list-item-label,
+.wrap-new-corporation .checkbox-amount .wpcf7-list-item-label{
+    position: relative;
+    top: -2px;
+    font-size: 12px;
+    color: #000;
+}
+.wrap-new-corporation .row-contact-submit input.wpcf7-submit {
+    color: #fff;
+    cursor: pointer;
+    background-color: #d2003e;
+    letter-spacing: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 0;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*style-corporation*/
+.wrap-new-corporation .wrap-main-banner-corporation{
+    margin-bottom: 20px;
+}
+.wrap-new-corporation .main-banner-corporation{
+    margin-bottom: 15px;
+}
+.wrap-new-corporation .wrap-content-sub .wrap-des-infor-banner{
+    padding: 0 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap-new-corporation .wrap-main-banner-corporation .wrap-des-infor-banner{
+    padding: 0 18px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap-new-corporation .wrap-group-corporation{
+    padding: 0 7px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap-new-corporation .des-infor-banner{
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: #000;
+    line-height: 1.7;
+    text-align: justify;
+}
+.wrap-new-corporation .wrap-content-contact-form .des-infor-banner{
+    font-size: 9px;
+}
+.wrap-new-corporation .des-infor-banner.des-title-big{
+    font-size: 13px;
+    line-height: 1.5;
+}
+.wrap-new-corporation .wrap-title-v2{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.wrap-new-corporation .wrap-group-wrap-title-v2 .wrap-title-v2{
+    margin-bottom: 15px;
+}
+.wrap-new-corporation .wrap-title-v2.first,
+.wrap-new-corporation .wrap-group-wrap-title-v2{
+    border-bottom: 1px solid #000;
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+}
+.wrap-new-corporation .wrap-group-wrap-title-v2 .wrap-title-h3{
+    padding: 0 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap-new-corporation .wrap-title-v2 .icon-circle {
+    width: 22px;
+    margin-right: 5px;
+}
+.wrap-new-corporation .lbl-title{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 1px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+.wrap-new-corporation .lbl-title-h3{
+    letter-spacing: 0;
+    font-weight: normal;
+    font-size: 15px;
+}
+.wrap-new-corporation .lbl-title-h3.custom,
+.wrap-new-corporation .lbl-title.h2-custom{
+    line-height: 1.5;
+}
+.wrap-new-corporation .wrap-content-sub{
+    margin-bottom: 30px;
+}
+.wrap-new-corporation .banner-sub-corporation{
+    margin-bottom: 15px;
+}
+.wrap-new-corporation .list-infor-cor{
+    margin-left: -5px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.wrap-new-corporation .wrap-group-content-other{
+    margin-bottom: 50px;
+}
+.wrap-new-corporation .wrap-content-other{
+    border: 1px solid #000;
+    padding: 20px 15px 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.wrap-new-corporation .title-article{
+    font-size: 17px;
+    line-height: 1;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.wrap-new-corporation .wrap-img-left{
+    margin-bottom: 12px;
+}
+.wrap-new-corporation .custom-des-info{
+    margin-bottom: 5px;
+}
+.wrap-new-corporation .custom-des-info .items-infor{
+    margin-right: 55px;
+}
+.wrap-new-corporation .wrap-content-other:last-child{
+    margin-bottom: 0;
+}
+.wrap-new-corporation .des-infor-contact{
+    margin-bottom: 20px;
+}

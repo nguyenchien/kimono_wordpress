@@ -1,0 +1,20 @@
+.wrap-check-availbility-kimono-sp .box-check-availbility-kimono a{
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    font-size: 15px;
+}
+@media (max-width: 360px){
+    .wrap-toggle-left-sidebar .title-general .text-title-general{
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 750px){
+    .wrap-topics-banner-widget .text-banner-right a {
+        font-size: 12px;
+    }
+    .sub-title-list .text-title-general{
+        font-size: 26px;
+    }
+}

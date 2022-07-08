@@ -1,0 +1,126 @@
+@charset "utf-8";
+@-ms-viewport {
+	width: device-width;
+}
+@viewport {
+	width: device-width;
+}
+html {
+	overflow-y: scroll;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dt, dd, li, table, th, td, form, address, pre, caption, cite, code, dfn, var {
+	font-size: 100%;
+	font-style: normal;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+img {
+	border: 0;
+	vertical-align: bottom;
+	max-width: 100%;
+	height: auto;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th {
+	text-align: left;
+}
+fieldset {
+	border: 0;
+}
+hr {
+	display: none;
+}
+ol, ul {
+	list-style: none;
+}
+
+li {
+	width: auto;
+}
+
+q:before, q:after {
+	content: '';
+}
+
+abbr, acronym {
+	border: 0;
+}
+
+em {
+	font-style: normal;
+}
+
+input, select, textarea {
+    border-radius: 0;
+    outline: none;
+}
+
+input, textarea {
+	border: 1px solid #888;
+}
+
+::-webkit-input-placeholder {
+	color: #cccccc;
+}
+
+/* Firefox 18- */
+
+:-moz-placeholder {
+	color: #cccccc;
+}
+
+/* Firefox 19+ */
+
+::-moz-placeholder {
+	color: #cccccc;
+}
+
+/* Internet Explorer 10+ */
+
+:-ms-input-placeholder {
+	color: #cccccc;
+}
+
+/* # clearfix
+---------------------------------------------------------------------------- */
+
+.clearfix {
+	zoom: 1;
+}
+
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+/* # General Elements
+---------------------------------------------------------------------------- */
+
+a {
+	color: #000;
+	text-decoration: none !important;
+}
+
+a:hover {
+	text-decoration: none !important;
+}
+
+/* # body
+---------------------------------------------------------------------------- */
+
+body {
+	background: #fff;
+	color: #000;
+	font-size: 75%;
+	font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", Arial, "Hiragino Kaku Gothic Pro", "Lucida Grande", Verdana, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	line-height: 1.5;
+}

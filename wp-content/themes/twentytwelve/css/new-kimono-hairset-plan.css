@@ -1,0 +1,388 @@
+/*=== HAIRSET PLAN ===*/
+/*=== MOBI FIRST===*/
+.wrap-section-new-hairset-plan .wrap-list-infor-new-hairset-plan,
+.list-infor-contact,
+.sub-list-item-image{
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.wrap-list-infor-new-hairset-plan .wrap-items-new-hairset-plan{
+	width: 100%;
+	margin: 0 34px 56px 34px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.wrap-section-new-hairset-plan .wrap-image-top-banner{
+	margin-bottom: 50px;
+}
+.title-h1-new-hairset-plan{
+	font-size: 19px;
+	font-weight: bold;
+	padding: 0 50px;
+	margin-bottom: 30px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.des-infor-bottom-banner-top{
+	width: 71%;
+	margin: 0 auto;
+	font-size: 13px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	line-height: 27px;
+	margin-bottom: 60px;
+}
+.wrap-items-new-hairset-plan .item-image-infor{
+	margin-bottom: 15px;
+}
+.sub-title-new-hairset-plan{
+	font-size: 23px;
+	margin-bottom: 27px;
+}
+.des-infor-hairset-plan{
+	font-size: 14px;
+	line-height: 25px;
+}
+.arrow-down-lang-hairset-plan{
+	width: 0;
+	height: 0;
+	cursor: pointer;
+	color: #000;
+	margin-left: 5px;
+	border-top: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	border-left: 7px solid #000;
+}
+.sub-title-small-hairset{
+	color: #ff0000;
+	font-size: 16px;
+}
+.wrap-infor-contact-hairset-plan{
+	margin: 0 30px 40px 30px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.infor-cantact-new-hairset{
+	font-size: 11px;
+	margin-bottom: 25px;
+}
+.item-infor-contact{
+	width:100%;
+	border: 1px solid #565656;
+	margin-bottom: 14px;
+}
+.wrap-item-infor-contact{
+	padding: 18px 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.wrap-infor-phone-number{
+	line-height: 1.2;
+}
+.wrap-item-infor-contact .icon-phone-number{
+	font-size: 45px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.wrap-item-infor-contact .phone-images{
+	margin-right: 15px;
+}
+.wrap-infor-contact-hairset-plan .phone-number-hairset-plan{
+	font-size: 21px;
+}
+.wrap-infor-contact-hairset-plan .infor-phone-number-hairset-plan{
+	font-size: 10px;
+}
+.wrap-infor-contact-hairset-plan .infor-contact-mail{
+	font-size: 15px;
+	line-height: 18px;
+}
+.title-general-hairset-plan{
+	height: 40px;
+	padding-left: 17px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: #4e0037;
+	color: #fff;
+	margin-bottom: 35px;
+}
+.title-h2-new-hairset-plan{
+	font-size: 18px;
+	margin-left: 12px;
+	font-weight: bold;
+}
+.wrap-title-h3-new-hairset-plan{
+	border-bottom: 1px solid #000;
+}
+.title-h3-new-hairset-plan{
+	font-size: 18px;
+	padding: 0 25px 8px 25px;
+}
+.sub-price-new-hairset-plan{
+	float: right;
+	color: #ff0000;
+	font-weight:bold;
+}
+.list-group-hairset-plan{
+	padding: 25px 25px 60px 25px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.list-group-hairset-plan.high-end-hairset{
+	padding: 25px 25px 45px 25px;
+}
+.list-group-hairset-plan .item-group-hairset-plan{
+	width: 100%;
+}
+.list-group-hairset-plan .banner-full-width{
+	padding-top: 32px;
+}
+.list-group-hairset-plan .item-group-hairset-plan:not(:last-child){
+	margin-bottom: 25px;
+}
+.list-group-hairset-plan .main-image-hairset-plan{
+	margin-right: 10px;
+	width: 65%;
+}
+.list-group-hairset-plan .main-image-hairset-plan img{
+	height: 100%;
+	width: 100%;
+}
+.list-group-hairset-plan .list-item-image-new-hairset{
+	width: 35%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+.sub-item-image-new-hairset-plan{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.list-item-image-new-hairset div.sub-item-image-new-hairset-plan{
+	margin-bottom: 10px;
+}
+.list-item-image-new-hairset div.sub-item-image-new-hairset-plan img{
+	opacity: 0.7;
+}
+.list-item-image-new-hairset div.sub-item-image-new-hairset-plan img.active{
+	opacity: 1;
+}
+.list-item-image-new-hairset div.sub-item-image-new-hairset-plan:last-of-type{
+	margin-bottom: 0;
+}
+.wrap-box-border-hairset-plan{
+	padding: 0 25px 90px 25px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.list-infor-contact{
+	padding: 0 10px;
+}
+.wrap-box-border-hairset-plan .box-border-hairset-plan{
+	background-color: #d2003e;
+	height: 58px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+.wrap-box-border-hairset-plan .box-border-hairset-plan .main-btn{
+	color: #fff;
+	font-size: 16px;
+}
+.link-next-to-page-list-hairset-plan{
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	font-weight: bold;
+	font-size: 16px;
+}
+.link-list-images-hairset .text-view-more{
+	color: #7f7f7f;
+}
+.link-list-images-hairset .arrow-down-bottom{
+	width: 0;
+	height: 0;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 10px solid #7f7f7f;
+}
+.wrap-group-hairset-plan .icon-prize img{
+	width: 40px;
+}
+@media (max-width: 360px) {
+	.title-h1-new-hairset-plan{
+		padding: 0 30px;
+		font-size: 21px;
+	}
+	.sub-title-new-hairset-plan{
+		font-size: 21px;
+	}
+	.wrap-list-infor-new-hairset-plan .wrap-items-new-hairset-plan{
+		margin: 0 10px 30px 10px;
+	}
+	.wrap-item-infor-contact-mail{
+		padding: 20px;
+	}
+	.title-h3-new-hairset-plan{
+		font-size: 14px;
+	}
+	.wrap-box-border-hairset-plan .box-border-hairset-plan .main-btn{
+		font-size: 13px;
+	}
+	.wrap-infor-contact-hairset-plan .phone-number-hairset-plan {
+		font-size: 18px;
+	}
+	.wrap-infor-contact-hairset-plan{
+		margin: 0 20px 40px 20px;
+	}
+}
+@media (min-width: 750px){
+	.wrap-section-new-hairset-plan .wrap-image-top-banner{
+		margin-bottom: 65px;
+	}
+	.title-h1-new-hairset-plan{
+		font-size: 28px;
+	}
+	.des-infor-bottom-banner-top{
+		font-size: 15px;
+		line-height: 30px;
+	}
+	.des-infor-bottom-banner-top{
+		margin-bottom: 90px;
+	}
+	.wrap-section-new-hairset-plan .wrap-list-infor-new-hairset-plan, .list-infor-contact, .sub-list-item-image,
+	.list-group-hairset-plan{
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+	.wrap-section-new-hairset-plan .wrap-list-infor-new-hairset-plan{
+		padding:0 50px 0 50px;
+	}
+	.wrap-infor-contact-hairset-plan{
+		margin: 0 50px 70px 50px;
+	}
+	.list-group-hairset-plan,
+	.list-group-hairset-plan.high-end-hairset{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		padding: 25px 0 40px 0;
+	}
+	.title-h3-new-hairset-plan{
+		padding: 0 0 5px 0;
+	}
+	.wrap-list-infor-new-hairset-plan .wrap-items-new-hairset-plan,
+	.list-group-hairset-plan .item-group-hairset-plan{
+		margin: 0;
+		width: calc(100% * (1/2) - 15px);
+	}
+	.list-infor-contact .item-infor-contact{
+		margin-bottom: 0;
+	}
+	.list-infor-contact .item-infor-contact:first-child{
+		width: 50%;
+	}
+	.list-infor-contact .item-infor-contact:last-child{
+		width: 44%;
+	}
+	.wrap-list-infor-new-hairset-plan .wrap-items-new-hairset-plan:not(:last-child){
+		padding-bottom: 52px;
+	}
+	.wrap-list-infor-new-hairset-plan .wrap-items-new-hairset-plan-high-end{
+		padding-bottom: 75px !important;
+	}
+	.wrap-items-new-hairset-plan-high-end .des-infor-hairset-plan{
+		padding-bottom: 50px;
+	}
+	.infor-cantact-new-hairset{
+		font-size: 12px;
+	}
+	.list-infor-contact{
+		padding: 0 85px;
+	}
+	.title-h2-new-hairset-plan{
+		font-size: 22px;
+	}
+	.title-general-hairset-plan{
+		height: 48px;
+	}
+	.group-images-new-hairset-plan{
+		padding: 0 15px;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.title-h3-new-hairset-plan > br{
+		display: none;
+	}
+	.list-group-hairset-plan .item-group-hairset-plan:not(:last-child){
+		margin-bottom: 0;
+	}
+	.list-group-hairset-plan .item-group-hairset-plan{
+		padding-bottom: 25px;
+	}
+	.list-group-hairset-plan .banner-full-width{
+		padding-top: 0;
+	}
+	.list-group-hairset-plan .banner-full-width img{
+		height: 291px;
+	}
+	.wrap-box-border-hairset-plan .box-border-hairset-plan{
+		height: 43px;
+		width: 342px;
+		margin: 0 auto;
+	}
+	.list-group-hairset-plan .main-image-hairset-plan{
+		width: 75%;
+	}
+	.list-group-hairset-plan .list-item-image-new-hairset{
+		width: 37%;
+		cursor: pointer;
+	}
+	.wrap-widget-banner-hairset-plan .list-widget-banner .item-widget-banner{
+		margin-bottom: 30px;
+	}
+	.wrap-widget-banner-hairset-plan{
+		margin-bottom: 100px;
+	}
+	.wrap-box-border-hairset-plan{
+		padding: 0 25px 120px 25px;
+	}
+	.wrap-item-infor-contact .icon-phone-number{
+		font-size: 50px;
+	}
+	.wrap-infor-contact-hairset-plan .infor-phone-number-hairset-plan{
+		font-size: 11px;
+	}
+	.wrap-infor-contact-hairset-plan .phone-number-hairset-plan{
+		font-size: 23px;
+	}
+	.wrap-infor-contact-hairset-plan .infor-contact-mail{
+		font-size: 16px;
+	}
+}

@@ -1,0 +1,697 @@
+/* point */
+.point-wrap {
+    border: solid 4px #d50054;
+    padding: 30px;
+    background: url('./images/online-lesson/pattern-point.jpg') repeat-x top center;
+    position: relative;
+    margin-bottom: 60px;
+}
+.point-title {
+    color: #d50054;
+    font-size: 45px;
+    text-align: center;
+    border-bottom: solid 2px #d50054;
+    padding: 0;
+    margin: 0 40px 30px 40px;
+    line-height: 1.8;
+    font-family: serif;
+    font-weight: bold;
+}
+.point-icon-flower {
+    position: absolute;
+    right: 20px;
+    top: 75px;
+    width: 130px;
+    pointer-events: none;
+}
+.point-icon-flower img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.point-item {
+    line-height: 1.8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 15px 0;
+}
+.point-item:first-child {
+    margin-bottom: 20px;
+}
+.point-item + .point-item .point-desc {
+    border-top: dashed 1px #333;
+    padding-top: 30px;
+}
+.point-number {
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 30px;
+    background: url('./images/online-lesson/bg-point-number.svg') no-repeat top center;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    font-family: serif;
+    font-weight: bold;
+}
+.point-desc {
+    width: calc(100% - 210px);
+    line-height: 1.8;
+    font-size: 16px;
+    padding: 20px 0;
+}
+.point-desc * {
+    line-height: inherit;
+    font-family: serif;
+}
+.point-desc .point-item-title {
+    font-size: 26px;
+    line-height: 1.6;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.point-desc .point-item-title span {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    font-size: inherit;
+    font-weight: inherit;
+}
+.point-desc .point-item-title span:before {
+    content: "";
+    position: absolute;
+    top: 61%;
+    left: 0;
+    right: 0;
+    bottom: 3px;
+    background: #ffafbb;
+    z-index: -1;
+}
+/* classroom */
+.classroom-wrap {
+    margin-bottom: 80px;
+}
+.classroom-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6;
+    color: #fff;
+    font-size: 35px;
+    height: 120px;
+    font-weight: bold;
+    font-family: serif;
+    background: url('./images/online-lesson/pattern-title-classroom.png') repeat center center;
+    margin-bottom: 40px;
+}
+.classroom-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.classroom-item + .classroom-item {
+    margin-top: 55px;
+}
+.classroom-item .img {
+    display: block;
+    position: relative;
+    width: 470px;
+}
+.classroom-item .img img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.classroom-item .text-img {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff;
+    font-family: serif;
+    flex-wrap: wrap;
+    line-height: 1.8;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-weight: bold;
+    font-size: 22px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+}
+.classroom-item .text-img .lg {
+    display: block;
+    font-size: 50px;
+    font-family: inherit;
+    color: inherit;
+    width: 100%;
+}
+.classroom-item .text-over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+    font-size: 30px;
+    pointer-events: none;
+}
+.classroom-item .text-over * {
+    font-size: inherit;
+    font-family: inherit;
+}
+.classroom-item .text-over span {
+    pointer-events: all;
+}
+.classroom-item .text {
+    width: calc(100% - 490px);
+    text-align: center;
+    font-family: serif;
+}
+.classroom-item .text * {
+    font-family: inherit;
+    font-weight: bold;
+}
+.classroom-item.low-text .text {
+    opacity: 0.5;
+}
+.classroom-item .title {
+    font-family: serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+.classroom-item .sub-title {
+    padding-top: 10px;
+    margin-top: 10px;
+    display: block;
+    background-image: linear-gradient(to right, #666666 55%, #ffffff 0%);
+    background-position: top;
+    background-size: 8px 1px;
+    background-repeat: repeat-x;
+    font-size: 28px;
+}
+.classroom-item .sub-title span {
+    color: #ae0000;
+    font-size: inherit;
+}
+.classroom-item .sub-title var {
+    font-size: 130%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.classroom-item .txt {
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
+    color: #ae0000;
+}
+/* line-banner */
+.line-banner {
+    display: block;
+    margin-bottom: 80px;
+}
+.line-banner > a {
+    display: block;
+}
+.line-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* application flow */
+.flow-wrap {
+    margin-bottom: 30px;
+}
+.flow-title-wrap {
+    margin-bottom: 35px;
+}
+.flow-title {
+    display: inline-block;
+    font-family: serif;
+    font-size: 31px;
+    color: #000;
+    font-weight: bold;
+    position: relative;
+    background: url('./images/online-lesson/icon-note.svg') no-repeat right 0;
+    -webkit-background-size: auto 100%;
+    background-size: auto 100%;
+    padding: 15px 100px 0 100px;
+    text-align: center;
+    line-height: 1.8;
+    min-height: 140px;
+}
+.flow-title .lg {
+    display: block;
+    width: 100%;
+    font-size: 45px;
+}
+.flow-flex {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.flow-item {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: calc(33.3333% - 40px);
+    margin: 0 20px 30px 20px;
+    box-shadow: 1px 1px 10px 0px rgba(0,0,0,.3);
+}
+.flow-item * {
+    font-family: serif;
+    line-height: 1.6;
+}
+.flow-item .img {
+    padding: 10px;
+    position: relative;
+}
+.flow-item .img:before {
+    content: "";
+    display: block;
+    width: 100%;
+    padding-bottom: calc(174/260 * 100%);
+}
+.flow-item img {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: calc(100% - 24px);
+    height: calc(100% - 24px);
+    object-position: center;
+    object-fit: cover;
+}
+.flow-item .title {
+    color: #fff;
+    background: #d50054;
+    padding: 8px 10px;
+    display: block;
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.flow-item .txt {
+    padding: 12px 12px 15px 12px;
+    font-size: 11px;
+    font-weight: bold;
+}
+.flow-item .arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: calc(100% + 12px);
+    margin: auto;
+    width: 18px;
+    height: 30px;
+    background: url('./images/online-lesson/icon-arrow-right.svg') no-repeat center right;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+/* border-banner */
+.border-banner {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.border-banner .title {
+    color: #d50054;
+    font-size: 25px;
+    display: inline-block;
+    border: solid 2px #d50054;
+    padding: 25px 30px;
+    font-family: serif;
+    font-weight: bold;
+}
+/* form book */
+.form-wrap {
+    margin-bottom: 50px;
+}
+.form-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6;
+    color: #fff;
+    font-size: 45px;
+    height: 120px;
+    font-weight: bold;
+    font-family: serif;
+    background: url(./images/online-lesson/pattern-title-classroom.png) repeat center center;
+    margin-bottom: 45px;
+}
+
+/*=== Booking form ===*/
+.booking-class-form{
+    padding: 0 1.5em;
+}
+.booking-class-form .form-row{
+    margin-bottom: 40px;
+}
+.booking-class-form .form-lbl{
+    font-family: 'ten-mincho', serif;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+.form-lbl .required{
+    margin-left: 30px;
+    color: #AE0000;
+}
+.wrap-form-input{
+    display: flex;
+}
+.wrap-form-input > span{
+    flex: 1;
+}
+.wrap-form-input > span .form-input{
+    width: 100%;
+}
+.wrap-form-input > span:not(:last-child){
+    margin-right: 20px;
+}
+.wrap-form-input .form-input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 18px;
+    border: 1px solid #B0B0B1;
+    padding: 15px 20px;
+}
+.form-input::placeholder{
+    color: #9A9B9B;
+}
+.wrap-form-input .wrap-time-ip,
+.wrap-time-ip > span{
+    display: flex;
+}
+.wrap-form-input .wrap-time-ip{
+    align-items: center;
+    margin-right: 15px;
+    font-size: 22px;
+    width: 20%;
+}
+.wrap-form-input .wrap-time-ip .form-input{
+    width: 8vw;
+    padding: 15px 10px;
+}
+.wrap-time-ip > span{
+    width: 100%;
+    margin-right: 10px;
+}
+.wrap-form-input .wrap-select{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.wrap-form-input .wrap-select:not(:first-of-type){
+    margin-left: 2vw;
+}
+.wrap-select > span{
+    width: 100%;
+}
+.custom-select{
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 26 22.5' style='enable-background:new 0 0 26 22.5;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23231815;%7D%0A%3C/style%3E%3Cg%3E%3Cpolygon class='st0' points='0,0 26,0 13,22.5 '/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat;
+    background-size: 14px;
+    background-position: 95% center;
+    background-color: #fff;
+    padding: 10px 20px;
+    color: #9A9B9B;
+    border: 1px solid #B0B0B1;
+    font-size: 18px;
+}
+.form-row .wrap-radio-ip{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.wrap-radio-ip .wpcf7-list-item:not(.last){
+    margin-right: 40px;
+}
+.wrap-radio-ip .custom-radio label{
+    position: relative;
+    cursor: pointer;
+}
+.wrap-radio-ip input[type=radio] {
+    position: relative;
+    visibility: hidden;
+}
+.wrap-radio-ip .opt-id{
+    margin: 0 20px;
+}
+.wrap-radio-ip input[type=radio] + span:before{
+    display: block;
+    position: absolute;
+    content: '';
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+    top: 0;
+    border: 1px solid #B0B0B1;
+}
+.wrap-radio-ip input[type=radio] + span:after{
+    display: block;
+    position: absolute;
+    content: '';
+    border-radius: 100%;
+    height: 17px;
+    width: 17px;
+    top: 5px;
+    left: 5px;
+    visibility: hidden;
+}
+.wrap-radio-ip input[type=radio]:checked + span:before{
+    background: transparent;
+}
+.wrap-radio-ip input[type=radio]:checked + span:after {
+    background: #000;
+    visibility: visible;
+}
+.wrap-radio-ip .wpcf7-list-item-label{
+    margin-left: 20px;
+}
+.form-row .confirm{
+    display: flex;
+    justify-content: center;
+}
+.confirm label {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 auto;
+}
+.confirm input[type=checkbox] {
+    position: relative;
+    visibility: hidden;
+}
+.confirm input[type=checkbox] + span:before {
+    display: block;
+    position: absolute;
+    content: '';
+    height: 25px;
+    width: 25px;
+    top: 0;
+    left: 0;
+    border: 1px solid #B0B0B1;
+}
+.confirm input[type=checkbox] + span:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 2px;
+    left: 5px;
+    visibility: hidden;
+    font-size: 16px;
+}
+.confirm input[type=checkbox]:checked + span:before {
+    background: url(./images/checkbox.svg) no-repeat;
+    background-position: center center;
+    background-size: 15px;
+}
+.confirm input[type=checkbox]:checked + span:after {
+    visibility: visible;
+}
+.confirm .wpcf7-list-item-label{
+    margin-left: 30px;
+    text-decoration: underline;
+}
+.form-row .submit-btn{
+    cursor: pointer;
+    border: none;
+    background-color: #D40054;
+    color: #fff;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: 60px auto;
+    padding: 12px;
+}
+.popup-overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: rgba(0,0,0,0.6);
+    display: none;
+}
+.wrap-term-popup{
+    position: absolute;
+    padding: 2.2em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 4px 2px rgba(67, 67, 67, 0.6);
+    -moz-box-shadow: 0px 0px 4px 2px rgba(67, 67, 67, 0.6);
+    box-shadow: 0px 0px 4px 2px rgba(67, 67, 67, 0.6);
+}
+.wrap-term-popup .popup-title{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.wrap-term-popup .term-row{
+    margin-bottom: 20px;
+}
+.term-row .term-name{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.term-row .term p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.wrap-term-popup .close-popup{
+    position: absolute;
+    font-size: 35px;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+.btn-back-lesson{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.btn-back-lesson .back-lesson{
+    background-color: #D40054;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+.sl-lbl{
+    color: red;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+.wrap-banner-bottom{
+    margin-bottom: 30px;
+}
+.wrap-banner-bottom .bottom-img{
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.wrap-banner-bottom .txt-notice{
+    font-size: 16px;
+    color: red;
+    text-align: center;
+}
+.wrap-shoplist-lesson .wrap-title{
+    margin-bottom: 15px;
+}
+.wrap-shoplist-lesson .wrap-title:before,
+.wrap-shoplist-lesson .wrap-title:after{
+    content: " ";
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 0px;
+    flex: 1 1 0;
+    height: 1px;
+    background-color: #5b5b5b;
+}
+.wrap-shoplist-lesson .wrap-title:before{
+    margin-right: 50px;
+}
+.wrap-shoplist-lesson .wrap-title:after{
+    margin-left: 50px;
+}
+.wrap-shoplist-lesson .wrap-title .icon{
+    width: 35px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.wrap-title .icon img{
+    width: 100%;
+}
+.wrap-title .title{
+    font-size: 22px;
+    color: #5b5b5b;
+}
+.wrap-shoplist-lesson{
+    margin-bottom: 20px;
+}
+.wrap-shoplist-lesson .shoplist{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -20px;
+}
+.wrap-shoplist-lesson .shoplist li{
+    width: calc(100% * 1/2 - 20px);
+    margin: 0 0 20px 20px;
+}
+.wrap-shoplist-lesson .shoplist li a{
+    display: flex;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    color: #ff838f;
+    border: 1px solid #ff838f;
+    position: relative;
+}
+.wrap-shoplist-lesson li a:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid #ff838f;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+}

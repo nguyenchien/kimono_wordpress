@@ -1,0 +1,546 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 7, 2015, 3:07:41 PM
+    Author     : hoangduyen
+*/
+
+
+/*---------------------------------------------------------------------------*/
+/*ACCESS PAGE*/
+/*---------------------------------------------------------------------------*/
+.page-template-page-templatesaccess-page-php .column-list-page header {
+	margin-bottom: 10px;
+}
+
+.access-page header h1 {
+	/*font-size: 40px;
+	line-height: 66px;
+	bottom: 63px;*/
+}
+
+.access-page header .desc {
+	/*position: absolute;
+	display: block;
+	bottom: 0px;
+	width: 960px;
+	min-height: 63px;*/
+	background: url(images/bg-banner-access.png) repeat;
+	/*background: none;*/
+}
+
+.access-page header .desc p {
+	padding: 10px 30px;
+	/*padding: 6px 12px;
+	font-size: 14px;
+	line-height: 18px;*/
+}
+
+.access-page .child-page .page-item {
+	float: left;
+	margin-right: 18px;
+	overflow: hidden;
+	width: 226px;
+	min-height: 460px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+
+.access-page .child-page .page-item.last {
+	margin-right: 0;
+}
+
+.access-page .child-page .page-item h2 {
+	font-family: Meiryo, arial;
+	font-size: 30px;
+	color: #221e1f;
+	font-weight: bold;
+	line-height: 1;
+}
+
+.access-page .child-page .page-item h2 a {
+	color: #221e1f;
+}
+
+.access-page .child-page .page-item .shop-detail {
+	font-size: 14px;
+	color: #444;
+	line-height: 1;
+}
+
+.access-page .child-page .page-item .shop-detail p {
+	line-height: 1;
+	margin-bottom: 5px;
+}
+
+.access-page .child-page .page-item .shop-detail h3,
+.access-page .child-page .page-item .shop-detail strong {
+	font-size: 16px;
+	color: #444;
+	line-height: 1.5;
+	font-weight: bold;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.access-page .child-page .page-item .shop-detail br {
+	content: "";
+	height: 5px;
+	line-height: 5px;
+	display: block;
+}
+
+.access-page .child-page .page-item .featured-post {
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.access-page .child-page div.google_map {
+	font-size: 16px;
+	color: #444;
+	margin-top: 20px;
+}
+
+.access-page div.google_map h2 {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Meiryo, arial;
+	color: #221e1f;
+}
+
+/*---------------------------------------------------------------------------*/
+/*ACCESS CHILD PAGE*/
+/*---------------------------------------------------------------------------*/
+/*--- slide-images ---*/
+.access-child-page {
+	font-family: Meiryo, arial;
+	font-size: 14px;
+}
+
+.access-child-page h1 {
+	font-weight: bold;
+	line-height: 1;
+	font-size: 40px;
+	margin-bottom: 10px;
+	margin-top: 26px;
+}
+
+.access-child-page h2 {
+	background: url(images/access_bg_title.png) no-repeat;
+	width: 960px;
+	height: 50px;
+	font-size: 34px;
+	font-family: Meiryo, arial;
+	line-height: 50px;
+	color: #fff;
+	font-weight: bold;
+	padding-left: 15px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.access-child-page h3 {
+	font-family: Meiryo, arial;
+	font-size: 30px;
+	font-weight: bold;
+	color: #444;
+	margin-bottom: 10px;
+	margin-top: 25px;
+}
+
+.access-child-page .page-excerpt {
+	margin-bottom: 10px;
+}
+
+/*gallery*/
+.access-child-page .shop-list .slide-images {
+	margin-bottom: 10px;
+	margin-right: 20px;
+	width: 632px;
+}
+
+.access-child-page .shop-list .slide-images .main-image {
+	box-shadow: 0px 1px 1px #171c19;
+	width: 632px;
+}
+
+.access-child-page .shop-list .slide-images .main-image img {
+	height: 451px;
+	width: 632px;
+}
+
+.access-child-page .shop-list .slide-images .list-image {
+	width: 632px;
+	margin-top: 10px;
+}
+
+.access-child-page .shop-list .slide-images .list-image ul {
+	margin-bottom: 5px;
+}
+
+.access-child-page .shop-list .slide-images .list-image ul li {
+	box-shadow: 0px 1px 1px #733d6d;
+	float: left;
+	list-style: outside none none;
+	margin: 0 3px 3px 0;
+}
+
+.access-child-page .shop-list .slide-images .list-image ul li:nth-child(5n+5) {
+	float: right;
+	margin-right: 0px;
+}
+
+.access-child-page .shop-list .slide-images .list-image ul li.last {
+	margin-right: 0;
+}
+
+.access-child-page .shop-list .slide-images .list-image img {
+	cursor: pointer;
+}
+
+.access-child-page .shop-list .slide-images .list-image .description {
+	font-size: 14px;
+	margin-bottom: 6px;
+}
+
+.access-child-page .shop-list .slide-images .list-image .brand .item {
+	margin-bottom: 3px;
+	overflow: hidden;
+}
+
+.access-child-page .shop-list .slide-images .list-image .brand .item .title {
+	font-size: 14px;
+	border-bottom: 1px solid #ccc;
+	line-height: 17px;
+	padding-bottom: 1px;
+	margin-bottom: 1px;
+	font-weight: bold;
+}
+
+.access-child-page .shop-list .slide-images .list-image .brand .item div {
+	font-size: 13px;
+	margin-top: -1px;
+}
+
+.access-child-page .shop-list .slide-images .list-image .brand .item div a {
+	color: #000;
+}
+
+.access-child-page .shop-detail {
+	width: 307px;
+	font-family: Meiryo, arial;
+	color: #444;
+	font-size: 14px;
+}
+
+.access-child-page .shop-detail h3 {
+	margin-top: 0;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+
+.access-child-page .shop-detail .shop-detail-1 h3 {
+	margin-bottom: 5px;
+}
+
+.access-child-page .shop-detail .shop-detail-1 p {
+	line-height: 1.3;
+	margin-bottom: 5px;
+}
+
+.access-child-page .shop-detail p {
+	margin-bottom: 0;
+}
+
+.access-child-page .shop-detail > p:first-child,
+.access-child-page .shop-detail > p:first-of-type {
+	margin-bottom: 20px;
+}
+
+.access-child-page .shop-detail img {
+	margin-bottom: 10px;
+	width: 306px;
+	height: 218px;
+}
+
+.access-child-page .shop-detail p strong {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.access-child-page .shop-instruction .map {
+	width: 633px;
+	height: 450px;
+	margin-top: 8px;
+}
+
+.access-child-page .shop-instruction .instruction {
+	width: 308px;
+	margin-top: 8px;
+	color: #444;
+	font-family: Meiryo, arial;
+}
+
+.access-child-page .shop-instruction .instruction p {
+	font-size: 14px;
+	margin-bottom: 5px;
+	text-align: justify;
+	line-height: 1.4;
+}
+
+.access-child-page .shop-instruction .instruction p.title {
+	font-family: Meiryo, arial;
+	font-size: 16px;
+	line-height: 1.4;
+	padding-left: 25px;
+	margin-bottom: 5px;
+}
+
+.access-child-page .shop-instruction .instruction p.title.train {
+	background: url('images/icon-train.png') no-repeat;
+}
+
+.access-child-page .shop-instruction .instruction p.title.bus {
+	background: url('images/icon-bus.png') no-repeat;
+}
+
+.access-child-page .shop-instruction .instruction p.title.taxi {
+	background: url('images/icon-taxi.png') no-repeat;
+}
+
+.access-child-page .shop-instruction .instruction p.title.park {
+	background: url('images/icon-park.png') no-repeat;
+}
+
+.access-child-page .shop-instruction .instruction p.title.inadmark {
+	background: url('images/icon-inadmark.png') no-repeat;
+}
+
+.access-child-page .image {
+	margin-top: 20px;
+}
+
+.access-child-page .image figure img {
+/*	width: 470px;
+	height: 335px;*/
+	max-width: 100%;
+}
+
+.access-child-page .image figure,
+.access-child-page .youtube div {
+	float: left;
+	width: 49%;
+	margin-left: 1%;
+}
+.access-child-page .youtube div{
+	height: 286px;
+}
+.access-child-page .image figure:first-child,
+.access-child-page .youtube div:first-child {
+	margin-left: 0%;
+	margin-right: 1%;
+}
+.access-child-page .google_map_see_inside{
+	width: 100%;
+	height: 600px;
+}
+.access-child-page .blog-shop {
+	margin-bottom: 20px;
+}
+
+.access-child-page .blog-shop .post-item {
+	float: left;
+	margin-right: 19px;
+	width: 307px;
+	color: #444;
+	line-height: 18px;
+	font-size: 12px;
+}
+
+.access-child-page .blog-shop .post-item.last {
+	float: right;
+	margin-right: 0;
+}
+
+.access-child-page .blog-shop .post-item .featured-post {
+	width: 307px;
+	height: 219px;
+	background-color: #eee;
+	margin-bottom: 5px;
+}
+
+.access-child-page .blog-shop .post-item img {
+	width: 307px;
+	height: 219px;
+}
+
+.access-child-page .blog-shop .post-item a.shop_name {
+	color: #fff;
+	font-size: 12px;
+	font-family: Meiryo, arial;
+	background-color: #733d6d;
+	display: inline-block;
+	margin-right: 10px;
+	padding: 2px 5px;
+}
+
+.access-child-page .blog-shop .post-item span.blog-date {
+	font-size: 12px;
+	color: #444;
+}
+
+.access-child-page .blog-shop .post-item h3 {
+	padding: 0;
+	font-size: 20px;
+	line-height: 22px;
+	margin: 10px 0 0;
+}
+
+.access-child-page .blog-shop .post-item h3 a {
+	color: #8b5e86;
+	font-size: 20px;
+	font-family: Meiryo, arial;
+	line-height: 22px;
+}
+/* # Layout for all Mobile.
+---------------------------------------------------------------------------- */
+@media all and (max-width: 767px) {
+	/* Access Page Tona*/
+	div.access-page div.child-page div.page-item {
+		width: 100%;
+		float: none;
+		box-sizing: border-box;
+		margin-right: 0;
+		padding: 7px;
+		background: #fff;
+	}
+
+	div.access-page div.child-page div.page-item div.featured-post a img {
+		width: 100%;
+		height: auto;
+	}
+
+	.content-column-page .wrap {
+		margin-bottom: 0;
+	}
+
+	div.google_map #access-map {
+		width: 100% !important;
+		height: 300px !important;
+	}
+
+	/* Access/sub page */
+	.access-child-page .shop-list .slide-images{
+		width: 100%!important;
+	}
+	.access-child-page .shop-list .slide-images .list-image{
+		width: 100%!important;
+		padding: 0 7px;
+		box-sizing: border-box;
+	}
+	.access-child-page .shop-list .slide-images .list-image img{
+		width: 100%!important;
+		height: auto;
+	}
+	.access-child-page .shop-detail{
+		float: left!important;
+		width: 100%;
+		padding: 0 7px;
+		box-sizing: border-box;
+	}
+	.access-child-page .shop-instruction .instruction{
+		float: left!important;
+		width: 100%!important;
+		padding: 0 7px;
+		box-sizing: border-box;
+	}
+	.access-child-page .image figure,
+	.access-child-page .youtube div {
+		float: left;
+		width: 100%;
+		margin-left: 0;
+		margin-bottom: 10px;
+	}
+	.access-child-page .image figure:first-child,
+	.access-child-page .youtube div:first-child {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.access-child-page .shop-instruction .map {
+		width: 100%;
+		height: 200px !important;
+		margin-top: 8px;
+	}
+	.access-child-page .google_map_see_inside{
+		height: 200px !important;
+	}
+	div.container div.access-child-page h2{
+		width: 100%;
+		height: auto;
+		padding: 7px;
+		box-sizing: border-box;
+		font-size: 25px;
+		line-height: 30px;
+		background: #733d6d;
+	}
+	div.access-child-page div.blog-shop{
+		width: 100%;
+		padding: 0 7px;
+		box-sizing: border-box;
+	}
+	div.access-child-page div.blog-shop div.post-item {
+		width: 100%;
+    }
+	div.access-child-page div.blog-shop div.post-item div.featured-post{
+		width: 100%;
+		height: auto;
+	}
+	div.access-child-page div.blog-shop div.post-item div.featured-post a img{
+		width: 100%;
+		height: auto;
+	}
+	div.container div.access-child-page .blog-shop .post-item h3{
+		padding-bottom: 15px;
+	}
+	div.access-child-page div.shop-detail{
+		width: 100%;
+	}
+    div.access-child-page div.shop-detail img{
+		width: 100%;
+		height: auto;
+    }
+	/* Access page    */
+	div.container .column-list-page header h1{
+		font-size: 32px;
+		bottom: auto;
+		top: 20%;
+		left: 7px;
+	}
+	div.container .column-list-page header div.image img{
+		width: 100%;
+		height: auto;
+		min-height: 130px;
+	}
+	div.container .column-list-page header .desc{
+		position: inherit;
+	}
+	div.container .access-page header .desc p{
+		padding: 7px!important;
+	}
+	.page-template-page-templatesaccess-page-php .column-list-page header{
+		min-height: 0;
+	}
+	/* Access/sub page */
+	.access-page .child-page .page-item .featured-post img{
+		width: 100%;
+		height: auto;
+	}
+	div.container .access-child-page h1{
+		font-size: 30px;
+		margin-top: 10px;
+	}
+    div.access-child-page .page-excerpt{}
+}	

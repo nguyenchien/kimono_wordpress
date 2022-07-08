@@ -1,0 +1,977 @@
+#breadcrumbs{
+    padding: 0;
+}
+.breadcrumbs-formal {
+    margin: 0;
+}
+.breadcrumbs-fm-v2{
+    line-height: 1;
+    margin-bottom: 5px;
+}
+.wrap-btn-v2 .btn-v2-01.bg-tkh-yukata,
+.bg-tkh-yukata{
+    background-color: #91AEEB;
+}
+.wrap-intro-wargo-fm-v2-tkh-yukata .wrap-banner-intro-wargo{
+    margin-bottom: 100px;
+}
+.pattern.tkh-yukata:after{
+    border-color: transparent transparent transparent #dadff0;;
+}
+.pattern.tkh-yukata:before {
+    border-color: #dac680 transparent transparent transparent;
+}
+.wrap-sidebar-products-fm-v2 .wrap-btn-v2-tkh-yukata.first{
+    margin-bottom: 35px;
+}
+.wrap-sidebar-products-fm-v2 .wrap-btn-v2-tkh-yukata.second .btn-v2.bg-tkh-yukata{
+    width: 660px;
+}
+.wrap-sidebar-products-fm-v2 .wrap-btn-v2-tkh-yukata.second .btn-v2-reserve{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.slider-ranking-tkh-yukata-pc .widget-list-product-highend.more-items ul.list li .image {
+    background-image: -webkit-repeating-linear-gradient(left, #91AEEB 0%, #91AEEB 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(left, #91AEEB 0%, #91AEEB 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #91AEEB 0%, #91AEEB 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #91AEEB 0%, #91AEEB 50%, transparent 50%, transparent 100%);
+    background-image: -o-repeating-linear-gradient(left, #91AEEB 0%, #91AEEB 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(left, #91AEEB 0%, #91AEEB 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, #91AEEB 0%, #91AEEB 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, #91AEEB 0%, #91AEEB 50%, transparent 50%, transparent 100%);
+    background-image: repeating-linear-gradient(to right, #91AEEB 0%, #91AEEB 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to right, #91AEEB 0%, #91AEEB 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, #91AEEB 0%, #91AEEB 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, #91AEEB 0%, #91AEEB 50%, transparent 50%, transparent 100%);
+    background-position: left top, left bottom, left top, right top;
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 6px 1px, 6px 1px, 1px 6px, 1px 6px;
+}
+.slider-ranking-tkh-yukata-pc .widget-list-product-highend ul.list li .wrap-price .price,
+.slider-ranking-tkh-yukata-pc .widget-list-product-highend ul.list li .wrap-price .price .currency,
+.slider-ranking-tkh-yukata-pc .widget-list-product-highend ul.list li .wrap-price .price .tax{
+    color: #91AEEB;
+}
+.box-howto-reserve .bg-shop.wrap-r-icon-takuhai-yukata{
+    background-image: url(../../../../../images/takuhai/yukata-v2/spite-box-title.svg);
+    background-position: 0 -1371px;
+    color: #91AEEB;
+}
+.box-howto-reserve .bg-web.wrap-r-icon-takuhai-yukata{
+    background-image: url(../../../../../images/takuhai/yukata-v2/spite-box-title.svg);
+    background-position: 0 -1480px;
+    color: #497AB2;
+}
+.bg-l-blue{
+    background-color: #91AEEB;
+}
+.bg-dark-blue{
+    background-color: #497AB2;
+}
+.wrap-content-howto-reserve.tkh-yukata .btn-step-01{
+    background-color: #91AEEB;
+}
+.wrap-content-howto-reserve .title-sub-slug-tkh-yukata,
+.tkh-yukata.wrap-set-content .title-set-content{
+    background: -webkit-repeating-linear-gradient(210deg, #91AEEB,
+    #91AEEB 5px,
+    rgba(145,174,235,0.8) 5px,
+    rgba(145,174,235,0.8) 10px
+    );
+    background: -o-repeating-linear-gradient(210deg, #91AEEB,
+    #91AEEB 5px,
+    rgba(145,174,235,0.8) 5px,
+    rgba(145,174,235,0.8) 10px
+    );
+    background: repeating-linear-gradient(-120deg, #91AEEB,
+    #91AEEB 5px,
+    rgba(145,174,235,0.8) 5px,
+    rgba(145,174,235,0.8) 10px
+    );
+}
+.color-tkh-yukata{
+    color: #000000;
+}
+.text-l-blue{
+    color: #91AEEB;
+}
+.wrap-set-content-fm-v2.tkh-yukata .wrap-women-icon .wrap-set-icon{
+    width: 286px;
+    margin-bottom: 20px;
+}
+.wrap-set-content-fm-v2.tkh-yukata .text-set-content{
+    font-size: 17px;
+    margin-bottom: 75px;
+}
+.wrap-set-content-fm-v2.tkh-yukata .text-set-content:before{
+    top: 3px;
+}
+.wrap-set-content-fm-v2.tkh-yukata .wrap-women-icon .wrap-women{
+    width: 343px;
+}
+.wrap-set-content-fm-v2.tkh-yukata .wrap-bt-set{
+    width: 346px;
+}
+.wrap-set-content-fm-v2.tkh-yukata .wrap-bt-set .bt-set{
+    -webkit-box-orient: unset;
+    -webkit-box-direction: unset;
+    -ms-flex-direction: unset;
+    flex-direction: unset;
+    padding: 7px 10px;
+    border: 2px solid #91AEEB;
+}
+.wrap-set-content-fm-v2.tkh-yukata .wrap-women img{
+    margin-bottom: 20px;
+}
+.wrap-set-content-fm-v2.tkh-yukata .wrap-women .right-text-set{
+    font-size: 18px;
+}
+.wrap-content-howto-reserve.tkh-yukata .wrap-btn-v2{
+    margin-bottom: 110px;
+}
+
+/* .wrap-sidebar-products-fm-v2-tkh-yukata */
+.wrap-sidebar-products-fm-v2-tkh-yukata{
+    margin-bottom: 60px;
+}
+.slider-ranking-tkh-yukata-pc {
+    margin-bottom: 40px;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .description{
+    font-size: 17px;
+    color: #000000;
+    margin-bottom: 30px;
+    line-height: 2;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .custom-display-heading,
+.wrap-sidebar-products-fm-v2-tkh-yukata .custom-display-page-size{
+    display: none;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .custom-display-sort .sort-btn{
+    border: 1px solid #93aeea;
+    color: #93aeea;
+    border-radius: 50px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+    padding: 0 17px;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .custom-display-sort .sort-btn.active{
+    background-color: #93aeea;
+    border: 1px solid #93aeea;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .list li:first-child:before,
+.wrap-sidebar-products-fm-v2-tkh-yukata .list li:nth-child(2):before,
+.wrap-sidebar-products-fm-v2-tkh-yukata .list li:nth-child(3):before {
+    display: none;
+}
+.wrap-tkh-yukata-products-pc .widget-list-product-highend.more-items ul.list li{
+    width: calc(100% *(1/4) - 20px);
+    margin-bottom: 20px;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .pager{
+    margin-top: 30px;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .paging li{
+    background-color: #fff;
+    border: 1px solid #93aeea;
+    border-radius: 3px;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .paging li a{
+    color: #93aeea;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .paging li:not(.prevpage):not(.nextpage) a:hover{
+    background-color: #93aeea;
+    color: #ffffff;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .paging .selected{
+    background-color: #93aeea;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .paging .selected a{
+    color: #fff;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .paging .nextpage,
+.wrap-sidebar-products-fm-v2-tkh-yukata .paging .prevpage{
+    background-color: #b1b0b7;
+}
+
+/* .wrap-howto-reserve */
+.wrap-howto-reserve .wrap-title .title-howto-reserve{
+    margin-bottom: 30px;
+}
+/*==Section-banner-ykt-contest==*/
+.section-banner-ykt-contest.takuhai-yukata{
+    margin-bottom: 30px;
+}
+
+/*==Section-about-wargo==*/
+.section-about-wargo{
+    margin-bottom: 30px;
+}
+.section-about-wargo .wrap-banner-tkh-new-kimono .des-banner-tkh{
+    font-size: 11px;
+    color: #000;
+    line-height: 1.3;
+    margin-top: 5px;
+    text-align: center;
+    letter-spacing: 1px !important;
+    display: block !important;
+}
+.wrap-banner-tkh-new-kimono .item {
+    width: calc(100% * (1/5) - 10px);
+    margin: 0 0 14px 14px;
+}
+.wrap-banner-tkh-new-kimono .item:first-child {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.wrap-banner-tkh-new-kimono .item img {
+    width: 100%;
+}
+.wrap-text-des-logo {
+    position: relative;
+}
+.wrap-text-des-logo .text-des-logo-wago {
+    position: absolute;
+    top: 73%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    color: #000;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+
+/*==Section plan group==*/
+.section-plan-group .wrap-rental-plan .plan-item {
+    margin-bottom: 35px
+}
+.section-plan-group .plan-item .wrap-plan-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -15px
+}
+.section-plan-group .wrap-plan-item .wrap-box {
+    margin-left: 15px;
+    width: calc(100% * 1/2 - 15px)
+}
+.section-plan-group .wrap-box .box-plan {
+    margin-bottom: 15px
+}
+.section-plan-group .box-plan .plan-info {
+    margin-top: 20px;
+    display: none
+}
+.section-plan-group .box-plan .plan-info.open {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+.section-plan-group-tkh-yukata .plan-info .wrap-btn a {
+    color: #93aeea;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 50px;
+    border: 2px solid #93aeea;
+    padding: 10px;
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto 20px auto;
+    position: relative;
+    letter-spacing: 2px
+}
+.section-plan-group-tkh-yukata .plan-info .wrap-btn a:after {
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    content: "";
+    background: url('../../../../../images/new-kimono-v2/dotted-btn-takuhai-yukata.svg') no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 8px
+}
+.section-plan-group-tkh-yukata .plan-info .show-less span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border: 2px solid #93aeea;
+    cursor: pointer
+}
+.section-plan-group-tkh-yukata .plan-info .show-less span:before {
+    content: '';
+    display: inline-block;
+    border-right: 2px solid #93aeea;
+    border-bottom: 2px solid #93aeea;
+    width: 15px;
+    height: 15px;
+    -webkit-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+    transform: rotate(225deg);
+    position: relative;
+    top: 3px
+}
+.section-plan-group .box-plan .plan-img {
+    position: relative;
+    color: #fff;
+    cursor: pointer
+}
+.section-plan-group .plan-img .detail-plan,.plan-img .plan-name {
+    position: absolute;
+    width: 100%;
+    text-align: center
+}
+.section-plan-group .plan-img .plan-name {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 2px
+}
+.section-plan-group .plan-img .detail-plan {
+    bottom: 16%;
+    font-size: 19px
+}
+.section-plan-group .plan-img .detail-plan:after {
+    content: '';
+    position: absolute;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    bottom: -20px;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) rotate(45deg);
+    transform: translateX(-50%) rotate(45deg);
+    left: 50%
+}
+.section-plan-group .plan-info .plan-intro {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-align: center;
+    line-height: 1
+}
+.section-plan-group .plan-info .plan-name {
+    font-size: 33px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1;
+    position: relative;
+    display: table;
+    margin: 0 auto 10px auto
+}
+.section-plan-group-tkh-yukata .plan-info .plan-name:after,
+.section-plan-group-tkh-yukata .plan-info .plan-name:before {
+    position: absolute;
+    content: '';
+    background: url('../../../../../images/new-kimono-v2/flower-pt-takuhai-yukata.svg') no-repeat;
+    background-size: cover;
+    width: 55px;
+    height: 55px;
+    top: -10px
+}
+.section-plan-group .wrap-group-plan-item {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 22px 20px 20px 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+.section-plan-group .sub-info-plan {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+.section-plan-group .wrap-group-plan-item .bd-box-pl {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 3px 6px;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 1px
+}
+.section-plan-group .wrap-group-plan-item .name-box-pl {
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 1
+}
+.section-plan-group .wrap-group-plan-item .price-box-pl {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1
+}
+.section-plan-group .wrap-group-plan-item .box-dt-pl {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    font-size: 18px;
+    line-height: 1;
+    position: relative;
+}
+.section-plan-group .wrap-group-plan-item .box-dt-pl:after{
+    content: '';
+    position: absolute;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    bottom: -14px;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) rotate(45deg);
+    transform: translateX(-50%) rotate(45deg);
+    left: 50%;
+}
+.section-plan-group .plan-info .plan-name:before {
+    left: -35px
+}
+.section-plan-group .plan-info .plan-name:after {
+    right: -35px;
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1)
+}
+.section-plan-group .plan-info .price {
+    line-height: 1;
+    color: #cf434b;
+    font-size: 40px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center
+}
+.section-plan-group .plan-info .plan-desc {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    min-height: 200px
+}
+
+/*==Section Shop List==*/
+.section-shop-list{
+    margin-bottom: 70px;
+}
+.section-shop-list .list-shop-list{
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -10px;
+}
+.section-shop-list .box-info{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    margin-left: 83px;
+    padding: 8px 0 3px;
+}
+.section-shop-list .list-shop-list .item{
+    width: calc(100% * (1/2) - 10px);
+    margin: 0 0 10px 10px;
+}
+.section-shop-list .list-shop-list .item .title{
+    margin-left: 120px;
+    font-size: 23px;
+}
+.section-shop-list .list-shop-list .item .image{
+    position: absolute;
+}
+.section-shop-list .list-shop-list .item .image img{
+    margin-top: -3px;
+}
+.section-shop-list .list-shop-list .item .info{
+    padding: 5px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin-left: 40px;
+}
+.section-shop-list .list-shop-list .item .info p{
+    margin-bottom: 5px;
+}
+.section-shop-list .list-shop-list .item .info p:last-child{
+    margin-bottom: 0;
+}
+.section-shop-list .list-shop-list .item .info-title{
+    color: #CF424B;
+    font-size: 14px;
+    margin: 0 0 2px 45px;
+}
+.section-shop-list .list-shop-list .box-info .wrap-btn-shop-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 93px;
+    background-color: #93aeea;
+    border: 1px solid #93aeea;
+    border-radius: 8px;
+    height: 45px;
+    margin: 5px 10px 0 0;
+
+}
+.section-shop-list .list-shop-list .box-info .wrap-btn-shop-list a{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    color: #fff;
+    margin-left: 16px;
+    line-height: 1.2;
+}
+.section-shop-list .list-shop-list .box-info .wrap-btn-shop-list a p{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/*==Section Column Spot==*/
+.section-column-spot{
+    margin-bottom: 70px;
+}
+.section-column-spot .title-column-top{
+    margin-bottom: 50px;
+}
+.section-column-spot .wrap-main-title{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.section-column-spot .image{
+    width: 270px;
+}
+.section-column-spot .title-main{
+    font-size: 50px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+}
+.section-column-spot .sub-title{
+    font-size: 27px;
+    text-align: center;
+    color: #000000;
+}
+.section-column-spot .wrap-column-post {
+    margin-bottom: 30px
+}
+.section-column-spot .wrap-column-post .title {
+    margin-bottom: 50px
+}
+.section-column-spot .wrap-column-post .title img {
+    width: 70%;
+    margin: auto;
+    display: table
+}
+.section-column-spot .wrap-column-post .title .column-title {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500
+}
+.section-column-spot .column-list {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -15px;
+}
+.section-column-spot .column-list li {
+    width: calc(100% * 1/2 - 40px);
+    margin: 0 0 50px 40px;
+    border: 2px solid #93aeea;
+    padding: 15px 15px 35px 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative
+}
+.section-column-spot .column-list li .post-num {
+    position: absolute;
+    top: -20px;
+    left: -15px;
+    border: 2px solid #93aeea;
+    font-size: 50px;
+    font-weight: 700;
+    color: #93aeea;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background-color: #fff;
+    -webkit-box-shadow: 4px 4px 0 0 #93aeea;
+    box-shadow: 4px 4px 0 0 #93aeea
+}
+.section-column-spot .column-list li .img a {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px dashed #93aeea;
+    height: 220px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+.section-column-spot .column-list li .img img {
+    -o-object-fit: contain;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%
+}
+.section-column-spot .column-list li .column-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 10px;
+    width: auto;
+    margin: 0;
+    border: none;
+    position: static
+}
+.section-column-spot .column-list li .column-title a {
+    color: #93aeea
+}
+.section-column-spot .column-list li .read {
+    width: 80px;
+    height: 70px;
+    font-size: 17px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end
+}
+.section-column-spot .column-list li .read:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 70px 80px;
+    border-color: transparent transparent #93aeea transparent;
+    z-index: -1
+}
+.section-column-spot .wrap-column-list .more-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+.section-column-spot .wrap-column-list .read-more {
+    font-weight: 700;
+    font-size: 23px;
+    text-align: center;
+    letter-spacing: 1px;
+    background: url(../../../../../images/new-kimono-v2/arrow-column.svg) no-repeat;
+    background-size: 100%;
+    background-position: 0 20px;
+    height: 40px;
+    padding: 0 50px 0 5px
+}
+
+/*==Section Intro Bottom==*/
+.section-intro-bottom{
+    border-top: 1px solid #000;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.box-intro-bottom .title-intro-bottom{
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.box-intro-bottom .des-intro-bottom{
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+/* Custom */
+.wrap-intro-wargo-fm-v2{
+    margin-bottom: 50px;
+}
+.des-intro-wargo-yukata{
+    font-weight: bold;
+}
+.wrap-title-v2{
+    margin-bottom: 20px;
+}
+
+/*===taikuhai-yukata===*/
+.wrap-title-takuhai-yukata-v2 {
+    background-color: #91AEEB;
+    border-radius: 25px;
+    padding: 3px 40px 3px 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 1;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 23px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.wrap-title-takuhai-yukata-v2 .left-title-name{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.wrap-title-takuhai-yukata-v2 .icon-title-yukata-v2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 15px;
+}
+.wrap-title-takuhai-yukata-v2 .icon-title-yukata-v2 .img-icon-title-v2 {
+    width: 60px;
+}
+.wrap-title-takuhai-yukata-v2 .new-sub-title-list-v2,
+.wrap-title-takuhai-yukata-v2 .right-price {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+.new-formal-takuhai-yukata .des-tkh-yukata-list {
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+.new-formal-takuhai-yukata .wrap-btn-v2 .btn-v2 {
+    margin-top: 30px;
+}
+
+/*FAQ*/
+.wrap-title {
+    font-family: "ten-mincho", serif;
+    padding-bottom: 10px;
+    text-align: center;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-end;
+    -moz-align-items: flex-end;
+    -ms-align-items: flex-end;
+    align-items: flex-end;
+}
+.wrap-title:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url(../../../../../images/new-kimono-v3/title-pattern-bg-pc.png) no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 7px;
+}
+.wrap-title .main-title {
+    font-size: 35px;
+    color: #945191;
+    margin-right: 20px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.wrap-title .sub-title {
+    font-size: 16px;
+}
+.section-faq{
+    margin-bottom: 80px;
+}
+.section-faq .wrap-title {
+    margin-bottom: 50px;
+}
+
+.section-faq .box-faqs-item .wrap-arrow-faqs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.section-faq .box-faqs-item .icon-fa {
+    width: 12px;
+    height: 12px;
+    border-right: 1px solid #eeb001;
+    border-bottom: 1px solid #eeb001;
+    cursor: pointer;
+    position: relative;
+    left: -15px;
+}
+
+.section-faq .box-faqs-item .icon-fa {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    top: -3px;
+}
+
+.section-faq .box-faqs-item .box-faqs-title.active .icon-fa {
+    transform: rotate(225deg);
+    top: 5px;
+}
+
+.section-faq .box-faqs-item .text-faqs-title {
+    font-size: 20px;
+    padding: 16px 0;
+    letter-spacing: 2px;
+    font-weight: 700;
+    line-height: 1;
+    width: 100%;
+    text-align: center;
+}
+
+.section-faq .icon-answer {
+    color: red;
+    font-size: 30px;
+}
+
+.section-faq .box-faqs-title {
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+}
+
+.section-faq .box-faqs-title:before {
+    position: absolute;
+    content: "";
+    background: url(../../../../../images/landing-page/icon-question.svg) no-repeat;
+    width: 30px;
+    height: 30px;
+    left: 12px;
+}
+
+.section-faq .box-faqs-item-container {
+    margin-bottom: 10px;
+}
+
+.section-faq .box-faqs-item-container:last-child {
+    margin-bottom: 0;
+}
+
+.section-faq .box-faqs-item-container .box-faqs-item {
+    border: 1px solid #dddddd;
+    color: #000;
+}
+
+.section-faq .box-faqs-item-container .box-faqs-item-content:before {
+    position: absolute;
+    content: "";
+    background: url(../../../../../images/landing-page/icon-answer.svg) no-repeat;
+    width: 30px;
+    height: 30px;
+    left: 12px;
+    top: 16px;
+}
+
+.section-faq .box-faqs-item-container .box-faqs-item-content {
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #f4f4f4;
+    display: none;
+}
+
+.section-faq .box-faqs-item-container .box-faqs-item-content .text-item-content {
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    margin-left: 45px;
+}
+
+@media (min-width: 750px){
+    .new-formal-takuhai-yukata .wrap-btn-v2 .btn-v2 {
+        background-color: #91AEEB;
+    }
+    .wrap-btn-v2 .btn-v2.bg-tkh-yukata{
+        background-color: #91AEEB;
+    }
+}

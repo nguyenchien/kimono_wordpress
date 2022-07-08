@@ -1,0 +1,980 @@
+.content-yukata{
+	background: url(../images/bg-yukata.png) no-repeat top center;
+}
+/*==============================================================================
+	Title for toppage
+================================================================================*/
+.layout-kimono-sp .menu-top-kimono-sp,
+.menu-top-kimono {
+    background: #13345e;
+}
+.tw .banner_mainform,
+.en .banner_mainform,
+.vi .banner_mainform{
+	/*margin-bottom:20px;*/
+}
+
+.tw .banner_mainform > img,
+.en .banner_mainform > img,
+.vi .banner_mainform > img{
+	/*margin-bottom:3px;*/
+}
+
+.tw .reserve.yukata-top li,
+.en .reserve.yukata-top li,
+.vi .reserve.yukata-top li{
+	height: 70px;
+	line-height: 58px;
+	text-align: center;
+	width: 49.5%;
+	border-radius: 10px;
+	border: 7px solid;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.tw .reserve.yukata-top li.left,
+.en .reserve.yukata-top li.left,
+.vi .reserve.yukata-top li.left{
+	border-color: #0071b4;
+	background-color: #29abe2;
+}
+
+.tw .reserve.yukata-top li.right,
+.en .reserve.yukata-top li.right,
+.vi .reserve.yukata-top li.right{
+	border-color: #662d89;
+	background-color: #9859a4;
+}
+
+.tw .reserve.yukata-top li span,
+.en .reserve.yukata-top li span,
+.vi .reserve.yukata-top li span{
+	position: absolute;
+	top:0;
+	left:0;
+	line-height: 1;
+	height: auto;
+	color: #000;
+	background: #fff000;
+	font-weight:bold;
+	font-size:16px;
+	border-radius:4px 0 0 0;
+	padding:2px;
+}
+
+.tw .reserve.yukata-top li a,
+.en .reserve.yukata-top li a,
+.vi .reserve.yukata-top li a{
+	display: block;
+	font-size: 34px;
+	font-weight: bold;
+	color: white;
+}
+
+.tw .square-banner-toppage, 
+.en .square-banner-toppage,
+.vi .square-banner-toppage{
+	margin-bottom: 13px;
+}
+.vi div.block-title-top-page-title h2 span.en,
+.vi div.block-title-top-page-title h2 span.vi{
+    font-size: 30px;
+}
+.menu-top-kimono .container .main-navigation ul li.mnnav-icon-home {
+    background: transparent;
+}
+.menu-top-kimono .container .bg-right,
+.menu-top-kimono .container .bg-left{
+	display: none;
+}
+/*	Hairset
+============================================*/
+.box-content-page.hairset .title{
+	background:#fbd2e4;
+}
+
+.box-content-page.hairset .hairset-item .main-image,
+.box-content-page.hairset .hairset-item .list-image ul li.active{
+	  border: 2px solid #003366;
+}
+
+.box-overview-page-howto-faq .info,
+.box-overview-kimono-page .info{
+	background: #dff4fb;
+}
+/*
+	FAQs page
+============================================*/
+section.box-faq-aandq div.box-title{
+	background: #003366;
+}
+
+div.page-childs-howto-faq {
+    border: 2px solid #003366;
+}
+
+div.page-childs-howto-faq h3.title{
+	background: #003366 !important;
+}
+
+div.page-childs-howto-faq div.content ul li a:hover,
+div.page-childs-howto-faq div.content ul li.active a{
+	color: #003366;
+}
+
+div.page-childs-howto-faq div.content ul li a{
+	background: url("../images/howto-faqs-sidebar-content-icon-yukata.png") center left no-repeat;
+}
+
+/*
+	howto page
+============================================*/
+.cont-page-howto .sect-flow-renting .item h2 var{
+	background:#003366;
+}
+
+.cont-page-howto .sect-flow-renting .item .con-item {
+    border-left: 8px solid #003366;
+}
+
+.cont-page-howto .sect-flow-renting .item {
+    background: url("../images/arrow-flow-renting-yukata.png") no-repeat 14px bottom;
+}
+
+.menu-top-kimono .container .main-navigation ul li:hover a {
+    background: #1e88a8;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li > a {
+    background: #1e88a8;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono > .sub-menu {
+    background: #1e88a8 !important;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono ul.sub-menu li ul.sub-menu {
+    border-top: 15px solid #1e88a8;
+    padding-bottom: 15px;
+}
+/*.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li > a:hover {
+    background: #61aac1;
+}
+.menu-top-kimono ul.nav-menu li > ul.sub-menu li a.active, 
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.ico-array > a:hover {
+    background: #61aac1 !important;
+	background-image: url('../images/icon/ico-array.png');
+}*/
+/*.menu-top-kimono ul.nav-menu li > ul.sub-menu li a.active,
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.ico-array > a:hover{
+	background: #61aac1 !important;
+	background-image: url('../images/icon/ico-array.png') !important;
+	background-repeat: no-repeat !important;
+	background-position: 90% 15px!important;
+}*/
+/*.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.ico-array > a{
+	background: #1e88a8;
+	background-image: url('../images/icon/ico-array.png');
+	background-repeat: no-repeat;
+	background-position: 90% 15px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono ul.sub-menu li ul.sub-menu {
+    border-top: 15px solid #1e88a8;
+}
+.menu-top-kimono ul.nav-menu li > ul.sub-menu li ul.sub-menu {
+    background: #61aac1 !important;
+}
+.menu-top-kimono ul.nav-menu li > ul.sub-menu li ul.sub-menu li a{
+	background: #61aac1 !important;
+}
+.menu-top-kimono ul.nav-menu li > ul.sub-menu li ul.sub-menu li a:hover{
+	background: #81c7d4 !important;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li > a:hover{
+	background: #61aac1;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li > a{
+	background: #1e88a8;
+}*/
+
+/*==============================================================================
+	.menu-top-kimono
+================================================================================*/
+.menu-top-kimono{
+/*	background: #003366;*/
+	background: #13345e;
+}
+
+.menu-top-kimono .container{
+	width: 960px;
+}
+
+.menu-top-kimono .container .bg-right,
+.menu-top-kimono .container .bg-left{
+	display: none;
+}
+.menu-top-kimono .container .main-navigation ul{
+	background:#13345e;
+}
+.menu-top-kimono .container .main-navigation ul li.mnnav-icon-home{
+	/*background: #003366;*/
+	background: #13345e;
+}
+.menu-top-kimono .container .main-navigation ul li:hover a {
+	background: #1e88a8;
+}
+.menu-top-kimono .container .main-navigation ul li:last-child a{
+	background:#d92980;
+}
+/*.menu-top-kimono ul.nav-menu li > ul.sub-menu li a.active{
+	background: #61aac1 url("../images/icon/ico-array.png") no-repeat scroll right 20px center !important; 
+	background: #61aac1 !important;
+	background-image: url('../images/icon/ico-array.png') !important;
+	background-repeat: no-repeat !important;
+	background-position: bottom;
+}*/
+.menu-top-kimono .container .main-navigation ul li.menu-kimono > .sub-menu {
+    /*width: 460px;*/
+    width: 230px;
+	/*min-height: 296px;*/
+    background: #1e88a8 !important;
+	/*background: #80CFFF;*/
+}
+.menu-top-kimono .container .main-navigation ul .sub-menu li a:hover {
+	background: #61aac1;
+}
+.menu-top-kimono .container .main-navigation ul.sub-menu li a{
+	display: block;
+	padding: 8px 8px 8px 8px;
+	font-size: 12px;
+	font-weight: bold;
+	height: auto;
+	margin: 0;
+	background: #1e88a8;
+	line-height: 1.6;
+}
+ul#menu-headermenuyukataja > li > ul.sub-menu > li > a,
+ul#menu-headermenuyukatanewpc > li > ul.sub-menu > li > a{
+  font-size: 15px;
+  position: relative;
+}
+/*--add more new text for menu--*/
+ul#menu-headermenuyukataja > li > ul.sub-menu > li > a span,
+ul#menu-headermenuyukatanewpc > li > ul.sub-menu > li > a span{
+	font-size: 12px;
+    color: yellow;
+    margin-left: 5px;
+    position: absolute;
+    bottom: 12px;
+    left: 87px;
+	font-weight: normal;
+}
+body.en ul#menu-headermenuyukataja > li > ul.sub-menu > li > a span,
+body.vi ul#menu-headermenuyukataja > li > ul.sub-menu > li > a span{
+	/*bottom: initial;*/
+    left: 115px;
+	line-height: 1.2;
+}
+.menu-top-kimono .container .main-navigation ul .sub-menu li.disable-hover a:hover{
+	background: #1e88a8;
+}
+/*body.en .menu-top-kimono .container .main-navigation ul .sub-menu{
+	width: 310px;
+}*/
+body.vi ul#menu-headermenuyukataja > li > ul.sub-menu > li > a span{
+	left: 125px;
+}
+/*body.vi .menu-top-kimono .container .main-navigation ul .sub-menu{
+	width: 320px;
+}*/
+.menu-top-kimono ul.nav-menu li > ul.sub-menu li ul.sub-menu{
+	background: #61aac1 !important;
+}
+.menu-top-kimono ul.nav-menu li > ul.sub-menu li ul.sub-menu li a{
+	background: #61aac1 !important;
+}
+.menu-top-kimono ul.nav-menu li > ul.sub-menu li ul.sub-menu li a:hover{
+	background: #81c7d4 !important;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono ul.sub-menu li ul.sub-menu{
+	/*margin-top: 15px;*/
+	border-top: 15px solid #1e88a8;
+	padding-bottom: 15px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li > a:hover{
+	background: #61aac1;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li > a{
+	background: #1e88a8;
+}
+.menu-top-kimono ul.nav-menu li > ul.sub-menu li a.active,
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.ico-array > a:hover{
+/*	background: #61aac1 url("../images/icon/ico-array.png") right 20px center no-repeat !important;*/
+	background: #61aac1 !important;
+	background-image: url('../images/icon/ico-array.png') !important;
+	background-repeat: no-repeat !important;
+	background-position: 90% 15px!important;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.ico-array > a{
+/*	background: #1e88a8 url("../images/icon/ico-array.png") right 20px center no-repeat;*/
+	background: #1e88a8;
+	background-image: url('../images/icon/ico-array.png');
+	background-repeat: no-repeat;
+	background-position: 90% 15px;
+	
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.standard-yukata a span,
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.premium-yukata a span,
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.highend-yukata a span,
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.mamichiyo-yukata a span,
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.summer-kimono-yukata a span,
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.brand-yukata a span,
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.men-yukata a span,
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.children-yukata a span,
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.couple-yukata a span,
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.samjin-yukata a span{
+	width: 91px;
+	height: 27px;
+	float: left;
+	margin: 0 5px 0 0;
+/*	background-position: center left 2px;*/
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.standard-yukata a span{
+	/*background: url('../images/icon/standard-yukata.png') no-repeat;*/
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: 0px -1267px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.standard-yukata a:hover span{
+	/*background: url('../images/icon/standard-yukata-hover.png') no-repeat;*/
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: -98px -1267px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.premium-yukata a span{
+	/*background: url('../images/icon/premium-yukata.png') no-repeat;*/
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: 0px -1308px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.premium-yukata a:hover span{
+	/*background: url('../images/icon/premium-yukata-hover.png') no-repeat;*/
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: -98px -1308px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.highend-yukata a span{
+	/*background: url('../images/icon/highend-yukata.png') no-repeat;*/
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: 0px -1349px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.highend-yukata a:hover span{
+	/*background: url('../images/icon/highend-yukata-hover.png') no-repeat;*/
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: -98px -1349px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.mamichiyo-yukata a span{
+	/*background: url('../images/icon/mamichiyo-yukata.png')  no-repeat;*/
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: 0px -1390px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.mamichiyo-yukata a:hover span{
+	/*background: url('../images/icon/mamichiyo-yukata-hover.png') no-repeat;*/
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: -98px -1390px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.summer-kimono-yukata a span{
+	/*background: url('../images/icon/summer-kimono-yukata.png') no-repeat;*/
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: 0px -1432px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.summer-kimono-yukata a:hover span{
+	/*background: url('../images/icon/summer-kimono-yukata-hover.png') no-repeat;*/
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: -98px -1432px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.brand-yukata a span{
+	/*background: url('../images/icon/summer-kimono-yukata.png') no-repeat;*/
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: 0px -6682px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.brand-yukata a:hover span{
+	/*background: url('../images/icon/summer-kimono-yukata-hover.png') no-repeat;*/
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: -110px -6682px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.men-yukata a span{
+	/*background: url('../images/icon/men-yukata.png') no-repeat;*/
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: 0px -1473px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.men-yukata a:hover span{
+	/*background: url('../images/icon/men-yukata-hover.png') no-repeat;*/
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: -98px -1473px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.samjin-yukata a span{
+	/*background: url('../images/icon/samjin-yukata.png') no-repeat;*/
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: 0px -1514px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.samjin-yukata a:hover span{
+	/*background: url('../images/icon/samjin-yukata-hover.png') no-repeat;*/
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: -98px -1514px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.children-yukata a span{
+	/*background: url('../images/icon/children-yukata.png') no-repeat;*/
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: 0px -1555px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.children-yukata a:hover span{
+	/*background: url('../images/icon/children-yukata-hover.png') no-repeat;*/
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: -98px -1555px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.couple-yukata a span{
+	/*background: url('../images/icon/couple-yukata.png') no-repeat;*/
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: 0px -1596px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.couple-yukata a:hover span{
+	/*background: url('../images/icon/couple-yukata-hover.png') no-repeat;*/
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: -98px -1596px;
+}
+
+/*  custom menu highend for yukata */
+.menu-top-kimono .container .main-navigation ul li.highend-yukata ul{
+	width: 360px;
+	background: #fff;
+	border: 1px solid #fff;
+}
+.menu-top-kimono .container .main-navigation ul li.highend-yukata ul li{
+	height: 60px;
+	position: relative;
+	background: #003366 url(../images/spriteme-bg-menu-yukata.png);
+	background-repeat: no-repeat;
+	background-size: 250px;
+	border: 1px solid #003366;
+	margin-bottom: 2px;
+}
+.menu-top-kimono .container .main-navigation ul li.highend-yukata ul li:last-child{
+	margin-bottom: 0;
+}
+.menu-top-kimono .container .main-navigation ul li.highend-yukata ul li:hover{
+	opacity: 0.7;
+}
+.menu-top-kimono .container .main-navigation ul li.highend-yukata ul li a,
+.menu-top-kimono .container .main-navigation ul li.highend-yukata ul li a:hover{
+	z-index: 1;
+	display: block;
+	width: 100%;
+	height: 60px;
+	padding: 10px 0 0 8px;
+	box-sizing: border-box;
+	background: -moz-linear-gradient(left, rgba(0,51,102,1) 0%, rgba(0,51,102,1) 30%, rgba(255,255,255,0) 50%);
+	background: -webkit-linear-gradient(left, rgba(0,51,102,1) 0%,rgba(0,51,102,1) 30%,rgba(255,255,255,0) 50%);
+	background: linear-gradient(to right, rgba(0,51,102,1) 0%,rgba(0,51,102,1) 30%,rgba(255,255,255,0) 50%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003366', endColorstr='#003366',GradientType=1 );
+}
+.menu-top-kimono .container .main-navigation ul li.highend-yukata ul li:nth-child(1){
+	background-position: right 0;
+}
+.menu-top-kimono .container .main-navigation ul li.highend-yukata ul li:nth-child(2){
+	background-position: right -116px;
+}
+.menu-top-kimono .container .main-navigation ul li.highend-yukata ul li:nth-child(3){
+	background-position: right -222px;
+}
+.menu-top-kimono .container .main-navigation ul li.highend-yukata ul li:nth-child(4){
+	background-position: right -335px;
+}
+.menu-top-kimono .container .main-navigation ul li.highend-yukata ul li:nth-child(5){
+	background-position: right -447px;
+}
+.menu-top-kimono .container .main-navigation ul li.highend-yukata ul li:nth-child(6){
+	background-position: right -560px;
+}
+.menu-top-kimono .container .main-navigation ul li.highend-yukata ul li:nth-child(7){
+	background-position: right -667px;
+}
+.menu-top-kimono .container .main-navigation ul li.highend-yukata ul li p.large-title{
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 0 0 30px #21081d;
+	line-height: 1;
+}
+.menu-top-kimono .container .main-navigation ul li.highend-yukata ul li p.sub-title{
+	font-size: 12px;
+	color: #fff;
+	text-shadow: 1px 1px 0 #003366, -1px -1px 0 #003366, 1px -1px 0 #003366, -1px 1px 0 #003366, 1px 1px 0 #003366;
+}
+.menu-top-kimono .container .main-navigation ul li.highend-yukata ul li.no-bg-img{
+	background: #003366;
+	height: 40px;
+}
+.menu-top-kimono .container .main-navigation ul li.highend-yukata ul li.no-bg-img:after{
+	display: block;
+	content: " ▶ ";
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	text-shadow: rgb(33, 8, 29) 0 0 7px;
+	position: absolute;
+	right: 10px;
+	z-index: 2;
+	top: -3px;
+}
+.menu-top-kimono .container .main-navigation ul li.highend-yukata ul li.no-bg-img a{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 0 0 8px;
+	background: none;
+}
+.menu-top-kimono .container .main-navigation ul li.highend-yukata ul li.no-bg-img p.title-no-img{
+	font-size: 20px;
+}
+
+/* add menu yukata petit */
+.menu-top-kimono .container .main-navigation ul li .text-small{
+	font-size: 10px;
+	font-weight: bold;
+}
+.menu-top-kimono .container .main-navigation ul li .text-big{
+	font-weight: bold;
+}
+
+/*==============================================================================
+	Background
+================================================================================*/
+
+/* icon menu */
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.standard-yukata a span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.standard-yukata a span,
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.standard-yukata a span,
+body.ko .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.standard-yukata a span,
+body.ru .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.standard-yukata a span,
+body.ms .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.standard-yukata a span{
+	background-position: 0px -1867px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.premium-yukata a span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.premium-yukata a span,
+body.ko .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.premium-yukata a span,
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.premium-yukata a span,
+body.ru .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.premium-yukata a span,
+body.ms .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.premium-yukata a span{
+	background-position: 0px -1908px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.highend-yukata a span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.highend-yukata a span,
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.highend-yukata a span,
+body.ko .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.highend-yukata a span,
+body.ru .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.highend-yukata a span,
+body.ms .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.highend-yukata a span{
+	background-position: 0px -1949px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.mamichiyo-yukata a span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.mamichiyo-yukata a span,
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.mamichiyo-yukata a span,
+body.ko .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.mamichiyo-yukata a span,
+body.ru .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.mamichiyo-yukata a span,
+body.ms .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.mamichiyo-yukata a span{
+	background-position: 0px -1990px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.summer-kimono-yukata a span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.summer-kimono-yukata a span,
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.summer-kimono-yukata a span,
+body.ko .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.summer-kimono-yukata a span,
+body.ru .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.summer-kimono-yukata a span,
+body.ms .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.summer-kimono-yukata a span{
+	background-position: 0px -2031px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.brand-yukata a span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.brand-yukata a span,
+body.ko .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.brand-yukata a span,
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.brand-yukata a span,
+body.ru .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.brand-yukata a span,
+body.th .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.brand-yukata a span,
+body.id .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.brand-yukata a span,
+body.ms .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.brand-yukata a span{
+	background-position: 0px -2189px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.men-yukata a span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.men-yukata a span,
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.men-yukata a span,
+body.ko .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.men-yukata a span,
+body.ru .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.men-yukata a span,
+body.ms .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.men-yukata a span{
+	background-position: 0px -2072px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.children-yukata a span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.children-yukata a span,
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.children-yukata a span,
+body.ko .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.children-yukata a span,
+body.ru .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.children-yukata a span,
+body.ms .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.children-yukata a span{
+	background-position: 0px -2113px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.couple-yukata a span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.couple-yukata a span,
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.couple-yukata a span,
+body.ko .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.couple-yukata a span,
+body.ru .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.couple-yukata a span,
+body.ms .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.couple-yukata a span{
+	background-position: 0px -2154px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.standard-yukata a:hover span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.standard-yukata a:hover span,
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.standard-yukata a:hover span,
+body.ko .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.standard-yukata a:hover span,
+body.ru .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.standard-yukata a:hover span,
+body.ms .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.standard-yukata a:hover span{
+	background-position: -98px -1867px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.premium-yukata a:hover span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.premium-yukata a:hover span,
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.premium-yukata a:hover span,
+body.ko .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.premium-yukata a:hover span,
+body.ru .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.premium-yukata a:hover span,
+body.ms .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.premium-yukata a:hover span{
+	background-position: -98px -1908px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.highend-yukata a:hover span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.highend-yukata a:hover span,
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.highend-yukata a:hover span,
+body.ko .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.highend-yukata a:hover span,
+body.ru .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.highend-yukata a:hover span,
+body.ms .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.highend-yukata a:hover span{
+	background-position: -98px -1949px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.mamichiyo-yukata a:hover span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.mamichiyo-yukata a:hover span,
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.mamichiyo-yukata a:hover span,
+body.ko .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.mamichiyo-yukata a:hover span,
+body.ru .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.mamichiyo-yukata a:hover span,
+body.ms .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.mamichiyo-yukata a:hover span{
+	background-position: -98px -1990px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.summer-kimono-yukata a:hover span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.summer-kimono-yukata a:hover span,
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.summer-kimono-yukata a:hover span,
+body.ko .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.summer-kimono-yukata a:hover span,
+body.ru .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.summer-kimono-yukata a:hover span,
+body.ms .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.summer-kimono-yukata a:hover span{
+	background-position: -98px -2031px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.men-yukata a:hover span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.men-yukata a:hover span,
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.men-yukata a:hover span,
+body.ko .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.men-yukata a:hover span,
+body.ru .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.men-yukata a:hover span,
+body.ms .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.men-yukata a:hover span{
+	background-position: -98px -2072px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.children-yukata a:hover span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.children-yukata a:hover span,
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.children-yukata a:hover span,
+body.ko .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.children-yukata a:hover span,
+body.ru .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.children-yukata a:hover span,
+body.ms .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.children-yukata a:hover span{
+	background-position: -98px -2113px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.couple-yukata a:hover span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.couple-yukata a:hover span,
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.couple-yukata a:hover span,
+body.ko .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.couple-yukata a:hover span,
+body.ru .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.couple-yukata a:hover span,
+body.ms .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.couple-yukata a:hover span{
+	background-position: -98px -2154px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.brand-yukata a:hover span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.brand-yukata a:hover span,
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.brand-yukata a:hover span,
+body.ko .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.brand-yukata a:hover span,
+body.ru .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.brand-yukata a:hover span,
+body.th .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.brand-yukata a:hover span,
+body.id .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.brand-yukata a:hover span,
+body.ms .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.brand-yukata a:hover span{
+	background-position: -98px -2189px;
+}
+ul#menu-headermenuyukataja > li.custom-menu-sub > ul.sub-menu > li > a span,
+ul#menu-headermenuyukatanewpc > li.custom-menu-sub > ul.sub-menu > li > a span{
+	left:145px;
+}
+/* end */
+
+/* fix color yukata footer */
+div.item_footer dl dt a {
+    color: #004277;
+}
+.add-new-title-shop,
+.osaka-shop-1 .add-new-title-shop,
+.kanazawa-shop-10 .add-new-title-shop,
+.tokyo-shop-1 .add-new-title-shop{
+    background-color: #003366;
+}
+div.logo-footer.logo-footer-new h2.title-footer-new{
+	background: #003366;
+}
+.region-footer-new .col-l-footer span.region-title-new{
+	color: #004277;
+}
+div.item_footer:hover dl a, 
+div.item_footer:hover dl dt.add-new-title {
+    color: rgba(0, 51, 102, 0.7);
+}
+div.item_footer:hover dl dd.add-new-title-shop{
+	background-color: rgba(0, 51, 102, 0.7);
+}
+footer#colophon .colophon-zone-center.box-widget-blog {
+    background: #003366;
+}
+.cont-page-howto .sect-flow-renting .item .con-item .i-left ul li a:before{
+	background-position: 0px -1112px;
+}
+.menu_active {
+    background: #1e88a8;
+}
+.menu_active .menu_active a {
+    background-color: #61aac1 !important;
+}
+.top-reserve-100{
+  background: #003366;
+}
+.section-top h2{
+	padding: 0 10px;
+}
+/*--change color footer yukata--*/
+div.logo-footer.logo-footer-new h2.title-footer-new{
+	background-color: #003366;
+}
+.region-footer-new .col-l-footer span.region-title-new,
+ .footer-region.area h2 .region-title,
+.footer-region .region-item h2 .region-title{
+	color: #004277;
+}
+a.goto-more{
+	background-position: 0px -1111px;
+}
+body.fr div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li:first-child p {
+	font-style: italic;
+}
+@media (max-width: 959px) and (min-width: 768px){
+	.menu-top-kimono .container{
+		width: 100%;
+	}
+}
+@media (max-width: 767px){
+	.layout-kimono-sp .section-footer .box-widget-menu .menu-footermenu-container{
+		background-color: #003366;
+	}
+	.layout-kimono-sp .section-footer .box-widget-menu ul.tn-link-footer{
+		background:#003366 ;
+	}
+	.top-reserve-100 h3{
+		background: #81c7d4;
+	}
+	.tw .banner_mainform,
+	.en .banner_mainform,
+	.vi .banner_mainform{
+		/*margin-bottom:10px;*/
+	}
+	
+	.tw .reserve.yukata-top li,
+	.en .reserve.yukata-top li,
+	.vi .reserve.yukata-top li{
+		width: 100%;
+	}
+	
+	.tw .reserve.yukata-top li.left,
+	.en .reserve.yukata-top li.left,
+	.vi .reserve.yukata-top li.left{
+		margin-bottom:10px;
+	}
+	/* change color menu left for sp  yukata */
+         .nav-item a {
+        background: #1e88a8;
+         }
+       .nav-submenu-item a {
+        background: #61aac1;
+         }
+       .nav-submenu-item ul li a {
+        background: #81c7d4;
+        border-left: 15px solid #61aac1;
+         }
+       .nav-item:last-child a {
+        background: #d92980;
+         }
+       .nav-submenu-item ul li a span,
+       body.tw .nav-submenu-item ul li a span{
+        background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png') no-repeat;
+        width: 80px;
+        height: 24px;
+        float: left;
+        margin: 0 5px 0 0;
+       }
+       .nav-submenu-item ul li.standard-yukata a span{
+        background-position: 0px -2811px;
+       }
+       .nav-submenu-item ul li.premium-yukata a span{
+        background-position: 0px -2847px;
+       }
+       .nav-submenu-item ul li.highend-yukata a span{
+        background-position: 0px -2883px;
+       }
+       .nav-submenu-item ul li.mamichiyo-yukata a span{
+        background-position: 0px -2920px;
+       }
+       .nav-submenu-item ul li.summer-kimono-yukata a span{
+        background-position: 0px -2957px;
+       }
+		.nav-submenu-item ul li.brand-yukata a span{
+			background-position: -110px -6736px;
+		}
+       .nav-submenu-item ul li.men-yukata a span{
+        background-position: 0px -2993px;
+       }
+       .nav-submenu-item ul li.children-yukata a span{
+        background-position: 0px -3065px;
+       }
+       .nav-submenu-item ul li.couple-yukata a span{
+        background-position: 0px -3102px;
+       }
+
+       body.en .nav-submenu-item ul li a span,
+       body.vi .nav-submenu-item ul li a span,
+	   body.tw .nav-submenu-item ul li a span,
+	   body.ko .nav-submenu-item ul li a span,
+	   body.ru .nav-submenu-item ul li a span,
+	   body.ms .nav-submenu-item ul li a span{
+        background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png') no-repeat;
+       }
+       body.en .nav-submenu-item ul li.standard-yukata a span,
+       body.vi .nav-submenu-item ul li.standard-yukata a span,
+	   body.tw .nav-submenu-item ul li.standard-yukata a span,
+	   body.ko .nav-submenu-item ul li.standard-yukata a span,
+	   body.ru .nav-submenu-item ul li.standard-yukata a span,
+	   body.ms .nav-submenu-item ul li.standard-yukata a span{
+        background-position: -98px -1867px;
+       }
+       body.en .nav-submenu-item ul li.premium-yukata a span,
+       body.vi .nav-submenu-item ul li.premium-yukata a span,
+	   body.tw .nav-submenu-item ul li.premium-yukata a span,
+	   body.ko .nav-submenu-item ul li.premium-yukata a span,
+	   body.ru .nav-submenu-item ul li.premium-yukata a span,
+	   body.ms .nav-submenu-item ul li.premium-yukata a span{
+        background-position: -98px -1908px;
+       }
+       body.en .nav-submenu-item ul li.highend-yukata a span,
+       body.vi .nav-submenu-item ul li.highend-yukata a span,
+	   body.tw .nav-submenu-item ul li.highend-yukata a span,
+	   body.ko .nav-submenu-item ul li.highend-yukata a span,
+	   body.ru .nav-submenu-item ul li.highend-yukata a span,
+	   body.ms .nav-submenu-item ul li.highend-yukata a span{
+        background-position: -98px -1949px;
+       }
+       body.en .nav-submenu-item ul li.mamichiyo-yukata a span,
+       body.vi .nav-submenu-item ul li.mamichiyo-yukata a span,
+	   body.tw .nav-submenu-item ul li.mamichiyo-yukata a span,
+	   body.ko .nav-submenu-item ul li.mamichiyo-yukata a span,
+	   body.ru .nav-submenu-item ul li.mamichiyo-yukata a span,
+	   body.ms .nav-submenu-item ul li.mamichiyo-yukata a span{
+        background-position: -98px -1990px;
+       }
+       body.en .nav-submenu-item ul li.summer-kimono-yukata a span,
+       body.vi .nav-submenu-item ul li.summer-kimono-yukata a span,
+	   body.tw .nav-submenu-item ul li.summer-kimono-yukata a span,
+	   body.ko .nav-submenu-item ul li.summer-kimono-yukata a span,
+	   body.ru .nav-submenu-item ul li.summer-kimono-yukata a span,
+	   body.ms .nav-submenu-item ul li.summer-kimono-yukata a span{
+        background-position: -98px -2031px;
+       }
+		body.en .nav-submenu-item ul li.brand-yukata a span,
+		body.vi .nav-submenu-item ul li.brand-yukata a span,
+		body.tw .nav-submenu-item ul li.brand-yukata a span,
+		body.ko .nav-submenu-item ul li.brand-yukata a span,
+		body.ru .nav-submenu-item ul li.brand-yukata a span,
+		body.th .nav-submenu-item ul li.brand-yukata a span,
+		body.id .nav-submenu-item ul li.brand-yukata a span,
+		body.ms .nav-submenu-item ul li.brand-yukata a span{
+			background-position: -98px -2189px;
+		}
+       body.en .nav-submenu-item ul li.men-yukata a span,
+       body.vi .nav-submenu-item ul li.men-yukata a span,
+	   body.tw .nav-submenu-item ul li.men-yukata a span,
+	   body.ko .nav-submenu-item ul li.men-yukata a span,
+	   body.ru .nav-submenu-item ul li.men-yukata a span,
+	   body.ms .nav-submenu-item ul li.men-yukata a span{
+        background-position: -98px -2072px;
+       }
+       body.en .nav-submenu-item ul li.children-yukata a span,
+	   body.vi .nav-submenu-item ul li.children-yukata a span,
+	   body.tw .nav-submenu-item ul li.children-yukata a span,
+	   body.ko .nav-submenu-item ul li.children-yukata a span,
+	   body.ru .nav-submenu-item ul li.children-yukata a span,
+	   body.ms .nav-submenu-item ul li.children-yukata a span{
+        background-position: -98px -2113px;
+       }
+       body.en .nav-submenu-item ul li.couple-yukata a span,
+       body.vi .nav-submenu-item ul li.couple-yukata a span,
+	   body.tw .nav-submenu-item ul li.couple-yukata a span,
+	   body.ko .nav-submenu-item ul li.couple-yukata a span,
+	   body.ru .nav-submenu-item ul li.couple-yukata a span,
+	   body.ms .nav-submenu-item ul li.couple-yukata a span{
+        background-position: -98px -2154px;
+       }
+       .sb-slidebar{
+        background: #003366;
+       }
+
+       #menu-close{
+        background: #002244;
+       }
+	   .menu-sp-new img {
+			content: url(../../../../../images/sp/icon-mn-top-dropdown-1-yukata.png) !important;
+	}
+}
+
+/* .footer-links */
+.footer-links{
+	background-color: #cae9f9;
+}
+.footer-links .copy-right,
+.footer-links .box-item .title{
+	background-color: #004277;
+}
+.footer-links .box-item .title span,
+.footer-links .box-item .title a {
+	color: #fff;
+}
+.footer-links .box-item.access .shop h6 span,
+.footer-links .box-item.access .shop ul li a,
+.footer-links .box-item.temp-01 ul li a,
+.footer-links .box-item.topics ul li a,
+.footer-links .box-item.contact ul li p,
+.footer-links .box-item.contact ul li a{
+	color: #004277;
+}
+.footer-links .box-item.access .shop ul li a:before,
+.footer-links .box-item.topics ul li a:before{
+	border-right-color: #004277;
+	border-top-color: #004277;
+}
+.footer-links .box-item.temp-01 ul li{
+	border-color: #cae9f9;
+}
+.footer-links .box-item.temp-01 .wrap.right li{
+	border-right-color: #cae9f9;
+}
+.footer-links .box-item.services ul li .icon-fa{
+	color: #8fd2f5;
+}
+.footer-links .box-item.temp-01 ul li a:after{
+	border-left-color: #004277;
+}
+
+@media (min-width: 750px) {
+	.footer-links .box-item .title{
+		background-color: transparent;
+	}
+	.footer-links .box-item .title span,
+	.footer-links .box-item .title a{
+		color: #004277;
+	}
+}

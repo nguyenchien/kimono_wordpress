@@ -1,0 +1,391 @@
+.sp_flex{
+	display: flex;
+}
+.pc_flex{
+	display: none;
+}
+.widget-top-shoplist{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.row-shoplist{
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.widget-top-shoplist .icon-shoplist-wg{
+    margin-bottom: 10px;
+    width: 100%;
+}
+.widget-top-shoplist .list-shoplist-wg{
+    margin-left: -10px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg{
+    width: calc(100% * (1/2) - 10px);
+    margin: 0 0 20px 10px;
+    position: relative;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg:hover,
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg.active{
+    background-color: #ffff00;
+    cursor: pointer;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg-dropdown:after{
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    content: '';
+    width: 9px;
+    height: 9px;
+    display: inline-block;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    border-right: 1px solid rgba(1,1,1,1);
+    border-bottom: 1px solid rgba(1,1,1,1);
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .new-dropdown-sm:after{
+    right: 8px;
+    width: 6px;
+    height: 6px;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg-dropdown.active:after{
+    top: 16px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+}
+
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .link-shoplist-wg{
+    color: #221815;
+    text-decoration: none;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg{
+    height: 42px;
+    width: 100%;
+    border: 2px solid #cbcbcb;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 3px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg .fa-shop{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #A31D31;
+    margin-right: 10px;
+    position: relative;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg .fa-shop .num-floor{
+    position: absolute;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    top: 0;
+    right: -10px;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg .title-shopname-wg{
+    font-size: 12px;
+    line-height: 1.2;
+    margin: 0 3px;
+    text-align: center;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-des-shop-wg{
+    font-size: 11px;
+    line-height: 1.4;
+    color: #595959;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .new-text-shop{
+    position: absolute;
+    top: -14px;
+    left: -5px;
+    text-align: center;
+    border: 2px solid #cbcbcb;
+    border-radius: 13px;
+    padding: 0 8px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-size: 12px;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .wrap-label-shop{
+    background-image: url(../../../../../images/new-kimono/icon-circle.svg);
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -20px;
+    left: -8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+}
+.widget-top-shoplist-kimono-v2 .list-shoplist-wg .item-shoplist-wg .wrap-label-shop{
+    background-image: url(../../../../../images/new-kimono-v2/icon-circle.svg);
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .lg-label-shop{
+    background-size: 55px 55px;
+    width: 55px;
+    height: 55px;
+    z-index: 1;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-label-shop{
+    color: #fff;
+    font-size: 10px;
+    line-height: 1.4;
+}
+.sub-data-shoplist-wg{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border: 2px solid #cbcbcb;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1001;
+}
+.sub-data-shoplist-wg .sub-item-shop-wg:not(:last-child){
+    border-bottom: 2px solid #cbcbcb;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.sub-data-shoplist-wg .sub-item-shop-wg .link-shoplist-wg{
+    font-size: 13px;
+    line-height: 1.2;
+    display: block;
+    padding: 10px 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg .fa-shop.pc{
+    display: none;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg .fa-shop.sp{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+}
+
+@media(max-width: 767px){
+    .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-label-shop {
+        font-size: 11px;
+    }
+}
+@media(min-width: 750px){
+	.sp_flex{
+		display: none;
+	}
+	.pc_flex{
+		display: flex;
+	}
+    .top-shoplist .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg:nth-last-child(-n + 5){
+        margin-bottom: 0;
+    }
+    .top-shoplist .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg:last-child .title-shopname-wg{
+        padding-left: 20px;
+    }
+    .top-shoplist .widget-top-shoplist{
+        -webkit-box-align: inherit;
+        -ms-flex-align: inherit;
+        align-items: inherit;
+    }
+    .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-label-shop{
+        font-size: 12px;
+    }
+    .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg .fa-shop.sp{
+        display: none;
+    }
+    .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg .fa-shop.pc{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        display: -webkit-flex;
+    }
+    .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg .fa-shop{
+        font-size: 40px;
+    }
+    .widget-top-shoplist{
+        margin: 22px 0 17px 0;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .row-shoplist{
+        padding: 0;
+    }
+    .widget-top-shoplist .icon-shoplist-wg{
+        width: 265px;
+        margin: 0 15px 0;
+    }
+    .widget-top-shoplist .list-shoplist-wg{
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+    }
+    .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg{
+        width: calc(100% * (1/5) - 10px);
+    }
+    .list-shoplist-wg.col-3 .item-shoplist-wg {
+        width: calc(100% * 1/3 - 10px);
+        margin-bottom: 0;
+    }
+    .list-shoplist-wg.col-3 .item-shoplist-wg:nth-child(-n + 3){
+        margin-bottom: 20px;
+    }
+    .top-shoplist-kyotostation .list-shoplist-wg-other .item-shoplist-wg-other:first-child{
+        width: 60%;
+    }
+    .top-shoplist-kyotostation .list-shoplist-wg-other .item-shoplist-wg-other:last-child{
+        width: 40%;
+    }
+    .top-shoplist-kyotostation .list-shoplist-wg-other .item-shoplist-wg-other .fa-shop {
+        font-size: 60px;
+    }
+    .top-shoplist-kyotostation .list-shoplist-wg-other .item-shoplist-wg-other .fa-shop.large {
+        font-size: 90px;
+        width: 28%;
+    }
+    .top-shoplist-kyotostation .list-shoplist-wg-other .item-shoplist-wg-other .item-sub-list-other .fa-shop .num-floor{
+        font-size: 16px;
+        top: 5px;
+        right: -4px;
+    }
+    .top-shoplist-kyotostation .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .lg-label-shop,
+    .top-shoplist-gion .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .lg-label-shop{
+        top: -12px;
+    }
+    /* Custom */
+    .top-shoplist-kyotostation-custom .list-shoplist-wg-other .item-shoplist-wg-other .fa-shop.icon-fa-shop-15{
+        font-size: 45px;
+    }
+
+    /*Top Shoplist Gion*/
+    .sub-list-other.col-2 .item-sub-list-other{
+        width: calc(100% * 1/2);
+        margin-left: 10px;
+    }
+    .top-shoplist-gion .list-shoplist-wg-other .item-shoplist-wg-other:first-child{
+        width: 40%;
+    }
+    .top-shoplist-gion .list-shoplist-wg-other .item-shoplist-wg-other:last-child{
+        width: 60%;
+    }
+    .top-shoplist-gion .list-shoplist-wg-other .item-shoplist-wg-other .fa-shop {
+        font-size: 60px;
+    }
+    .top-shoplist-gion .list-shoplist-wg-other .item-shoplist-wg-other .fa-shop.large {
+        font-size: 90px;
+        width: 28%;
+    }
+    /* Custom */
+    .top-shoplist-gion-custom .list-shoplist-wg-other .item-shoplist-wg-other .icon-fa-shop-06{
+        font-size: 70px;
+    }
+    .top-shoplist-gion-custom .list-shoplist-wg-other .item-shoplist-wg-other .icon-fa-shop-02,
+    .top-shoplist-gion-custom .list-shoplist-wg-other .item-shoplist-wg-other .icon-fa-shop-14{
+        margin-left: 10px;
+    }
+    .top-shoplist-gion-custom .widget-top-shoplist .sub-list-other .item-sub-list-other .text-shop-wg .title-shopname-wg{
+        margin-left: 0;
+    }
+    .top-shoplist-gion-custom .list-shoplist-wg-other .item-shoplist-wg-other .text-des-shop-wg{
+        font-size: 12px;
+    }
+
+    /*Top Shoplist Arashiyama*/
+    .top-shoplist-arashiyama .list-shoplist-wg-other .item-shoplist-wg-other:first-child{
+        width: 40%;
+    }
+    .top-shoplist-arashiyama .list-shoplist-wg-other .item-shoplist-wg-other:last-child{
+        width: 60%;
+    }
+    .top-shoplist-arashiyama .list-shoplist-wg-other .item-shoplist-wg-other .fa-shop {
+        font-size: 60px;
+    }
+    .top-shoplist-arashiyama .list-shoplist-wg-other .sub-list-other .item-sub-list-other .link-shoplist-wg{
+        height: 172px;
+    }
+    .shoplist-other .list-shoplist-wg-other .item-shoplist-wg-other:first-child{
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .shoplist-other.top-shoplist-kiyomizu .list-shoplist-wg-other .item-shoplist-wg-other:first-child{
+        -webkit-box-flex: initial;
+        -ms-flex: initial;
+        flex: initial;
+    }
+    /* Custom */
+    .top-shoplist-arashiyama-custom .list-shoplist-wg-other .item-shoplist-wg-other .fa-shop{
+        font-size: 50px;
+        margin-left: 10px;
+    }
+    .top-shoplist-arashiyama-custom .list-shoplist-wg-other .item-shoplist-wg-other .text-des-shop-wg{
+        font-size: 9px;
+    }
+
+    /*Top Shoplist Shinsaibashi*/
+    /* Custom */
+    .top-shoplist-shinsaibashi-custom .list-shoplist-wg-other .item-shoplist-wg-other .fa-shop{
+        margin-left: 10px;
+    }
+
+    /*Top Shoplist Kamakura*/
+    .top-shoplist-kamakura-custom .list-shoplist-wg-other .item-shoplist-wg-other .fa-shop{
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+    .top-shoplist-kamakura-custom .list-shoplist-wg-other{
+        width: 100%;
+    }
+}

@@ -1,0 +1,261 @@
+/*===Howto===*/
+.inner-info-banner .text-banner-fm-flow{
+    letter-spacing: 6px;
+}
+.wrap-content-fm-howto .content-fm-howto .text-fm-howto{
+    letter-spacing: 2px;
+}
+.text-warning-fm-howto{
+    letter-spacing: 5px;
+}
+.wrap-link-formal-truck .text-formal-truck{
+    letter-spacing: 1px;
+}
+
+/*===Formal Furisode Maedori====*/
+.box-title-h1-maedori .title-h1-maedori{
+    letter-spacing: 5px;
+}
+.title-content-fm-maedori .title-maedori{
+    letter-spacing: 3px;
+}
+.text-fm-maedori{
+    letter-spacing: 2px;
+}
+.box-article-fm-maedori .sub-title{
+    letter-spacing: 7px;
+}
+.box-article-fm-maedori .main-btn{
+    letter-spacing: 6px;
+}
+.box-article-fm-maedori .text-large{
+    letter-spacing: 8px;
+}
+.box-article-fm-maedori .text-large-available{
+    letter-spacing: 4px;
+}
+.box-article-fm-maedori .text-small{
+    letter-spacing: 2px;
+}
+.box-article-fm-maedori .icon-phone-number{
+    letter-spacing: 2px;
+}
+.box-faqs-item .text-faqs-title{
+    letter-spacing: 5px;
+}
+.box-faqs-item-container .box-faqs-item-content {
+    letter-spacing: 5px;
+}
+.title-wrap-phone-number{
+    letter-spacing: 5px;
+}
+.text-phone-number{
+    letter-spacing: 3px;
+}
+.text-below-top-banner{
+    letter-spacing: 3px;
+}
+/*===Widget top shoplist===*/
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg .title-shopname-wg,
+.widget-top-shoplist .list-shoplist-wg-other .item-sub-list-other .text-shop-wg .title-shopname-wg{
+    letter-spacing: 2px;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-des-shop-wg,
+.widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other .text-des-shop-wg{
+    letter-spacing: 2px;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .new-text-shop{
+    letter-spacing: 3px;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-label-shop{
+    letter-spacing: 2px;
+}
+.sub-data-shoplist-wg .sub-item-shop-wg .link-shoplist-wg{
+    letter-spacing: 2px;
+}
+.list-opt-check .item-check{
+    width: calc(100% * (1/2) - 10px);
+    letter-spacing: 1px;
+}
+
+/*===Access page===*/
+.new-access-child-page .wrap-new-shop-name .new-shop-name-access{
+    letter-spacing: 3px;
+}
+.new-access-child-page .wrap-new-shop-name .new-shop-name-access .new-shop-name-small.wrap-shop-name-small{
+    letter-spacing: 5px;
+}
+.new-access-child-page .new-shop-detail{
+    letter-spacing: 4px;
+}
+.new-access-child-page .wrap-link-new-page-access .link-new-page-access {
+    letter-spacing: 3px;
+}
+.new-access-child-page .wrap-new-kimono-howto .howto-textleft,
+.new-access-child-page .wrap-new-kimono-howto .howto-textright{
+    letter-spacing: 4px;
+}
+.new-access-child-page .distance-time li span,
+.new-access-child-page .distance-time li label{
+    letter-spacing: 4px;
+}
+.new-access-child-page .instruction_full_width{
+    letter-spacing: 5px;
+}
+.new-access-child-page .sub-title{
+    letter-spacing: 7px;
+}
+.new-access-child-page .caption-slide{
+    letter-spacing: 3px;
+}
+.new-access-child-page .name-access-instruction{
+    letter-spacing: 4px;
+}
+.reserve-list-access .main-btn{
+    letter-spacing: 5px;
+}
+.new-access-child-page .wrap-wg-fm-information .link-more a{
+    letter-spacing: 3px;
+}
+.new-access-child-page .title-access-booking .title-nextto-grid{
+    letter-spacing: 5px;
+}
+.text-above-grid-booking{
+    letter-spacing: 4px;
+}
+.new-access-child-page .intro-top-general .content-intro-top{
+    letter-spacing: 5px;
+}
+.new-access-child-page .intro-top-general .title-intro-top{
+    letter-spacing: 5px;
+}
+@media (max-width: 360px){
+    /*===Formal Furisode Maedori====*/
+    .title-content-fm-maedori .title-maedori{
+        letter-spacing: 2px;
+    }
+    .title-wrap-phone-number{
+        letter-spacing: 3px;
+    }
+}
+@media (max-width: 360px){
+    /*===Access page===*/
+    .new-access-child-page .wrap-new-shop-name .new-shop-name-access{
+        letter-spacing: 3px;
+    }
+    .new-access-child-page .wrap-link-new-page-access .link-new-page-access{
+        letter-spacing: 2px;
+    }
+    .new-access-child-page .distance-time li label{
+        letter-spacing: 2px;
+    }
+    .new-access-child-page .distance-time li span{
+        letter-spacing: 2px;
+    }
+}
+@media (min-width: 750px) {
+    /*===Howto===*/
+    .inner-info-banner .text-banner-fm-flow{
+        letter-spacing: 6px;
+    }
+    .text-warning-fm-howto{
+        letter-spacing: 8px;
+    }
+    .inner-info-banner .title-banner-fm-howto {
+        letter-spacing: 6px;
+    }
+    .wrap-content-fm-howto .title-content-fm-howto h2{
+        letter-spacing: 8px;
+    }
+    .wrap-content-fm-howto .content-fm-howto .text-fm-howto{
+        letter-spacing: 1px;
+    }
+
+    /*===Formal Furisode Maedori====*/
+    .text-fm-maedori {
+        letter-spacing: 4px;
+    }
+    .title-content-fm-maedori .title-maedori{
+        letter-spacing: 7px;
+    }
+    .box-article-fm-maedori .text-large-available {
+        letter-spacing: 10px;
+    }
+    .box-article-fm-maedori .text-small{
+        letter-spacing: 7px;
+    }
+    .title-wrap-phone-number{
+        letter-spacing: 6px;
+    }
+    /*===Widget top shoplist===*/
+    .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .new-text-shop{
+        letter-spacing: 0;
+    }
+    .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg .title-shopname-wg,
+    .sub-data-shoplist-wg .sub-item-shop-wg .link-shoplist-wg {
+        letter-spacing: 3px;
+    }
+    .top-shoplist-kiyomizu .widget-top-shoplist .list-shoplist-wg-other .item-sub-list-other .text-shop-wg .title-shopname-wg{
+        letter-spacing: 3px;
+    }
+
+    /*===Access page===*/
+    .new-access-child-page .widget-top-page-new-kimono .list-shop-list-top-page .item-shop-list .text-with-border{
+        letter-spacing: 5px;
+    }
+    .new-access-child-page .widget-top-page-new-kimono .list-shop-list-top-page .item-shop-list .text-no-border{
+        letter-spacing: 5px;
+    }
+    .new-access-child-page .wrap-link-new-page-access .link-new-page-access{
+        letter-spacing: 5px;
+    }
+    .list-opt-check .item-check{
+        letter-spacing: 3px;
+    }
+    .new-access-child-page .wrap-new-shop-name .new-shop-name-access .new-shop-name-small.wrap-shop-name-small .new-shop-name-access {
+        letter-spacing: 10px;
+    }
+    .new-access-child-page.kyotostation .wrap-new-shop-name .new-shop-name-access .new-shop-name-small.wrap-shop-name-small .new-shop-name-access{
+        letter-spacing: 4px;
+    }
+    .wrap-wg-fm-information-access .list-info .sub-item-info a .date {
+        letter-spacing: 2px;
+    }
+    .new-access-child-page .wrap-wg-fm-information-access .list-info .sub-item-info .overflow-content.name{
+        letter-spacing: 4px;
+    }
+    .wrap-wg-fm-information-access .status-view .text-view {
+        letter-spacing: 3px;
+    }
+    .wrap-wg-fm-information-access .status-view .num-view{
+        letter-spacing: 1px;
+    }
+    .wrap-wg-fm-information-access .link-to {
+        letter-spacing: 2px;
+    }
+    .new-access-child-page .wrap-wg-fm-information-access .link-more a,
+    .new-access-child-page .wrap-wg-fm-gallery-access .link-more a{
+        letter-spacing: 5px;
+    }
+
+}
+@media (min-width: 1000px){
+    .inner-info-banner .text-banner-fm-flow{
+        letter-spacing: 11px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

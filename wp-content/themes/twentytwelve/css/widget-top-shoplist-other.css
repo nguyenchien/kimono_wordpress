@@ -1,0 +1,397 @@
+
+.widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other .item-sub-list-other{
+    margin-bottom: 20px;
+}
+.item-sub-list-other .text-shop-wg:hover{
+    background-color: #ffff00;
+    cursor: pointer;
+}
+.widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other .text-shop-wg{
+    height: 42px;
+    width: 100%;
+    border: 2px solid #cbcbcb;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 3px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.widget-top-shoplist .list-shoplist-wg-other .item-sub-list-other .fa-shop{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #A31D31;
+    margin-right: 10px;
+    position: relative;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg .fa-shop .num-floor{
+    position: absolute;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    top: 0;
+    right: -10px;
+}
+.widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other .item-sub-list-other .fa-shop .num-floor{
+    position: absolute;
+    font-size: 9px;
+    font-weight: bold;
+    font-style: normal;
+    top: 0;
+    right: -2px;
+}
+.widget-top-shoplist .list-shoplist-wg-other .item-sub-list-other .text-shop-wg .title-shopname-wg{
+    font-size: 12px;
+    line-height: 1.2;
+    margin: 0 3px;
+    text-align: center;
+}
+.widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other .text-des-shop-wg{
+    font-size: 10px;
+    line-height: 1.4;
+    color: #595959;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+.widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other .text-des-shop-wg{
+    font-size: 10px;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg-full{
+    width: 100%;
+}
+/*Top Shoplist Asakusa*/
+.top-shoplist-asakusa .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .new-text-shop{
+    top: -16px;
+}
+.list-shoplist-wg-other{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+@media(max-width: 767px){
+    .top-shoplist-kyotostation .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .lg-label-shop,
+    .top-shoplist-gion .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .lg-label-shop{
+        top: -15px;
+        left: -5px;
+    }
+}
+@media(min-width: 750px){
+    .widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other .item-sub-list-other{
+        margin-bottom: 0;
+    }
+    .widget-top-shoplist .item-shoplist-wg-other .list-shoplist-wg .item-shoplist-wg .text-shop-wg{
+        max-height: 50px;
+    }
+    .widget-top-shoplist .list-shoplist-wg.list-shoplist-wg-col-3{
+        margin-left: -10px;
+    }
+    .widget-top-shoplist .list-shoplist-wg.list-shoplist-wg-col-3 .item-shoplist-wg{
+        width: calc(100% * (1/3) - 10px);
+        margin: 0 0 0 10px;
+    }
+    .widget-top-shoplist .list-shoplist-wg.list-shoplist-wg-col-3 .item-shoplist-wg .text-shop-wg,
+    .widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other .text-shop-wg{
+        height: 50px;
+    }
+    .widget-top-shoplist .list-shoplist-wg.list-shoplist-wg-col-3 .sub-data-shoplist-wg,
+    .widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other .sub-data-shoplist-wg{
+        top: 48px;
+    }
+    .shoplist-other .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg-dropdown:after{
+        top: 18px;
+    }
+    .shoplist-other .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg-dropdown.active:after{
+        top: 22px;
+    }
+    .widget-top-shoplist .list-shoplist-wg.list-shoplist-wg-col-4 .item-shoplist-wg{
+        width: calc(100% * (1/4) - 10px);
+        margin-bottom: 0;
+    }
+    .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .new-text-shop{
+        font-size: 11px;
+        padding: 2px 8px;
+    }
+    .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg .title-shopname-wg,
+    .sub-data-shoplist-wg .sub-item-shop-wg .link-shoplist-wg {
+        font-size: 13px;
+        text-align: center;
+    }
+    .top-shoplist-asakusa .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg .title-shopname-wg,
+    .top-shoplist-osaka .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg .title-shopname-wg,
+    .top-shoplist-kanazawa .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg .title-shopname-wg,
+    .top-shoplist-kamakura .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg .title-shopname-wg{
+        font-size: 15px;
+    }
+    .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-des-shop-wg {
+        font-size: 11px;
+    }
+
+    .top-shoplist-asakusa .widget-top-shoplist .icon-shoplist-wg,
+    .top-shoplist-kanazawa .widget-top-shoplist .icon-shoplist-wg,
+    .top-shoplist-kamakura .widget-top-shoplist .icon-shoplist-wg{
+        width: 350px;
+    }
+    .shoplist-other .sub-list-other{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        display: -webkit-flex;
+        margin-left: -10px;
+    }
+    .list-shoplist-wg-other{
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    body:not(.ja) .list-shoplist-wg-other{
+        flex: 1;
+    }
+    .widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other:first-child{
+        margin-right: 10px;
+    }
+    .widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other{
+        margin-bottom: 0;
+    }
+    .widget-top-shoplist .item-shoplist-wg-other .list-shoplist-wg .item-shoplist-wg{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        display: -webkit-flex;
+    }
+    .widget-top-shoplist .item-shoplist-wg-other .col-3 .item-shoplist-wg{
+        width: calc(100% * 1/3 - 10px);
+    }
+    .widget-top-shoplist .item-shoplist-wg-other .col-4 .item-shoplist-wg{
+        width: calc(100% * 1/4 - 10px);
+    }
+    .widget-top-shoplist .item-shoplist-wg-other .col-4 .order{
+        margin-bottom: 20px;
+    }
+    .widget-top-shoplist .item-shoplist-wg-other .list-shoplist-wg .dropdown{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .widget-top-shoplist .item-shoplist-wg-other .list-shoplist-wg .item-shoplist-wg .link-shoplist-wg{
+        width: 100%;
+    }
+    .shoplist-other .list-shoplist-wg-other .item-shoplist-wg-other .sub-list-other,
+    .shoplist-other .list-shoplist-wg-other .item-shoplist-wg-other .item-sub-list-other,
+    .shoplist-other .list-shoplist-wg-other .item-shoplist-wg-other .link-shoplist-wg{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+    }
+    .shoplist-other .list-shoplist-wg-other .item-shoplist-wg-other .item-sub-list-other{
+        margin-bottom: 0;
+    }
+    .item-shoplist-wg-other .link-shoplist-wg{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        display: -webkit-flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .item-shoplist-wg-other .link-shoplist-wg .text-shop-wg{
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+    }
+
+    /*Top Shoplist Asakusa*/
+    .top-shoplist-asakusa  .widget-top-shoplist .list-shoplist-wg.list-shoplist-wg-col-3{
+        margin-left: -30px;
+    }
+    .top-shoplist-asakusa .widget-top-shoplist .list-shoplist-wg.list-shoplist-wg-col-3 .item-shoplist-wg{
+        width: calc(100% * (1/3) - 30px);
+        margin-left: 30px;
+    }
+
+    /*Top Shoplist Kiyomizu*/
+    .top-shoplist-kiyomizu .item-shoplist-wg-other .sub-list-other{
+        margin-left: 0;
+    }
+    .sub-list-other.col-1 .item-sub-list-other,
+    .shoplist-other .sub-list-other.col-1{
+        width: 100%;
+    }
+    .top-shoplist-kiyomizu .widget-top-shoplist .list-shoplist-wg-other .item-sub-list-other .fa-shop{
+        font-size: 60px;
+    }
+    .top-shoplist-kiyomizu .widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other:first-child{
+        width: 30%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        display: -webkit-flex;
+    }
+    .top-shoplist-kiyomizu .widget-top-shoplist .list-shoplist-wg-other .sub-list-other .text-shop-wg{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .top-shoplist-kiyomizu .widget-top-shoplist .list-shoplist-wg-other .item-sub-list-other .text-shop-wg .title-shopname-wg{
+        font-size: 20px;
+    }
+    .top-shoplist-kiyomizu .order-1{
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+    .top-shoplist-kiyomizu .order-2{
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+    .top-shoplist-kiyomizu .order-3{
+        -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+        order: 3;
+    }
+    .top-shoplist-kiyomizu .widget-top-shoplist .item-shoplist-wg-other .col-4 .item-shoplist-wg.order-4{
+        -webkit-box-ordinal-group: 7;
+        -ms-flex-order: 6;
+        order: 6;
+        margin-bottom: 0;
+    }
+    .top-shoplist-kiyomizu .widget-top-shoplist .item-shoplist-wg-other .col-4 .item-shoplist-wg.order-5{
+        -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+        order: 5;
+        margin-bottom: 0;
+    }
+    .top-shoplist-kiyomizu .order-6{
+        -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+        order: 4;
+    }
+    .top-shoplist-kiyomizu .widget-top-shoplist .item-shoplist-wg-other .col-4 .item-shoplist-wg.order-7{
+        -webkit-box-ordinal-group: 8;
+        -ms-flex-order: 7;
+        order: 7;
+        margin-bottom: 0;
+    }
+    .top-shoplist-kiyomizu .widget-top-shoplist .item-shoplist-wg-other .col-4 .item-shoplist-wg.order-8{
+        -webkit-box-ordinal-group: 9;
+        -ms-flex-order: 8;
+        order: 8;
+        margin-bottom: 0;
+    }
+
+    /*Top Shoplist Kyotostation*/
+    .shoplist-other .widget-top-shoplist .sub-list-other .item-sub-list-other .text-shop-wg .title-shopname-wg{
+        font-size: 15px;
+    }
+    .sub-list-other.col-3 .item-sub-list-other{
+        width: calc(100% * 1/3);
+        margin-left: 10px;
+    }
+    .list-shoplist-wg.col-2 .item-shoplist-wg{
+        width: calc(100% * 1/2 - 10px);
+        margin-bottom: 0;
+    }
+    .list-shoplist-wg.col-2 .item-shoplist-wg:nth-child(-n + 2){
+        margin-bottom: 20px;
+    }
+    .list-shoplist-wg.col-3 .item-shoplist-wg {
+        width: calc(100% * 1/3 - 10px);
+        margin-bottom: 0;
+    }
+    .list-shoplist-wg.col-3 .item-shoplist-wg:nth-child(-n + 3){
+        margin-bottom: 20px;
+    }
+    .top-shoplist-kyotostation .list-shoplist-wg-other .item-shoplist-wg-other:first-child{
+        width: 60%;
+    }
+    .top-shoplist-kyotostation .list-shoplist-wg-other .item-shoplist-wg-other:last-child{
+        width: 40%;
+    }
+    .top-shoplist-kyotostation .list-shoplist-wg-other .item-shoplist-wg-other .fa-shop {
+        font-size: 60px;
+    }
+    .top-shoplist-kyotostation .list-shoplist-wg-other .item-shoplist-wg-other .fa-shop.large {
+        font-size: 90px;
+        width: 28%;
+    }
+    .top-shoplist-kyotostation .list-shoplist-wg-other .item-shoplist-wg-other .item-sub-list-other .fa-shop .num-floor{
+        font-size: 16px;
+        top: 5px;
+        right: -4px;
+    }
+    .top-shoplist-kyotostation .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .lg-label-shop,
+    .top-shoplist-gion .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .lg-label-shop{
+        top: -12px;
+    }
+
+    /*Top Shoplist Gion*/
+    .sub-list-other.col-2 .item-sub-list-other{
+        width: calc(100% * 1/2);
+        margin-left: 10px;
+    }
+    .top-shoplist-gion .list-shoplist-wg-other .item-shoplist-wg-other:first-child{
+        width: 40%;
+    }
+    .top-shoplist-gion .list-shoplist-wg-other .item-shoplist-wg-other:last-child{
+        width: 60%;
+    }
+    .top-shoplist-gion .list-shoplist-wg-other .item-shoplist-wg-other .fa-shop {
+        font-size: 60px;
+    }
+    .top-shoplist-gion .list-shoplist-wg-other .item-shoplist-wg-other .fa-shop.large {
+        font-size: 90px;
+        width: 28%;
+    }
+
+    /*Top Shoplist Arashiyama*/
+    .top-shoplist-arashiyama .list-shoplist-wg-other .item-shoplist-wg-other:first-child{
+        width: 40%;
+    }
+    .top-shoplist-arashiyama .list-shoplist-wg-other .item-shoplist-wg-other:last-child{
+        width: 60%;
+    }
+    .top-shoplist-arashiyama .list-shoplist-wg-other .item-shoplist-wg-other .fa-shop {
+        font-size: 60px;
+    }
+    .top-shoplist-arashiyama .list-shoplist-wg-other .sub-list-other .item-sub-list-other .link-shoplist-wg{
+        height: 169px;
+    }
+    .shoplist-other .list-shoplist-wg-other .item-shoplist-wg-other:first-child{
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .shoplist-other.top-shoplist-kiyomizu .list-shoplist-wg-other .item-shoplist-wg-other:first-child{
+        -webkit-box-flex: initial;
+        -ms-flex: initial;
+        flex: initial;
+    }
+}

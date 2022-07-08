@@ -1,0 +1,516 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    background: #fff;
+    color: #000;
+    font-size: 75%;
+    font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3",Arial,"Hiragino Kaku Gothic Pro","Lucida Grande",Verdana,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    line-height: 1.5;
+}
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.fixed-body {
+    overflow: hidden;
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9;
+    padding-bottom: 10px;
+}
+.wrap-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+.container-box {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 1.4rem;
+}
+.flexbox{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.align-items-center{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-items: center;
+    text-align: center;
+}
+.text-align-center{
+    text-align: center;
+}
+.justify-content-between{
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+/*===Header===*/
+.wrap-nav{
+    background-color: #4e0037;
+    padding: 20px 0;
+}
+.list-menu .item{
+    margin-right: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.list-menu .item a{
+    color: #fff;
+}
+.wrap-general-luggage{
+    letter-spacing: 3px;
+}
+.wrap-banner-big{
+    margin-bottom: 25px;
+}
+.wrap-banner-small{
+    margin-bottom: 15px;
+}
+.wrap-banner-small img{
+    width: 80%;
+}
+.title-lug{
+    font-size: 24px;
+    font-weight: bold;
+    color: #8d8502;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+.title-lug small{
+    font-size: 15px;
+    margin-left: 5px;
+}
+.wrap-des-lug{
+    font-size: 12px;
+}
+.des-lug{
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    line-height: 1.8;
+}
+.wrap-about-wargo{
+    background-color: #fff4f6;
+    padding: 30px 15px 40px 15px;
+}
+.title-about-wargo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #4e0037;
+    margin-bottom: 30px;
+}
+.des-about-wargo{
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+.content-about-wargo{
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.content-about-wargo:not(:last-child){
+    margin-bottom: 30px;
+}
+.wrap-about-wargo .wrap-content .box-icon{
+    width: 35%;
+    margin-right: 20px;
+}
+.wrap-about-wargo .wrap-content .box-content{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.box-content .title-box-content{
+    font-size: 20px;
+    font-weight: bold;
+    color: #595959;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+.box-content .des-box-content{
+    font-size: 11px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+.wrap-logo-menu .logo{
+    text-align: left;
+}
+.wrap-logo-menu .logo img{
+    width: 70%;
+}
+.toggle-menu{
+    width: 50px;
+}
+.box-detail-service{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.wrap-offer-service{
+    background-image: url(../../../../../images/luggage-service/bg-offer-service-sp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 30px 0px;
+}
+.title-offer-service{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    color: #4e0037;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.item-offer-service{
+    padding: 20px 0;
+    background-color: #4e0037;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.icon-offer-service{
+    margin-bottom: 10px;
+}
+.icon-offer-service img{
+    width: 15%;
+    height: 45px;
+}
+.icon-offer-service .two-icon{
+    width: 30%;
+}
+.text-offer-service{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+/*end offer service*/
+
+.wrap-detail-service-01,
+.wrap-detail-service-03{
+    background-color: #fafafa;
+    padding: 10px 0;
+}
+.wrap-title-detail-service .sm-title-detail-service{
+    color: #8d8502;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.wrap-title-detail-service .title-detail-service{
+    color: #e9205d;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+.wrap-img-detail-service{
+    margin-bottom: 30px;
+}
+.wrap-img-service-big-02{
+    margin-bottom: 10px;
+}
+.wrap-img-detail-service .wrap-img-service-big-01{
+    width: 56%;
+    margin-right: 3%;
+}
+.wrap-img-detail-service .wrap-img-service-sm-01{
+    width: 42%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.box-des-detail-service{
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.price-des-detail-service{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-weight: bold;
+    color: #e9205d;
+    letter-spacing: 0px;
+}
+.price-des-detail-service .price{
+    font-size: 30px;
+}
+.price-des-detail-service small{
+    font-size: 15px;
+}
+.price-des-detail-service .icon-price{
+    width: 50px;
+}
+.wrap-title-detail-service{
+    margin-bottom: 10px;
+}
+.wrap-button-detail-service{
+    margin-bottom: 50px;
+}
+.button-detail-service{
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.button-detail-service a{
+    font-weight: bold;
+    padding: 15px;
+    font-size: 20px;
+    display: block;
+}
+.button-gray{
+    background-color: #e1e1e1;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 20px;
+    display: block;
+}
+.button-purple{
+    background-color: #4e0037;
+}
+.button-purple a{
+    color: #fff;
+    font-weight: bold;
+}
+.title-list-detail-service{
+    text-align: center;
+    border-bottom: 1px solid #e9205d;
+    border-top: 1px solid #e9205d;
+    color: #e9205d;
+    padding: 30px 10px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.wrap-img-service-sm-02 .box-img-service-sm{
+    width: 49%;
+}
+.list-detail-service{
+    margin-bottom: 30px;
+    display: none;
+}
+.list-detail-service .item-detail-service{
+    border-bottom: 1px solid #cccccc;
+    letter-spacing: 2px;
+    padding: 10px 0;
+    font-size: 11px;
+}
+.list-detail-service .item-detail-service p{
+    font-size: 12px;
+}
+.list-detail-service .item-detail-service .area{
+    font-size: 13px;
+    margin-bottom: 3px;
+    font-weight: 700;
+}
+.wrap-img-detail-service .wrap-img-service-big-03{
+    margin-left: 3%;
+    margin-right: 0;
+}
+.box-precautions{
+    background: url(../../../../../images/luggage-service/bg-precaution-sp.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 50px 20px;
+    color: #ffffff;
+}
+.box-precautions .title-precautions-first,
+.box-precautions .title-precautions-second{
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 1px solid #ffffff;
+    margin-right: 50px;
+}
+.box-precautions .wrap-content-precautions-first,
+.box-precautions .wrap-content-precautions-second{
+    padding: 20px 0px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.wrap-content-precautions-first p,
+.wrap-content-precautions-second p{
+    line-height: 1.4;
+}
+.wrap-contact-us{
+    margin-bottom: 50px;
+}
+.title-contact-us{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #4e0037;
+    margin: 30px 0;
+    letter-spacing: 3px;
+}
+.button-mail,
+.button-tel{
+    color: #fff;
+    font-size: 15px;
+    text-align: unset;
+    padding: 15px;
+    font-weight: bold;
+    height: 110px;
+}
+.button-detail-service .icon-email,
+.button-detail-service .icon-telephone{
+    width: 16%;
+    margin-right: 30px;
+}
+.button-detail-service .tel-num-big{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.content-detail-service{
+    font-size: 18px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.content-detail-service var{
+    display: block;
+    font-size: 14px;
+}
+.content-detail-service small{
+    font-size: 14px;
+}
+/*Footer*/
+.footer{
+    background-color: #292929;
+}
+.footer .ft-wrap{
+    margin: 0 auto;
+    padding: 20px;
+}
+.ft-wrap .list-footer{
+    padding: 10px 0;
+    clear: both;
+}
+.list-footer h4{
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.list-footer ul li{
+    line-height: 1.4em;
+    float: left;
+    padding: 0 10px;
+    margin: 4px 0;
+    border-left: 1px solid #999;
+    font-size: 12px;
+    color: #fff;
+}
+.list-footer ul li.clear {
+    clear: both;
+}
+.list-footer ul li a{
+    color: #fff;
+    font-size: 12px;
+}
+.list-footer ul li a:hover{
+    opacity: 0.7;
+}
+.list-footer ul .noborder{
+    border: none;
+    padding-left: 0;
+    margin-left: 0px;
+}
+.ft-contact{
+    color: #fff;
+    font-size: 13px;
+    float: right;
+    margin: 20px 0;
+}
+.ft-contact img{
+    width: 24px;
+    margin-right: 5px;
+}
+.copyright{
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+    clear: both;
+}
+.custom-btn-reserve .btn-reserve{
+    border-radius: 3px;
+    background-color: #4e0037;
+    padding: 15px 25px;
+}
+@media (max-width: 767px){
+    .row{
+        padding: 0 20px;
+    }
+    .row-fluid{
+        padding: 0;
+    }
+    .side-nav {
+        height: 100%;
+        width: 85%;
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        left: -100%;
+        background-color: #4e0037;
+        overflow-x: hidden;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+    }
+    .side-nav.open {
+        left: 0;
+    }
+    .close-sb{
+        text-align: right;
+        padding: 0 20px;
+    }
+    .close-sb .closed{
+        font-size: 40px;
+        color: #fff;
+    }
+    .list-menu-sp .item {
+        border-bottom: 1px solid #612e52;
+    }
+    .list-menu-sp .item a{
+        font-size: 14px;
+        color: #fff;
+        padding: 10px 20px;
+        width: 100%;
+        display: block;
+        letter-spacing: 2px;
+    }
+    .wrap-button-contact-us{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .price-des-detail-service{
+        margin-bottom: 30px;
+    }
+}

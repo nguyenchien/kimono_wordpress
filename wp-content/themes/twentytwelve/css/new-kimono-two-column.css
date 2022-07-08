@@ -1,0 +1,71 @@
+/* Begin: wrap-time-sheet */
+.wrap-time-sheet{
+    margin-top: 20px;
+}
+.wrap-title-ts{
+    border-bottom: 1px solid #808080;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.wrap-title-ts .text-ts{
+    font-size: 11px;
+    font-weight: bold;
+    color: #808080;
+    margin-bottom: -9px;
+    background-color: #fff;
+    display: inline-block;
+    padding: 0 5px;
+}
+.list-time-sheet{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -10px;
+}
+.list-time-sheet li{
+    display: flex;
+    width: calc(100% * (1/2) - 10px);
+    margin: 0 0 7px 10px;
+    font-size: 8px;
+    color: #000000;
+    letter-spacing: -1px;
+}
+.list-time-sheet .dot-ts{
+    background-image: -webkit-gradient(linear,left top,right top,color-stop(20%,#000),color-stop(10%,rgba(78,0,55,0)));
+    background-image: -webkit-linear-gradient(left,#000 20%,rgba(78,0,55,0) 10%);
+    background-image: -o-linear-gradient(left,#000 20%,rgba(78,0,55,0) 10%);
+    background-image: linear-gradient(to right,#000 20%,rgba(78,0,55,0) 10%);
+    background-position: center;
+    background-size: 4px 1px;
+    background-repeat: repeat-x;
+    flex: 1;
+    margin: 0 1px;
+}
+/* End: wrap-time-sheet */
+/* Begin Move from new-top-page-kimono.css */
+.breadcrumbs-new-kimono .item, .breadcrumbs-new-kimono a,
+.breadcrumbs-new-kimono span, .breadcrumbs-new-kimono .separator {
+    color: #976686;
+}
+.breadcrumbs-new-kimono .item.active, .breadcrumbs-new-kimono .breadcrumb_last {
+    color: #510035;
+}
+/* End Move from new-top-page-kimono.css */
+@media (min-width: 750px){
+    /* Begin: wrap-time-sheet */
+    .list-time-sheet li{
+        width: calc(100% * (1/4) - 10px);
+        font-size: 10px;
+    }
+    .list-time-sheet .dot-ts{
+        margin: 0 2px;
+    }
+    .wrap-title-ts{
+        justify-content: flex-start;
+    }
+    .wrap-title-ts .text-ts{
+        padding-left: 0;
+    }
+    /* End: wrap-time-sheet */
+}

@@ -1,0 +1,42 @@
+.plan-page{
+    display: block;
+    margin-bottom: 20px;
+}
+.dx-flexbox{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+.plan-page .title-plan-page {
+    height: 50px;
+    background: #4e0037;
+    margin-bottom: 5px;
+    color: #fff;
+    align-items: center;
+    -webkit-align-items: center;
+}
+.plan-page .title-plan-page .text-title{
+    font-size: 26px;
+    font-weight: 700;
+}
+.plan-page .title-plan-page .sub-text{
+    font-size: 13px;
+    margin-left: 6px;
+    font-weight: 700;
+}
+.plan-page .title-plan-page .bg-text{
+    font-size: 18px;
+    color: #4e0037;
+    font-weight: 700;
+    background-color: #fff;
+    padding: 3px 8px;
+    line-height: 1;
+    margin-left: 8px;
+}
+.pic-plan{
+    margin-left: -15px;
+}
+.pic-plan .item-pic-plan{
+    width: calc(100% *(1/3) - 15px);
+    margin-left: 15px;
+}

@@ -1,0 +1,21 @@
+.box-customer-gallery{
+    margin-bottom: 10px;
+}
+.box-customer-gallery .title-cus-gallery {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1;
+    line-height: 50px;
+    background: #4e0037;
+    margin: 10px 0
+}
+.box-customer-gallery .icon-gallery-title{
+    float: left; margin-right: 5px; position: relative; top: 8px;
+}
+.box-customer-gallery .des-gallery {
+    padding: 0 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-bottom: 10px
+}

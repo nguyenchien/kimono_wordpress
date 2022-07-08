@@ -1,0 +1,108 @@
+
+.section-6advices {
+    overflow: initial;
+}
+.block-title-top-page-title h2 span.ja {
+    font-size: 13px;
+}
+/*--6 Points--*/
+.section-content-mainform .content_mainform {
+    width: 100%;
+    width: 960px;
+    margin: 0 auto 10px;
+}
+.content_mainform .reserve {
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    margin-left: -20px;
+}
+.content_mainform .reserve li{
+    width: calc(100% *(1/2) - 20px);
+    margin-left: 20px;
+}
+body.ko .content_mainform .reserve li{
+    margin-left: 28%;  }
+.content_mainform .reserve li a{
+    font-size: 40px;
+}
+
+.section-6advices .box-overview ul {
+    flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+}
+.section-6advices .title-sect{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.section-6advices .title-sect .big{
+    font-size: 52px;
+    margin-left: 15px;
+}
+.section-6advices .wrapp-top-6advices {
+    margin: 56px 0 30px 0;
+}
+.section-6advices .wrapp-top-6advices img.item-advice-bg{
+    position: absolute;
+    left: -15px;
+    top: -55px;
+    z-index: 0;
+}
+.section-6advices .wrapp-top-6advices img.item-advice-bg-mobile{
+    position: absolute;
+    left: 10px;
+    top: -120px;
+    z-index: 0;
+    display: none;
+}
+.section-6advices .wrapp-top-6advices .r-top-6advices {
+    width: 100%;
+    padding: 20px 15px 10px 100px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.section-6advices .box-overview ul li p.text{
+    font-size: 14px;
+}
+.section-6advices .box-list{
+    padding: 0;
+}
+.section-6advices .box-list .container-box-list {
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+.section-6advices .box-list .container-box-list .item-box-list{
+    width: calc(100% *(1/2) - 15px);
+    margin-left: 15px;
+}
+.section-6advices .box-list .container-box-list .one{
+    order: 1;
+}
+.section-6advices .box-list .container-box-list .two{
+    order: 2;
+}
+.section-6advices .box-list .container-box-list .three{
+    order: 3;
+}
+.section-6advices .box-list .container-box-list .four{
+    order: 4;
+}
+.section-6advices .box-list .container-box-list .five{
+    order: 5;
+}
+.section-6advices .box-list .container-box-list .six{
+    order: 6;
+}
+.section-6advices .box-list ul li .item .title span{
+    font-size: 18px;
+}
+.section-6advices .box-list ul li .item p{
+    font-size: 16px;
+}

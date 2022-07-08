@@ -1,0 +1,167 @@
+.shoplist-tt {
+    max-width: 85px!important;
+    padding-bottom: 0!important;
+}
+.wrap-shoplist .title-general {
+    margin-bottom: 15px
+}
+.wrap-shoplist .text-title-general{
+    margin: 0 15px 0 5px;
+}
+.wrap-shoplist .list-shop-list .item-shop-list {
+    margin-top: -1px;
+    padding: 8px 0 4px 0;
+}
+.wrap-shoplist .list-shop-list .item-shop-list .bg-shop-list .lg-text {
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.wrap-shoplist .list-shop-list .item-shop-list .bg-shop-list .sm-text {
+    color: #636363;
+    font-size: 13px;
+}
+
+.wrap-new-kimono-sidebar-left {
+    margin-bottom: 15px
+}
+
+.wrap-shoplist.wrap-new-kimono-sidebar-left .title-general {
+    margin-bottom: 0
+}
+
+.wrap-category .text-shoplist-category-kimono .title-category {
+    background-color: #d9d9d9;
+    padding: 0;
+    height: 35px;
+    border-bottom: none
+}
+
+.wrap-category .list-box-category .text-shoplist-category-kimono.item-box-category .title-category .text-category,.wrap-shoplist .text-shoplist-category-kimono .list-shop-list .item-shop-list .tt-shop-list .linkto-shop {
+    margin-left: 10px
+}
+
+.wrap-shoplist .text-shoplist-category-kimono .list-shop-list {
+    padding-left: 0
+}
+.wrap-shoplist .list-shop-list .item-shop-list .tt-shop-list .linkto-shop {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding-right: 10px
+}
+.wrap-shoplist .list-shop-list .item-shop-list .tt-shop-list .icon-arrow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.wrap-shoplist .list-shop-list .item-shop-list .tt-shop-list .icon-arrow .arrow {
+    content: "";
+    right: 0;
+    width: 8px;
+    height: 8px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    border-right: 1px solid rgba(107,122,131,1);
+    border-bottom: 1px solid rgba(107,122,131,1);
+    cursor: pointer;
+    margin-right: 5px
+}
+.border-bottom {
+    border-bottom: 1px solid #666
+}
+
+.wrap-list-banner {
+    margin-bottom: 5px
+}
+
+
+.wrap-topics-banner-widget {
+    margin-top: 30px
+}
+.wrap-topics-banner-widget .list-banner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.wrap-topics-banner-widget .item-banner {
+    margin-bottom: 15px;
+    min-height: 1px
+}
+
+.wrap-topics-banner-widget .image-banner {
+    margin-bottom: 5px
+}
+
+.wrap-topics-banner-widget .image-banner img {
+    width: 100%
+}
+
+.wrap-topics-banner-widget .text-banner a {
+    display: block;
+    color: #6b7a83;
+    font-size: 12px;
+    line-height: 1.4;
+    text-decoration: underline!important;
+}
+.wrap-blog-and-banner-plan {
+    margin-top: 40px
+}
+.wrap-topics-banner-widget {
+    margin-top: 0
+}
+.wrap-category .item-box-category .title-category {
+    height: 51px
+}
+.wrap-category .text-shoplist-category-kimono .title-category {
+    background-color: #d9d9d9;
+    padding: 0;
+    height: 35px;
+    border: none
+}
+.left-column-content .wrap-topics-banner-widget {
+    margin-top: 15px
+}
+.wrap-text-banner-araibar {
+    margin-top: 15px
+}
+.link-top-araibar img {
+    margin-bottom: 10px
+}
+.link-top-araibar .text-araibar {
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    color: #6b7a83;
+    text-decoration: underline!important
+}
+.ui-datepicker {
+    width: 100%;
+    border: 1px solid #999!important;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 15px 5px 5px
+}
+
+.ui-corner-all,.ui-widget-header {
+    color: #000
+}
+
+

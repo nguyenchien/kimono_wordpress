@@ -1,0 +1,59 @@
+
+/*Footer*/
+.footer{
+    background-color: #292929;
+}
+.footer .ft-wrap{
+    margin: 0 auto;
+    padding: 20px;
+}
+.ft-wrap .list-footer{
+    padding: 10px 0;
+    clear: both;
+}
+.list-footer h4{
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.list-footer ul li{
+    line-height: 1.4em;
+    float: left;
+    padding: 0 10px;
+    margin: 4px 0;
+    border-left: 1px solid #999;
+    font-size: 12px;
+    color: #fff;
+}
+.list-footer ul li.clear {
+    clear: both;
+}
+.list-footer ul li a{
+    color: #fff;
+    font-size: 12px;
+}
+.list-footer ul li a:hover{
+    opacity: 0.7;
+}
+.list-footer ul .noborder{
+    border: none;
+    padding-left: 0;
+    margin-left: 0px;
+}
+.ft-contact{
+    color: #fff;
+    font-size: 13px;
+    float: right;
+    margin: 20px 0;
+}
+.ft-contact img{
+    width: 24px;
+    margin-right: 5px;
+}
+.copyright{
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+    clear: both;
+}

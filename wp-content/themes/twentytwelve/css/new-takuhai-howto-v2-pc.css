@@ -1,0 +1,392 @@
+.wrap-boths-column .right-cate-tahuhai-howto{
+    margin-left: 85px !important;
+}
+/*wrap-search-scene-v2-takuhai-howto*/
+.wrap-howto-reserve-takuhai-howto-v2{
+    margin-bottom: 10px;
+}
+.wrap-howto-reserve-takuhai-howto-v2 .group-all-icon-text .para-text{
+    margin-right: 47px;
+}
+.wrap-howto-reserve-takuhai-howto-v2 .wrap-content-howto-reserve{
+    margin-bottom: 0;
+}
+.wrap-search-scene-v2-takuhai-howto .title-search-scene-v2 .title-search-scene-name .sub-title-search-scene-name{
+    font-size: 41px;
+    font-weight: bold;
+}
+.wrap-search-scene-v2-takuhai-howto .title-search-scene-v2{
+    margin-bottom: 10px;
+}
+.wrap-search-scene-v2-takuhai-howto  .title-search-scene-v2 .title-search-scene-name:before,
+.wrap-search-scene-v2-takuhai-howto  .title-search-scene-v2 .title-search-scene-name:after,
+.wrap-search-scene-v2-takuhai-howto .title-search-scene-v2 .sub-title-search-scene-name:before,
+.wrap-search-scene-v2-takuhai-howto .title-search-scene-v2 .sub-title-search-scene-name:after{
+    height: 45px;
+}
+.wrap-search-scene-v2-takuhai-howto .title-search-scene-v2 .sub-title-search-scene-name:before,
+.wrap-search-scene-v2-takuhai-howto .title-search-scene-v2 .sub-title-search-scene-name:after {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 1px;
+    top: 1px;
+}
+.wrap-search-scene-v2-takuhai-howto .title-search-scene-v2 .title-search-scene-name:before{
+    -webkit-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    left: -5px;
+}
+.wrap-search-scene-v2-takuhai-howto .title-search-scene-v2 .title-search-scene-name:after{
+    -webkit-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+    right: -5px;
+}
+.wrap-search-scene-v2-takuhai-howto .title-search-scene-v2 .sub-title-search-scene-name:before {
+    left: 5px;
+    display: block;
+    -webkit-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    border-left: 1px solid #242424;
+}
+.wrap-search-scene-v2-takuhai-howto .title-search-scene-v2 .sub-title-search-scene-name:after{
+    right: 5px;
+    -webkit-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+    border-right: 1px solid #242424;
+}
+/*wrap-content-takuhai-howto-scene*/
+.wrap-content-takuhai-howto-scene,
+.wrap-slider-new-takuhai-howto-v2{
+    margin-bottom: 60px;
+}
+.content-takuhai-howto-scene{
+    font-size: 18px;
+    line-height: 1.8;
+}
+/*wrap-content-slider-new-takuhai-howto*/
+.wrap-content-slider-new-takuhai-howto{
+    line-height: 1;
+    margin-bottom: 50px;
+}
+.wrap-slider-new-takuhai-howto-v2 .wrap-title-v2 {
+    margin-bottom: 15px;
+}
+.wrap-content-slider-new-takuhai-howto .sub-des-title-takuhai{
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.wrap-content-slider-new-takuhai-howto .other-sub-des-title-takuhai{
+    font-size: 25px;
+    font-weight: normal;
+}
+.wrap-set-icon-option-takuhai{
+    width: 75%;
+    margin: 0 auto 20px;
+}
+.des-set-icon-option-takuhai{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+.wrap-howto-reserve-takuhai-howto-v2 .bg-shop.wrap-circle-link-irotomesode .circle-link,
+.btn-v2-takuhai-howto,
+.bg-takuhai{
+    background-color: #3b002a;
+}
+.bg-yellow-takuhai{
+    background-color: #efda54;
+}
+.btn-v2-takuhai-howto .pattern:after {
+    border-color: transparent transparent transparent #cae0de;
+}
+
+.box-howto-reserve .bg-shop.wrap-r-icon-takuhai-howto{
+    background-position: 0 -1917px;
+}
+.box-howto-reserve .bg-web.wrap-r-icon-takuhai-howto{
+    background-position: 0 -1902px;
+}
+.color-takuhai{
+    color: #3b002a;
+}
+.link-mailto{
+    color: #901C32;
+}
+.wrap-howto-reserve-takuhai-howto-v2 .text-square{
+    font-size: 20px;
+}
+.wrap-group-step-5 .sub-text-title-square,
+.link-brand-search{
+    font-size: 18px;
+}
+.link-brand-search{
+    color: #901c32;
+}
+.wrap-return-method .group-step-flow .title-group-step{
+    margin-bottom: 0;
+    line-height: 1;
+}
+.wrap-return-method .group-step-flow{
+    padding-bottom: 0;
+}
+.mg-step-5{
+    margin-bottom: 30px;
+}
+.mg-70{
+    margin-bottom: 70px;
+}
+.wrap-howto-reserve-takuhai-howto-v2 .wrap-flow-delivery .group-step-flow .des-group-step p{
+    font-size: 17px;
+}
+.wrap-howto-reserve-takuhai-howto-v2 .wrap-flow-delivery .group-step-flow-other.last,
+.wrap-return-method .group-step-flow.last{
+    background-image: none;
+}
+.title-group-return-method{
+    font-size: 26px;
+    font-weight: bold;
+}
+.wrap-set-content .title-set-content.title-sub-slug-takuhai-howto,
+.wrap-flow-delivery .title-sub-slug-takuhai-howto {
+    background: -webkit-repeating-linear-gradient(210deg, #3b002a,
+    #3b002a 5px,
+    rgba(59,0,42,0.8) 5px,
+    rgba(59,0,42,0.8) 10px
+    );
+    background: -o-repeating-linear-gradient(210deg, #3b002a,
+    #3b002a 5px,
+    rgba(59,0,42,0.8) 5px,
+    rgba(59,0,42,0.8) 10px
+    );
+    background: repeating-linear-gradient(-120deg, #3b002a,
+    #3b002a 5px,
+    rgba(59,0,42,0.8) 5px,
+    rgba(59,0,42,0.8) 10px
+    );
+}
+.wrap-flow-delivery .text-flow-deivery-takuhai{
+    margin-bottom: 20px;
+}
+.wrap-flow-delivery .about-return-carrier{
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}
+.wrap-title-method-takuhai{
+    margin-bottom: 50px;
+}
+.wrap-title-method-takuhai .title-method-takuhai{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 12px 15px 12px 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    display: inline-block;
+    letter-spacing: 2px;
+    -webkit-box-shadow: 6px 6px #3b002a;
+    box-shadow: 6px 6px #3b002a;
+}
+.wrap-l-icon-takuhhai-method{
+    margin-right: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.wrap-l-icon-takuhhai-method img{
+    width: 140px;
+}
+.wrap-r-text-takuhai-method{
+    line-height: 1;
+}
+.r-text-takuhai-method{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.r-text-takuhai-method.color-line-bottom{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.r-text-takuhai-method.color-line-bottom:after{
+    height: 12px;
+}
+.r-text-takuhai-method.other{
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.color-line-bottom{
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-weight: bold;
+}
+.color-line-bottom:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 17px;
+    background-color: #f2d10a;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.r-text-des-bottom{
+    line-height: 1.5;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.wrap-content-howto-reserve.takuhai-howto .box-howto-reserve{
+    border-bottom: none;
+}
+.wrap-group-step-payment-method{
+    border: 3px solid #000;
+    -webkit-box-shadow: 12px 12px #3b002a;
+    box-shadow: 12px 12px #3b002a;
+    position: relative;
+}
+.wrap-group-step-payment-method .sub-list-option-takuhai {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    top: -70px;
+}
+.wrap-group-step-payment-method .sub-list-option-takuhai .text-sub-line{
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #fff;
+    padding: 0 10px;
+}
+.sm-text-list-option-takuhai{
+    text-align: center;
+    font-size: 18px;
+    margin: -40px 0 50px;
+}
+.box-howto-reserve .group-icon.wrap-sub-group-step-payment-method {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.box-howto-reserve .group-icon.step-payment-method-right{
+    margin-right: 0;
+}
+.wrap-r-icon-payment{
+    background-image: url(../../../../../images/formal-rental/formal-list-v2/icon-arrow-takuhai.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-right: 40px;
+}
+.wrap-r-icon-payment .color-takuhai{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    padding-bottom: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    top: -9px;
+    width: 260px;
+}
+.wrap-l-icon-takuhai{
+    margin-right: 20px;
+}
+.wrap-l-icon-takuhai img{
+    width: 115px;
+}
+.wrap-r-icon-takuhai.others{
+    margin-left: 10px;
+}
+.wrap-r-icon-takuhai img{
+    width: 90px;
+}
+.wrap-r-icon-takuhai.icon-takuhai-04{
+    text-align: center;
+}
+.sub-text-payment-takuhai{
+    margin-bottom: 8px;
+    font-size: 15px;
+    line-height: 1;
+}
+.sub-text-payment-takuhai.others{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.wrap-group-step-payment-method{
+    padding: 50px 20px 100px 70px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.sub-group-step-payment-method.first{
+    margin-bottom: 50px;
+}
+.wrap-r-icon-takuhai .wrap-both-price .box-outside-price{
+    position: relative;
+    border: 4px solid #000;
+    background-color: #fff;
+    -webkit-transform: skew(-30deg, 0deg);
+    -ms-transform: skew(-30deg, 0deg);
+    transform: skew(-30deg, 0deg);
+    width: 90px;
+    height: 35px;
+}
+.wrap-r-icon-takuhai .wrap-both-price .box-inside-price{
+    border: 4px solid #000;
+    position: absolute;
+    background-color: #fff;
+    -webkit-transform: skew(0deg, 0deg);
+    -ms-transform: skew(0deg, 0deg);
+    transform: skew(0deg, 0deg);
+    width: 90px;
+    height: 35px;
+    left: 4px;
+    top: -11px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.wrap-r-icon-takuhai .wrap-both-price .box-inside-price span{
+    font-size: 30px;
+}
+.box-current-price{
+    margin-left: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+}
+.wrap-flow-delivery .group-step-flow .des-group-step-other.last,
+.wrap-flow-delivery .group-step-flow.other.last{
+    margin-bottom: 0;
+}
+.wrap-flow-delivery .group-step-flow.other.last{
+    padding-bottom: 0;
+}
+.wrap-content-takuhai-method{
+    margin-bottom: 50px;
+}

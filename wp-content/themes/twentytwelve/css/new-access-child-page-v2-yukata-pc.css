@@ -1,0 +1,797 @@
+.wrap-new-main-banner-access.full-width {
+    margin-bottom: 40px;
+}
+.right-new-access-v2-yukata .color-ginza-yukata,
+.right-new-access-v2-yukata .text-blue,
+.right-new-access-v2-yukata .wrap-access-to-shop-fm-v2-yukata .list-access-shop .num-item,
+.right-new-access-v2-yukata .wrap-spots-shop-fm-v2-yukata .title-small-spots,
+.right-new-access-v2-yukata .wrap-spots-shop-fm-v2-yukata .title-big-spots,
+.right-new-access-v2-yukata .slider-ranking-yukata .widget-list-product-highend ul.list li .wrap-price .price,
+.right-new-access-v2-yukata .slider-ranking-yukata .widget-list-product-highend ul.list li .wrap-price .price .currency,
+.right-new-access-v2-yukata .slider-ranking-yukata .widget-list-product-highend ul.list li .wrap-price .price .tax,
+.right-new-access-v2-yukata .wrap-google-map-fm-v2-yukata .jusho-color,
+.right-new-access-v2-yukata .plan-info .price,
+.right-new-access-v2-yukata .plan-info .wrap-btn a,
+.right-new-access-v2-yukata .box-hairset-0yen .title-main,
+.right-new-access-v2-yukata .box-hairset-0yen .text,
+.right-new-access-v2-yukata .box-sub-list-hairset .item .text,
+.right-new-access-v2-yukata .wrap-hairset-yukata .wrap-btn-v2 .btn-v2 a,
+.right-new-access-v2-yukata .wrap-hairset-yukata .wrap-btn-v2 .btn-v2-reserve {
+    color: #d84d96;
+}
+.right-new-access-v2-yukata .plan-info .wrap-btn a,
+.right-new-access-v2-yukata .plan-info .show-less span{
+    border: 2px solid #d84d96;
+}
+.right-new-access-v2-yukata .plan-info .show-less span:before {
+    border-right: 2px solid #d84d96;
+    border-bottom: 2px solid #d84d96;
+}
+.right-new-access-v2-yukata .wrap-btn-v2 .btn-v2-01.bg-ginza-yukata,
+.right-new-access-v2-yukata .bg-ginza-yukata,
+.right-new-access-v2-yukata .bg-blue,
+.right-new-access-v2-yukata .more-list-ginza-yukata .more-info,
+.right-new-access-v2-yukata .wrap-review-thankyou-yukata .pd-review .link-more,
+.right-new-access-v2-yukata .wrap-top-plan-circle-yukata-second .wrap-circle-top-plan,
+.right-new-access-v2-yukata .wrap-addess-gg-map-yukata .text-addess-map,
+.right-new-access-v2-yukata .wrap-hairset-yukata:before,
+.right-new-access-v2-yukata .wrap-hairset-yukata:after,
+.right-new-access-v2-yukata .wrap-hairset-yukata .wrap-btn-v2 .btn-v2 .icon-arrow-r-link,
+.right-new-access-v2-yukata .wrap-hairset-yukata .wrap-btn-v2 .btn-v2 .icon-arrow-r-link:after,
+.right-new-access-v2-yukata .wrap-content-howto-reserve.yukata .btn-step-01,
+.right-new-access-v2-yukata .bg-skypink,
+.right-new-access-v2-yukata .btn-v2-shinjuku-station{
+    background-color: #d84d96;
+}
+.right-new-access-v2-yukata .wrap-list-option-new-shop-yukata .list-option-detail-new-machi .items-option-detail-new{
+    background-color: #799b9b;
+    border-radius: 10px;
+}
+.right-new-access-v2-yukata .pattern.ginza-honten.yukata:after,
+.right-new-access-v2-yukata .wrap-hairset-yukata .pattern.ginza-honten:after,
+.right-new-access-v2-yukata .wrap-btn-v2-other .pattern:after{
+    border-color: transparent transparent transparent #abb0f3;
+}
+.right-new-access-v2-yukata .wrap-top-plan-circle-fm-v2 .wrap-circle-top-plan{
+    margin-right: 50px;
+    width: 82px;
+    height: 82px;
+}
+.right-new-access-v2-yukata .wrap-top-plan-circle-fm-v2 .wrap-intro-content{
+    width: 87%;
+}
+.right-new-access-v2-yukata .wrap-top-plan-circle-fm-v2 .wrap-review .intro .review-title{
+    font-weight: bold;
+    font-size: 24px;
+}
+.right-new-access-v2-yukata .wrap-top-plan-circle-fm-v2 .wrap-review .intro .text-des-top-plan{
+    text-align: center;
+    font-size: 19px;
+}
+.right-new-access-v2-yukata .wrap-top-plan-circle-fm-v2 .wrap-circle-top-plan .circle-top-plan{
+    font-size: 25px;
+}
+.right-new-access-v2-yukata .wrap-top-plan-circle-yukata-second .intro-bg:before{
+    border-left: 15px solid #d9c580;
+}
+.right-new-access-v2-yukata .wrap-top-plan-circle-yukata-second .intro-bg:after{
+    border-right: 15px solid #abb0f3;
+}
+.right-new-access-v2-yukata .wrap-top-plan-circle-yukata-second .last.intro-bg:before {
+    border-left: 15px solid #abb0f3;
+}
+.right-new-access-v2-yukata .wrap-top-plan-circle-yukata-second .last.intro-bg:after {
+    border-right: 15px solid #d9c580;
+}
+.right-new-access-v2-yukata .slider-ranking-yukata .widget-list-product-highend.more-items ul.list li .image {
+    background-image: -webkit-repeating-linear-gradient(left, #d84d96 0%, #d84d96 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(left, #d84d96 0%, #d84d96 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #d84d96 0%, #d84d96 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #d84d96 0%, #d84d96 50%, transparent 50%, transparent 100%);
+    background-image: -o-repeating-linear-gradient(left, #d84d96 0%, #d84d96 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(left, #d84d96 0%, #d84d96 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, #d84d96 0%, #d84d96 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, #d84d96 0%, #d84d96 50%, transparent 50%, transparent 100%);
+    background-image: repeating-linear-gradient(to right, #d84d96 0%, #d84d96 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to right, #d84d96 0%, #d84d96 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, #d84d96 0%, #d84d96 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, #d84d96 0%, #d84d96 50%, transparent 50%, transparent 100%);
+    background-position: left top, left bottom, left top, right top;
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 6px 1px, 6px 1px, 1px 6px, 1px 6px;
+}
+.right-new-access-v2-yukata .wrap-top-plan-circle-fm-v2-yukata .list-scene-v2 .item-scene-v2.color-circle-03 .inside-circle .num-circle-1{
+    line-height: 1.3;
+}
+.right-new-access-v2-yukata .wrap-intro-hiyori-fm-v2,
+.right-new-access-v2-yukata .wrap-google-map-fm-v2-yukata .list-option-new-shop-second .items-option-detail-new{
+    border: 1px solid #d84d96;
+}
+.right-new-access-v2-yukata .wrap-google-map-fm-v2-yukata .list-option-new-shop-second .items-option-detail-new:first-child{
+    border: none;
+}
+.right-new-access-v2-yukata .wrap-google-map-fm-v2-yukata{
+    border: 1px solid #d84d96;
+    background-color: #f9e8f3;
+}
+.right-new-access-v2-yukata .wrap-list-option-new-shop-yukata .items-option-detail-new {
+    background-color: #d84d96;
+}
+.right-new-access-v2-yukata .wrap-list-option-new-shop-yukata .items-text-detail-new{
+    color: #fff;
+}
+.right-new-access-v2-yukata .wrap-list-option-detail-new-1{
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    justify-content: left;
+}
+.right-new-access-v2-yukata .wrap-list-option-detail-new-1 .list-option-detail-new:last-child{
+    width: 135px;
+    margin-left: 25px;
+}
+.right-new-access-v2-yukata .list-option-detail-new-machi .icon-arrow-r-link{
+    width: 120px;
+}
+.right-new-access-v2-yukata .wrap-btn-v2-shinjuku-shop{
+    margin-bottom: 30px;
+}
+.right-new-access-v2-yukata .plan-info .plan-name:before,
+.right-new-access-v2-yukata .plan-info .plan-name:after {
+    background: url(../../../../../images/new-kimono/access/flower-pt-shinjuku.svg) no-repeat;
+    background-size: cover;
+}
+.right-new-access-v2-yukata .wrap-photos-shop-fm-v2{
+    margin-bottom: 60px;
+}
+.right-new-access-v2-yukata .wrap-shop-intro .intro-title {
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 1;
+    display: table;
+    margin: 0 auto 45px auto;
+    text-align: center;
+    position: relative;
+}
+.right-new-access-v2-yukata .wrap-shop-intro .intro-title:before,
+.right-new-access-v2-yukata .wrap-shop-intro .intro-title:after {
+    position: absolute;
+    content: '';
+    background: url(../../../../../images/new-kimono/access/flower-pt-shinjuku.svg) no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    top: -30px;
+}
+.right-new-access-v2-yukata .wrap-shop-intro .intro-title:before {
+    left: -60px;
+}
+.right-new-access-v2-yukata .wrap-shop-intro .intro-title:after {
+    right: -60px;
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.right-new-access-v2-yukata .wrap-hairset-yukata .content-hairset-yukata,
+.right-new-access-v2-yukata .wrap-spots-shop-fm-v2-yukata{
+    background: -webkit-repeating-linear-gradient(210deg, #f9e8f3, #f9e8f3 5px, #faedf5 5px, #faedf5 10px );
+    background: -o-repeating-linear-gradient(210deg, #f9e8f3, #f9e8f3 5px, #faedf5 5px, #faedf5 10px );
+    background: repeating-linear-gradient(-120deg, #f9e8f3, #f9e8f3 5px, #faedf5 5px, #faedf5 10px );
+}
+.right-new-access-v2-yukata .box-hairset-0yen .title-main:after{
+    border-right: 12px solid #abb0f3;
+}
+.right-new-access-v2-yukata .box-sub-list-hairset .item .text{
+    border-left: 3px solid #d84d96;
+}
+.right-new-access-v2-yukata .content-hairset-yukata .box-hairset-0yen{
+    border-bottom: 1px dashed #d84d96;
+}
+.right-new-access-v2-yukata .wrap-spots-shop-fm-v2-yukata .pattern.ginza:before{
+    border-color: #d84d96 transparent transparent transparent;
+}
+.right-new-access-v2-yukata .box-spots-shop-fm-v2 ul.list-content-spots .item-content-spots .text-content-spots .title-text{
+    font-size: 21px;
+}
+.right-new-access-v2-yukata  .wrap-spots-shop-fm-v2-yukata .title-big-spots {
+    background-image: url(../images/shop-fomal-v2/title-big-spots-shinjuku-yukata.svg);
+    font-size: 22px;
+}
+.right-new-access-v2-yukata .wrap-access-to-shop-fm-v2 .list-access-shop .slick-prev:before,
+.right-new-access-v2-yukata .list-access-shop .slick-prev:before{
+    content: url(../images/shop-fomal-v2/prev-arrow-shinjuku.svg);
+}
+.right-new-access-v2-yukata .wrap-access-to-shop-fm-v2 .list-access-shop .slick-next:before,
+.right-new-access-v2-yukata .list-access-shop .slick-next:before{
+    content: url(../images/shop-fomal-v2/next-arrow-shinjuku.svg);
+}
+.right-new-access-v2-yukata .wrap-access-to-shop-fm-v2 .list-access-shop .item-list-access-shop.slick-current:nth-child(9):after {
+    left: 350px;
+}
+.right-new-access-v2-yukata .wrap-access-to-shop-fm-v2 .list-access-shop .item-list-access-shop.slick-current:nth-child(9):after,
+.right-new-access-v2-yukata .wrap-access-to-shop-fm-v2 .list-access-shop .item-list-access-shop:nth-child(11):after,
+.right-new-access-v2-yukata .wrap-access-to-shop-fm-v2 .list-access-shop .item-list-access-shop:nth-child(3):after,
+.right-new-access-v2-yukata .wrap-access-to-shop-fm-v2 .list-access-shop .item-list-access-shop:nth-child(5):after,
+.right-new-access-v2-yukata .wrap-access-to-shop-fm-v2 .list-access-shop .item-list-access-shop:nth-child(7):after {
+    content: url(../images/shop-fomal-v2/next-arrow-shinjuku.svg);
+}
+.right-new-access-v2-yukata .wrap-blog-shop-fm-v2.yukata{
+    margin-bottom: 115px;
+}
+.right-new-access-v2-yukata .wrap-howto-reserve .wrap-title .title-howto-reserve{
+    margin-bottom: 20px;
+}
+.right-new-access-v2-yukata .wrap-blog-shop-fm-v2.yukata .sub-item-info-other .bg-item-outside {
+    background-color: #e484b7;
+}
+.right-new-access-v2-yukata .wrap-blog-shop-fm-v2.yukata .sub-item-info-other .bg-item-inside {
+    background-color: #d84d96;
+}
+/*Column post*/
+.right-new-access-v2-yukata .wrap-column-post{
+    margin-bottom: 50px;
+}
+.right-new-access-v2-yukata .wrap-column-post .title{
+    margin-bottom: 40px;
+}
+.right-new-access-v2-yukata .wrap-column-post .title img{
+    width: 70%;
+    margin: auto;
+    display: table;
+}
+.right-new-access-v2-yukata .wrap-column-post .title .column-title{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+.right-new-access-v2-yukata .column-list{
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    padding: 0 50px;
+}
+.right-new-access-v2-yukata .column-list li{
+    width: calc(100% * 1/2 - 40px);
+    margin: 0 0 50px 40px;
+    border: 2px solid #d84d96;
+    padding: 15px 15px 35px 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+.right-new-access-v2-yukata .column-list li .post-num{
+    position: absolute;
+    top: -20px;
+    left: -15px;
+    font-size: 50px;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #d84d96;
+    color: #d84d96;
+    -webkit-box-shadow: 4px 4px 0 0 rgba(216,77,150,1);
+    box-shadow: 4px 4px 0 0 rgba(216,77,150,1);
+}
+.right-new-access-v2-yukata .column-list li .img a{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px dashed #d84d96;
+    height: 220px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.right-new-access-v2-yukata .column-list li .img img{
+    -o-object-fit: contain;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+}
+.right-new-access-v2-yukata .column-list li .column-title{
+    font-size: 22px;
+    font-weight: bold;
+    color: #d84d96;
+    text-align: center;
+    padding: 0 10px;
+}
+.right-new-access-v2-yukata .column-list li .read{
+    width: 80px;
+    height: 70px;
+    font-size: 17px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+.right-new-access-v2-yukata .column-list li .read:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 70px 80px;
+    border-color: transparent transparent #d84d96 transparent;
+    z-index: -1;
+}
+.right-new-access-v2-yukata .wrap-column-list .more-column{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+.right-new-access-v2-yukata .wrap-column-list .read-more{
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+    letter-spacing: 1px;
+    background: url(../../../../../images/new-kimono/access/arrow-column.svg) no-repeat;
+    background-size: 100%;
+    background-position: 0 20px;
+    height: 40px;
+    padding: 0 50px 0 5px;
+}
+.right-new-access-v2-yukata .box-howto-reserve .bg-shop.wrap-r-icon-yukata{
+    background-position: 0 -1007px;
+    color: #57b3e8;
+}
+.right-new-access-v2-yukata .box-howto-reserve .bg-web.wrap-r-icon-yukata {
+    background-position: 0 -3102px;
+    color: #d84d96;
+}
+.right-new-access-v2-yukata .title-sub-slug-yukata,
+.right-new-access-v2-yukata .yukata.wrap-set-content .title-set-content {
+    background: -webkit-repeating-linear-gradient(210deg, #e99dc5, #e99dc5 5px, rgba(233,157,197,0.8) 5px, rgba(233,157,197,0.8) 10px );
+    background: -o-repeating-linear-gradient(210deg, #e99dc5, #e99dc5 5px, rgba(233,157,197,0.8) 5px, rgba(233,157,197,0.8) 10px );
+    background: repeating-linear-gradient(-120deg, #e99dc5, #e99dc5 5px, rgba(233,157,197,0.8) 5px, rgba(233,157,197,0.8) 10px );
+}
+.right-new-access-v2-yukata .yukata.wrap-set-content .wrap-bt-set .bt-set.border-color-blue {
+    border: 1px solid #d84d96;
+}
+.right-new-access-v2-yukata .wrap-banner-shoukai-ibento-natsu .wrap-img-ginza-yukata{
+    background-image: url(../images/shop-fomal-v2/bg-shoukai-ibento-shinjuku-pc.jpg);
+}
+.right-access-yukata-23 .color-ginza-yukata,
+.right-access-yukata-23 .text-blue,
+.right-access-yukata-23 .wrap-access-to-shop-fm-v2-yukata .list-access-shop .num-item,
+.right-access-yukata-23 .wrap-spots-shop-fm-v2-yukata .title-small-spots,
+.right-access-yukata-23 .wrap-spots-shop-fm-v2-yukata .title-big-spots,
+.right-access-yukata-23 .slider-ranking-yukata .widget-list-product-highend ul.list li .wrap-price .price,
+.right-access-yukata-23 .slider-ranking-yukata .widget-list-product-highend ul.list li .wrap-price .price .currency,
+.right-access-yukata-23 .slider-ranking-yukata .widget-list-product-highend ul.list li .wrap-price .price .tax,
+.right-access-yukata-23 .wrap-google-map-fm-v2-yukata .jusho-color,
+.right-access-yukata-23 .plan-info .price,
+.right-access-yukata-23 .plan-info .wrap-btn a,
+.right-access-yukata-23 .box-hairset-0yen .title-main,
+.right-access-yukata-23 .box-hairset-0yen .text,
+.right-access-yukata-23 .box-sub-list-hairset .item .text,
+.right-access-yukata-23 .wrap-hairset-yukata .wrap-btn-v2 .btn-v2 a,
+.right-access-yukata-23 .wrap-hairset-yukata .wrap-btn-v2 .btn-v2-reserve
+{
+    color: #00a7b0;
+}
+.right-access-yukata-23 .wrap-btn-v2 .btn-v2-01.bg-ginza-yukata,
+.right-access-yukata-23 .bg-ginza-yukata,
+.right-access-yukata-23 .bg-blue,
+.right-access-yukata-23 .more-list-ginza-yukata .more-info,
+.right-access-yukata-23 .wrap-review-thankyou-yukata .pd-review .link-more,
+.right-access-yukata-23 .wrap-top-plan-circle-yukata-second .wrap-circle-top-plan,
+.right-access-yukata-23 .wrap-addess-gg-map-yukata .text-addess-map,
+.right-access-yukata-23 .wrap-hairset-yukata:before,
+.right-access-yukata-23 .wrap-hairset-yukata:after,
+.right-access-yukata-23 .wrap-hairset-yukata .wrap-btn-v2 .btn-v2 .icon-arrow-r-link,
+.right-access-yukata-23 .wrap-hairset-yukata .wrap-btn-v2 .btn-v2 .icon-arrow-r-link:after,
+.right-access-yukata-23 .wrap-content-howto-reserve.yukata .btn-step-01,
+.right-access-yukata-23 .btn-v2-shinjuku-station{
+    background-color: #00a7b0;
+}
+.right-access-yukata-23 .wrap-list-option-new-shop-yukata .items-option-detail-new {
+    background-color: #00a7b0;
+}
+.right-access-yukata-23 .wrap-intro-hiyori-fm-v2,
+.right-access-yukata-23 .wrap-google-map-fm-v2-yukata .list-option-new-shop-second .items-option-detail-new {
+    border: 1px solid #00a7b0;
+}
+.right-access-yukata-23 .wrap-google-map-fm-v2-yukata {
+    border: 1px solid #00a7b0;
+    background-color: #e0f4f4;
+}
+.right-access-yukata-23 .slider-ranking-yukata .widget-list-product-highend.more-items ul.list li .image{
+    background-image: -webkit-repeating-linear-gradient(left, #00a7b0 0%, #00a7b0 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(left, #00a7b0 0%, #00a7b0 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #00a7b0 0%, #00a7b0 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #00a7b0 0%, #00a7b0 50%, transparent 50%, transparent 100%);
+}
+.right-access-yukata-23 .plan-info .wrap-btn a,
+.right-access-yukata-23 .plan-info .show-less span {
+    border: 2px solid #00a7b0;
+}
+.right-access-yukata-23 .box-sub-list-hairset .item .text {
+    border-left: 3px solid #00a7b0;
+}
+.right-access-yukata-23 .wrap-spots-shop-fm-v2-yukata .pattern.ginza:before {
+    border-color: #00a7b0 transparent transparent transparent;
+}
+.right-access-yukata-23 .wrap-shop-intro .intro-title:before,
+.right-access-yukata-23 .wrap-shop-intro .intro-title:after {
+    background: url(../../../../../images/new-kimono/access/flower-pt-sendai-parco2.svg) no-repeat;
+}
+.right-access-yukata-23 .plan-info .plan-name:before,
+.right-access-yukata-23 .plan-info .plan-name:after {
+    background: url(../../../../../images/new-kimono/access/flower-pt-sendai-parco2.svg) no-repeat;
+}
+.right-access-yukata-23 .plan-info .show-less span:before {
+    border-right: 2px solid #00a7b0;
+    border-bottom: 2px solid #00a7b0;
+}
+.right-access-yukata-23 .wrap-hairset-yukata .content-hairset-yukata,
+.right-access-yukata-23 .wrap-spots-shop-fm-v2-yukata
+{
+    background: repeating-linear-gradient(-120deg, #E0F4F4, #E0F4F4 5px, #e6f6f6 5px, #e6f6f6 10px );
+}
+.right-access-yukata-23 .yukata.wrap-set-content .title-set-content{
+    background: repeating-linear-gradient(-120deg, #4fc2c8, #4fc2c8 5px, #72ced3 5px, #72ced3 10px );
+}
+.right-access-yukata-23 .content-hairset-yukata .box-hairset-0yen {
+    border-bottom: 1px dashed #00a7b0;
+}
+.right-access-yukata-23 .wrap-spots-shop-fm-v2-yukata .title-big-spots {
+    background-image: url(../images/shop-fomal-v2/title-big-spots-sendai-yukata.svg);
+}
+.right-access-yukata-23 .column-list li .post-num {
+    border: 2px solid #00a7b0;
+    color: #00a7b0;
+    -webkit-box-shadow: 4px 4px 0 0 rgba(0, 167, 176, 1);
+    box-shadow: 4px 4px 0 0 rgba(0, 167, 176, 1);
+}
+.right-access-yukata-23 .column-list li {
+    border: 2px solid #00a7b0;
+}
+.right-access-yukata-23 .column-list li .img a{
+    border-bottom: 2px dashed #00a7b0;
+}
+.right-access-yukata-23 .column-list li .column-title {
+    color: #00a7b0;
+}
+.right-access-yukata-23 .column-list li .read:after{
+    border-color: transparent transparent #00a7b0 transparent;
+}
+.right-access-yukata-23 .wrap-blog-shop-fm-v2.yukata .sub-item-info-other .bg-item-inside {
+    background-color: #00a7b0;
+}
+.right-access-yukata-23 .wrap-blog-shop-fm-v2.yukata .sub-item-info-other .bg-item-outside {
+    background-color: #e4e8f9;
+}
+.right-access-yukata-23 .yukata.wrap-set-content .wrap-bt-set .bt-set.border-color-blue {
+    border: 1px solid #00a7b0;
+}
+.right-access-yukata-23 .wrap-grid-booking-access .wrap-btn-v2 .btn-v2-01 {
+    background-color: #00a7b0;
+}
+.right-access-yukata-23 .wrap-access-to-shop-fm-v2 .list-access-shop .slick-prev:before,
+.right-access-yukata-23 .list-access-shop .slick-prev:before {
+    content: url(../images/shop-fomal-v2/prev-arrow-sendai-yukata.svg);
+}
+.right-access-yukata-23 .wrap-access-to-shop-fm-v2 .list-access-shop .slick-next:before,
+.right-access-yukata-23 .list-access-shop .slick-next:before {
+    content: url(../images/shop-fomal-v2/next-arrow-sendai-yukata.svg);
+}
+.sendai-parco2-yukata.wrap-new-main-banner-access .intro-store {
+    font-size: 12px;
+    max-width: 430px;
+}
+.sendai-parco2-yukata.wrap-new-main-banner-access .name-store {
+    font-size: 23px;
+    margin-bottom: 50px !important;
+}
+.sendai-parco2-yukata.wrap-new-main-banner-access .shop-name {
+    font-size: 56px;
+    margin-bottom: 30px;
+}
+.sendai-parco2-yukata.wrap-new-main-banner-access .text-area {
+    font-size: 28px;
+    margin-bottom: 22px;
+}
+.right-access-yukata-23 .des-intro-wargo-yukata{
+    font-weight: 500;
+}
+.right-access-yukata-23 .des-intro-wargo-bottom{
+    padding: 0 100px 0 30px;
+}
+.right-access-yukata-23 .wrap-intro-wargo-fm-v2{
+    margin-bottom: 60px;
+}
+.right-access-yukata-23 .wrap-title-big-spots{
+    padding: 0 145px;
+}
+.right-access-yukata-23 .yukata.wrap-set-content .wrap-bt-set .bt-set.border-color-blue{
+    font-weight: 600;
+}
+.right-access-yukata-23 .wrap-link-btn .box-link-btn .link-to-btn .link-name {
+    font-weight: 600;
+}
+.right-access-yukata-23 .wrap-booking-content{
+    margin-bottom: 80px;
+}
+.right-access-yukata-23 .list-step-num-yukata .bg-blue{
+    background-color: #d84d96;
+}
+/*Sapporo Yukata*/
+.right-access-yukata-21 .color-ginza-yukata,
+.right-access-yukata-21 .text-blue,
+.right-access-yukata-21 .wrap-access-to-shop-fm-v2-yukata .list-access-shop .num-item,
+.right-access-yukata-21 .wrap-spots-shop-fm-v2-yukata .title-small-spots,
+.right-access-yukata-21 .wrap-spots-shop-fm-v2-yukata .title-big-spots,
+.right-access-yukata-21 .slider-ranking-yukata .widget-list-product-highend ul.list li .wrap-price .price,
+.right-access-yukata-21 .slider-ranking-yukata .widget-list-product-highend ul.list li .wrap-price .price .currency,
+.right-access-yukata-21 .slider-ranking-yukata .widget-list-product-highend ul.list li .wrap-price .price .tax,
+.right-access-yukata-21 .wrap-google-map-fm-v2-yukata .jusho-color,
+.right-access-yukata-21 .plan-info .price,
+.right-access-yukata-21 .plan-info .wrap-btn a,
+.right-access-yukata-21 .box-hairset-0yen .title-main,
+.right-access-yukata-21 .box-hairset-0yen .text,
+.right-access-yukata-21 .box-sub-list-hairset .item .text,
+.right-access-yukata-21 .wrap-hairset-yukata .wrap-btn-v2 .btn-v2 a,
+.right-access-yukata-21 .wrap-hairset-yukata .wrap-btn-v2 .btn-v2-reserve
+{
+    color: #535fa3;
+}
+.right-access-yukata-21 .wrap-btn-v2 .btn-v2-01.bg-ginza-yukata,
+.right-access-yukata-21 .bg-ginza-yukata,
+.right-access-yukata-21 .wrap-btn-v2-other .bg-blue,
+.right-access-yukata-21 .more-list-ginza-yukata .more-info,
+.right-access-yukata-21 .wrap-review-thankyou-yukata .pd-review .link-more,
+.right-access-yukata-21 .wrap-top-plan-circle-yukata-second .wrap-circle-top-plan,
+.right-access-yukata-21 .wrap-addess-gg-map-yukata .text-addess-map,
+.right-access-yukata-21 .wrap-hairset-yukata:before,
+.right-access-yukata-21 .wrap-hairset-yukata:after,
+.right-access-yukata-21 .wrap-hairset-yukata .wrap-btn-v2 .btn-v2 .icon-arrow-r-link,
+.right-access-yukata-21 .wrap-hairset-yukata .wrap-btn-v2 .btn-v2 .icon-arrow-r-link:after,
+.right-access-yukata-21 .wrap-content-howto-reserve.yukata .btn-step-01,
+.right-access-yukata-21 .btn-v2-sapporo-yukata{
+    background-color: #535fa3;
+}
+.right-access-yukata-21 .pattern.ginza-honten.yukata:after,
+.right-access-yukata-21 .wrap-hairset-yukata .pattern.ginza-honten:after,
+.right-access-yukata-21 .wrap-btn-v2-other .pattern:after{
+    border-color: transparent transparent transparent #b3a7cf;
+}
+.right-access-yukata-21 .wrap-content-howto-reserve .pattern.ginza-honten.yukata:after{
+    border-color: transparent transparent transparent #f9cbe2;
+}
+.sapporo-yukata.wrap-new-main-banner-access article{
+    left: 0;
+    top: 0;
+    margin-left: 28px;
+    margin-top: 40px;
+}
+.sapporo-yukata.wrap-new-main-banner-access .intro-store{
+    max-width: 455px;
+    line-height: 1.7;
+    margin-top: 65px;
+}
+.right-access-yukata-21 .wrap-list-option-new-shop-yukata .items-option-detail-new {
+    background-color: #535fa3;
+}
+.right-access-yukata-21 .wrap-intro-hiyori-fm-v2,
+.right-access-yukata-21 .wrap-google-map-fm-v2-yukata .list-option-new-shop-second .items-option-detail-new {
+    border: 1px solid #535fa3;
+}
+.right-access-yukata-21 .wrap-google-map-fm-v2-yukata {
+    border: 1px solid #535fa3;
+    background-color: #e4e8f9;
+    margin-bottom: 80px;
+}
+.right-access-yukata-21 .wrap-rental-plan .plan-item{
+    margin-bottom: 100px;
+}
+.right-access-yukata-21 .wrap-list-info-r6-ginza-yukata .wrap-info-r6{
+    margin-bottom: 140px;
+}
+.right-access-yukata-21 .wrap-hairset-yukata{
+    margin-bottom: 80px;
+}
+.right-access-yukata-21 .wrap-spots-shop-fm-v2 .wrap-des-spots{
+    margin-bottom: 0;
+}
+.right-access-yukata-21.right-new-access-v2-yukata .column-list{
+    padding: 0;
+}
+.right-access-yukata-21 .wrap-blog-and-banner-plan .wrap-title-v2{
+    margin-bottom: 25px;
+}
+.right-access-yukata-21 .wrap-flow-delivery .group-step-flow.last{
+    background-image: none;
+    margin-bottom: 60px;
+}
+.right-access-yukata-21 .box-howto-reserve-yukata .wrap-btn-v2-other{
+    margin-bottom: 80px;
+}
+.right-access-yukata-21 .slider-ranking-yukata .widget-list-product-highend.more-items ul.list li .image{
+    background-image: -webkit-repeating-linear-gradient(left, #535fa3 0%, #535fa3 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(left, #535fa3 0%, #535fa3 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #535fa3 0%, #535fa3 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #535fa3 0%, #535fa3 50%, transparent 50%, transparent 100%);
+}
+.right-access-yukata-21 .plan-info .wrap-btn a,
+.right-access-yukata-21 .plan-info .show-less span {
+    border: 2px solid #535fa3;
+}
+.right-access-yukata-21 .box-sub-list-hairset .item .text {
+    border-left: 3px solid #535fa3;
+}
+.right-access-yukata-21 .wrap-spots-shop-fm-v2-yukata .pattern.ginza:before {
+    border-color: #535fa3 transparent transparent transparent;
+}
+.right-access-yukata-21 .wrap-shop-intro .intro-title:before,
+.right-access-yukata-21 .wrap-shop-intro .intro-title:after,
+.right-access-yukata-21 .plan-info .plan-name:before,
+.right-access-yukata-21 .plan-info .plan-name:after{
+    background: url(../../../../../images/new-kimono/access/flower-pt-sapporo-yukata.svg) no-repeat;
+    background-size: cover;
+}
+.right-access-yukata-21 .wrap-shop-intro .intro-title:before{
+    left: -45px;
+}
+.right-access-yukata-21 .wrap-shop-intro .intro-title:after{
+    right: -45px;
+}
+.right-access-yukata-21 .plan-info .show-less span:before {
+    border-right: 2px solid #535fa3;
+    border-bottom: 2px solid #535fa3;
+}
+.right-access-yukata-21 .wrap-hairset-yukata .content-hairset-yukata,
+.right-access-yukata-21 .wrap-spots-shop-fm-v2-yukata {
+    background: -o-repeating-linear-gradient(210deg, #e4e8f9, #e4e8f9 5px, #e9edfa 5px, #e9edfa 10px );
+    background: repeating-linear-gradient(-120deg, #e4e8f9, #e4e8f9 5px, #e9edfa 5px, #e9edfa 10px );
+}
+.right-access-yukata-21 .yukata.wrap-set-content .title-set-content{
+    background: -o-repeating-linear-gradient(210deg, #8891c0, #8891c0 5px, #a0a7cd 5px, #a0a7cd 10px );
+    background: repeating-linear-gradient(-120deg, #8891c0, #8891c0 5px, #a0a7cd 5px, #a0a7cd 10px );
+}
+.right-access-yukata-21 .content-hairset-yukata .box-hairset-0yen {
+    border-bottom: 1px dashed #535fa3;
+}
+.right-access-yukata-21 .wrap-blog-shop-fm-v2.yukata .sub-item-info-other .bg-item-inside {
+    background-color: #535fa3;
+}
+.right-access-yukata-21 .wrap-blog-shop-fm-v2.yukata .sub-item-info-other .bg-item-outside{
+    background-color: #e4e8f9;
+}
+.right-access-yukata-21 .wrap-blog-shop-fm-v2.yukata .sub-item-info-other .bg-item-inside a{
+    color: #fff;
+}
+.right-access-yukata-21 .wrap-google-map-fm-v2 .wrap-btn-v2-map .btn-v2{
+    background-color: #799b9b;
+    width: 58%;
+}
+.right-access-yukata-21 .box-r6 .feature .title-feature{
+    letter-spacing: 2px;
+}
+.right-access-yukata-21 .column-list li .post-num {
+    border: 2px solid #535fa3;
+    color: #535fa3;
+    -webkit-box-shadow: 4px 4px 0 0 #535fa3;
+    box-shadow: 4px 4px 0 0 #535fa3;
+}
+.right-access-yukata-21 .column-list li {
+    border: 2px solid #535fa3;
+}
+.right-access-yukata-21 .column-list li .img a{
+    border-bottom: 2px dashed #535fa3;
+}
+.right-access-yukata-21 .column-list li .column-title {
+    color: #535fa3;
+}
+.right-access-yukata-21 .column-list li .read:after{
+    border-color: transparent transparent #535fa3 transparent;
+}
+.right-access-yukata-21  .wrap-spots-shop-fm-v2-yukata .title-big-spots {
+    background-image: url(../images/shop-fomal-v2/title-big-spots-sapporo-yukata.svg);
+    font-size: 22px;
+}
+.right-access-yukata-21 .wrap-access-to-shop-fm-v2 .list-access-shop .slick-prev:before,
+.right-access-yukata-21 .list-access-shop .slick-prev:before{
+    content: url(../images/shop-fomal-v2/prev-arrow-sapporo-yukata.svg);
+}
+.right-access-yukata-21 .wrap-access-to-shop-fm-v2 .list-access-shop .slick-next:before,
+.right-access-yukata-21 .list-access-shop .slick-next:before{
+    content: url(../images/shop-fomal-v2/next-arrow-sapporo-yukata.svg);
+}
+.right-access-yukata-21 .wrap-spots-shop-fm-v2 .wrap-des-spots p{
+    margin-bottom: 15px;
+}
+.right-access-yukata-21 .box-spots-shop-fm-v2 ul.list-content-spots .item-content-spots .text-content-spots .title-text{
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.right-access-yukata-21 .box-spots-shop-fm-v2 ul.list-content-spots .item-content-spots .text-content-spots .des-text{
+    letter-spacing: 1px;
+}
+.right-access-yukata-21 .wrap-column-post .title{
+    margin-bottom: 60px;
+}
+.right-access-yukata-21 .yukata.wrap-set-content .wrap-bt-set .bt-set.border-color-blue{
+    border: 1px solid #535fa3;
+    padding: 10px;
+}
+.right-access-yukata-21 .wrap-set-content-fm-v2.yukata .wrap-women-icon .wrap-women{
+    top: 0;
+}
+.right-access-yukata-21 .wrap-set-content-fm-v2.yukata .right-text-set{
+    margin-left: 0;
+    margin-top: 18px;
+}
+.right-access-yukata-21 .wrap-set-content-fm-v2.yukata .box-all-wrap-set{
+    margin-bottom: 0;
+}
+.right-access-yukata-21 .wrap-reservation-status-fm-v2.yukata .wrap-grid-booking-inner .paged #page-next:before{
+    border-left: 11px solid #535fa3;
+}
+.right-access-yukata-21 .wrap-reservation-status-fm-v2.yukata .wrap-grid-booking-inner .paged #page-pre:before {
+    border-right: 11px solid #535fa3;
+}
+.right-access-yukata-21 .wrap-reservation-status-fm-v2.ginza-honten .wrap-btn-v2{
+    margin-bottom: 100px !important;
+}
+.sapporo-yukata.wrap-new-main-banner-access .name-store{
+    color: #fdbccd;
+    margin-bottom: 40px !important;
+}
+.sapporo-yukata.wrap-new-main-banner-access .text-area{
+    background-color: #feffa7;
+    padding: 3px 8px;
+}
+.sapporo-yukata.wrap-new-main-banner-access .shop-name{
+    margin-bottom: 20px;
+}
+.right-access-yukata-21 .wrap-intro-wargo-fm-v2-yukata .wrap-des-intro-wargo{
+    padding: 0 28px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.right-access-yukata-21 .wrap-intro-wargo-fm-v2{
+    margin-bottom: 20px;
+}
+.right-access-yukata-21 .wrap-sidebar-products-pr-fm-v2.yukata .wrap-title-v2{
+    margin-bottom: 20px;
+}
+.right-access-yukata-21 .wrap-sidebar-products-pr-fm-v2 .wrap-btn-v2-ginza{
+    margin-bottom: 80px;
+}
+.right-access-yukata-21 .wrap-plans-shop-fm-v2-yukata{
+    margin-bottom: 20px;
+}
+.list-option-new-other .items-option-detail-new{
+    width: calc(100% * 1/4);
+    margin-bottom: 10px;
+}
+.wrap-option-detail-other .textbox-option-new-other{
+    width: 125px;
+    margin-right: 10px;
+}
+.right-access-yukata-23 .wrap-google-map-fm-v2-yukata .list-option-new-shop-second .items-option-other-first:first-child{
+    background-color: #fff;
+    border: 1px solid #00a7b0;
+}
+.right-access-yukata-21 .wrap-google-map-fm-v2-yukata .list-option-new-shop-second .items-option-other-first:first-child{
+    background-color: #fff;
+    border: 1px solid #535fa3;
+}
+.wrap-title-v2{
+    margin-bottom: 20px;
+}
+.wrap-title-v2 .wrap-text-title{
+    margin-left: 10px;
+}
+.wrap-title-v2 .des-sm-title{
+    letter-spacing: 0 !important;
+}

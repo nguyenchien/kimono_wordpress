@@ -1,0 +1,164 @@
+/*--GRID BOOKING--*/
+section.block-viewbooking-top-page #choose-shop {
+    background: #1e88a8;
+}
+section.block-viewbooking-top-page #choose-shop li.active label,
+section.block-viewbooking-top-page #choose-shop li:hover label {
+    background: rgba(255, 56, 125, 0.8) !important;
+}
+section.block-viewbooking-top-page #choose-shop li.shop-1,
+section.block-viewbooking-top-page #choose-shop li.shop-1.active,
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-1,
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-1.active{
+	background-position: right -4686px;
+}
+section.block-viewbooking-top-page #choose-shop li.shop-2,
+section.block-viewbooking-top-page #choose-shop li.shop-2.active,
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-2,
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-2.active{
+	background-position: right -4767px;
+}
+section.block-viewbooking-top-page #choose-shop li.shop-3,
+section.block-viewbooking-top-page #choose-shop li.shop-3.active,
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-3,
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-3.active{
+	background-position: right -4848px;
+}
+section.block-viewbooking-top-page #choose-shop li.shop-4,
+section.block-viewbooking-top-page #choose-shop li.shop-4.active,
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-4,
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-4.active{
+	background-position: right -4928px;
+}
+section.block-viewbooking-top-page #choose-shop li.shop-5,
+section.block-viewbooking-top-page #choose-shop li.shop-5.active,
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-5,
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-5.active{
+	background-position: right -4606px;
+}
+section.block-viewbooking-top-page #choose-shop li.shop-6,
+section.block-viewbooking-top-page #choose-shop li.shop-6.active,
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-6,
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-6.active{
+	background-position: right -5017px;
+}
+section.block-viewbooking-top-page #choose-shop li.shop-7,
+section.block-viewbooking-top-page #choose-shop li.shop-7.active,
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-7,
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-7.active{
+	background-position: right -5671px;
+}
+section.block-viewbooking-top-page #choose-shop li.shop-8,
+section.block-viewbooking-top-page #choose-shop li.shop-8.active,
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-8,
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-8.active{
+	background-position: right -5920px;
+}
+section.block-viewbooking-top-page #choose-shop li.shop-9,
+section.block-viewbooking-top-page #choose-shop li.shop-9.active,
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-9,
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-9.active{
+    background-position: right -6578px;
+}
+section.block-viewbooking-top-page #choose-shop li.shop-10,
+section.block-viewbooking-top-page #choose-shop li.shop-10.active,
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-10,
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-10.active{
+    background-position: right -6907px;
+}
+section.block-viewbooking-top-page #choose-shop li.shop-11,
+section.block-viewbooking-top-page #choose-shop li.shop-11.active,
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-11,
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-11.active{
+    background-position: right -7112px;
+}
+#booking .change-shop-tab .shop-tab ul.choose-shop li.active,
+#booking .change-shop-tab .shop-tab ul.choose-shop li:hover {
+	background-color: #13345e;
+}
+#booking .change-shop-tab .shop-tab-choose{
+	background-color: #13345e;
+}
+@media (max-width:767px){
+	section.block-viewbooking-top-page #choose-shop {
+		/*background: #f1e5f0;*/
+		background: rgba(0, 51, 102, 0.7)
+	}
+	.section-booking-top-page ul#choose-shop li.shop-1,
+	.section-booking-top-page ul#choose-shop li.shop-2,
+	.section-booking-top-page ul#choose-shop li.shop-3,
+	.section-booking-top-page ul#choose-shop li.shop-4,
+	.section-booking-top-page ul#choose-shop li.shop-5,
+	.section-booking-top-page ul#choose-shop li.shop-6,
+    .section-booking-top-page ul#choose-shop li.shop-7,
+    .section-booking-top-page ul#choose-shop li.shop-8,
+    .section-booking-top-page ul#choose-shop li.shop-9,
+    .section-booking-top-page ul#choose-shop li.shop-10,
+    .section-booking-top-page ul#choose-shop li.shop-11{
+		background-image: url("../images/spriteme-sp.png") !important;
+		background-repeat: no-repeat !important;
+	}
+	.section-booking-top-page ul#choose-shop li.shop-1 {
+	    background-position: right -1618px;
+		background-size: 52px;
+	}
+	.section-booking-top-page ul#choose-shop li.shop-2 {
+	    background-position: right -1632px;
+		background-size: 50px;
+	}
+	.section-booking-top-page ul#choose-shop li.shop-3 {
+	    background-position: right -1504px;
+		background-size: 42px;
+	}
+	.section-booking-top-page ul#choose-shop li.shop-4 {
+	    background-position: right -1573px;
+		background-size: 46px;
+	}
+	.section-booking-top-page ul#choose-shop li.shop-5 {
+		background-position: right -1171px;
+		background-size: 40px;
+	}
+	.section-booking-top-page ul#choose-shop li.shop-6 {
+        background-position: right -2895px;
+        background-size: 20px;
+	}
+    .section-booking-top-page ul#choose-shop li.shop-7 {
+        background-position: right -5219px;
+        background-size: 40px;
+    }
+    .section-booking-top-page ul#choose-shop li.shop-8 {
+        background-position: right -6754px;
+        background-size: 28px;
+    }
+    .section-booking-top-page ul#choose-shop li.shop-9 {
+        background-position: right -4774px;
+        background-size: 30px;
+    }
+    .section-booking-top-page ul#choose-shop li.shop-10 {
+        background-position: right -8398px;
+        background-size: 36px;
+    }
+    .section-booking-top-page ul#choose-shop li.shop-11 {
+        background-position: right -9473px;
+        background-size: 40px;
+    }
+	.layout-kimono-sp .section-booking-top-page ul#choose-shop li label {
+		/*color: #003366;*/
+	}
+	.section-booking-top-page ul#choose-shop li.active label {
+		color: #fff;
+	}
+	.section-booking-top-page ul#choose-shop li.shop-1.active label,
+    .section-booking-top-page ul#choose-shop li.shop-2.active label,
+    .section-booking-top-page ul#choose-shop li.shop-3.active label,
+    .section-booking-top-page ul#choose-shop li.shop-4.active label,
+    .section-booking-top-page ul#choose-shop li.shop-5.active label,
+    .section-booking-top-page ul#choose-shop li.shop-6.active label,
+    .section-booking-top-page ul#choose-shop li.shop-7.active label,
+    .section-booking-top-page ul#choose-shop li.shop-8.active label,
+    .section-booking-top-page ul#choose-shop li.shop-9.active label,
+    .section-booking-top-page ul#choose-shop li.shop-10.active label,
+    .section-booking-top-page ul#choose-shop li.shop-11.active label{
+		background-color: #003366 !important;
+	}
+}

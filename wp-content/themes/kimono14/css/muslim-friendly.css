@@ -1,0 +1,202 @@
+.cont-friendly-page{
+    width:100%;
+}
+.section-top {
+    background: url('../../../../../images/bg-banner-muslim.png');
+}
+.border-line{
+    background: url('../../../../../images/border-line.png');
+    background-repeat: repeat-x;
+    height: 7px;
+    width:100%;
+}
+.section-top p,
+.cont-friendly-page .i-right p{
+    color: #2e0927;
+    font-family: "Times New Roman";
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.section-top img {
+    float: right;
+    padding-left: 7px;
+    width: 469px;
+    height: auto;
+}
+.section-top h1{
+    font-family: "Times New Roman";
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+    color: #2e0927;
+}
+.section-top h1 span{
+    display: block;
+    font-size: 35px;
+    line-height: 1.5;
+}
+.cont-friendly-page .content-friendly{
+    margin-bottom: 20px;
+}
+.cont-friendly-page .i-right p{
+    padding-top:15px;
+}
+.cont-friendly-page{
+    margin-top: 30px;
+}
+@media all and (max-width: 959px){
+    .layout-kimono-sp .main-content .container{
+        padding: 0 7px;
+        box-sizing: border-box;
+    }
+    .section-top img {
+        width: auto;
+        /*max-height: 180px;*/
+        /*margin: 5px 7px 0 0;*/
+    }
+}
+@media all and (max-width: 550px){
+    .cont-friendly-page .i-left,
+    .cont-friendly-page .paragraph4 .i-center{
+        width:100%;
+    }
+    .section-top img {
+        float: left;
+        width: 100%;
+        height: auto;
+        max-height: 100%;
+        padding: 0;
+        margin: 0 0 7px 0;
+        box-sizing: border-box;
+    }
+}
+@media all and (min-width: 551px) and(max-width: 767px){
+    .section-top img {
+        max-height: 190px;
+    }
+    .section-top h1{
+        font-size: 16px;
+    }
+    .section-top h1 span {
+        font-size: 32px;
+    }
+}
+@media all and (min-width: 551px){
+    .cont-friendly-page{
+        margin-top: 50px;
+    }
+    .section-top {
+        width: 100%;
+        display: flex;
+        display: -webkit-flex;
+        align-items: center;
+        background: url('../../../../../images/bg-banner-muslim.png');
+    }
+    .section-top div.text-h1{
+        float:left;
+        width:49%;
+        padding:0 5px;
+    }
+    .section-top h1{
+        font-size: 32px;
+        letter-spacing: 2px;
+    }
+    body.fr .section-top h1{
+        font-size: 31px;
+    }
+    .section-top p,
+    .cont-friendly-page .i-right p{
+        font-size: 20px;
+    }
+    .section-top h1 span{
+        line-height: 1.4;
+        font-size: 65px;
+    }
+    body.fr .section-top h1 span{
+        font-size: 50px;
+    }
+    .cont-friendly-page .content-friendly{
+        width: 100%;
+        display: flex;
+        display: -webkit-flex;
+        justify-content: space-between;
+        -webkit-align-content: space-between;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+    }
+    .cont-friendly-page .i-left{
+        width:33%;
+        float:left;
+    }
+    .cont-friendly-page .i-right{
+        width:63%;
+        float: right;
+    }
+    .cont-friendly-page .paragraph4 .i-center{
+        width: 80%;
+        margin: 0 auto;
+    }
+    div.paragraph4{
+        padding-top:20px;
+    }
+    .cont-friendly-page .content-friendly{
+        margin-bottom: 40px;
+    }
+}
+@media all and (max-width: 767px){
+    .section-top p,
+    .cont-friendly-page .i-right p{
+        font-size: 16px;
+    }
+    .section-top h1{
+        font-size: 3.1vw;
+    }
+    body.fr .section-top h1{
+        font-size: 2.9vw;
+    }
+    .section-top h1 span{
+        font-size: 5.3vw;
+    }
+    body.fr .section-top h1 span{
+        font-size: 5vw;
+    }
+    .section-top div.text-h1 {
+        width: 84%;
+    }
+}
+@media all and (max-width: 480px){
+    .section-top h1 span{
+        font-size: 45px;
+    }
+    body.fr .section-top h1 span{
+        font-size: 36px;
+    }
+    .section-top h1{
+        font-size: 24px;
+    }
+    body.fr .section-top h1{
+        font-size: 23px;
+    }
+    .section-top div.text-h1 {
+        width: 100%;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 959px){
+    .section-top p,
+    .cont-friendly-page .i-right p{
+        font-size: 18px;
+    }
+    .section-top h1 span{
+        font-size: 44px;
+    }
+    body.fr .section-top h1 span{
+        font-size: 36px;
+    }
+    .section-top h1{
+        font-size: 22px;
+    }
+    body.fr .section-top h1{
+        font-size: 21px;
+    }
+}

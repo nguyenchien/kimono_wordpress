@@ -1,0 +1,664 @@
+/* Begin: Common Style Lesson */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap-new-lesson .list-banner-shops,
+.wrap-new-lesson .list-menu-lesson,
+.wrap-new-lesson .box-description{
+    padding: 15px;
+}
+.wrap-new-lesson .list-shops{
+    margin: 10px 0 10px -5px;
+    flex-wrap: wrap;
+}
+.list-banner-shops .wrap-btn-reserve{
+    margin-top: 10px;
+}
+.wrap-new-lesson .list-shops li{
+    width: calc(100% * (1/2) - 5px);
+    margin: 0 0 5px 5px;
+}
+.wrap-new-lesson .list-menu-lesson{
+    margin-bottom: 20px;
+}
+.wrap-new-lesson .list-menu{
+    flex-wrap: wrap;
+    margin-left: -20px;
+}
+.wrap-new-lesson .list-menu li{
+    width: calc(50% - 20px);
+    min-height: 80px;
+    margin-left: 20px;
+    margin-bottom: -1px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #000;
+    border-width: 1px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrap-new-lesson .list-menu a{
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+.wrap-new-lesson .wrap-content-lesson{
+    flex-direction: column;
+}
+/* End: Common Style Lesson */
+.list-banner-shops p{
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.list-banner-shops .notice-shops{
+    color: red;
+}
+.box-infos-lesson .title{
+    position: relative;
+    background-color: #4E9387;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    margin-bottom: 17px;
+    letter-spacing: 5px;
+}
+.box-infos-lesson .title:after{
+    content: '';
+    position: absolute;
+    bottom: -16px;
+    left: 40%;
+    width: 0;
+    height: 0;
+    border-top: 18px solid #4E9387;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
+.box-infos-lesson .content{
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.box-infos-lesson{
+    margin-bottom: 50px;
+}
+.box-infos-lesson-04{
+    margin-bottom: 0;
+}
+.box-infos-lesson .brief{
+    font-size: 15px;
+    color: #3f3f3f;
+    line-height: 1.7;
+    letter-spacing: 1px;
+}
+.box-infos-lesson p .bottom-link{
+    display: block;
+    margin-top: 20px;
+    text-align: right;
+    color: #46a1d1;
+    font-size: 13px;
+}
+.wrap-new-lesson-home .btn-formal{
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: 4px;
+    padding: 12px;
+}
+.box-infos-lesson-01 .sub-title.sp{
+    display: flex;
+}
+.box-infos-lesson-01 .sub-title.pc{
+    display: none;
+}
+.box-infos-lesson-01 .sub-title{
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 10px 30px 10px;
+    margin-bottom: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(../images/bg-title-new-lesson-sp.png) no-repeat;
+    background-size: contain;
+    line-height: 1.3;
+    min-height: 120px;
+    flex-direction: column;
+    justify-content: center;
+}
+.box-infos-lesson-01 .item{
+    margin-bottom: 50px;
+}
+.box-infos-lesson-01 .text-small{
+    display: block;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.box-infos-lesson-02 .item,
+.box-infos-lesson-03 .item{
+    flex-direction: column;
+}
+.box-infos-lesson-02 .image,
+.box-infos-lesson-03 .image{
+    margin-bottom: 30px;
+}
+.box-infos-lesson .sub-tit{
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+.box-infos-lesson-02 .text-bold{
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+}
+.box-infos-lesson-03 .wrap-btn-reserve{
+    margin-top: 50px;
+}
+.box-infos-lesson-04 .title:after{
+    display: none;
+}
+.box-infos-lesson-04 .tbl-prices{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.box-infos-lesson-04 .tbl-prices th,
+.box-infos-lesson-04 .tbl-prices td{
+    padding: 7px 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 11px;
+}
+.box-infos-lesson-04 .tbl-prices th{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #d9e5e4;
+}
+.box-infos-lesson-04 .tbl-prices .red{
+    color: red;
+}
+.box-infos-lesson-04 .wrap-btn-reserve{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.box-infos-lesson-04 .btn-color-green{
+    background-color: #4e9387;
+    width: 80%;
+    display: inline-block;
+}
+.box-infos-lesson-04 .list-faq .item:not(:last-child){
+    border-bottom: 1px solid #191919;
+    padding-bottom: 35px;
+    margin-bottom: 40px;
+}
+.box-infos-lesson-04 .image-text{
+    margin-bottom: 40px;
+}
+.box-infos-lesson-04 .image-text img{
+    width: 100%;
+}
+.box-infos-lesson-04 .sub-title{
+    align-items: center;
+}
+.box-infos-lesson-04 .sub-title .image{
+    width: 30%;
+    margin-right: 20px;
+}
+.box-infos-lesson-04 .sub-title .image img{
+    width: 100%;
+}
+.box-infos-lesson-04 .sub-title .text{
+    flex: 1;
+    font-size: 22px;
+    font-weight: bold;
+    color: #4c4c4c;
+    text-align: center;
+}
+/*Shoplist*/
+.lesson-title{
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #4E9387;
+    width: 100%;
+}
+.wrap-shoplist{
+    margin: 30px 0;
+}
+.wrap-shoplist .group-area{
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.group-area .area-name{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.odd .area-name{
+    color: #F7A78B;
+}
+.odd .shop-list .shop-name{
+    background-color: rgba(247, 167, 139, 0.2);
+}
+.even .area-name{
+    color: #34A2B0;
+}
+.even .shop-list .shop-name{
+    background-color: rgba(52, 162, 176, 0.2);
+}
+.group-area .shop-list{
+    margin-left: 20px;
+}
+.group-area .shop-list > li{
+    margin-bottom: 2px;
+}
+.group-area .shop-list .shop-name{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    line-height: 1;
+    position: relative;
+}
+.shop-name:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 5px 0 5px;
+}
+.active .shop-name:after{
+    transform: translate(-50%, -50%) rotate(-180deg);
+}
+.odd .shop-name:after{
+    border-color: #F7A78B transparent transparent transparent;
+}
+.even .shop-name:after{
+    border-color: #34A2B0 transparent transparent transparent;
+}
+.wrap-shop-content{
+    display: none;
+}
+.shop-list li .shop-content{
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.shop-content .shop-img{
+    width: 30%;
+    margin-right: 10px;
+}
+.shop-content .shop-desc{
+    flex: 1 1 auto;
+}
+.shop-desc p{
+    font-size: 13px;
+}
+
+/*Lesson FAQ*/
+.lesson-group-faq{
+    padding: 0 10px;
+}
+.des-top-faq{
+    padding: 10px;
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+.wrap-lesson-group-faq .lesson-group-faq{
+    margin-bottom: 20px;
+}
+.wrap-lesson-group-faq .lesson-question,
+.wrap-lesson-group-faq .lesson-anwers{
+    padding: 7px 10px;
+}
+.wrap-lesson-group-faq .lesson-question{
+    background-color: #4E9387;
+    color: #fff;
+}
+.wrap-lesson-group-faq .lesson-anwers{
+    background-color: #fff;
+    color: #4E9387;
+}
+.wrap-lesson-group-faq ul li.icon-q,
+.wrap-lesson-group-faq ul li.question,
+.wrap-lesson-group-faq ul li.icon-a,
+.wrap-lesson-group-faq ul li.anwer{
+    float: left;
+}
+.wrap-lesson-group-faq ul li.icon-q,
+.wrap-lesson-group-faq ul li.icon-a{
+    width: auto;
+    margin-right: 10px;
+}
+.wrap-lesson-group-faq ul li.question,
+.wrap-lesson-group-faq ul li.anwer{
+    width: 89%;
+}
+.wrap-lesson-group-faq ul li.question{
+    font-size: 14px;
+    color: #fff;
+}
+.wrap-lesson-group-faq ul li.anwer{
+    font-size: 11px;
+    color: #639589;
+}
+.wrap-lesson-group-faq ul li.icon-q span,
+.wrap-lesson-group-faq ul li.icon-a span{
+    width: 100%;
+    height: 100%;
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+.wrap-lesson-group-faq ul li.icon-q{
+    background-color: #fff;
+    color: #4E9387;
+}
+.wrap-lesson-group-faq ul li.icon-a{
+    background-color: #4E9387;
+    color: #fff;
+}
+.wrap-ctm-voice{
+    margin-bottom: 40px;
+}
+.wrap-ctm-voice .list-ctm-voice{
+    padding: 0 10px;
+}
+.list-ctm-voice li{
+    margin-bottom: 20px;
+}
+.list-ctm-voice li .voice-tit{
+    font-size: 11px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.list-ctm-voice li:nth-child(odd) .voice-tit{
+    background-color: rgba(247, 167, 139, 0.2);
+}
+.list-ctm-voice li:nth-child(even) .voice-tit{
+    background-color: rgba(52, 162, 176, 0.2);
+}
+.list-ctm-voice li p{
+    font-size: 10px;
+    line-height: 1.3;
+}
+.list-ctm-voice li .voice-desc{
+    margin-bottom: 10px
+}
+.list-ctm-voice li .ctm-name{
+    text-align: right;
+}
+
+@media (min-width: 750px){
+    /* Begin: Common Style Lesson */
+    .wrap-new-lesson .content-page-lesson{
+        flex: 1;
+    }
+    .wrap-new-lesson .list-banner-shops{
+        margin-bottom: 20px;
+    }
+    .wrap-new-lesson .list-shops li {
+        width: calc(100% * (1/4) - 5px);
+    }
+    .wrap-new-lesson .list-menu-lesson{
+        width: 250px;
+        padding: 0 0 0 10px;
+    }
+    .wrap-new-lesson .menu-lesson{
+        margin-bottom: 20px;
+    }
+    .wrap-new-lesson .list-menu{
+        margin-left: 0;
+    }
+    .wrap-new-lesson .list-menu li{
+        width: 100%;
+        min-height: inherit;
+        margin-left: 0;
+    }
+    .wrap-new-lesson .list-menu a{
+        padding: 27px 0;
+    }
+    .wrap-new-lesson .wrap-content-lesson{
+        flex-direction: row-reverse;
+    }
+    /* End: Common Style Lesson */
+    .list-banner-shops p{
+        text-align: center;
+        font-size: 18px;
+    }
+    .list-banner-shops .wrap-btn-reserve{
+        margin-top: 20px;
+    }
+    .wrap-new-lesson-home .wrap-btn-reserve{
+        text-align: center;
+    }
+    .wrap-new-lesson-home .btn-formal{
+        width: 75%;
+        font-size: 18px;
+    }
+    .box-infos-lesson{
+        margin-bottom: 70px;
+    }
+    .box-infos-lesson .title{
+        margin-bottom: 40px;
+    }
+    .box-infos-lesson-01 .sub-title{
+        background-size: 100% 100%;
+        min-height: 130px;
+    }
+    .box-infos-lesson-02 .title,
+    .box-infos-lesson-03 .title{
+        background: url(../images/bg-title-new-lesson-pc.png) no-repeat;
+        background-size: 100% 100%;
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    .box-infos-lesson-02 .title:after,
+    .box-infos-lesson-03 .title:after{
+        display: none;
+    }
+    .box-infos-lesson .sub-tit{
+        font-size: 25px;
+    }
+    .box-infos-lesson .content{
+        padding: 0;
+    }
+    /*.box-infos-lesson-01 .sub-title.sp{*/
+        /*display: none;*/
+    /*}*/
+    /*.box-infos-lesson-01 .sub-title.pc{*/
+        /*display: block;*/
+    /*}*/
+    /*.box-infos-lesson-01 .sub-title{*/
+        /*line-height: normal;*/
+        /*font-size: inherit;*/
+        /*color: #000;*/
+        /*min-height: inherit;*/
+        /*padding: 0;*/
+        /*margin: 0;*/
+        /*background: none;*/
+    /*}*/
+    .box-infos-lesson-01 .text-small{
+        padding: 0 20px;
+        text-align: center;
+    }
+    .box-infos-lesson-01 .sub-title img{
+        width: 100%;
+    }
+    .box-infos-lesson-01 .list-items{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box-infos-lesson-01 .item{
+        width: 50%;
+        margin-bottom: 0;
+        background: url(../images/bg-dotted-lesson.png) repeat-y right 2px;
+        background-size: 5px;
+    }
+    .box-infos-lesson-01 .item:nth-child(2n){
+        background: none;
+    }
+    .box-infos-lesson-01 .brief{
+        padding: 5px 20px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        font-size: 15px;
+    }
+    .box-infos-lesson-01 .brief-01,
+    .box-infos-lesson-01 .brief-02{
+        padding-bottom: 20px;
+    }
+    .box-infos-lesson-01 .brief-03,
+    .box-infos-lesson-01 .brief-04{
+        padding-bottom: 0;
+    }
+    .box-infos-lesson-01 .list-items{
+        margin-bottom: 50px;
+    }
+    .box-infos-lesson-02 .item,
+    .box-infos-lesson-03 .item{
+        flex-direction: row;
+    }
+    .box-infos-lesson-02 .image,
+    .box-infos-lesson-03 .image{
+        display: flex;
+        width: 143px;
+        margin: 0 20px 0 0;
+    }
+    .box-infos-lesson-02 .desc,
+    .box-infos-lesson-03 .desc{
+        flex: 1;
+    }
+    .box-infos-lesson-02 .brief,
+    .box-infos-lesson-03 .brief{
+        line-height: 2;
+    }
+    .box-infos-lesson p .bottom-link{
+        font-size: 16px;
+    }
+    .box-infos-lesson-02 .text-bold{
+        font-size: 27px;
+    }
+    .box-infos-lesson-04 .tbl-prices.pc{
+        display: inline-table;
+    }
+    .box-infos-lesson-04 .tbl-prices th,
+    .box-infos-lesson-04 .tbl-prices td{
+        padding: 7px 12px;
+        font-size: 14px;
+    }
+    .box-infos-lesson-04 .tbl-prices th{
+        font-size: 16px;
+        padding: 7px 20px;
+    }
+    .box-infos-lesson-04 .wrap-btn-reserve{
+        margin-bottom: 70px;
+    }
+    .box-infos-lesson-04 .btn-color-green{
+        width: 290px;
+    }
+    .box-infos-lesson-04 .list-faq{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    .box-infos-lesson-04 .list-faq .item{
+        width: calc(100% * (1/3));
+        border: 0;
+        margin: 0;
+        padding: 0
+    }
+    .box-infos-lesson-04 .list-faq .item:last-child{
+        margin: 0;
+        padding: 0
+    }
+    .box-infos-lesson-04 .list-faq .item .content{
+        background: url(../images/bg-dotted-lesson.png) repeat-y right 0px;
+        background-size: 4px;
+        height: 100%;
+        padding: 0 10px;
+    }
+    .box-infos-lesson-04 .list-faq .item:first-child .content{
+        padding-left: 0;
+    }
+    .box-infos-lesson-04 .list-faq .item:last-child .content{
+        background: none;
+        padding-right:0;
+    }
+    .box-infos-lesson-04 .sub-title{
+        margin-bottom: 30px;
+    }
+    .box-infos-lesson-04 .sub-title .image{
+        width: 100%;
+        margin: 0;
+        padding: 0 30px;
+    }
+    .box-infos-lesson-04 .content .text{
+        font-size: 17px;
+        font-weight: bold;
+        color: #4c4c4c;
+        margin-bottom: 20px;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    .box-infos-lesson-04 .brief{
+        font-size: 15px;
+    }
+    .box-infos-lesson-04 .box-faq{
+        margin-bottom: 70px;
+    }
+    /*Shoplist*/
+    .wrap-shoplist{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .wrap-shoplist .shoplist-title{
+        width: 100%;
+    }
+    .wrap-shoplist .col-left,
+    .wrap-shoplist .col-right{
+        width: calc(100% * 1/2 - 20px);
+    }
+    .group-area .area-name{
+        font-size: 18px;
+    }
+    .group-area .shop-list .shop-name{
+        cursor: pointer;
+        font-size: 16px;
+    }
+    .group-area .shop-list .shop-name:hover{
+        opacity: 0.7;
+    }
+    .wrap-lesson-group-faq ul li.question{
+        font-size: 20px;
+    }
+    .wrap-lesson-group-faq ul li.anwer{
+        font-size: 16px;
+    }
+    .list-ctm-voice li .voice-tit{
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    .list-ctm-voice li p{
+        font-size: 15px;
+    }
+}

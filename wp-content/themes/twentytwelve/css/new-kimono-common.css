@@ -1,0 +1,315 @@
+html{
+	font-size: 62.5%;
+}
+.container-box{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	font-size: 1.4rem;
+}
+.container-fluid{
+	width: 100%;
+}
+.row{
+	padding: 0 7px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.flexbox{
+	display: -webkit-box;
+	display: flex;
+	display: -ms-flexbox;
+}
+.align-items-center{
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-align-items: center;
+}
+.align-items-start{
+	-webkit-box-align: flex-start;
+	-ms-flex-align: flex-start;
+	align-items: flex-start;
+	-webkit-align-items: flex-start;
+}
+.align-items-end{
+	-webkit-box-align: flex-end;
+	-ms-flex-align: flex-end;
+	align-items: flex-end;
+	-webkit-align-items: flex-end;
+}
+.justify-content-center{
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: center;
+	-webkit-justify-content: center;
+}
+.justify-content-between{
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+}
+.text-left{
+	text-align: left;
+}
+.text-center{
+	text-align: center;
+}
+.text-right{
+	text-align: right;
+}
+.margin-bt10{
+	margin-bottom: 10px;
+}
+.margin-bt20{
+	margin-bottom: 20px;
+}
+.margin-bt30{
+	margin-bottom: 30px;
+}
+.btn-formal{
+	width: 100%;
+	font-size: 18px;
+	color: #fff;
+	padding: 20px 25px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	line-height:1;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+}
+.btn-formal.store{
+	margin-bottom: 20px;
+}
+.btn-formal.store.disabled{
+	pointer-events: none;
+	opacity: 0.7;
+}
+.btn-formal.delivery.disabled{
+	pointer-events: none;
+	opacity: 0.7;
+}
+.btn-color-red{
+	background-color: #e50011;
+}
+.btn-color-pink:not(:disabled){
+	background-color: #d2003e;
+}
+.btn-color-grey{
+	background-color: #a8a8a8;
+}
+.title-general{
+	background-color: #4e0037;
+	color: #fcfbe0;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: normal;
+	padding: 4px 10px 8px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	font-family: Georgia,serif;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+.title-general-icon{
+	justify-content: flex-start;
+	margin-bottom: 30px;
+}
+.title-general-icon .icon{
+	font-size: 25px;
+	align-items: center;
+}
+.title-general .sub-text-title{
+	-ms-flex-item-align: end;
+	align-self: flex-end;
+	padding-bottom: 6px;
+	font-size: 10px;
+	font-weight: bold;
+	font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", Arial, "Hiragino Kaku Gothic Pro", "Lucida Grande", Verdana, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.title-general .text-title-general{
+	position: relative;
+	top: 3px;
+}
+.title-list,
+.title-step-booking{
+	font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", Arial, "Hiragino Kaku Gothic Pro", "Lucida Grande", Verdana, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	padding: 10px;
+	font-size: 15px;
+	color: #fff;
+}
+.title-list .sub-title-list{
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	text-align: left;
+}
+.title-list .icon-toggle-filter-sidebar{
+	position: relative;
+	top: 2px;
+}
+.title-step-booking{
+	margin-bottom: 20px;
+	justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+}
+.title-general .icon-title-general,
+.title-step-booking .icon-title-step-booking{
+	margin-right: 15px;
+	display: -webkit-box;
+	display: flex;
+	display: -ms-flexbox;
+}
+.title-step-booking .icon-title-step-booking{
+	font-size: 24px;
+}
+.sub-descript-title-general{
+	font-size: 10px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.toggle-icon-arrow:after{
+	display: inline-block;
+	position: relative;
+	content: "";
+	right: 0;
+	margin-left: 4px;
+	width: 8px;
+	height: 8px;
+	border-right: 3px solid rgba(78,0,55,1);
+	border-bottom: 3px solid rgba(78,0,55,1);
+	cursor: pointer;
+}
+.title-general .toggle-icon-arrow:after{
+	border-right: 3px solid rgba(253,252,225,1);
+	border-bottom: 3px solid rgba(253,252,225,1);
+	margin-left: 15px;
+	top: 0;
+	-webkit-transform: rotate(-135deg);
+	-ms-transform: rotate(-135deg);
+	transform: rotate(-135deg);
+}
+.shoplist-tt{
+	max-width: 85px !important;
+	padding-bottom: 0 !important;
+}
+.hidden-sidebar, .pc{
+	display: none;
+}
+/*=====CONTENT COLUMN===*/
+.wrap-content-v2{
+	margin-bottom: 20px;
+}
+.wrap-column-content{
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.left-column-content{
+	-webkit-box-flex: 2;
+	-ms-flex: 2;
+	flex: 2;
+}
+.right-column-content,
+.wrap-boths-column .left-column{
+	width: 100%;
+}
+.wrap-boths-column{
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.wrap-boths-column .right-column{
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+.title-general-new-style .toggle-icon-arrow-02 {
+	background-color: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-item-align: center;
+	align-self: center;
+	padding: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.title-general-new-style .toggle-icon-arrow-02:after {
+	width: 0;
+	height: 0;
+	margin: 0;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-bottom: 7px solid #464646;
+	-webkit-transform: none;
+	-ms-transform: none;
+	transform: none;
+}
+@media (min-width: 375px) and (max-width: 767px){
+	.main-content .breadcrumbs-kimono {
+		width: 100%;
+	}
+}
+@media (max-width: 767px){
+    .left-column-content,
+    .wrap-boths-column .right-column{
+        width: 100%;
+    }
+}
+@media (min-width: 750px) {
+	.hidden-sidebar,
+	.pc{
+		display: block;
+	}
+	.sp{
+		display: none;
+	}
+	.container-box {
+		font-size: 1.3rem;
+	}
+	.title-list{
+		font-size: 25px;
+	}
+	.title-step-booking{
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+	.wrap-column-content,
+	.wrap-boths-column{
+		-ms-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+	}
+	.right-column-content, .wrap-boths-column .left-column {
+		width: 250px;
+	}
+	.wrap-boths-column .right-column-list{
+		margin-left: 20px;
+	}
+	.wrap-boths-column .right-column .intro-top-general {
+		margin: 50px 10px 10px 10px;
+		padding: 25px 0 10px;
+		border-top: 1px solid;
+	}
+	.intro-top-general .title-intro-top {
+		font-size: 17px;
+		margin: 0 0 10px 2px;
+	}
+	.intro-top-general .content-intro-top {
+		font-size: 12px;
+	}
+}

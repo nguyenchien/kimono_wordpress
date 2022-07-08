@@ -1,0 +1,119 @@
+.layout-kimono-sp .main-content .container {
+    width: 960px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.news h2{
+	font-size: 20px;
+}
+.news .image{
+	float: left;
+	width: 130px;
+	margin-right: 15px;
+}
+
+.news-item{
+	margin-bottom: 30px;
+	display: inline-block;
+	width: 100%;
+}
+.news .news-item span.date{
+	font-size: 16px;
+	color: #8B8B8B;
+}
+.news .news-item h2{
+	font-size: 20px;
+	font-weight: bold;
+}
+.news .news-item p{
+	font-size: 14px;
+}
+.news-paging{
+	width: 100%;
+	display: inline-block;
+	margin:  0 0 10px 0;
+}
+.news-message{
+	margin: 5px 0 15px 0;
+}
+.news-message article{
+	border: none;
+}
+.news-message a{
+	color: #733d6d;
+}
+.topp-box-news.news{
+	margin-top: 15px;
+}
+div.block-title-top-page-title h2 {
+    font-family: 'Meiryo', arial;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+}
+div.block-title-top-page-title{
+    background: #733d6d;
+	height: 50px;
+	line-height: 50px;
+	padding-left:55px;
+}
+div.block-title-top-page-title.news{
+	background-color: #733d6d;
+	background-image: url(/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png);
+	background-position: 10px -580px;
+	background-repeat: no-repeat;
+	padding-left:58px;
+}
+div.block-title-top-page-title.news span.title a,
+div.block-title-top-page-title.news span.title{
+	font-size: 28px;
+	color: #FFF;
+}
+
+div.block-title-top-page-title h2 span.ja {
+    font-size: 18px;
+    margin-left: 6px;
+}
+.yukata-new div.block-title-top-page-title.news{
+	background-color: #003366;
+    border-left: none;
+}
+.topics-title-top-page-title{
+	background-color: #003366;
+    border-left: none;
+}
+.news-box-content h2{
+	  display: none; 
+}
+body.archive .news-box-content h2{
+	display: block;
+}
+.layout-kimono-sp .main-content .container{
+	width: 100%;
+}
+@media (max-width: 959px){
+	.news{
+		padding: 0 7px;
+	}
+}
+@media (max-width: 959px) and (min-width: 767px){
+	div.block-title-top-page-title.news span.title{
+		font-size: 22px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.layout-kimono-sp .main-content .container {
+		width: 100%;
+	}
+	div.block-title-top-page-title.news{
+		background-image: url(../images/spriteme-sp.png);
+		background-position: 5px -991px;
+		background-size: 40px;
+	}
+	.news-box-content h2{
+		display: block;
+	}
+	div.block-title-top-page-title.news span.title{
+		display: none;
+	}
+}

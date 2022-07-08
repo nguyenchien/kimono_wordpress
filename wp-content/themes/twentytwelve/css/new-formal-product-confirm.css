@@ -1,0 +1,997 @@
+.box-info-confirm{
+	padding: 0 20px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.wrap-formal-product-confirm .list-confirm-info {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+.title-general .text-tstep-booking{
+	font-weight: bold;
+}
+.wrap-formal-product-confirm .list-confirm-info .item-confirm-info{
+	border-bottom: 1px solid #919191;
+	padding: 8px 0;
+}
+.wrap-formal-product-confirm .list-confirm-info li.item-confirm-info:first-child{
+	border-top: 1px solid #919191;
+}
+.applied-coupons.list-confirm-info + .list-confirm-info .item-confirm-info {
+    border-top: 0 !important;
+}
+.list-confirm-info .item-confirm-info .info-left{
+	font-size: 12px;
+	font-weight: bold;
+	width: 40%;
+}
+.list-confirm-info .item-confirm-info .info-right{
+	font-size: 13px;
+	width: 60%;
+	text-align: right;
+}
+.btn-change-confirm-general{
+	margin: 20px 0;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+}
+.btn-change-confirm{
+	background-color: #EAEAEA;
+	font-size: 12px;
+	padding: 5px 20px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	line-height: 1;
+}
+.btn-change-confirm-pc{
+	display: none;
+}
+.wrap-title-formal-confirm{
+	display: none;
+}
+.wrap-formal-product-confirm .wrap-info-formal-general{
+	margin-top: 20px;
+	color: #3D3D3D;
+}
+.wrap-info-formal-general .title-selected{
+	border-bottom: 1px solid #919191;
+	padding-bottom: 15px;
+	font-size: 13px;
+	margin-bottom: 20px;
+	line-height: 1;
+}
+.wrap-info-formal-general .wrap-info-formal .img-formal-confirm{
+	text-align: center;
+	width: 30%;
+}
+.wrap-info-formal-general .wrap-info-formal .img-formal-confirm .wrap-pic-confirm{
+	margin-bottom: 10px;
+	border: 1px solid #4E0037;
+}
+.box-info-confirm .wrap-info-formal-general .wrap-info-formal{
+	margin-top:  15px;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+.btn-change-img-confirm{
+	font-size: 11px;
+	display: block;
+}
+.list-confirm-info .item-total-price p{
+	line-height: 1;
+}
+.list-confirm-info .item-total-price .name-formal-confirm,
+.list-confirm-info .item-total-price .price-formal-confirm{
+	font-size: 11px;
+}
+.list-confirm-info .item-total-price .name-formal-confirm{
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+}
+.list-confirm-info .item-total-price:nth-child(3) .name-formal-confirm{
+	-webkit-box-flex: initial;
+	-ms-flex: initial;
+	flex: initial;
+	font-weight: bold;
+}
+.list-confirm-info .item-total-price .price-formal-confirm{
+	margin-left: 10px;
+}
+.wrap-info-formal .list-confirm-info .item-total-price,
+.item-total-price-double .item-double{
+	padding: 6px 0;
+}
+.wrap-info-formal .list-confirm-info .item-total-price-double{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+.wrap-formal-product-confirm .wrap-list-confirm-info{
+	padding-left: 10px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-flex:1;
+	-ms-flex:1;
+	flex:1;
+	width: 70%;
+}
+.wrap-info-formal .list-confirm-info .item-total-price-last{
+	margin-bottom: 14px;
+}
+.wrap-info-formal .list-confirm-info .item-total-price-border{
+	border-top: 1px solid #919191;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	padding: 15px 0px;
+}
+.wrap-info-formal .list-confirm-info .item-total-price-border:last-child{
+	padding: 8px 0 15px 0;
+	margin-top: 5px;
+	border-bottom: 1px solid #919191;
+	padding-bottom: 25px;
+}
+.list-confirm-price{
+	margin-bottom: 30px;
+}
+.reservation-total{
+	width: 100%;
+	align-items: flex-start;
+	-webkit-align-items: flex-start;
+}
+.takuhai-confirm-wrap .reservation-total{
+	padding-top: 5px;
+	margin-top: 40px;
+	border-top: 1px solid #919191;
+}
+.reservation-total .prices-wrapper{
+	width: 100%;
+}
+.coupon-input-wrapper, .points-input-wrapper {
+	margin: 0 0 20px;
+}
+.coupon-input-toggle-wrapper, .points-input-toggle-wrapper{
+	display: none;
+	margin-top: 10px;
+}
+.coupon-toggle-control, .points-toggle-control{
+	color: cornflowerblue;
+	font-weight: bold;
+	text-decoration: underline !important;
+}
+.reservation-total .name-formal-confirm{
+	/*margin-left: 30%;*/
+	font-size: 13px;
+	font-weight: bold;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.takuhai-confirm-wrap .reservation-total .name-formal-confirm{
+	margin: 0;
+}
+.takuhai-confirm-wrap .title-selected{
+	font-weight: bold;
+	font-size: 16px;
+	margin: 10px 0 20px 0 !important;
+}
+.takuhai-confirm-wrap .list-confirm-info .item-confirm-info{
+	justify-content: space-between;
+}
+.takuhai-confirm-wrap .list-confirm-info .item-confirm-info .info-left,
+.takuhai-confirm-wrap .list-confirm-info .item-confirm-info .info-right{
+	/*width: auto;*/
+}
+.takuhai-confirm-wrap .list-confirm-info .item-total-price .name-formal-confirm{
+	min-width: 100px;
+	flex: initial;
+}
+.takuhai-confirm-wrap .list-confirm-info .item-total-price p{
+	line-height: 1.3;
+}
+.reservation-total .price-formal-confirm{
+	color: #e50011;
+	font-weight: bold;
+	font-size: 15px;
+}
+.wrap-info-formal .reservation-total .price-final-confirm{
+	color: #E50011;
+	font-size: 17px;
+	line-height: 1;
+}
+.wrap-info-formal .reservation-total .name-formal-confirm-total{
+	font-size: 13px;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	font-weight: bold;
+}
+.list-confirm-info .item-total-price .name-formal-confirm-total{
+	font-size: 13px;
+}
+.list-confirm-info .item-total-price .price-final-confirm{
+	font-size: 17px;
+	color: #E50011;
+}
+
+/*  campaign fee formal */
+.wrap-early-fee-fm .name-formal-confirm,
+.wrap-early-fee-fm .price-formal-confirm{
+	font-size: 11px;
+}
+.wrap-early-fee-fm span.total_early_fee.red{
+	padding-right: 0;
+}
+.wrap-early-fee-fm .price-formal-confirm{
+	font-size: 13px;
+	font-weight: normal;
+}
+
+.wrap-form-formal{
+	border-bottom: 1px solid #919191;
+	padding-bottom: 25px;
+	margin-bottom: 30px;
+}
+.wrap-form-formal:after{
+	content: "";
+	display: block;
+}
+.wrap-form-formal .list-form-formal{
+	margin-top: 0px;
+	background-color: #EAEAEA;
+	width: 100%;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.wrap-form-formal-general .title-customer-info-confirm{
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 0;
+	margin-bottom: 10px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.wrap-form-formal .list-confirm-info .item-form-formal{
+	padding: 8px 0;
+}
+.wrap-form-formal .list-confirm-info .item-form-formal .form-element-left{
+	width: 40%;
+	font-size: 11px;
+}
+.wrap-form-formal .list-confirm-info .item-form-formal .form-element-right{
+	width: 60%;
+	font-size: 11px;
+	padding-left: 10px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.wrap-btn-confirm{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+.wrap-btn-confirm button{
+	border: none;
+	outline: none;
+}
+.btn-confirm-next{
+	margin-bottom: 20px;
+}
+.wrap-form-formal .list-confirm-info .item-form-formal .form-element-left {
+	font-weight: bold;
+}
+.list-confirm-info .item-total-price .name-formal-confirm-bold{
+	font-weight: bold;
+}
+/* Begin takuhai cart confirm*/
+.wrap-btn-confirm button{
+	margin-right: 2px;
+}
+.wrap-btn-confirm .cart-note{
+	color: #ff0000;
+}
+/* End takuhai cart confirm*/
+.errorSummary {
+	border: 1px solid;
+	color: red;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+.errorSummary li {
+	padding: 5px 0 5px 10px;
+}
+.reservation-total .price-item {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+.coupon_code, .points_input {
+	padding: 10px;
+	outline: none;
+	font-size: 11px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 120px;
+}
+.apply_coupon_btn, .redeem_points_btn {
+	padding: 10px;
+	background-color: cornflowerblue;
+	margin-left: 10px;
+    max-width: 200px;
+}
+.wrap-content-fm-howto .title-content-fm-howto {
+	display: flex;
+	align-items: center;
+	background-color: #e2e2e2;
+	padding: 0 6px;
+	height: 53px;
+	margin: 13px 0
+}
+
+.wrap-content-fm-howto .title-content-fm-howto h2 {
+	font-size: 13px;
+	margin-left: 7px
+}
+
+.wrap-content-fm-howto .title-content-fm-howto .number-title-fm-howto {
+	font-size: 17px;
+	width: 29px;
+	height: 29px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #5d5d5d;
+	color: #fff;
+	margin-left: 13px;
+	font-family: HiraKakuProN
+}
+
+.wrap-content-fm-howto .wrap-info-article-fm-howto {
+	border-left: 1px solid
+}
+
+.wrap-content-fm-howto .wrap-info-article-fm-howto .content-fm-howto {
+	display: flex;
+	padding: 15px 0 15px 25px;
+	box-sizing: border-box
+}
+
+.wrap-content-fm-howto .content-fm-howto .text-fm-howto {
+	padding: 15px 0 15px 0;
+	font-size: 12px;
+	line-height: 2;
+}
+.title-content-fm-howto .icon-formal-cancel,.title-content-fm-howto .icon-formal-contamination {
+	font-size: 30px;
+	text-align: center;
+	margin-left: 13px;
+	margin-bottom: -7px
+}
+
+.title-content-fm-howto .icon-formal-cancel {
+	font-size: 26px
+}
+.margin-bottom-howto {
+	margin-bottom: 30px;
+}
+
+.text-fm-howto-new p {
+	line-height: 1.4;
+}
+.wrap-content-fm-howto .wrap-info-article-fm-howto {
+	margin: 25px 0
+}
+.coupon_code {
+	padding: 10px;
+	outline: none;
+	font-size: 11px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.apply_coupon_btn {
+	padding: 10px;
+	background-color: cornflowerblue;
+	margin-left: 10px;
+    max-width: 200px;
+}
+.payment-note {
+	color: red;
+	font-size: 16px;
+}
+.earned-point-notice {
+	padding: 0 10px 20px;
+}
+.payment-note {
+	color: red;
+	font-size: 16px;
+}
+.wrap-formal-product-confirm.new-kimono-product-confirm .notice-payment-method{
+	color: red;
+	font-size: 16px;
+	font-weight: bold;
+	border: 2px solid red;
+	padding: 10px 24px;
+	margin: 10px 29px;
+	letter-spacing: 0.1em;
+}
+.btn-change-payment-method{
+	background-color: #a8a8a8 !important;
+	width: auto !important;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.order-detail .discount-input-wrapper{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    width: 100%;
+}
+.order-detail .method-label {
+    width: 45%;
+    font-size: 13px;
+    font-weight: bold;
+}
+.order-detail .method-name {
+    width: 75%;
+}
+.align-items-start{
+	-webkit-box-align: flex-start !important;
+	-ms-flex-align: flex-start !important;;
+	align-items: flex-start !important;;
+	-webkit-align-items: flex-start !important;;
+}
+.admin-custom-booking .campaign-list span{
+	margin-left: 0;
+}
+.admin-custom-booking .campaign-list .campaign-name{
+	min-width: 100px;
+	display: inline-block;
+}
+/*Takuhai table*/
+.takuhai-table .item{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.takuhai-table .item .tag-time:empty{
+    padding: 0;
+}
+.takuhai-table .item:not(:last-child){
+    border-right: 1px dashed #000;
+}
+.takuhai-table .item .tag-time{
+    color: #fff;
+    background-color: #9e9e9f;
+    padding: 6px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 11px;
+}
+.takuhai-table .item .txt-time{
+    font-weight: bold;
+    font-size: 13px;
+}
+.takuhai-table-cart{
+    padding: 15px 5px;
+    background-color: #fff6a9;
+    border-radius: 10px;
+    border: 1px solid #a0a0a0;
+}
+.takuhai-table-cart .item .tag-time{
+    width: 70%;
+    text-align: center;
+}
+.credit-form .wrap-btn-confirm {
+    background: #fff;
+}
+
+/* .item-confirm-info-custom */
+.wrap-formal-product-confirm .list-confirm-info .item-confirm-info-custom{
+	flex-direction: column;
+	align-items: flex-start;
+}
+.cancel{
+	margin-top: 10px;
+}
+.cancel a{
+	font-size: 11px;
+	font-weight: bold;
+}
+
+@media (max-width: 360px){
+	.box-info-confirm{
+		padding: 0px 10px;
+	}
+	.list-confirm-info .item-confirm-info .info-right{
+		font-size: 11px;
+	}
+	.btn-change-img-confirm{
+		padding: 5px 0;
+	}
+	.list-confirm-info .item-total-price .name-formal-confirm,
+	.list-confirm-info .item-total-price .price-formal-confirm{
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 767px) {
+	.wrap-formal-product-confirm.new-kimono-product-confirm .notice-payment-method{
+		margin-bottom: 25px;
+	}
+	.btn-change-payment-method{
+		background-color: #eaeaea !important;
+		border: 1px solid #000;
+		color: #000;
+		padding: 8px 20px;
+		font-size: 14px;
+		align-self: end;
+	}
+	.box-info-confirm .title-selected{
+		border: none;
+		padding: 0;
+		margin: 0;
+	}
+	.wrap-title-button-change{
+		align-items: center;
+	}
+	.wrap-info-formal-general .wrap-title-button-change{
+		border-bottom: 1px solid #919191;
+	}
+	.wrap-content-fm-howto .title-content-fm-howto{
+		background-color: transparent;
+	}
+	.title-content-fm-howto .icon-formal-cancel{
+		display: none;
+	}
+	.wrap-content-fm-howto .title-content-fm-howto h2{
+		margin-left: 0;
+		font-size: 15px;
+	}
+}
+/*==PC===*/
+@media (min-width: 750px){
+    .takuhai-table-cart .item .tag-time{
+        width: 40%;
+        text-align: center;
+    }
+    .takuhai-table .item .tag-time{
+        font-size: 14px;
+        padding: 6px 20px;
+    }
+    .takuhai-table .item .txt-time{
+        font-size: 18px;
+    }
+	.wrap-formal-product-confirm.new-kimono-product-confirm .notice-payment-method{
+		padding: 10px;
+		margin: 18px;
+	}
+	.wrap-content-fm-howto .content-fm-howto .text-fm-howto {
+		width: 75%
+	}
+
+	.warning-fm-howto {
+		margin: 12px 0
+	}
+
+	.wrap-boths-column .right-column .intro-top-general-howto {
+		width: 75%;
+		margin: 120px 10px 10px 10px
+	}
+
+	.wrap-content-fm-howto .title-content-fm-howto h2 {
+		font-size: 16px;
+		letter-spacing: 8px
+	}
+
+	.wrap-content-fm-howto .title-content-fm-howto .number-title-fm-howto {
+		font-size: 20px;
+		width: 32px;
+		height: 32px;
+		line-height: 36px
+	}
+
+	.wrap-content-fm-howto .content-fm-howto .text-fm-howto,.wrap-link-formal-truck .text-formal-truck {
+		font-size: 13px
+	}
+
+	.arrow-right-howto {
+		font-size: 18px
+	}
+
+	.wrap-content-fm-howto .content-fm-howto .text-fm-howto {
+		padding: 15px 30px 15px 15px
+	}
+
+	.wrap-content-fm-howto .content-fm-howto .text-fm-howto-last {
+		padding: 15px 30px 0 15px
+	}
+
+	.wrap-content-fm-howto .wrap-info-article-fm-howto .content-fm-howto-last {
+		padding: 15px 0 15px 45px
+	}
+
+	.wrap-content-fm-howto .title-content-fm-howto h2 {
+		margin-left: 13px
+	}
+
+	.wrap-banner-fm-howto .info-banner-fm-howto {
+		padding: 0 20px
+	}
+
+	.wrap-content-fm-howto .wrap-info-article-fm-howto .content-fm-howto {
+		align-items: center
+	}
+
+	.arrow {
+		content: "";
+		right: 0;
+		width: 9px;
+		height: 9px;
+		transform: rotate(45deg);
+		-webkit-transform: rotate(-46deg);
+		-ms-transform: rotate(45deg);
+		border-right: 2px solid;
+		border-bottom: 2px solid;
+		cursor: pointer;
+		margin: -9px 5px 0
+	}
+
+	.wrap-content-fm-howto .content-fm-howto .text-fm-howto {
+		letter-spacing: 1px
+	}
+
+	.text-inden-1 {
+		text-indent: 0.5em;
+	}
+	.mgb30 {
+		margin-bottom: 30px;
+	}
+	.left-text {
+		min-width: 300px;
+		display: inline-block;
+	}
+	.reservation-total{
+		padding-top: 40px;
+	}
+	.takuhai-confirm-wrap .reservation-total{
+		border-top: none;
+	}
+	.wrap-form-formal-general .title-customer-info-confirm{
+		margin-bottom: 20px;
+	}
+	.box-info-confirm .wrap-info-formal-general .wrap-info-formal{
+		margin: 0 0 20px 0;
+	}
+	.wrap-btn-confirm{
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: reverse;
+		-ms-flex-direction: row-reverse;
+		flex-direction: row-reverse;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+	.btn-confirm-next{
+		margin-bottom: 0px;
+		width: 33%;
+		/*line-height: 1.5;*/
+		cursor: pointer;
+		font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", Arial, "Hiragino Kaku Gothic Pro", "Lucida Grande", Verdana, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	}
+	.btn-confirm-next:hover{
+		opacity: 0.7;
+	}
+	.wrap-btn-confirm button{
+		margin-right: 20px;
+	}
+    .wrap-info-formal {
+        margin: 0 0 20px 120px;
+        padding-bottom: 10px;
+        border-bottom: 1px dotted #919191;
+    }
+	.wrap-info-formal .list-confirm-info .item-total-price-border{
+		border-top: none;
+	}
+	.wrap-info-formal .list-confirm-total-price{
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		margin-left: -9px;
+	}
+	.btn-change-confirm-pc{
+		display: inline-block;
+		text-align: center;
+		width: 18%;
+		padding: 10px 0;
+		font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", Arial, "Hiragino Kaku Gothic Pro", "Lucida Grande", Verdana, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+		border: none;
+		font-size: 10px;
+		color: #3D3D3D;
+		margin-right: 15px;
+		cursor: pointer;
+	}
+	.btn-change-confirm-pc:hover{
+		opacity: 0.7;
+	}
+	.btn-confirm-tax{
+		display: inline-block;
+		width: 78%;
+		margin-left: 25px;
+		background-color: #EAEAEA;
+
+	}
+	.list-confirm-info .item-confirm-info .info-right{
+		width: 84%;
+	}
+	.list-confirm-info .item-confirm-info .info-left{
+		width: 18%;
+		margin-left: 0;
+	}
+	.wrap-form-formal .list-confirm-info .item-form-formal .form-element-left{
+		margin-left: 5px;
+	}
+	.box-info-confirm{
+		padding: 0;
+	}
+	.wrap-info-formal .list-confirm-info .item-total-price{
+		margin: 0;
+		padding: 0;
+		width: calc(100% * 1/3);
+		text-align: center;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: space-evenly;
+		-ms-flex-pack: space-evenly;
+		justify-content: space-evenly;
+	}
+	.wrap-info-formal .list-confirm-info .item-total-price-border:last-child{
+		border: none;
+	}
+	.wrap-info-formal .list-confirm-info .item-total-price:last-child .price-formal-confirm{
+		padding-left: 15px;
+		margin-bottom: 5px;
+	}
+	.wrap-info-formal-general .title-selected{
+		border: none;
+		padding-left: 15px;
+		font-weight: bold;
+	}
+	.wrap-title-formal-confirm{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		margin: 0 0 30px 0;
+		border-top: 1px dotted #919191;
+		border-bottom: 1px dotted #919191;
+	}
+	.wrap-title-formal-confirm .item-fm{
+		width: calc(100% * 1/4);
+		padding: 10px 0;
+		text-align: center;
+		font-weight: bold;
+	}
+	.wrap-title-formal-confirm  .item-fm-conf-subtotal,
+	.wrap-title-formal-confirm  .item-fm-conf-option
+	{
+		margin-right: 0px;
+	}
+	.wrap-title-formal-confirm  .item-fm-conf-photo{
+		margin-left: -8px;
+	}
+	.img-formal-confirm .btn-change-confirm{
+		display: none;
+	}
+	.wrap-info-formal .list-confirm-info .item-total-price,
+	.item-total-price-double {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		padding: 0 10px;
+	}
+	.wrap-info-formal .list-confirm-info .item-total-price .item-double{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		padding: 4px 10px;
+	}
+	.name-formal-confirm-subtotal{
+		display: none;
+	}
+	.list-confirm-info .item-total-price .price-formal-confirm{
+		margin-left:0;
+	}
+	.wrap-info-formal .reservation-total{
+		margin-top: 30px;
+		margin-left: 17%;
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
+		justify-content: flex-end;
+		border-top: 1px dotted #919191;
+	}
+	.wrap-info-formal .reservation-total .name-formal-confirm-total{
+		-webkit-box-flex: initial;
+		-ms-flex: initial;
+		flex: initial;
+		margin-right: 80px;
+	}
+	.wrap-info-formal .reservation-total .price-final-confirm{
+		margin-right: 25px;
+	}
+	.wrap-info-formal-general .wrap-info-formal .img-formal-confirm .wrap-pic-confirm{
+		margin: 0 auto;
+		border: none;
+		justify-content: center;
+		width: 90px;
+		height: 90px;
+	}
+	.img-formal-confirm .wrap-pic-confirm img{
+		border: 1px solid #4E0037;
+	}
+	.list-confirm-info .item-total-price .name-formal-confirm{
+		-webkit-box-flex: initial;
+		-ms-flex: initial;
+		flex: initial;
+	}
+	.wrap-info-formal-general .wrap-info-formal .img-formal-confirm{
+		width: 25%;
+	}
+	.wrap-formal-product-confirm .wrap-list-confirm-info{
+		width: 75%;
+	}
+	.list-confirm-info .item-total-price .name-formal-confirm,
+	.list-confirm-info .item-total-price .price-formal-confirm{
+		font-size: 12px;
+		line-height: 1.4;
+	}
+	.wrap-formal-product-confirm .wrap-list-confirm-info{
+		padding: 0;
+	}
+	.wrap-form-formal .list-confirm-info .item-form-formal .form-element-left,
+	.wrap-form-formal .list-confirm-info .item-form-formal .form-element-right{
+		font-size: 12px;
+	}
+	.wrap-payment-detail{
+		padding: 0 20%;
+		margin: 0 auto 50px 0;
+		border-bottom: 1px solid #919191;
+	}
+	.wrap-payment-detail{
+		padding: 0 calc(20% - 20px);
+	}
+	.wrap-payment-detail .wrap-form-formal{
+		border: none;
+	}
+	.box-info-confirm .list-confirm-info .item-confirm-info .info-right{
+		text-align: left;
+	}
+    .wrap-payment-detail .list-confirm-info .item-confirm-info .info-right{
+        text-align: right;
+    }
+	.takuhai-confirm-wrap .reservation-total{
+		justify-content: initial;
+		padding: 0 0 20px 10px;
+	}
+	.wrap-info-formal-general .line-formal{
+		border-bottom: 1px dotted;
+		margin-left: 17%;
+		margin-top: 15px;
+	}
+	.reservation-total .name-formal-confirm{
+		font-size: 13px;
+		padding-left: 0;
+	}
+	.reservation-total .price-formal-confirm{
+		font-size: 14px;
+		box-sizing: border-box;
+		padding-left: 0;
+		width: 50%;
+		text-align: right;
+	}
+	/* campaign fee formal */
+	.wrap-early-fee-fm .price-formal-confirm{
+		font-size: 15px;
+		width: 25%;
+		text-align: right;
+		padding-left: 0;
+	}
+
+	.takuhai-confirm-wrap .reservation-total .price-formal-confirm{
+		padding: 0;
+	}
+	.takuhai-confirm-wrap .list-confirm-info .item-confirm-info .info-left,
+	.takuhai-confirm-wrap .reservation-total .name-formal-confirm{
+		width: 200px;
+	}
+	.takuhai-confirm-wrap .list-confirm-info .item-confirm-info .info-left,
+	.takuhai-confirm-wrap .title-customer-info-confirm{
+		margin-left: 0;
+	}
+	.takuhai-confirm-wrap .wrap-title-formal-confirm .item-fm{
+		width: 25%;
+	}
+	.takuhai-confirm-wrap .wrap-title-formal-confirm .item-fm-conf-product{
+		-webkit-box-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+	}
+	.takuhai-confirm-wrap .wrap-info-formal-general .wrap-info-formal .img-formal-confirm{
+		padding: 0;
+	}
+	.takuhai-confirm-wrap .wrap-info-formal .list-confirm-total-price{
+		margin-left: 80px;
+	}
+	.takuhai-confirm-wrap .wrap-formal-product-confirm .wrap-list-confirm-info{
+		width: auto;
+	}
+	.discount-input-wrapper{
+		-webkit-box-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+	}
+    .order-detail .discount-input-wrapper{
+        width: 50%;
+    }
+
+	/* .item-confirm-info-custom */
+	.wrap-formal-product-confirm .list-confirm-info .wrap-item-confirm-custom{
+		width: 100%;
+		display: flex;
+	}
+	.wrap-formal-product-confirm .list-confirm-info .item-confirm-info-custom .decided-date-using{
+		margin-bottom: 10px;
+		margin-left: 15px;
+	}
+	.list-confirm-info .item-confirm-info .info-left-custom{
+		margin-left: 15px;
+	}
+	.cancel a{
+		font-size: 14px;
+	}
+}
+@media (min-width: 768px) and (max-width: 959px) {
+	.wrap-info-formal .reservation-total .name-formal-confirm-total{
+		font-size: 12px;
+	}
+	.wrap-info-formal .reservation-total .name-formal-confirm-total{
+		margin-right: 88px;
+	}
+}

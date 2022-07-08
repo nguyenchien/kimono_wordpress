@@ -1,0 +1,24 @@
+.list-confirm-info .item-confirm-info .info-left{
+    font-size: 15px;
+}
+.list-confirm-info .item-confirm-info .info-right {
+    font-size: 14px;
+}
+.wrap-info-formal-general .title-selected {
+    font-size: 16px;
+}
+.new-kimono-product-confirm .wrap-info-formal .list-confirm-info .plan-name .price-formal-confirm {
+    font-size: 14px;
+}
+.new-kimono-product-confirm .wrap-form-formal .list-confirm-info .item-form-formal .form-element-left, .new-kimono-product-confirm .wrap-form-formal .list-confirm-info .item-form-formal .form-element-right {
+    font-size: 13px;
+}
+@media(min-width: 750px){
+    .boths-btn-payment button{
+        width: 300px;
+    }
+    .btn-book-payment button,
+    .wrap-btn-confirm button{
+        font-size: 18px;
+    }
+}

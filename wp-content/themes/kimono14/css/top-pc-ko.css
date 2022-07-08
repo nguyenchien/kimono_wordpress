@@ -1,0 +1,64 @@
+/*==PC code here==*/
+.section-6advices .box-list ul li .item .title span {
+    font-size: 18px;
+}
+
+/* Fix layout full width KO */
+.layout-kimono-sp .main-content .container{
+    max-width: 100%;
+}
+.block-title-top-page-title h2,
+.sns-ko .box-social-net-footer,
+.wrap-pic-plan,
+.des-gallery,
+.pic-cus-gallery,
+#box-calendar,
+.note-plan,
+.wrap-blogtop,
+.topics-title-top-page-title h2,
+.topics-for-top-page .wrap-topics{
+    width: 960px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.block-title-top-page-title h2{
+    margin-bottom: 5px;
+}
+.sns-ko .box-social-net-footer{
+    margin-bottom: 20px;
+}
+
+/* Fix top 100 */
+.top-100-title{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+.top-100-title .title{
+    text-align: left;
+    width: 53%;
+}
+.top-100-title .top-date{
+    width: 47%;
+}
+
+/*==DETECT TABLET ONLY LANG(KO)==*/
+@media (min-width : 768px) and (max-width : 1024px){
+    /*==BOX 6 POINTS==*/
+    .section-6advices .box-list ul li .item img.sub-item-advice-content-01 {
+        margin: -20px 0 0 10px;
+    }
+    .section-6advices .box-list ul li .item img.sub-item-advice-content-02 {
+        margin: -28px 0 0 10px;
+    }
+    .section-6advices .box-list ul li .item img.sub-item-advice-content-06 {
+        margin: -20px 0 0 0;
+    }
+    /*topics*/
+    .topics-title-top-page-title h2,
+    .topics-for-top-page .wrap-topics{
+        width: 100%;
+    }
+}

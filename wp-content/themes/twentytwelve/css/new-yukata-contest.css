@@ -1,0 +1,448 @@
+.wrap-yukata-girl-contest{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.container-girl-contest,
+.container-girl-contest-other{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+.container-girl-contest{
+    padding: 0 10px;
+}
+.container-girl-contest-other{
+    padding: 0 5px;
+}
+.flex-box-contest {
+    display: -webkit-box;
+    display: flex;
+    display: -ms-flexbox;
+}
+.title-girl-contest{
+    letter-spacing: 2px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #22356f;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    height: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-items: center;
+    line-height: 1;
+}
+.title-girl-contest .icon-title{
+    display: -webkit-box;
+    display: flex;
+    display: -ms-flexbox;
+    margin-right: 5px;
+}
+.title-girl-contest .icon-title{
+    height: 25px;
+    width: 25px;
+}
+.title-girl-contest-no-icon{
+    padding-left: 20px;
+}
+.wrap-yukata-girl-contest .box-two-flowers{
+    padding: 0 10px;
+}
+.banner-top-contest,
+.box-two-flowers,
+.box-contest-voucher,
+.box-steps-contest,
+.box-contest-requirements,
+.box-contest-agreement{
+    margin-bottom: 15px;
+}
+.banner-top-contest{
+    padding: 0 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.banner-top-contest .pc{
+    display: none;
+}
+.box-two-flowers .content-two-flwers{
+    text-align: center;
+    width: 50%;
+}
+.box-two-flowers .content-two-flwers h3{
+    line-height: 1;
+    font-size: 15px;
+    font-weight: bold;
+}
+.box-two-flowers .content-two-flwers p{
+    font-size: 9px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.box-two-flowers .bg-flower{
+    width: 25%;
+}
+.box-contest-voucher .content-contest-voucher{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.box-contest-voucher .content-contest-voucher .sub-items{
+    border-bottom: 1px dotted #000;
+    padding: 5px 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-items:  center;
+}
+.box-contest-voucher .content-contest-voucher .sub-items-last{
+    border-bottom: none;
+}
+.box-contest-voucher .content-contest-voucher .sub-items .sub-name{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-items:  center;
+    min-width: 140px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.box-contest-voucher .content-contest-voucher .sub-items .sub-des{
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+.box-contest-voucher .content-contest-voucher .sub-items .descript-sub{
+    font-size: 10px;
+    margin-top: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.icon-contest{
+    margin-right: 5px;
+    width: 30px;
+}
+.icon-contest img{
+    width: 100%;
+}
+.box-steps-contest .content-steps-contest{
+    background: url(../../../../../images/yukata-girl-contest/bg-photo-steps.jpg) repeat;
+    padding: 15px 15px 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.box-steps-contest .items-steps{
+    margin-left: -30px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+.box-steps-contest .items-steps .steps-general{
+    width: calc(100% * (1/2) - 30px);
+    margin: 0 0 15px 30px;
+}
+.box-steps-contest .items-steps .steps-general .title-step{
+    margin-bottom: 20px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-items: center;
+}
+.box-steps-contest .items-steps .steps-general .title-step .name-step{
+    margin-left: 12px;
+}
+.box-steps-contest .items-steps .steps-general .title-step .num-step{
+    background-color: #22356f;
+    position: relative;
+    text-align: center;
+    padding: 7px 0;
+    min-width: 44px;
+    color: #fff;
+    font-size: 25px;
+    line-height: 1;
+}
+.box-steps-contest .items-steps .steps-general .title-step .num-step:after{
+    content: "";
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    border-top: 16px solid #22356f;
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+}
+.box-steps-contest .items-steps .steps-general .title-step .name-step{
+    margin-left: 7px;
+    font-size: 13px;
+}
+.box-steps-contest .items-steps .steps-general .photo-step{
+    margin-bottom: 10px;
+}
+.box-steps-contest .items-steps .steps-general .des-step{
+    text-align: center;
+    font-size:  12px;
+}
+.box-contest-requirements .sec-rq-items,
+.box-contest-requirements .sec-rq-items-other{
+    margin-bottom: 15px;
+}
+.box-contest-requirements .sec-rq-items .sub-text{
+    line-height: 1;
+    margin-bottom: 5px;
+    font-size: 13px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.box-contest-requirements .sec-rq-items .sub-text .text-l{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-width: 100px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.box-contest-requirements .sec-rq-items .sub-text .text-l strong{
+    font-size: 20px;
+}
+.box-contest-requirements .sec-rq-items-other h4{
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+.box-contest-requirements .sec-rq-items-other p{
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.box-contest-requirements .des-rq{
+    margin-top: 12px;
+    font-size: 10px;
+}
+.box-contest-winning .sec-wn-items{
+    margin-bottom: 30px;
+}
+.box-contest-winning .sec-wn-items .text-pr{
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+.contest-agreement{
+    background-color: #eaeaea;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 280px;
+    padding: 10px 20px 10px 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.contest-agreement::-webkit-scrollbar {
+    width: 15px;
+    background-color: #c0c0c0;
+}
+.contest-agreement::-webkit-scrollbar-thumb {
+    background-color: #808080;
+    border-radius: 15px;
+    border: 5px solid #808080;
+}
+.contest-agreement::-webkit-scrollbar-track {
+    background-color: #c0c0c0;
+}
+.contest-agreement::-webkit-scrollbar-button{
+    height: 15px;
+    width: 15px;
+}
+.box-contest-agreement .sec-ar-items{
+    margin-bottom: 20px;
+}
+.box-contest-agreement .sec-ar-items p{
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.box-contest-agreement .sec-ar-items h4{
+    font-weight: bold;
+}
+.sub-pdl5{
+    padding-left: 5px;
+}
+.sub-pdl10{
+    padding-left: 10px;
+}
+.sub-pdl20{
+    padding-left: 20px;
+}
+.sub-mgbt20{
+    margin-bottom: 20px;
+}
+.sec-ar-items .bold-para{
+    font-weight: bold;
+}
+.box-contest-voucher .descript-sub{
+    font-size: 9px;
+}
+@media(max-width: 360px){
+    .icon-contest {
+        margin-right: 3px;
+        width: 25px;
+    }
+    .box-contest-voucher .content-contest-voucher .sub-items .sub-name{
+        font-size: 12px;
+        min-width: 110px;
+    }
+    .box-contest-voucher .content-contest-voucher .sub-items .sub-des {
+        font-size: 11px;
+    }
+    .box-steps-contest .items-steps .steps-general .title-step .name-step {
+        margin-left: 5px;
+        font-size: 11px;
+        line-height: 1.3;
+    }
+    .box-steps-contest .items-steps .steps-general .des-step {
+        text-align: center;
+        font-size: 11px;
+    }
+}
+@media (min-width: 750px){
+    .container-girl-contest {
+        padding: 0 20px;
+    }
+    .container-girl-contest-other {
+        padding: 0 10px;
+    }
+    .box-two-flowers,
+    .box-contest-voucher,
+    .box-steps-contest,
+    .box-contest-requirements,
+    .box-contest-agreement {
+        margin-bottom: 30px;
+    }
+    .title-girl-contest {
+        font-size: 20px;
+        font-weight: normal;
+        height: 48px;
+        margin-bottom: 30px;
+    }
+    .banner-top-contest{
+        margin-bottom: 5px;
+    }
+    .banner-top-contest .pc{
+        display: block;
+    }
+    .banner-top-contest .sp{
+        display: none;
+    }
+    .wrap-yukata-girl-contest .box-two-flowers{
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .box-two-flowers .content-two-flwers{
+        width: 40%;
+        padding-top: 30px;
+    }
+    .box-two-flowers .bg-flower {
+        width: 30%;
+    }
+    .box-two-flowers .content-two-flwers h3 {
+        font-weight: normal;
+        font-size: 36px;
+        color: #002d72;
+        display: inline;
+    }
+    .box-two-flowers .content-two-flwers h3:last-of-type{
+        display: block;
+        margin-top: 10px;
+    }
+    .box-two-flowers .content-two-flwers h3 span,
+    .container-girl-contest h4 span{
+        display: inline;
+    }
+    .box-two-flowers .content-two-flwers p {
+        font-size: 17px;
+        margin-top: 30px;
+    }
+    .banner-contest-voucher{
+        margin-bottom: 15px;
+    }
+    .title-girl-contest .icon-title{
+        margin-right: 10px;
+    }
+    .title-girl-contest .icon-t-crown,
+    .title-girl-contest .icon-t-phone{
+        height: 40px;
+        width: 40px;
+    }
+    .box-contest-voucher .content-contest-voucher .sub-items{
+        border-width: 2px;
+        padding: 20px 0;
+    }
+    .icon-contest {
+        margin-right: 10px;
+        width: 50px;
+    }
+    .box-contest-voucher .content-contest-voucher .sub-items .sub-name {
+        min-width: 350px;
+        font-size: 25px;
+    }
+    .box-contest-voucher .content-contest-voucher .sub-items .sub-des span{
+        display: inline-block;
+    }
+    .box-contest-voucher .content-contest-voucher .sub-items .sub-des {
+        font-size: 18px;
+    }
+    .box-contest-voucher .content-contest-voucher .sub-items .sub-des{
+        letter-spacing: 3px;
+    }
+    .box-steps-contest .items-steps .steps-general {
+        width: calc(100% * (1/4) - 30px);
+    }
+    .box-steps-contest .items-steps .steps-general .title-step .num-step {
+        font-size: 24px;
+        padding: 10px 0 6px 0;
+    }
+    .box-contest-winning .sec-wn-items .text-pr{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .box-steps-contest .items-steps .steps-general .title-step .name-step,
+    .box-steps-contest .items-steps .steps-general .des-step,
+    .box-contest-requirements .des-rq,
+    .box-contest-agreement .sec-ar-items p {
+        font-size: 15px;
+    }
+    .box-contest-requirements .sec-rq-items .sub-text{
+        font-size: 22px;
+    }
+    .box-contest-requirements .sec-rq-items-other h4{
+        font-size: 20px;
+    }
+    .box-contest-requirements .sec-rq-items .sub-text{
+        margin-bottom: 30px;
+    }
+    .box-contest-requirements .sec-rq-items .sub-text .text-l {
+        min-width: 180px;
+    }
+    .box-contest-requirements .sec-rq-items .sub-text .text-r {
+        font-size: 18px;
+    }
+    .box-contest-requirements .sec-rq-items-other p {
+        font-size: 18px;
+    }
+    .box-contest-agreement .sec-ar-items h4{
+        font-size: 16px;
+    }
+    .box-contest-agreement .title-girl-contest{
+        background-color: #3295cc;
+    }
+    .intro-top-general .title-intro-top{
+        letter-spacing: 2px;
+    }
+}

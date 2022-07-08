@@ -1,0 +1,40 @@
+.wrap-about-wargo .wrap-content .box-content{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1 1 auto;
+}
+.wrap-img-detail-service .wrap-img-service-sm-01{
+    width: 42%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: initial;
+}
+.wrap-img-detail-service .wrap-img-service-big-01 img{
+    width: 353px;
+}
+.wrap-img-detail-service .wrap-img-service-sm-01 img{
+    width: 240px;
+}
+.wrap-img-detail-service .wrap-img-service-sm-01 img:first-child{
+    margin-bottom: 17px;
+}
+.wrap-img-service-02{
+    margin-right: 30px;
+}
+.wrap-img-service-02 .wrap-img-service--02{
+    justify-content: initial;
+}
+.wrap-img-service-02 .wrap-img-service-big-02 img{
+    width: 580px;
+}
+.wrap-img-detail-service .wrap-img-service-sm-02 img{
+    width: 292px;
+}
+.wrap-img-detail-service .wrap-img-service-sm-02 img:first-child{
+    margin-right: 20px;
+}
+.wrap-button-contact-us{
+    justify-content: space-around;
+}

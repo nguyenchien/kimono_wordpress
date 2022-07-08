@@ -1,0 +1,217 @@
+.wrap-customer-gallery-new .pad-2-side{
+    padding: 0 12px;
+}
+.wrap-customer-gallery-new .banner-gallery{
+    margin-bottom: 40px;
+}
+.wrap-customer-gallery-new .banner-gallery img{
+    width: 100%;
+}
+.wrap-customer-gallery-new .des-gallery{
+    text-align: center;
+    margin: 0 12px 25px 12px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 30px;
+}
+.wrap-customer-gallery-new .title-gallery{
+    font-size: 23px;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+.wrap-customer-gallery-new .brief-gallery{
+    font-size: 12px;
+}
+.wrap-customer-gallery-new .wrap-filter-gallery{
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    margin-left: -15px;
+}
+.wrap-customer-gallery-new .box-filter-wg-pl{
+    width: calc(100% * (1/2) - 15px);
+    margin: 0 0 10px 15px;
+}
+.wrap-customer-gallery-new .box-filter-wg-pl .item-search .sl-search-shop{
+    background-image: url("../../../../../images/new-kimono/arrow-down-sl-gray.svg");
+}
+.wrap-customer-gallery-new .box-filter-wg-pl .item-search{
+    margin: 0;
+    width: auto;
+}
+.wrap-customer-gallery-new .container-box-img-gallery{
+    flex-wrap: wrap;
+    margin: 0 0  30px -15px;
+}
+.wrap-customer-gallery-new .box-img-gallery{
+    width: calc(100% * (1/2) - 15px);
+    margin-left: 15px;
+    box-sizing: border-box;
+    border: 1px solid #939393;
+    margin-bottom: 20px;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+}
+.wrap-customer-gallery-new .img-gallery{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 215px;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap-customer-gallery-new .img-gallery img{
+    width: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+.wrap-customer-gallery-new .info-gallery{
+    padding: 10px;
+    box-sizing: border-box;
+}
+.wrap-customer-gallery-new .title-box{
+    font-size: 11px;
+    margin-bottom: 7px;
+    line-height: 1.3;
+}
+.wrap-customer-gallery-new .text-info{
+    color: #494949;
+}
+.wrap-customer-gallery-new .text-status{
+    color: #d2003e;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+.wrap-customer-gallery-new .text-title{
+    display: inline-flex;
+    align-items: center;
+}
+.wrap-customer-gallery-new .text-title:before{
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #494949;
+    margin-right: 3px;
+}
+.wrap-customer-gallery-new .list-shop-plan li{
+    font-size: 12px;
+    color: #494949;
+}
+.wrap-customer-gallery-new .gallery-shop-name br{
+    display: none;
+}
+.wrap-paging-gallery-new{
+    margin-bottom: 45px;
+}
+.wrap-customer-gallery-new .wraper-bnt-reserve{
+    margin-bottom: 60px;
+    width: auto;
+    justify-content: center;
+}
+.wrap-customer-gallery-new .btn-formal{
+    width: 80%;
+    padding: 15px 20px;
+}
+
+/* Begin: Paging Common (move from new-top-page-kimono.css)*/
+.wrap-common-paging .wp-pagenavi{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: -5px;
+}
+.wrap-common-paging .wp-pagenavi .pages{
+    display: none;
+}
+.wrap-common-paging .wp-pagenavi a,
+.wrap-common-paging .wp-pagenavi span{
+    width: 31px;
+    height: 31px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding: 0;
+    margin-left: 5px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.wrap-common-paging .news-paging .current{
+    background-color: #a8a8a8;
+    border-color: #a8a8a8;
+    font-weight: normal;
+}
+.wrap-common-paging .wp-pagenavi .previouspostslink,
+.wrap-common-paging .wp-pagenavi .nextpostslink{
+    background-color: #4e0037;
+    color: #fff;
+    border-radius: 5px;
+    border-color: #4e0037;
+    padding: 0 7px;
+}
+/* End: Paging Common */
+/* Fix for Iphone 5 */
+@media (max-width: 360px){
+    .wrap-customer-gallery-new .title-box{
+        font-size: 9px;
+    }
+    .wrap-customer-gallery-new .list-shop-plan li{
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 750px){
+    .wrap-customer-gallery-new .title-gallery{
+        font-size: 27px;
+    }
+    .wrap-customer-gallery-new .brief-gallery{
+        font-size: 13px;
+    }
+    .wrap-customer-gallery-new .box-filter-wg-pl {
+        width: calc(100% * (1/3) - 15px);
+    }
+    .wrap-customer-gallery-new .container-box-img-gallery {
+        margin: 0 0 30px -30px;
+    }
+    .wrap-customer-gallery-new .box-img-gallery {
+        width: calc(100% * (1/3) - 30px);
+        margin: 0 0 30px 30px;
+    }
+    .wrap-customer-gallery-new .img-gallery{
+        height: 285px;
+    }
+    .wrap-customer-gallery-new .list-shop-plan li{
+        font-size: 13px;
+    }
+    .wrap-customer-gallery-new .btn-formal{
+        width: 280px;
+    }
+    /* Begin: Paging Common (move from new-top-page-kimono.css)*/
+    .wrap-common-paging .wp-pagenavi{
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+    }
+    .wrap-common-paging .wp-pagenavi{
+        margin-left: -10px;
+    }
+    .wrap-common-paging .wp-pagenavi a,
+    .wrap-common-paging .wp-pagenavi span{
+        margin-left: 10px;
+    }
+    .wrap-common-paging .wp-pagenavi .previouspostslink,
+    .wrap-common-paging .wp-pagenavi .nextpostslink{
+        padding: 0 12px;
+    }
+    /* End: Paging Common */
+}

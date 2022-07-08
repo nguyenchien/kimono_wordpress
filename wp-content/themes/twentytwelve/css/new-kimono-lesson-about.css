@@ -1,0 +1,300 @@
+table, th, td {
+	border: 1.5px solid #4D4D4D;
+	border-collapse: collapse;
+}
+.pc-table{
+	display: none;
+}
+.sp-table{
+	display: inline-table;
+}
+.intro-lesson-about{
+	padding: 10px;
+}
+.lesson-about-level-table{
+	border-top: none;
+	margin-bottom: 35px;
+	width: 100%;
+}
+.wrap-padding{
+	padding: 10px;
+}
+.wrap-new-lesson-about .wrap-btn-intro{
+	padding: 10px;
+	margin: 15px 25px 35px 10px;
+}
+.btn-intro-lesson-about{
+	letter-spacing: 5px;
+	font-weight: normal;
+	line-height: normal;
+	padding: 10px;
+	text-decoration: none;
+}
+.title-lesson-about{
+	position: relative;
+	width: 100%;
+	background-color: #639589;
+	color: #fff;
+	font-size: 18px;
+	letter-spacing: 5px;
+	padding: 7px;
+	box-sizing: border-box;
+	margin-bottom: 17px;
+	padding-left: 20px;
+}
+.level-lesson-about{
+	font-size: 22px;
+	border-bottom: 1px solid #4D4D4D;
+	padding-left: 6px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin: 10px;
+	margin-bottom: 24px;
+
+}
+.lesson-about-level-table td{
+	padding: 15px 10px;
+	letter-spacing: 1px;
+	text-align: center;
+	font-size: 13px;
+}
+.lesson-about-level-table td:first-child{
+	align-items: center;
+	text-align: center;
+	background-color: #D9E5E4;
+	font-size: 13px;
+}
+.lesson-about-level-table .red-text{
+	color: red;
+	font-size: 16px;
+}
+.lesson-about-level-table .red-text-bold{
+	color: red;
+	font-weight: bold;
+	font-size: 17px
+}
+.black-text{
+	color: black;
+}
+.date-time-attendance .shop-lesson-about{
+	padding-bottom: 25px;
+	border-bottom: 1px solid;
+	margin-bottom: 15px;
+}
+.date-time-attendance .shop-lesson-about:last-of-type{
+	border-bottom: none;
+}
+.date-time-attendance .title-shop-lesson-about{
+	font-weight: bold;
+	font-size: 18px;
+}
+.date-time-attendance .wrap-area-lesson-about{
+	font-size: 16px;
+	letter-spacing: 4px;
+	justify-content: space-between;
+	border-bottom: 1px solid #4D4D4D;
+	margin-bottom: 17px;
+}
+.date-time-attendance .wrap-area-lesson-about:last-child{
+	border: none;
+}
+.date-time-attendance .wrap-shop-lesson-about{
+	margin-top: 9px;
+	width: 66%;
+}
+.date-time-attendance .title-area-lesson-about{
+	width: 40%;
+}
+.btn-area-lesson-about{
+	background-color: #E8E8E8;
+	padding: 10px 13px;
+	border: none;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+.group-lesson-about .content-group-lesson-about{
+	padding: 10px;
+	margin-bottom: 50px;
+}
+.town-arrival-table td{
+	padding: 15px 12px;
+	text-align: center;
+	font-size: 15px;
+}
+.town-arrival-table td:last-child{
+	padding: 4px;
+}
+.wrap-table-town-arrival{
+	margin-bottom: 50px;
+}
+.used-material-lesson-about,
+.wrap-belongings-lesson-about{
+	font-size: 18px;
+}
+.used-material-lesson-about{
+	margin-bottom: 35px;
+}
+.box-belongings-lesson-about{
+	letter-spacing: 3px;
+}
+.box-counter-sales-lesson-about{
+	border: 1px solid #4E9387;
+	padding: 7px;
+	color: #4E9387;
+}
+.list-counter-sales-lesson-about .item-counter-sales{
+	justify-content: space-between;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #4E9387;
+	padding-bottom: 10px;
+}
+.list-counter-sales-lesson-about .item-counter-sales:first-child{
+	border-top: 1px solid #4E9387;
+	padding-top: 10px;
+}
+.list-counter-sales-lesson-about .label-counter-sale{
+	background: #4D4D4D;
+	color: white;
+	padding: 2px 3px;
+	font-size: 11px;
+	margin-right: 6px;
+	width: 55px;
+	text-align: center;
+}
+.tuition-lesson-about-des{
+	margin-bottom: 50px;
+}
+@media (max-width: 375px){
+	.date-time-attendance .wrap-area-lesson-about{
+		margin: 10px;
+		padding: 0;
+	}
+}
+@media (max-width: 360px){
+	.list-counter-sales-lesson-about,
+	.town-arrival-table td,
+	.tuition-lesson-about-des{
+		font-size: 12px;
+	}
+	.date-time-attendance .title-shop-lesson-about{
+		font-size: 14px;
+	}
+	.btn-area-lesson-about{
+		font-size: 13px;
+	}
+	.date-time-attendance .shop-lesson-about p{
+		font-size: 12px;
+	}
+}
+@media(min-width: 750px){
+	.pc-table{
+		display: inline-table;
+	}
+	.sp-table{
+		display: none;
+	}
+	.wrap-new-lesson-about .btn-intro-lesson-about{
+		font-size: 18px;
+		width: 100%;
+		padding: 20px 25px;
+	}
+	.intro-lesson-about p{
+		justify-content: center;
+		display: flex;
+	}
+	.wrap-new-lesson-about .wrap-btn-intro{
+		display: flex;
+		justify-content: center;
+	}
+	.wrap-new-lesson-about .wrap-btn-intro-lesson-last{
+		margin: 200px 25px 0px 40px;
+	}
+	.date-time-attendance .wrap-shop-lesson-about{
+		display: flex;
+		justify-content: space-between;
+	}
+	.date-time-attendance .shop-lesson-about{
+		border-bottom: none;
+	}
+	.date-time-attendance .shop-lesson-about:last-child{
+		margin-right: 35%;
+	}
+	.date-time-attendance .wrap-shop-lesson-about{
+		width: 80%;
+	}
+	.date-time-attendance .title-area-lesson-about{
+		width: 20%;
+	}
+	.wrap-padding{
+		padding: 0;
+	}
+	.tuition-lesson-about-des{
+		font-size: 15px;
+	}
+	.group-lesson-about .content-group-lesson-about{
+		padding: 0;
+		font-size: 18px;
+	}
+	.title-lesson-about{
+		margin-bottom: 40px;
+	}
+	.town-arrival-table{
+		width: 100%;
+	}
+	.used-material-lesson-about p{
+		margin-bottom: 50px;
+	}
+	.box-belongings-lesson-about{
+		margin-bottom: 20px;
+	}
+	.wrap-counter-sales-lesson-about{
+		margin-bottom: 15px;
+	}
+	.text-right-counter-sale{
+		margin-right: 40%;
+	}
+	.wrap-new-lesson-about .list-counter-sales-lesson-about{
+		font-size: 17px;
+	}
+	.list-counter-sales-lesson-about .label-counter-sale{
+		width: 60px;
+	}
+	.list-counter-sales-lesson-about .price-counter-sale{
+		font-size: 15px;
+		margin-top: 2px;
+	}
+	.box-counter-sales-lesson-about{
+		font-size: 17px;
+	}
+	.lesson-about-level-table td:first-child{
+		background-color: #fff;
+		font-size: 16px;
+	}
+	.lesson-about-level-table td{
+		font-size: 14px;
+		padding: 15px 1px;
+	}
+	.lesson-about-level-table tr:first-child td:first-child,
+	.lesson-about-level-table tr:first-child{
+		background-color: #D9E5E4;
+	}
+	.level-lesson-about{
+		margin-left: 0;
+	}
+	.last-text-box-belongings{
+		margin-left: 20px;
+	}
+	.wrap-boths-column .right-column .intro-top-lesson-about{
+		margin-top: 30px;
+	}
+	.wrap-new-lesson-about .list-menu a{
+		text-align: inherit;
+		margin-left: 15px;
+	}
+	.wrap-new-lesson-about .date-time-attendance .wrap-area-lesson-about:last-of-type{
+		border-bottom: none;
+	}
+	.list-counter-sales-lesson-about .label-counter-sale{
+		padding: 4px 9px;
+	}
+}

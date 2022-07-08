@@ -1,0 +1,166 @@
+.flex-inline{
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+}
+.page-review-booking{
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 13px;
+	overflow: hidden;
+}
+.page-review-booking .section{
+	margin-bottom:20px;
+}
+.section-customer-info ul li{
+	margin-bottom: 5px;
+}
+.section-customer-info ul li .label{
+	width: 80px;
+	margin-right: 10px;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	align-items: center;
+	-webkit-align-items: center;
+}
+.section-customer-info ul li .label:after{
+	content: ":";
+	display: block;
+}
+.section-rating-post .text{
+	margin-bottom: 5px;
+}
+.section-rating-post ul{
+	flex-direction: row-reverse;
+	-webkit-flex-direction: row-reverse;
+	justify-content: flex-end;
+	-webkit-justify-content: flex-end;
+}
+.section-rating-post ul li{
+	width: 23px;
+	height: 23px;
+	padding-left: 10px;
+	background-image: url("../images/review-booking/star-vote.png");
+	background-repeat: no-repeat;
+	text-indent: 9999px;
+	cursor: pointer;
+}
+.section-rating-post ul li:hover,
+.section-rating-post ul li:hover ~ li,
+.section-rating-post ul li.voted,
+.section-rating-post ul li.voted ~ li{
+	background-image: url("../images/review-booking/star-voted.png");
+}
+.section-rating-question .item{
+	margin-bottom: 10px;
+}
+.section-rating-question .item-question{
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	align-items: center;
+	-webkit-align-items: center;
+}
+.section-rating-question .question-list{
+	align-items: flex-end;
+	-webkit-align-items: flex-end;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+
+}
+.section-rating-question select{
+	border: 1px solid #aaa;
+	height: 35px;
+}
+.section-rating-question textarea{
+	width: 100%;
+	height: 100px;
+	padding: 5px;
+	border: 1px solid #222;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.submit-review-booking{
+	text-align: center;
+}
+.btn-review-booking{
+	border: none;
+	display: inline-block;
+	width: 50%;
+	height: 50px;
+	line-height: 50px;
+	background-color: #f4a21b;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.page-review-booking .errorMessage,
+.page-review-booking .require{
+	color: red;
+}
+.page-review-booking .errorMessageVote{
+	margin: 5px 0 0 0;
+}
+.page-review-booking .errorMessageQuestion{
+	margin: 5px 0 0 0;
+}
+.page-review-booking .require{
+	margin-left: 5px;
+}
+.thanks-review-booking{
+	text-align: center;
+	padding: 30px 10px;
+}
+.thanks-review-booking .text{
+	color: #ff00ff;
+	margin-top: 10px;
+	font-size: 15px;
+	text-align: left;
+}
+
+@media (min-width: 750px) {
+	.page-review-booking{
+		font-size: 14px;
+		padding: 20px 10px;
+	}
+	.section-rating-question .question-list {
+		align-items: center;
+		-webkit-align-items: center;
+		flex-direction: row;
+		-webkit-flex-direction: row;
+	}
+	.section-rating-question .item-question {
+		justify-content: flex-start;
+		-webkit-justify-content: flex-start;
+	}
+	.section-rating-question .question-name{
+		width: 170px;
+		font-size: 15px;
+	}
+	.section-rating-question select{
+		font-size: 15px;
+	}
+	.section-rating-question textarea{
+		height: 150px;
+		padding:10px;
+	}
+	.btn-review-booking {
+		width: 25%;
+		height: 60px;
+		line-height: 60px;
+		font-size: 30px;
+	}
+	.page-review-booking .errorMessageQuestion{
+		margin: 0 0 0 10px;
+	}
+	.page-review-booking .errorMessageVote{
+		margin: 10px 0 0 0;
+	}
+	.thanks-review-booking .text{
+		text-align: center;
+	}
+}

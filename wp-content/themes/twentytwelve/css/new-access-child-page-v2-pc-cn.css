@@ -1,0 +1,29 @@
+.plan-info .plan-desc{
+    font-size: 17px;
+}
+/*===kamakura===*/
+.kamakura .plan-img .plan-name {
+    font-size: 33px;
+}
+.kamakura .list-ginza-store .item-ginza-store .info .group-price-store .lg-price-store {
+    font-size: 19px;
+}
+.kamakura .plan-info .plan-desc {
+    font-size: 15px;
+}
+/*kurashiki*/
+.kurashiki .wrap-spots-shop-fm-v2.kurashiki .title-big-spots {
+    font-size: 28px;
+}
+/*kanazawa*/
+.kanazawa .wrap-shop-intro .intro-title {
+    font-size: 41px;
+}
+
+/*dazaifu*/
+.new-access-child-page.dazaifu .list-option-new-shop-second .items-text-detail-new{
+    padding: 4px 12px 4px 12px;
+}
+.list-ginza-store .item-ginza-store .info .group-price-store .lg-price-store{
+    font-size: 19px;
+}

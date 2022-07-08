@@ -1,0 +1,924 @@
+body{
+    font-family: "Noto Sans JP";
+    color: #252525;
+}
+
+/*custom color background*/
+.color-ginza-yukata,
+.text-blue,
+.wrap-access-to-shop-fm-v2-yukata .list-access-shop .num-item,
+.wrap-spots-shop-fm-v2-yukata .title-small-spots,
+.wrap-spots-shop-fm-v2-yukata .title-big-spots,
+.slider-ranking-yukata .widget-list-product-highend ul.list li .wrap-price .price,
+.slider-ranking-yukata .widget-list-product-highend ul.list li .wrap-price .price .currency,
+.slider-ranking-yukata .widget-list-product-highend ul.list li .wrap-price .price .tax,
+.wrap-google-map-fm-v2-yukata .jusho-color{
+    color: #57b3e8;
+}
+.slider-ranking-yukata .widget-list-product-highend.more-items ul.list li .image {
+    background-image: -webkit-repeating-linear-gradient(left, #57b3e8 0%, #57b3e8 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(left, #57b3e8 0%, #57b3e8 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #57b3e8 0%, #57b3e8 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #57b3e8 0%, #57b3e8 50%, transparent 50%, transparent 100%);
+    background-image: -o-repeating-linear-gradient(left, #57b3e8 0%, #57b3e8 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(left, #57b3e8 0%, #57b3e8 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, #57b3e8 0%, #57b3e8 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, #57b3e8 0%, #57b3e8 50%, transparent 50%, transparent 100%);
+    background-image: repeating-linear-gradient(to right, #57b3e8 0%, #57b3e8 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to right, #57b3e8 0%, #57b3e8 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, #57b3e8 0%, #57b3e8 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, #57b3e8 0%, #57b3e8 50%, transparent 50%, transparent 100%);
+    background-position: left top, left bottom, left top, right top;
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 6px 1px, 6px 1px, 1px 6px, 1px 6px;
+}
+.border-blue{
+    border: 1px solid #fff;
+}
+.yukata.wrap-set-content .wrap-bt-set .bt-set.border-color-blue{
+    border: 1px solid #57b3e8;
+}
+.bg-light-blue{
+    background-color: rgba(87, 179, 232, 0.2);
+}
+.wrap-btn-v2 .btn-v2-01.bg-ginza-yukata,
+.bg-ginza-yukata,
+.bg-blue,
+.more-list-ginza-yukata .more-info,
+.wrap-review-thankyou-yukata .pd-review .link-more,
+.wrap-top-plan-circle-yukata-second .wrap-circle-top-plan,
+.wrap-addess-gg-map-yukata .text-addess-map,
+.wrap-list-option-new-shop-yukata .list-option-detail-new-machi .items-option-detail-new{
+    background-color: #57b3e8;
+}
+
+/*wrap-intro-wargo-fm-v2-yukata*/
+.wrap-intro-wargo-fm-v2-yukata .wrap-des-intro-wargo{
+    margin-top: 0;
+}
+.des-intro-wargo-yukata{
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 40px;
+}
+.wrap-intro-wargo-fm-v2-yukata .wrap-banner-intro-wargo{
+    padding: 0 80px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.wrap-banner-intro-wargo .list-bubble{
+    margin-left: -40px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 80px;
+}
+.wrap-banner-intro-wargo .list-bubble .item-bubble{
+    width: calc(100% * (1/4) - 40px);
+    margin-left: 40px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.wrap-banner-intro-wargo .list-bubble .item-bubble:first-child{
+    margin-top: 20px;
+}
+.wrap-banner-intro-wargo .list-bubble .item-bubble-odd{
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+}
+.wrap-banner-intro-wargo .list-bubble .item-bubble-even{
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+.wrap-banner-intro-wargo .list-bubble .item-bubble .bg-circle{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: -1;
+}
+.wrap-banner-intro-wargo .list-bubble .item-bubble .group-text{
+    text-align: center;
+    color: #252525;
+    letter-spacing: 1px;
+    font-family: ‘Noto Serif JP’, serif;
+    line-height: 1;
+}
+.wrap-banner-intro-wargo .list-bubble .item-bubble .group-text .sm-text{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.wrap-banner-intro-wargo .list-bubble .item-bubble .group-text .lg-text{
+    font-size: 20px;
+}
+/* .wrap-sidebar-products-pr-fm-v2 */
+.wrap-sidebar-products-pr-fm-v2.yukata .wrap-title-v2{
+    margin-bottom: 25px;
+}
+.wrap-sidebar-products-pr-fm-v2.yukata .slider-ranking-yukata{
+    margin-bottom: 50px;
+}
+
+/*wrap-top-plan-circle-fm-v2-yukata*/
+.wrap-top-plan-circle-fm-v2-yukata .list-scene-v2 .item-scene-v2 .inside-circle .num-circle{
+    font-family: "Noto Sans JP";
+    line-height: 1;
+    margin-bottom: 15px;
+}
+.wrap-top-plan-circle-fm-v2-yukata .list-scene-v2 .color-circle-02.item-scene-v2 .inside-circle .num-circle-2{
+    line-height: 0;
+}
+.wrap-top-plan-circle-fm-v2-yukata .list-scene-v2 .item-scene-v2.color-circle-01 .inside-circle .num-circle-1{
+    font-size: 20px;
+    letter-spacing: 0;
+    margin-bottom: 15px;
+}
+.wrap-top-plan-circle-fm-v2-yukata .list-scene-v2 .item-scene-v2.color-circle-01 .inside-circle .num-circle-2{
+    margin-bottom: 10px;
+}
+.wrap-top-plan-circle-fm-v2-yukata .price-top-plan{
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.wrap-top-plan-circle-fm-v2-yukata .list-scene-v2 .item-scene-v2.color-circle-01 .out-circle,
+.wrap-top-plan-circle-fm-v2-yukata .item-scene-v2.color-circle-01 .inside-circle,
+.wrap-top-plan-circle-fm-v2-yukata .list-scene-v2 .item-scene-v2.color-circle-01 .num-circle {
+    border-color: #57b3e8;
+    color: #57b3e8;
+}
+.wrap-top-plan-circle-fm-v2-yukata .list-scene-v2 .item-scene-v2 .inside-circle .num-circle.num-circle-3{
+    line-height: 1.3;
+}
+.wrap-top-plan-circle-fm-v2-yukata .list-scene-v2 .item-scene-v2.color-circle-02 .inside-circle .num-circle.num-circle-3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.wrap-top-plan-circle-fm-v2-yukata .list-scene-v2 .item-scene-v2 .inside-circle .num-circle.num-circle-yen{
+    font-size: 54px;
+}
+.wrap-top-plan-circle-fm-v2-yukata .price-top-plan-yukata{
+    font-size: 76px;
+    letter-spacing: 2px;
+}
+
+/*wrap-spots-shop-fm-v2-yukata*/
+.wrap-spots-shop-fm-v2-yukata {
+    background: repeating-linear-gradient(235deg, rgba(87,179,232,0.2),
+    rgba(87,179,232,0.2) 5px, rgba(87,179,232,0.25) 5px, rgba(87,179,232,0.25) 9px );
+}
+.wrap-spots-shop-fm-v2-yukata .title-big-spots {
+    background-image: url(../images/shop-fomal-v2/title-big-spots-yukata.svg);
+}
+.wrap-spots-shop-fm-v2-yukata .pattern.ginza:before {
+    border-color: #57b3e8 transparent transparent transparent;
+}
+
+/* .wrap-products-shop-store */
+.list-ginza-store .item-ginza-store .info .group-price-store .lg-price-store{
+    font-size: 19px;
+}
+
+/*wrap-access-to-shop-fm-v2-yukata*/
+.list-access-shop-yukata .slick-prev:before{
+    content: url(../images/shop-fomal-v2/prev-arrow-blue.svg);
+}
+.list-access-shop-yukata .slick-next:before {
+    content: url(../images/shop-fomal-v2/next-arrow-blue.svg);
+}
+.list-access-shop-yukata .item-list-access-shop:nth-child(3):after,
+.list-access-shop-yukata .item-list-access-shop:nth-child(5):after,
+.list-access-shop-yukata .item-list-access-shop.slick-current:nth-child(7):after,
+.list-access-shop-yukata .item-list-access-shop:nth-child(9):after {
+    content: url(../images/shop-fomal-v2/next-arrow-blue.svg);
+}
+
+/*wrap-intro-hiyori-fm-v2*/
+.wrap-intro-hiyori-fm-v2{
+    border: 1px solid #57b3e8;
+    padding: 28px 25px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+.wrap-intro-hiyori-fm-v2 .intro-hiyori-fm-v2-left{
+    margin-right: 32px;
+    width: 400px;
+}
+.wrap-intro-hiyori-fm-v2 .intro-hiyori-fm-v2-right{
+    width: 435px;
+}
+.wrap-intro-hiyori-fm-v2 .intro-hiyori-fm-v2-right .item-logo-confidence-09{
+    width: 30%;
+    margin: 0 auto 20px;
+}
+.wrap-intro-hiyori-fm-v2 .wrap-des-intro-hiyori{
+    margin-bottom: 12px;
+}
+.wrap-intro-hiyori-fm-v2 .wrap-des-intro-hiyori .des-intro-hiyori{
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+}
+.wrap-intro-hiyori-fm-v2 .intro-hiyori-fm-v2 .including-bottom .text-including{
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 0 0 5px 5px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #b48c00;
+}
+
+/*wrap-plans-shop-fm-v2-yukata*/
+.wrap-plans-shop-fm-v2-yukata .group-brief-plan{
+    margin-bottom: 30px;
+}
+.wrap-plans-shop-fm-v2-yukata .brief-plan{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.wrap-plans-shop-fm-v2-yukata .brief-plan-top{
+    margin-bottom: 10px;
+}
+.wrap-plans-shop-fm-v2-yukata .brief-plan-bigger{
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 1;
+}
+.wrap-photos-shop-fm-v2-yukata .list-photos li{
+    width: calc(100% * (1/4) - 8px);
+    margin-left: 8px;
+}
+.wrap-google-map-fm-v2-yukata{
+    border: 1px solid #57b3e8;
+    background-color: rgba(87,179,232,0.07);
+}
+.wrap-list-option-new-shop-yukata .items-option-detail-new{
+    background-color: #d5ecf9;
+}
+.wrap-list-info-r6-ginza-yukata .box-r6.price .main-content:before{
+    background-position: 0 -861px;
+}
+.wrap-list-info-r6-ginza-yukata .box-r6.price .main-content:after {
+    background-position: right -861px;
+}
+.wrap-list-info-r6-ginza-yukata .wrap-info-r6{
+    margin-bottom: 90px;
+}
+.wrap-top-plan-circle-yukata-second .intro-bg:after {
+    border-right: 15px solid #abd9f4;
+}
+/* .wrap-hairset-yukata */
+.wrap-hairset-yukata .brief-haiset{
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+.wrap-hairset-yukata .wrap-btn-v2{
+    margin-bottom: 20px;
+}
+.wrap-hairset-yukata .wrap-btn-v2 .btn-v2-01 {
+    background-color: #ffffff;
+}
+.wrap-hairset-yukata .pattern.ginza-honten:after{
+    border-color: transparent transparent transparent #57b3e8;
+}
+.wrap-hairset-yukata .wrap-btn-v2 .btn-v2 a,
+.wrap-hairset-yukata .wrap-btn-v2 .btn-v2-reserve{
+    color: #57b3e8;
+}
+.wrap-hairset-yukata{
+    border: 1px solid #909090;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    width: 810px;
+    margin: 0 auto 50px;
+
+}
+.wrap-hairset-yukata:before,
+.wrap-hairset-yukata:after{
+    content: '';
+    position: absolute;
+    background-color: #57b3e8;
+    width: 1px;
+    height: 90px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.wrap-hairset-yukata:before{
+    top: -25px;
+    left: 15px;
+}
+.wrap-hairset-yukata:after{
+    bottom: -25px;
+    right: 15px;
+}
+.wrap-hairset-yukata .content-hairset-yukata{
+    margin: 15px;
+    padding: 25px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: -webkit-repeating-linear-gradient(210deg,
+    #ddf0fa,
+    #ddf0fa 5px,
+    #e3f2fa 5px,
+    #e3f2fa 10px
+    );
+    background: -o-repeating-linear-gradient(210deg,
+    #ddf0fa,
+    #ddf0fa 5px,
+    #e3f2fa 5px,
+    #e3f2fa 10px
+    );
+    background: repeating-linear-gradient(-120deg,
+    #ddf0fa,
+    #ddf0fa 5px,
+    #e3f2fa 5px,
+    #e3f2fa 10px
+    );
+}
+.content-hairset-yukata .box-hairset-0yen{
+    justify-content: space-between;
+    border-bottom: 1px dashed #57b3e8;
+    margin-bottom: 45px;
+    padding-bottom: 30px;
+}
+.box-hairset-0yen .info{
+    width: 210px;
+}
+.box-hairset-0yen .list-images{
+    width: 480px;
+    margin-left: -10px;
+}
+.box-hairset-0yen .image{
+    margin-left: 10px;
+}
+.box-hairset-0yen .image img{
+    width: 100%;
+}
+.box-hairset-0yen .title-main{
+    color: #57b3e8;
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.box-hairset-0yen .title-main:before,
+.box-hairset-0yen .title-main:after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+.box-hairset-0yen .title-main:before{
+    top: 9px;
+    border-top: 1px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-left: 13px solid #d9c580;
+    -webkit-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(5deg);
+    right: 10px;
+}
+.box-hairset-0yen .title-main:after{
+    bottom: 39px;
+    border-top: 1px solid transparent;
+    border-bottom: 23px solid transparent;
+    border-right: 12px solid #abd9f4;
+    -webkit-transform: rotate(150deg);
+    -ms-transform: rotate(150deg);
+    transform: rotate(85deg);
+    right: -5px;
+}
+.box-hairset-0yen .line-hairset{
+    margin-bottom: 15px;
+}
+.box-hairset-0yen .text{
+    color: #57b3e8;
+    font-size: 16px;
+}
+.box-hairset-0yen .text-01{
+    margin-bottom: 5px;
+}
+.box-hairset-0yen .text-0yen{
+    font-weight: bold;
+    font-size: 85px;
+    line-height: 1;
+    text-align: right;
+    margin-right: -34px;
+}
+.box-hairset-0yen .text-0yen .yen{
+    font-size: 67px;
+}
+.box-hairset-0yen .text-0yen .price{
+    margin-left: -10px;
+}
+.box-hairset-0yen .text-0yen .symbol{
+    font-size: 75px;
+    margin-left: -35px;
+}
+.box-sub-list-hairset{
+    margin-bottom: 30px;
+}
+.box-sub-list-hairset .sub-list-hairset{
+    margin-left: -20px;
+}
+.box-sub-list-hairset .item{
+    margin-left: 20px;
+}
+.box-sub-list-hairset .item .text{
+    color: #57b3e8;
+    font-size: 17px;
+    font-weight: bold;
+    border-left: 3px solid #57b3e8;
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
+.box-sub-list-hairset .item .images{
+    height: 160px;
+}
+.box-sub-list-hairset .item .image img{
+    width: 100%;
+}
+.box-sub-list-hairset .item .images-multi{
+    margin-left: -5px;
+}
+.box-sub-list-hairset .item .images-multi .image{
+    margin-left: 5px;
+}
+.wrap-hairset-yukata .wrap-btn-v2 .btn-v2 .icon-arrow-r-link,
+.wrap-hairset-yukata .wrap-btn-v2 .btn-v2 .icon-arrow-r-link:after{
+    background-color: #57b3e8;
+}
+.wrap-howto-reserve-fm-v2.yukata .pattern.ginza-honten:after{
+    border-color: transparent transparent transparent #f8cae1;
+}
+.wrap-btn-v2-ginza-shop-yukata{
+    margin-bottom: 75px;
+}
+.wrap-list-option-new-shop-yukata .items-text-detail-new{
+    color: #565656;
+}
+.wrap-list-option-new-shop-yukata .items-option-detail-new.list-option-detail-new-machi-2{
+    background-color: #b28c2e;
+}
+.wrap-google-map-fm-v2-yukata .list-option-new-shop-second .items-option-detail-new{
+    border: 1px solid #57b3e8;
+}
+.wrap-google-map-fm-v2-yukata .list-option-new-shop-second .items-option-detail-new:first-child{
+    border: none;
+}
+.wrap-list-info-r6-ginza-yukata .item-logo-confidence-09{
+    width: 35%;
+    margin: 0 auto 10px;
+}
+.wrap-list-info-r6-ginza-yukata .main-content .sm-text{
+    font-size: 27px;
+    letter-spacing: 2px;
+}
+.wrap-banner-shoukai-ibento-natsu{
+    padding: 0 25px;
+    box-sizing: border-box;
+    margin-bottom: 90px;
+}
+.wrap-banner-shoukai-ibento-natsu .wrap-img-ginza-yukata{
+    width: 815px;
+    height: 427px;
+    background-image: url(../images/shop-fomal-v2/bg-shoukai-ibento-pc.jpg);
+    background-size: cover;
+    position: relative;
+}
+.wrap-banner-shoukai-ibento-natsu .wrap-img-ginza-yukata .text-first{
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    left: 110px;
+    top: 50px;
+    border-bottom: 4px double;
+    padding-bottom: 5px;
+}
+.wrap-banner-shoukai-ibento-natsu .wrap-img-ginza-yukata .text-second{
+    position: absolute;
+    color: #F7E14C;
+    text-align: center;
+    left: 346px;
+    bottom: 125px;
+    font-size: 25px;
+}
+/*reason*/
+.wrap-btn-v2-ginza-reason{
+    margin-bottom: 100px;
+}
+.wrap-reason-choose-yukata .wrap-order-reason-ginza-shop .title-item-reason .reason-name:after{
+    background-color: #57b3e8;
+}
+.wrap-reason-choose-yukata .item-reason.active .title-item-reason .reason-name:after{
+    background-color: #fff;
+}
+.wrap-reason-choose-yukata .wrap-order-reason-ginza-shop .content-reason:before{
+    border-bottom: 34px solid rgba(87, 179, 232, 0.2);;
+}
+.wrap-reason-choose-yukata .reason-4.reason-5:before {
+    left: 51%;
+}
+.wrap-reason-choose-yukata .reason-5-custom .including-info{
+    width: 100%;
+}
+.wrap-reason-03-left{
+    flex:3;
+}
+.wrap-reason-03-right{
+    flex:4;
+}
+.wrap-reason-03-ginza-yukata .item-logo-confidence-02{
+    width: 45%;
+}
+.text-reason-03{
+    font-size: 16px;
+}
+.inner-yukata{
+    line-height: 1;
+}
+.wrap-reason-03-ginza-yukata .box-cleaning-price .inner{
+    background-color: inherit;
+}
+.wrap-reason-03-ginza-yukata .inner .price{
+    font-size: 107px;
+    letter-spacing: -17px;
+    line-height: 0;
+}
+.wrap-reason-03-ginza-yukata .inner .price small{
+    font-size: 84px;
+}
+.wrap-reason-03-ginza-yukata .inner .price .second-sm{
+    font-size: 97px;
+}
+.wrap-reason-03-ginza-yukata .box-cleaning-price{
+    margin: 0 0 30px 120px;
+}
+.wrap-reason-choose-yukata .reason-3 .detail-link{
+    margin: inherit;
+    width: 160px;
+    height: 160px;
+}
+.list-image-reason-03 .item-image-reason-03:first-child{
+    margin-right: 8px;
+}
+.text-reason-03-first{
+    margin-bottom: 5px;
+}
+.wrap-reason-choose-yukata .reason-5 .notes-info{
+    margin-bottom: 10px;
+}
+ .inner-yukata .price{
+    font-size: 52px;
+     font-weight: bold;
+     letter-spacing: -7px;
+}
+.list-reason .item-reason.active .title-item-reason .inner-yukata .price{
+    color: #fff;
+}
+ .inner-yukata .price small{
+    font-size: 41px;
+}
+ .inner-yukata .price .sm-bigger{
+    font-size: 47px;
+}
+.wrap-reason-choose-yukata .list-reason-homongi .item-reason.active,
+.title-sub-slug-yukata, .yukata.wrap-set-content .title-set-content{
+    background: -webkit-repeating-linear-gradient(210deg, #57b3e8,
+    #57b3e8 5px,
+    rgba(87,179,232,0.8) 5px,
+    rgba(87,179,232,0.8) 10px
+    );
+    background: -o-repeating-linear-gradient(210deg, #57b3e8,
+    #57b3e8 5px,
+    rgba(87,179,232,0.8) 5px,
+    rgba(87,179,232,0.8) 10px
+    );
+    background: repeating-linear-gradient(-120deg, #57b3e8,
+    #57b3e8 5px,
+    rgba(87,179,232,0.8) 5px,
+    rgba(87,179,232,0.8) 10px
+    );
+}
+
+/*wrap-review-yukata*/
+.wrap-review-yukata .pd-review .link-more{
+    background-color: #57b3e8;
+}
+.wrap-review-yukata .wrap-pd-img .pd-img{
+    background-image: -webkit-repeating-linear-gradient(left, #57b3e8 0%, #57b3e8 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(left, #57b3e8 0%, #57b3e8 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #57b3e8 0%, #57b3e8 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #57b3e8 0%, #57b3e8 50%, transparent 50%, transparent 100%);
+    background-image: -o-repeating-linear-gradient(left, #57b3e8 0%, #57b3e8 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(left, #57b3e8 0%, #57b3e8 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, #57b3e8 0%, #57b3e8 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, #57b3e8 0%, #57b3e8 50%, transparent 50%, transparent 100%);
+    background-image: repeating-linear-gradient(to right, #57b3e8 0%, #57b3e8 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to right, #57b3e8 0%, #57b3e8 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, #57b3e8 0%, #57b3e8 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, #57b3e8 0%, #57b3e8 50%, transparent 50%, transparent 100%);
+}
+.wrap-review.wrap-review-yukata{
+    background-color: rgba(87,179,232,0.1);
+}
+.wrap-review-yukata .intro-bg:after{
+    border-right-color: #abd9f4;
+}
+
+/*wrap-blog-shop-fm-v2.yukata*/
+.wrap-blog-shop-fm-v2.yukata {
+    margin: 100px 0 195px;
+}
+.wrap-blog-shop-fm-v2.yukata .sub-item-info-other .bg-item-outside{
+    background-color: rgba(87,179,232,0.1);
+}
+.wrap-blog-shop-fm-v2.yukata .sub-item-info-other .bg-item-inside{
+    background-color: rgba(87,179,232,0.2);
+}
+.wrap-content-howto-reserve.yukata .btn-step-01 {
+    background-color: #f298c5;
+}
+
+/*box-howto-reserve*/
+.box-howto-reserve .bg-shop.wrap-r-icon-yukata {
+    background-image: url(../../../../../images/formal-rental/formal-list-v2/spite-box-title.svg);
+    background-position: 0 -495px;
+    color: #f298c5;
+}
+.box-howto-reserve .bg-web.wrap-r-icon-yukata {
+    background-image: url(../../../../../images/formal-rental/formal-list-v2/spite-box-title.svg);
+    background-position: 0 -993px;
+    color: #57b3e8;
+}
+.wrap-btn-v2-other .pattern:after {
+    border-color: transparent transparent transparent #abd9f4;
+}
+.pattern.ginza-honten.yukata:after {
+    border-color: transparent transparent transparent #abd9f4;
+}
+
+/*wrap-set-content-fm-v2*/
+.wrap-set-content-fm-v2.yukata .box-all-wrap-set{
+    flex-direction: column;
+}
+.wrap-set-content-fm-v2.yukata .wrap-bt-set .bt-set{
+    flex-direction: row;
+    padding: 20px;
+}
+.wrap-set-content-fm-v2.yukata .wrap-bt-set .bt-set .text-name-set{
+    width: 40%;
+}
+.wrap-set-content-fm-v2.yukata .wrap-women-icon .wrap-set-icon{
+    width: 70%;
+    margin-bottom: 20px;
+}
+.wrap-set-content-fm-v2.yukata .right-text-set{
+    font-size: 18px;
+    color: #242424;
+    text-align: left;
+    font-weight: 400;
+}
+.wrap-set-content-fm-v2.yukata .wrap-women-icon .wrap-women{
+    width: 365px;
+    position: relative;
+    top: -20px;
+    margin-right: 30px;
+    left: -30px;
+}
+.wrap-set-content-fm-v2.yukata.wrap-set-content .text-set-content:before {
+    left: -60px;
+    top: 3px;
+}
+.wrap-set-content-fm-v2.yukata .wrap-bt-set{
+    width: 350px;
+}
+.wrap-set-content-fm-v2.yukata .wrap-bt-set .bt-set{
+    border-width: 1px;
+}
+.wrap-set-content-fm-v2.yukata .wrap-bt-set .box-r-set{
+    width: 190px;
+}
+.wrap-set-content-fm-v2.yukata.wrap-set-content .text-set-content{
+    margin-bottom: 55px;
+    font-weight: 300;
+}
+.wrap-set-content-fm-v2.yukata .right-text-set{
+    margin-left: 30px;
+}
+.bag-ginza-yukata .wrap-bt-set .bt-set{
+    padding: 20px;
+}
+.wrap-set-img .bag-ginza-yukata{
+    width: 290px;
+}
+.wrap-set-img .set-img-yukata-left{
+    width: 190px;
+    margin-right: 10px;
+    position: relative;
+    left: -15px;
+}
+.wrap-set-img .set-img-yukata{
+    width: 280px;
+}
+.wrap-set-img .set-img-yukata .notes-bottom{
+    margin-top: 10px;
+}
+.bag-ginza-yukata .wrap-bt-set .bt-set .text-name-set{
+    margin-bottom: 8px;
+}
+/* .wrap-reservation-status */
+.wrap-reservation-status-fm-v2.yukata .wrap-grid-booking-inner .paged #page-next:before{
+    border-left: 11px solid #57b3e8;
+}
+.wrap-reservation-status-fm-v2.yukata .wrap-grid-booking-inner .paged #page-pre:before{
+    border-right: 11px solid #57b3e8;
+}
+/*Rental plan*/
+.wrap-rental-plan .plan-item{
+    margin-bottom: 50px;
+}
+.plan-item .wrap-plan-item{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -15px;
+}
+.wrap-plan-item .wrap-btn-v2{
+    margin: 30px auto 0 auto;
+}
+.wrap-plan-item .wrap-box{
+    margin-left: 15px;
+    width: calc(100% * 1/2 - 15px);
+}
+.wrap-box .box-plan{
+    margin-bottom: 20px;
+}
+.box-plan .plan-info{
+    margin-top: 20px;
+    display: none;
+}
+.box-plan .plan-info.open{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.plan-info .wrap-btn a{
+    color: #57b3e8;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    border: 2px solid #57b3e8;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto 20px auto;
+    position: relative;
+    letter-spacing: 2px;
+}
+.plan-info .wrap-btn a:after{
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    content: "";
+    background: url(../../../../../images/new-kimono/access/yellow-dotted.svg) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 8px;
+}
+.plan-info .show-less span{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border: 2px solid #57b3e8;
+    cursor: pointer;
+}
+.plan-info .show-less span:before{
+    content: '';
+    display: inline-block;
+    border-right: 2px solid #57b3e8;
+    border-bottom: 2px solid #57b3e8;
+    width: 15px;
+    height: 15px;
+    -webkit-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+    transform: rotate(225deg);
+    position: relative;
+    top: 3px;
+}
+.box-plan .plan-img{
+    position: relative;
+    color: #fff;
+    cursor: pointer;
+}
+.plan-img .plan-name,
+.plan-img .detail-plan{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.plan-img .plan-name{
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+.plan-img .detail-plan{
+    bottom: 16%;
+    font-size: 19px;
+}
+.plan-img .detail-plan:after{
+    content: '';
+    position: absolute;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    bottom: -20px;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) rotate(45deg);
+    transform: translateX(-50%) rotate(45deg);
+    left: 50%;
+}
+.plan-info .plan-intro{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-align: center;
+    line-height: 1;
+}
+.plan-info .plan-name{
+    font-size: 33px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    position: relative;
+    display: table;
+    margin: 0 auto 10px auto;
+}
+.plan-info .plan-name:before,
+.plan-info .plan-name:after{
+    position: absolute;
+    content: '';
+    background: url('../../../../../images/new-kimono/access/flower-pt-ginza-yukata.svg') no-repeat;
+    background-size: cover;
+    width: 55px;
+    height: 55px;
+    top: -10px;
+}
+.plan-info .plan-name:before {
+    left: -35px;
+}
+.plan-info .plan-name:after {
+    right: -35px;
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.plan-info .price {
+    line-height: 1;
+    color: #57b3e8;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+.plan-info .plan-desc {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    min-height: 200px;
+}
+.wrap-title-v2{
+    margin-bottom: 20px;
+}
+.wrap-title-v2 .wrap-text-title{
+    margin-left: 10px;
+}
+.wrap-title-v2 .des-sm-title{
+    letter-spacing: 0 !important;
+}

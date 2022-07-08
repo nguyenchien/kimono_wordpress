@@ -1,0 +1,79 @@
+.wrap-congress-store {
+    width: 30%;
+}
+.wrap-top-header .wrap-info .visitor {
+    width: 50%;
+}
+.wrap-top-header .wrap-congress-store .number-store {
+    flex-direction: column;
+}
+.wrap-top-header .wrap-congress-store .number-store .nation{
+    flex-direction: row;
+    font-size: 13px;
+}
+.top-header .wrap-congress-store .top-text-cg-store{
+    font-size: 11px;
+    text-align: center;
+}
+.wrap-top-header .wrap-congress-store .number-store .num {
+    font-size: 20px;
+}
+.box-header .visitor .left-vst .icon-crown {
+    width: 25px;
+}
+.box-header .visitor .left-vst .text-vst {
+    font-size: 15px;
+}
+.box-header .visitor .left-vst .year-vst{
+    font-size: 11px;
+}
+.box-header .visitor .left-vst .box-vst {
+    flex-wrap: wrap;
+}
+.box-header .visitor .left-vst .num-vst {
+    font-size: 30px;
+}
+@media (min-width: 750px){
+    .box-header .wrap-info .wrap-congress-store .top-text-cg-store{
+        font-size: 12px;
+    }
+    .box-header .wrap-info .wrap-congress-store{
+        padding: 0;
+    }
+    .wrap-top-header .wrap-congress-store .number-store .nation {
+        flex-direction: column;
+        font-size: 15px;
+    }
+    .wrap-top-header .wrap-congress-store .number-store .num {
+        font-size: 35px;
+    }
+    .box-header .visitor .left-vst .text-vst {
+        font-size: 18px;
+    }
+    .box-header .visitor .left-vst .num-vst {
+        font-size: 35px;
+    }
+    .wrap-top-header .wrap-congress-store .number-store {
+        flex-direction: row;
+    }
+    .box-header .option-check .list-opt-check .item-opt-check .icon {
+        font-size: 20px;
+    }
+    .box-header .option-check .list-opt-check .item-opt-check .text-opt-check {
+        font-size: 15px;
+    }
+    .wrap-box-common .box-common .name,
+    .bottom-header .icon-choosed .name {
+        font-size: 11px;
+    }
+    .bottom-header .wrap-cart-favorite .icon-choosed{
+        align-items: center;
+    }
+    .bottom-header .icon-choosed.icon-formal-shopping-cart-2 .add-num-cart {
+        right: 5px;
+    }
+    .bottom-header .icon-choosed .add-num-cart {
+        font-size: 10px;
+        right: -5px;
+    }
+}

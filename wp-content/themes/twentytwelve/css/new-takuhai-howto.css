@@ -1,0 +1,166 @@
+/*takuhai howto*/
+.right-content-tkh{
+	margin-top: 10px;
+	padding: 0 12px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.cont-page-left .item-top h1 {
+	margin-top: 13px;
+	line-height: 1;
+	color: #000;
+	font-size: 21px;
+	font-weight: 700;
+	padding: 10px 0;
+	box-sizing: border-box;
+}
+.cont-page-left .howto-takuhai h2 {
+	font-size: 21px;
+	background-color: #4E0037;
+	clear: both;
+	height: 36px;
+	line-height: 40px;
+	padding-left: 8px;
+	margin: 20px 0 10px;
+	color: #fff;
+	font-weight: 700;
+}
+.cont-page-left .item-top p{
+	margin-bottom: 10px;
+}
+table, tr, td {
+	border: 1px solid #307eaf;
+	border-collapse: collapse;
+}
+
+td {
+	width: 25%;
+	text-align: center;
+	padding: 5px;
+}
+
+tr.gray {
+	background-color: #e2e5e8;
+}
+
+.cont-page-left p {
+	font-size: 13px;
+}
+
+.page-childs-howto-faq .content ul {
+	padding: 6px 10px 5px 10px;
+}
+
+.page-childs-howto-faq .content ul li a {
+	padding-left: 5px;
+	font-family: Meiryo, Arial;
+	font-size: 14px;
+	color: #000;
+	line-height: 25px;
+}
+.page-childs-howto-faq .content ul li a:before {
+	content: '';
+	width: 0px;
+	height: 0px;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 6px solid #4E0037;
+	display: inline-block;
+	margin-right: 5px;
+}
+.page-childs-howto-faq .content ul li a:hover {
+	color: #4E0037;
+}
+
+.page-childs-howto-faq .content ul li.active a {
+	color: #4E0037;
+	font-weight: bold;
+}
+
+.cont-page-left,
+.cont-page-right{
+	width: 100%;
+}
+.page-childs-howto-faq {
+	border: 2px solid #4E0037;
+	margin-bottom: 10px;
+}
+
+.cont-page-left h1 {
+	font-size: 35px !important;
+}
+
+.box-content-page .howto-takuhai h2,
+.box-content-page .howto-takuhai h3 {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 0 2px;
+}
+
+.box-content-page .howto-takuhai h3{
+	font-size: 16px;
+}
+
+.box-content-page .howto-takuhai .item{
+	margin-top: 5px;
+}
+
+.item-first{
+	margin-bottom: 10px;
+}
+
+.cont-page-left h1{
+	padding:0 0 15px 0 !important;
+	font-size: 40px !important;
+}
+
+.box-content-page .howto-takuhai h4 {
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+.box-content-page .howto-takuhai p > a {
+	color: #4E0037;
+	font-weight: bold;
+}
+@media(min-width: 750px){
+	.right-content-tkh{
+		margin-top: 20px;
+	}
+	.cont-page-left .item-top h1 {
+		margin: 0;
+	}
+	.howto-takuhai,
+	.item-top{
+		float: left;
+		width:68%;
+		margin-bottom: 7px;
+	}
+
+	.cont-page-left{
+		width:100%;
+	}
+
+	.cont-page-right{
+		width:25%;
+		float:right;
+	}
+
+	.box-content-page .howto-takuhai h2{
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+
+	.box-content-page .howto-takuhai h3{
+		font-size: 18px;
+	}
+	.howto-takuhai h4{
+		font-size: 18px;
+	}
+
+	.page-childs-howto-faq {
+		margin-bottom: 0;
+	}
+}
+

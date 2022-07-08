@@ -1,0 +1,90 @@
+.wrap-corona-virus {
+    padding: 0 10px;
+}
+.cancelpolicy_of_coronavirus .wrap-header{
+    background-color: #c1a530;
+    padding: 20px 10px;
+    font-size: 10px;
+    line-height: 2;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 0 -10px 12px -10px;
+    font-family: "ten-mincho", serif;
+}
+.cancelpolicy_of_coronavirus .wrap-header .text-header {
+    line-height: 1.4;
+}
+.cancelpolicy_of_coronavirus .des-title-header{
+    font-size: 10px;
+    color: #282828;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    border-bottom: solid 1px #ddd;
+    padding-bottom: 15px;
+}
+.cancelpolicy_of_coronavirus .wrap-corona-virus hr{
+    margin-bottom: 15px;
+}
+.cancelpolicy_of_coronavirus .wrap-table tr th{
+    font-weight: bold;
+}
+.cancelpolicy_of_coronavirus .wrap-content-corona .title-table{
+    font-size: 11px;
+    color: #5b5b5b;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "ten-mincho", serif;
+}
+.cancelpolicy_of_coronavirus .wrap-table .header-table .text-header:first-child{
+    width: 300px;
+}
+.cancelpolicy_of_coronavirus .wrap-table .text-header{
+    font-size: 10px;
+    line-height: 1.5;
+    background-color: #fae3ce;
+    padding: 5px;
+}
+.cancelpolicy_of_coronavirus table, .cancelpolicy_of_coronavirus table tr,
+.cancelpolicy_of_coronavirus table th, .cancelpolicy_of_coronavirus table tr td {
+    border-collapse: collapse;
+}
+.cancelpolicy_of_coronavirus .wrap-table tr td, .wrap-table tr th{
+    border: 1px solid #555;
+}
+.cancelpolicy_of_coronavirus .wrap-table tr td:nth-child(2){
+    text-align: center;
+    width: 260px;
+    font-size: 10px;
+    padding: 5px;
+}
+.cancelpolicy_of_coronavirus .wrap-table tr td:nth-child(3){
+    padding: 20px 5px;
+    font-size: 10px;
+    width: 430px;
+}
+.cancelpolicy_of_coronavirus .wrap-table .text-note{
+    line-height: 1.5;
+}
+.cancelpolicy_of_coronavirus .wrap-table .text-red{
+    color: #b30000;
+}
+.cancelpolicy_of_coronavirus .table{
+    margin-bottom: 13px;
+}
+.intro-conrona{
+    font-size: 11px;
+    color: #282828;
+    margin-bottom: 13px;
+}
+.intro-conrona .text-red{
+    color: #b30000;
+}
+.intro-conrona .text-1,
+.intro-conrona .text-2 {
+    margin-bottom: 10px;
+}
+.bottom-breadcrumb {
+    display: none !important;
+}

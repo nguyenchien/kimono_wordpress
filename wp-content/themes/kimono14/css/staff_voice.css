@@ -1,0 +1,124 @@
+.flex-inline{
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+}
+.flex-list{
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+.page-staff-voice *{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.page-staff-voice{
+	margin-bottom: 20px;
+}
+.page-staff-voice .banner{
+	margin-bottom: 20px;
+}
+.page-staff-voice .banner img{
+	width: 100%;
+}
+.page-staff-voice .title{
+	height: 45px;
+	line-height: 45px;
+	padding: 0 10px;
+	margin-bottom: 5px;
+	background-color: #733d6c;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+}
+.page-staff-voice .staff-item{
+	padding: 15px 20px;
+}
+.page-staff-voice .staff-title{
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 1;
+	margin-bottom: 5px;
+}
+.page-staff-voice .staff-content{
+	border: 7px solid #733d6c;
+	padding: 10px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+.page-staff-voice .overview{
+	margin-bottom: 10px;
+}
+.page-staff-voice .brief{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.3;
+}
+.page-staff-voice .brief span{
+	font-size: 13px;
+	margin-left: 10px;
+}
+.page-staff-voice .brief .name{
+	margin-left: 15px;
+}
+.page-staff-voice .detail{
+	line-height: 1.7;
+	font-size: 12px;
+}
+.page-staff-voice .detail img{
+	float: right;
+	margin: 0 0 10px 10px;
+}
+.page-staff-voice .button-confirm{
+	text-align: center;
+	margin-top: 20px;
+}
+.page-staff-voice .button-confirm a{
+	display: inline-block;
+	width: 80%;
+	height: 65px;
+	line-height: 65px;
+	background-color: #ee9a26;
+	color: #fff;
+	font-size: 23px;
+	font-size: 7vw;
+	font-weight: bold;
+	text-align: center;
+	padding: 0 10px;
+}
+
+@media (min-width: 750px){
+	.page-staff-voice .staff-item {
+		padding: 15px 10px;
+	}
+	.page-staff-voice .brief{
+		font-size: 25px;
+		line-height: 1.1;
+	}
+	.page-staff-voice .brief span{
+		font-size: 17px;
+	}
+	.page-staff-voice .button-confirm a{
+		width: 37%;
+		font-size: 35px;
+	}
+	.page-staff-voice .detail{
+		font-size: 13px;
+	}
+	.page-staff-voice .brief .name{
+		margin-left: 30px;
+	}
+	.page-staff-voice .detail img{
+		margin: 0 0 10px 15px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 959px) {
+	.page-staff-voice .button-confirm a{
+		font-size: 27px;
+	}
+}

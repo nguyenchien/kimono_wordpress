@@ -1,0 +1,20 @@
+.title-general {
+    background-color: #22356f;
+}
+body.vi .title-general .text-title-general{
+    display: inherit;
+}
+.sub-title-list .bubble var{
+    margin-left: 4px;
+}
+.wrap-category .list-box-category .item-box-category .title-category a {
+    font-size: 13px;
+}
+.slider-banner-yukata{
+    margin-bottom: 20px;
+}
+@media (min-width: 750px){
+    .wrap-category .list-box-category .item-box-category .title-category a {
+        font-size: 14px;
+    }
+}

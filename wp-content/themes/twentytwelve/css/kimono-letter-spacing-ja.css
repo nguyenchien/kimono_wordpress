@@ -1,0 +1,712 @@
+/*===Widget top shoplist===*/
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg .title-shopname-wg,
+ .widget-top-shoplist .list-shoplist-wg-other .item-sub-list-other .text-shop-wg .title-shopname-wg{
+     letter-spacing: 2px;
+ }
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-des-shop-wg,
+.widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other .text-des-shop-wg{
+    letter-spacing: 2px;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .new-text-shop{
+    letter-spacing: 3px;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-label-shop{
+    letter-spacing: 2px;
+}
+.sub-data-shoplist-wg .sub-item-shop-wg .link-shoplist-wg{
+    letter-spacing: 2px;
+}
+.list-opt-check .item-check{
+    width: calc(100% * (1/2) - 10px);
+    letter-spacing: 1px;
+}
+
+/*===Access page===*/
+.new-access-child-page .wrap-new-shop-name .new-shop-name-access{
+    letter-spacing: 3px;
+}
+.new-access-child-page .wrap-new-shop-name .new-shop-name-access .new-shop-name-small.wrap-shop-name-small{
+    letter-spacing: 5px;
+}
+.new-access-child-page .new-shop-detail{
+    letter-spacing: 4px;
+}
+.new-access-child-page .wrap-link-new-page-access .link-new-page-access {
+    letter-spacing: 3px;
+}
+.new-access-child-page .wrap-new-kimono-howto .howto-textleft,
+.new-access-child-page .wrap-new-kimono-howto .howto-textright{
+    letter-spacing: 4px;
+}
+.new-access-child-page .distance-time li span,
+.new-access-child-page .distance-time li label{
+    letter-spacing: 4px;
+}
+.new-access-child-page .instruction_full_width{
+    letter-spacing: 5px;
+}
+.new-access-child-page .sub-title{
+    letter-spacing: 7px;
+}
+.new-access-child-page .caption-slide{
+    letter-spacing: 3px;
+}
+.new-access-child-page .name-access-instruction{
+    letter-spacing: 4px;
+}
+.reserve-list-access .main-btn{
+    letter-spacing: 5px;
+}
+.new-access-child-page .wrap-wg-fm-information .link-more a{
+    letter-spacing: 3px;
+}
+.new-access-child-page .title-access-booking .title-nextto-grid{
+    letter-spacing: 5px;
+}
+.text-above-grid-booking{
+    letter-spacing: 4px;
+}
+.new-access-child-page .intro-top-general .content-intro-top{
+    letter-spacing: 5px;
+}
+.new-access-child-page .intro-top-general .title-intro-top{
+    letter-spacing: 5px;
+}
+
+/*===Kimono plan list===*/
+.top-new-plan-list .title-top-new-pl .text-top-title{
+    letter-spacing: 5px;
+}
+.top-new-plan-list .info-top-new-pl .wrap-title-info .sm-title-info{
+    letter-spacing: 3px;
+}
+.top-new-plan-list .info-top-new-pl .wrap-title-info .lg-title-info{
+    letter-spacing: 5px;
+}
+.top-new-plan-list .info-top-new-pl .wrap-sub-info{
+    letter-spacing: 2px;
+}
+.wrap-filter-widget-pl .title-filter-wg-pl{
+    letter-spacing: 3px;
+}
+.box-filter-wg-pl .item-shop{
+    letter-spacing: 3px;
+}
+.box-filter-wg-pl .item-search .sl-search-shop,
+.box-filter-wg-pl .item-search .sl-search-shop-popup {
+    letter-spacing: 3px;
+}
+.wrap-link-to-gallery .linkto-gallery{
+    letter-spacing: 2px;
+}
+.wrap-sub-title-pl{
+    letter-spacing: 4px;
+}
+.wg-webpirce-box .box-webprice{
+    letter-spacing: 1px;
+}
+.wrap-web-price-info .sub-des{
+    letter-spacing: 2px;
+}
+.wrap-des-wg-pl{
+    letter-spacing: 3px;
+}
+.wrap-corresponding-store-wg .title-corresponding-store{
+    letter-spacing: 4px;
+}
+.info-corresponding-store{
+    letter-spacing: 3px;
+}
+.wrap-corresponding-store-wg .wrap-link-more-wg .btn-link-more{
+    letter-spacing: 5px;
+}
+.wrap-choose-sl-wg .wraper-sl .sl-choose-people{
+    letter-spacing: 3px;
+}
+.wraper-bnt-reserve .btn-reserve{
+    letter-spacing: 5px;
+}
+
+/*===Kimono petit list===*/
+.wrap-choose-shop-modal-petit .shop-list .shop-list-item .info-choose-shop{
+    letter-spacing: 3px;
+}
+.wrap-shop-chosen-petit .shop-chosen-text{
+    letter-spacing: 3px;
+}
+
+/*===Kimono vip list===*/
+.section-des-banner-vip .title-banner-vip{
+    letter-spacing: 2px;
+}
+.section-des-banner-vip .des-banner-vip{
+    letter-spacing: 2px;
+}
+.list-opt-vip .item-opt-vip .des-opt-vip{
+    letter-spacing: 1px;
+}
+.text-des-list-vip{
+    letter-spacing: 2px;
+}
+.wg-webpirce-box-vip .box-webprice .web {
+    letter-spacing: 2px;
+}
+
+/*===Kimono popup===*/
+.wrap-booking-flow-new-kimono .step-breadcrumb{
+    letter-spacing: 1px;
+}
+.wrap-plans-list-new-kimono .plan-name{
+    letter-spacing: 3px;
+}
+.wrap-plans-list-new-kimono .plan-description{
+    letter-spacing: 3px;
+}
+.wrap-correspond-store-list .store-list{
+    letter-spacing: 4px;
+}
+
+/*====Kimono Booking====*/
+.wrap-kimono-booking .title-list .sub-title-list{
+    letter-spacing: 5px;
+}
+.wrap-choose-info .title-choose{
+    letter-spacing: 2px;
+}
+.wrap-kimono-booking .shop-list-item .info-choose-shop{
+    letter-spacing: 2px;
+}
+.wrap-kimono-booking .shop-list-item  .box-des-shop{
+    letter-spacing: 2px;
+}
+.list-choose-shop .item-choose-shop .area-shop-name{
+    letter-spacing: 2px;
+}
+.wrap-choose-date .dropdown-choose-grid .text-date-choosed {
+    letter-spacing: 5px;
+}
+.box-btn-link-store .btn-link-store{
+    letter-spacing: 2px;
+}
+.wrap-grid-booking .wrap-reserve-kimono a{
+    letter-spacing: 5px;
+}
+.wrap-grid-booking-inner .paged > a{
+    letter-spacing: 4px;
+}
+.wrap-grid-booking-inner table{
+    letter-spacing: 2px;
+}
+.wrap-choose-shop-modal .choose-shop-title{
+    letter-spacing: 5px;
+}
+.wrap-choose-shop-modal .area-shop-list-item:not(:first-child) .shop-icon{
+    letter-spacing: 2px;
+}
+.wrap-choose-shop-modal .shop-list .shop-list-item .info-choose-shop{
+    letter-spacing: 4px;
+}
+.new-reserve-status .wrap-shop-chosen-petit{
+    letter-spacing: 4px;
+}
+
+/*===Kimono reserve cart===*/
+.person-plan .plan-name{
+    letter-spacing: 2px;
+}
+.person-plan .plan-price{
+    letter-spacing: 3px;
+}
+.item-group-options .name-option{
+    letter-spacing: 2px;
+}
+.wrap-plan-list-popup .reserve-btn-group .confirm{
+    letter-spacing: 5px;
+}
+
+/*===Kimono howto===*/
+.wrap-new-howto .inner-info-banner .sub-text-fm{
+    letter-spacing: 2px;
+}
+.wrap-new-howto .inner-info-banner .title-banner-fm-howto{
+    letter-spacing: 1px;
+}
+.wrap-new-howto .text-inner-fm-howto{
+    letter-spacing: 3px;
+}
+.wrap-new-howto .btn-formal{
+    letter-spacing: 4px;
+}
+
+/*===Photo session===*/
+.wrap-photo-session p{
+    letter-spacing: 2px;
+}
+.title-photo-session{
+    letter-spacing: 4px;
+}
+.box-gallery-photo-session a{
+    letter-spacing: 3px;
+}
+.box-step-the-flow .item-step .title-item-step-flow{
+    letter-spacing: 3px;
+}
+
+/*===Kimono group===*/
+.title-h2-new-group{
+    letter-spacing: 2px;
+}
+.des-infor-new-group{
+    letter-spacing: 1px;
+}
+.title-h3-new-group{
+    letter-spacing: 6px;
+}
+.list-shop-list-group .item-shoplist-group .text-shop-group{
+    letter-spacing: 1px;
+}
+.text-des-shop-group{
+    letter-spacing: 1px;
+}
+.phone-numbergroup{
+    letter-spacing: 5px;
+}
+.infor-phone-number-group{
+    letter-spacing: 1px;
+}
+.box-border-group .main-btn{
+    letter-spacing: 6px;
+}
+
+/*===Kimono attention===*/
+.wrap-new-kimono-attention .title-item{
+    letter-spacing: 5px;
+}
+.wrap-new-kimono-attention .btn-formal{
+    letter-spacing: 5px;
+}
+
+/*===Kimono faqs===*/
+.wrap-new-kimono-faqs .menu-item a{
+    letter-spacing: 5px;
+}
+.wrap-new-kimono-faqs .title-box-item{
+    letter-spacing: 5px;
+}
+.wrap-new-kimono-faqs .btn-formal{
+    letter-spacing: 5px;
+}
+.wrap-new-kimono-faqs .title-contact{
+    letter-spacing: 3px;
+}
+.wrap-new-kimono-faqs .info-contact p{
+    letter-spacing: 3px;
+}
+.wrap-des-contact-faqs{
+    letter-spacing: 3px;
+}
+.new-kimono-contact-faqs .link-reserve-contact a{
+    letter-spacing: 5px;
+}
+
+/*===Customer gallery===*/
+.wrap-customer-gallery-new .brief-gallery{
+    letter-spacing: 3px;
+}
+
+/*===Footer===*/
+.top-footer-menu-name{
+    letter-spacing: 3px;
+}
+
+/*=== /access ===*/
+.title-h1-access-top{
+    letter-spacing: 4px;
+}
+.box-des-access-top .info p{
+    letter-spacing: 3px;
+}
+.title-h2-access-list{
+    letter-spacing: 2px;
+}
+.regionShops .shopItem .link-to-shop a {
+    letter-spacing: 5px;
+}
+
+/*===Cart===*/
+.group-opt-item .opt-plan-name{
+    letter-spacing: 2px;
+}
+
+/*=== /access ===*/
+.title-h1-access-top{
+    letter-spacing: 4px;
+}
+.box-des-access-top .info p{
+    letter-spacing: 3px;
+}
+.title-h2-access-list{
+    letter-spacing: 2px;
+}
+.regionShops .shopItem .link-to-shop a {
+    letter-spacing: 5px;
+}
+/*=== Ctm-voice ===*/
+.wrap-ctmvoice-title .wrap-content-top-ctmvoice .box-content-top-ctmvoice {
+	letter-spacing: 1px;
+}
+.wrap-top100-title .wrap-content-top-top100 .box-content-top-top100{
+	letter-spacing: 0px;
+}
+.wrap-ctmvoice .wrap-content-top-ctmvoice .title-top-ctmvoice-first,
+.wrap-ctmvoice .wrap-content-top-ctmvoice .title-top-ctmvoice-second,
+.wrap-top100 .wrap-title-top100 .title-text-100{
+	letter-spacing: 3px;
+}
+.wrap-ctmvoice .wrap-ctmvoice-content .box-ctmvoice-content-mid{
+	letter-spacing: 1px;
+}
+.wrap-content-top-top100 .wrap-group-people-top100 .num-top-top100{
+	letter-spacing: 3px;
+}
+
+/*=== /hairset ===*/
+.title-new-h1-hairset{
+    letter-spacing: 3px;
+}
+.wrap-des-new-hairset{
+    letter-spacing: 3px;
+}
+.title-new-h3-hairset{
+    letter-spacing: 2px;
+}
+.title-new-h2-hairset{
+    letter-spacing: 2px;
+}
+.reserve-list-access .main-btn {
+    letter-spacing: 5px;
+}
+
+/*=== Customer review ===*/
+.banner-customer-review .banner-ctm-review .name-shop-ctm-review{
+    letter-spacing: 3px;
+}
+.wrap-title-lg-total{
+    letter-spacing: 5px;
+}
+.list-rsb-cate .item-rsb-cate,
+.list-rsb-cate .item-rsb-cate .title-dropdown {
+    letter-spacing: 3px;
+}
+.customer-review-sidebar .title-right-sidebar{
+    letter-spacing: 4px;
+}
+.shop-desc .shop-name h2{
+    letter-spacing: 4px;
+}
+.title-right-sidebar {
+    letter-spacing: 4px;
+}
+.link-review-by-shop a{
+    letter-spacing: 3px;
+}
+
+/*=== Kimono hairset plan ===*/
+
+.title-h1-new-hairset-plan{
+    letter-spacing: 3px;
+}
+.des-infor-bottom-banner-top{
+    letter-spacing: 3px;
+}
+.des-infor-hairset-plan{
+    letter-spacing: 2px;
+}
+.sub-title-small-hairset{
+    letter-spacing: 3px;
+}
+.wrap-infor-contact-hairset-plan .phone-number-hairset-plan{
+    letter-spacing: 5px;
+}
+.wrap-infor-contact-hairset-plan .infor-phone-number-hairset-plan{
+    letter-spacing: 1px;
+}
+.wrap-infor-contact-hairset-plan .infor-contact-mail{
+    letter-spacing: 3px;
+}
+.title-h2-new-hairset-plan{
+    letter-spacing: 5px;
+}
+.title-h3-new-hairset-plan{
+    letter-spacing: 2px;
+}
+.wrap-box-border-hairset-plan .box-border-hairset-plan .main-btn{
+    letter-spacing: 5px;
+}
+.link-next-to-page-list-hairset-plan{
+    letter-spacing: 3px;
+}
+.wrap-sb-adv .title-adv-normal{
+    letter-spacing: 3px;
+}
+.wrap-check-availbility-kimono-sp .wrap-general-check-availbility .num-check-availbility.new-num-check-availbility{
+    letter-spacing: 2px;
+}
+@media (max-width: 360px){
+    /*===Access page===*/
+    .new-access-child-page .wrap-new-shop-name .new-shop-name-access{
+        letter-spacing: 3px;
+    }
+    .new-access-child-page .wrap-link-new-page-access .link-new-page-access{
+        letter-spacing: 2px;
+    }
+    .new-access-child-page .distance-time li label{
+        letter-spacing: 2px;
+    }
+    .new-access-child-page .distance-time li span{
+        letter-spacing: 2px;
+    }
+
+    /*===Kimono howto===*/
+    .wrap-new-howto .btn-formal{
+        letter-spacing: 2px;
+    }
+
+    /*===Kimono group===*/
+    .list-shop-list-group .item-shoplist-group .text-shop-group{
+        letter-spacing: 0;
+    }
+    .infor-phone-number-group{
+        letter-spacing: 0;
+    }
+
+    /*===Bring===*/
+    .wrap-title-bring-common{
+        letter-spacing: 3px;
+    }
+    .wrap-top-banner .dots{
+        letter-spacing: 3px;
+    }
+    .wrap-top-banner .description .text{
+        letter-spacing: 2px;
+    }
+    .wrap-top-banner .note .text{
+        letter-spacing: 1px;
+    }
+    .wrap-option-des-bring .text-opt-des{
+        letter-spacing: 3px;
+    }
+	/* === Ctm voice ===*/
+	.wrap-ctmvoice .wrap-content-top-ctmvoice .title-top-ctmvoice-first,
+	.wrap-ctmvoice .wrap-content-top-ctmvoice .title-top-ctmvoice-second,
+	.wrap-top100 .wrap-content-top-top100 .title-top-top100{
+		letter-spacing: 2px;
+	}
+	.wrap-ctmvoice .wrap-ctmvoice-content .box-ctmvoice-content-mid{
+		letter-spacing: 2px;
+	}
+
+    /* === Kimono hairset plan ===*/
+    .title-h3-new-hairset-plan{
+        letter-spacing: 2px;
+    }
+    .wrap-box-border-hairset-plan .box-border-hairset-plan .main-btn{
+        letter-spacing: 2px;
+    }
+    .wrap-infor-contact-hairset-plan .infor-phone-number-hairset-plan{
+        letter-spacing: 0;
+    }
+}
+
+@media (max-width: 767px){
+    /*===Content top page===*/
+    .wrap-new-arrival-kimono-sp .status-view .text-view,
+    .wrap-new-arrival-kimono-sp .item-info-column .link-to span,
+    .wrap-new-arrival-kimono-sp .link-more a{
+        letter-spacing: 3px;
+    }
+    .customer-review-by-shop .title-list{
+        letter-spacing: 2px;
+    }
+}
+
+@media (min-width: 750px){
+    /*===Widget top shoplist===*/
+    .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .new-text-shop{
+        letter-spacing: 0;
+    }
+    .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg .title-shopname-wg,
+    .sub-data-shoplist-wg .sub-item-shop-wg .link-shoplist-wg {
+        letter-spacing: 3px;
+    }
+    .top-shoplist-kiyomizu .widget-top-shoplist .list-shoplist-wg-other .item-sub-list-other .text-shop-wg .title-shopname-wg{
+        letter-spacing: 3px;
+    }
+
+    /*===Access page===*/
+    .new-access-child-page .widget-top-page-new-kimono .list-shop-list-top-page .item-shop-list .text-with-border{
+        letter-spacing: 5px;
+    }
+    .new-access-child-page .widget-top-page-new-kimono .list-shop-list-top-page .item-shop-list .text-no-border{
+        letter-spacing: 5px;
+    }
+    .new-access-child-page .wrap-link-new-page-access .link-new-page-access{
+        letter-spacing: 5px;
+    }
+    .list-opt-check .item-check{
+        letter-spacing: 3px;
+    }
+    .new-access-child-page .wrap-new-shop-name .new-shop-name-access .wrap-shop-name-small .new-shop-name-access {
+        letter-spacing: 10px;
+    }
+    .new-access-child-page.kyotostation .wrap-new-shop-name .new-shop-name-access .new-shop-name-small.wrap-shop-name-small .new-shop-name-access{
+        letter-spacing: 4px;
+    }
+    .wrap-wg-fm-information-access .list-info .sub-item-info a .date {
+        letter-spacing: 2px;
+    }
+    .new-access-child-page .wrap-wg-fm-information-access .list-info .sub-item-info .name{
+        letter-spacing: 2px;
+    }
+    .wrap-wg-fm-information-access .status-view .text-view {
+        letter-spacing: 3px;
+    }
+    .wrap-wg-fm-information-access .status-view .num-view{
+        letter-spacing: 1px;
+    }
+    .wrap-wg-fm-information-access .link-to {
+        letter-spacing: 2px;
+    }
+    .new-access-child-page .wrap-wg-fm-information-access .link-more a,
+    .new-access-child-page .wrap-wg-fm-gallery-access .link-more a{
+        letter-spacing: 5px;
+    }
+
+    /*===Footer===*/
+    .new_kimono_footer .top-footer-sub-item a{
+        letter-spacing: 2px;
+    }
+
+    /*===Kimono howto===*/
+    .wrap-new-howto .btn-formal{
+        letter-spacing: 10px;
+    }
+    .wrap-new-howto .inner-info-banner .text-banner-fm-flow{
+        letter-spacing: 10px;
+    }
+    .wrap-new-howto .inner-info-banner .title-banner-fm-howto{
+        letter-spacing: 7px;
+    }
+    .wrap-new-howto .wrap-paragraph-banner-howto{
+        letter-spacing: 1px;
+    }
+
+    /*===Kimono group===*/
+    .title-h2-new-group{
+        letter-spacing: 5px;
+    }
+    .list-shop-list-group .item-shoplist-group .text-shop-group{
+        letter-spacing: 2px;
+    }
+    .contact-mail-group .infor-contact-mail{
+        letter-spacing: 3px;
+    }
+
+    /*===Bring===*/
+    .wrap-top-banner .dots{
+        letter-spacing: 5px;
+    }
+
+    /*=== /access ===*/
+    .text-behind-icon{
+        letter-spacing: 3px;
+    }
+    .title-h1-access-top{
+        letter-spacing: 7px;
+    }
+    .box-des-access-top .info p{
+        letter-spacing: 4px;
+    }
+    .regionShops .shop-address{
+        letter-spacing: 2px;
+    }
+	/* Ctm Voice */
+	.wrap-ctmvoice .wrap-ctmvoice-content .box-ctmvoice-content-mid{
+		letter-spacing: 3px;
+	}
+	.wrap-top100-title .wrap-content-top-top100 .box-content-top-top100{
+		letter-spacing: 3px;
+	}
+
+    /*=== /hairset ===*/
+    .title-new-h1-hairset,
+    .title-new-h2-hairset,
+    .title-new-h3-hairset{
+        letter-spacing: 6px;
+    }
+
+    /*=== Customer Review ===*/
+    .banner-customer-review .banner-ctm-review .name-shop-ctm-review {
+        letter-spacing: 13px;
+    }
+    .title-name-review,
+    .title-rank{
+        letter-spacing: 4px;
+    }
+    .wrap-description-ctm-review{
+        letter-spacing: 4px;
+    }
+    .wrap-title-lg-total .title-lg-total{
+        letter-spacing: 9px;
+    }
+    .wrap-title-name-review{
+        letter-spacing: 5px;
+    }
+    .wrap-customer-review .intro-top-general .title-intro-top{
+        letter-spacing: 2px;
+    }
+
+    /*=== Kimono hairset plan ===*/
+    .title-h1-new-hairset-plan{
+        letter-spacing: 7px;
+    }
+    .des-infor-bottom-banner-top{
+        letter-spacing: 4px;
+    }
+    .infor-cantact-new-hairset{
+        letter-spacing: 2px;
+    }
+    .title-h2-new-hairset-plan{
+        letter-spacing: 7px;
+    }
+    .title-h3-new-hairset-plan{
+        letter-spacing: 4px;
+    }
+    .wrap-infor-contact-hairset-plan .phone-number-hairset-plan{
+        letter-spacing: 5px;
+    }
+    .wrap-infor-contact-hairset-plan .infor-contact-mail{
+        letter-spacing: 4px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

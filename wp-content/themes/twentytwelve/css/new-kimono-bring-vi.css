@@ -1,0 +1,11 @@
+@media (min-width: 750px) {
+    .wrap-top-banner .description .text {
+        font-size: 14px;
+    }
+    .wrap-options .item-option{
+        font-size: 12px;
+    }
+    .wrap-options .note-option {
+        font-size: 11px;
+    }
+}

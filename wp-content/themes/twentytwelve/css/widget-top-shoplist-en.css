@@ -1,0 +1,81 @@
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .wrap-label-shop.custom{
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .lg-label-shop.custom{
+    width: 45px;
+    height: 45px;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-label-shop {
+    font-size: 9px;
+    text-align: center;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg{
+    padding: 0 10px;
+}
+
+@media (min-width: 750px) {
+    /*.widget-top-shoplist .icon-shoplist-wg{
+        width: 300px;
+    }
+    .top-shoplist-kyotostation .icon-shoplist-wg,
+    .top-shoplist-gion .icon-shoplist-wg,
+    .top-shoplist-arashiyama .icon-shoplist-wg{
+        width: 350px;
+    }*/
+    .top-shoplist-kyotostation:not(.top-shoplist-kyotostation-detail) .item-shoplist-wg-other .sub-list-other li a{
+        height: 171px;
+    }
+    .top-shoplist .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg:last-child .title-shopname-wg{
+        padding-left: 7px;
+    }
+    .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg.other-shop{
+        padding: 0 20px 0 35px;
+    }
+    .widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other .text-des-shop-wg{
+        font-size: 11px;
+    }
+    /*Gion-area*/
+    .top-shoplist-gion:not(.top-shoplist-gion-detail) .sub-list-other .link-shoplist-wg{
+        height: 170px;
+    }
+    /*Kiyomizu-area*/
+    /*.top-shoplist-kiyomizu .icon-shoplist-wg{
+        width: 410px;
+    }*/
+    .top-shoplist-kiyomizu .widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other:first-child{
+        width: 45%;
+    }
+    .top-shoplist-kiyomizu .list-shoplist-wg .item-shoplist-wg{
+        -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end;
+        place-self: start end;
+    }
+    .top-shoplist-kiyomizu .widget-top-shoplist .list-shoplist-wg-other .item-sub-list-other .fa-shop{
+        margin-right: 0;
+    }
+    .top-shoplist-kiyomizu .item-shoplist-wg-other .list-shoplist-wg .link-shoplist-wg .text-shop-wg{
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+    }
+    .top-shoplist-kiyomizu .item-sub-list-other .link-shoplist-wg{
+        height: 171px;
+    }
+    /*Arashiyama-area*/
+    .top-shoplist-arashiyama .list-shoplist-wg-other .sub-list-other .item-sub-list-other .link-shoplist-wg{
+        height: initial;
+    }
+    .top-shoplist-arashiyama .item-shoplist-wg-other .sub-list-other .link-shoplist-wg .text-shop-wg{
+        height: 153px;
+        padding: 0 5px;
+    }
+    .top-shoplist-arashiyama .item-shoplist-wg-other .link-shoplist-wg .text-shop-wg{
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+    }
+
+}

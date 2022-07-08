@@ -1,0 +1,313 @@
+
+@media all and (max-width: 767px) {
+	.left-kimono-block-option.box-vi li .option-kimono-all h2.title-kimono-option, 
+	.left-kimono-block-option.box-en li .option-kimono-all h2.title-kimono-option{
+		max-width: 101px;
+		font-size: 10px;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options.option-plan-en .lists{
+		width: 97%;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble.default, 
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble.standard.standard-en{
+		max-width: 140px;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble.yukata-mamechiyo-en var i{
+		left: -24px;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble.premium.premium-en{
+		max-width: 150px;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble.mamechiyo.mamechiyo-en{
+		max-width: 130px;
+	}
+	div.general_title_box h3.title-plan-en,
+	div.general_title_box h3.title-plan-vi{
+		font-size: 18px;
+	}
+	.layout-kimono-sp div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page.info-en .prices ul.price li{
+		width: 58%;
+	}
+	.layout-kimono-sp div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page.info-en .prices ul.price li:first-child{
+		width: 42%;
+	}
+	.layout-kimono-sp div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page.info-en .prices ul.price li.price_large p{
+		font-size: 30px;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page.info-en .prices ul.price li.price_large p span var{
+		font-size: 14px;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page.info-en .prices ul.price li.price_large p span var{
+		font-size: 14px;
+		font-size: 10px;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page.info-en .prices ul.price li p.bg_red{
+		font-size: 10px;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page.info-en .prices ul.price li p.price_small{
+		font-size: 10px;
+		background-size: 106px 2px;
+		background: url('../images/icon/diagonal-red.png') no-repeat 0 6px;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page.info-en .title h1 span.bubble var{
+		font-size: 8px;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page.info-en .title h1 span.name{
+		font-size: 14px;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page.info-en .title h1 span.bubble.men var i{
+		left: -20px;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple .option-plan-en ul li{
+		margin-right: 3px;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple .option-plan-en ul li p{
+		max-width: 40px;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple .option-plan-en ul .list{
+		padding-left: 0;
+	}
+	div.content-couple section.section_general.couple-en div.title-box-couple p{
+		font-size: 14px;
+	}
+	div.general_title_box h3.add-tittle-option.title-option-en{
+		font-size: 14px;
+	}
+	
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page.info-vi .title h1 span.bubble.bubble-kimono{
+		position: relative;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page.info-vi .title h1 span.bubble.bubble-kimono i{
+		display: none;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page.info-vi .title h1 span.name{
+		width: 100%;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page.info-vi .title h1 span.bubble.bubble-kimono {
+		margin:5px 0;
+		display: block;
+		width: 100%;
+		top: auto;
+		left: auto;
+		float: left;
+		max-width: none !important;
+		right: auto;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page.info-vi .title h1 span.bubble.bubble-kimono:before{
+		content: ' ';
+		width: 0;
+		height: 0;
+		border-bottom: 5px solid #fff42e; 
+		border-left: 5px solid transparent; 
+		border-right: 5px solid transparent; 
+		position: absolute;
+		left: 10px;
+		top: -4px;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page.info-vi .title h1 span.bubble.bubble-kimono.premium-vi:before{
+		border-bottom: 5px solid #ff3920;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page.info-vi .title h1 span.bubble.bubble-kimono.mamechiyo-vi:before{
+		border-bottom: 5px solid #ff9bca;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page.info-vi .title h1 span.bubble.bubble-kimono.men:before{
+		border-bottom: 5px solid #9fe6ff;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble var span.mamechiyo-over, 
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble var span.premium-over{
+		transition: none;
+		-webkit-transform: none;
+		-moz-transform: none;
+		-ms-transform: none;
+		-o-transform: none;
+		height: auto;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble var span.mamechiyo-over:after,
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble var span.premium-over:after{
+		content: initial;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble.mamechiyo.mamechiyo-vi:hover .mamechiyo-over:after,
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble.premium.premium-vi:hover .premium-over:after{
+		opacity: 1;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble var{
+		padding: 5px;
+	}
+
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble.mamechiyo.mamechiyo-vi:hover span.mamechiyo-over,
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble.premium.premium-vi:hover span.premium-over{
+		height: auto;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple .option-plan-vi ul li p{
+		max-width: 30px;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple .option-plan-vi ul .list{
+		padding-left: 0;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple .option-plan-vi ul .text{
+		margin-bottom: 3px;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .lists{
+		box-sizing: border-box;
+	}
+	
+	div.kimono-couple-page .couple-vi div.view_link_goto_page a.goto_page{
+		font-size: 8px;
+		margin-right: 0;
+	}
+	.couple-vi div.content_box_info_subpage p.sub_description{
+		font-size: 10px;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page.info-vi .title h1 span.bubble.bubble-kimono var{
+		font-size: 11px;
+	}
+	div.general_title_box h3.add-tittle-option.title-option-vi{
+		font-size: 15px;
+	}
+	.couple-en ul.view_price li.price_large p,
+	.couple-vi ul.view_price li.price_large p{
+		font-size: 22px;
+	}
+	.layout-kimono-sp div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page.info-vi .prices ul.price li{
+		width: 100%;
+	}
+	body.vi div.content-couple div.content_box_info_subpage ul.view_price li span.diagonal{
+		width: 100px;
+	}
+	body.vi div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.price_small{
+		background-size: 147px;
+	}
+	div.view_link_goto_page span.text-view-link {
+		height: 20px;
+		display: inline-block;
+		position: relative;
+		box-sizing: border-box;
+		padding-left: 10px;
+	}
+	div.view_link_goto_page a.goto_page span:before {
+		content: ' ';
+		width: 0;
+		height: 0;
+		border-left: 8px solid #0171BC;
+		border-top: 5px solid transparent;
+		border-bottom: 5px solid transparent;
+		display: inline-block;
+		position: absolute;
+		left: 0;
+		top: 5px;
+	}
+	body.vi.layout-kimono-sp .box-content-page .sect-kimomo-normal.couple-sex #tab-sex li a{
+		font-size: 11px;
+		font-size: 3.5vw;
+	}
+	body.en.layout-kimono-sp .box-content-page .sect-kimomo-normal.couple-sex #tab-sex li a,
+	.layout-kimono-sp .box-content-page .sect-kimomo-normal.couple-sex #tab-sex li a span{
+		font-size: 10px;
+		font-size: 3.2vw;
+	}
+	body.vi div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble.couple.pre var{
+		margin-top: 2px;
+	}
+	body.en div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li p{
+		font-size: 7px;
+		word-wrap: break-word;
+	}
+	body.vi div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble.couple var,
+	body.en div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble.couple var{
+		margin: 13px auto;
+	}
+	body.vi div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble var{
+		font-size: 8px;
+	}
+	body.en div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple .option-plan-en.yukata-option ul .list li{
+		min-width: 35px;
+	}
+	/* duyen add plan */	
+	div.reserve-booking div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li{
+		margin-right: 5px;
+	}
+	div.reserve-booking div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li p{
+		max-width: 39px;
+	}
+	body.en div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li p, body.vi div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li p {
+		font-size: 8px;
+		word-break: break-word;
+	}
+	div.reserve-booking .addplan-bring-sp div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li{
+		float: none;
+	}
+	div.reserve-booking .addplan-bring-sp div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li p{
+		max-width: 100%;
+	}
+	/* duyen */
+	.all-kimono-bring-plan .kimono-bring-plan .box-bring-details .bottom-bring-details ul.list-icon li{
+		height: 60px;
+	}
+	.all-kimono-bring-plan .kimono-bring-plan .box-bring-details .bottom-bring-details ul.list-icon li img {
+		width: 44px;
+		height: auto;		
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.name.couple{
+		min-height: 32px;
+	}
+	body.vi div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble.couple.pre var {
+		margin: 15px 0;
+	}
+}
+@media (max-width: 480px) and (min-width: 321px){
+	div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple .option-plan-vi ul li p {
+		max-width: 39px;
+	}
+}
+@media all and (max-width: 320px) {
+	.info-en .title var.title-var-kimono,
+	.info-vi .title var.title-var-kimono{
+		float: left;
+	}
+	body.en div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple .text li > span{
+		min-width: 32px;
+	}
+	body.vi div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple .text li > span{
+		min-width: 20px;
+	}
+	div.reserve-booking div.kimono-couple-page.yukata-reserve div.box-general-kimono-couple-page .info div.option-kimono-couple ul li,
+	div.reserve-booking div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li {
+		margin-right: 3px;
+	}
+	div.reserve-booking div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.name {
+		font-size: 12px;		
+	}
+	body.en div.reserve-booking div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.name{
+		min-height: 25px;
+	}
+	body.en div.reserve-booking div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.name.couple{
+		min-height: 35px;
+	}
+	div.reserve-booking div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li p {
+		max-width: 26px;
+	}
+	.layout-kimono-sp div.kimono-couple-page.yukata-reserve div.box-general-kimono-couple-page .info div.option-kimono-couple ul .list{
+		width: auto;
+	}
+	div.reserve-booking section.addplan-yukata-sp div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.name{
+		min-height: 13px;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble.default.yukata-highend-en{
+		max-width: 130px;
+	}	
+	body.vi div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.name.couple {
+		min-height: 37px;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble.default, 
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble.standard.standard-en{
+		max-width: 120px;
+	}
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble.premium.premium-en {
+		max-width: 125px;
+	}
+	body.en div.reserve-booking div.kimono-couple-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li{
+		float: left;
+		width: inherit;
+	}
+	
+}

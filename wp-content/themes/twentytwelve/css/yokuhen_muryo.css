@@ -1,0 +1,310 @@
+.flex-inline{
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+}
+.flex-list{
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+.page-yokuhen-muryo *{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.page-yokuhen-muryo > div{
+	padding: 0 10px;
+	margin-bottom: 15px;
+}
+.page-yokuhen-muryo .banners ul{
+	margin-top: -15px;
+}
+.page-yokuhen-muryo .banners ul li{
+	width: 100%;
+	margin-top: 15px;
+}
+.page-yokuhen-muryo .banners .banner-text{
+	background: #40210f;
+}
+.page-yokuhen-muryo .banners .text{
+	color: #fff;
+	padding: 10px 5px 5px 5px;
+	font-size: 10px;
+	font-size: 2.6vw;
+	line-height: 1.6;
+	text-align: center;
+}
+.page-yokuhen-muryo .banners .text .bold{
+	font-weight: bold;
+	font-size: 10px;
+	font-size: 3.3vw;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+.page-yokuhen-muryo .banners .text .yellow{
+	color: yellow;
+}
+.page-yokuhen-muryo .banners .text .red{
+	color: red;
+	font-weight: bold;
+	font-size: 15px;
+}
+.page-yokuhen-muryo .banners .text .normal{
+	display: block;
+	font-size: 7px;
+	font-size: 2vw;
+	margin-top: 10px;
+	text-align: right;
+}
+.page-yokuhen-muryo .shops{
+	border-top: 2px solid #9b8167;
+	margin-top: 15px;
+	padding-top: 10px;
+}
+.page-yokuhen-muryo .shops .sub-title{
+	line-height: 1;
+	color: #000;
+	font-size: 18px;
+	font-size: 6vw;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.page-yokuhen-muryo .shops ul{
+	margin: -10px 0 0 -15px;
+}
+.page-yokuhen-muryo .shops ul li{
+	width: 48%;
+	width: calc(50% - 15px);
+	margin: 10px 0 0 15px;
+}
+.page-yokuhen-muryo .shops ul li a{
+	background-color: #703b67;
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	align-items: center;
+	-webkit-align-items: center;
+	padding: 0 5px;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+}
+.page-yokuhen-muryo .shops ul li .fa-shop{
+	line-height: 1;
+	color: #fff;
+	font-size: 20px;
+	margin-right: 7px;
+	position: relative;
+	top: 2px;
+}
+.page-yokuhen-muryo .shops ul li var{
+	color: #fff;
+	font-weight: bold;
+	font-size: 10px;
+	font-size: 3.2vw;
+}
+.page-yokuhen-muryo .shops ul li em{
+	position: absolute;
+	right: 3px;
+	background-color: #fff;
+	color: #703b67;
+	font-size: 7px;
+	font-size: 2.2vw;
+	padding: 3px 3px 2px 3px;
+	text-transform: uppercase;
+	line-height: 1;
+}
+.page-yokuhen-muryo .shops ul li img{
+	width: 35px;
+	position: absolute;
+	right: 3px;
+}
+.page-yokuhen-muryo .nav-area ul{
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	margin-left: -10px;
+}
+.page-yokuhen-muryo .nav-area ul li{
+	flex: 1;
+	-webkit-flex: 1;
+	margin-left: 10px;
+}
+.page-yokuhen-muryo .nav-area ul li a{
+	background-color: #db831b;
+	color: #fff;
+	font-size: 17px;
+	font-size: 5vw;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	line-height: 38px;
+	height: 38px;
+	padding: 0 5px;
+}
+.page-yokuhen-muryo .list-area{
+	margin-top: -5px;
+}
+.page-yokuhen-muryo .area-item{
+	margin-top: 20px;
+	background-color: #f3ddbc;
+}
+.page-yokuhen-muryo .area-item .title{
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	background-color: #40210f;
+	color: #fff;
+	font-size: 20px;
+	font-size: 7vw;
+	font-weight: bold;
+}
+.page-yokuhen-muryo .area-item .content{
+	padding: 10px 10px 15px 10px;
+}
+.page-yokuhen-muryo .area-item .image{
+	margin-bottom: 20px;
+}
+.page-yokuhen-muryo .area-item .image img{
+	width: 100%;
+}
+.page-yokuhen-muryo .area-item .desc{
+	font-size: 12px;
+	line-height: 1.7;
+}
+.page-yokuhen-muryo .reserve-link{
+	text-align: center;
+}
+.page-yokuhen-muryo .reserve-link a{
+	width: 50%;
+	background-color: #ffb73d;
+	color: #fff;
+	font-size: 20px;
+	font-size: 7vw;
+	font-weight: bold;
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+}
+
+@media (min-width: 750px) {
+	.page-yokuhen-muryo .banners ul{
+		margin: 0 0 0 -15px;
+		flex-wrap: nowrap;
+		-webkit-flex-wrap: nowrap;
+	}
+	.page-yokuhen-muryo .banners ul li{
+		margin: 0 0 0 15px;
+		flex: 1;
+		-webkit-flex: 1;
+		-ms-flex: 1;
+		display: flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		align-items: center;
+		-webkit-align-items: center;
+	}
+	.page-yokuhen-muryo .banners ul li img{
+		width: 100%;
+	}
+	.page-yokuhen-muryo .banners .text{
+		width: 100%;
+		font-size: 12px;
+	}
+	.page-yokuhen-muryo .banners .text .bold{
+		font-size: 17px;
+	}
+	.page-yokuhen-muryo .banners .text .normal{
+		font-size: 10px;
+	}
+	.page-yokuhen-muryo .banners .text .red{
+		font-size: 23px;
+		line-height:1;
+	}
+	.page-yokuhen-muryo .nav-area ul{
+		margin-left: -15px;
+	}
+	.page-yokuhen-muryo .nav-area ul li{
+		margin-left: 15px;
+	}
+	.page-yokuhen-muryo .nav-area ul li a{
+		font-size: 30px;
+		height: 50px;
+		line-height: 50px;
+	}
+	.page-yokuhen-muryo .area-item .title{
+		height: 45px;
+		line-height: 45px;
+		font-size: 30px;
+	}
+	.page-yokuhen-muryo .shops .sub-title{
+		font-size: 25px;
+	}
+	.page-yokuhen-muryo .shops ul li var{
+		font-size: 15px;
+	}
+	.page-yokuhen-muryo .shops ul li em{
+		font-size: 9px;
+	}
+	.page-yokuhen-muryo .reserve-link a{
+		width: 35%;
+		font-size: 30px;
+		height: 60px;
+		line-height: 60px;
+	}
+	.page-yokuhen-muryo .area-item .image{
+		margin: 0 20px 20px 0;
+		width: 300px;
+		float: left;
+	}
+	.page-yokuhen-muryo .shops{
+		clear: both;
+	}
+	.page-yokuhen-muryo .shops ul {
+		margin: -15px 0 0 -15px;
+	}
+	.page-yokuhen-muryo .shops ul li{
+		width: 170px;
+		width: calc(20% - 15px);
+		margin: 15px 0 0 15px;
+	}
+	.page-yokuhen-muryo .shops ul li .fa-shop{
+		font-size: 23px;
+		margin-right: 5px;
+	}
+	.page-yokuhen-muryo .area-item .desc{
+		font-size: 13px;
+	}
+	.page-yokuhen-muryo .reserve-link{
+		margin: 30px 0;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 959px) {
+	.page-yokuhen-muryo .banners .text{
+		font-size: 11px;
+	}
+	.page-yokuhen-muryo .banners .text .bold{
+		font-size: 13px;
+	}
+	.page-yokuhen-muryo .banners .text .normal{
+		font-size: 9px;
+	}
+	.page-yokuhen-muryo .banners .text .red{
+		font-size: 17px;
+	}
+	.page-yokuhen-muryo .shops ul li .fa-shop{
+		font-size: 20px;
+	}
+	.page-yokuhen-muryo .shops ul li var{
+		font-size: 10px;
+	}
+	.page-yokuhen-muryo .shops ul li em{
+		font-size: 7px;
+	}
+	.page-yokuhen-muryo .shops ul li img{
+		width: 35px;
+	}
+}

@@ -1,0 +1,1310 @@
+
+/* 
+    Created on : Mar 29, 2016, 2:00:26 PM
+    Author     : dai huynh
+*/
+/*
+Pages apply: /homongi, kurotomesode, irotomesode, seijin, sotsugyou, shichigosan/
+*/
+@import "before-taking.css";
+.dx-prefix-flex{
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	-webkit-align-content: space-between;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+.highend-furisode .container-furisode{
+	width: 100%;
+}
+.footer-taking .container-padding{
+	padding: 0 7px;
+	box-sizing: border-box;
+}
+.highend-shichigosan .filter-color .container-padding{
+	padding: 0;
+}
+.highend-furisode h2.title-furisode{
+	background-color: #956395;
+	padding: 7px;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 13px;
+	font-size: 4.5vw;
+	font-weight: bold;
+	line-height: 1.5;
+	position: relative;
+}
+.highend-furisode .sub-title-furisode{
+	background:url("../images/bg-checkbox-23x22.png") no-repeat left center;
+	padding-left: 30px;
+	margin: 14px 0px 5px 5px;
+	font-size: 24px;
+	font-size: 4.5vw;
+	color: #956395;
+	font-weight: bold;
+}
+.highend-furisode .notice-title-furisode{
+	margin: -10px 24px 30px 23px;
+}
+.highend-furisode .notice-title-furisode p{
+	font-size: 15px;
+	font-size: 3.7vw;
+}
+
+.highend-furisode h2.title-furisode span.reset{
+	position: absolute;
+	right: 0;
+	padding-right: 10px;
+}
+.highend-furisode h2.title-furisode a > span.reset{
+	color: #fff;
+}
+
+.highend-furisode .filter-price h3,
+.highend-furisode .filter-color h3
+{
+	position: relative;
+}
+
+.highend-furisode .filter-price h3 span.reset,
+.highend-furisode .filter-color h3 span.reset
+{
+	font-size: 13px;
+	position: absolute;
+	right: 0;
+	padding-right: 10px;
+}
+.highend-furisode .filter-price h3 span.reset a,
+.highend-furisode .filter-color h3 span.reset a
+{
+	color: #C8C8C8;
+}
+/*--link button--*/
+.wrap-button-taking{
+	margin-bottom: 20px;
+}
+.wrap-button-taking.other-homongi{
+	margin-top: 20px;
+}
+.wrap-button-taking a.link-more,
+.wrap-button-rantal a.link-more{
+	display: block;
+	background-color: #fff;
+	color: #F9A523;
+	border: 2px solid #F9A523;
+	font-size: 20px;
+	font-size: 6vw;
+	font-weight: bold;
+	line-height: 1;
+	text-align: center;
+	padding: 13px 10px 9px;
+	box-sizing: border-box;
+	margin-bottom: 5px;
+	text-decoration: none;
+	position: relative;
+}
+.wrap-button-rantal a.link-more{
+	font-size: 18px;
+	font-size: 5vw;
+}
+.wrap-button-taking a.link-more.bg-F9A523{
+	background-color: #F9A523;
+	color: #fff;
+}
+.wrap-button-taking a.link-more:after,
+.wrap-button-rantal a.link-more:after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border-left: 10px solid #F9A523;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	position: absolute;
+	top: 30%;
+	right: 5px;
+}
+.wrap-button-taking a.link-more.bg-F9A523:after{
+	border-left: 10px solid #fff;
+}
+.highend-furisode .wrap-banner-top .banner-top,
+.highend-furisode .wrap-banner-top .banner-photo{
+	margin-bottom: 8px;
+}
+.highend-furisode .wrap-banner-top .banner-top{
+	position: relative;
+}
+.highend-furisode .wrap-text-banner-top{
+	position: absolute;
+	bottom: 2%;
+	left: 24%;
+	width: 47%;
+	line-height: 1;
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	align-self: stretch;
+	justify-content: space-around;
+}
+.highend-shichigosan .wrap-text-banner-top{
+	bottom: 23%;
+	left: 1%;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+}
+.highend-sotsugyou .wrap-text-banner-top{
+	bottom: 4%;
+	left: 22%;
+}
+/*.highend-seijin .wrap-text-banner-top{
+	left: 28%;
+}*/
+.highend-furisode .wrap-text-banner-top .l-text,
+.highend-furisode .wrap-text-banner-top .s-text{
+	font-weight: bold;
+}
+.highend-furisode .wrap-text-banner-top .l-text{
+	font-size: 33px;
+	font-size: 9vw;
+}
+.highend-furisode .wrap-text-banner-top .s-text{
+	font-size: 22px;
+	font-size: 5.5vw;
+}
+.highend-sotsugyou .wrap-text-banner-top .l-text{
+	font-size: 25px;
+	font-size: 6.5vw;
+}
+.highend-sotsugyou .wrap-text-banner-top .s-text{
+	font-size: 15px;
+	font-size: 4vw;
+}
+.highend-shichigosan .wrap-text-banner-top .l-text{
+	font-size: 23px;
+	font-size: 6vw;
+}
+.highend-shichigosan .wrap-text-banner-top .s-text{
+	font-size: 20px;
+	font-size: 5.5vw;
+}
+.highend-houmongi .wrap-text-banner-top{
+	left: 23.5%;
+	width: 47%;
+}
+.highend-houmongi .l-text,
+.highend-houmongi .s-text{
+	color: #435ea1;
+}
+
+.highend-kurotomesode .l-text,
+.highend-kurotomesode .s-text{
+	color: #95993b;
+}
+
+.highend-irotomesode .wrap-text-banner-top{
+        left: 23.2%;
+}
+.highend-irotomesode .l-text,
+.highend-irotomesode .s-text{
+	color: #9598c5;
+}
+.bnt-link-page{
+	min-width: 272px;
+}
+.highend-seijin .wrap-text-banner-top{
+        left: 24.5%;
+        width: 44%;
+}
+
+.highend-seijin .l-text,
+.highend-seijin .s-text{
+	color: #ee3579;
+}
+.highend-sotsugyou .l-text,
+.highend-sotsugyou .s-text{
+	color: #ff7537;
+}
+.highend-shichigosan .l-text,
+.highend-shichigosan .s-text{
+	color: #ff8e96;
+}
+/*display none and block*/
+.highend-furisode .wrap-banner-top .banner-photo img.pc,
+.widget-shop img.pc,
+.wrap-filter-product .filter-price img.pc,
+.wrap-filter-product .filter-color img.pc,
+.wrap-6points img.pc,
+.topic-furisode img.pc,
+.wrap-button-rantal.pc a.link-more{
+	display: none;
+}
+/*--widget-shop--*/
+.widget-shop ul{
+	margin-bottom: 10px;
+}
+.widget-shop ul li{
+	width: 19.53125%;
+}
+.wrap-filter-product h3.title-filter{
+	color: #C8C8C8;
+	font-size: 13px;
+	font-size: 4.5vw;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding: 10px 7px 0;
+	box-sizing: border-box;
+	line-height: 1;
+}
+.wrap-filter-product .filter-price ul li{
+	width: 32.8%;
+	margin-bottom: 1%;
+}
+.wrap-filter-product .filter-price ul.two-item li{
+	/*width: 49.5%;*/
+}
+.wrap-filter-product .filter-color,
+.highend-sotsugyou .wrap-filter-product .filter-price{
+	margin-bottom: 20px;
+}
+.wrap-filter-product{
+	margin-bottom: 20px;
+}
+.wrap-filter-product .filter-color ul li{
+	width: 24.7%;
+	margin-bottom: 0.8%;
+}
+.highend-shichigosan .wrap-filter-product .filter-color ul li{
+	width: 32.8%;
+}
+/*--6 points furisode--*/
+.wrap-6points h2.title-point{
+	position: relative;
+	width: 100%;
+	background-color: #E93175;
+	color: #fff;
+	font-size: 25px;
+	font-size: 7vw;
+	padding: 7px;
+	box-sizing: border-box;
+	text-align: center;
+	margin-bottom: 17px;
+}
+.highend-shichigosan .wrap-6points h2.title-point{
+	background-color: #ff8b94;
+}
+.highend-kurotomesode .wrap-6points h2.title-point{
+	background-color: #96983c;
+}
+.highend-sotsugyou .wrap-6points h2.title-point{
+	background-color: #ff7538;
+	font-size: 20px;
+	font-size: 6.2vw;
+}
+.highend-irotomesode .wrap-6points h2.title-point{
+	background-color: #9698c4;
+}
+.highend-houmongi .wrap-6points h2.title-point{
+	background-color: #425ea1;
+}
+.wrap-6points h2.title-point:after{
+	content: '';
+	position: absolute;
+	bottom: -16px;
+	left: 47%;
+	width: 0;
+	height: 0;
+	border-top: 18px solid #E93175;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+}
+.highend-shichigosan .wrap-6points h2.title-point:after{
+	 border-top-color: #ff8b94;
+ }
+.highend-kurotomesode .wrap-6points h2.title-point:after{
+	border-top-color: #96983c;
+}
+.highend-sotsugyou .wrap-6points h2.title-point:after{
+	border-top-color: #ff7538;
+}
+.highend-irotomesode .wrap-6points h2.title-point:after{
+	border-top-color: #9698c4;
+}
+.highend-houmongi .wrap-6points h2.title-point:after{
+	border-top-color: #425ea1;
+}
+.wrap-6points .des,
+.wrap-6points .group-points .list-item-points .descript{
+	padding: 0 5px;
+	box-sizing: border-box;
+	font-size: 12px;
+	font-size: 4vw;
+}
+.wrap-6points .group-points .list-item-points ul li{
+	width: 100%;
+	margin-bottom: 40px;
+}
+.wrap-6points .group-points .list-item-points ul li .title-item{
+	margin-bottom: 5px;
+}
+/*--rental-of-flow--*/
+.rental-of-flow .container-padding.padding-content-rental{
+	padding-top: 15px;
+}
+.rental-of-flow .item-rental .title-rental .wrap-number{
+	width: auto;
+	float: left;
+}
+.rental-of-flow .item-rental .title-rental .wrap-number span.number{
+	width: 11vw;
+	height: 11vw;
+	line-height: 12vw;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	font-size: 6vw;
+	background-color: #E93175;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50vw;
+	display: block;
+	margin-top: -1px;
+}
+.highend-shichigosan .rental-of-flow .item-rental .title-rental .wrap-number span.number{
+	background-color: #ff8c95;
+}
+.highend-kurotomesode .rental-of-flow .item-rental .title-rental .wrap-number span.number{
+	background-color: #96983c;
+}
+.highend-sotsugyou .rental-of-flow .item-rental .title-rental .wrap-number span.number{
+	background-color: #ff7538;
+}
+.highend-irotomesode .rental-of-flow .item-rental .title-rental .wrap-number span.number{
+	background-color: #9698c4;
+}
+.highend-houmongi .rental-of-flow .item-rental .title-rental .wrap-number span.number{
+	background-color: #425ea1;
+}
+.rental-of-flow .item-rental .title-rental h2.wrap-all-title{
+	padding:0 0 3px;
+	box-sizing: border-box;
+	line-height: 1;
+	border-bottom: 1px solid #C5C5C5;
+	width: 85%;
+	margin-left: 10px;
+	float: left;
+	position: relative;
+	top: 5px;
+}
+.rental-of-flow .item-rental .title-rental h2.wrap-all-title span.left-name{
+	float: left;
+	font-size: 21px;
+	font-size: 6vw;
+}
+.highend-shichigosan .rental-of-flow .item-rental .title-rental h2.wrap-all-title span.left-name,
+.highend-sotsugyou .rental-of-flow .item-rental .title-rental h2.wrap-all-title span.left-name,
+.highend-irotomesode .rental-of-flow .item-rental .title-rental h2.wrap-all-title span.left-name{
+	font-size: 16px;
+	font-size: 5vw;
+	font-weight: bold;
+}
+.rental-of-flow .item-rental .title-rental h2.wrap-all-title span.right-des{
+	float: left;
+	width: 75%;
+	font-size: 10px;
+	font-size: 3vw;
+	margin-left: 5px;
+}
+.rental-of-flow .item-rental .sub-item{
+	border-left: 1.5vw solid #E93175;
+	margin-left: 5%;
+	padding-left: 8%;
+	box-sizing: border-box;
+	margin-top: -2px;
+	padding-bottom: 40px;
+}
+.highend-shichigosan .rental-of-flow .item-rental .sub-item{
+	border-left-color: #ff8c95;
+}
+.highend-kurotomesode .rental-of-flow .item-rental .sub-item{
+	border-left-color: #96983c;
+}
+.highend-sotsugyou .rental-of-flow .item-rental .sub-item{
+	border-left-color: #ff7538;
+}
+.highend-irotomesode .rental-of-flow .item-rental .sub-item{
+	border-left-color: #9698c4;
+}
+.highend-houmongi .rental-of-flow .item-rental .sub-item{
+	border-left-color: #425ea1;
+}
+.rental-of-flow .item-rental .sub-item.last{
+	border-left: none;
+	padding-bottom: 5px;
+
+}
+.rental-of-flow .item-rental .sub-item .left-rental{
+	width: 100%;
+	margin-bottom: 15px;
+}
+.rental-of-flow .item-rental .sub-item .left-rental .des{
+	margin-bottom: 10px;
+}
+.rental-of-flow .item-rental .sub-item .left-rental .des .text{
+	font-size: 12px;
+	font-size: 4vw;
+}
+.call-furisode ul.wrap-call-number{
+	align-items: flex-end;
+	-webkit-align-items: flex-end;
+}
+.call-furisode ul.wrap-call-number li{
+	width: 100%;
+}
+.highend-kurotomesode .call-furisode ul.wrap-call-number li,
+.highend-sotsugyou .call-furisode ul.wrap-call-number li,
+.highend-irotomesode .call-furisode ul.wrap-call-number li{
+	width: 100%;
+}
+.call-furisode ul.wrap-call-number li .wrap-group-call{
+	margin-bottom: 5px;
+}
+.call-furisode ul.wrap-call-number li .wrap-group-call .call-number,
+.call-furisode ul.wrap-call-number li .wrap-group-call .info-call {
+	color: #723C6B;
+}
+.call-furisode ul.wrap-call-number li .wrap-group-call .info-call {
+	 font-size: 12px;
+	 /*font-size: 2.5vw;*/
+	font-size: 4vw;
+	 line-height: 1;
+ }
+.highend-kurotomesode .call-furisode ul.wrap-call-number li .wrap-group-call .info-call,
+.highend-sotsugyou .call-furisode ul.wrap-call-number li .wrap-group-call .info-call,
+.highend-irotomesode .call-furisode ul.wrap-call-number li .wrap-group-call .info-call{
+	font-size: 4vw;
+}
+.call-furisode ul.wrap-call-number li .wrap-group-call .call-number {
+	line-height: 1;
+	font-size: 20px;
+	/*font-size: 4vw;*/
+	font-size: 8vw;
+	font-weight: bold;
+}
+.highend-kurotomesode .call-furisode ul.wrap-call-number li .wrap-group-call .call-number,
+.highend-sotsugyou .call-furisode ul.wrap-call-number li .wrap-group-call .call-number,
+.highend-irotomesode .call-furisode ul.wrap-call-number li .wrap-group-call .call-number{
+	font-size: 8vw;
+}
+.call-furisode ul.wrap-call-number li .wrap-group-call .call-number a{
+	color: #723C6B;
+}
+.rental-of-flow .item-rental .sub-item .right-rental{
+	width: 100%;
+}
+.rental-of-flow .item-rental .sub-item .right-rental img{
+	margin-bottom: 10px;
+}
+.rental-of-flow .item-rental .sub-item .des-button{
+	font-size: 10px;
+	font-size: 3.5vw;
+}
+/*--topic-furisode--*/
+.topic-furisode{
+	/*margin-bottom: 20px;*/
+}
+.topic-furisode .top-banner-topic{
+	margin: 10px 0 7px;
+}
+.topic-furisode .bottom-banner-topic ul{
+	width: 100%;
+}
+.topic-furisode .bottom-banner-topic ul li{
+	margin-bottom: 7px;
+}
+/*--point-of-each-plan--*/
+.point-of-each-plan h3.title-each-plan{
+	position: relative;
+	border: 1px solid #E93175;
+	padding: 7px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	color: #E93175;
+	font-size: 15px;
+	font-size: 6vw;
+}
+.highend-shichigosan .point-of-each-plan h3.title-each-plan{
+	font-size: 15px;
+	font-size: 5vw;
+}
+.highend-shichigosan .point-of-each-plan .pink h3.title-each-plan{
+	color: #FFB2DC;
+	border-color: #FFB2DC;
+}
+.highend-kurotomesode .point-of-each-plan h3.title-each-plan{
+	color: #96983c;
+	border-color: #96983c;
+}
+.highend-sotsugyou .point-of-each-plan h3.title-each-plan{
+	color: #ff7538;
+	border-color: #ff7538;
+}
+.highend-shichigosan .point-of-each-plan .green h3.title-each-plan{
+	color: #A3D9DA;
+	border-color: #A3D9DA;
+}
+.highend-shichigosan .point-of-each-plan .orange h3.title-each-plan{
+	color: #FFA886;
+	border-color: #FFA886;
+}
+.highend-irotomesode .point-of-each-plan h3.title-each-plan{
+	color: #9698c4;
+	border-color: #9698c4;
+}
+.highend-houmongi .point-of-each-plan h3.title-each-plan{
+	color: #425ea1;
+	border-color: #425ea1;
+}
+.highend-shichigosan .point-of-each-plan h3.title-each-plan br{
+	display: none;
+}
+.point-of-each-plan h3.title-each-plan:after,
+.point-of-each-plan h3.title-each-plan:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.point-of-each-plan h3.title-each-plan:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-top-color: #fff;
+	border-width: 10px;
+	margin-left: -10px;
+}
+.point-of-each-plan h3.title-each-plan:before {
+	border-color: rgba(233, 49, 117, 0);
+	border-top-color: #E93175;
+	border-width: 11px;
+	margin-left: -11px;
+}
+.highend-shichigosan .point-of-each-plan .pink h3.title-each-plan:before{
+	border-top-color: #FFB2DC;
+}
+.highend-kurotomesode .point-of-each-plan h3.title-each-plan:before{
+	border-top-color: #96983c;
+}
+.highend-shichigosan .point-of-each-plan .green h3.title-each-plan:before{
+	border-top-color: #A3D9DA;
+}
+.highend-shichigosan .point-of-each-plan .orange h3.title-each-plan:before{
+	border-top-color: #FFA886;
+}
+.highend-kurotomesode .point-of-each-plan h3.title-each-plan:before{
+	border-top-color: #96983c;
+}
+.highend-sotsugyou .point-of-each-plan h3.title-each-plan:before{
+	border-top-color: #ff7538;
+}
+.highend-irotomesode .point-of-each-plan h3.title-each-plan:before{
+	border-top-color: #9698c4;
+}
+.highend-houmongi .point-of-each-plan h3.title-each-plan:before{
+	border-top-color: #425ea1;
+}
+.point-of-each-plan ul li{
+	/*margin-bottom: 20px;*/
+}
+.point-of-each-plan .des-each-plan{
+	font-size: 12px;
+	font-size: 4vw;
+	padding: 0 7px 10px;
+	box-sizing: border-box;
+}
+.wrap-all-search {
+	display: none;
+}
+/*--widget-list-product-highend--*/
+.widget-list-product-highend ul.list{
+	display: flex;
+	display: -webkit-flex;
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+	margin: 7px 0;
+}
+.widget-list-product-highend ul.list li{
+	width: 48.692810458%;
+	margin: 0 2.614379085% 2.614379085% 0;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+}
+.widget-list-product-highend ul.list li:nth-child(2n) {
+	margin-right: 0;
+}
+.widget-list-product-highend ul.list li .image{
+	margin-bottom: 8px;
+}
+.widget-list-product-highend ul.list li .image img {
+	width: 100%;
+	border: 1px solid #d5d5d5;
+	box-sizing: border-box;
+}
+.widget-list-product-highend ul.list li .info {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-grow: 1;
+	-webkit-flex-grow: 1;
+	position: relative;
+	padding: 0 0 20px;
+}
+.widget-list-product-highend ul.list li .info .name {
+	margin-bottom: 10px;
+}
+.widget-list-product-highend ul.list li .name a.product-name {
+	color: #231f20;
+	font-size: 18px;
+	font-size: 4vw;
+	position: relative;
+	top: 2px;
+	display: block;
+}
+.widget-list-product-highend ul.list li .wrap-price {
+	line-height: 1;
+	position: absolute;
+	bottom: 0;
+}
+.widget-list-product-highend ul.list li .wrap-price .price a {
+	font-size: 18px;
+	font-size: 6.5vw;
+	line-height: 1;
+	color: #ff0000;
+	font-weight: bold;
+	box-sizing: border-box;
+	white-space: nowrap;
+}
+.widget-list-product-highend ul.list li .wrap-price .price span.currency {
+	font-size: 10px;
+	font-size: 3vw;
+	font-weight: bold;
+	color: #ff0000;
+}
+.widget-list-product-highend ul.list li .wrap-price .price span.tax {
+	color: #ff0000;
+	font-size: 10px;
+	font-size: 3vw;
+	font-weight: bold;
+	position: relative;
+	text-align: left;
+}
+.point-of-each-plan .image-each-plan{
+	margin-bottom: 20px;
+	padding: 0 7px;
+	box-sizing: border-box;
+}
+
+/* .furi-bottom-banner */
+.furi-bottom-banner{
+	margin-bottom: 10px;
+}
+.furi-bottom-banner ul li{
+	width: 49.5%;
+	margin-bottom: 1%;
+}
+.furi-bottom-banner ul li img{
+	width: 100%;
+	margin-bottom: 2px;
+}
+.furi-bottom-banner ul li p{
+	color: #1630ff;
+	font-size: 10px;
+	font-size: 3.2vw;
+	line-height: 1.3;
+}
+@media(max-width: 360px){
+	/*.highend-furisode .wrap-text-banner-top{
+		left: 25%;
+	}
+	.highend-seijin .wrap-text-banner-top{
+		left: 30%;
+	}*/
+	.highend-furisode .wrap-text-banner-top .l-text{
+		font-size: 25px;
+		font-size: 8vw;
+	}
+	.highend-furisode .wrap-text-banner-top .s-text {
+		font-size: 15px;
+		font-size: 5vw;
+	}
+	.highend-sotsugyou .wrap-text-banner-top .l-text{
+		font-size: 20px;
+		font-size: 6vw;
+	}
+	.highend-sotsugyou .wrap-text-banner-top .s-text{
+		font-size: 11px;
+		font-size: 3vw;
+	}
+	.highend-shichigosan .wrap-text-banner-top{
+		bottom: 23%;
+		left: 1%;
+		flex-direction: column;
+		-webkit-flex-direction: column;
+	}
+	.highend-shichigosan .wrap-text-banner-top .l-text{
+		font-size: 23px;
+		font-size: 6vw;
+	}
+	.highend-shichigosan .wrap-text-banner-top .s-text{
+		font-size: 20px;
+		font-size: 5.5vw;
+	}
+}
+@media (min-width: 750px){
+	.highend-furisode .container-furisode{
+		width: 960px;
+		margin: 0 auto;
+	}
+	.footer-taking .container-padding{
+		padding: 0;
+	}
+	/*display none and block*/
+	.highend-furisode .wrap-banner-top .banner-photo img.pc,
+	.widget-shop img.pc,
+	.wrap-filter-product .filter-price img.pc,
+	.wrap-filter-product .filter-color img.pc,
+	.wrap-6points img.pc,
+	.topic-furisode img.pc,
+	.wrap-button-rantal.pc a.link-more{
+		display: block;
+	}
+	.highend-furisode .wrap-banner-top .banner-photo img.sp,
+	.widget-shop img.sp,
+	.wrap-filter-product .filter-price img.sp,
+	.wrap-filter-product .filter-color img.sp,
+	.wrap-6points img.sp,
+	.topic-furisode img.sp,
+	.wrap-button-rantal.sp a.link-more{
+		display: none;
+	}
+	.widget-shop ul{
+		padding: 0 10px;
+	}
+	.widget-shop ul li,
+	.wrap-filter-product .filter-price ul li,
+	.wrap-filter-product .filter-color ul li {
+		width: inherit;
+	}
+	.highend-shichigosan .wrap-filter-product .filter-price ul li,
+	.highend-sotsugyou .wrap-filter-product .filter-price ul li{
+		width: 32.8%;
+	}
+	.highend-shichigosan .wrap-filter-product .filter-price ul.two-item li{
+		/*width: 49.5%;*/
+	}
+	.highend-furisode h2.title-furisode,
+	.wrap-filter-product h3.title-filter,
+	.footer-taking h2.title-taking{
+		font-size: 26px;
+	}
+	.highend-furisode .sub-title-furisode{
+		font-size: 24px;
+	}
+	.highend-furisode .notice-title-furisode p{
+		font-size: 15px;
+	}
+	.highend-furisode .filter-price h3 span.reset,
+	.highend-furisode .filter-color h3 span.reset
+	{
+		font-size: 13px;
+		position: absolute;
+		right: 0;
+		padding-right: 10px;
+	}
+	.footer-taking h2.title-taking{
+		margin: 0;
+	}
+	/*--list product--*/
+	.widget-list-product-highend ul.list li {
+		width: 24.184782609%;
+		margin-right: 1.086956522%;
+	}
+	.widget-list-product-highend ul.list li:nth-child(2n){
+		margin-right: 1.086956522%;
+	}
+	.widget-list-product-highend ul.list li:nth-child(4n) {
+		margin-right: 0;
+	}
+	.widget-list-product-highend ul.list li .name a.product-name {
+		font-size: 18px;
+	}
+	.widget-list-product-highend ul.list li .wrap-price .price a {
+		font-size: 20px;
+	}
+	.widget-list-product-highend ul.list li .wrap-price .price span.currency,
+	.widget-list-product-highend ul.list li .wrap-price .price span.tax {
+		font-size: 12px;
+	}
+	.widget-list-product-highend ul.list li .info .name {
+		margin-bottom: 5px;
+	}
+	.wrap-6points h2.title-point{
+		font-size: 60px;
+		text-align: left;
+		padding: 5px 20px;
+		line-height: 1;
+		margin-bottom: 30px;
+	}
+	.highend-sotsugyou .wrap-6points h2.title-point{
+		font-size: 60px;
+	}
+	.wrap-6points h2.title-point:after {
+		bottom: -26px;
+		border-top: 35px solid #E93175;
+		border-left: 20px solid transparent;
+		border-right: 20px solid transparent;
+	}
+	.wrap-6points .des, .wrap-6points .group-points .list-item-points .descript{
+		font-size: 15px;
+		padding: 0 20px;
+	}
+	/*--button link more--*/
+	.wrap-button-taking a.link-more{
+		float: left;
+		font-size: 35px;
+		margin-right: 1%;
+	}
+	.wrap-button-taking a.link-more:first-child,
+	.wrap-button-taking a.link-more:last-child{
+		width: 49.5%;
+	}
+	.wrap-button-taking a.link-more:last-child{
+		margin-right: 0;
+	}
+	.wrap-button-taking a.link-more.full{
+		width: 100%;
+	}
+	.wrap-button-rantal a.link-more,
+	.wrap-button-taking a.link-more{
+		font-size: 35px;
+		padding: 20px 10px 12px;
+	}
+	.wrap-button-taking a.link-more:last-child{
+		margin-right: 0;
+	}
+	.wrap-button-taking a.link-more:after,
+	.wrap-button-rantal a.link-more:after,
+	.wrap-button-taking a.link-more.full:after{
+		top: 25px;
+	}
+	.wrap-6points .group-points .list-item-points{
+		margin-bottom: 25px;
+	}
+	.point-of-each-plan{
+		margin-bottom: 10px;
+	}
+	.wrap-6points .group-points .list-item-points ul,
+	.point-of-each-plan ul{
+		background: url('../../../../../images/highend-furisode/line-furisode.png') repeat-y;
+		width: 100%;
+		height: 100%;
+	}
+	.highend-kurotomesode .wrap-6points .group-points .list-item-points ul,
+	.highend-kurotomesode .point-of-each-plan ul{
+		background: url('../../../../../images/highend-furisode/line-kurotomesode.png') repeat-y;
+		width: 100%;
+		height: 100%;
+	}
+	.highend-sotsugyou .wrap-6points .group-points .list-item-points ul,
+	.highend-sotsugyou .point-of-each-plan ul{
+		background: url('../../../../../images/highend-furisode/line-sotsugyou.png') repeat-y;
+		width: 100%;
+		height: 100%;
+	}
+	.highend-irotomesode .wrap-6points .group-points .list-item-points ul,
+	.highend-irotomesode .point-of-each-plan ul{
+		background: url('../../../../../images/highend-furisode/line-irotomesode.png') repeat-y;
+		width: 100%;
+		height: 100%;
+	}
+	.highend-houmongi .wrap-6points .group-points .list-item-points ul,
+	.highend-houmongi .point-of-each-plan ul{
+		background: url('../../../../../images/highend-furisode/line-houmongi.png') repeat-y;
+		width: 100%;
+		height: 100%;
+	}
+	.wrap-6points .group-points .list-item-points ul li{
+		display: inline;
+		width: 50%;
+		float: left;
+	}
+	.wrap-6points .group-points .list-item-points ul li .title-item {
+		margin-bottom: 4px;
+	}
+	.wrap-6points .group-points .list-item-points ul li:nth-last-child(-n+2),
+	.point-of-each-plan ul li:nth-last-child(-n+2){
+		margin-bottom: 0;
+	}
+	.rental-of-flow .item-rental .title-rental .wrap-number {
+		width: 66px;
+	}
+	.rental-of-flow .item-rental .title-rental h2.wrap-all-title{
+		width: 92%;
+	}
+	.rental-of-flow .item-rental .title-rental .wrap-number span.number {
+		width: 60px;
+		height: 60px;
+		line-height: 63px;
+		font-size: 36px;
+	}
+	.rental-of-flow .item-rental .title-rental h2.wrap-all-title span.left-name{
+		font-size: 36px;
+	}
+	.highend-shichigosan .rental-of-flow .item-rental .title-rental h2.wrap-all-title span.left-name,
+	.highend-sotsugyou .rental-of-flow .item-rental .title-rental h2.wrap-all-title span.left-name,
+	.highend-irotomesode .rental-of-flow .item-rental .title-rental h2.wrap-all-title span.left-name{
+		font-size: 36px;
+		font-weight: normal;
+	}
+	.rental-of-flow .item-rental .title-rental h2.wrap-all-title span.right-des {
+		font-size: 22px;
+		position: relative;
+		top: 13px;
+		margin-left: 25px;
+	}
+	.rental-of-flow .item-rental .title-rental h2.wrap-all-title span.right-des br {
+		display: none;
+	}
+	.rental-of-flow .item-rental .sub-item .left-rental .des .text {
+		font-size: 15px;
+	}
+	.rental-of-flow .item-rental .sub-item {
+		border-left: 5px solid #E93175;
+		margin-left: 28px;
+		padding: 0 0 15px 40px;
+	}
+	.rental-of-flow .item-rental .sub-item .left-rental {
+		width: 63%;
+		margin-right: 2%;
+		margin-bottom: 0;
+		float: left;
+		min-height: 195px;
+		position: relative;
+	}
+	.rental-of-flow .item-rental .sub-item .right-rental {
+		width: 35%;
+		float: left;
+	}
+	.call-furisode ul.wrap-call-number li .wrap-group-call .info-call {
+		font-size: 21px;
+	}
+	.highend-kurotomesode .call-furisode ul.wrap-call-number li .wrap-group-call .info-call,
+	.highend-sotsugyou .call-furisode ul.wrap-call-number li .wrap-group-call .info-call,
+	.highend-irotomesode .call-furisode ul.wrap-call-number li .wrap-group-call .info-call{
+		font-size: 21px;
+	}
+	.call-furisode ul.wrap-call-number li .wrap-group-call .call-number {
+		font-size: 50px;
+	}
+	.highend-kurotomesode .call-furisode ul.wrap-call-number li .wrap-group-call .call-number,
+	.highend-sotsugyou .call-furisode ul.wrap-call-number li .wrap-group-call .call-number,
+	.highend-irotomesode .call-furisode ul.wrap-call-number li .wrap-group-call .call-number{
+		font-size: 50px;
+	}
+	.highend-kurotomesode .call-furisode ul.wrap-call-number li .wrap-group-call .call-number {
+		font-size: 50px;
+	}
+	.rental-of-flow .item-rental .sub-item .wrap-button-rantal{
+		clear: both;
+	}
+	.rental-of-flow .item-rental .sub-item .wrap-button-rantal.pc{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+	.rental-of-flow .item-rental .sub-item .des-button {
+		font-size: 15px;
+	}
+	.rental-of-flow .item-rental .sub-item .des-button br {
+		display: none;
+	}
+	.rental-of-flow .item-rental .sub-item .left-rental .des {
+		margin-bottom: 15px;
+	}
+	.topic-furisode .bottom-banner-topic ul li {
+		width: 49.5%;
+	}
+	.point-of-each-plan h3.title-each-plan {
+		font-size: 34px;
+		padding: 15px;
+	}
+	.highend-shichigosan .point-of-each-plan h3.title-each-plan{
+		font-size: 36px;
+		line-height:1;
+	}
+	.highend-kurotomesode .point-of-each-plan h3.title-each-plan,
+	.highend-irotomesode .point-of-each-plan h3.title-each-plan{
+		font-size: 34px;
+	}
+	.highend-sotsugyou .point-of-each-plan h3.title-each-plan{
+		font-size: 30px;
+	}
+	.highend-shichigosan .point-of-each-plan h3.title-each-plan br{
+		display: block;
+	}
+	.point-of-each-plan ul li{
+		width: 50%;
+		min-height: 259px;
+		display: flex;
+		flex-flow: column;
+		justify-content: flex-start;
+	}
+	.point-of-each-plan ul li:nth-child(2n+1) h3.title-each-plan{
+		border-right: none;
+	}
+	.point-of-each-plan ul li:nth-child(2n) h3.title-each-plan{
+		border-left: none;
+	}
+	.highend-shichigosan .point-of-each-plan ul li:nth-child(1){
+		-ms-flex-order: 1;
+		-webkit-order: 1;
+		order: 1;
+	}
+	.highend-shichigosan .point-of-each-plan ul li:nth-child(2){
+		-ms-flex-order: 5;
+		-webkit-order: 5;
+		order: 5;
+	}
+	.highend-shichigosan .point-of-each-plan ul li:nth-child(2) h3.title-each-plan{
+		border-right: none;
+		border-left: 1px solid #FFB2DC;
+	}
+	.highend-shichigosan .point-of-each-plan ul li:nth-child(3){
+		-ms-flex-order: 3;
+		-webkit-order: 3;
+		order: 3;
+	}
+	.highend-shichigosan .point-of-each-plan ul li:nth-child(4){
+		-ms-flex-order: 4;
+		-webkit-order: 4;
+		order: 4;
+	}
+	.highend-shichigosan .point-of-each-plan ul li:nth-child(5){
+		-ms-flex-order: 2;
+		-webkit-order: 2;
+		order: 2;
+	}
+	.highend-shichigosan .point-of-each-plan ul li:nth-child(5) h3.title-each-plan{
+		border-left: none;
+		border-right: 1px solid #A3D9DA;
+	}
+	.highend-shichigosan .point-of-each-plan ul li:nth-child(6){
+		-ms-flex-order: 6;
+		-webkit-order: 6;
+		order: 6;
+	}
+	.highend-shichigosan .point-of-each-plan ul li:nth-child(7){
+		-ms-flex-order: 7;
+		-webkit-order: 7;
+		order: 7;
+	}
+	.highend-shichigosan .point-of-each-plan ul li:nth-child(8){
+		-ms-flex-order: 8;
+		-webkit-order: 8;
+		order: 8;
+	}
+	.point-of-each-plan .des-each-plan {
+		font-size: 15px;
+		padding: 0 20px 20px;
+	}
+
+	.wrap-button-taking.other-homongi{
+		text-align: center;
+	}
+	.wrap-button-taking.other-homongi a{
+		float: none;
+		display: inline-block;
+	}
+	/* .furi-bottom-banner */
+	.furi-bottom-banner ul li{
+		width: 24.6%;
+	}
+	.furi-bottom-banner ul li p{
+		font-size: 13px;
+		line-height: 1.5;
+	}
+	.wrap-des-image{
+		display: flex;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		flex-flow: column wrap;
+	}
+	.point-of-each-plan ul li:nth-last-child(-n+2) .image-each-plan{
+		padding-bottom: 0;
+	}
+	.highend-sotsugyou .point-of-each-plan ul li:nth-last-child(-n+1) .image-each-plan{
+		padding-bottom: 0;
+	}
+	.highend-sotsugyou .point-of-each-plan ul li:nth-child(2n) .image-each-plan{
+		padding-bottom: 30px;
+	}
+	.point-of-each-plan .image-each-plan{
+		padding: 0 10px 30px;
+		margin-bottom: 0;
+		display: flex;
+		flex-grow: 1;
+		align-items: flex-end;
+	}
+	.wrap-button-taking .container-padding.padding-other{
+		padding: 0 10px;
+		box-sizing: border-box;
+	}
+	/*.highend-furisode .wrap-text-banner-top {
+		left: 24%;
+	}*/
+	.highend-shichigosan .wrap-text-banner-top {
+		left: 1%;
+	}
+	/*.highend-seijin .wrap-text-banner-top {
+		left: 29%;
+	}*/
+	.highend-furisode .wrap-text-banner-top .l-text {
+		font-size: 80px;
+	}
+	.highend-furisode .wrap-text-banner-top .s-text {
+		font-size: 50px;
+	}
+	.highend-sotsugyou .wrap-text-banner-top .l-text{
+		font-size: 58px;
+	}
+	.highend-sotsugyou .wrap-text-banner-top .s-text{
+		font-size: 35px;
+	}
+	.highend-shichigosan .wrap-text-banner-top .l-text {
+		font-size: 62px;
+	}
+	.highend-shichigosan .wrap-text-banner-top .s-text {
+		font-size: 46px;
+	}
+}
+@media (min-width: 768px) and (max-width: 959px){
+	.highend-furisode .container-furisode{
+		width: 100%;
+	}
+	.highend-furisode .container-padding {
+		padding: 0 7px;
+	}
+	.highend-shichigosan .container-padding{
+		padding: 0;
+	}
+	.widget-shop ul li {
+		width: 19.53125%;
+	}
+	.wrap-filter-product .filter-price ul li {
+		width: 15.8%;
+	}
+	.wrap-filter-product .filter-color ul li {
+		width: 16%;
+	}
+	.wrap-6points h2.title-point {
+		font-size: 50px;
+	}
+	.highend-sotsugyou .wrap-6points h2.title-point{
+		font-size: 48px;
+	}
+	.wrap-6points .group-points .list-item-points ul,
+	.point-of-each-plan ul,
+	.highend-kurotomesode .wrap-6points .group-points .list-item-points ul,
+	.highend-kurotomesode .point-of-each-plan ul,
+	.highend-shichigosan .wrap-6points .group-points .list-item-points ul,
+	.highend-shichigosan .point-of-each-plan ul,
+	.highend-sotsugyou .wrap-6points .group-points .list-item-points ul,
+	.highend-sotsugyou .point-of-each-plan ul,
+	.highend-irotomesode .wrap-6points .group-points .list-item-points ul,
+	.highend-irotomesode .point-of-each-plan ul,
+	.highend-houmongi .wrap-6points .group-points .list-item-points ul,
+	.highend-houmongi .point-of-each-plan ul{
+		background-size: 100%;
+	}
+	.highend-kurotomesode .call-furisode ul.wrap-call-number li .wrap-group-call .call-number,
+	.highend-sotsugyou .call-furisode ul.wrap-call-number li .wrap-group-call .call-number,
+	.highend-irotomesode .call-furisode ul.wrap-call-number li .wrap-group-call .call-number{
+		font-size: 48px;
+	}
+	.highend-sotsugyou .point-of-each-plan h3.title-each-plan{
+		font-size: 22px;
+	}
+	.wrap-button-taking a.link-more {
+		font-size: 25px;
+	}
+	.wrap-button-taking a.link-more:after,
+	.wrap-button-rantal a.link-more:after,
+	.wrap-button-taking a.link-more.full:after{
+		top: 20px;
+	}
+	.rental-of-flow .item-rental .title-rental .wrap-number {
+		width: auto;
+	}
+	.rental-of-flow .item-rental .title-rental h2.wrap-all-title {
+		width: 90.6%;
+	}
+	.rental-of-flow .item-rental .title-rental h2.wrap-all-title span.right-des {
+		font-size: 18px;
+	}
+	.wrap-button-rantal a.link-more {
+		font-size: 25px;
+	}
+	.rental-of-flow .item-rental .title-rental h2.wrap-all-title span.left-name {
+		font-size: 30px;
+	}
+	.highend-shichigosan .rental-of-flow .item-rental .title-rental h2.wrap-all-title span.left-name{
+		font-size: 30px;
+		font-weight: normal;
+	}
+	.call-furisode ul.wrap-call-number li .wrap-group-call .info-call {
+		font-size: 21px;
+	}
+	.call-furisode ul.wrap-call-number li .wrap-group-call .call-number {
+		font-size: 45px;
+	}
+	.highend-kurotomesode .call-furisode ul.wrap-call-number li .wrap-group-call .call-number {
+		font-size: 45px;
+	}
+	.rental-of-flow .item-rental .sub-item .left-rental {
+		min-height: 150px;
+	}
+	.point-of-each-plan h3.title-each-plan,
+	.highend-kurotomesode .point-of-each-plan h3.title-each-plan{
+		font-size: 25px;
+	}
+	.furi-bottom-banner ul li p{
+		font-size: 12px;
+	}
+	.highend-furisode .wrap-text-banner-top .l-text {
+		font-size: 65px;
+	}
+	.highend-furisode .wrap-text-banner-top .s-text {
+		font-size: 40px;
+	}
+	.highend-sotsugyou .wrap-text-banner-top .l-text{
+		font-size: 49px;
+	}
+	.highend-sotsugyou .wrap-text-banner-top .s-text{
+		font-size: 30px;
+	}
+	.highend-shichigosan .wrap-text-banner-top .l-text {
+		font-size: 48px;
+	}
+	.highend-shichigosan .wrap-text-banner-top .s-text {
+		font-size: 41px;
+	}
+}

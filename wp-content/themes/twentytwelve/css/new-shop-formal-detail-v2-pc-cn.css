@@ -1,0 +1,40 @@
+.right-new-shop-formal-v2 .list-step-date .note-date{
+    left: 20px;
+}
+.right-new-shop-formal-v2 .slider-gallery .slick-next:before{
+    transform: rotate(0deg);
+}
+.right-new-shop-formal-v2 .slider-gallery .slick-prev:before {
+    transform: rotate(0deg);
+}
+.right-new-shop-formal-v2 .slider-gallery .slick-prev:before, .slider-gallery .slick-next:before {
+    color: #ffffff;
+}
+.right-new-shop-formal-v2 .wrap-top-plan-circle-fm-v2 .wrap-review .intro .review-title {
+    font-size: 38px;
+}
+.right-new-shop-formal-v2 .wrap-top-plan-circle-fm-v2 .wrap-review .intro .text-des-top-plan {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.right-new-shop-formal-v2 .des-intro-wargo {
+    font-size: 22px;
+}
+.right-new-shop-formal-v2 .wrap-plans-shop-fm-v2 .plan-text span{
+    font-size: 16px;
+}
+.right-new-shop-formal-v2 .wrap-banner-photo-session .box-photo-sesstion .des-photo-session p{
+    font-size: 13px;
+}
+.right-new-shop-formal-v2 .box-howto-reserve .wrap-r-icon p{
+    top: 16px;
+}
+.right-new-shop-formal-v2 .box-howto-reserve.last .wrap-r-icon p {
+    top: 32px;
+}
+.right-new-shop-formal-v2 .ginza-honten .box-col-apa .col-apa .content-apa {
+    line-height: 2.2;
+}
+.ginza-honten .box-col-apa{
+    height: auto!important;
+}

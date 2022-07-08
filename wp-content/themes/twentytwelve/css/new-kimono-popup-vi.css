@@ -1,0 +1,13 @@
+.wrap-booking-flow .btn-link-step{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    line-height: 1;
+}
+.wrap-booking-flow-new-kimono .list-choosing li{
+    font-size: 12px;
+}
+.wrap-plans-list-new-kimono .wraper-bnt-reserve .btn-reserve{
+    font-size: 16px;
+}

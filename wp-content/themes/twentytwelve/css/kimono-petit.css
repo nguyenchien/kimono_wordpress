@@ -1,0 +1,1074 @@
+/* kimono petit page
+*/
+
+/*list kimono petit */
+.second{
+    display: initial;
+}
+body.hi var.price_suffix{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.section-top-list-petit{
+    background: #fae6e6;
+}
+.kimono-petit .plan-list-petit .kimono-petit-page,
+.kimono-petit-page{
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info.info-kimono{
+    width: 65.62500%;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info.info-kimono{
+    padding: 8px 0 8px 23px;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .title h3 span.name{
+    font-size: 34px;
+    float: left;
+    font-weight: bold;
+    color: #000000;
+    min-height: inherit;
+    line-height: 1.1;
+}
+body.vi div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .title h3 span.name{
+    font-size: 30px;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices{
+    padding: 0 7px;
+    margin-bottom: 0;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li.price_large{
+    padding-top:0!important;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li{
+    padding-top:5px;
+}
+div.kimono-petit-page .prices .p-right .go-to-booking{
+	background: #ed1e79;
+	display: block;
+	color: #ffffff;
+	width: 111px;
+	height: 39px;
+	text-align: center;
+	line-height: 39px;
+	margin: 31px;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .excerpt{
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .excerpt p{
+    font-size: 12px;
+    text-align: justify;
+    color: #000;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.brief,
+body.hi div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.brief{
+    margin: 7px 0 0 7px;
+    font-size: 13px;
+}
+body.id div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.brief,
+body.th div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.brief{
+    font-size: 12px;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.bold,
+body.th div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.bold,
+body.fr div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options.couplePetit .titles p.bold{
+    line-height: 32px;
+    height: 27px;
+}
+body.fr div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options.couplePetit .titles p.bold{
+    height: 28px;
+}
+body.fr div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.bold{
+    font-size: 13px;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .lists{
+    padding:4px 0 0 6px;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple{
+    /*width: 534px;*/
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .couplePetit{
+    margin-top: 15px;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .image.image-kimono{
+    width: 31.0416667%;
+    height: 435px;
+    border-top: 5px solid #fff;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .image img {
+    width: 298px;
+}
+.section-top-list-petit h1{
+    font-size: 33px;
+}
+.section-top-list-petit p{
+    color: #000;
+    font-size: 13px;
+}
+#booking .change-shop-tab .shop-tab-choose.shop-14 .text-shop .text-shop-default,
+#booking .change-shop-tab .shop-tab-choose.shop-15 .text-shop .text-shop-default
+{
+    font-size: 30px;
+}
+div.general_title_box-petit{
+    background: #c30d23;
+}
+.kimono-couple-page .peptit-add-plan-container label.shop-14,
+.kimono-couple-page .peptit-add-plan-container label.shop-15
+{
+    background: #8d8393;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-align-items: center;
+    align-items: center;
+	cursor: pointer;
+}
+.kimono-couple-page .peptit-add-plan-container label.shop-14.active,
+.kimono-couple-page .peptit-add-plan-container label.shop-15.active{
+    background: #4e0037;
+}
+.kimono-couple-page .peptit-add-plan-container label div.shop-icon{
+    width: 6.25%;
+    text-align: center;
+}
+.kimono-couple-page .peptit-add-plan-container label div.text-shop-icon{
+    margin-left: 45px;
+    font-size: 11px;
+    font-weight:bold;
+    color: #fff;
+}
+.kimono-couple-page .peptit-add-plan-container label div.text-shop-icon p{
+    font-weight: bold;
+}
+.kimono-couple-page .peptit-add-plan-container label div.shop-icon .icon-fa-shop-14,
+.kimono-couple-page .peptit-add-plan-container label div.shop-icon .icon-fa-shop-15
+{
+    color: #fff;
+    font-size: 50px;
+    line-height: 1;
+    position: relative;
+    top: 3px;
+}
+div.general_title_box-petit h2{
+    font-size: 33px;
+    color: #fff;
+    font-weight: bold;
+    text-indent: 10px;
+    height: 50px;
+    line-height: 55px;
+    font-family: "Meiryo", arial;
+}
+body.cn div.general_title_box-petit h2{
+    font-family: inherit;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page.kimono-list{
+    border-top: 10px solid #e88080;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.bold,
+div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple .wrap-options .titles p.bold{
+    background-color: #e88080;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .lists,
+div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple .wrap-options .lists{
+    border: 4px solid #e88080;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.bold:after,
+div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple .wrap-options .titles p.bold:after{
+    background-position: 0px -1539px;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul .text,
+div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul .text{
+    width:100%;
+    margin-top:0;
+    line-height: 1;
+}
+body.th div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul .text li,
+body.th div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul .text li{
+    width: auto;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul.second{
+    margin-top: 0;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li > span,
+div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul li > span{
+    padding:0;
+    color: #e88080;
+    font-size: 16px;
+    line-height: 1;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul.second li > span,
+div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul.second li > span{
+    color: #8a90ca;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul.first li > span,
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul.second li > span,
+div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul.first li > span,
+div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul.second li > span{
+    background:none;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul .list,
+div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul .list{
+    padding-left:0;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.brief,
+div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple .wrap-options .titles p.brief{
+    color: #e88080;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul.first li,
+div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul.first li,
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul.second li{
+    width: 62px;
+    margin-right: 5px;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .femalePetit ul.first li,
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .femalePetit ul.second li{
+    width: 62px;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul.first li:last-child,
+div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul.first li:last-child,
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul.second li:last-child,
+div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul.second li:last-child{
+    margin-right: 6px;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li p,
+div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul li p{
+    color: #e88080;
+    text-align: center;
+}
+body.vi div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li p,
+body.vi div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul li p,
+body.tw div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li p,
+body.tw div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul li p,
+body.ko div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li p,
+body.ko div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul li p,
+body.ru div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li p,
+body.ru div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul li p,
+body.th div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li p,
+body.th div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul li p,
+body.id div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li p,
+body.id div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul li p{
+    white-space: normal;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul.second li p,
+div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul.second li p{
+    color: #8a90ca;
+}
+div.kimono-petit-page .option-for-male,
+div.kimono-couple-page .option-for-male{
+    margin-top: 7px;
+}
+.option-for-male .titles p.bold{
+    background:#8a90ca !important ;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .option-for-male .titles p.brief,
+div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple .wrap-options .option-for-male .titles p.brief{
+    color: #8a90ca;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .option-for-male .titles p.bold:after,
+div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple .wrap-options .option-for-male .titles p.bold:after{
+    background-position: 0px -1556px;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .men,
+div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple .wrap-options .men{
+    border: 4px solid #8a90ca;
+}
+div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple .wrap-options .men .second,
+div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .men .second{
+    margin-top: 0 !important;
+}
+div.kimono-petit-page div.box-general-kimono-couple-page {
+    background: #fae6e6;
+}
+.link_gotopage-petit-page a span:before{
+    display: none !important;
+}
+.link_gotopage-petit-page a{
+    padding: 7px 12px !important;
+    font-size: 24px !important;
+    background: #c30d23;
+    margin-left: 0;
+    color: #fff !important;
+}
+/*kimono petit detail*/
+.plan-petit{
+    border-top:10px solid #e88080;
+    margin-bottom: 15px;
+}
+.petit-page-detail{
+    width: 29.7%;
+    float: left;
+}
+.plan-petit-adv{
+    float: right;
+    width: 28.5%;
+}
+.plan-petit-content {
+    width: 41%;
+    float: left;
+    position: absolute;
+    height: 100%;
+    margin-left: 30%;
+    border: 4px solid #4e0037;
+    box-sizing: border-box;
+}
+.plan-petit-detail-page{
+    margin-top: 15px;
+}
+/*fix style picture*/
+.box-content-petit-page .sect-kimomo-normal .list-kimono ul li.item {
+    width: 31%;
+    margin: 0 3.5% 35px 0;
+}
+.box-content-petit-page .sect-kimomo-normal .list-kimono ul li:nth-child(3n+0){
+    margin-right: 0;
+}
+.box-content-petit-page .sect-kimomo-normal ul li.item .kimono-image .large{
+    width: 214px;
+    height: 232px;
+    line-height: 235px;
+    margin-right: 8px;
+    border: 1px solid #e88080;
+}
+.box-content-petit-page .sect-kimomo-normal ul li.item .kimono-image .thumb ul li{
+    height: 71px;
+    border: 1px solid #e88080;
+    height: 71px;
+    display: block;
+    margin-bottom: 9px;
+    line-height: 68px;
+    float: none;
+    margin: 0 0 7px 0;
+}
+.box-content-petit-page .sect-kimomo-normal ul li.item .kimono-image .thumb ul li:last-child{
+    margin-bottom: 0;
+}
+.box-content-petit-page- .sect-kimomo-normal ul li.item .kimono-image .thumb ul li img{
+    height: 74px;
+}
+.box-content-petit-page .sect-kimomo-normal ul li.item .kimono-info{
+    min-height: auto;
+    margin-bottom: 0;
+}
+.box-content-petit-page .sect-kimomo-normal ul li.item .kimono-image{
+    width: 100%;
+}
+div.kimono-couple-page div.box-general-kimono-petit-page {
+     width: 100%;
+    background: #fae6e6;
+     margin-bottom: 20px;
+}
+div.kimono-couple-page .plan-petit-content div.box-general-kimono-petit-page,
+.plan-petit-detail-page .plan-petit-content{
+    border: none;
+    background: #fae6e6;
+}
+.plan-petit-detail-page .image-thumb img{
+    height: 411px;
+}
+.plan-petit-detail-page .plan-couple-adv img{
+    height: 100%;
+}
+div.kimono-couple-page div.plan-petit-detail-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li p.price_small,
+div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.price_small{
+    font-size: 16px;
+    top: 5px;
+}
+body.hi div.kimono-couple-page div.plan-petit-detail-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li p.price_small,
+body.hi div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.price_small{
+    font-size: 18px;
+}
+div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li {
+    padding-top: 10px;
+}
+div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li.price_large p,
+div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li.price_large p,
+body.hi div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li.price_large p,
+body.hi div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li.price_large p{
+    font-size: 62px;
+    line-height: 64px;
+    color: #c30d23;
+    font-weight: bold;
+}
+div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li.price_large p span var,
+div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li.price_large p span var,
+body.hi div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li.price_large p span var,
+body.hi div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li.price_large p span var{
+    color: #c30d23;
+    font-size: 24px;
+    font-weight: bold;
+}
+div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li p.bg_red,
+div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.bg_red,
+body.hi div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li p.bg_red,
+body.hi div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.bg_red{
+    background: #c30d23;
+    font-size: 16px;
+    padding: 0px 5px;
+    text-align: center;
+}
+body.vi div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li p.bg_red,
+body.vi div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.bg_red,
+body.id div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li p.bg_red,
+body.id div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.bg_red,
+body.fr div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li p.bg_red,
+body.fr div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.bg_red{
+    font-size: 12px;
+}
+body.ms div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li p.bg_red,
+body.ms div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.bg_red{
+    font-size: 14px;
+}
+div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li.price_large p span,
+div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li.price_large p span,
+body.hi div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li.price_large p span,
+body.hi div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li.price_large p span{
+    font-size: 12px;
+    line-height: 12px;
+    padding-left: 0;
+    color: #000;
+}
+div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li p.price_small span,
+div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.price_small span{
+    font-size: 9px;
+    color: #000;
+}
+body.ms div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li p.price_small span,
+body.ms div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.price_small span{
+    font-size: 14px;
+}
+div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .excerpt p{
+    font-size: 12px;
+    color: #000;
+}
+div.kimono-couple-page div.plan-petit-detail-page div.box-general-kimono-petit-page .info.plan-page .title h1 span.name {
+    font-size: 30px;
+    width:100%;
+}
+div.kimono-couple-page .plan-petit-content div.box-general-kimono-petit-page .info.plan-page .excerpt {
+    padding-right:0;
+}
+.box-content-petit-page .sect-kimomo-normal.couple-sex #tab-sex li.active{
+    background: #e88080;
+}
+.box-content-petit-page .sect-kimomo-normal.couple-sex #tab-sex {
+    border-bottom: 7px solid #e88080;
+    margin-bottom: 10px;
+}
+.box-content-petit-page .sect-kimomo-normal.couple-sex #tab-sex li {
+    background: #8a90ca;
+    margin-right: 0.658%;
+}
+.box-content-page .sect-kimomo-normal.couple-sex #tab-sex li a{
+    color: #fff;
+}
+.box-content-petit-page .paging-kimono .back_list,
+.link_gotopage-petit-page{
+    display: none !important;
+}
+.box-content-petit-page .back_list a.kimono{
+    background: #c30d23;
+    margin-left: 0;
+}
+.box-content-petit-page .back_list a {
+    padding: 7px 12px;
+    font-size: 24px;
+}
+.box-content-petit-page .paging-kimono ul li.selected a {
+    background: #c30d23;
+}
+.box-content-petit-page .paging-kimono ul li a{
+    color:#c30d23;
+    font-size: 24px;
+    padding:7px 18px;
+}
+.box-content-petit-page .paging-kimono ul li{
+    border: 1px solid #c30d23;
+}
+.box-content-petit-page .sect-kimomo-normal .paging-kimono ul li:nth-child(3n+0){
+    margin-right: -1px;
+}
+.box-content-petit-page .paging-kimono ul{
+    float:right;
+    width: 60% !important;
+}
+body.ru .box-content-petit-page .paging-kimono ul{
+    width: 50% !important;
+}
+.box-content-petit-page .sect-kimomo-normal ul li.item .link-reserve,
+.box-content-petit-page .sect-kimomo-normal .list-kimono .sect-kimono .link-not-product{
+    display: none;
+}
+.box-content-petit-page .sect-kimomo-normal ul li.item .kimono-info .name{
+    text-align: center;
+    padding-left:0;
+    font-size: 15px;
+    color: #e88080;
+    background: #fae6e6;
+    line-height: 28px;
+    max-width: 100%;
+    font-weight: bold;
+}
+/*Button link page*/
+.input-person-container .wrap-dx-flex-button-petit{
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    padding-bottom: 15px;
+}
+.input-person-container .wrap-dx-flex-button-petit .button-new-shop{
+    width: 49%;
+}
+.input-person-container .wrap-dx-flex-button-petit .button-new-shop a{
+
+}
+/*--fix feedback css petit--*/
+div.kimono-couple-page.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li img{
+    width: 52px;
+}
+div.kimono-couple-page.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul.second li:last-child img{
+    width: 52px;
+}
+.kimono-couple-page .note {
+    color: #000000;
+    margin-top: 10px;
+}
+.wrap-tabs-petit{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+.wrap-tabs-petit label{
+    width: 49%;
+    position: relative;
+}
+.wrap-tabs-petit label span.right-icon{
+    font-size: 35px;
+    position: absolute;
+    right: 5%;
+    color: #fff;
+}
+.wrap-tabs-petit label.shop-15{
+    padding-left: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.kimono-couple-page .note .text-color-other{
+    color: #e60012 !important;
+    font-weight: bold;
+    font-size: 15px;
+}
+.kimono-couple-page .note span{
+    font-size: 15px;
+}
+.kimono-couple-page .petit-image{
+    width: 232px;
+}
+.new-price-petit{
+    font-size: 15px !important;
+    line-height: 1 !important;
+    color: #000 !important;
+    padding: 5px 0;
+    margin-left: -100px;
+}
+.new-price-petit .text-red-petit{
+    color: #c30d23 !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+}
+.new-price-petit .new-current-petit{
+    font-size: 12px !important;
+}
+@media (max-width: 959px){
+
+}
+@media (min-width: 768px) and (max-width: 959px){
+    .link_gotopage-petit-page{
+        padding:0 !important;
+    }
+    .wrap-content-petit-detail{
+        padding: 0 7px;
+        box-sizing: border-box;
+    }
+    div.kimono-petit-page div.box-general-kimono-couple-page .image.image-kimono{
+        width: 39.3%;
+        height: auto;
+        border-right: 5px solid #fff;
+    }
+    div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.name{
+        font-size: 27px;
+    }
+    div.kimono-petit-page div.box-general-kimono-couple-page .image img{
+        width: 100%;
+    }
+    .plan-petit-content{
+        margin-left: 29%;
+    }
+    div.kimono-petit-page div.box-general-kimono-couple-page .info.info-kimono{
+        width: 60%;
+        padding:4px;
+    }
+    div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple{
+        width:auto;
+    }
+    div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.bold{
+        font-size: 11px;
+    }
+    div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li p,
+    div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul li p{
+        white-space: normal;
+    }
+    .plan-petit-detail-page .image-thumb img,
+    .plan-petit-detail-page .plan-couple-adv img{
+        height: 337px;
+    }
+    div.kimono-couple-page .plan-petit-content div.box-general-kimono-petit-page .info {
+        padding: 10px;
+    }
+    div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul.first li,
+    div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul.second li{
+        margin-right: 10px;
+    }
+    div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li:last-child{
+        margin-right: 0;
+    }
+    .box-content-petit-page .sect-kimomo-normal .list-kimono ul li.item {
+        width: 48%;
+        margin-right: 4%;
+    }
+    body.ru div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.brief{
+        font-size: 13px;
+    }
+    body.en .box-content-petit-page .paging-kimono ul,
+    body.id .box-content-petit-page .paging-kimono ul,
+    body.ru .box-content-petit-page .paging-kimono ul,
+    body.th .box-content-petit-page .paging-kimono ul{
+        width:45% !important;
+    }
+    body.id div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li.price_large p span var,
+    body.id div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li.price_large p span var,
+    body.ms div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li.price_large p span var,
+    body.ms div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li.price_large p span var{
+        font-size: 16px;
+    }
+    body.ms div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.bg_red{
+        font-size: 12px;
+    }
+    body.ms div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.brief{
+        font-size: 11px;
+        width:65%;
+    }
+    body.fr div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.bold,
+    body.fr div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.brief{
+        line-height: 2;
+    }
+    .petit_notify{
+        padding: 0 7px;
+        box-sizing: border-box;
+    }
+    body.hi div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.brief{
+        margin-top: 10px;
+        font-size: 11px;
+    }
+    body.hi div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li.price_large p{
+        font-size: 56px;
+    }
+    body.hi .box-content-petit-page .paging-kimono ul {
+        width: auto !important;
+        margin: 0 auto;
+        float: none;
+    }
+}
+@media (max-width: 767px){
+    /*list petit page*/
+    .link_gotopage-petit-page{
+        margin: 5px 0 10px 0 !important;
+        padding:0 !important;
+    }
+    .link_gotopage-petit-page a{
+        font-size: 18px !important;
+    }
+    div.kimono-petit-page div.box-general-kimono-couple-page .info.info-kimono {
+        width: 100%;
+        float: none;
+        padding: 0 7px 7px 7px;
+        box-sizing: border-box;
+    }
+    .wrap-content-petit-detail{
+        padding: 0 7px;
+        box-sizing: border-box;
+    }
+    div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .excerpt {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple{
+        width: 100%;
+    }
+    .layout-kimono-sp div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices{
+        margin-bottom: 5px;
+    }
+    div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li.price_large p {
+        font-size: 38px;
+        line-height: 47px;
+    }
+    div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li p.bg_red {
+        line-height: 1;
+        padding: 3px 3px 1px 3px;
+    }
+    div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li {
+        padding-top: 3px;
+    }
+    div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li p.price_small,
+    div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.price_small {
+        font-size: 16px;
+    }
+    div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.price_small{
+        top:0;
+    }
+	div.kimono-petit-page .prices .p-right .go-to-booking{
+		margin: 10px 10px 10px 10px;
+	}
+    div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .excerpt p {
+        padding-left: 2%;
+    }
+    .box-content-petit-page .paging-kimono ul{
+        text-align: right;
+    }
+    div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li p {
+        font-size: 11px;
+        white-space: nowrap;
+    }
+    div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li {
+        padding-top: 5px;
+    }
+    div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li p.bg_red,
+    div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.bg_red,
+    body.hi div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li p.bg_red,
+    body.hi div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.bg_red{
+        padding:6px 5px;
+    }
+    div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.name br{
+        display:none;
+    }
+    .box-content-petit-page .peptit-add-plan-container .petit-note{
+        padding:0 7px 7px 7px;
+    }
+    .box-content-petit-page .peptit-add-plan-container .peptit-btn-container {
+        margin: 20px 0 10px 0;
+    }
+    .box-content-petit-page .sect-kimomo-normal.couple-sex #tab-sex li.active,
+    .box-content-petit-page li.active a, li.active a:hover{
+        background: #e88080!important;
+    }
+    .peptit-add-plan-container .title{
+        font-size: 23px;
+    }
+    body.id .box-content-petit-page .back_list a{
+        font-size: 22px;
+    }
+    body.ms div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li p.bg_red,
+    body.ms div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.bg_red {
+        padding: 3px;
+    }
+    body.fr div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.bold {
+        line-height: 32px;
+        height: 27px;
+    }
+    .petit_notify{
+        padding: 0 7px;
+        box-sizing: border-box;
+    }
+    body.cn .box-content-petit-page .paging-kimono ul,
+    body.hi .box-content-petit-page .paging-kimono ul{
+        width: auto !important;
+        margin: 0 auto;
+        float:none;
+    }
+    body.hi div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li.price_large p,
+    body.hi div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li.price_large p{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 640px) {
+    .box-content-petit-page .sect-kimomo-normal .list-kimono ul li.item {
+        width: 49%;
+        margin-right: 2%;
+    }
+}
+@media (max-width: 767px) and (min-width: 480px){
+    .box-content-petit-page .paging-kimono ul{
+        width:45% !important;
+    }
+    div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li img,
+    div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul li img,
+    div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li,
+    div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul li{
+        width: 50px;
+    }
+    div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul.first li,
+    div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul.first li,
+    div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul.second li,
+    div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul.second li{
+        margin-right: 12px;
+        width:51px;
+    }
+    body.ms div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.bg_red{
+        font-size: 11px;
+    }
+    body.fr div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.bold{
+        font-size: 11px;
+    }
+    body.cn .kimono-couple-page .peptit-add-plan-container label div.text-shop-icon{
+        font-size: 18px;
+    }
+    body.hi .kimono-couple-page .peptit-add-plan-container label div.text-shop-icon{
+        font-size: 17px;
+    }
+    body.hi div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.brief{
+        font-size: 11px ;
+        margin: 11px 0 0 6px;
+    }
+    body.hi div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.bold{
+        line-height: 43px;
+    }
+    body.hi var.price_suffix {
+        font-size: 25px;
+    }
+    body.hi div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul .list,
+    body.hi div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul .list{
+        margin-left: 0;
+    }
+}
+@media (max-width: 480px) and (min-width: 320px){
+    body.vi div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li.price_large p{
+        font-size: 25px;
+    }
+    div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .title h3 span.name,
+    body.vi div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .title h3 span.name{
+        font-size: 17px;
+    }
+    div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li > span{
+        font-size: 13px;
+    }
+    body.vi div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li p.bg_red,
+    body.vi div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.bg_red,
+    body.ru div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li p.bg_red,
+    body.ru div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.bg_red,
+    body.id div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li p.bg_red,
+    body.id div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.bg_red{
+        font-size: 9px;
+    }
+    body.ru div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li.price_large p,
+    body.ru div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li.price_large p{
+        font-size: 25px;
+    }
+    body.ru div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li.price_large p span,
+    body.ru div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li.price_large p span,
+    body.ru div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.price_small span{
+        font-size: 8px;
+    }
+    div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li p.bg_red,
+    div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.bg_red{
+        font-size: 15px;
+        line-height: 1;
+        padding: 3px;
+    }
+    body.hi div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li p.bg_red,
+    body.hi div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.bg_red{
+        font-size: 13px;
+        padding: 5px 3px 4px 3px;
+    }
+    .box-content-petit-page .back_list a{
+        text-align: center;
+    }
+    .box-content-petit-page .paging-kimono ul{
+        float: left;
+    }
+    .section-top-list-petit h1{
+        font-size: 27px;
+    }
+    div.general_title_box-petit h2{
+         font-size: 22px;
+     }
+    body.ms div.general_title_box-petit h2,
+    body.fr div.general_title_box-petit h2{
+        font-size: 19px;
+    }
+    body.id div.general_title_box-petit h2,
+    body.hi div.general_title_box-petit h2{
+        font-size: 18px;
+    }
+    div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li p,
+    div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul li p{
+        font-size: 8px;
+        white-space: normal;
+    }
+    div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.brief,
+    body.id div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.brief{
+        font-size: 8px;
+        margin: 11px 0 0 6px;
+    }
+    body.ms div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.bold{
+        font-size: 8px;
+    }
+    body.ms div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.brief{
+        font-size: 7px;
+        width:60%
+    }
+    body.th div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.brief{
+        font-size: 10px;
+        margin: 9px 0 0 6px;
+    }
+    body.cn div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.brief{
+        font-size: 9px;
+    }
+    /*style picture product*/
+    .box-content-petit-page .sect-kimomo-normal ul li.item .kimono-image .large{
+        width: 70%;
+        margin-right: 5%;
+        box-sizing: border-box;
+    }
+    .box-content-petit-page .sect-kimomo-normal ul li.item .kimono-image .thumb{
+        width: 25%;
+    }
+    .box-content-petit-page .sect-kimomo-normal ul li.item .kimono-image .thumb ul li{
+        margin-right: 0;
+    }
+    /*button-petit*/
+    .input-person-container .wrap-dx-flex-button-petit .button-new-shop{
+        width: 100%;
+    }
+    .input-person-container .wrap-dx-flex-button-petit .col-input-left{
+        margin-bottom: 7px;
+    }
+    body.tw div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li.price_large p{
+        font-size: 31px;
+    }
+    body.hi div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li.price_large p{
+        font-size: 29px;
+        line-height: 50px;
+    }
+    body.fr div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.bg_red{
+        font-size: 9px;
+    }
+    body.fr div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.brief{
+        font-size: 9px;
+        margin-top: 11px;
+    }
+}
+@media (max-width:479px) {
+    div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul.first li,
+    div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul.first li,
+    div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul.second li,
+    div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple ul.second li,
+    body.ms div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul li{
+        width: 11.2%;
+        margin-right: 1.2%;
+    }
+    body.ms div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul.first li,
+    body.ms div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple ul.second li{
+        width: 13%;
+        margin-right: 1.2%;
+    }
+    div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .femalePetit ul.first li,
+    div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .femalePetit ul.second li{
+        width: 11.2%;
+    }
+    div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .yukata-petit-option ul.first li,
+    div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple .yukata-petit-option ul.first li,
+    div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .yukata-petit-option ul.second li,
+    div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple .yukata-petit-option ul.second li{
+        width: 52px;
+    }
+    .box-content-petit-page .peptit-add-plan-container .title{
+        font-size: 20px;
+    }
+    body.ms div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li p.bg_red,
+    body.ms div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.bg_red {
+        font-size: 9px;
+        padding:3px;
+    }
+    body.fr .peptit-calendar-container #choose-shop-and-date #paged a{
+        font-size: 11px;
+    }
+    body.hi.layout-kimono-sp .box-content-page .sect-kimomo-normal.couple-sex #tab-sex li a{
+        font-size: 13px;
+    }
+    body.hi div.kimono-couple-page div.plan-petit-detail-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li p.price_small,
+    body.hi div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.price_small{
+        font-size: 13px;
+    }
+    body.hi div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.brief{
+        margin: 5px 0 0 6px;
+        line-height: 1.3;
+        font-size: 11px;
+    }
+    body.hi var.price_suffix {
+        font-size: 17px;
+        margin-left: 0;
+    }
+    body.hi div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple .wrap-options .option-for-female .titles p.bold,
+    body.hi div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .option-for-female .titles p.bold{
+        padding:0 8px;
+    }
+}
+@media (max-width:320px){
+    div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple .wrap-options .titles p.bold,
+    div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.bold,
+    body.fr div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .titles p.bold{
+        font-size: 9px;
+    }
+    body.hi div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple .wrap-options .option-for-male .titles p.bold,
+    body.hi div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .option-for-male .titles p.bold{
+        line-height: 1.9;
+    }
+    body.cn div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li p.price_small{
+        font-size:15px;
+    }
+    body.cn div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li.price_large p span var,
+    body.cn div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li.price_large p span var,
+    body.hi div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li.price_large p span var,
+    body.hi div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li.price_large p span var{
+        font-size: 16px;
+    }
+    body.cn div.kimono-couple-page div.box-general-kimono-petit-page .info.plan-page .prices ul.price li.price_large p span,
+    body.cn div.kimono-petit-page div.box-general-kimono-couple-page .info.plan-page .prices ul.price li.price_large p span{
+        font-size: 9px;
+    }
+    body.hi div.kimono-couple-page div.box-general-kimono-petit-page .info div.option-kimono-couple .wrap-options .option-for-female .titles p.bold,
+    body.hi div.kimono-petit-page div.box-general-kimono-couple-page .info div.option-kimono-couple .wrap-options .option-for-female .titles p.bold{
+        line-height: 1.9;
+    }
+}
+
+@media (min-width: 750px) {
+    .wrap-tabs-petit{
+        justify-content: flex-start;
+        -webkit-justify-content: flex-start;
+    }
+    .wrap-tabs-petit label{
+        width: 232px;
+    }
+    .wrap-tabs-petit label.shop-14{
+        margin-right: 20px;
+    }
+    .kimono-couple-page .peptit-add-plan-container label div.text-shop-icon{
+        font-size: 20px;
+    }
+    .new-price-petit {
+        /*font-size: 19px !important;*/
+        padding: 10px 0;
+    }
+    .new-price-petit .text-red-petit {
+        font-size: 30px !important;
+    }
+    .new-price-petit .new-current-petit{
+        font-size: 18px !important;
+    }
+}

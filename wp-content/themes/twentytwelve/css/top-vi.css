@@ -1,0 +1,15 @@
+/*==BOX SLIDER==*/
+.kimono-slider-home .flexslider {
+    margin-bottom: 10px;
+}
+/*==BOX 6 POINTS==*/
+.section-6advices .box-list ul li .item img.sub-item-advice-content-02 {
+    margin: -28px 0 0 10px;
+}
+.section-6advices .box-list ul li .item p {
+    font-size: 13px;
+}
+/*==BOX RANKING==*/
+.block-title-top-page-title h2 span.ja {
+    display: none;
+}

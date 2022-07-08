@@ -1,0 +1,175 @@
+.wrap-banner-petit .banner{
+    margin-bottom: 30px;
+}
+.wrap-banner-petit .banner img{
+    width: 100%;
+}
+.wrap-banner-petit .title-petit,
+.wrap-banner-petit .excerpt-petit{
+    padding: 0 10px;
+}
+.wrap-banner-petit .title-petit{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+.wg-webpirce-box .box-price .sm-price .text-red{
+    color: red;
+}
+.wrap-banner-petit .excerpt-petit{
+    font-size: 15px;
+    color: #000;
+    line-height: 1.7;
+}
+.wraper-bnt-reserve-petit {
+    width: 100%;
+    justify-content: center;
+}
+.wraper-bnt-reserve-petit .btn-reserve{
+    width: 75%;
+}
+.wrap-shop-person-date-grid-petit{
+    margin-bottom: 90px;
+}
+.wrap-choose-shop-modal-petit .shop-list{
+    flex-direction: column;
+}
+.wrap-choose-shop-modal-petit .shop-list .shop-list-item{
+    width: 67%;
+}
+.wrap-shop-person-date-grid-petit .title-box{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.wrap-shop-person-date-grid-petit .content-box{
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap-choose-shop-modal-petit .area-shop-list-item .shop-list{
+    flex-direction: column;
+    margin-left: -10px;
+}
+.wrap-choose-sl-wg-petit {
+    background: none;
+    padding: 0;
+}
+.wrap-choose-sl-wg-petit .wraper-sl{
+    width: 45%;
+    height: 50px;
+}
+.wrap-choose-sl-wg-petit .wraper-sl:last-child{
+    margin-right: 0;
+}
+.wrap-choose-shop-modal-petit .shop-list .shop-list-item .info-choose-shop{
+    font-size: 15px;
+    height: 40px;
+}
+.wrap-choose-sl-wg-petit .wraper-sl .label-sl{
+    width: 55px;
+    border: 1px solid #a0a0a0;
+    border-right: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: #3a3a3a;
+}
+.wrap-choose-sl-wg-petit .wraper-sl .female{
+    background-color: #FFDEDE;
+}
+.wrap-choose-sl-wg-petit .wraper-sl .male{
+    background-color: #CAE3E8;
+}
+.wrap-choose-sl-wg-petit .wraper-sl .sl-choose-people{
+    border-radius: 0;
+    font-size: 15px;
+    background-image: url(../../../../../images/new-kimono/arrow-down-sl-gray.svg);
+    -ms-background-position-x:90%;
+    background-position-x:90%;
+    flex: 1;
+    margin-right: 0;
+}
+.wrap-shop-chosen-petit{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+.wrap-shop-chosen-petit .shop-chosen-text{
+    font-size: 15px;
+    color: #191919;
+    font-weight: bold;
+}
+.wrap-shop-chosen-petit .shop-chosen-name{
+    color: #d2003e;
+}
+.wrap-gridpetit .row{
+    padding: 0;
+}
+.wrap-choose-info-petit{
+    margin-bottom: 20px;
+}
+.wrap-gridpetit .wrap-choose-date .dropdown-choose-grid{
+    padding: 0;
+}
+.wrap-choose-date-petit .dropdown-choose-grid .text-date-choosed{
+    height: 50px;
+    align-items: center;
+}
+
+@media (min-width: 750px) {
+    .wrap-choose-shop-modal-petit .shop-list{
+        display: flex;
+        flex-direction: row;
+    }
+    .wrap-choose-shop-modal-petit .shop-list .shop-list-item{
+        width: 180px;
+        margin-left: 15px;
+        margin-bottom: 0;
+    }
+    .wrap-choose-shop-modal-petit .shop-list .shop-list-item:first-child{
+        margin-left: 0;
+    }
+    .top-new-plan-list-petit{
+        margin-top: 0;
+    }
+    .wrap-boths-column .right-column .intro-top-general-petit{
+        margin: 50px 0 10px 0;
+    }
+    .wrap-choose-sl-wg-petit .wraper-sl{
+        width: 235px;
+        margin-right: 35px;
+    }
+    .wrap-choose-sl-wg-petit .wraper-sl .label-sl{
+        width: 60px;
+    }
+    .wrap-choose-sl-wg-petit .wraper-sl .sl-choose-people{
+        padding-left: 10px;
+        text-align-last: center;
+        background-position-x: 95%;
+    }
+    .wrap-shop-chosen-petit{
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .wrap-gridpetit .wrap-choose-date{
+        flex-direction: column;
+    }
+    .wrap-choose-info-petit .wrap-choose-date .box-dropdown{
+        width: 240px;
+    }
+}

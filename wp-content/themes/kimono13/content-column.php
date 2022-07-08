@@ -1,0 +1,32 @@
+<?php
+/**
+ * The template used for displaying page content in page.php
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twelve
+ * @since Twenty Twelve 1.0
+ */
+?>
+
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    
+    <!-- title -->
+	
+    <div class="entry-content">
+        <?php the_content(); ?>
+        <?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'twentytwelve' ), 'after' => '</div>' ) ); ?>
+    </div><!-- .entry-content -->
+	<?php	
+	/*-------------------------------------------------------------*/
+	/* show custom data for spot detail*/
+	/*-------------------------------------------------------------*/
+	$data = checkColumnPage();				
+	if($data['slug'] === SPOT){
+		get_template_part('include/spot-data');
+	}
+	?>
+    <div class="entry-meta">
+        <?php edit_post_link( __( 'Edit', 'twentytwelve' ), '<span class="edit-link">', '</span>' ); ?>
+    </div><!-- .entry-meta -->
+	
+</article><!-- #post -->

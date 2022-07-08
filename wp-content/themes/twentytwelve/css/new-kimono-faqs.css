@@ -1,0 +1,441 @@
+.wrap-new-kimono-faqs .title-general{
+    padding: 5px 10px;
+}
+.wrap-new-kimono-faqs .text-title-general{
+    font-size: 17px;
+    font-weight: bold;
+}
+.wrap-new-kimono-faqs .content-new-kimono-faqs{
+    padding: 0 20px 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.wrap-new-kimono-faqs .menu-kimono-faqs{
+    border-bottom: 1px solid #000;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.wrap-new-kimono-faqs .menu-item{
+    margin-bottom: 7px;
+}
+.wrap-new-kimono-faqs .menu-item a{
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+}
+.wrap-new-kimono-faqs .menu-item a:hover{
+    text-decoration: underline !important;
+}
+.wrap-new-kimono-faqs .title-box-item{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    color: #000;
+}
+.wrap-new-kimono-faqs .wrap-box-item{
+    margin-bottom: 30px;
+}
+.wrap-new-kimono-faqs .wrap-btn-link{
+    margin-bottom: 20px;
+}
+.wrap-new-kimono-faqs .btn-formal{
+    text-decoration: none;
+    font-size: 17px;
+}
+.wrap-new-kimono-faqs .box-contact-faq{
+    border: 1px solid #000;
+    padding: 15px 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #000;
+}
+.wrap-new-kimono-faqs .title-contact{
+    font-size: 13px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+    line-height: 1;
+}
+.wrap-new-kimono-faqs .icon-formal-phone{
+    font-size: 60px;
+    margin-right: 20px;
+    line-height: 1;
+}
+.wrap-new-kimono-faqs .info-contact{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.wrap-new-kimono-faqs .info-contact p{
+    line-height: 1;
+}
+.wrap-new-kimono-faqs .info-contact .num{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.wrap-new-kimono-faqs .info-contact .brief{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.wrap-new-kimono-faqs .info-contact .time{
+    font-size: 17px;
+}
+.wrap-new-kimono-faqs .link-more-faqs{
+    text-align: right;
+}
+.wrap-new-kimono-faqs .link-more-faqs a{
+    font-size: 13px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+.wrap-new-kimono-faqs .link-more-faqs a:after{
+    display: inline-block;
+    content: "";
+    right: 0;
+    width: 8px;
+    height: 8px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    border-right: 1px solid rgba(1,1,1,1);
+    border-bottom: 1px solid rgba(1,1,1,1);
+    margin-left: 5px;
+}
+
+/* Form Contact */
+.new-kimono-contact-faqs .screen-reader-response{
+    display: none;
+}
+.wrap-des-contact-faqs{
+    font-size:13px;
+    line-height: 1.7;
+    padding: 0 20px;
+    margin-bottom: 40px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.new-kimono-contact-faqs .row-contact{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.new-kimono-contact-faqs .row-title{
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 10px;
+    line-height:1;
+}
+.new-kimono-contact-faqs .row-title .require{
+    font-size: 11px;
+    color: #d2003e;
+    margin-left: 10px;
+}
+.new-kimono-contact-faqs .row-contact{
+    margin-bottom: 15px;
+}
+.new-kimono-contact-faqs .row-col-2{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: -13px;
+}
+.new-kimono-contact-faqs .row-col-2 span{
+    margin-left: 13px;
+}
+.new-kimono-contact-faqs .row-field input,
+.new-kimono-contact-faqs .row-field textarea{
+    width: 100%;
+    border: 1px solid #969696;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 15px;
+    color: #000;
+}
+.new-kimono-contact-faqs .wpcf7-validation-errors,
+.new-kimono-contact-faqs .wpcf7-mail-sent-ok{
+    border: 2px solid #f7e700;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 11px;
+}
+.new-kimono-contact-faqs .row-field .wpcf7-not-valid-tip{
+    color: red;
+    font-size: 11px;
+    margin-left: 0;
+}
+.new-kimono-contact-faqs .row-contact-captchar input{
+    width: 45%;
+    margin-right: 10px;
+}
+.new-kimono-contact-faqs .row-field input{
+    height: 37px;
+}
+
+/*drop-down-menu-shop-faq*/
+.drop-down-menu-shops option {
+    color: #000;
+}
+.drop-menu-select .empty {
+    color: #cecece;
+}
+.drop-down-menu-shops option:first-child{
+    color: #cecece;
+}
+.new-kimono-contact-faqs .row-field select.drop-down-menu-shops{
+    border: 1px solid #888;
+}
+.drop-menu-select{
+    position: relative;
+    -webkit-box-flex: inherit;
+    -ms-flex: inherit;
+    flex: inherit;
+}
+.drop-menu-select:after {
+    content: '\25bc';
+    right: 11px;
+    top: 6px;
+    height: 24px;
+    padding: 15px 0px 0px 8px;
+    border-left: 1px solid #888;
+    position: absolute;
+    pointer-events: none;
+}
+select.drop-down-menu-shops::-ms-expand {
+    display: none;
+}
+.drop-menu-select select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: block;
+    width: 100%;
+    height: 41px;
+    margin: 5px 0px;
+    padding: 0px 10px;
+    background-image: none;
+    border: 1px solid #888;
+    -ms-word-break: normal;
+    word-break: normal;
+    cursor: pointer;
+}
+.new-kimono-contact-faqs .row-field textarea{
+    height: 190px;
+    font-size: 15px;
+}
+.new-kimono-contact-faqs .row-contact-submit{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+.new-kimono-contact-faqs .row-contact-submit input{
+    background-color: #d2003e;
+    border: none;
+    height: 36px;
+    color: #fff;
+    width: 50%;
+    font-size: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.new-kimono-contact-faqs .link-reserve-contact{
+    text-align: right;
+}
+.new-kimono-contact-faqs .link-reserve-contact a{
+    color: #474747;
+    font-size: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+.new-kimono-contact-faqs .link-reserve-contact a:after{
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    border-right: 1px solid rgba(107,122,131,1);
+    border-bottom: 1px solid rgba(107,122,131,1);
+    cursor: pointer;
+}
+.wrap-new-kimono-faqs .menu-kimono-faqs-contact{
+    border-top: 1px solid #000;
+    padding-top: 30px;
+}
+.wrap-new-kimono-faqs .box-faqs-item .text-faqs-title{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+/*thai*/
+.wrap-item-error {
+    margin-bottom: 40px;
+}
+.wrap-item-error .text-des-error{
+    font-size: 15px;
+}
+.wrap-item-error .icon-dot-error{
+    font-size: 20px;
+    position: relative;
+    top: 0;
+}
+
+/*===For PC==*/
+@media (min-width: 750px){
+    .wrap-new-kimono-faqs .title-general {
+        padding: 7px 15px;
+    }
+    .wrap-new-kimono-faqs .text-title-general{
+        font-size: 20px;
+    }
+    .wrap-new-kimono-faqs .menu-item{
+        margin-bottom: 15px;
+    }
+    .wrap-new-kimono-faqs .menu-kimono-faqs {
+        border-top: 1px solid #000;
+        padding-top: 30px;
+        margin-bottom: 0;
+    }
+    .wrap-new-kimono-faqs .content-new-kimono-faqs{
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+        padding: 0;
+    }
+    .wrap-new-kimono-faqs .list-new-kimono-faqs{
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        margin-right: 35px;
+        margin-left: 20px;
+    }
+    .wrap-new-kimono-faqs .box-contact-faq{
+        border: none;
+    }
+    .wrap-new-kimono-faqs .menu-new-kimono-faqs{
+        width: 270px;
+        -ms-flex-item-align: start;
+        align-self: flex-start;
+    }
+    .wrap-new-kimono-faqs .icon-formal-phone{
+        margin: 0;
+        font-size: 40px;
+    }
+    .wrap-new-kimono-faqs .wrap-icon{
+        text-align: center;
+    }
+    .wrap-new-kimono-faqs .title-contact{
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+    .wrap-new-kimono-faqs .title-contact,
+    .wrap-new-kimono-faqs .info-contact p{
+        text-align: center;
+        font-size: 13px;
+        font-weight: normal;
+        margin-bottom: 3px;
+    }
+    .wrap-new-kimono-faqs .info-contact .num{
+        font-size: 22px;
+    }
+    .wrap-new-kimono-faqs .wrap-btn-link{
+        text-align: center;
+    }
+    .wrap-new-kimono-faqs .btn-formal{
+        width: 380px;
+        display: inline-block;
+    }
+
+    /* Form Contact */
+    .new-kimono-contact-faqs .row-contact{
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align:center;
+        -ms-flex-align:center;
+        align-items:center;
+    }
+    .new-kimono-contact-faqs .row-title{
+        width: 160px;
+        margin-bottom: 0;
+    }
+    .new-kimono-contact-faqs .row-field{
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+    }
+    .new-kimono-contact-faqs .row-contact-submit{
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    .new-kimono-contact-faqs .row-contact-submit input{
+        width: 126px;
+    }
+    .new-kimono-contact-faqs .row-contact-captchar input{
+        width: 175px;
+    }
+    .new-kimono-contact-faqs .row-field .wpcf7-not-valid-tip{
+        font-size: 12px;
+    }
+    .new-kimono-contact-faqs .wpcf7-validation-errors{
+        font-size: 13px;
+    }
+    /*thai-banne-text-add*/
+    .wrap-item-error .text-des-error {
+        font-size: 23px;
+        line-height: 1;
+        display: flex;
+        align-items: center;
+        margin-left: -5px;
+        letter-spacing: 2px;
+        margin-bottom: 2px;
+    }
+    .wrap-item-error .icon-dot-error {
+        font-size: 30px;
+        position: relative;
+        top: -3px;
+    }
+}

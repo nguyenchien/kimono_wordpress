@@ -1,0 +1,101 @@
+.wrap-plan-intro .sub-plan-title {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 15px;
+	letter-spacing: 2px;
+}
+
+.wrap-products-low-price .title-ranking {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.wrap-product-item,
+.wrap-cols{
+	overflow: auto;
+}
+.wrap-product-lp-item{
+	margin-bottom: 50px;
+}
+.wrap-product-lp-item .title-recommended{
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.box-slider-product .carousel .slides li{
+	border: 1px solid rgba(78, 0, 55, 0.5);
+}
+.box-slider-product .carousel img{
+	display: block;
+	opacity: .5;
+	cursor: pointer;
+}
+.box-slider-product .carousel li.flex-active-slide{
+	border: 1px solid rgba(78, 0, 55, 1);
+}
+.box-slider-product .carousel .flex-active-slide img {
+	opacity: 1;
+	cursor: default;
+}
+
+.wrap-btn-to-list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+.wrap-btn-to-list a {
+	width: 100%;
+	font-size: 15px;
+	color: #4c4c4c;
+	text-align: center;
+	background-color: #e5e5e5;
+	padding: 15px;
+}
+.wrap-banners-low-price ul li{
+	margin-bottom: 30px;
+}
+.wrap-banners-low-price ul li img{
+	width: 100%;
+}
+.wrap-product-lp-item .product-description{
+	line-height: 1.8;
+	font-size: 12px;
+	letter-spacing: 2px;
+	padding: 0 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.flex-direction-nav .flex-next{
+	right: 0;
+}
+
+@media (min-width: 750px) {
+	.wrap-products-low-price .title-ranking {
+		font-size: 23px;
+		margin-bottom: 30px;
+	}
+	.wrap-plan-intro .sub-plan-title {
+		font-size: 23px;
+		letter-spacing: 10px;
+	}
+	.wrap-product-lp-item .title-recommended{
+		margin-bottom: 15px;
+	}
+	.wrap-btn-to-list {
+		margin-bottom: 50px;
+	}
+	.wrap-btn-to-list a {
+		width: 70%;
+	}
+	.wrap-product-lp-item .product-description{
+		font-size: 14px;
+		padding: 0;
+	}
+}

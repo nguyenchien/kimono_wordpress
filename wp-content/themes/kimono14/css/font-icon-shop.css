@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "untitled-font-2";
+  src:url("font/untitled-font-2.eot");
+  src:url("font/untitled-font-2.eot?#iefix") format("embedded-opentype"),
+    url("font/untitled-font-2.woff") format("woff"),
+    url("font/untitled-font-2.ttf") format("truetype"),
+    url("font/untitled-font-2.svg#untitled-font-2") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "untitled-font-2" !important;
+  content: attr(data-icon) !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none !important;
+  line-height: 1 !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+
+[class^="icon-fa-"]:before,
+[class*=" icon-fa-"]:before {
+  font-family: "untitled-font-2" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none !important;
+  line-height: 1 !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+
+.icon-fa-shop-07:before {
+  content: "\61";
+}
+.icon-fa-shop-01:before {
+  content: "\62";
+}
+.icon-fa-location-01:before {
+  content: "\63";
+}
+.icon-fa-kem-01:before {
+  content: "\64";
+}
+.icon-fa-book-01:before {
+  content: "\65";
+}
+.icon-fa-closthes-01:before {
+  content: "\66";
+}
+.icon-fa-house-01:before {
+  content: "\67";
+}
+.icon-fa-rose-01:before {
+  content: "\68";
+}
+.icon-fa-asakusa-01:before {
+  content: "\69";
+}
+.icon-fa-gionshijo-01:before {
+  content: "\6a";
+}
+.icon-fa-kinkakuji-01:before {
+  content: "\6b";
+}
+.icon-fa-kiyomizuzaka-01:before {
+  content: "\6c";
+}
+.icon-fa-kyoto-01:before {
+  content: "\6d";
+}
+.icon-fa-osaka-01:before {
+  content: "\6e";
+}
+.icon-fa-shop-08:before {
+  content: "\6f";
+}
+.icon-fa-shop-06:before {
+  content: "\70";
+}
+.icon-fa-shop-04:before {
+  content: "\71";
+}
+.icon-fa-shop-02:before {
+  content: "\72";
+}
+.icon-fa-shop-05:before {
+  content: "\73";
+}
+.icon-fa-takuhai:before {
+  content: "\74";
+}
+.icon-fa-shop-09:before {
+  content: "\75";
+}
+.icon-fa-shop-10:before {
+  content: "\76";
+}
+.icon-fa-collapsed-down:before {
+  content: "\41";
+}
+.icon-fa-collapsed-top:before {
+  content: "\42";
+}
+.icon-fa-crown:before {
+  content: "\43";
+}
+.icon-fa-shop-14:before {
+  content: "\7a";
+}
+.icon-fa-shop-15:before {
+  content: "\78";
+}
+.icon-fa-shop-03:before {
+  content: "\79";
+}
+.icon-fa-shop-16:before {
+  content: "\44";
+}
+.icon-fa-shop-17:before {
+  content: "\45";
+}
+.icon-fa-shop-11:before {
+  content: "\77";
+}
+.icon-fa-shop-18:before {
+  content: "\46";
+}

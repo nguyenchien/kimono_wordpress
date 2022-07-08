@@ -1,0 +1,1610 @@
+/*===========================================
+    Begin - Tab - Chien - 03/10/2014
+=============================================*/
+/*==========================
+    content-page-one-column
+============================*/
+.main-image-page-template{
+    position: relative;
+}
+
+.main-image-page-template .image img{
+    width: 960px;
+}
+
+.main-image-page-template h1{
+    position: absolute;
+    /*top:202px;*/
+    bottom: 125px;
+    left: 31px;
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.main-image-page-template .desc-banner{
+    /*background: rgba(227, 63, 123, 0.7);*/
+    background-image: url("../images/bg-title-cat-blog.png");
+    bottom: 0;
+    display: block;
+    min-height: 91px;
+    position: absolute;
+    width: 100%;
+}
+
+.main-image-page-template .desc-banner p{
+    color: #fff;
+    font-family: "Meiryo",arial;
+    font-size: 14px;
+    padding: 10px 30px;
+}
+
+.reserve-960x100.page-template,
+.reserve-960x100.page-template{
+    margin-bottom: 30px;
+}
+
+/* Title */
+div.swe-tab ul.swe-tab-title{ 
+    width: 293px;
+    zoom: 1;
+    float: left;
+}
+
+div.swe-tab ul.swe-tab-title:before, 
+div.swe-tab ul.swe-tab-title:after{ 
+    content: '\0020'; 
+    display: block; 
+    overflow: hidden; 
+    visibility: hidden; 
+    width: 0; 
+    height: 0; 
+}
+
+div.swe-tab ul.swe-tab-title:after{ 
+    clear: both; 
+}
+
+div.swe-tab ul.swe-tab-title{ 
+    margin: 0px; 
+    list-style: none; 
+}
+
+div.swe-tab ul.swe-tab-title li{
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+div.swe-tab ul.swe-tab-title li a{ 
+    cursor: pointer; 
+    display: block;  
+    text-decoration: none;
+    color: #8a8a8a;
+    font-weight: bold; 
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+        
+div.swe-tab ul.swe-tab-title li a.active{
+    color: #000;
+    border-bottom: 2px solid #733d6d;
+}
+
+/* Content */
+div.swe-tab ul.swe-tab-content{ 
+    width: 625px;
+    margin: 0px; 
+    list-style: none; 
+    float: right; 
+}
+        
+div.swe-tab ul.swe-tab-content li {padding: 0; margin-bottom: 30px;}
+
+/*div.swe-tab ul.swe-tab-content li{display: none;}*/
+
+div.swe-tab ul.swe-tab-content li li{display: block;}
+
+div.swe-tab ul.swe-tab-content li.active{display: block;}
+
+div.swe-tab ul.swe-tab-content ol li {display: list-item;}
+
+
+div.swe-tab ul.swe-tab-content .sub-title{
+    font-family: "MS PMincho", "ＭＳ Ｐ明朝";
+    font-size: 49px;
+    color: #444444;
+    line-height: 1;
+    margin-bottom: 60px;
+}
+
+div.swe-tab ul.swe-tab-content .sub-cont-howto .point{   
+    width: auto;
+    height: 25px;
+    line-height: 25px;
+    background: #69d1b2;
+    text-align: center;
+    color: #fff;
+    display: table;
+    padding: 0 12px;
+    -webkit-transform: skew(-12deg, 0deg);
+    -moz-transform: skew(-12deg, 0deg);
+    -o-transform: skew(-12deg, 0deg);
+    -ms-transform: skew(-12deg, 0deg);
+    transform: skew(-12deg, 0deg);
+}
+
+div.swe-tab ul.swe-tab-content .sub-cont-howto .point var{
+    -webkit-transform: skew(12deg, 0deg);
+    -moz-transform: skew(12deg, 0deg);
+    -o-transform: skew(12deg, 0deg);
+    -ms-transform: skew(12deg, 0deg);
+    transform: skew(12deg, 0deg);
+    display: block;
+    font-weight: bold;
+}
+
+/* #tab-1 */
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-howto .item{
+    width: 293px;
+    float: left;
+    margin: 0 39px 30px 0;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-howto .item .image{
+    margin-bottom: 5px;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-howto .item .text{
+    font-size: 12px;
+    line-height: 1.8;
+    color: #444444;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-howto .item a{
+    color: #e33f7b;
+    font-weight: bold;
+    text-decoration: underline !important;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-howto .item a:hover{
+    text-decoration: none !important;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-howto .item-last{
+    margin-right: 0;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-howto .item .point{
+    /*margin: 15px 0 -12px 0;*/
+    margin: 10px 0;
+}
+
+/* #tab-2 */
+div.swe-tab ul.swe-tab-content #tab-2 .sub-cont-howto .item{
+    margin-bottom: 25px;
+}
+
+div.swe-tab ul.swe-tab-content #tab-2 .sub-cont-howto .item-last{
+    margin-bottom: 0;
+}
+
+div.swe-tab ul.swe-tab-content #tab-2 .sub-cont-howto .item .t-item{
+    background: url("../images/bg-title-item-howto-tab-02.png") no-repeat 0 bottom;
+    font-weight: normal;
+    color: #e33f7b;
+    font-size: 16px;
+    padding-bottom: 4px;
+    margin-bottom: 5px;
+}
+
+div.swe-tab ul.swe-tab-content #tab-2 .sub-cont-howto .item .brief{
+    font-size: 12px;
+    line-height: 1.8;
+    color: #444444;
+}
+
+div.swe-tab ul.swe-tab-content #tab-2 .sub-cont-howto .item .brief .sect{
+    margin-bottom: 20px;
+}
+
+div.swe-tab ul.swe-tab-content #tab-2 .sub-cont-howto .item .brief .sect-last{
+    margin-bottom: 0;
+}
+
+div.swe-tab ul.swe-tab-content #tab-2 .sub-cont-howto .item .brief .sect .point{
+   margin: 10px 0;
+}
+
+div.swe-tab ul.swe-tab-content #tab-2 .sub-cont-howto .item .brief .sect .point-first{
+    margin-top: 0;
+}
+
+div.swe-tab ul.swe-tab-content #tab-2 .sub-cont-howto .item .brief .text-light{
+    background: #fff333;
+    color: #000;
+    font-weight: bold;
+    padding: 5px;
+    letter-spacing: 1.7px;
+    margin-top: 5px;
+}
+
+/* #tab-3 */
+div.swe-tab ul.swe-tab-content #tab-3 .sub-cont-howto .item-policy .text{
+    color: #444444;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+/*===================
+    page kimono
+=====================*/
+.main-image-page-kimono{
+    margin-bottom: 30px;
+}
+
+div.swe-tab ul.swe-tab-content .sub-title-kimono {
+    font-family: "MS PMincho", "ＭＳ Ｐ明朝";
+    font-size: 49px;
+    color: #444444;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+
+/*------- #tab-1 ------*/
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .box-overview{
+    color: #444444;
+    margin-bottom: 60px;
+    text-align: justify;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item{
+    width: 293px;
+    float: left;
+    margin:0 39px 60px 0;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item-last{
+    margin-right: 0;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item .image{
+    margin-bottom: 10px;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item .t-item{
+    margin-bottom: 10px;
+    /*width: 293px;*/
+    height: 40px;
+    line-height: 40px;
+    
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    padding-left: 10px;
+    display: block;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item .t-item span{
+    /*font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    padding-left: 10px;
+    display: block;*/
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item .text{
+    color: #444444;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item .price{
+    width: 293px;
+    height: 53px;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item .price .p-left{
+    width: 95px;
+    float: left;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item .price .p-right{
+    width: 198px;
+    float: left;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item .price .yen{
+    color: #e33f7b;
+    font-size: 40px;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item .price .small{
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item .price .big{
+    color: #e5235d;
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -2px;
+    margin-top: -3px;
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item .price .big i{
+    font-size: 21px;
+    font-style: normal;
+    position: relative;
+    top: -13px;
+    
+}
+
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item .price .point-k{
+    width: 95px;
+    height: 21px;
+    text-align: center;
+    line-height: 22px;
+    background: url("../images/bg-point-kimono.png") repeat-y 0 0;
+    border-radius: 3px;
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+/* .item-01 */
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item-01 .t-item{
+    background: url("../images/bg-title-item-kimono-all.png");
+    background-position: 0px 0px;
+}
+
+/* .item-02 */
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item-02 .t-item{
+    background: url("../images/bg-title-item-kimono-all.png");
+    background-position: 0px 40px;
+}
+
+/* .item-03 */
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item-03 .t-item{
+    background: url("../images/bg-title-item-kimono-all.png");
+    background-position: 0px 80px;
+}
+
+/* .item-04 */
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item-04 .t-item{
+    background: url("../images/bg-title-item-kimono-all.png");
+    background-position: 0px 120px;
+}
+
+/* .item-05 */
+div.swe-tab ul.swe-tab-content #tab-1 .sub-cont-kimono .item-05 .t-item{
+    background: url("../images/bg-title-item-kimono-all.png");
+    background-position: 0px 160px;
+}
+
+/*------- #tab-2 ------*/
+div.swe-tab ul.swe-tab-content #tab-2 .item .t-item{
+    background: url("../images/bg-title-item-howto-tab-02.png") no-repeat 0 bottom;
+    font-weight: normal;
+    color: #e33f7b;
+    font-size: 16px;
+    padding-bottom: 2px;
+    margin-bottom: 3px;
+}
+
+div.swe-tab ul.swe-tab-content #tab-2 .item .brief,
+div.swe-tab ul.swe-tab-content #tab-2 .item .text{
+    color: #444;
+    font-size: 12px;
+}
+
+div.swe-tab ul.swe-tab-content #tab-2 .item .brief{
+    margin-bottom: 15px;
+}
+
+div.swe-tab ul.swe-tab-content #tab-2 .item .text{
+    line-height: 2;
+}
+
+/*------- #tab-3 ------*/
+div.swe-tab ul.swe-tab-content #tab-3 .item{
+    color: #444;
+    font-size: 12px;
+    line-height: 2.1;
+}
+
+div.swe-tab ul.swe-tab-content #tab-3 .item span{
+    color: #fc1a0f;
+    font-weight: bold;
+}
+
+/*------- #tab-4 ------*/
+div.swe-tab ul.swe-tab-content #tab-4 .item{
+    color: #444;
+    font-size: 12px !important;
+    line-height: 2.1;
+    letter-spacing: 1px;
+}
+
+/*------- #tab-5 ------*/
+div.swe-tab ul.swe-tab-content #tab-5 .item{
+    color: #444;
+    font-size: 13px;
+    line-height: 2.1;
+}
+
+
+/*===================
+    page notation
+=====================*/
+.main-image-page-notation{
+    margin-bottom: 49px;
+}
+
+.content-page-notation ul li{
+    border-top: 1px solid #f1f1f1;
+    padding: 15px 0;
+    color: #444;
+    font-size: 14px;
+    display: flex;
+}
+
+.content-page-notation ul li:first-child{
+    border-top:1px solid #444;
+}
+
+.content-page-notation ul li:last-child{
+    border-bottom:1px solid #444;
+}
+
+.content-page-notation ul li label{
+    display: inline-block;
+    width: 204px;
+}
+
+.content-page-notation ul li span{
+    display: inline-block;
+}
+/*==========================================
+    End - Tab - Chien - 03/10/2014
+============================================*/
+
+/*==========================================
+    Toggle Box
+============================================*/
+ul.swe-toggle-box{ list-style: none; margin-left: 0px; }
+ul.swe-toggle-box > li{ position: relative; margin-bottom: 12px; } 
+ul.swe-toggle-box > li:last-child{ margin-bottom: 0px; } 
+ul.swe-toggle-box > li .toggle-box-title{ margin: 0px; padding: 7px 0px 7px 17px; font-size: 15px; cursor: pointer; background-position: 0px center; background-repeat: no-repeat; text-transform: uppercase; }
+ul.swe-toggle-box > li .toggle-box-content{ padding: 5px 20px 15px 38px; }
+
+ul.swe-toggle-box > li span.toggle-box-icon{ display: inline-block; margin-right: 12px; margin-bottom: 1px;
+	width: 8px; height: 8px; background-size: 8px 8px; }
+
+ul.swe-toggle-box li ul{ margin-left: 30px; list-style: disc; }
+ul.swe-toggle-box li li{ background: none; margin: 0px; overflow: visible; }
+
+ul.swe-toggle-box li .toggle-box-title{ color: #363636; } 
+ul.swe-toggle-box li{ background-color: #ffffff; } 
+ul.swe-toggle-box li{ border-color: #f5f5f5; } 
+ul.swe-toggle-box li{ background-color: #fff; } 
+li.active > .toggle-box-title > span.toggle-box-icon{ background-image: url(../images/icon/dark/accordion-title-active.png); } 
+span.accordion-icon, span.toggle-box-icon{ background-image: url(../images/icon/dark/accordion-title.png); } 
+/*page style*/
+
+/* contact form */
+
+.wpcf7-form-control-wrap input {
+    font-size: 16px;
+}
+
+.wpcf7-form-control-wrap .datepicker {
+    margin-top: -25px;
+}
+
+.wpcf7 input.wpcf7-form-control {
+    float: left;
+}
+.wpcf7 span.wpcf7-not-valid-tip {
+    float: left;
+    padding: 9px 9px;
+    font-size: 1.3em;
+}
+.wpcf7 p {
+    clear: both;
+}
+.wpcf7-form-control-wrap>div {
+    clear: left;
+}
+.datepicker {
+    clear: both;
+}
+.wpcf7 input#book-time {
+    clear: both;
+}
+.wpcf7 .datepicker {
+    float: left;
+    margin-bottom: 34px;
+    margin-right: 9px;
+    margin-top: -69px;
+}
+
+.wpcf7-response-output{
+    clear: left;
+    font-size: 1.6em;
+}
+
+input.wpcf7-form-control[readonly="readonly"], textarea.wpcf7-form-control[readonly="readonly"] {
+    background-color: white!important;
+}
+
+/*===================================================================
+    Begin - New content Page /howto, /faq - 21.01.2015
+=====================================================================*/
+/*====================================
+    Code Common
+======================================*/
+/*--- .box-overview-page ---*/
+.box-overview-page-howto-faq,
+.box-overview-kimono-page{
+    width: 960px;
+    height: 220px;
+    margin-bottom: 20px;
+}
+
+.box-overview-page-howto-faq .info,
+.box-overview-kimono-page .info{
+    width: 490px;
+    height: 220px;
+    float: left;
+    background: #f1ebf0;
+}
+
+.box-overview-page-howto-faq .info .wrap,
+.box-overview-kimono-page .info .wrap{
+    padding: 8px 10px 0 10px;
+}
+
+.box-overview-page-howto-faq .info h1,
+.box-overview-kimono-page .info h1{
+    font-size: 40px;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+.box-overview-page-howto-faq .info .wrap h2,
+.box-overview-kimono-page .info .wrap h2{
+	font-family: 'Meiryo', arial, sans-serif;
+	font-size: 16px;
+	line-height: 16px;
+	color: #000000;
+	font-weight: bold;
+	padding-bottom: 2px;
+        margin: 10px 0 3px 0;
+}
+
+.box-overview-page-howto-faq .info p,
+.box-overview-kimono-page .info p{
+    color: #444;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.box-overview-page-howto-faq .image,
+.box-overview-kimono-page .image{
+    width: 470px;
+    height: 220px;
+    float: right;
+}
+
+.box-overview-page-howto-faq .image img,
+.box-overview-kimono-page .image img{
+    width: 470px;
+    height: 220px;
+}
+/*--- .cont-page-left ---*/
+.box-content-page .cont-page-left{
+    width: 712px;
+    float: left;
+}
+
+/*--- .cont-page-right ---*/
+.box-content-page .cont-page-right{
+    width: 226px;
+    float: right;
+}
+
+/*====================================
+    Page /howto (Chien)
+======================================*/
+/*--- .item ----*/
+.cont-page-howto .sect-flow-renting .item{
+    margin-bottom: 20px;
+    background: url("../images/arrow-flow-renting.png") no-repeat 14px bottom;
+    padding-bottom: 15px;
+}
+
+/* .i-left */
+.cont-page-howto .sect-flow-renting .item h2{
+    font-size: 30px;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+}
+
+.cont-page-howto .sect-flow-renting .item h2 var{
+    width: 50px;
+    height: 50px;
+    background: #733d6d;
+    color: #fff;
+    font-size: 30px;
+    line-height: 54px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.cont-page-howto .sect-flow-renting .item .con-item{
+    border-left: 8px solid #733d6d;
+    margin: 0 0 0 21px;
+    padding: 0 0 25px 31px;
+}
+
+.cont-page-howto .sect-flow-renting .item-last{
+    background: none;
+}
+
+.cont-page-howto .sect-flow-renting .item-last .con-item{
+    border: none;
+    padding-left: 40px;
+}
+
+.cont-page-howto .sect-flow-renting .item .con-item .i-left{
+    width: 380px;
+    float: left;
+}
+
+.cont-page-howto .sect-flow-renting .item-first .con-item .i-left{
+    width: 100%;
+    float: none;
+}
+
+.cont-page-howto .sect-flow-renting .item .con-item .i-left p{
+    color: #444;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.cont-page-howto .sect-flow-renting .item .con-item .i-left p a,
+.cont-page-howto .sect-flow-renting .item .con-item .i-left ul li a{
+    color: #b25ea9;
+    font-size: 13px;
+    text-decoration: underline !important;
+}
+
+.cont-page-howto .sect-flow-renting .item .con-item .i-left p a:hover,
+.cont-page-howto .sect-flow-renting .item .con-item .i-left ul li a:hover{
+    text-decoration: none !important;
+}
+
+.cont-page-howto .sect-flow-renting .item .con-item .i-left ul{
+    margin: 7px 0;
+}
+
+.cont-page-howto .sect-flow-renting .item .con-item .i-left ul.second{
+    margin: 20px 0;
+}
+
+.cont-page-howto .sect-flow-renting .item .con-item .i-left ul li{
+    margin-bottom: 5px;
+}
+
+.cont-page-howto .sect-flow-renting .item .con-item .i-left ul.second li{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.cont-page-howto .sect-flow-renting .item .con-item .i-left ul li a{
+    background: url("../images/goto-more.png") no-repeat left center;
+    padding-left:24px;
+    display: inline-block;
+}
+
+.cont-page-howto .sect-flow-renting .item .con-item .i-left .point{
+    border: 1px solid #aaaaaa;
+    margin: 10px 0 0 0;
+    padding: 8px;
+}
+
+.cont-page-howto .sect-flow-renting .item .con-item .i-left .point h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* .i-right */
+.cont-page-howto .sect-flow-renting .item .con-item .i-right{
+    width: 247px;
+    float: right;
+}
+
+.cont-page-howto .sect-flow-renting .item .con-item .i-right p{
+    margin-bottom: 10px;
+}
+
+/*
+    .cont-page-attention 
+=====================================*/
+.cont-page-attention .item{
+    margin-bottom: 25px;
+}
+
+.cont-page-attention .item .title{
+    width: auto;
+    height: 50px;
+    line-height: 55px;
+    background: url("../images/reserve.png") no-repeat 0 -789px;
+    padding-left: 8px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom:7px;
+}
+
+.cont-page-attention .item .content p{
+    color: #444;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.cont-page-attention .item .content ul{
+    margin-top: 25px;
+}
+
+.cont-page-attention .item .content ul li{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.cont-page-attention .item .content ul li:first-child{
+    font-weight:normal;
+}
+
+
+/*====================================
+    Page /faq (Tona)
+======================================*/
+section.box-faq-aandq{
+	font-family: Meiryo, arial;
+}
+section.box-faq-aandq div.box-title{
+	min-height: 39px;
+	padding-top: 11px;
+	background: url("../images/background-faqs-box-title.png") right center no-repeat;
+}
+section.box-faq-aandq div.box-title p{
+	text-indent: 10px;
+	font-family: Meiryo, arial;
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 33px;
+}
+section.box-faq-aandq dl{
+	padding: 10px 0 10px 0;
+}
+section.box-faq-aandq dl dt{
+	color: #000000;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 24px;
+	padding-left: 30px;
+}
+section.box-faq-aandq dl dt span{
+	display: inline-block;
+	background: url("../images/faqs-qa.png") no-repeat;
+	width: 21px;
+	height: 21px;
+	margin-right: 5px;
+	margin-left: -30px;
+}
+section.box-faq-aandq dl dd{
+	color: #444;
+	font-size: 14px;
+	line-height: 22px;
+	padding-left: 30px;
+}
+section.box-faq-aandq dl dd span{
+	display: inline-block;
+	background: url("../images/faqs-qa.png") no-repeat;
+	background-position: 0px -21px;
+	width: 21px;
+	height: 21px;
+	margin-right: 5px;
+	float: left;
+	margin-left: -30px;
+}
+section.box-faq-aandq div.box-faq-more{
+	width: 100%;
+	padding-bottom: 30px;
+	text-align: right;
+}
+section.box-faq-aandq div.box-faq-more a.goto-more{
+	width: 100px;
+}
+div.page-childs-howto-faq{
+	border: 2px solid #733d6d;
+}
+div.page-childs-howto-faq h3.title{
+	display: block;
+	height: 39px;
+	background: #733d6d;
+	text-indent: 10px;
+	padding-top: 10px;
+}
+div.page-childs-howto-faq h3.title span{
+	color: #fefeff;
+	font-size: 18px;
+	font-family: "Meiryo", arial;
+	font-weight: bold;
+}
+div.page-childs-howto-faq div.content ul{
+	padding: 6px 10px 5px 10px;
+}
+div.page-childs-howto-faq div.content ul li a{
+	background: url("../images/howto-faqs-sidebar-content-icon.png") center left no-repeat;
+	padding-left: 13px;
+	font-family: Meiryo, Arial;
+	font-size: 14px;
+	color: #000;
+	line-height: 25px;
+}
+div.page-childs-howto-faq div.content ul li a:hover{
+    color: #733d6d;
+}
+div.page-childs-howto-faq div.content ul li.active a
+{
+	color: #733d6d;
+	font-weight: bold;
+}
+
+
+/*===================================================================
+    End - New content Page /howto, /faq - 21.01.2015
+=====================================================================*/
+
+/*===================================================================
+    Begin - New content Page kimono - 23.01.2015
+=====================================================================*/
+/*====================================
+    /kimono (Tona)
+======================================*/
+section.section_general{
+	padding-bottom: 30px;
+}
+div.general_title_box {
+	background: url("../images/background-faqs-box-title.png") no-repeat scroll right center #fff;
+	min-height: 50px;
+}
+
+div.general_title_box h3 {
+	color: #fff;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	text-indent: 10px;
+	padding-top: 13px;
+	font-family: "Meiryo", arial;
+}
+div.content_box{
+	padding-top: 10px;
+	font-family: "Meiryo", arial;
+	color: #444444;
+}
+div.content_box div.content_box_gell{
+	width: 347px;
+	min-height: 500px;
+	float: left;
+	margin-right: 10px;
+}
+div.content_box div.content_box_gell img.box-main-full{
+	width: 347px;
+	height: 486px;
+}
+div.content_box div.content_box_gell ul li a img{
+	width: 110px;
+	height: 152px;
+}
+div.content_box div.content_box_gell ul li.last a img{
+	width: 111px;
+}
+div.content_box div.content_box_gell ul{
+	padding-top: 10px;
+}
+div.content_box div.content_box_gell ul li{
+	float: left;
+	margin-right: 8px;
+}
+div.content_box div.content_box_gell ul li.last{
+	margin-right: 0px;
+}
+div.content_box div.content_box_info_subpage{
+	width: 355px;
+	min-height: 500px;
+	float: left;
+}
+div.content_box_info_subpage p.sub_description{
+	padding-left: 10px;
+	font-size: 14px;
+	color: #444444;
+	font-family: "Meiryo", arial;
+	line-height: 18px;
+}
+div.content_box_info_subpage h4{
+	padding: 12px 0 4px 10px;
+	font-family: "Meiryo", arial;
+	font-size: 18px;
+	color: #000;
+	font-weight: bold;
+}
+div.content_box_info_subpage ul.view_icon li{
+	display: block;
+	float: left;
+	margin-left: 8px;
+}
+div.content_box_info_subpage ul.view_icon li a img{
+	width: 80px;
+	height: 79px;
+}
+div.content_box_info_subpage ul.view_icon li p{
+	line-height: 22px;
+	font-size: 14px;
+}
+div.content_box_info_subpage ul.view_price{
+	margin-left: 10px;
+	padding-top: 6px;
+	padding-bottom: 5px;
+}
+div.content_box_info_subpage ul.view_price li{
+	float: left;
+	min-width: 95px;
+}
+div.content_box_info_subpage ul.view_price li p.bg_red{
+	display: inline-block;
+	background: #ff0000;
+	font-size: 15px;
+	color: #fff;
+	font-family: "Meiryo", arial;
+	font-weight: bold;
+	min-width: 95px;
+	padding: 1px 7px 0;
+}
+div.content_box_info_subpage ul.view_price li{
+	padding-top: 10px;
+}
+div.content_box_info_subpage ul.view_price li p.price_small{
+	font-size: 23px;
+	line-height: 30px;
+	color: #444444;
+}
+div.content_box_info_subpage ul.view_price li p.price_small span{
+	font-size: 10px;
+	color: #444444;
+	padding-left: 0;
+	font-weight: normal;
+}
+div.content_box_info_subpage ul.view_price li p.price_small span var{
+	font-size: 14px;
+}
+div.content_box_info_subpage ul.view_price li.price_large{
+	padding-top: 5px;
+	padding-left: 3px;
+}
+ul.view_price li.price_large p{
+	font-size: 58px;
+	line-height: 58px;
+	color: #ff0000;
+	font-weight: bold;
+}
+ul.view_price li.price_large p span{
+	font-size: 11px;
+	line-height: 11px;
+	font-weight: normal;
+	padding-left: 0;
+	color: #444;
+}
+ul.view_price li.price_large p span var{
+	color: #ff0000;
+	font-size: 24px;
+}
+div.view_link_goto_page{
+	padding-left: 10px;
+}
+div.view_link_goto_page a.goto_page{
+	color: #fff;
+	background: #e33f7b;
+	width: 100%;
+	display: block;
+	min-height: 30px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 10px;
+	padding-top: 20px;
+}
+div.box-about-kimono{
+	font-family: "Meiryo", arial;
+}
+div.box-about-kimono dl{
+	padding-bottom: 10px;
+}
+div.box-about-kimono dl dt{
+	font-size: 30px;
+	line-height: 30px;
+	min-height: 25px;
+	font-weight: bold;
+	color: #000000;
+}
+div.box-about-kimono dl dt span{
+	display: inline-block;
+	padding-left: 5px;
+	color: #ff0000;
+}
+div.box-about-kimono dl dt var{
+	color: #444;
+	font-size: 10px;
+	line-height: 10px;
+	font-weight: normal;
+}
+div.box-about-kimono dl dd{
+	color: #444;
+	font-size: 14px;
+	line-height: 18px;
+}
+div.box-sidebar-new{
+	border: 2px solid #733d6d;
+	margin-bottom: 10px;
+}
+div.box-sidebar-new p{
+	display: block;
+	height: 39px;
+	background: #733d6d;
+	text-indent: 10px;
+	padding-top: 10px;
+	color: #fefeff;
+	font-size: 18px;
+	font-family: "Meiryo", arial;
+	font-weight: bold;
+}
+ul.sidebar-kimono-page{
+	padding: 6px 10px 5px 10px;
+}
+ul.sidebar-kimono-page li a:hover{
+	color: #733d6d;
+}
+ul.sidebar-kimono-page li.active a{
+	color: #733d6d;
+	font-weight: bold;
+}
+ul.sidebar-kimono-page li a{
+	background: url("../images/howto-faqs-sidebar-content-icon.png") center left no-repeat;
+	padding-left: 13px;
+	font-family: Meiryo, Arial;
+	font-size: 14px;
+	color: #000;
+	line-height: 25px;
+}
+
+/*====================================
+    /kimono/subpage (Chien)
+======================================*/
+/*
+    Plan Page
+=======================*/
+/*--- .sect-kimono ---*/
+.box-content-page .sect-kimono ul li{
+    width: 230px;
+    float: left;
+    margin: 0 11px 25px 0;
+}
+
+.box-content-page .sect-kimono ul li.item-last{
+    margin-right: 0;
+}
+
+.box-content-page .sect-kimono ul li .kimono-image{
+    width: 230px;
+    height: 274px;
+    margin-bottom: 3px;
+}
+
+.box-content-page .sect-kimono ul li .kimono-image img{
+    width: 230px;
+    height: 274px;
+}
+
+.box-content-page .sect-kimono ul li .info-kimono label,
+.box-content-page .sect-kimono ul li .info-kimono p{
+    font-size: 13px;
+    color: #444;
+}
+
+/*--- .paging-kimono ---*/
+.box-content-page .paging-kimono ul{
+    float: left;
+}
+
+.box-content-page .paging-kimono ul li{
+    float: left;
+    border: 1px solid #9e9e9e;
+    margin-right: -1px;
+}
+
+.box-content-page .paging-kimono ul li a{
+    display: block;
+    color: #9e9e9e;
+    background: #fff;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 9px 17px;
+}
+
+.box-content-page .paging-kimono ul li.selected a{
+    background: #733d6e;
+    color: #fff;
+}
+.box-content-page .paging-kimono ul li.first, 
+.box-content-page .paging-kimono ul li.last, 
+.box-content-page .paging-kimono ul li.hidden{
+    display: none;
+}
+
+/*
+    hairset Page
+=======================*/
+/*--- hairset-item ---*/
+.box-content-page.hairset .title{
+    width: auto;
+    height: 50px;
+    line-height: 55px;
+    background: url("../images/reserve.png") no-repeat 0 -789px;
+    padding-left: 8px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+
+.box-content-page.hairset .title span{
+    font-size: 13px;
+}
+
+.box-content-page.hairset .content h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.box-content-page.hairset .hairset-item{
+    width: 323px;
+    float: left;
+    margin: 0 40px 25px 0;
+}
+
+.box-content-page.hairset .hairset-item h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box-content-page.hairset .hairset-item.first{
+    clear: both;
+}
+
+.box-content-page.hairset .hairset-item.last{
+    margin-right: 0;
+}
+
+.box-content-page.hairset .hairset-item .main-image{
+	width:242px;
+	float:left;
+        margin-right: 3px;
+}
+
+.box-content-page.hairset .hairset-item .main-image img{
+	width:238px;
+	height:333px;
+        border: 2px solid #93539d;
+}
+
+.box-content-page.hairset .hairset-item .list-image{
+	width:78px;
+	float:right;
+        text-align: center;
+}
+
+.box-content-page.hairset .hairset-item .list-image ul li{
+	list-style:none;
+	width:78px;
+	height:105px;
+        margin-bottom: 6px;
+}
+
+.box-content-page.hairset .hairset-item .list-image ul li:last-child{
+    margin-bottom: 0;
+}
+
+.box-content-page.hairset .hairset-item .list-image ul li img{
+	width:74px;
+	height:101px;
+        border: 2px solid #fff;
+	cursor:pointer;
+}
+
+.box-content-page.hairset .hairset-item .list-image ul li.active img{
+    border: 2px solid #93539d;
+}
+
+/*===================================================================
+    End - New content Page kimono - 23.01.2015
+=====================================================================*/
+
+/*===================================================================
+    Begin - Page introduction (1day) - 10.02.2015
+=====================================================================*/
+.box-content-page.one-day .section-content{
+    margin-bottom: 25px;
+}
+
+.box-content-page.one-day .section-content h2{
+    width: auto;
+    height: 50px;
+    line-height: 55px;
+    background: url("../images/reserve.png") no-repeat 0 -789px;
+    padding-left: 8px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.box-content-page.one-day .section-content .item .banner-image img:hover{
+    opacity: 0.7;
+}
+
+/*====================================
+    section-overview
+======================================*/
+.box-content-page.one-day .section-overview .item{
+    margin-bottom: 13px;
+}
+
+.box-content-page.one-day .section-overview .item h3{
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box-content-page.one-day .section-overview .item p{
+    color: #444;
+    font-size: 14px;
+}
+
+.box-content-page.one-day .section-overview .item-02 p{
+    font-size: 22px;
+}
+
+.box-content-page.one-day .section-overview .item img{
+    margin-top: 6px;
+}
+
+.box-content-page.one-day .section-overview .item .map{
+    margin-top: 6px;
+}
+
+.box-content-page.one-day .section-overview .item .map iframe{
+    pointer-events: none;
+}
+
+.box-content-page.one-day .section-overview .item .tbl-price{
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.box-content-page.one-day .section-overview .item .tbl-price th,
+.box-content-page.one-day .section-overview .item .tbl-price td{
+    border: 1px solid #8957a1;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 8px;
+    vertical-align: middle;
+}
+
+.box-content-page.one-day .section-overview .item .tbl-price th{
+    padding: 6px 8px;
+}
+
+.box-content-page.one-day .section-overview .item .tbl-price th:nth-child(1),
+.box-content-page.one-day .section-overview .item .tbl-price th:nth-child(2){
+    width: 355px;
+}
+
+.box-content-page.one-day .section-overview .item .tbl-price th:nth-child(1),
+.box-content-page.one-day .section-overview .item .tbl-price td:nth-child(1){
+    border-left:0;
+    padding-left: 0;
+}
+
+.box-content-page.one-day .section-overview .item .tbl-price th:nth-child(2),
+.box-content-page.one-day .section-overview .item .tbl-price td:nth-child(2){
+    border-right:0;
+    padding-right:0;
+}
+
+.box-content-page.one-day .section-overview .item .tbl-price th h4{
+    float: left;
+    font-size: 24px;
+    color: #444;
+    font-weight: bold;
+    line-height: 1;
+    margin-right: 8px;
+}
+.box-content-page.one-day .section-overview .item .tbl-price th p{
+    float: left;
+    font-size: 11px;
+    color: #444;
+}
+
+.box-content-page.one-day .section-overview .item .tbl-price th:nth-child(1) p{
+    padding-top:4px;
+}
+
+.box-content-page.one-day .section-overview .item .tbl-price th:nth-child(2) h4{
+    padding-top:6px;
+}
+
+.box-content-page.one-day .section-overview .item .tbl-price td ul.list-01,
+.box-content-page.one-day .section-overview .item .tbl-price td ul.list-02{
+    margin-bottom: 10px;
+}
+
+.box-content-page.one-day .section-overview .item .tbl-price td ul.list-01 li,
+.box-content-page.one-day .section-overview .item .tbl-price td ul.list-02 li{
+    float: left;
+    margin-right: 10px;
+}
+
+.box-content-page.one-day .section-overview .item .tbl-price td ul.list-01 li p,
+.box-content-page.one-day .section-overview .item .tbl-price td ul.list-02 li p{
+    padding: 4px 7px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.box-content-page.one-day .section-overview .item .tbl-price td ul.list-01 li p.bg-pink{
+    background: #ea68a2;
+}
+
+.box-content-page.one-day .section-overview .item .tbl-price td ul.list-02 li p.bg-blue{
+    background: #0068b7;
+}
+
+.box-content-page.one-day .section-overview .item .tbl-price td ul.list-02 li p.bg-green{
+    background: #22ac38;
+}
+
+/* list-view-price */
+.box-content-page.one-day .section-overview .item .tbl-price td ul.list-view-price li{
+    float: left;
+    min-width: 95px;
+}
+
+.box-content-page.one-day .section-overview .item .tbl-price td ul.list-view-price li p.bg_red{
+    display: inline-block;
+    background: #ff0000;
+    font-size: 15px;
+    color: #fff;
+    font-family: "Meiryo", arial;
+    font-weight: bold;
+    min-width: 95px;
+    padding: 1px 7px 0;
+}
+
+.box-content-page.one-day .section-overview .item .tbl-price td ul.list-view-price li p.price_small{
+    font-size: 23px;
+    line-height: 30px;
+    color: #444444;
+    text-decoration: line-through;
+}
+
+.box-content-page.one-day .section-overview .item .tbl-price td ul.list-view-price li p.price_small span{
+    font-size: 10px;
+    color: #444444;
+    padding-left: 0;
+    font-weight: normal;
+}
+
+.box-content-page.one-day .section-overview .item .tbl-price td ul.list-view-price li p.price_small span var{
+    font-size: 14px;
+}
+
+.box-content-page.one-day .section-overview .item .tbl-price td ul.list-view-price li.price_web{
+    padding-top:3px;
+}
+
+.box-content-page.one-day .section-overview .item .tbl-price td ul.list-view-price li.price_large{
+    padding-left: 5px;
+}
+
+.box-content-page.one-day .section-overview .item .tbl-price td ul.list-view-price li.price_large p{
+    font-size: 58px;
+    line-height: 58px;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.box-content-page.one-day .section-overview .item .tbl-price td ul.list-view-price li.price_large p span{
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: normal;
+    padding-left: 0;
+    color: #444;
+}
+
+.box-content-page.one-day .section-overview .item .tbl-price td ul.list-view-price li.price_large p span var{
+    color: #ff0000;
+    font-size: 24px;
+}
+
+/*====================================
+    section-flow-exper
+======================================*/
+.box-content-page.one-day .section-flow-exper .item{
+    margin-bottom: 20px;
+    background: url("../images/arrow-flow-renting.png") no-repeat 14px bottom;
+    padding-bottom: 15px;
+}
+
+.box-content-page.one-day .section-flow-exper .item-05{
+    background: none;
+}
+
+.box-content-page.one-day .section-flow-exper .item h3{
+    font-size: 30px;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+}
+
+.box-content-page.one-day .section-flow-exper .item h3 var{
+    width: 50px;
+    height: 50px;
+    background: #733d6d;
+    color: #fff;
+    font-size: 30px;
+    line-height: 54px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.box-content-page.one-day .section-flow-exper .item .con-item{
+    border-left: 8px solid #733d6d;
+    margin: 0 0 0 21px;
+    padding: 0 0 25px 31px
+}
+
+.box-content-page.one-day .section-flow-exper .item-05 .con-item{
+    border: none;
+    padding-left: 40px;
+    padding-bottom:5px;
+}
+
+.box-content-page.one-day .section-flow-exper .item .con-item .row{
+    margin-bottom: 10px;
+}
+
+.box-content-page.one-day .section-flow-exper .item .con-item .row .point{
+    border: 1px solid #b5b5b5;
+    padding:6px;
+    margin-top: 6px;
+}
+
+.box-content-page.one-day .section-flow-exper .item .con-item .row h4{
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box-content-page.one-day .section-flow-exper .item-02 .con-item .row h4 var{
+    color: #444;
+    font-size: 14px;
+    margin-left: 6px;
+    font-weight: bold;
+}
+
+.box-content-page.one-day .section-flow-exper .item .con-item .row p{
+    color: #444;
+    font-size: 14px;
+}
+
+/*====================================
+    section-dress-exper
+======================================*/
+ul.ul-oneday-page li.old{
+	color: #000;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 10px 0;
+}
+ul.ul-oneday-page li.old var{
+	display: inline-block;
+	background: #ffee63;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+	font-size: 30px;
+	margin-right: 12px;
+}
+ul.ul-oneday-page li.even img{
+	float: left;
+	margin-right: 20px;
+}
+ul.ul-oneday-page li.even p{
+	font-size: 14px;
+	color: #000;
+}
+ul.ul-oneday-page-block2{
+	margin-top: 10px;
+}
+ul.ul-oneday-page-block2 li{
+	float: left;
+	width: 347px;
+}
+ul.ul-oneday-page-block2 li.old{
+	margin-right: 18px;
+}
+ul.ul-oneday-page-block2 li dl{
+	padding: 0;
+}
+ul.ul-oneday-page-block2 li dl dt{
+	padding-left: 0px;
+	font-size: 18px;
+	color: #000;
+	font-weight: bold;
+	margin-top: 16px;
+	margin-bottom: 10px;
+}
+ul.ul-oneday-page-block2 li dl dt var{
+	display: inline-block;
+	background: #ffee63;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+ul.ul-oneday-page-block2 li dl dd{
+	padding-left: 0px;
+	background: #ae5da1;
+	color: #fff;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 10px;
+	line-height: 20px;
+	min-height: 95px;
+}
+ul.ul-oneday-page-block2 li dl p{
+	font-size: 10px;
+}
+/*===================================================================
+    End - Page introduction (1day) - 10.02.2015
+=====================================================================*/

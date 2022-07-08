@@ -1,0 +1,166 @@
+.widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other .item-sub-list-other{
+    margin-bottom: 20px;
+}
+.item-sub-list-other .text-shop-wg:hover{
+    background-color: #ffff00;
+    cursor: pointer;
+}
+.widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other .text-shop-wg{
+    height: 42px;
+    width: 100%;
+    border: 2px solid #cbcbcb;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 3px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.widget-top-shoplist .list-shoplist-wg-other .item-sub-list-other .fa-shop{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #A31D31;
+    margin-right: 10px;
+    position: relative;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg .fa-shop .num-floor{
+    position: absolute;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    top: 0;
+    right: -10px;
+}
+.widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other .item-sub-list-other .fa-shop .num-floor{
+    position: absolute;
+    font-size: 9px;
+    font-weight: bold;
+    font-style: normal;
+    top: 0;
+    right: -2px;
+}
+.widget-top-shoplist .list-shoplist-wg-other .item-sub-list-other .text-shop-wg .title-shopname-wg{
+    font-size: 12px;
+    line-height: 1.2;
+    margin: 0 3px;
+    text-align: center;
+}
+.widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other .text-des-shop-wg{
+    font-size: 10px;
+    line-height: 1.4;
+    color: #595959;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+.widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other .text-des-shop-wg{
+    font-size: 10px;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg-full{
+    width: 100%;
+}
+/*Top Shoplist Asakusa*/
+.top-shoplist-asakusa .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .new-text-shop{
+    top: -16px;
+}
+.list-shoplist-wg-other{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.widget-top-shoplist .list-shoplist-wg-other .item-sub-list-other .fa-shop.icon-fa-shop-26,
+.widget-top-shoplist .list-shoplist-wg-other .item-sub-list-other .fa-shop.icon-fa-shop-27{
+    margin-right: 5px;
+}
+.widget-top-shoplist .list-shoplist-wg-other .item-sub-list-other .fa-shop.icon-fa-shop-26 img,
+.widget-top-shoplist .list-shoplist-wg-other .item-sub-list-other .fa-shop.icon-fa-shop-27 img{
+    height: 27px;
+}
+/*===KYOTO===*/
+.top-shoplist-kyotostation-detail .icon-shoplist-wg {
+    width: 100px;
+}
+/*===GIONSHIO AND ARASHIYAMA===*/
+.shoplist-other .item-icon .icon-shoplist-wg{
+    width: 25%;
+    margin-right: 10px;
+}
+.shoplist-other .item-icon{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.shoplist-other .item-shoplist-wg-other .sub-list-other.col-1 .item-sub-list-other{
+    margin-bottom: 0;
+}
+.shoplist-other .item-icon .sub-list-other.col-1,
+.shoplist-other .item-icon .sub-list-other.col-2{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.shoplist-other .item-icon .sub-list-other.col-2 .item-sub-list-other:last-child{
+    margin-bottom: 0;
+}
+.top-shoplist-gion-detail .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg .title-shopname-wg{
+    font-size: 11px;
+}
+/*===KIYOMIZUZAKA===*/
+.top-shoplist-kiyomizu-detail .icon-shoplist-wg {
+    margin-right: 10px;
+    width: 25%;
+}
+.shoplist-other-general .item-icon .col-1{
+    margin-left: 0;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.shoplist-other-general .item-icon .col-1 .item-shoplist-wg{
+    width: 100%;
+    margin: 0;
+}
+.shoplist-other-general .col-general-special{
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.shoplist-other-general .col-general-special .icon-shoplist-wg{
+    width: 20%;
+    margin-right: 10px;
+}
+.shoplist-other-general .col-general-special .list-shoplist-wg .item-shoplist-wg{
+    margin-bottom: 0;
+}
+.shoplist-other-general .col-general-special .list-shoplist-wg .item-shoplist-wg .new-text-shop{
+    top: -16px;
+}
+
+@media(max-width: 767px){
+    .top-shoplist-kyotostation .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .lg-label-shop,
+    .top-shoplist-gion .widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .lg-label-shop{
+        top: -15px;
+        left: -5px;
+    }
+}

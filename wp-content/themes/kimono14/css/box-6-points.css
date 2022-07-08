@@ -1,0 +1,255 @@
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.block-title-top-page-title {
+    background: #733d6d;
+    height: 50px;
+    line-height: 50px;
+}
+.block-title-top-page-title h2 span {
+    line-height: 55px;
+}
+.bg-top-page-title h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1;
+}
+.block-title-top-page-title h2 span.ja {
+    font-size: 10px;
+    margin-left: 6px;
+}
+/*--6 Points--*/
+.section-content-mainform {
+    width: 100%;
+}
+.section-content-mainform .content_mainform {
+    margin-bottom: 10px;
+}
+.content_mainform .reserve {
+    margin: 10px 0 20px;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+.content_mainform .reserve li {
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    width: 48.69281%;
+    border-radius: 10px;
+    border: 4px solid;
+}
+.content_mainform .reserve li.right {
+    border-color: #f7931e;
+    background-color: #fbb03b;
+}
+.content_mainform .reserve li.left {
+    border-color: #1b1464;
+    background-color: #93539d;
+}
+.content_mainform .reserve li a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+.section-6advices{
+    overflow: hidden;
+}
+.section-6advices .wrapp-top-6advices {
+    position: relative;
+    background-color: #93539d;
+    margin: 10px 0 20px 0;
+}
+.section-6advices .wrapp-top-6advices img.item-advice-bg {
+    right: -50px;
+    top: 8px;
+    position: absolute;
+    z-index: 0;
+    left: inherit;
+}
+.section-6advices .wrapp-top-6advices img.item-advice-bg-mobile{
+    position: absolute;
+    z-index: 0;
+    left: -50px;
+    top: -30px;
+    display: block;
+}
+.section-6advices .wrapp-top-6advices .r-top-6advices {
+    padding: 5px 0 0 0;
+    position: relative;
+    box-sizing: border-box;
+    z-index: 2;
+    width: 80%;
+}
+.section-6advices .title-sect {
+    font-size: 16px;
+    padding: 10px 7px 7px 7px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.1;
+    box-sizing: border-box;
+    text-shadow: 3px 1px 0 rgba(0,0,0,.7);
+    letter-spacing: 3px;
+}
+.section-6advices .title-sect .big {
+    display: block;
+    font-size: 9vw;
+    margin: 3px 0 0 0;
+    text-shadow: 4px 3px 0 rgba(0,0,0,.7);
+}
+.section-6advices .box-overview {
+    padding: 0 7px 15px 7px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.section-6advices .box-overview ul{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    margin-left: -5px;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+.section-6advices .box-overview ul li{
+    width: calc(100% * (1/3) - 5px);
+    margin: 0 0 10px 5px;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+.section-6advices .box-overview ul li img {
+    margin-bottom: 5px;
+}
+.section-6advices .box-overview ul li .parent-text {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    width: 100%;
+    flex: 1;
+    -webkit-flex: 1;
+}
+.section-6advices .box-overview ul li p.text {
+    font-size: 12px;
+    padding: 6px;
+    background-color: #4a0569;
+    color: #fff;
+    font-weight: 700;
+    box-sizing: border-box;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    align-items: center;
+    -webkit-align-items: center;
+    flex-grow: 1;
+    -webkit-flex-grow: 1;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+.section-6advices .box-list{
+    padding: 0 7px;
+    box-sizing: border-box;
+}
+.section-6advices .box-list .container-box-list{
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+.section-6advices .box-list ul li .item {
+    margin-bottom: 10px;
+}
+.section-6advices .box-list ul li .item .title{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    align-items: center;
+    -webkit-align-items: center;
+    margin-bottom: 5px;
+}
+.section-6advices .box-list ul li .item .title span {
+    font-weight: 700;
+    background-color: #d4beda;
+    color: #7e318e;
+    display: block;
+    height: 47px;
+    font-size: 15px;
+    box-sizing: border-box;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    align-items: center;
+    -webkit-align-items: center;
+    flex-grow: 1;
+    -webkit-flex-grow: 1;
+    padding-left: 5px;
+    line-height: 1;
+}
+.section-6advices .box-list ul li .item .title img {
+    width: 57px;
+}
+.section-6advices .box-list ul li .item div.img-bottom-05b {
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+.section-6advices .box-list ul li .item p{
+    font-size: 14px;
+    color: #000;
+}
+.section-6advices .box-list ul li .item div.img-bottom-05b img{
+    width: 30%;
+}
+.section-6advices .box-list ul li .item p.text-01 img,
+.section-6advices .box-list ul li .item p.text-03 img,
+.section-6advices .box-list ul li .item p.text-05 img,
+.section-6advices .box-list ul li .item p.text-02 img,
+.section-6advices .box-list ul li .item p.text-04 img,
+.section-6advices .box-list ul li .item p.text-06 img{
+    width: 17%;
+}
+.section-6advices .box-list ul li .item p.text-02 img{
+    width: 29%;
+}
+.section-6advices .box-list ul li .item p.text-04 img{
+    width: 20%;
+}
+.section-6advices .box-list ul li .item p.text-06 img{
+    width: 14%;
+}
+.section-6advices .box-list ul li .item p.text-03 img{
+    width: 15%;
+}
+.section-6advices .box-list ul li .item img.sub-item-advice-content-01,
+.section-6advices .box-list ul li .item img.sub-item-advice-content-03,
+.section-6advices .box-list ul li .item img.sub-item-advice-content-05,
+.section-6advices .box-list ul li .item img.sub-item-advice-content-02,
+.section-6advices .box-list ul li .item img.sub-item-advice-content-04,
+.section-6advices .box-list ul li .item img.sub-item-advice-content-06{
+    float: right;
+    position: relative;
+    right:0;
+}
+.section-6advices .box-list ul li .item img.sub-item-advice-content-01 {
+    margin: -25px 0 0 10px;
+}
+.section-6advices .box-list ul li .item img.sub-item-advice-content-03 {
+    margin: -38px 0 0 10px
+}
+.section-6advices .box-list ul li .item img.sub-item-advice-content-05 {
+    margin: -27px 0 0 10px
+}
+.section-6advices .box-list ul li .item img.sub-item-advice-content-02 {
+    margin: -38px 0 0 10px
+}
+.section-6advices .box-list ul li .item img.sub-item-advice-content-04 {
+    margin: -30px 0 0 0;
+}
+.section-6advices .box-list ul li .item img.sub-item-advice-content-06 {
+    margin: -30px 0 0 0;
+}

@@ -1,0 +1,756 @@
+.ui-datepicker table tr th {
+    font-size: 11px;
+}
+.wrap-category {
+    margin-bottom: 10px;
+}
+.list-box-category .item-box-category .title-category a {
+    color: #000;
+}
+.list-box-category .item-box-category .title-category .arrow,
+.list-shop-list .item-shop-list .tt-shop-list .icon-arrow .arrow {
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.title-general-new-style {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    width: 100%;
+    line-height: 1;
+    background: url(./images/formal-rental/formal-list-v3/bg-parttern-category.jpg) no-repeat;
+    background-size: cover;
+    padding: 12px 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.title-general-new-style.other {
+    margin-bottom: 15px;
+}
+.title-general-new-style .text-title-general {
+    font-size: 15px;
+    font-weight: bold;
+}
+.title-general-new-style .sub-text-title {
+    font-size: 13px;
+    position: relative;
+    top: 1px;
+    margin-left: 3px;
+    padding-top: 0;
+}
+ .title-general-new-style .wrap-title-text {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 10px;
+    font-style: normal;
+}
+ .title-general-new-style .icon-filter {
+    display: none
+}
+ .title-general-new-style .toggle-icon-arrow-02 {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    background-color: transparent;
+}
+ .title-general-new-style .toggle-icon-arrow-02:after {
+    display: inline-block;
+    position: relative;
+    content: "";
+    top: 0;
+    right: 0;
+    border: none;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-top: 12px solid #fff;
+    width: 0;
+    height: 0;
+    margin: 0;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+ .title-general-new-style.active .toggle-icon-arrow-02:after {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+.wrap-category .item-box-category .title-category:hover,
+.wrap-category .list-box-category .item-box-category .sub-list-category .sub-item.active,
+.wrap-category .list-box-category .item-box-category .sub-list-category .sub-item:hover,
+.wrap-category .list-box-category .item-box-category .sub-list-category .sub-item:hover a {
+    background-color: #ff0;
+}
+.wrap-category .list-box-category .item-box-category-color-rectangle .sub-list-category .sub-item:hover {
+    background-color: transparent;
+}
+.wrap-category .list-box-category .item-box-category {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+.wrap-category .item-box-category .title-category {
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    border-bottom: 1px dashed #999;
+    padding: 10px
+}
+.wrap-category .list-box-category .item-box-category .title-category .text-category {
+    margin-left: 10px;
+}
+.wrap-category .list-box-category .item-box-category .title-category .text-category,
+.wrap-category .list-box-category .item-box-category .title-category a {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-weight: 700
+}
+.wrap-category .list-box-category .item-box-category:first-child .title-category .text-category {
+    font-size: 13px
+}
+.wrap-category .list-box-category .item-box-category .title-category .text-category {
+    font-size: 14px
+}
+.wrap-category .list-box-category .item-box-category .title-category var {
+    font-size: 11px;
+    font-style: normal;
+    margin-left: 3px
+}
+.wrap-new-kimono-sidebar-left .item-box-category .price-sidebar-left {
+    color: red;
+    font-size: 16px;
+    font-weight: 700
+}
+.wrap-new-kimono-sidebar-left .item-box-category .title-category var {
+    margin-left: 3px;
+    font-weight: 700
+}
+.wrap-category .list-box-category .item-box-category .title-category .arrow {
+    content: "";
+    right: 0;
+    width: 8px;
+    height: 8px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+    margin-right: 5px
+}
+.conditions-filter .item-box-category {
+    padding: 15px 0;
+    border-bottom: 1px dashed #999;
+}
+.wrap-filter-new-style .item-box-category-main {
+    padding: 0;
+    border: none;
+}
+.conditions-filter .item-box-category:last-child {
+    border-bottom: none
+}
+.conditions-filter .title-sub-list-category {
+    margin-bottom: 5px;
+}
+.conditions-filter .list-box-category .item-box-category .sub-list-category .sub-item label {
+    color: #000;
+}
+.conditions-filter .sub-list-category {
+    margin-left: 10px
+}
+.conditions-filter .wrap-input {
+    margin-left: 15px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+.conditions-filter .wrap-input .price-ip {
+    max-width: 100px
+}
+.conditions-filter .wrap-input input[type=number] {
+    border: 1px solid #000;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 5px
+}
+.conditions-filter .wrap-input .symbol {
+    color: #000;
+    font-size: 17px;
+    min-width: auto;
+    margin: 0 7px
+}
+.conditions-filter .wrap-input .search-unit {
+    line-height: 1;
+    margin-left: 7px;
+    font-size: 15px;
+    color: #000
+}
+.wrap-input input::-webkit-input-placeholder {
+    text-align: right;
+    color: #000
+}
+.wrap-input input:-ms-input-placeholder {
+    text-align: right;
+    color: #000
+}
+.conditions-filter .wrap-input-size {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end
+}
+.conditions-filter .wrap-input-size input {
+    width: 65%
+}
+.wrap-buttons-filter-calendar {
+    margin: 15px 10px 0 10px;
+}
+.conditions-filter .btn-filter-conditions {
+    height: 42px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 3px;
+    outline: 0;
+}
+.conditions-filter .btn-filter-conditions.search {
+    background-color: #bf0000
+}
+.btn-filter-conditions.cancel {
+    background-color: #b9b9b9;
+}
+.wrap-category .text-shoplist-category-kimono .title-category {
+    background-color: #d9d9d9;
+    padding: 0;
+    height: 35px;
+    border: none;
+}
+.wrap-category .item-box-category.text-shoplist-category-kimono .title-category {
+    border-bottom: none;
+}
+.wrap-category .list-box-category .text-shoplist-category-kimono.item-box-category .title-category .text-category,
+.wrap-shoplist .text-shoplist-category-kimono .list-shop-list .item-shop-list .tt-shop-list .linkto-shop {
+    margin-left: 10px;
+}
+.wrap-shoplist .list-shop-list .item-shop-list .tt-shop-list .linkto-shop {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding-right: 10px;
+}
+.wrap-shoplist .list-shop-list .item-shop-list {
+    margin-top: -1px;
+    padding: 8px 0 4px 0;
+}
+.wrap-shoplist .list-shop-list .item-shop-list .bg-shop-list .lg-text {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.wrap-shoplist .list-shop-list .item-shop-list .bg-shop-list .sm-text {
+    font-size: 13px;
+    color: #636363;
+}
+.wrap-shoplist .list-shop-list .item-shop-list .tt-shop-list .icon-arrow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.wrap-shoplist .list-shop-list .item-shop-list .tt-shop-list .icon-arrow .arrow {
+    content: "";
+    right: 0;
+    width: 8px;
+    height: 8px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    border-right: 1px solid rgba(107,122,131,1);
+    border-bottom: 1px solid rgba(107,122,131,1);
+    cursor: pointer;
+    margin-right: 5px;
+}
+.border-bottom {
+    border-bottom: 1px solid #666;
+}
+.title-sub-list-category {
+    font-size: 15px;
+    font-weight: 700;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #5c5c5c;
+    margin-left: 15px;
+}
+.title-sub-list-category:before{
+    content: '';
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-color: #5c5c5c;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.wrap-category .list-box-category .item-box-category .sub-list-category .sub-item {
+    position: relative;
+    padding: 3px 0 3px 5px;
+    width: 50%;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+.conditions-filter .list-box-category .item-box-category .sub-item {
+    padding: 3px 0 3px 5px;
+    width: 50%;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+.conditions-filter .list-box-category .item-box-category .sub-list-category .sub-item input[type=checkbox] {
+    width: 13px;
+    height: 13px;
+    margin-right: 9px;
+}
+.conditions-filter .list-box-category .item-box-category .sub-list-category .sub-item input[type=checkbox]:after {
+    width: 13px;
+    height: 13px;
+    content: " ";
+    background-color: #fff;
+    border: 1px solid #5c5c5c;
+    display: inline-block;
+    visibility: visible;
+}
+.conditions-filter .list-box-category .item-box-category .sub-list-category .sub-item input[type=checkbox]:checked:after {
+    content: "\2714";
+    line-height: 1;
+}
+.wrap-category .list-box-category .item-box-category .sub-list-category .cat-name {
+    font-size: 16px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.conditions-filter .list-box-category .item-box-category .sub-list-category.group-plan-type .cat-name {
+    font-size: 14px;
+}
+.conditions-filter .list-box-category .item-box-category .sub-list-category .sub-color-others {
+    display: none;
+}
+.wrap-category .list-box-category .item-box-category .sub-list-category .count-item,
+.wrap-category .list-box-category .item-box-category .sub-list-category .random-color-sidebar {
+    margin-left: 5px;
+    font-size: 12px;
+    flex: inherit;
+    -webkit-box-flex: inherit;
+    -ms-flex: inherit;
+}
+.random-color-sidebar {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+.item-box-category-color-rectangle .random-color-sidebar {
+    height: 15px;
+    width: 60px;
+    border-radius: 0;
+}
+.random-color-sidebar.random-color-others{
+    width: auto;
+    line-height: 25px;
+}
+.random-color-white{
+    border: 1px solid #6B7A83;
+}
+.random-color-cream{
+    border: 1px solid #F4E12B;
+}
+.random-color{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+.random-color-green{
+    background-color: #008000;
+}
+.random-color-white{
+    background-color: #FFFFFF;
+}
+.random-color-cream{
+    background-color: #FFFFCC;
+}
+.random-color-red{
+    background-color: #FF0000;
+}
+.random-color-pink{
+    background-color: #FFC0CB;
+}
+.random-color-purple{
+    background-color: #800080;
+}
+.random-color-gray{
+    background-color: #A8A8A8;
+}
+.random-color-black{
+    background-color: #000000;
+}
+.random-color-blue{
+    background-color: #0000FF;
+}
+.random-color-light-blue{
+    background-color: #ADD8E6;
+}
+.random-color-yellow{
+    background-color: #FFFF00;
+}
+.random-color-tea{
+    /*background-color: #CFFDAF;*/
+    background-color: #734e30;
+}
+.random-color-orange{
+    background-color: #FFA500;
+}
+.random-color-gold{
+    background-color: #DAA520;
+}
+.random-color-silver{
+    background-color: #C0C0C0;
+}
+/*===CUSTOM CALENDAR====*/
+#suggest_datepicker{
+    width: 187px;
+}
+.wrap-nav-top.list #suggest_datepicker{
+    width: 240px;
+    position: absolute !important;
+}
+.ui-datepicker{
+    width: 100%;
+    border: 1px solid #999999 !important;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 15px 5px 5px;
+}
+.ui-widget-header,
+.ui-corner-all{
+    color: #000;
+}
+.ui-datepicker .ui-datepicker-header{
+    padding: .2em 0 0.5em;
+}
+.ui-datepicker table {
+    width: 100%;
+    font-size: .8em;
+    border: 1px solid #999999;
+    margin: 0;
+}
+.ui-datepicker table tr,
+.ui-datepicker table tr th,
+.ui-datepicker table tr td{
+    border: 1px solid #999999;
+}
+.ui-datepicker table tr th{
+    padding: 0.6em;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ui-datepicker table tr td{
+    padding: 0;
+}
+.ui-datepicker table tr td a{
+    text-align: center;
+}
+.ui-state-default{
+    background: none;
+    border: none;
+}
+.ui-widget-header .ui-icon:not(.ui-icon-closethick){
+    background-image: none;
+    content: "";
+    right: 0;
+    width: 8px;
+    height: 8px;
+    border-right: 1px solid rgba(107,122,131,1);
+    border-bottom: 1px solid rgba(107,122,131,1);
+    cursor: pointer;
+}
+.ui-datepicker .ui-datepicker-prev{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    left: 0;
+}
+.ui-datepicker .ui-datepicker-next {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    right: 0;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next{
+    top: 0;
+    height: 30px;
+    width: auto;
+}
+.apa-calendar-dialog.ui-dialog .ui-dialog-titlebar-close,
+.apa-calendar-dialog.ui-dialog .ui-dialog-titlebar-close:hover{
+    top: 20%;
+}
+.ui-datepicker .ui-datepicker-title{
+    margin: 0 15px;
+    display: -webkit-box;
+    display: flex;
+    display: -ms-flexbox;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    font-size: 10px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-items: center;
+    line-height: 1;
+}
+.ui-datepicker select.ui-datepicker-year,
+.ui-datepicker select.ui-datepicker-month{
+    width: 35%;
+    margin-right: 5px;
+}
+.ui-datepicker select.ui-datepicker-month{
+    margin-left: 5px;
+}
+.ui-datepicker .ui-datepicker-group-last .ui-datepicker-calendar{
+    margin-top: 5px;
+}
+.ui-datepicker .ui-datepicker-group-last .ui-datepicker-title{
+    padding-top: 7px;
+    font-weight: normal;
+}
+.ui-datepicker .ui-datepicker-title select {
+    font-size: 10px;
+    margin-right: 3px;
+    padding: 3px 5px;
+    background: url(./images/formal-rental/arrow-down-select.svg) no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-position: 88%;
+    background-size: 20%;
+    cursor: pointer;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: none;
+    color: #000;
+    font-size: 11px;
+}
+.ui-widget-content .ui-state-active{
+    font-weight: bold;
+    background-color: #e0e0e0;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    border: none;
+    background: #ffff00;
+    color: #000;
+}
+.ui-datepicker td span, .ui-datepicker td a {
+    padding: 0.6em;
+    text-align: center;
+}
+.conditions .suggest_datepicker .ui-widget-header, .wrap-category .list-box-category .item-box-category .title-category .icon {
+    font-size: 24px;
+    margin-right: 5px;
+}
+.conditions .suggest_datepicker .ui-widget-header {
+    background: 0 0!important;
+    border: none!important;
+}
+.conditions .ui-corner-all {
+    border-radius: 4px!important;
+}
+.conditions .ui-widget-content{
+    border: 1px solid #bebdbd !important;
+    color: #222 !important;
+    width: 100% !important;
+}
+.conditions .suggest_datepicker .ui-widget-header a:hover{
+    border: none;
+}
+/*custom*/
+.item-box-category .height-slider-wrapper, .item-box-category .price-slider-wrapper .price-slider-values,
+.item-box-category .product-code-wrapper, .item-box-category .shop-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    align-items: center;
+}
+.item-box-category .height-slider-wrapper, .item-box-category .product-code-wrapper, .item-box-category .shop-wrapper {
+    padding: 15px 15px 15px 25px;
+}
+.item-box-category .product-code-wrapper, .item-box-category .shop-wrapper {
+    padding: 15px 0 15px 25px;
+}
+.wrap-input-search-formal {
+    width: 100%;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+.height-slider-wrapper .wrap-input-search-formal .input-search-formal,
+.product-code-wrapper .wrap-input-search-formal .input-search-formal {
+    min-width: 120px;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+.wrap-input-search-formal .search-unit {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 14px;
+    color: #6b7a83;
+    margin-bottom: -4px;
+}
+.wrap-filter-new-style .wrap-input-search-formal .input-search-formal,
+.wrap-filter-new-style .wrap-input-search-formal select {
+    width: 145px;
+    border: 1px solid #bebdbd;
+    padding-left: 5px;
+    height: 30px;
+}
+.shop-wrapper .wrap-input-search-formal select {
+    padding-left: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(./images/formal-rental/icon-select-down.svg) no-repeat;
+    background-position: 96% center;
+}
+.item-box-category .price-slider-wrapper {
+    padding: 15px 15px 0 25px;
+}
+.item-box-category .price-slider-wrapper .price-slider-values {
+    margin-bottom: 20px;
+}
+.price-slider-wrapper .price-display:first-of-type {
+    position: relative;
+}
+.height-slider-wrapper .height-slider-values .height-display,
+.price-slider-wrapper .price-slider-values .price-display {
+    height: 22px;
+    line-height: 22px;
+    width: 42%;
+    text-align: center;
+    border: 1px solid #bebdbd;
+    padding: 0 3px;
+    color: #707070;
+    font-size: 14px;
+}
+.list-box-category .item-box-category .ui-slider {
+    height: 5px!important;
+    margin-bottom: 25px;
+}
+.conditions .ui-corner-all {
+    border-radius: 4px!important;
+}
+.conditions .ui-widget-content {
+    border: 1px solid #bebdbd!important;
+    color: #222!important;
+}
+.conditions-filter .ui-corner-all, .conditions-filter .ui-widget-header,
+.wrap-nav-top .list-nav-top .item-nav-top .image-nav-03 .wrap-dropdown-search .search_box_top_date_picker_wrapper .ui-corner-all,
+.wrap-nav-top .list-nav-top .item-nav-top .image-nav-03 .wrap-dropdown-search .search_box_top_date_picker_wrapper .ui-widget-header {
+    background-color: #fff;
+}
+.conditions .ui-widget-header {
+    background: #979797;
+}
+.ui-corner-all, .ui-widget-header {
+    color: #000;
+}
+.item-box-category .ui-slider .ui-slider-handle {
+    top: -14px;
+    border-radius: 50%!important;
+    width: 30px;
+    height: 30px;
+    outline: 0;
+    border: 1px solid #bebdbd!important;
+    background: #fff!important;
+}
+.item-box-category .height-slider-wrapper .wrap-icon-search, .item-box-category .price-slider-wrapper .wrap-icon-search,
+.item-box-category .product-code-wrapper .wrap-icon-search, .item-box-category .shop-wrapper .wrap-icon-search {
+    text-align: right;
+}
+.item-box-category .height-slider-wrapper .wrap-icon-search .icon-search-condition,
+.item-box-category .price-slider-wrapper .wrap-icon-search .icon-search-condition, .item-box-category .product-code-wrapper .wrap-icon-search .icon-search-condition, .item-box-category .shop-wrapper .wrap-icon-search .icon-search-condition {
+    width: 70px;
+    border-radius: 15px;
+    background-color: #b28c2e;
+    font-size: 15px;
+    letter-spacing: 3px;
+    height: 30px;
+    cursor: pointer;
+    color: #fff;
+    border: 0;
+    line-height: normal;
+    overflow: visible;
+    -webkit-appearance: button;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.wrap-text-banner-araibar {
+    margin-top: -20px
+}
+.link-top-araibar img {
+    margin-bottom: 10px
+}
+.link-top-araibar .text-araibar {
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    color: #6b7a83;
+    text-decoration: underline!important
+}
+.link-top-araibar {
+    margin-top: 20px;
+    display: block
+}
+.conditions .ui-datepicker .ui-datepicker-next,
+.conditions .ui-datepicker .ui-datepicker-prev,
+.conditions .ui-datepicker .ui-datepicker-next:hover,
+.conditions .ui-datepicker .ui-datepicker-prev:hover{
+    width: 10px !important;
+    height: 25px !important;
+    background-color: unset !important;
+}

@@ -1,0 +1,452 @@
+body{
+    font-family: '小塚ゴシック Pr6N';
+}
+.sp{
+    display: block;
+}
+.pc{
+    display: none;
+}
+.wrap-campaign *{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap-campaign p {
+    font-size: 12px;
+    line-height: 1.6;
+    letter-spacing: 2px;
+}
+.wrap-campaign-banner {
+    position: relative;
+    margin-bottom: 15px;
+}
+.banner img{
+    width: 100%;
+}
+.wrap-campaign-banner .wrap-campaign-title {
+    position: absolute;
+    bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px 30px;
+    width: 100%;
+}
+.wrap-campaign-banner .wrap-campaign-title .main-title {
+    font-size: 28px;
+    text-align: center;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+.wrap-campaign-banner .wrap-campaign-title .intro {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    background-color: #c1272d;
+    padding: 2px 5px;
+    margin-bottom: 10px;
+}
+.text-bold{
+    font-weight: bold;
+}
+.campaign-title {
+    font-size: 18px;
+    letter-spacing: 6px;
+    background: url("../../../../../images/campaign-coupon/campaign-title-bg.png") no-repeat;
+    background-size: cover;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.campaign-title:before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-color: #5d5d5d;
+    margin-right: 10px;
+}
+
+.campaign-row {
+    padding: 0 10px;
+}
+
+section:not(:last-child) {
+    margin-bottom: 40px;
+}
+.blue-btn {
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    letter-spacing: 6px;
+    font-size: 20px;
+    background-color: #0071bc;
+    text-align: center;
+    padding: 15px 10px;
+}
+.mg30 {
+    margin-bottom: 30px;
+}
+
+.flow .wrap-flow .flow-step {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.flow .wrap-flow .flow-step .wrap-step-name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 300px;
+    margin-left: 30px;
+}
+.flow .wrap-flow .flow-step .wrap-step-name .step-num {
+    background-color: #666666;
+    color: #fff;
+    padding: 30px 10px;
+    margin-right: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+.flow .wrap-flow .flow-step .wrap-step-name .step-name {
+    color: #666666;
+    font-size: 17px;
+}
+.flow .flow-step.step-1 .wrap-step-name .step-num {
+    background-color: #000;
+}
+.flow .flow-step.step-4 .wrap-step-name .step-num {
+    background-color: #999999;
+}
+.flow .wrap-flow .flow-step .step-img {
+    position: relative;
+    top: -40px;
+}
+.coupon-guide .guide-img {
+    margin-top: 30px;
+}
+.coupon-guide .guide-img img{
+    margin: auto;
+}
+.coupon-method .wrap-ticket {
+    margin-top: 30px;
+}
+.coupon-method .wrap-ticket .col {
+    margin-bottom: 20px;
+}
+.coupon-method .wrap-ticket .col .ex {
+    color: #5d5d5d;
+    margin-bottom: 20px;
+}
+.col .ex p{
+    font-size: 14px;
+}
+.col.left .ex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.col.right .ticket-img{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.col.right .ticket-img img{
+    margin-bottom: 8px;
+}
+.col.right .ticket-img img:first-child{
+    margin-right: 8px;
+}
+.ticket-img .wrap-img{
+    width: 48%;
+    margin-right: 1%;
+}
+.contact-form{
+    background-color: #e6e6e6;
+}
+.wrap-form-campaign{
+    padding: 20px 0;
+}
+.wrap-form-campaign .campaign-title{
+    background: none;
+}
+.wrap-form-campaign .noted-title{
+    color: #494949;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.purple{
+    color: #4e0037;
+    display: inline;
+    margin-right: 5px;
+}
+.row-form{
+    padding: 0 10px;
+}
+.line-form{
+    height: 1px;
+    background-color: #606060;
+    margin: 20px 10px;
+}
+.form-campaign .form-group{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.wrap-form-campaign .form-group .ip-text{
+    height: 50px;
+    padding: 0 20px;
+    border: none;
+    width: 100%;
+    color: #7f7f7f;
+}
+.wrap-form-campaign .col-left-form{
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-size: 17px;
+}
+.wrap-form-campaign .col-left-form .lbl-name{
+    color: #7f7f7f;
+}
+.wrap-form-campaign .col-left-form .lbl-error{
+    color: #4e0037;
+}
+.col-right-form span:not(.code){
+    width: 100%;
+}
+span.code{
+    display: inline;
+    margin-right: 10px;
+}
+.address-info,
+.email-info,
+.payment{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.slec-address,
+.wrap-ip-text{
+    margin-bottom: 20px;
+}
+.slec-address select.ip-text{
+    height: 35px;
+}
+.address-info .textarea-address{
+    border: none;
+    width: 100%;
+    padding: 20px;
+    resize: none;
+}
+.wrap-info-noted{
+    color: #666;
+    font-size: 13px;
+}
+.wrap-info-noted .noted-confirm{
+    color: #f15a24;
+}
+.payment .col-right-form{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    color: #7f7f7f;
+    font-size: 16px;
+}
+.payment .col-right-form input[type="radio"]{
+    width: 20px;
+    height: 20px;
+}
+.payment .col-right-form span label{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.wrap-btn-submit-campaign .blue-btn{
+    border: none;
+}
+.wpcf7-not-valid-tip{
+    display: block;
+    color: red;
+    margin-top: 5px;
+}
+.wrap-campaign .contact-form .screen-reader-response,
+.wrap-campaign .contact-form .wpcf7-response-output{
+    display: none;
+}
+
+@media (max-width: 767px){
+    .payment .col-right-form .wrap-ip-text{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 750px){
+    .right-column{
+        margin-left: 20px;
+    }
+    .sp{
+        display: none;
+    }
+    .pc{
+        display: block;
+    }
+    .campaign-title{
+        font-size: 20px;
+    }
+    .wrap-campaign p {
+        font-size: 14px;
+    }
+    .coupon-guide{
+        margin-bottom: 120px;
+    }
+    .wrap-btn-submit-campaign .blue-btn,
+    .blue-btn{
+        width: 60%;
+        margin: auto;
+        cursor: pointer;
+        font-size: 26px;
+    }
+    .wrap-campaign-banner .wrap-campaign-title {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 50%;
+    }
+    .wrap-flow{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-bottom: 80px;
+        margin-top: 20px;
+    }
+    .wrap-flow li{
+        width: calc(100% * 1/4);
+    }
+    .flow .wrap-flow .flow-step .wrap-step-name .step-num{
+        height: 100px;
+        font-size: 24px;
+    }
+    .flow .wrap-flow .flow-step .wrap-step-name{
+        min-width: 150px;
+        margin-left: 0;
+    }
+    .flow .wrap-flow .flow-step .step-img{
+        top: 0;
+        left: 20px;
+    }
+    .form-campaign .form-group {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        padding-left: 20px;
+    }
+    .wrap-form-campaign .noted-title{
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+    .wrap-form-campaign .col-left-form{
+        min-width: 200px;
+        margin-right: 20px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .wrap-form-campaign .col-right-form{
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        margin-right: 30px;
+    }
+    .payment{
+        padding-left: 20px;
+    }
+    section.coupon-guide{
+        margin-bottom: 120px;
+    }
+    .coupon-guide .campaign-row{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .coupon-guide .campaign-row > div{
+        width: 50%;
+    }
+    .coupon-guide .guide-img {
+        margin-top: 0;
+    }
+    .coupon-method .wrap-ticket{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .coupon-method .wrap-ticket .col.left .ex{
+        margin-bottom: 40px;
+    }
+    .col .ex p{
+        font-size: 22px;
+    }
+    .coupon-method .wrap-ticket .col{
+        width: 45%;
+        margin-right: 3%;
+    }
+    .coupon-method .wrap-ticket .col.left .ex{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .wrap-form-campaign{
+        padding-bottom: 120px;
+    }
+    .wrap-form-campaign .form-group .ip-text{
+        border: 1px solid #4d4d4d;
+    }
+    .wrap-code{
+        margin-left: -24px;
+    }
+    span.code{
+        font-size: 16px;
+    }
+    .slec-address select.ip-text,
+    .txtPostalCode{
+        max-width: 200px;
+    }
+    .payment{
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    .payment .col-right-form span{
+        width: initial;
+    }
+}

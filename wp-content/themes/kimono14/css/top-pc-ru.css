@@ -1,0 +1,30 @@
+/*==BOX 6 POINTS==*/
+.section-6advices .title-sect {
+    font-size: 20px;
+}
+.section-6advices .title-sect .big {
+    font-size: 32px;
+    margin-left: 10px;
+}
+.section-6advices .box-overview ul li p.text {
+    font-size: 13px;
+}
+.section-6advices .box-list ul li .item .title span {
+    font-size: 18px;
+}
+.section-6advices .box-list ul li .item p {
+    font-size: 14px;
+}
+.plan-page .title-plan-page .bg-text{
+    font-size: 15px;
+}
+/*==DETECT TABLET ONLY LANG(RU)==*/
+@media (min-width : 768px) and (max-width : 1024px){
+    /*==BOX 6 POINTS==*/
+    .section-6advices .box-list ul li .item .title span {
+        font-size: 16px;
+    }
+    .plan-page .title-plan-page .bg-text{
+        font-size: 11px;
+    }
+}

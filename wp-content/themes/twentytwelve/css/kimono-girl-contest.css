@@ -1,0 +1,359 @@
+.wrap-kimono-girl-contest{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.container-girl-contest,
+.container-girl-contest-other{
+    box-sizing: border-box;
+    width: 100%;
+}
+.container-girl-contest{
+    padding: 0 10px;
+}
+.container-girl-contest-other{
+    padding: 0 5px;
+}
+.flex-box-contest{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+
+.title-girl-contest{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #4e0037;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    height: 35px;
+    box-sizing: border-box;
+    align-items: center;
+    -webkit-align-items: center;
+    line-height: 1;
+}
+.title-girl-contest .icon-title{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    margin-right: 5px;
+}
+.title-girl-contest .icon-t-crown,
+.title-girl-contest .icon-t-phone{
+    height: 30px;
+    width: 30px;
+}
+
+.title-girl-contest-no-icon{
+    padding-left: 20px;
+}
+.banner-top-contest,
+.box-two-flowers,
+.box-contest-voucher,
+.box-steps-contest,
+.box-contest-requirements,
+.box-contest-winning,
+.box-contest-agreement{
+    margin-bottom: 15px;
+}
+.banner-top-contest{
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+.banner-top-contest .pc{
+    display: none;
+}
+.box-two-flowers .content-two-flwers{
+    text-align: center;
+}
+.box-two-flowers .content-two-flwers h3{
+    line-height: 1;
+    font-size: 15px;
+    font-weight: bold;
+}
+.box-two-flowers .content-two-flwers p{
+    font-size:  11px;
+    margin-top:  10px;
+}
+.box-contest-voucher .content-contest-voucher{
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+.box-contest-voucher .content-contest-voucher .sub-items{
+    border-bottom: 1px dotted #000;
+    padding: 5px 0;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    align-items: center;
+    -webkit-align-items:  center;
+}
+.box-contest-voucher .content-contest-voucher .sub-items-last{
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    border-bottom: none;
+}
+.box-contest-voucher .content-contest-voucher .sub-items .sub-name{
+    align-items: center;
+    -webkit-align-items:  center;
+    min-width: 130px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.box-contest-voucher .content-contest-voucher .sub-items .sub-des{
+    font-size: 12px;
+}
+.box-contest-voucher .content-contest-voucher .sub-items .descript-sub{
+    font-size: 10px;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+.icon-contest{
+    margin-right: 5px;
+    width: 30px;
+}
+.icon-contest img{
+    width: 100%;
+}
+.box-steps-contest .content-steps-contest{
+    background: url(../../../../../images/kimono-girl-contest/bg-photo-steps.jpg) repeat;
+    padding: 15px 15px 0;
+    box-sizing: border-box;
+}
+.box-steps-contest .items-steps{
+    margin-left: -30px;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+.box-steps-contest .items-steps .steps-general{
+    width: calc(100% * (1/2) - 30px);
+    margin: 0 0 15px 30px;
+}
+.box-steps-contest .items-steps .steps-general .title-step{
+    margin-bottom: 20px;
+    align-items: center;
+    -webkit-align-items: center;
+}
+.box-steps-contest .items-steps .steps-general .title-step .num-step{
+    background-color: #4e0037;
+    position: relative;
+    text-align: center;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 25px;
+    line-height: 1;
+    width: 34px;
+}
+.box-steps-contest .items-steps .steps-general .title-step .num-step:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: -15px;
+    border-top: 15px solid #4e0037;
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+}
+.box-steps-contest .items-steps .steps-general .title-step .name-step{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.box-steps-contest .items-steps .steps-general .photo-step{
+    margin-bottom: 10px;
+}
+.box-steps-contest .items-steps .steps-general .des-step{
+    text-align: center;
+    font-size:  13px;
+}
+.box-contest-requirements .sec-rq-items,
+.box-contest-requirements .sec-rq-items-other{
+    margin-bottom: 15px;
+}
+.box-contest-requirements .sec-rq-items .sub-text{
+    margin-bottom: 5px;
+    font-size: 13px;
+    align-items: center;
+    -webkit-align-items: center;
+}
+.box-contest-requirements .sec-rq-items .sub-text .text-l{
+    min-width: 100px;
+    font-weight: bold;
+}
+.box-contest-requirements .sec-rq-items .sub-text .text-l strong{
+    margin-right: 5px;
+    font-size: 23px;
+}
+.box-contest-requirements .sec-rq-items-other h4,
+.box-contest-agreement .sec-ar-items h4{
+    margin-bottom: 2px;
+    line-height: 1;
+    font-weight: bold;
+}
+.box-contest-requirements .sec-rq-items-other p{
+    font-size: 12px;
+}
+.box-contest-requirements .des-rq{
+    margin-top: 12px;
+    font-size: 10px;
+}
+.box-contest-winning .sec-wn-items p{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.box-contest-winning .sec-wn-items .text-pr-03{
+    margin-bottom: 0;
+}
+.contest-agreement{
+    background-color: #d9d9d9;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 280px;
+    padding: 10px 20px 10px 10px;
+    box-sizing: border-box;
+}
+.box-contest-agreement .sec-ar-items{
+    margin-bottom: 15px;
+}
+.box-contest-agreement .sec-ar-items strong{
+    font-size: 19px;
+}
+.box-contest-agreement .sec-ar-items p{
+    font-size: 13px;
+}
+.sub-pdl10{
+    padding-left: 10px;
+}
+.sub-pdl5{
+    padding-left: 5px;
+}
+@media(max-width: 360px){
+    .icon-contest {
+        margin-right: 3px;
+        width: 25px;
+    }
+    .box-contest-voucher .content-contest-voucher .sub-items .sub-name{
+        font-size: 12px;
+        min-width: 110px;
+    }
+    .box-contest-voucher .content-contest-voucher .sub-items .sub-des {
+        font-size: 11px;
+    }
+    .box-steps-contest .items-steps .steps-general .title-step .name-step {
+        margin-left: 5px;
+        font-size: 11px;
+        line-height: 1.3;
+    }
+    .box-steps-contest .items-steps .steps-general .des-step {
+        text-align: center;
+        font-size: 11px;
+    }
+}
+@media (min-width: 750px){
+    .container-girl-contest {
+        padding: 0 20px;
+    }
+    .container-girl-contest-other {
+        padding: 0 10px;
+    }
+    .banner-top-contest, .box-two-flowers, .box-contest-voucher, .box-steps-contest, .box-contest-requirements, .box-contest-agreement {
+        margin-bottom: 20px;
+    }
+    .title-girl-contest {
+        font-size: 35px;
+        height: 50px;
+        margin-bottom: 30px;
+    }
+    .banner-top-contest .pc{
+        display: block;
+    }
+    .banner-top-contest .sp{
+        display: none;
+    }
+    .box-two-flowers .content-two-flwers h3 {
+        font-size: 35px;
+    }
+    .box-two-flowers .content-two-flwers p {
+        font-size: 15px;
+    }
+    .title-girl-contest .icon-title{
+        margin-right: 10px;
+    }
+    .title-girl-contest .icon-t-crown,
+    .title-girl-contest .icon-t-phone{
+        height: 40px;
+        width: 40px;
+    }
+    .box-contest-voucher .content-contest-voucher .sub-items{
+        border-width: 2px;
+    }
+    .icon-contest {
+        margin-right: 10px;
+        width: 50px;
+    }
+    .box-contest-voucher .content-contest-voucher .sub-items .sub-name {
+        min-width: 350px;
+        font-size: 40px;
+    }
+    .box-contest-voucher .content-contest-voucher .sub-items .sub-des {
+        font-size: 23px;
+    }
+    .box-contest-voucher .content-contest-voucher .sub-items .descript-sub {
+        font-size: 14px;
+        padding-left: 60px;
+        margin-top: 20px;
+    }
+    .box-steps-contest .items-steps .steps-general {
+        width: calc(100% * (1/4) - 30px);
+    }
+    .box-steps-contest .items-steps .steps-general .title-step .num-step {
+        font-size: 40px;
+        width: 42px;
+    }
+    .box-steps-contest .items-steps .steps-general .title-step .num-step:after {
+        border-left: 21px solid transparent;
+        border-right: 21px solid transparent;
+    }
+    .box-steps-contest .items-steps .steps-general .title-step .name-step,
+    .box-steps-contest .items-steps .steps-general .des-step,
+    .box-contest-requirements .des-rq,
+    .box-contest-agreement .sec-ar-items p {
+        font-size: 16px;
+    }
+    .box-contest-requirements .sec-rq-items .sub-text,
+    .box-contest-requirements .sec-rq-items-other h4{
+        font-size: 25px;
+        align-items: center;
+        -webkit-align-items: center;
+        line-height: 1;
+    }
+    .box-contest-requirements .sec-rq-items .sub-text .text-l strong {
+        font-size: 40px;
+    }
+    .box-contest-agreement .sec-ar-items h4 {
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    .box-contest-requirements .sec-rq-items .sub-text .text-l {
+        min-width: 180px;
+    }
+    .box-contest-requirements .sec-rq-items-other p {
+        font-size: 23px;
+    }
+    .box-contest-requirements .sec-rq-items,
+    .box-contest-requirements .sec-rq-items-other{
+        margin-bottom: 25px;
+    }
+    .box-contest-winning .sec-wn-items p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .box-contest-agreement .sec-ar-items strong {
+        font-size: 40px;
+    }
+}
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+
+}

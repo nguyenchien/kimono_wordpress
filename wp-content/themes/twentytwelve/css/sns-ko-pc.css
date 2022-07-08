@@ -1,0 +1,56 @@
+.sns-ko .box-social-net-footer{
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+}
+.box-social-net-footer .box-social-net>div,
+.box-social-net-footer .box-statistical>div{
+	width: 100%;
+}
+.sns-ko .box-social-net-footer .box-social-net{
+	width: 70%;
+	height: 557px;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+.sns-ko .box-social-net-footer .box-statistical{
+	width: 30%;
+	margin:0 0 0 5px;
+}
+.sns-ko .box-social-net-footer .box-social-net .ins-witter,
+.sns-ko .box-social-net-footer .box-social-net .instagram-box{
+	margin-left: 5px;
+}
+.sns-ko .instagram-box{
+	height: 530px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.sns-ko #instagram_id ul {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+}
+#instagram_id ul li{
+	width: 100%;
+	margin-bottom: 5px;
+}
+.title-social-sns{
+	margin-bottom: 8px;
+}
+/*.title-social-sns img{*/
+    /*width: 85%;*/
+/*}*/
+.title-i-instagram{
+	/*margin-bottom: 28px;*/
+}
+.button-link-sns,
+.button-cafe-naver-pc
+{
+	width: 200px;
+	margin-bottom: 8px;
+}
+.sec-blog-pc,
+.sec-cafe-pc{
+	display: flex;
+}

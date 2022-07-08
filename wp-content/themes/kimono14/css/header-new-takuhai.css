@@ -1,0 +1,19 @@
+.box-header .wrap-info .option-check{
+	margin-left: 15px;
+}
+.wrap-text-opt-chk-tkh p:first-child{
+	margin-bottom: 5px;
+}
+.box-header .option-check .list-opt-check .item-opt-check .icon {
+	font-size: 25px;
+	display: flex;
+}
+.box-header .option-check .list-opt-check .item-opt-check .text-opt-check {
+	font-size: 17px;
+}
+@media (min-width: 750px){
+	.box-header .wrap-info .wrap-congress-store .top-text-cg-store{
+		background-color: #cd0072;
+	}
+
+}

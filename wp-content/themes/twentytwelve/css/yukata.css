@@ -1,0 +1,757 @@
+/*==============================================================================
+	.menu-top-kimono
+================================================================================*/
+.menu-top-kimono{
+	background: #13345e;
+}
+
+.menu-top-kimono .container{
+	width: 960px;
+}
+
+.menu-top-kimono .container .bg-right,
+.menu-top-kimono .container .bg-left{
+	display: none;
+}
+.menu-top-kimono .container .main-navigation ul{
+	background:#13345e;
+}
+.menu-top-kimono .container .main-navigation ul li.mnnav-icon-home{
+	background: #13345e;
+}
+.menu-top-kimono .container .main-navigation ul li:hover a {
+	background: #1e88a8;
+}
+.menu-top-kimono .container .main-navigation ul li:last-child a{
+	background:#d92980;
+}
+
+.menu-top-kimono .container .main-navigation ul li.menu-kimono > .sub-menu {
+    width: 230px;
+    background: #1e88a8 !important;
+}
+.menu-top-kimono .container .main-navigation ul .sub-menu li a:hover {
+	background: #61aac1;
+}
+.menu-top-kimono .container .main-navigation ul.sub-menu li a{
+	display: block;
+	padding: 8px 8px 8px 8px;
+	font-size: 12px;
+	font-weight: bold;
+	height: auto;
+	margin: 0;
+	background: #1e88a8;
+	line-height: 1.6;
+}
+ul#menu-headermenuyukataja > li > ul.sub-menu > li > a {
+  font-size: 15px;
+}
+.menu-top-kimono ul.nav-menu li > ul.sub-menu li ul.sub-menu{
+	background: #61aac1 !important;
+}
+.menu-top-kimono ul.nav-menu li > ul.sub-menu li ul.sub-menu li a{
+	background: #61aac1 !important;
+}
+.menu-top-kimono ul.nav-menu li > ul.sub-menu li ul.sub-menu li a:hover{
+	background: #81c7d4 !important;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono ul.sub-menu li ul.sub-menu{
+	border-top: 15px solid #1e88a8;
+	padding-bottom: 15px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li > a:hover{
+	background: #61aac1;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li > a{
+	background: #1e88a8;
+}
+.menu-top-kimono ul.nav-menu li > ul.sub-menu li a.active,
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.ico-array > a:hover{
+	background: #61aac1 !important;
+	background-image: url('../images/icon/ico-array.png') !important;
+	background-repeat: no-repeat !important;
+	background-position: 90% 15px!important;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.ico-array > a{
+	background: #1e88a8;
+	background-image: url('../images/icon/ico-array.png');
+	background-repeat: no-repeat;
+	background-position: 90% 15px;
+	
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.standard-yukata a span,
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.premium-yukata a span,
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.highend-yukata a span,
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.mamichiyo-yukata a span,
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.summer-kimono-yukata a span,
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.men-yukata a span,
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.children-yukata a span,
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.couple-yukata a span,
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.samjin-yukata a span{
+	width: 91px;
+	height: 27px;
+	float: left;
+	margin: 0 5px 0 0;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.standard-yukata a span{
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: 0px -1267px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.standard-yukata a:hover span{
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: -98px -1267px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.premium-yukata a span{
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: 0px -1308px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.premium-yukata a:hover span{
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: -98px -1308px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.highend-yukata a span{
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: 0px -1349px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.highend-yukata a:hover span{
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: -98px -1349px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.mamichiyo-yukata a span{
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: 0px -1390px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.mamichiyo-yukata a:hover span{
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: -98px -1390px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.summer-kimono-yukata a span{
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: 0px -1432px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.summer-kimono-yukata a:hover span{
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: -98px -1432px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.men-yukata a span{
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: 0px -1473px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.men-yukata a:hover span{
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: -98px -1473px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.samjin-yukata a span{
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: 0px -1514px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.samjin-yukata a:hover span{
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: -98px -1514px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.children-yukata a span{
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: 0px -1555px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.children-yukata a:hover span{
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: -98px -1555px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.couple-yukata a span{
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: 0px -1596px;
+}
+.menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.couple-yukata a:hover span{
+	background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png');
+	background-position: -98px -1596px;
+}
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.standard-yukata a span{
+	background-position: 0px -3772px;
+}
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.premium-yukata a span{
+	background-position: 0px -3816px;
+}
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.highend-yukata a span{
+	background-position: 0px -3857px;
+}
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.mamichiyo-yukata a span{
+	background-position: 0px -3899px;
+}
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.summer-kimono-yukata a span{
+	background-position: 0px -3942px;
+}
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.men-yukata a span{
+	background-position: 0px -3985px;
+}
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.children-yukata a span{
+	background-position: 0px -4027px;
+}
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.couple-yukata a span{
+	background-position: 0px -4069px;
+}
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.standard-yukata a:hover span{
+	background-position: -98px -3772px;
+}
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.premium-yukata a:hover span{
+	background-position: -98px -3816px;
+}
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.highend-yukata a:hover span{
+	background-position: -98px -3857px;
+}
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.mamichiyo-yukata a:hover span{
+	background-position: -98px -3899px;
+}
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.summer-kimono-yukata a:hover span{
+	background-position: -98px -3942px;
+}
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.men-yukata a:hover span{
+	background-position: -98px -3985px;
+}
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.children-yukata a:hover span{
+	background-position: -98px -4027px;
+}
+body.tw .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.couple-yukata a:hover span{
+	background-position: -98px -4069px;
+}
+
+/*==============================================================================
+	Block booking
+================================================================================*/
+section.block-viewbooking-top-page #choose-shop{
+	background:#1e88a8 ;
+}
+section.block-viewbooking-top-page #choose-shop li.active label,
+section.block-viewbooking-top-page #choose-shop li:hover label{
+	background: rgba(255, 56, 125, 0.8) !important;
+}
+section.block-viewbooking-top-page #choose-shop li.shop-1, section.block-viewbooking-top-page #choose-shop li.shop-1.active {
+  background: url(../images/bg-tab-shop-y-01.png) no-repeat right center;
+}
+section.block-viewbooking-top-page #choose-shop li.shop-2, section.block-viewbooking-top-page #choose-shop li.shop-2.active {
+  background: url(../images/bg-tab-shop-y-02.png) no-repeat right center;
+}
+section.block-viewbooking-top-page #choose-shop li.shop-3, section.block-viewbooking-top-page #choose-shop li.shop-3.active {
+  background: url(../images/bg-tab-shop-y-03.png) no-repeat right center;
+}
+section.block-viewbooking-top-page #choose-shop li.shop-4, section.block-viewbooking-top-page #choose-shop li.shop-4.active {
+  background: url(../images/bg-tab-shop-y-04.png) no-repeat right center;
+}
+section.block-viewbooking-top-page #choose-shop li.shop-5, section.block-viewbooking-top-page #choose-shop li.shop-5.active {
+  background: url(../images/bg-tab-shop-y-05.png) no-repeat right center;
+}
+section.block-viewbooking-top-page #choose-shop li.shop-5 img {
+  content: url('../images/icon/bullet-open-yukata.png') !important;
+}
+section.block-viewbooking-top-page #choose-shop li.shop-6,
+section.block-viewbooking-top-page #choose-shop li.shop-6.active {
+	background: url(/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png);
+	background-position: 118px -5016px;
+	background-repeat: no-repeat;
+}
+/*==============================================================================
+	footer
+================================================================================*/
+.add-new-title-shop{
+	background-color: #003366;
+}
+div.item_footer dl dt a{
+	color: #004277;
+}
+div.item_footer:hover dl a, div.item_footer:hover dl dt.add-new-title {
+  color: rgba(0, 51, 102, 0.7);
+}
+div.item_footer:hover dl dd.add-new-title-shop{
+	background-color: rgba(0, 51, 102, 0.7);
+}
+a.goto-more{
+	color: #3b5998;
+	background-size: 18px;
+	background-position: 0px -1111px;
+}
+/*
+	access page
+============================================*/
+.access-child-page h2{
+	background-color:#003366;
+}
+
+/*
+	reserve page
+============================================*/
+.page-payment .title-sec,
+.booking .title-sec, 
+.ctrl-booking .title-sec,
+#booking_form .title-sec{
+	background: #003366;
+    line-height: 55px;
+    color: #fff;
+    border-bottom: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+#booking_form .title-sec.title-sec-more {
+    background:transparent;
+	color:#000;
+}
+body.en .page-payment .title-sec,
+body.en .booking .title-sec, 
+body.en .ctrl-booking .title-sec,
+body.en #booking_form .title-sec,
+body.vi .page-payment .title-sec,
+body.vi .booking .title-sec, 
+body.vi .ctrl-booking .title-sec,
+body.vi #booking_form .title-sec{
+	font-size: 30px;
+	line-height: 50px;
+}
+.page-payment .title-sec, .booking .title-sec, .ctrl-booking .title-sec, .sec-choose-kimono var, .vacancy var, .customer var, #card-input var, #payment-detail var, .payment var.dt-payment, #booking_form .title-sec var {
+    color: #fff;
+	font-size: 35px;
+}
+#card-input h3 {
+    font-size: 35px;
+}
+.page-payment .title-sec, .booking .title-sec, .ctrl-booking .title-sec, #booking_form .title-sec var {
+    color: #fff;
+}
+body.en .page-payment .title-sec, .booking .title-sec, .ctrl-booking .title-sec, #booking_form .title-sec var,
+body.vi .page-payment .title-sec, .booking .title-sec, .ctrl-booking .title-sec, #booking_form .title-sec var{
+    font-size: 35px;
+	height: inherit;
+}
+
+#booking_form .vacancy #choose-shop-and-date #choose-shop {
+    background: #1e88a8;
+}
+
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.active label, 
+#booking_form .vacancy #choose-shop-and-date #choose-shop li:hover label
+{
+	background: rgba(255, 56, 125, 0.8) !important;
+}
+
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-5, 
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-5.active {
+    background: url(../images/bg-tab-shop-y-05.png) no-repeat right center;
+}
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-1, 
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-1.active {
+    background: url(../images/bg-tab-shop-y-01.png) no-repeat right center;
+}
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-2, 
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-2.active {
+    background: url(../images/bg-tab-shop-y-02.png) no-repeat right center;
+}
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-3, 
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-3.active {
+    background: url(../images/bg-tab-shop-y-03.png) no-repeat right center;
+}
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-4, 
+#booking_form .vacancy #choose-shop-and-date #choose-shop li.shop-4.active {
+    background: url(../images/bg-tab-shop-y-04.png) no-repeat right center;
+}
+
+.booking.confirm .page-payment .title-sec,
+.booking.confirm .booking .title-sec,
+.booking.confirm .ctrl-booking .title-sec,
+.booking.confirm #booking_form .title-sec{
+	background: #003366;
+}
+
+.page-payment .title-sec, 
+.page-payment .booking .title-sec, 
+.page-payment .ctrl-booking .title-sec, 
+.page-payment #booking_form .title-sec{
+	background: #003366;
+}
+
+
+
+footer#colophon .colophon-zone-center.box-widget-blog {
+  background: #003366;
+}
+
+div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble.mamechiyo.yukata-mamechiyo-vi{
+	max-width: 140px;
+}
+
+/* icon menu */
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.standard-yukata a span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.standard-yukata a span{
+	background-position: 0px -1867px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.premium-yukata a span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.premium-yukata a span{
+	background-position: 0px -1908px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.highend-yukata a span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.highend-yukata a span{
+	background-position: 0px -1949px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.mamichiyo-yukata a span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.mamichiyo-yukata a span{
+	background-position: 0px -1990px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.summer-kimono-yukata a span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.summer-kimono-yukata a span{
+	background-position: 0px -2031px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.men-yukata a span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.men-yukata a span{
+	background-position: 0px -2072px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.children-yukata a span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.children-yukata a span{
+	background-position: 0px -2113px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.couple-yukata a span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.couple-yukata a span{
+	background-position: 0px -2154px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.standard-yukata a:hover span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.standard-yukata a:hover span{
+	background-position: -98px -1867px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.premium-yukata a:hover span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.premium-yukata a:hover span{
+	background-position: -98px -1908px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.highend-yukata a:hover span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.highend-yukata a:hover span{
+	background-position: -98px -1949px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.mamichiyo-yukata a:hover span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.mamichiyo-yukata a:hover span{
+	background-position: -98px -1990px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.summer-kimono-yukata a:hover span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.summer-kimono-yukata a:hover span{
+	background-position: -98px -2031px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.men-yukata a:hover span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.men-yukata a:hover span{
+	background-position: -98px -2072px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.children-yukata a:hover span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.children-yukata a:hover span{
+	background-position: -98px -2113px;
+}
+body.en .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.couple-yukata a:hover span,
+body.vi .menu-top-kimono .container .main-navigation ul li.menu-kimono .sub-menu li.couple-yukata a:hover span{
+	background-position: -98px -2154px;
+}
+
+/* end */
+/*==============================================================================
+	Layout for SP
+================================================================================*/
+@media all and (max-width: 767px) {
+	div.kimono-couple-page div.box-general-kimono-couple-page .info.plan-page .title h1 span.bubble var i{
+		top: 5px;
+	}
+	.section_general.couple-vi .title-pink{
+		display: inline-block;
+	}
+	.layout-kimono-sp .menu-top-kimono-sp{
+		background: #003366;
+	}
+	
+	.layout-kimono-sp .menu-top-kimono-sp ul.menu li{
+		border-right: 1px solid #002244;
+	}
+	.layout-kimono-sp .menu-top-kimono-sp ul.menu li:nth-child(4) {
+		border-right: none;
+	}
+	.layout-kimono-sp .menu-top-kimono-sp ul.menu li:nth-child(5) {
+		width: 18.6%;
+		background: #d92980;
+		float: right;
+		border-left: 1px solid #b598b2;
+		border-right: none;
+	}
+	
+	.menu-sp-new img{
+		content: url(../../../../../images/sp/icon-mn-top-dropdown-1-yukata.png) !important;	
+	}
+	.layout-kimono-sp .section-footer .box-widget-menu .menu-footermenu-container {
+		background: #003366;
+	  }
+	/*====css change color for left meuu===*/
+	.nav-item a {
+		background: #1e88a8;
+	  }
+	.nav-submenu-item a {
+		background: #61aac1;
+	  }
+	.nav-submenu-item ul li a {
+		background: #81c7d4;
+		border-left: 15px solid #61aac1;
+	  }
+	.nav-item:last-child a {
+		background: #d92980;
+	  }
+	.nav-submenu-item ul li a span,
+	body.tw .nav-submenu-item ul li a span{
+		background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png') no-repeat;
+		width: 80px;
+		height: 24px;
+		float: left;
+		margin: 0 5px 0 0;
+	}
+	.nav-submenu-item ul li.standard-yukata a span{
+		background-position: 0px -2811px;
+	}
+	.nav-submenu-item ul li.premium-yukata a span{
+		background-position: 0px -2847px;
+	}
+	.nav-submenu-item ul li.highend-yukata a span{
+		background-position: 0px -2883px;
+	}
+	.nav-submenu-item ul li.mamichiyo-yukata a span{
+		background-position: 0px -2920px;
+	}
+	.nav-submenu-item ul li.summer-kimono-yukata a span{
+		background-position: 0px -2957px;
+	}
+	.nav-submenu-item ul li.men-yukata a span{
+		background-position: 0px -2993px;
+	}
+	.nav-submenu-item ul li.children-yukata a span{
+		background-position: 0px -3065px;
+	}
+	.nav-submenu-item ul li.couple-yukata a span{
+		background-position: 0px -3102px;
+	}
+	
+	body.tw .nav-submenu-item ul li.standard-yukata a span{
+		background-position: 0px -4119px;
+	}
+	body.tw .nav-submenu-item ul li.premium-yukata a span{
+		background-position: 0px -4158px;
+	}
+	body.tw .nav-submenu-item ul li.highend-yukata a span{
+		background-position: 0px -4194px;
+	}
+	body.tw .nav-submenu-item ul li.mamichiyo-yukata a span{
+		background-position: 0px -4230px;
+	}
+	body.tw .nav-submenu-item ul li.summer-kimono-yukata a span{
+		background-position: 0px -4269px;
+	}
+	body.tw .nav-submenu-item ul li.men-yukata a span{
+		background-position: 0px -4306px;
+	}
+	body.tw .nav-submenu-item ul li.children-yukata a span{
+		background-position: 0px -4343px;
+	}
+	body.tw .nav-submenu-item ul li.couple-yukata a span{
+		background-position: 0px -4381px;
+	}
+
+	body.en .nav-submenu-item ul li a span,
+	body.vi .nav-submenu-item ul li a span{
+		background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png') no-repeat;
+	}
+	body.en .nav-submenu-item ul li.standard-yukata a span,
+	body.vi .nav-submenu-item ul li.standard-yukata a span{
+		background-position: -98px -1867px;
+	}
+	body.en .nav-submenu-item ul li.premium-yukata a span,
+	body.vi .nav-submenu-item ul li.premium-yukata a span{
+		background-position: -98px -1908px;
+	}
+	body.en .nav-submenu-item ul li.highend-yukata a span,
+	body.vi .nav-submenu-item ul li.highend-yukata a span{
+		background-position: -98px -1949px;
+	}
+	body.en .nav-submenu-item ul li.mamichiyo-yukata a span,
+	body.vi .nav-submenu-item ul li.mamichiyo-yukata a span{
+		background-position: -98px -1990px;
+	}
+	body.en .nav-submenu-item ul li.summer-kimono-yukata a span,
+	body.vi .nav-submenu-item ul li.summer-kimono-yukata a span{
+		background-position: -98px -2031px;
+	}
+	body.en .nav-submenu-item ul li.men-yukata a span,
+	body.vi .nav-submenu-item ul li.men-yukata a span{
+		background-position: -98px -2072px;
+	}
+	body.en .nav-submenu-item ul li.children-yukata a span,
+	body.vi .nav-submenu-item ul li.children-yukata a span{
+		background-position: -98px -2113px;
+	}
+	body.en .nav-submenu-item ul li.couple-yukata a span,
+	body.vi .nav-submenu-item ul li.couple-yukata a span{
+		background-position: -98px -2154px;
+	}
+	.sb-slidebar{
+		background: #003366;
+	}
+	
+	#menu-close{
+		background: #002244;
+	}
+	section.block-viewbooking-top-page #choose-shop li:hover label{
+		background: none !important;
+	}
+	.section-booking-top-page ul#choose-shop li.shop-1, .section-booking-top-page ul#choose-shop li.shop-1.active{
+		background-image: url("../images/spriteme-sp.png");
+		background-repeat: no-repeat;
+	    background-position: right -1618px;
+		background-size: 52px;
+	}
+	.section-booking-top-page ul#choose-shop li.shop-2, .section-booking-top-page ul#choose-shop li.shop-2.active{
+		background-image: url("../images/spriteme-sp.png");
+		background-repeat: no-repeat;
+	    background-position: right -1632px;
+		background-size: 50px;
+	}
+	.section-booking-top-page ul#choose-shop li.shop-3, .section-booking-top-page ul#choose-shop li.shop-3.active{
+		background-image: url("../images/spriteme-sp.png");
+		background-repeat: no-repeat;
+	    background-position: right -1504px;
+		background-size: 42px;
+	}
+	.section-booking-top-page ul#choose-shop li.shop-4, .section-booking-top-page ul#choose-shop li.shop-4.active{
+		background-image: url("../images/spriteme-sp.png");
+		background-repeat: no-repeat;
+	    background-position: right -1573px;
+		background-size: 46px;
+	}
+	.section-booking-top-page ul#choose-shop li.shop-5, .section-booking-top-page ul#choose-shop li.shop-5.active{
+		background-image: url("../images/spriteme-sp.png");
+		background-repeat: no-repeat;
+		background-position: right -1171px;
+		background-size: 40px;
+	}
+	.section-booking-top-page ul#choose-shop li.shop-6, .section-booking-top-page ul#choose-shop li.shop-6.active{
+		background-image: url("../images/spriteme-sp.png");
+		background-repeat: no-repeat;
+		background-position: right -4860px;
+		background-size: 40px;
+	}
+	.section-footer .box-widget-menu .menu-footermenuja-container {
+		background: #003366;
+	}
+	.section-footer .box-widget-menu ul.tn-link-footer li {
+		border-bottom-color: #002244;
+	}
+	.section-footer .box-widget-menu ul.tn-link-footer li a:before {
+		content: " ";
+		background-image: url("../images/spriteme-sp.png");
+		background-repeat: no-repeat;
+		background-position: 0px -1231px;
+		background-size: 11px;
+	}
+	
+	/*--yakata dai--*/
+	.left-kimono-block-option{
+		float:none;
+		width:100%;
+		}
+	.left-kimono-block-option li{	
+		width: 48.69281%;
+		height: 100%;
+		}
+	.left-kimono-block-option li .option-kimono-all img,
+	.right-kimono-block-option li .option-r-kimono-all img{
+		width: 100%;
+		}
+	.left-kimono-block-option li .option-kimono-all h2.title-kimono-option{
+		font-size:95%;
+		padding: 3px 5px;
+		margin: 1px 0 0 1px;
+		}
+	.left-kimono-block-option li .option-kimono-all span{
+		right: 12px;
+		bottom: 10px;
+		font-size: 100%;
+		}
+		
+	.left-kimono-block-option li:hover .mask{
+		width:100%;
+		height:100%;
+		}
+	.left-kimono-block-option li:nth-child(2), 
+	.left-kimono-block-option li:nth-child(4),
+	.left-kimono-block-option li:nth-child(6),
+	.left-kimono-block-option li:nth-child(8),
+	.left-kimono-block-option li:nth-child(10){
+		margin-right:0px;
+		margin-bottom:8px;
+		}
+	.left-kimono-block-option li:hover .mask,
+	.left-kimono-block-option li:hover .mask-4{
+		font-size: 7px;
+	}
+	.left-kimono-block-option li:hover .mask-4 p.underline-text{
+		border-bottom: none;
+		padding: 0;
+		}
+	
+	.layout-kimono-sp .box-content-page .sect-kimomo-normal.couple-sex #tab-sex{
+		border-bottom: 5px solid #003366;
+	}
+	
+	.left-kimono-block-option li {
+		width: 48.67%;
+	}
+	
+	.box-content-page .sect-kimomo-normal ul li.item .kimono-image .large{
+		width:58.3%;
+	}
+	
+	.box-content-page .sect-kimomo-normal ul li.item .kimono-image .thumb {
+		width: 39%;
+	}
+	
+	.box-content-page .sect-kimomo-normal ul li.item .kimono-image .thumb ul li {
+		float: left;
+		width: 45.8%;
+	}
+	section.block-viewbooking-top-page #choose-shop {
+		background: #f1e5f0;
+	  }
+	.layout-kimono-sp .section-booking-top-page ul#choose-shop li.active label{
+		color: #fff;
+	}
+	.layout-kimono-sp .section-booking-top-page ul#choose-shop li label{
+		  color: #003366;
+	}
+	.section-booking-top-page ul#choose-shop li.shop-1.active label{
+		background-image: url("../images/spriteme-sp.png") !important;
+		background-color: #003366 !important;
+		background-repeat: no-repeat !important;
+	    background-position: right -2058px !important;
+		background-size: 52px !important;
+	}
+	.section-booking-top-page ul#choose-shop li.shop-2.active label{
+		background-image: url("../images/spriteme-sp.png") !important;
+		background-color: #003366 !important;
+		background-repeat: no-repeat !important;
+	    background-position: right -2055px !important;
+		background-size: 50px !important;
+	}
+	.section-booking-top-page ul#choose-shop li.shop-3.active label{
+		background-image: url("../images/spriteme-sp.png") !important;
+		background-color: #003366 !important;
+		background-repeat: no-repeat !important;
+	    background-position: right -1858px !important;
+		background-size: 42px !important;
+	}
+	.section-booking-top-page ul#choose-shop li.shop-4.active label{
+		background-image: url("../images/spriteme-sp.png") !important;
+		background-color: #003366 !important;
+		background-repeat: no-repeat !important;
+	    background-position: right -1961px !important;
+		background-size: 46px !important;
+	}
+	.section-booking-top-page ul#choose-shop li.shop-5.active label{
+		background-image: url("../images/spriteme-sp.png") !important;
+		background-repeat: no-repeat !important;
+		background-color: #003366 !important;
+		background-position: right -1509px !important;
+		background-size: 40px !important;
+	}
+	
+	}

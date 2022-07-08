@@ -1,0 +1,304 @@
+.page-caricature h2{
+	height: 50px;
+	line-height: 50px;
+	background-image: url("../images/icon/icon-caricature.png");
+	background-position: 10px center;
+	background-repeat: no-repeat;
+	background-color: #19153b;
+	background-size: 34px;
+	color: #fff;
+	font-size: 16px;
+	font-size: 4.3vw;
+	font-weight: bold;
+	padding-left: 55px;
+	margin-bottom: 10px;
+}
+.page-caricature .des{
+	padding: 0 7px;
+	font-weight: bold;
+	color: #000;
+	line-height: 1.7;
+	font-size: 13px;
+	font-size: 3.5vw;
+	margin-bottom: 10px;
+}
+.page-caricature img.img-caricature{
+	margin-bottom: 15px;
+}
+.shop-time,
+.shop-map,
+.title-shop-name,
+.pic-caricature{
+	padding: 0 7px;
+	margin-bottom: 20px;
+}
+.title-shop-name{
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+}
+.title-shop-name .shop-name{
+	font-size: 30px;
+	font-weight: bold;
+}
+.title-shop-name .info-shop p{
+	font-size: 12px;
+	font-weight: bold;
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+}
+.mg-right{
+	min-width: 90px;
+}
+.mg-left{
+	margin-left: 20px;
+}
+.pic-caricature{
+	text-align: center;
+}
+.pic-caricature img{
+	margin-bottom: 10px;
+}
+.pic-caricature p{
+	font-weight:bold;
+}
+.shop-time h3{
+	color: #000;
+	font-size: 20px;
+	font-size: 6vw;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.shop-time ul li{
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	border: 1px solid #000;
+}
+.shop-time ul li .text{
+	color: #fff;
+	background-color: #000;
+	font-size: 20px;
+	font-size: 5.5vw;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+}
+.shop-time ul li .info{
+	padding: 7px 10px 3px 10px;
+}
+.shop-time ul li .info p{
+	font-size: 13px;
+	font-size: 4vw;
+	font-weight: bold;
+	padding-bottom: 3px;
+}
+body.fr .shop-time ul li .info p{
+	line-height: 1.5;
+	padding-bottom: 0;
+	font-size: 15px;
+}
+body.hi .shop-time ul li .info p{
+	font-size: 18px;
+}
+.shop-time ul li .open-time{
+	background-image: url("../images/spriteme-sp.png");
+	background-position: 0px -1388px;
+	background-repeat: no-repeat;
+	background-size: 20px;
+	padding-left: 25px;
+}
+body.fr .shop-time ul li .open-time{
+	background-position: 0px -1386px;
+	display: inline-block;
+}
+.shop-map{
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+}
+.shop-map .map{
+	margin-bottom: 10px;
+}
+.shop-map .map iframe{
+	width: 100%;
+}
+.caricature-time > ul{
+	margin-bottom: 10px;
+}
+.caricature-time > ul > li{
+	background-image: url("../images/icon/icon-li-capture.png");
+	background-position: left 2px;
+	background-repeat: no-repeat;
+	background-size: 15px;
+	padding-left: 22px;
+	margin-bottom: 5px;
+	line-height: 1.7;
+	color: #000;
+	font-size:13px;
+	font-size:4vw;
+}
+.caricature-time > ul > li span{
+	color: #ff0000;
+}
+ul.list-child-time{
+	margin-left: 50px;
+}
+ul.list-child-time li span{
+	color: #000;
+}
+ul.list-child-time li{
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+}
+ul.list-child-time li span.caricature-name{
+	min-width: 120px;
+}
+.caricature-time .terms h4{
+	color: #333333;
+	font-size:16px;
+	font-size:5vw;
+	font-weight: bold;
+	border-bottom: 1px solid #666666;
+	margin-bottom: 5px;
+}
+.caricature-time .terms ul li{
+	color: #000;
+	font-size:13px;
+	font-size:4vw;
+	margin-bottom: 15px;
+	line-height: 1.7;
+}
+@media (max-width: 320px){
+	.title-shop-name .info-shop p{
+		font-size: 10px;
+	}
+	.mg-right{
+		min-width: 80px;
+	}
+	.mg-left{
+		margin-left: 10px;
+	}
+	ul.list-child-time li span.caricature-name{
+		min-width: 110px;
+	}
+}
+@media (min-width: 750px) {
+	.page-caricature h2{
+		font-size: 30px;
+		margin-bottom: 20px;
+		line-height: 55px;
+	}
+	.page-caricature .des{
+		padding: 0;
+		font-size: 17px;
+	}
+	.page-caricature img.img-caricature{
+		margin-bottom: 30px;
+	}
+	.shop-time,
+	.shop-map{
+		padding: 0;
+	}
+	.shop-time h3{
+		font-size: 40px;
+		text-align: left;
+		line-height:1.1;
+	}
+	.shop-time ul li{
+		flex-direction: row;
+		-webkit-flex-direction: row;
+		border-width: 3px 0 0 0;
+	}
+	.shop-time ul li .text{
+		font-size: 30px;
+		display: flex;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		align-items: center;
+		-webkit-align-items: center;
+		padding: 0 15px;
+	}
+	.shop-time ul li .info{
+		padding-bottom: 0;
+	}
+	.shop-time ul li .info p{
+		font-size: 16px;
+		line-height:1;
+		padding-bottom: 4px;
+	}
+	body.fr .shop-time ul li .info p{
+		line-height: 1.5;
+		padding-bottom:0;
+		font-size: 19px;
+	}
+	body.hi .shop-time ul li .info p{
+		font-size: 22px;
+	}
+	.shop-time ul li .info p.address{
+		font-size: 22px;
+	}
+	.shop-map{
+		flex-direction: row;
+		-webkit-flex-direction: row;
+		justify-content: space-between;
+		-webkit-justify-content: space-between;
+	}
+	.shop-map .map,
+	.shop-map .caricature-time{
+		width: 49%;
+	}
+	.shop-map .map{
+		margin: 0;
+	}
+	.caricature-time > ul{
+		margin-bottom: 20px;
+	}
+	.caricature-time > ul > li{
+		font-size:16px;
+		margin-bottom: 10px;
+	}
+	.caricature-time .terms h4{
+		font-size:24px;
+		font-weight: normal;
+	}
+	.caricature-time .terms ul li{
+		font-size:14px;
+		margin-bottom: 20px;
+	}
+	.title-shop-name{
+		flex-direction: row;
+		-webkit-flex-direction: row;
+	}
+	.title-shop-name .shop-name{
+		line-height: 1;
+		margin-right: 20px;
+	}
+	.title-shop-name .info-shop p{
+		font-size: 14px;
+	}
+	.mg-right {
+		min-width: 110px;
+	}
+	ul.list-child-time li span.caricature-name{
+		min-width: 160px;
+	}
+}
+@media(min-width: 480px) and (max-width: 767px){
+	body.cn .shop-time ul li .open-time,
+	body.hi .shop-time ul li .open-time{
+		background-position: 0px -1380px;
+	}
+	body.hi .shop-time ul li .info p{
+		font-size: 25px;
+	}
+}

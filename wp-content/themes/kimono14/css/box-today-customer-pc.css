@@ -1,0 +1,52 @@
+.block-for-top-page {
+    margin-bottom: 10px;
+}
+.block-title-top-page-title.blog {
+    background-color: #733d6d;
+    margin-bottom: 5px;
+}
+.wrap-blogtop{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    margin-left: -10px;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+.wrap-blogtop .one-third{
+    width: calc(100% *(1/4) - 10px);
+    margin:0 0 10px 10px;
+}
+.wrap-blogtop .one-third .image{
+    margin-bottom: 5px;
+}
+.block-for-top-page .first-title {
+    margin-bottom: 3px;
+}
+.block-for-top-page .first-title a {
+    float: left;
+    height: 17px;
+}
+.block-for-top-page .first-title .shop-name {
+    color: #fff;
+    padding: 0 8px;
+    box-sizing: border-box;
+    height: 17px;
+    display: inline-block;
+    text-align: center;
+    line-height: 18px;
+    margin-right: 6px;
+    text-decoration: none;
+    background-color: #733d6d;
+}
+.block-for-top-page .title a {
+    font-size: 16px;
+    font-family: Meiryo,arial;
+    color: #733d6d;
+    line-height: 1.2;
+    text-decoration: none;
+    font-weight: 700;
+}
+.block-for-top-page .title a:hover{
+    text-decoration: underline !important;
+}

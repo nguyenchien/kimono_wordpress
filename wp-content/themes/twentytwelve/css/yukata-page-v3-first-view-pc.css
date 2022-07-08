@@ -1,0 +1,194 @@
+/* title-page */
+.title-page {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-top: 6px;
+}
+.slick-slider {
+    padding-bottom: 0 !important;
+}
+.slick-dots li button:before {
+    display: none !important;
+}
+/* section-intro */
+.section-intro {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.section-intro .wrap-6-point {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+.title-6-point .big-number-point {
+    color: #945191;
+    font-size: 40px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.section-intro .items-option-point {
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #000;
+}
+.section-intro .icon-option-point {
+    background-image: url(../../../../../images/landing-page/prime-wargo-six-sp.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+}
+.section-intro .icon-option-point.option-point-02 {
+    background-position: 0 -212px;
+}
+.section-intro .icon-option-point.option-point-03 {
+    background-position: 10px -408px;
+}
+.section-intro .icon-option-point.option-point-04 {
+    background-position: 10px -600px;
+}
+.section-intro .icon-option-point.option-point-05 {
+    background-position: 5px -810px;
+}
+.section-intro .icon-option-point.option-point-06 {
+    background-position: 4px -1012px;
+}
+.section-intro .infor-option-point {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #000;
+    text-align: center;
+}
+.section-intro .infor-option-point .infor-top{
+    margin-bottom: 4px;
+}
+.infor-option-point .text-biger-bottom {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section-intro .wrap-title-other {
+    margin-bottom: 30px;
+}
+
+.section-intro .list-items-option-point {
+    margin-bottom: 20px;
+    padding: 0 20px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.section-intro .intro-title {
+    font-size: 16px;
+    font-family: "ten-mincho", serif;
+    text-align: center;
+}
+
+.list-items-option-point::-webkit-scrollbar {
+    height: 5px;
+}
+
+.list-items-option-point::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #efefef;
+}
+
+.list-items-option-point::-webkit-scrollbar-track {
+    background: #fff;
+}
+.wrap-title-other {
+    font-family: "ten-mincho", serif;
+}
+.wrap-title-other .main-title {
+    color: #945191;
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.wrap-title-other .title {
+    font-size: 16px;
+    line-height: 1.3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    text-align: center;
+}
+.wrap-title-other .title:before, .wrap-title-other .title:after {
+    content: "";
+    display: inline-block;
+    width: 35px;
+    height: 2px;
+    background-color: #000;
+}
+.wrap-title-other span:before {
+    margin-right: 5px;
+}
+.wrap-title-other span:after {
+    margin-left: 5px;
+}
+.wrap-title {
+    font-family: "ten-mincho", serif;
+    margin-bottom: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -moz-align-items: flex-end;
+    -ms-align-items: flex-end;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+.wrap-title:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url(../../../../../images/new-kimono-v3/title-pattern-bg-pc.png) no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 7px;
+}
+.wrap-title .main-title {
+    font-size: 35px;
+    color: #945191;
+    margin-right: 20px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.wrap-title .sub-title {
+    font-size: 16px;
+}
+
+.wrap-main-banner-yukata-page-v2 {
+    width: 100%;
+    min-height: 500px;
+}

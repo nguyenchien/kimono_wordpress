@@ -1,0 +1,199 @@
+.wrap-new-howto.wrap-general-fm-howto{
+	margin: 0;
+}
+.wrap-new-howto .wrap-info-article-fm-howto{
+	margin: 12px;
+}
+.wrap-new-howto .wrap-banner-fm-howto .info-banner-fm-howto{
+	top: 64%;
+	width: 100%;
+	height: 27%;
+}
+.wrap-new-howto .wrap-banner-fm-howto img.pc{
+	width: 100%;
+}
+.wrap-new-howto .inner-info-banner{
+  text-align: right;
+}
+.wrap-new-howto .inner-info-banner .sub-text-fm{
+	text-align: center;
+    width: 25%;
+    top: 0;
+    display: block;
+    margin-left: 35%;
+    font-size: 9px;
+    border-radius: 5px;
+    padding: 3px 0px 0px;
+}
+.wrap-new-howto .wrap-textbanner-new-kimono{
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 4px;
+}
+.wrap-new-howto .inner-info-banner .title-banner-fm-howto{
+  width: auto;
+  font-weight: initial;
+}
+.wrap-new-howto .text-inner-fm-howto{
+  font-size: 12px;
+  line-height: 2;
+}
+.wrap-new-howto .title-point-new-howto{
+  font-size: 30px;
+  font-family: Georgia, serif;
+  transform: rotate(-6deg);
+  color: #808080;
+}
+.wrap-new-howto .wrap-point-new-howto{
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #EEEBE2;
+  background-color: #EEEBE2;
+  border-radius: 11px;
+  margin-top: 25px;
+}
+.wrap-new-howto .text-point-new-howto{
+  margin-left: 15px;
+  color: #5D5D5D;
+}
+.wrap-new-howto .box-info-article{
+  padding: 25px 0 25px 18px;
+}
+.wrap-new-howto .title-name-fm-howto{
+  font-weight: normal;
+}
+.wrap-new-howto .title-timepaid-new-howto{
+  font-size: 14px;
+  text-align: center;
+  margin: 15px 0;
+}
+.wrap-new-howto .wrap-both-text-timepaid{
+    font-size: 11px;
+}
+.wrap-new-howto .wrap-text-timepaid-left{
+  width: 40%;
+}
+.wrap-new-howto .wrap-text-timepaid-right{
+  width: 60%;
+}
+.wrap-new-howto .wrap-content-new-howto{
+	flex: 1;
+}
+.wrap-new-howto .content-fm-howto .text-fm-howto{
+	padding: 0;
+}
+.wrap-new-howto .list-time-sheet{
+	display: flex;
+}
+.wrap-new-howto .wrap-btn-link{
+	padding: 18px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.wrap-new-howto .btn-formal{
+	font-weight: normal;
+	font-size: 15px;
+}
+.wrap-new-howto .wrap-text-banner-howto{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5px;
+}
+.wrap-new-howto .inner-info-banner{
+	padding-top: 7%;
+}
+.wrap-new-howto .wrap-title-ts{
+	margin-bottom: 20px;
+}
+.wrap-new-howto .wrap-title-ts .text-ts{
+	font-size: 15px;
+	margin-bottom: -17px;
+	color: #000;
+}
+@media (max-width: 360px){
+	.wrap-new-howto .btn-formal{
+		margin: 20px 0 0 7px;
+		width: 98%;
+	}
+	.wrap-new-howto .inner-info-banner .sub-text-fm{
+		width: 29%;
+		margin-left: 25%;
+	}
+	.wrap-new-howto .inner-info-banner{
+		padding-top: 5%;
+	}
+}
+@media (min-width: 750px) {
+	.wrap-new-howto .wrap-info-article-fm-howto{
+		margin: 0;
+	}
+	.wrap-new-howto .wrap-btn-link{
+		text-align: center;
+	}
+	.wrap-new-howto .btn-formal{
+		width: 50%;
+		display: inline-block;
+	}
+	.wrap-new-howto .wrap-title-ts{
+		justify-content: center;
+	}
+	.wrap-new-howto .wrap-title-ts .text-ts{
+		padding-left: 3px;
+	}
+	.wrap-new-howto .list-time-sheet{
+		margin-left: -20px;
+	}
+	.wrap-new-howto .list-time-sheet li {
+		width: calc(100% * (1/2) - 20px);
+		font-size: 12px;
+		margin-left: 20px;
+	}
+	.wrap-boths-column .right-column .wrap-new-howto .intro-top-general-howto{
+		width: 100%;
+	}
+	.wrap-new-howto .wrap-banner-fm-howto .info-banner-fm-howto{
+		width: 50%;
+		height: 100%;
+		left: 50%;
+		top: 0;
+		padding: 0;
+		background-color: transparent;
+	}
+	.wrap-new-howto .inner-info-banner{
+		top: 0;
+		height: 100%;
+		width: 88%;
+		left: 20px;
+	}
+	.wrap-new-howto .wrap-text-banner-howto{
+		margin-bottom: 25px;
+	}
+	.wrap-new-howto .inner-info-banner .sub-text-fm{
+		font-size: 13px;
+		margin-left: 20px;
+		margin-right: 18px;
+		width: 30%;
+		height: 20px;
+	}
+	.wrap-new-howto .inner-info-banner .title-banner-fm-howto{
+		font-size: 16px;
+	}
+	.wrap-new-howto .wrap-paragraph-banner-howto{
+		font-size: 11px;
+		line-height: 2;
+		margin-left: 10%;
+		text-align: left;
+	}
+	.wrap-new-howto .content-fm-howto .text-fm-howto{
+		flex: 1;
+		width: inherit;
+	}
+	.wrap-new-howto .wrap-title-ts .text-ts{
+		font-size: 16px;
+	}
+	.wrap-new-howto .wrap-info-article-fm-howto .content-fm-howto{
+		padding-right: 70px;
+	}
+}

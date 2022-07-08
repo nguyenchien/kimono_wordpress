@@ -1,0 +1,1053 @@
+.breadcrumbs-tkh{
+    margin: 5px 0;
+}
+#breadcrumbs{
+    padding: 0 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap-btn-v2 .btn-v2-01.bg-tkh-yukata,
+.bg-tkh-yukata{
+    background-color: #91AEEB;
+}
+.pattern.tkh-yukata:after{
+    border-color: transparent transparent transparent #dadff0;;
+}
+.pattern.tkh-yukata:before {
+    border-color: #dac680 transparent transparent transparent;
+}
+.wrap-sidebar-products-fm-v2 .wrap-btn-v2-tkh-yukata.first{
+    margin-bottom: 12px;
+}
+.wrap-sidebar-products-fm-v2 .wrap-btn-v2-tkh-yukata.first .btn-v2-reserve{
+    font-size: 18px;
+}
+.wrap-sidebar-products-fm-v2 .wrap-btn-v2-tkh-yukata.second .btn-v2-reserve{
+    font-size: 13px;
+}
+.slider-ranking-tkh-yukata-sp .widget-list-product-highend.more-items ul.list li .image {
+    background-image: -webkit-repeating-linear-gradient(left, #91AEEB 0%, #91AEEB 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(left, #91AEEB 0%, #91AEEB 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #91AEEB 0%, #91AEEB 50%, transparent 50%, transparent 100%), -webkit-repeating-linear-gradient(top, #91AEEB 0%, #91AEEB 50%, transparent 50%, transparent 100%);
+    background-image: -o-repeating-linear-gradient(left, #91AEEB 0%, #91AEEB 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(left, #91AEEB 0%, #91AEEB 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, #91AEEB 0%, #91AEEB 50%, transparent 50%, transparent 100%), -o-repeating-linear-gradient(top, #91AEEB 0%, #91AEEB 50%, transparent 50%, transparent 100%);
+    background-image: repeating-linear-gradient(to right, #91AEEB 0%, #91AEEB 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to right, #91AEEB 0%, #91AEEB 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, #91AEEB 0%, #91AEEB 50%, transparent 50%, transparent 100%), repeating-linear-gradient(to bottom, #91AEEB 0%, #91AEEB 50%, transparent 50%, transparent 100%);
+    background-position: left top, left bottom, left top, right top;
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 6px 1px, 6px 1px, 1px 6px, 1px 6px;
+}
+.slider-ranking-tkh-yukata-sp .widget-list-product-highend ul.list li .wrap-price .price,
+.slider-ranking-tkh-yukata-sp .widget-list-product-highend ul.list li .wrap-price .price .currency,
+.slider-ranking-tkh-yukata-sp .widget-list-product-highend ul.list li .wrap-price .price .tax{
+    color: #93aeea;
+}
+.box-howto-reserve .bg-shop.wrap-r-icon-takuhai-yukata{
+    background-image: url(../../../../../images/takuhai/yukata-v2/spite-box-title.svg);
+    background-position: 0 -1144px;
+    color: #91AEEB;
+}
+.box-howto-reserve .bg-web.wrap-r-icon-takuhai-yukata{
+    background-image: url(../../../../../images/takuhai/yukata-v2/spite-box-title.svg);
+    background-position: 0 -1248px;
+    color: #497AB2;
+}
+.bg-l-blue{
+    background-color: #91AEEB;
+}
+.bg-dark-blue{
+    background-color: #497AB2;
+}
+.wrap-content-howto-reserve.tkh-yukata .btn-step-01{
+    background-color: #91AEEB;
+}
+.wrap-content-howto-reserve .title-sub-slug-tkh-yukata,
+.tkh-yukata.wrap-set-content .title-set-content{
+    background: -webkit-repeating-linear-gradient(210deg, #91AEEB,
+    #91AEEB 5px,
+    rgba(145,174,235,0.8) 5px,
+    rgba(145,174,235,0.8) 10px
+    );
+    background: -o-repeating-linear-gradient(210deg, #91AEEB,
+    #91AEEB 5px,
+    rgba(145,174,235,0.8) 5px,
+    rgba(145,174,235,0.8) 10px
+    );
+    background: repeating-linear-gradient(-120deg, #91AEEB,
+    #91AEEB 5px,
+    rgba(145,174,235,0.8) 5px,
+    rgba(145,174,235,0.8) 10px
+    );
+}
+.color-tkh-yukata,
+.text-l-blue{
+    color: #91AEEB;
+}
+
+.wrap-set-content-fm-v2.tkh-yukata .wrap-women-icon .wrap-set-icon img{
+    height: auto;
+}
+
+.wrap-set-content-fm-v2.tkh-yukata .wrap-women-icon .wrap-women{
+    width: 60%;
+}
+.wrap-set-content-fm-v2.tkh-yukata .wrap-bt-set .bt-set .text-name-set{
+    font-size: 18px;
+    color: #91AEEB;
+    width: 50%;
+}
+.wrap-set-content-fm-v2.tkh-yukata .wrap-bt-set .bt-set{
+    border: 2px solid #91AEEB;
+    padding: 25px 30px;
+}
+.wrap-set-content-fm-v2.tkh-yukata .wrap-women img{
+    margin-bottom: 20px;
+}
+.wrap-set-content-fm-v2.tkh-yukata .wrap-women .right-text-set{
+    font-size: 10px;
+    margin-bottom: 50px;
+}
+.wrap-knowledge-tkh-yukata .des-knowledge{
+    font-size: 12px;
+}
+.wrap-list-banner-tkh-yukata .wrap-text-title{
+    display: initial;
+}
+.wrap-intro-wargo-fm-v2-tkh-yukata{
+    margin-bottom: 30px;
+}
+.wrap-intro-wargo-fm-v2-tkh-yukata .des-intro-wargo-bottom{
+    font-size: 13px;
+}
+.wrap-list-banner-tkh-yukata .wrap-title-v2 .lbl-title{
+    font-size: 19px;
+}
+.wrap-shop-list-v2-tkh-yukata{
+    margin-top: 0;
+}
+.wrap-banner-intro-wargo{
+    padding: 10px 0 0 10px;
+    margin-right: -20px;
+}
+.wrap-banner-intro-wargo.tkh-yukata .list-bubble{
+    margin-left: -12px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 85px;
+}
+.wrap-banner-intro-wargo.tkh-yukata .list-bubble .item-bubble{
+    width: 96px;
+    margin-left: -2px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.wrap-banner-intro-wargo.tkh-yukata .list-bubble .item-bubble:first-child{
+    margin-top: 20px;
+}
+.wrap-banner-intro-wargo.tkh-yukata .list-bubble .item-bubble-odd{
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+}
+.wrap-banner-intro-wargo.tkh-yukata .list-bubble .item-bubble-even{
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+.wrap-banner-intro-wargo.tkh-yukata .list-bubble .item-bubble .bg-circle{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    z-index: -1;
+}
+.wrap-banner-intro-wargo.tkh-yukata .list-bubble .item-bubble .group-text{
+    text-align: center;
+    color: #252525;
+    line-height: 1;
+}
+.wrap-banner-intro-wargo.tkh-yukata .list-bubble .item-bubble .group-text .sm-text{
+    font-size: 9px;
+    margin-bottom: 5px;
+}
+.wrap-banner-intro-wargo.tkh-yukata .list-bubble .item-bubble .group-text .lg-text{
+    font-size: 13px;
+}
+/* .wrap-sidebar-products-fm-v2 */
+.wrap-sidebar-products-fm-v2-tkh-yukata{
+    margin-bottom: 50px;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .wrap-title-v2{
+    margin-bottom: 25px;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .slider-ranking-yukata-sp{
+    margin-bottom: 50px;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .wrap-text-title{
+    display: initial;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .description{
+    font-size: 13px;
+    color: #000000;
+    margin-bottom: 20px;
+    line-height: 2;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .custom-display-heading,
+.wrap-sidebar-products-fm-v2-tkh-yukata .custom-display-page-size{
+    display: none;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .custom-display-sort{
+    margin: 0 0 0 -5px;
+    padding: 0;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .custom-display-sort .sort-btn{
+    margin-left: 5px;
+    border: 1px solid #93aeea;
+    color: #93aeea;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 50px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 13px;
+    padding: 0 12px;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .custom-display-sort .sort-btn.active{
+    background-color: #93aeea;
+    border: 1px solid #93aeea;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .list li:first-child:before,
+.wrap-sidebar-products-fm-v2-tkh-yukata .list li:nth-child(2):before,
+.wrap-sidebar-products-fm-v2-tkh-yukata .list li:nth-child(3):before {
+    display: none;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .widget-list-product-highend.more-items ul.list{
+    margin-left: -10px;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .widget-list-product-highend.more-items ul.list li{
+    width: calc(100% *(1/2) - 10px);
+    margin: 0 0 15px 10px;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .pager{
+    margin-top: 20px;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .paging li{
+    background-color: #fff;
+    border: 1px solid #93aeea;
+    border-radius: 3px;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .paging li a{
+    color: #93aeea;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .paging li:not(.prevpage):not(.nextpage) a:hover{
+    background-color: #93aeea;
+    color: #ffffff;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .paging .selected{
+    background-color: #93aeea;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .paging .selected a{
+    color: #fff;
+}
+.wrap-sidebar-products-fm-v2-tkh-yukata .paging .nextpage,
+.wrap-sidebar-products-fm-v2-tkh-yukata .paging .prevpage{
+    background-color: #b1b0b7;
+}
+/*==Section-banner-ykt-contest==*/
+.section-banner-ykt-contest.takuhai-yukata{
+    margin-bottom: 10px;
+}
+/*==Section-about-wargo==*/
+.section-about-wargo{
+    margin-bottom: 30px;
+}
+.section-about-wargo .wrap-banner-tkh-new-kimono .des-banner-tkh{
+    font-size: 11px;
+    color: #000;
+    line-height: 1.3;
+    margin-top: 5px;
+    text-align: center;
+    letter-spacing: 1px !important;
+    display: block !important;
+}
+.wrap-banner-tkh-new-kimono .list-banner-price-tkh-new-kimono {
+    margin-left: -14px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.wrap-banner-tkh-new-kimono .item {
+    margin: 0 0 14px 14px;
+    width: calc(100% * (1/2) - 14px);
+}
+.wrap-banner-tkh-new-kimono .item:first-child {
+    width: 100%;
+}
+.wrap-text-des-logo {
+    position: relative;
+}
+.wrap-text-des-logo .text-des-logo-wago {
+    position: absolute;
+    top: 73%;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    color: #000;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+
+/*==Section plan group==*/
+.section-plan-group .wrap-rental-plan{
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.section-plan-group .wrap-rental-plan .plan-item {
+    margin-bottom: 20px
+}
+.section-plan-group .plan-item .wrap-plan-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.section-plan-group .wrap-plan-item .wrap-box {
+    width: 100%;
+}
+.section-plan-group .plan-item .wrap-plan-item .box-plan {
+    margin-bottom: 20px
+}
+.section-plan-group .plan-item .wrap-plan-item .box-plan.last{
+    margin-bottom: 0;
+}
+.section-plan-group .box-plan .plan-info {
+    margin-top: 20px;
+    display: none
+}
+.section-plan-group .box-plan .plan-info.open {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+.section-plan-group-tkh-yukata .plan-info .wrap-btn a {
+    color: #93aeea;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: 2px solid #93aeea;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto 20px auto;
+    position: relative;
+}
+.section-plan-group-tkh-yukata .plan-info .wrap-btn a:after {
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    content: "";
+    background: url('../../../../../images/new-kimono-v2/dotted-btn-takuhai-yukata.svg') no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 8px
+}
+.section-plan-group-tkh-yukata .plan-info .show-less span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border: 2px solid #93aeea;
+    cursor: pointer
+}
+.section-plan-group-tkh-yukata .plan-info .show-less span:before {
+    content: '';
+    display: inline-block;
+    border-right: 2px solid #93aeea;
+    border-bottom: 2px solid #93aeea;
+    width: 15px;
+    height: 15px;
+    -webkit-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+    transform: rotate(225deg);
+    position: relative;
+    top: 3px
+}
+.section-plan-group .box-plan .plan-img {
+    position: relative;
+    color: #fff;
+    cursor: pointer
+}
+.section-plan-group .plan-img .detail-plan,.plan-img .plan-name {
+    position: absolute;
+    width: 100%;
+    text-align: center
+}
+.section-plan-group .plan-img .plan-name {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 2px
+}
+.section-plan-group .plan-img .detail-plan {
+    bottom: 16%;
+    font-size: 19px
+}
+.section-plan-group .plan-img .detail-plan:after {
+    content: '';
+    position: absolute;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    bottom: -20px;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) rotate(45deg);
+    transform: translateX(-50%) rotate(45deg);
+    left: 50%
+}
+.section-plan-group .plan-info .plan-intro {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-align: center;
+    line-height: 1;
+}
+.section-plan-group .plan-info .plan-name {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1;
+    position: relative;
+    display: table;
+    margin: 0 auto 10px auto;
+}
+.section-plan-group-tkh-yukata .plan-info .plan-name:after,
+.section-plan-group-tkh-yukata .plan-info .plan-name:before {
+    position: absolute;
+    content: '';
+    background: url('../../../../../images/new-kimono-v2/flower-pt-takuhai-yukata.svg') no-repeat;
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    top: -10px
+}
+.section-plan-group .wrap-group-plan-item {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 22px 20px 20px 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+.section-plan-group .sub-info-plan {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+.section-plan-group .wrap-group-plan-item .bd-box-pl {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 3px 6px;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 1px
+}
+.section-plan-group .wrap-group-plan-item .name-box-pl {
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 1
+}
+.section-plan-group .wrap-group-plan-item .price-box-pl {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1
+}
+.section-plan-group .wrap-group-plan-item .box-dt-pl {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    font-size: 18px;
+    line-height: 1;
+    position: relative;
+}
+.section-plan-group .wrap-group-plan-item .box-dt-pl:after{
+    content: '';
+    position: absolute;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    bottom: -14px;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) rotate(45deg);
+    transform: translateX(-50%) rotate(45deg);
+    left: 50%;
+}
+.section-plan-group .plan-info .plan-name:before {
+    left: -30px
+}
+.section-plan-group .plan-info .plan-name:after {
+    right: -30px;
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1)
+}
+.section-plan-group .plan-info .price {
+    line-height: 1;
+    color: #cf434b;
+    font-size: 40px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center
+}
+.section-plan-group .plan-info .plan-desc {
+    font-size: 11px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/*==Section Shop List==*/
+.section-shop-list{
+    margin-bottom: 30px;
+}
+.section-shop-list .list-shop-list{
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.section-shop-list .box-info{
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    margin-left: 71px;
+    padding: 5px 0 0;
+}
+.section-shop-list .list-shop-list .item{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.section-shop-list .list-shop-list .item .title{
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 112px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+.section-shop-list .item .box-item .image{
+    position: absolute;
+}
+.section-shop-list .item .box-item .image img{
+    height: 99px;
+    margin-top: -3px;
+}
+.section-shop-list .list-shop-list .item .info{
+    padding: 5px 0;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin-left: 42px;
+}
+.section-shop-list .list-shop-list .item .info p{
+    margin-bottom: 5px;
+    font-size: 11px;
+}
+.section-shop-list .list-shop-list .item .info p:last-child{
+    margin-bottom: 0;
+}
+.section-shop-list .list-shop-list .item .info-title{
+    color: #CF424B;
+    font-size: 12px;
+    margin-left: 42px;
+}
+.section-shop-list .list-shop-list .box-info .wrap-btn-shop-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 70px;
+    background-color: #93aeea;
+    border: 1px solid #93aeea;
+    border-radius: 8px;
+    margin-top: 5px;
+    height: 36px;
+    margin-right: 20px;
+}
+.section-shop-list .list-shop-list .box-info .wrap-btn-shop-list a{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    color: #fff;
+    margin-left: 12px;
+}
+.section-shop-list .list-shop-list .box-info .wrap-btn-shop-list a p{
+    font-weight: bold;
+    font-size: 12px;
+}
+.section-shop-list .wrap-line-v2{
+    display: none;
+}
+
+/*==Section Column Spot==*/
+.section-column-spot{
+    margin-bottom: 30px;
+}
+.section-column-spot .title-column-top{
+    margin-bottom: 30px;
+}
+.section-column-spot .wrap-main-title{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.section-column-spot .image{
+    width: 28%;
+}
+.section-column-spot .title-main{
+    font-size: 24px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+}
+.section-column-spot .sub-title{
+    font-size: 11px;
+    text-align: center;
+    color: #000000;
+    letter-spacing: 1px;
+}
+.section-column-spot .wrap-column-post {
+    margin-bottom: 30px
+}
+.section-column-spot .wrap-column-post .title {
+    margin-bottom: 30px
+}
+.section-column-spot .wrap-column-post .title img {
+    width: 70%;
+    margin: auto;
+    display: table
+}
+.section-column-spot .wrap-column-post .title .column-title {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+.section-column-spot .column-list {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -15px;
+}
+.section-column-spot .column-list li {
+    width: calc(100% * 1/2 - 15px);
+    margin: 0 0 25px 15px;
+    border: 1px solid #93aeea;
+    padding: 10px 10px 20px 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+.section-column-spot .column-list li .post-num {
+    position: absolute;
+    top: -10px;
+    left: -7px;
+    border: 1px solid #93aeea;
+    font-size: 20px;
+    font-weight: 700;
+    color: #93aeea;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #fff;
+    -webkit-box-shadow: 3px 3px 0 0 #93aeea;
+    box-shadow: 3px 3px 0 0 #93aeea;
+}
+.section-column-spot .column-list li .img a {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #93aeea;
+    height: 92px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.section-column-spot .column-list li .img img {
+    -o-object-fit: contain;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%
+}
+.section-column-spot .column-list li .column-title {
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 10px;
+    width: auto;
+    margin: 0;
+    border: none;
+    position: static
+}
+.section-column-spot .column-list li .column-title a {
+    color: #93aeea
+}
+.section-column-spot .column-list li .read {
+    font-size: 11px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 3px;
+}
+.section-column-spot .column-list li .read:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 45px 50px;
+    border-color: transparent transparent #93aeea transparent;
+    z-index: -1;
+}
+.section-column-spot .wrap-column-list .more-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.section-column-spot .wrap-column-list .read-more {
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    letter-spacing: 1px;
+    background: url(../../../../../images/new-kimono/access/arrow-column.svg) no-repeat;
+    background-size: 100%;
+    background-position: 0 12px;
+    height: 30px;
+    width: 65%;
+    padding-left: 5px;
+}
+
+/*==Section Intro Bottom==*/
+.des-intro-wargo-yukata{
+    font-weight: bold;
+}
+.section-intro-bottom{
+    border-top: 1px solid #000;
+    padding-top: 15px;
+}
+.box-intro-bottom .title-intro-bottom{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.8;
+    margin-bottom: 5px;
+}
+.box-intro-bottom .des-intro-bottom{
+    font-size: 11px;
+    line-height: 1.8;
+}
+
+/* Custom */
+.wrap-des-intro-wargo{
+    margin-bottom: 0;
+}
+.wrap-howto-reserve .wrap-line-v2{
+    margin: 20px 0 50px;
+}
+.wrap-title-v2{
+    margin-bottom: 20px;
+}
+.wrap-title-v2 .lbl-title{
+    font-size: 18px;
+}
+.wrap-title-v2 .wrap-text-title{
+    display: block;
+}
+/*===taikuhai-yukata===*/
+.wrap-title-takuhai-yukata-v2 {
+    background-color: #91AEEB;
+    border-radius: 15px;
+    padding: 7px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 1;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.wrap-title-takuhai-yukata-v2 .left-title-name{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.wrap-title-takuhai-yukata-v2 .icon-title-yukata-v2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 3px;
+}
+.wrap-title-takuhai-yukata-v2 .icon-title-yukata-v2 .img-icon-title-v2 {
+    width: 20px;
+}
+.wrap-title-takuhai-yukata-v2 .new-sub-title-list-v2,
+.wrap-title-takuhai-yukata-v2 .right-price {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+.new-formal-takuhai-yukata .des-tkh-yukata-list {
+    margin-bottom: 25px;
+    font-size: 12px;
+}
+.new-formal-takuhai-yukata .wrap-btn-v2 .btn-v2 {
+    margin-top: 30px;
+}
+
+/*FAQ*/
+.wrap-title {
+    font-family: "ten-mincho", serif;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    text-align: center;
+    position: relative;
+    overflow-x: hidden;
+}
+.wrap-title .main-title {
+    font-size: 27px;
+    color: #945191;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.wrap-title:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url(../../../../../images/new-kimono-v3/title-pattern-bg.png) no-repeat;
+    background-size: 100% 100%;
+    width: 120%;
+    height: 3px;
+}
+.wrap-title .sub-title {
+    font-size: 14px;
+}
+.section-faq{
+    margin-bottom: 50px;
+}
+.section-faq .wrap-faq {
+    padding: 0 10px;
+}
+.section-faq .box-faqs-item .wrap-arrow-faqs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.section-faq .box-faqs-item .icon-fa {
+    width: 12px;
+    height: 12px;
+    border-right: 1px solid #eeb001;
+    border-bottom: 1px solid #eeb001;
+    cursor: pointer;
+    position: relative;
+    left: -15px;
+}
+.section-faq .box-faqs-item .icon-fa {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    top: -3px;
+}
+
+.section-faq .box-faqs-item .box-faqs-title.active .icon-fa {
+    transform: rotate(225deg);
+    top: 5px;
+}
+
+.section-faq .box-faqs-item .text-faqs-title {
+    font-size: 13px;
+    padding: 18px 0;
+    letter-spacing: 2px;
+    font-weight: 700;
+    line-height: 1;
+    width: 100%;
+    text-align: center;
+}
+
+.section-faq .icon-answer {
+    color: red;
+    font-size: 30px;
+}
+
+.section-faq .box-faqs-title {
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+}
+
+.section-faq .box-faqs-title:before {
+    position: absolute;
+    content: "";
+    background: url(../../../../../images/landing-page/icon-question.svg) no-repeat;
+    width: 28px;
+    height: 28px;
+    left: 12px;
+}
+
+.section-faq .box-faqs-item-container {
+    margin-bottom: 10px;
+}
+
+.section-faq .box-faqs-item-container:last-child {
+    margin-bottom: 0;
+}
+
+.section-faq .box-faqs-item-container .box-faqs-item {
+    border: 1px solid #dddddd;
+    color: #000;
+}
+
+.section-faq .box-faqs-item-container .box-faqs-item-content:before {
+    position: absolute;
+    content: "";
+    background: url(../../../../../images/landing-page/icon-answer.svg) no-repeat;
+    width: 28px;
+    height: 28px;
+    left: 12px;
+    top: 16px;
+}
+
+.section-faq .box-faqs-item-container .box-faqs-item-content {
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #f4f4f4;
+    display: none;
+}
+
+.section-faq .box-faqs-item-container .box-faqs-item-content .text-item-content {
+    font-size: 11px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    margin-left: 34px;
+}
+
+@media (max-width: 360px){
+    .wrap-list-banner-tkh-yukata .wrap-title-v2 .lbl-title{
+        font-size: 16px;
+    }
+}
+@media (min-width: 380px) and (max-width: 500px){
+    .wrap-banner-intro-wargo.tkh-yukata .list-bubble .item-bubble{
+        width: 104px;
+    }
+    .wrap-banner-intro-wargo{
+        padding: 10px 0 0 14px;
+        margin-right: -25px;
+    }
+    .wrap-banner-intro-wargo.tkh-yukata .list-bubble .item-bubble .group-text .lg-text{
+        font-size: 14px;
+    }
+    .wrap-banner-intro-wargo.tkh-yukata .list-bubble{
+        height: 90px;
+    }
+    .wrap-banner-intro-wargo.tkh-yukata .list-bubble .item-bubble .bg-circle{
+        width: 80px;
+        height: 80px;
+    }
+}

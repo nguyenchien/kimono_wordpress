@@ -1,0 +1,43 @@
+#acf-cate_placesights,
+#acf-list_cate_placesights,
+#acf-cate_event,
+#acf-list_cate_event,
+#acf-cate_gourmet,
+#acf-list_cate_gourmet,
+#acf-cate_course,
+#acf-list_cate_course{
+    padding: 1px 0;
+}
+#acf-cate_placesights{
+    margin-top: 20px;
+}
+#acf-cate_placesights li label,
+#acf-cate_event li label,
+#acf-cate_gourmet li label,
+#acf-cate_course li label{
+    font-weight: bold;
+}
+#acf-list_cate_placesights,
+#acf-list_cate_event,
+#acf-list_cate_gourmet,
+#acf-list_cate_course{
+    margin: 0 0 0 35px;
+}
+#acf-cate_event > .label,
+#acf-list_cate_event > .label,
+#acf-cate_gourmet > .label,
+#acf-list_cate_gourmet > .label,
+#acf-cate_course > .label,
+#acf-list_cate_course > .label{
+    display: none;
+}
+#acf-list_cate_placesights > .label{
+    margin: 0;
+}
+.wrap-cate-place-sights-custom .lable{
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+.wrap-cate-place-sights-custom .list-cate-place-sights-custom{
+    margin: 0;
+}

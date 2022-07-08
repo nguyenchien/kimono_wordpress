@@ -1,0 +1,1139 @@
+body{
+    font-family: "Yu Gothic", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", Arial, "Hiragino Kaku Gothic Pro", "Lucida Grande", Verdana, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.page-title{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.wrap-boths-column .right-column{
+    max-width: initial !important;
+}
+.wrap-tourist-spots{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.container-tourist-spots{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 10px;
+}
+.flex-tourist{
+    display: -webkit-box;
+    display: flex;
+    display: -ms-flexbox;
+}
+.flex-tourist-align{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-items: center;
+}
+.title-tourist-spots{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #4e0037;
+    margin-bottom: 15px;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-items: center;
+    line-height: 1.3;
+}
+.title-tourist-spots .icon-title{
+    width: 15px;
+    margin-right: 10px;
+}
+.title-tourist-spots .icon-title img{
+    visibility: visible !important;
+}
+.title-general .icon-formal-search{
+    margin-right: 4px;
+}
+.wrap-btn-tourist{
+    margin: 20px 0;
+}
+.wrap-btn-tourist a{
+    text-align: center;
+    background-color: #f3ad3d;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    color: #fff;
+    font-size: 30px;
+    line-height: 1.3;
+}
+.banner-top-tourist-spots{
+    line-height: 0;
+}
+.des-banner-top{
+    background-image: url(../../../../../images/tourist-spots/bg-left-top.svg), url(../../../../../images/tourist-spots/bg-right-top.svg);
+    background-repeat: no-repeat;
+    background-position: -5px top, right bottom;
+    background-size: contain;
+    text-align: center;
+}
+.des-banner-top .info-des-banner-top{
+    padding: 10px 0;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+.des-banner-top .info-des-banner-top p{
+    font-size: 12px;
+    font-weight: bold;
+}
+.wrap-tourist-time{
+    margin-bottom: 40px;
+}
+.wrap-tourist-time .bg-time{
+    background-image: url(../../../../../images/tourist-spots/bg-time-01.svg), url(../../../../../images/tourist-spots/bg-time-02.svg), url(../../../../../images/tourist-spots/bg-time-03.svg);
+    background-repeat: no-repeat;
+    background-position: center top, left center, right bottom;
+}
+.wrap-tourist-time .list-tourist-time{
+    margin-left: -15px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    padding: 0px 7px 0 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap-tourist-time .list-tourist-time .tourist-time-item{
+    width: calc(100% * (1/3) - 15px);
+    margin: 0 0 10px 15px;
+    display: -webkit-box;
+    display: flex;
+    display: -ms-flexbox;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.wrap-tourist-spots.kanazawa .wrap-tourist-time .list-tourist-time .tourist-time-item {
+    width: calc(100% * (1/3) - 15px);
+}
+.wrap-tourist-time .list-tourist-time .tourist-time-item .lbl-name{
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    line-height: 1;
+}
+.wrap-tourist-time .list-tourist-time .tourist-time-item .box-tourist-time{
+    border: 1px solid #4e0037;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    display: -webkit-box;
+    display: flex;
+    display: -ms-flexbox;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    position: relative;
+}
+.wrap-tourist-time .list-tourist-time .tourist-time-item .box-tourist-time:after{
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #a4a4a4;
+    right: -14px;
+    top:  50%;
+}
+.wrap-tourist-time .list-tourist-time .tourist-time-item .box-tourist-time.last:after{
+    border: none;
+}
+.wrap-tourist-time .list-tourist-time .tourist-time-item .box-tourist-time .time{
+    background-color: #4e0037;
+    text-align: center;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.icon-maker{
+    position: absolute;
+    right: -14px;
+    top: -15px;
+}
+.icon-maker + p{
+    display: none
+}
+.wrap-tourist-time .list-tourist-time .tourist-time-item .box-tourist-time .info{
+    text-align: center;
+    padding: 8px 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap-tourist-time .list-tourist-time .tourist-time-item .box-tourist-time .info p{
+    font-weight: bold;
+    line-height: 1.2;
+}
+.wrap-tourist-time .list-tourist-time .tourist-time-item .box-tourist-time .info .small-text{
+    font-size: 8px;
+}
+.wrap-tourist-time .list-tourist-time .tourist-time-item .box-tourist-time .info .large-text{
+    font-size: 15px;
+}
+.wrap-tourist-time .list-tourist-time .tourist-time-item .box-tourist-time .pic{
+    line-height: 0;
+}
+.wrap-tourist-time .list-tourist-time .tourist-time-item .box-tourist-time .pic img{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    width: 100%;
+}
+.wrap-banner-tourist-spots,
+.wrap-tourist-map{
+    margin-bottom: 20px;
+}
+.wrap-banner-tourist-spots .list-banner-tourist{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.wrap-banner-tourist-spots .list-banner-tourist .item-banner-tourist{
+    margin-bottom: 8px;
+}
+/*== Map slides == */
+
+/* Fix select text */
+.slick-slider {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+.slick-list.draggable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.tourist-map-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.tourist-map-container .tourist-map{
+    background-color: #ccc;
+    height: 550px !important;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.slick-slider-tourist .wrap-tourist-shop{
+    border: 3px solid #4e0037;
+}
+.slick-slider-tourist .tourist-shop-name{
+    height: 35px;
+    line-height: 35px;
+    background-color: #4e0037;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.slick-slider-tourist{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.slick-slider-tourist .slick-prev, .slick-slider-tourist .slick-next{
+    position: absolute;
+    top: 0;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    background-color: #e1e1e1 !important;
+    height: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    z-index: 1;
+}
+.slick-slider-tourist .slick-prev:before, .slick-slider-tourist .slick-next:before{
+    color: #a4a4a4;
+}
+.slick-slider-tourist .slick-prev:before{
+    content: '\25C0';
+}
+.slick-slider-tourist .slick-next:before {
+    content: '\25B6';
+}
+.slick-slider-tourist .slick-prev{
+    left: 0;
+}
+.slick-slider-tourist .slick-next{
+    right: 0;
+}
+.slick-slider-tourist .slick-list{
+    margin: 0 5px;
+}
+.slick-slider-tourist .slick-item{
+    position: relative;
+    outline: none;
+    padding: 0 20px;
+}
+.wrap-tourist-shop{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.tourist-shop-img{
+    width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.new-tourist .tourist-shop-img{
+    align-items: center;
+}
+.tourist-shop-img img{
+    width: 100%;
+}
+.tourist-shop-img img.sp{
+    -ms-flex-item-align: end;
+    -ms-grid-row-align: end;
+    align-self: end;
+}
+.tourist-shop-desc{
+    width: 60%;
+    height: 270px;
+    font-size: 10px;
+}
+.tourist-shop-desc p{
+    font-weight: bold;
+}
+.slick-slider-tourist:not(.slider-kyotostation) .tourist-shop-desc-second p:nth-child(2){
+    margin-left: 40px;
+}
+.tourist-shop-desc-first,
+.tourist-shop-desc-second{
+    padding: 10px;
+}
+.tourist-shop-desc-second p > span{
+    display: block;
+    padding-left: 20px;
+}
+.tourist-shop-desc-first{
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(20%, #000), color-stop(10%, rgba(255, 255, 255, 0)));
+    background-image: -webkit-linear-gradient(left, #000 20%, rgba(255, 255, 255, 0) 10%);
+    background-image: -o-linear-gradient(left, #000 20%, rgba(255, 255, 255, 0) 10%);
+    background-image: linear-gradient(to right, #000 20%, rgba(255, 255, 255, 0) 10%);
+    background-position: bottom;
+    background-size: 8px 2px;
+    background-repeat: repeat-x;
+    padding-bottom: 12px;
+}
+.tourist-shop-desc-first p{
+    text-align: center;
+}
+.tourist-shop-desc-second p{
+    line-height: 1.2;
+}
+.tourist-shop-desc-second p:last-child{
+    padding-right: 40px;
+}
+.new-tourist .wrap-tourist-shop{
+    flex-wrap: wrap;
+}
+.new-tourist .tourist-shop-info{
+    flex: 1 1 0;
+    padding: 10px 0;
+    margin-bottom: 5px;
+    background-image: -webkit-gradient(linear,left top,right top,color-stop(20%,#000),color-stop(10%,rgba(255,255,255,0)));
+    background-image: -webkit-linear-gradient(left,#000 20%,rgba(255,255,255,0) 10%);
+    background-image: -o-linear-gradient(left,#000 20%,rgba(255,255,255,0) 10%);
+    background-image: linear-gradient(to right,#000 20%,rgba(255,255,255,0) 10%);
+    background-position: bottom;
+    background-size: 8px 2px;
+    background-repeat: repeat-x;
+}
+.new-tourist .tourist-shop-info,
+.new-tourist .tourist-shop-desc{
+    padding: 5px;
+}
+.new-tourist .tourist-shop-info p,
+.new-tourist .tourist-shop-desc{
+    font-size: 10px;
+    font-weight: bold;
+}
+.new-tourist .tourist-shop-desc{
+    height: auto !important;
+    width: 100%;
+}
+.slider-kanazawa .tourist-shop-desc-second p:last-child{
+    padding-right: 0;
+}
+.tourist-shop-icon{
+    position: absolute;
+    right: 33px;
+    bottom: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+/*.tourist-shop-icon.shop-f{
+    right: 8px;
+    bottom: 4px;
+}*/
+.tourist-shop-icon .main-icon{
+    position: relative;
+}
+.tourist-shop-icon .sub-icon{
+    margin-left: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.flexslider .slides .tourist-shop-icon .sub-icon img{
+    width: 25px;
+}
+.tourist-shop-icon .main-icon:after{
+    position: absolute;
+    content: '';
+    top: -5px;
+    right: -8px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 2px solid #FF7580;
+    color: #FF7580;
+    font-weight: bold;
+    font-size: 11px;
+}
+.tourist-shop-icon.shop-a .main-icon:after{
+    content: 'A';
+}
+.tourist-shop-icon.shop-b .main-icon:after{
+    content: 'B';
+}
+.tourist-shop-icon.shop-c .main-icon:after{
+    content: 'C';
+}
+.tourist-shop-icon.shop-d .main-icon:after{
+    content: 'D';
+}
+.tourist-shop-icon.shop-e .main-icon:after{
+    content: 'E';
+}
+.tourist-shop-icon.shop-f .main-icon:after{
+    content: 'F';
+}
+.tourist-shop-icon.shop-g .main-icon:after{
+    content: 'G';
+}
+.tourist-shop-icon.shop-h .main-icon:after{
+    content: 'H';
+}
+.tourist-shop-icon.shop-i .main-icon:after{
+    content: 'I';
+}
+.tourist-shop-icon.shop-j .main-icon:after{
+    content: 'J';
+}
+.tourist-shop-icon.shop-k .main-icon:after{
+    content: 'K';
+}
+.tourist-shop-icon.shop-l .main-icon:after{
+    content: 'L';
+}
+.tourist-shop-icon.shop-m .main-icon:after{
+    content: 'M';
+}
+.tourist-shop-icon.shop-n .main-icon:after{
+    content: 'N';
+}
+.flexslider .slides .tourist-shop-icon img{
+    width: 30px;
+}
+/*.flex-direction-nav a{
+    width: 30px;
+    top: 20px;
+    background-color: #e1e1e1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.flex-direction-nav .flex-prev,
+.flexslider:hover .flex-direction-nav .flex-prev{
+    left: -4px;
+}
+.flex-direction-nav .flex-next,
+.flexslider:hover .flex-direction-nav .flex-next{
+    right: -4px;
+}
+.flex-direction-nav a:before{
+    color: #A4A4A4;
+    font-size: 30px;
+}
+.flex-direction-nav a.flex-prev:before{
+    content: '\25C0';
+}
+.flex-direction-nav a.flex-next:before{
+    content: '\25B6';
+}*/
+img.sp{
+    display: block !important;
+}
+img.pc{
+    display: none !important;
+}
+/*===MAP TU SAN ===*/
+#services-map {
+    height: 100%;
+}
+.custom-marker{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 70px;
+}
+.custom-marker:hover{
+    cursor: pointer;
+}
+.custom-marker .type{
+    color: #FF7580;
+    border-radius: 50%;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #FF7580;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    left: -10px;
+    top: 15px;
+    position: relative;
+    background-color: white;
+    margin: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.popup-tip-anchor {
+    position: absolute;
+    width: auto;
+}
+/* The bubble is anchored above the tip. */
+.popup-bubble-anchor {
+    position: absolute;
+    width: 100%;
+    bottom:0;
+    left: 0;
+}
+/* Draw the tip. */
+.popup-bubble-anchor::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    width: 0;
+    height: 0;
+}
+.popup-bubble-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: translate(-50%, -100%);
+    -ms-transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%);
+    padding: 0;
+    font-family: sans-serif;
+    overflow-y: auto;
+    width: 100px;
+}
+#toCart .small-text-link{
+    font-size: 18px;
+}
+#toCart br{
+    display: none;
+}
+
+/*=====Slide Kanazawa=====*/
+.slider-kanazawa .tourist-shop-desc{
+    height: 290px;
+}
+.slider-kanazawa .wrap-shop-j .tourist-shop-desc{
+    background: url('../../../../../images/tourist-spots/kanazawa/hokusai-logo.png') no-repeat 10px 5px;
+    background-size: 30px;
+}
+.slider-kanazawa .tourist-shop-img{
+    -ms-flex-item-align: end;
+    -ms-grid-row-align: end;
+    align-self: end;
+}
+.slider-kanazawa .tourist-shop-desc-second p{
+    line-height: 1.5;
+}
+.slider-kanazawa .tourist-shop-desc-first,
+.slider-kanazawa .tourist-shop-desc-second{
+    padding: 10px 0;
+}
+.slider-kanazawa .tourist-shop-desc-second .work-days{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.slider-kanazawa .tourist-shop-desc-second .work-days .special-day{
+    font-size: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.slider-kanazawa .tourist-shop-desc p{
+    font-size: 10px ;
+    line-height: 1.6;
+}
+.slider-kanazawa .tourist-shop-img a{
+    width: 100%;
+}
+.slider-kanazawa .tourist-shop-icon .sub-icon{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.slider-kanazawa .tourist-shop-icon .sub-icon img{
+    margin-right: 5px;
+}
+.slider-kanazawa .wrap-shop-k .tourist-shop-desc p{
+    margin: 0;
+}
+.content-intro-top{
+    line-height: 1.3;
+}
+@media (max-width: 360px){
+    .des-banner-top .info-des-banner-top p {
+        font-size: 10px;
+    }
+    .wrap-tourist-time .list-tourist-time .tourist-time-item .box-tourist-time .time {
+        font-size: 18px;
+    }
+    .wrap-tourist-time .list-tourist-time .tourist-time-item .box-tourist-time .info .large-text {
+        font-size: 12px;
+    }
+    .wrap-tourist-time .list-tourist-time .tourist-time-item .lbl-name {
+        font-size: 18px;
+    }
+    .icon-maker img{
+        width: 80%;
+        height: 80%;
+    }
+    .wrap-btn-tourist a {
+        font-size: 25px;
+    }
+    .tourist-shop-desc p{
+        font-size: 8px;
+    }
+    .tourist-shop-desc-second p{
+        font-size: 10px;
+    }
+}
+@media (min-width: 750px) {
+    .page-title{
+        font-size: 15px;
+    }
+    .container-tourist-spots {
+        padding: 0;
+    }
+    .des-banner-top {
+        background-image: url(../../../../../images/tourist-spots/bg-left-top.svg), url(../../../../../images/tourist-spots/bg-left-top.svg);
+        background-position: 30px -23px, right 30px top -23px;
+        background-size: 150px;
+    }
+    .title-tourist-spots {
+        font-size: 40px;
+        padding: 10px;
+        margin-bottom: 25px;
+    }
+    .title-tourist-spots .icon-title {
+        width: 30px;
+        position: relative;
+        top: -6px;
+    }
+    .wrap-btn-tourist .container-tourist-spots {
+        display: -webkit-box;
+        display: flex;
+        display: -ms-flexbox;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-justify-content: center;
+    }
+    .wrap-btn-tourist a {
+        padding: 10px 50px;
+        font-size: 25px;
+    }
+    .wrap-btn-tourist a br {
+        display: none;
+    }
+    .wrap-btn-tourist .lg-text-link {
+        font-size: 35px;
+    }
+    .des-banner-top {
+        margin-bottom: -10px;
+    }
+    .des-banner-top .info-des-banner-top {
+        margin-bottom: 0;
+        padding: 30px 0 40px 0;
+    }
+    .des-banner-top .info-des-banner-top p {
+        font-size: 18px;
+    }
+    .new-tourist .tourist-shop-info p,
+    .new-tourist .tourist-shop-desc{
+        font-size: 14px;
+    }
+    .new-tourist .tourist-shop-info,
+    .new-tourist .tourist-shop-desc{
+        padding: 10px;
+    }
+    .wrap-tourist-time {
+        margin-bottom: 30px;
+    }
+    .wrap-tourist-time .bg-time {
+        background-position: 150px top, center top, 750px top;
+    }
+    .wrap-tourist-time .list-tourist-time .tourist-time-item .lbl-name {
+        font-size: 30px;
+    }
+    .wrap-tourist-time .list-tourist-time .tourist-time-item .box-tourist-time .time {
+        font-size: 33px;
+    }
+    .wrap-tourist-time .list-tourist-time .tourist-time-item .box-tourist-time .info .small-text {
+        margin-bottom: 5px;
+    }
+    .wrap-tourist-time .list-tourist-time .tourist-time-item .box-tourist-time .info .large-text {
+        font-size: 18px;
+    }
+    .wrap-tourist-time .list-tourist-time {
+        margin-left: -20px;
+    }
+    .wrap-tourist-time .list-tourist-time .tourist-time-item {
+        width: calc(100% * (1 / 6) - 20px);
+        margin: 0 0 10px 20px;
+    }
+    .wrap-tourist-time .list-tourist-time .tourist-time-item .box-tourist-time:after {
+        border-top: 13px solid transparent;
+        border-bottom: 13px solid transparent;
+        border-left: 13px solid #a4a4a4;
+        right: -18px;
+    }
+    .wrap-banner-tourist-spots .list-banner-tourist {
+        margin-left: -20px;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    .wrap-banner-tourist-spots .list-banner-tourist .item-banner-tourist {
+        width: calc(100% * (1/3) - 20px);
+        margin: 0 0 20px 20px;
+    }
+    /*
+    .wrap-banner-tourist-spots .list-banner-tourist .tourist-asakusa {
+        order: 0;
+    }
+    .wrap-banner-tourist-spots .list-banner-tourist .tourist-kanazawa {
+        order: 1;
+    }
+    .wrap-banner-tourist-spots .list-banner-tourist .tourist-kyoto {
+        order: 2;
+    }
+    .wrap-banner-tourist-spots .list-banner-tourist .tourist-osaka {
+        order: 3;
+    } */
+
+    /*== Map slides == */
+    .flexslider {
+        padding: 0;
+        border: none;
+    }
+    img.sp {
+        display: none !important;
+    }
+    img.pc {
+        display: block !important;
+        width: 100%;
+    }
+    .tourist-map-container .tourist-map {
+        width: 65%;
+        margin-right: 2%;
+        height: 750px;
+    }
+    .slick-slider-tourist {
+        width: 33%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: 800px;
+        overflow: hidden;
+    }
+    .tourist-map-container {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .tourist-map-container .tourist-slider {
+        width: 30%;
+        margin-left: 1%;
+    }
+    .tourist-slider .tourist-shop-name {
+        font-size: 15px;
+    }
+    .slick-slider-tourist .wrap-tourist-shop{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .tourist-shop-img,
+    .tourist-shop-desc {
+        width: 100%;
+        font-size: 14px;
+    }
+    .tourist-shop-desc-first p {
+        line-height: 1.2;
+    }
+    .tourist-shop-desc-second p {
+        line-height: 1.4;
+    }
+    .tourist-shop-icon .main-icon:after{
+        top: -10px;
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+    }
+    .tourist-shop-icon {
+        left: 0;
+        top: -40px;
+    }
+    .slider-kanazawa .tourist-shop-icon{
+        left: -12px;
+        top: -70px;
+    }
+    .tourist-shop-icon:after {
+        top: -7px;
+        left: 25px;
+        width: 20px;
+        height: 20px;
+        font-size: 13px;
+    }
+    .main-icon img{
+        width: 40px;
+    }
+    .tourist-shop-icon .sub-icon {
+        display: initial;
+        position: absolute;
+        left: 40px;
+        top: 13px;
+    }
+    .slick-slider-tourist .slick-item {
+        margin-top: 60px;
+        padding-left: 10px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .slick-slider-tourist .slick-prev:before {
+        content: '\25B2';
+    }
+    .slick-slider-tourist .slick-next:before {
+        content: '\25BC';
+    }
+    .slick-slider-tourist .slick-list {
+        margin: 0;
+        width: 100%;
+        /*height: 600px !important;*/
+        height: 100% !important;
+    }
+    .slick-slider-tourist .slick-prev, .slick-slider-tourist .slick-next {
+        height: 30px !important;
+        width: 305px;
+        margin-left: 8px;
+        -webkit-box-flex: inherit;
+        -ms-flex: inherit;
+        flex: inherit;
+        background-color: #b1b1b1 !important;
+        position: inherit;
+    }
+    .slick-slider-tourist .slick-prev {
+        margin-bottom: 10px;
+    }
+    .slick-slider-tourist .slick-next {
+        margin-top: 10px;
+    }
+    .slick-slider-tourist .slick-prev:before, .slick-slider-tourist .slick-next:before {
+        color: #808080;
+        font-size: 28px;
+    }
+    .sub-icon img {
+        width: 30px;
+    }
+    .tourist-map-container .tourist-map {
+        height: 800px !important;
+    }
+    .slick-prev-item, .slick-next-item {
+        opacity: 0.6;
+    }
+    .tourist-shop-desc-first{
+        padding: 20px 2px;
+    }
+    .tourist-shop-desc-second{
+        padding: 20px 20px 0 31px;
+    }
+    .tourist-shop-desc-second p:last-child{
+        padding: 0;
+    }
+    #toCart{
+        text-align: center;
+    }
+    #toCart br{
+        display: block;
+    }
+    #toCart .small-text-link{
+        font-size: 23px;
+    }
+
+    /*Kanazawa*/
+    .wrap-tourist-spots.kanazawa .wrap-tourist-time .list-tourist-time .tourist-time-item{
+        width: calc(100% * (1/6) - 20px);
+    }
+    .slider-kanazawa .slick-item{
+        height: 460px !important;
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .slider-kanazawa .tourist-shop-desc-second .work-days .special-day.inline{
+        width: 72%;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+    .slider-kanazawa .wrap-tourist-shop{
+        height: initial;
+        padding-bottom: 10px;
+        position: relative;
+    }
+    .slider-kanazawa .tourist-shop-img a img{
+        height: 100%;
+    }
+    .slider-kanazawa .tourist-shop-desc{
+        height: initial;
+    }
+    .slider-kanazawa .tourist-shop-desc p{
+        font-size: 14px;
+        padding: 0 3px;
+    }
+    .slider-kanazawa .tourist-shop-desc-second{
+        padding: 10px 0 0 15px;
+    }
+    .slider-kanazawa .tourist-shop-desc-first p{
+        line-height: 1.5;
+    }
+    .slick-slider-tourist .slick-item{
+        width: 325px !important;
+    }
+
+    /*Kyotostation*/
+    .tourist-map-container.kyotostation .tourist-map{
+        width: 62%;
+    }
+    .slick-slider-tourist.slider-kyotostation{
+        width: 36%;
+    }
+    .slider-kyotostation .slick-item{
+        width: 358px !important;
+        padding-left: 2px;
+    }
+    .slider-kyotostation .slick-prev,
+    .slider-kyotostation .slick-next{
+        width: 100%;
+        margin-left: 3px;
+    }
+    .slider-kyotostation .tourist-shop-desc{
+        height: 330px;
+    }
+    .slider-kyotostation .tourist-shop-icon{
+        top: -46px;
+    }
+    .tourist-shop-desc-second p > span{
+        padding-left: 40px;
+    }
+    .slider-kyotostation .tourist-shop-desc-first{
+        padding: 20px;
+    }
+    .storelist li{
+        padding-bottom: 0 !important;
+    }
+    .storelist li:not(:last-child):after{
+        display: none !important;
+    }
+}
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+    .container-tourist-spots{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .title-tourist-spots {
+        font-size: 35px;
+    }
+    .title-tourist-spots .icon-title {
+        width: 25px;
+        position: relative;
+        top: -5px;
+    }
+    .des-banner-top .info-des-banner-top p {
+        font-size: 20px;
+    }
+    .wrap-tourist-time .list-tourist-time .tourist-time-item .lbl-name {
+        font-size: 25px;
+    }
+    .wrap-tourist-time .list-tourist-time .tourist-time-item .box-tourist-time .time {
+        font-size: 28px;
+    }
+    .wrap-tourist-time .list-tourist-time .tourist-time-item .box-tourist-time .info .small-text {
+        font-size: 10px;
+    }
+    .wrap-tourist-time .list-tourist-time .tourist-time-item .box-tourist-time .info .large-text {
+        font-size: 18px;
+    }
+
+}
+/* Portrait */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait){
+    .wrap-tourist-time .bg-time {
+        background-position: 100px top, center top, 600px top;
+    }
+    /*.slick-slider-tourist .slick-next, .slick-slider-tourist .slick-prev{*/
+    /*width: 240px;*/
+    /*}*/
+    .tourist-shop-desc{
+        font-size: 12px;
+    }
+    .tourist-shop-desc-first {
+        padding: 15px 0px;
+    }
+    .tourist-shop-desc-second {
+        padding: 10px 15px 0 22px;
+    }
+}
+/* Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape) {
+    .wrap-tourist-time .bg-time {
+        background-position: 150px top, center top, 750px top;
+    }
+    .slick-slider-tourist .slick-next, .slick-slider-tourist .slick-prev{
+        width: 305px;
+    }
+}

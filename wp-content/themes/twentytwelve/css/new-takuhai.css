@@ -1,0 +1,154 @@
+.item-box-category .ui-slider .ui-widget-header{
+    border-top: 0px;
+    background: #ccc url('../../../../../images/formal-rental/ui-bg_highlight-soft_75_cccccc_1x100.png') 50% 50% repeat-x !important;
+}
+.left-column .wrap-formal-howto{
+	height: 83px;
+	border: 1px solid #A4A4A4;
+}
+.wrap-formal-howto .box-icon-tkh-howto{
+	font-size: 40px;
+	color: #828282;
+}
+.wrap-formal-howto .wrap-text-howto{
+	margin: 10px;
+	text-align: center;
+	padding-left: 14px;
+}
+.left-column .wrap-formal-howto a{
+	height: 100%;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 7px;
+}
+.wrap-formal-howto .wrap-text-howto .text-top-howto-1{
+	font-size: 14px;
+}
+.wrap-formal-howto .wrap-text-howto .text-top-howto-2{
+	font-size: 16px;
+}
+.menu-menutakuhai-container .item-menu-formal.howto{
+	flex: initial;
+}
+
+/* wrap-banner-price-takuhai */
+.wrap-banner-price-takuhai{
+	padding: 0 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.wrap-banner-price-takuhai .list-banner-price-takuhai{
+	margin-left: -10px;
+	flex-wrap: wrap;
+}
+.wrap-banner-price-takuhai .item{
+	margin: 0 0 10px 10px;
+	width: calc(100% * (1/2) - 10px);
+}
+.wrap-banner-price-takuhai .item .sp{
+	display: block;
+}
+.wrap-banner-price-takuhai .item .pc{
+	display: none;
+}
+.wrap-takuhai-howto.sp{
+	margin-bottom: 30px;
+}
+.wrap-takuhai-howto.sp .wrap-text-howto{
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	padding: 0;
+	margin: 0;
+}
+.wrap-takuhai-howto.sp .box-icon-tkh-howto{
+	margin-right: 10px;
+}
+.wrap-takuhai-howto.sp .icon-formal-howto{
+	font-size: 20px;
+}
+.wrap-takuhai-howto.sp a{
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #a4a4a4;
+	padding: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.wrap-takuhai-howto.sp .wrap-text-howto p{
+	font-size: 12px;
+}
+.wrap-takuhai-howto.sp .text-top-howto-1{
+	margin-right: 10px;
+}
+
+/* News Takuhai */
+.wrap-news-formal.takuhai{
+	margin-top: 0;
+}
+.wrap-news-formal.takuhai .wrap-list-news{
+	padding-top: 10px;
+}
+.wrap-text-des-logo{
+	position: relative;
+}
+.wrap-text-des-logo .text-des-logo-wago{
+	position: absolute;
+	top: 73%;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+	color: #000;
+	font-size: 13px;
+	letter-spacing: 1px;
+	line-height: 1.3;
+}
+
+@media (max-width: 767px){
+    .wrap-banner-price-takuhai .item:first-child{
+        width: 100%;
+    }
+}
+@media(min-width: 750px){
+	/* wrap-banner-price-takuhai */
+    .wrap-banner-price-takuhai .list-banner-price-takuhai{
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+    .wrap-banner-price-takuhai .item{
+        width: calc(100% * (1/5) - 10px);
+    }
+	.wrap-banner-price-takuhai .item .sp{
+		display: none;
+	}
+	.wrap-banner-price-takuhai .item .pc{
+		display: block;
+	}
+
+	/* News Takuhai */
+	.wrap-news-formal.takuhai .wrap-list-news{
+		display: flex;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		align-items: flex-end;
+		-webkit-align-items: flex-end;
+		padding-bottom: 20px;
+	}
+	.wrap-news-formal.takuhai .list-news{
+		flex: 1;
+		-webkit-flex: 1;
+		-ms-flex: 1;
+		margin-right:20px;
+	}
+	.wrap-news-formal.takuhai .read-more{
+		padding-bottom: 0;
+	}
+	.wrap-text-des-logo .text-des-logo-wago{
+		left: 0;
+		font-size: 12px;
+	}
+}

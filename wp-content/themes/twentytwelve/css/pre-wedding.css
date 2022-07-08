@@ -1,0 +1,79 @@
+.wrap-top-banner{
+    margin-bottom: 15px;
+}
+.wrap-top-banner img{
+    width: 100%;
+}
+.wrap-section-wedding .title-general{
+    color: #fff;
+    font-size: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: inherit;
+    min-height: 52px;
+    align-items: center;
+}
+.wrap-section-wedding.en .title-general{
+    font-size: 16px;
+    line-height: 1.2;
+}
+.wrap-section-wedding:not(.en) .title-general{
+    letter-spacing: 3px;
+}
+.wrap-section-wedding .info-content{
+    padding: 25px 25px 30px 25px;
+    font-size: 13px;
+}
+.info-content .info-row{
+    display: flex;
+    margin-bottom: 5px;
+}
+.info-row .info-left{
+    color: #4e0037;
+    width: 35%;
+}
+.info-row .info-right{
+    flex: 1;
+}
+.square.pc{
+    display: none;
+}
+
+@media (max-width: 767px){
+    .wrap-section-wedding .title-general{
+        justify-content: center;
+    }
+
+}
+@media (max-width: 360px){
+    .info-row .info-left{
+        color: #4e0037;
+        width: 43%;
+    }
+}
+
+@media (min-width: 750px){
+    .wrap-top-banner{
+        margin-bottom: 40px;
+    }
+    .wrap-section-wedding .title-general{
+        justify-content: flex-start;
+        font-size: 17px;
+        padding: 5px 25px;
+    }
+    .wrap-section-wedding .title-general .square{
+        font-size: 25px;
+        margin-right: 3px;
+    }
+    .wrap-section-wedding.en .title-general{
+        font-size: 21px;
+    }
+    .info-row .info-left{
+        color: #4e0037;
+        width: 15%;
+    }
+    .wrap-section-wedding span.pc{
+        display: initial;
+    }
+}

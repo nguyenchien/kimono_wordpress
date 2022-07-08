@@ -1,0 +1,797 @@
+.title-header-top{
+	color: #FFFFFF;
+	background-color: #cec0aa;
+	padding: 5px 5px 6px 5px;
+	font-size: 11px;
+	line-height: 1.2;
+	z-index: 9;
+	position: relative;
+}
+.banner-plane{
+	position: relative;
+	/*height: 45px;*/
+}
+.banner-plane img{
+	height: 100%;
+}
+.banner-plane .banner-txt{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	line-height: 1;
+}
+.banner-plane .banner-txt .white-txt{
+	font-size: 19px;
+	color: #fff;
+	margin-bottom: 3px;
+}
+.banner-plane .banner-txt .red-txt{
+	font-size: 11px;
+	color: red;
+}
+.wrap-pro-delete .btn-pro-delete{
+    color: #cec0aa;
+}
+.top-header {
+    background-color: #cec0aa;
+	padding: 0;
+}
+.top-header .wrap-congress-store .top-text-cg-store{
+    color: #cec0aa;
+}
+.wrap-toggle-menu {
+    background-color: #cec0aa;
+}
+.wrap-toggle-menu .icon-toggle {
+    font-size: 22px;
+}
+.wrap-toggle-menu .text-menu {
+    font-size: 8px;
+}
+.bottom-header .icon-choosed .add-num-cart {
+    background-color: #cec0aa;
+    border: 1px solid #cec0aa;
+}
+.bottom-header .wrap-logo img {
+    width: 85%;
+}
+.bottom-header .wrap-cart-favorite {
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+
+/*===FORM SEARCH TOP===*/
+.wrap-form-search-top{
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    right: 0;
+    width: 90%;
+    margin: auto;
+}
+.wrap-form-search-top .group-form-search{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.wrap-form-search-top .group-form-search .wrap-choose-calendar{
+    background-color: #fff;
+    width: 100%;
+    border-bottom: 1px solid #6b7a82;
+    height: 30px;
+}
+.wrap-form-search-top .group-form-search .wrap-choose-calendar .text-date-calendar,
+.wrap-form-search-top .group-form-search .wrap-dropdown-search select{
+    font-size: 12px;
+    padding-left: 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #6b7a82;
+    font-weight: bold;
+}
+.wrap-form-search-top .group-form-search .wrap-choose-calendar .icon{
+    color: #a2a2a2;
+    font-size: 15px;
+    padding-right: 10px;
+}
+.wrap-form-search-top .group-form-search .wrap-dropdown-search{
+    width: 100%;
+    background-color: #fff;
+}
+.wrap-form-search-top .group-form-search .wrap-dropdown-search select{
+    width: 100%;
+    height: 30px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    background: url(../../../../../images/formal-rental/icon-select-down.svg) no-repeat;
+    background-position: 96% center;
+}
+
+.btn-top-search{
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    /*background-color: #4e0037;*/
+    background-color: #cec0aa;
+    border: 0;
+    line-height: normal;
+    overflow: visible;
+    -webkit-appearance: button;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    display: block;
+}
+.wrap-title-list-cart{
+    background-color: #cec0aa;
+}
+.loader-small {
+	border: 5px solid #dcdcdc;
+	-webkit-animation: spin 1s linear infinite;
+	animation: spin 1s linear infinite;
+	border-top: 5px solid #723769;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	margin: 0 auto;
+}
+@keyframes spin {
+	0% { -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); -ms-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@media (max-width: 360px){
+	.wrap-top-header .wrap-congress-store .top-text-cg-store {
+		font-size: 8px;
+	}
+	.wrap-top-header .wrap-congress-store .number-store .nation {
+		font-size: 9px;
+	}
+	.wrap-top-header .wrap-congress-store .number-store .num {
+		font-size: 20px;
+	}
+	.box-header .visitor .left-vst .num-vst {
+		font-size: 25px;
+	}
+	.box-header .wrap-social .social img{
+		width: 20px;
+	}
+	.wrap-toggle-menu .icon-toggle {
+		font-size: 20px !important;
+	}
+	.wrap-toggle-menu .text-menu {
+		font-size: 8px;
+	}
+	.bottom-header .wrap-languages {
+		top: 15px;
+	}
+}
+@media (min-width: 480px)and (max-width: 767px){
+	.md-sp{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+	}
+}
+@media (max-width: 767px){
+	.bottom-header{
+		padding: 5px 0;
+	}
+	.xs-hidden{
+		width: 15%;
+	}
+	.fixed-header{
+		position: fixed;
+		background-color: #fff;
+		z-index: 20;
+		top: 0;
+		width: 100%;
+		padding: 5px;
+		/*border-bottom: 2px solid #4e0037;*/
+		border-bottom: 2px solid #cec0aa;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.fixed-icon-sidebar{
+		width: 100%;
+		position: fixed;
+	}
+	.slider-new-highend .flex-control-nav{
+		display: none;
+	}
+}
+@media(min-width: 750px) {
+	.title-header-top{
+		font-size: 16px;
+		padding: 7px 0 9px 0;
+	}
+	/*.banner-plane{*/
+	/*	height: 60px;*/
+	/*}*/
+	.banner-plane .banner-txt .white-txt{
+		font-size: 24px;
+		margin-bottom: 5px;
+	}
+	.banner-plane .banner-txt .red-txt{
+		font-size: 14px;
+	}
+	.slider-new-highend .flex-control-nav{
+		display: block;
+	}
+	.wrap-header .row{
+		padding: 0;
+	}
+	.top-header{
+		padding: 0;
+	}
+	.top-header .box-header{
+		padding: 0;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+	.top-header .wrap-logo{
+		width: 400px;
+		-webkit-box-flex: inherit;
+		-ms-flex: inherit;
+		flex: inherit;
+	}
+	.top-header .box-header .wrap-top-header {
+		width: auto;
+		-webkit-box-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+		padding: 0;
+		margin-bottom: 0;
+	}
+	.top-header .box-header .wrap-top-header .wrap-info{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		margin-left: 50px;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		-webkit-box-pack: inherit;
+		-ms-flex-pack: inherit;
+		justify-content: inherit;
+	}
+	.box-header .wrap-info .wrap-congress-store{
+		background-color: #fff;
+		position: relative;
+		padding: 0 10px;
+		height: 68px;
+		z-index: 1;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	.box-header .wrap-info .wrap-congress-store:before,
+	.box-header .wrap-info .wrap-congress-store:after{
+		position: absolute;
+		content: '';
+		width: 50px;
+		height: 130%;
+		background-color: #fff;
+		z-index: -5;
+		top: -10px;
+	}
+	.box-header .wrap-info .wrap-congress-store:before{
+		border-top-left-radius: 50%;
+		border-bottom-left-radius: 50%;
+		left: -10px;
+	}
+	.box-header .wrap-info .wrap-congress-store:after{
+		border-top-right-radius: 50%;
+		border-bottom-right-radius: 50%;
+		right: -10px;
+	}
+	.box-header .wrap-info .wrap-congress-store .top-text-cg-store{
+		/*background-color: #4e0037;*/
+		background-color: #cec0aa;
+		color: #fff;
+		font-size: 13px;
+	}
+	.wrap-top-header .wrap-congress-store .number-store {
+		color: #000;
+	}
+	.box-header .wrap-info .wrap-congress-store .number-store var{
+		font-size: 13px;
+	}
+	.box-header .visitor {
+		margin-left: 30px;
+	}
+	.box-header .visitor .left-vst{
+		margin-top: -8px;
+	}
+	.box-header .visitor .left-vst .year-vst{
+		font-size: 13px;
+		position: relative;
+		top: 5px;
+	}
+	.box-header .wrap-info .option-check{
+		padding-left: 10px;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		margin-top: 5px;
+	}
+	.bottom-header{
+		padding: 10px 0;
+	}
+	.bottom-header .wrap-lang-social{
+		-ms-flex-item-align: center;
+		-ms-grid-row-align: center;
+		align-self: center;
+		padding-right: 10px;
+		margin-left: 0;
+	}
+	.bottom-header .wrap-social .social{
+		width: 42px;
+		margin: 0 5px 0 0;
+	}
+	.bottom-header .wrap-social .social img{
+		width: 100%;
+	}
+	.bottom-header .box-bt-header{
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		position: relative;
+	}
+	.bottom-header .wrap-cart-favorite{
+		-ms-flex-item-align: center;
+		-ms-grid-row-align: center;
+		align-self: center;
+		font-size: 30px;
+		margin: 0 7px;
+	}
+	.bottom-header .wrap-cart-favorite .icon-choosed {
+		margin-right: 10px;
+		cursor: pointer;
+		flex-direction: column;
+	}
+
+	.bottom-header .icon-choosed .add-num-cart{
+		font-size: 10px;
+		right: 5px;
+	}
+	.bottom-header .icon-choosed.icon-formal-shopping-cart-2 .add-num-cart {
+		right: -10px;
+	}
+	.bottom-header .icon-choosed .name{
+		font-size: 9px;
+	}
+	.bottom-header .icon-choosed.icon-formal-shopping-cart-2 .name{
+		position: relative;
+		left: 5px;
+	}
+	.box-header .wrap-languages{
+		position: initial;
+		margin: 12px 0 0 20px;
+		-webkit-box-ordinal-group: 5;
+		-ms-flex-order: 4;
+		order: 4;
+	}
+	.box-header .wrap-languages .text-lang,
+	.box-header .wrap-languages .dropdown-lang {
+		color: #fff;
+	}
+	.box-header .wrap-languages .dropdown-lang .arrow-down-lang {
+		border-top: 7px solid #fff;
+	}
+	.box-header .wrap-languages .dropdown-lang,
+	.box-header .wrap-languages .dropdown-lang .icon-formal-globe,
+	.box-header .wrap-languages .dropdown-lang .unit-lang {
+		color: #fff;
+	}
+	.box-header .wrap-languages .dropdown-lang{
+		border-color: #fff;
+	}
+	.bottom-header .wrap-logo{
+		-webkit-box-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+	}
+	.bottom-header .wrap-logo img {
+		width: 40%;
+	}
+	.bottom-header .wrap-languages {
+		position: relative;
+		top: -2px;
+		right: 0;
+	}
+	.bottom-header .wrap-languages .text-lang {
+		/*color: #4e0037;*/
+		color: #cec0aa;
+	}
+	.bottom-header .wrap-languages .dropdown-lang{
+		/*border-color: #4e0037;*/
+		/*color: #4e0037;*/
+		border-color: #cec0aa;
+		color: #cec0aa;
+	}
+	.bottom-header .wrap-languages .dropdown-lang .arrow-down-lang{
+		/*border-top: 7px solid #4e0037;*/
+		border-top: 7px solid #cec0aa;
+	}
+	.wrap-header-menu-formal{
+		-webkit-box-ordinal-group: 2;
+		-ms-flex-order: 1;
+		order: 1;
+	}
+	.header-menu-formal-other{
+		margin-bottom: 15px;
+	}
+	.banner-top-highend-v2{
+		-webkit-box-ordinal-group: 4;
+		-ms-flex-order: 3;
+		order: 3;
+		margin-bottom: 0;
+	}
+	.banner-top-highend-v2.for-bottom{
+		margin-top: 50px;
+	}
+	.menu-menuformal-container{
+		padding-left: 40px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.list-menu-formal .item-menu-formal{
+		border-right: none;
+		padding: 7px 0;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		-webkit-box-flex: 1;
+		-ms-flex: auto;
+		flex: auto;
+	}
+	.list-menu-formal .item-menu-formal.howto{
+		-webkit-box-flex: inherit;
+		-ms-flex: inherit;
+		flex: inherit;
+	}
+	.list-menu-formal .item-menu-formal a{
+		font-size: 14px;
+		padding: 5px;
+	}
+	.list-menu-formal .item-menu-formal.howto a{
+		border: 1px solid #a5a5a5;
+	}
+	.list-menu-formal .item-menu-formal.howto .icon{
+		font-size: 20px;
+		color: #828282;
+		margin-right: 10px;
+	}
+	.list-menu-formal .item-menu-formal .icon-down-pc{
+		content: "";
+		right: 0;
+		width: 8px;
+		height: 8px;
+		transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		border-right: 1px solid rgba(107,122,131,1);
+		border-bottom: 1px solid rgba(107,122,131,1);
+		cursor: pointer;
+		margin-left: 10px;
+		position: relative;
+		top: -3px;
+	}
+	.list-menu-formal .item-menu-formal:hover .sub-menu{
+		display: block;
+		position: absolute;
+		z-index: 1;
+		background-color: #fff;
+		width: 260px;
+		border: 1px solid #cacaca;
+		padding: 5px;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		left: 0;
+		top: 47px;
+	}
+	.list-menu-formal .item-menu-formal:hover > a{
+		background-color: #fff;
+	}
+	.list-menu-formal .item-menu-formal .sub-menu .sub-item-menu-formal {
+		border-bottom: 1px solid #cacaca;
+		margin-bottom: 5px;
+		padding-bottom: 5px;
+	}
+	.list-menu-formal .item-menu-formal .sub-menu .sub-item-menu-formal:last-child{
+		border-bottom: none;
+		paddding: none;
+		margin: 0;
+	}
+	.list-menu-formal .item-menu-formal .sub-menu .sub-item-menu-formal a {
+		font-size: 13px;
+		display: block;
+	}
+	/*===FORM SEARCH TOP===*/
+	.wrap-form-search-top {
+		left: 40px;
+		bottom: 30px;
+		right: inherit;
+		width: 800px;
+	}
+	.wrap-form-search-top .group-form-search{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+	}
+	.wrap-form-search-top .group-form-search .wrap-choose-calendar{
+		border-right: 1px solid #6b7a82;
+		border-bottom: none;
+	}
+	.wrap-form-search-top .group-form-search .wrap-choose-calendar,
+	.wrap-form-search-top .group-form-search .wrap-dropdown-search select{
+		height: 40px;
+	}
+	.wrap-form-search-top .group-form-search .wrap-choose-calendar .text-date-calendar,
+	.wrap-form-search-top .group-form-search .wrap-dropdown-search select {
+		font-size: 13px;
+	}
+	.wrap-form-search-top .group-form-search .wrap-choose-calendar .icon {
+		font-size: 20px;
+		cursor: pointer;
+	}
+	.wrap-form-search-top .btn-top-search{
+		width: 40px;
+	}
+	.wrap-form-search-top .form-search-top-formal{
+		position: relative;
+	}
+	.wrap-form-search-top .search_box_top_date_picker_wrapper{
+		display: none;
+	}
+	.wrap-form-search-top .top-date-active{
+		position: absolute;
+		width: 100%;
+		left: 350px;
+		display: block;
+		z-index: 5;
+	}
+	.wrap-form-search-top .top-date-active .ui-widget-header{
+		background: #fff !important;
+		border: none;
+	}
+	.wrap-form-search-top .top-date-active .hasDatepicker{
+		width: 500px;
+	}
+	.wrap-form-search-top .ui-datepicker-inline{
+		width: 100% !important;
+	}
+	.wrap-form-search-top .search_box_top_date_picker_wrapper .ui-widget-header a:hover {
+		border: none;
+	}
+	/*===Popup List Cart===*/
+	.overlay{
+		position: absolute;
+		top: 40px;
+		bottom: inherit;
+		left: inherit;
+		right: 0;
+		background: rgba(0, 0, 0, 0);
+		width: 35%;
+		height: initial;
+	}
+	.wrap-title-list-cart{
+		font-size: 20px;
+	}
+	.list-cart-selected .content-list-cart {
+		border: 1px solid #8e8e8e;
+	}
+	.list-cart-selected .content-list-cart{
+		max-height: 300px;
+		min-height: 150px;
+		overflow: auto;
+	}
+	.list-cart-selected{
+		width: 100%;
+	}
+	.list-cart-selected .list-cart .item-cart .wrap-pro-name-price .pro-name,
+	.list-cart-selected .list-cart .item-cart .wrap-pro-name-price .pro-price{
+		font-size: 12px;
+	}
+	.list-cart-selected .list-cart .item-cart .wrap-picture{
+		width: 15%;
+	}
+	/*==HEADER COMMON===*/
+	.wrap-box-common .box-common{
+		flex-direction: column;
+		margin-right: 15px;
+	}
+	.wrap-box-common .box-common .icon-common{
+		font-size: 30px;
+	}
+	.wrap-box-common .box-common .name{
+		font-size: 13px;
+	}
+}
+@media (min-width: 768px) and (max-width: 959px) {
+    .wrap-header .row {
+        padding: 0 10px;
+    }
+
+    .header-highend-v2 .box-header {
+        margin-bottom: 15px;
+    }
+
+    .header-highend-v2 .wrap-logo {
+        width: 220px;
+    }
+
+    .box-header .wrap-info {
+        margin-left: 25px;
+    }
+
+    .box-header .wrap-info .wrap-congress-store {
+        padding: 0 6px;
+    }
+
+    .box-header .wrap-info .wrap-congress-store .top-text-cg-store,
+    .box-header .wrap-info .wrap-congress-store .number-store .nation,
+    .box-header .wrap-info .wrap-congress-store .number-store var {
+        font-size: 10px;
+    }
+
+    .box-header .wrap-info .wrap-congress-store .number-store .num {
+        font-size: 18px;
+    }
+
+    .box-header .visitor .left-vst .year-vst {
+        top: 0px;
+        font-size: 10px;
+    }
+
+    .box-header .visitor .left-vst .icon-crown {
+        width: 25px;
+    }
+
+    .box-header .visitor .left-vst .num-vst {
+        font-size: 25px;
+    }
+
+    .box-header .visitor .left-vst .icon-crown img {
+        width: 100%;
+    }
+
+    .box-header .option-check .list-opt-check .item-opt-check .icon {
+        font-size: 14px;
+    }
+
+    .box-header .option-check .list-opt-check .item-opt-check .text-opt-check {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 750px){
+    .top-header .wrap-congress-store .top-text-cg-store{
+        color: #fff;
+    }
+    .wrap-toggle-menu .icon-toggle {
+        font-size: 20px;
+    }
+    .box-header .wrap-info .wrap-congress-store .top-text-cg-store {
+        background-color: #cec0aa;
+    }
+    .box-header .wrap-info .wrap-congress-store .number-store var {
+        font-size: 13px;
+    }
+    .box-header .visitor .left-vst .year-vst {
+        font-size: 13px;
+        top: 5px;
+    }
+    .bottom-header {
+        padding: 10px 0;
+    }
+    .bottom-header .wrap-languages .text-lang {
+        color: #cec0aa;
+    }
+    .bottom-header .wrap-languages .dropdown-lang {
+        border-color: #cec0aa;
+        color: #cec0aa;
+    }
+    .bottom-header .wrap-languages .dropdown-lang .arrow-down-lang {
+        border-top: 7px solid #cec0aa;
+    }
+    .bottom-header .wrap-logo img {
+        width: 40%;
+    }
+    .bottom-header .wrap-cart-favorite {
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+        font-size: 30px;
+        margin: 0 7px;
+    }
+    .list-menu-formal .item-menu-formal a {
+        font-size: 14px;
+        padding: 5px;
+    }
+    .menu-menuformal-container {
+        padding-left: 40px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .list-menu-formal .item-menu-formal.howto {
+        -webkit-box-flex: inherit;
+        -ms-flex: inherit;
+        flex: inherit;
+    }
+
+    /*=== Form search top ===*/
+    .wrap-form-search-top {
+        left: 40px;
+        bottom: 30px;
+        right: inherit;
+        width: 800px;
+    }
+    .wrap-form-search-top .group-form-search{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .wrap-form-search-top .group-form-search .wrap-choose-calendar{
+        border-right: 1px solid #6b7a82;
+        border-bottom: none;
+    }
+    .wrap-form-search-top .group-form-search .wrap-choose-calendar,
+    .wrap-form-search-top .group-form-search .wrap-dropdown-search select{
+        height: 40px;
+    }
+    .wrap-form-search-top .group-form-search .wrap-choose-calendar .text-date-calendar,
+    .wrap-form-search-top .group-form-search .wrap-dropdown-search select {
+        font-size: 13px;
+    }
+    .wrap-form-search-top .group-form-search .wrap-choose-calendar .icon {
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .wrap-form-search-top .btn-top-search{
+        width: 40px;
+    }
+    .wrap-form-search-top .form-search-top-formal{
+        position: relative;
+    }
+    .wrap-form-search-top .search_box_top_date_picker_wrapper{
+        display: none;
+    }
+    .wrap-form-search-top .top-date-active{
+        position: absolute;
+        width: 100%;
+        left: 350px;
+        display: block;
+        z-index: 5;
+    }
+    .wrap-form-search-top .top-date-active .ui-widget-header{
+        background: #fff !important;
+        border: none;
+    }
+    .wrap-form-search-top .top-date-active .hasDatepicker{
+        width: 500px;
+    }
+    .wrap-form-search-top .ui-datepicker-inline{
+        width: 100% !important;
+    }
+    .wrap-form-search-top .search_box_top_date_picker_wrapper .ui-widget-header a:hover {
+        border: none;
+    }
+}

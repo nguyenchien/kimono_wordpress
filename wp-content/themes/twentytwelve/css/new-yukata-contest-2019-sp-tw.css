@@ -1,0 +1,13 @@
+.wraper-intro-contest{
+    padding: 0 5px;
+}
+.wraper-intro-contest .intro-contest .intro-contest-content{
+    padding: 19px 10px 10px;
+}
+.wraper-intro-contest .intro-contest .intro-contest-content .lg-text{
+    font-size: 14px;
+}
+.wraper-intro-contest .intro-contest .intro-contest-content .sm-text span:after{
+    border-bottom: 5px solid #f599b0;
+    top: 6px;
+}

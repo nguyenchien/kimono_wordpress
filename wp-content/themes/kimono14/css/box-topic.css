@@ -1,0 +1,62 @@
+.topics-for-top-page {
+    overflow: hidden;
+    padding-bottom: 13px
+}
+.topics-title-top-page-title {
+    height: 50px;
+    line-height: 50px;
+    background: #733d6d;
+    margin-bottom: 5px;
+}
+.topics-title-top-page-title h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1;
+    font-family: Meiryo,arial;
+}
+.topics-title-top-page-title h2 span {
+    line-height: 55px;
+}
+.topics-title-top-page-title span.icon-icon-topic:before {
+    margin-right: 5px
+}
+.topics-title-top-page-title span.icon-icon-topic:before,
+.block-title-top-page-title.blog span.icon-icon-today:before,
+.block-title-top-page-title.booking span.icon-icon-booking:before,
+.block-title-top-page-title.news span.icon-icon-news:before {
+    margin: 0 10px 0 10px;
+    font-size: 40px;
+    position: relative;
+    top: 8px;
+}
+.topics-title-top-page-title span.en,
+.topics-title-top-page-title span.ja,
+.topics-title-top-page-title span.vi,
+.block-title-top-page-title.blog span.en,
+.block-title-top-page-title.blog span.ja,
+.block-title-top-page-title.booking span.en,
+.block-title-top-page-title.booking span.ja,
+.block-title-top-page-title.news span.en,
+.block-title-top-page-title.news span.ja,
+.block-title-top-page-title h2 span.small-title,
+.topics-title-top-page-title h2 span.small-title{
+    top: -5px;
+    position: relative
+}
+.topics-title-top-page-title h2 span.ja {
+    font-size: 10px;
+    margin-left: 6px
+}
+.wrap-topics{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: column;
+}
+.wrap-topics .topic-item{
+    margin-bottom: 5px;
+}
+.wrap-topics .topic-item img{
+    width: 100%;
+}

@@ -1,0 +1,1967 @@
+
+.hairset-page .box-banner{
+	margin-bottom:16px;
+	position: relative;
+}
+
+.hairset-page .box-banner img{
+	width: 100%;
+	height: auto;
+}
+
+.hairset-page .box-banner .brief{
+	position: absolute;
+	top: 100px;
+	left: 25px;
+	color: #ec1e79;
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 1;
+}
+
+/*----------------------*/
+.hairset-page .box-desc h2{
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 1.2;
+	margin-bottom:10px;
+}
+
+.hairset-page .box-desc .text-p{
+	font-size: 14px;
+}
+
+/*
+	.box-items-hairset
+----------------------*/
+.hairset-page .box-items-hairset{
+	margin-bottom:30px;
+}
+
+.hairset-page .box-items-hairset .item{
+	width: 468px;
+	float:left;
+	margin: 60px 24px 0 0;
+}
+
+.hairset-page .box-items-hairset .item.last{
+	margin-right: 0;
+}
+
+.hairset-page .box-items-hairset .item .info{
+	width: 468px;
+	height: 231px;
+	background: #fbd2e4;
+	border-radius: 10px;
+	padding:15px 5px 10px 15px;
+	margin-bottom:5px;
+	box-sizing: border-box;
+	position: relative;
+}
+.body.hi .hairset-page .box-items-hairset .item .info{
+	height: 240px;
+}
+body.fr .hairset-page .box-items-hairset .item .info{
+	height: 288px;
+}
+.hairset-page .box-items-hairset .item .info .img-first{
+	position: absolute;
+	top: -37px;
+	left: 0;
+}
+
+.hairset-page .box-items-hairset .item .info .img-second{
+	position: absolute;
+}
+
+.hairset-page .box-items-hairset .item.one .info .img-second{
+	right: 10px;
+	bottom: 0;
+}
+
+.hairset-page .box-items-hairset .item.two .info .img-second{
+	right: -5px;
+	bottom: 0;
+}
+
+.hairset-page .box-items-hairset .item.three .info .img-second{
+	right: 7px;
+	bottom: 7px;
+}
+
+.hairset-page .box-items-hairset .item.four .info .img-second{
+	right: 15px;
+	bottom: 40px;
+}
+body.cn .hairset-page .box-items-hairset .item.four .info .img-second{
+	bottom: 15px;
+}
+.hairset-page .box-items-hairset .item .info h3{
+	font-size: 18px;
+	font-weight: bold;
+	color: #ec1e79;
+	margin-bottom: 10px;
+}
+body.cn .hairset-page .box-items-hairset .item .info h3 br{
+	display: none;
+}
+.hairset-page .box-items-hairset .item .info h3 span{
+	font-size: 20px;
+	color: #fff;
+	background: #ec1e79;
+	padding:0px 5px;
+	margin: 0 3px;
+}
+
+.hairset-page .box-items-hairset .item .info h4{
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.hairset-page .box-items-hairset .item.four .info h4{
+	background: url("../images/icon-hairpin.png") no-repeat right top;
+	display: inline-block;
+	padding-right: 30px;
+}
+
+.hairset-page .box-items-hairset .item .info .text-p{
+	padding-right: 150px;
+}
+
+.hairset-page .box-items-hairset .item.four .info .text-p{
+	padding-right: 190px;
+}
+
+.hairset-page .box-items-hairset .item .link-to{
+	padding: 5px 5px 5px 15px;
+	line-height: 1;
+	box-sizing: border-box;
+	background: #e5e5e5;
+}
+
+.hairset-page .box-items-hairset .item.four .link-to{
+	background: #fff;
+}
+
+.hairset-page .box-items-hairset .item .link-to a{
+	float:left;
+	color: #29aae1;
+	font-weight: bold;
+	font-size: 22px;
+	margin-top: 5px;
+}
+body.hi .hairset-page .box-items-hairset .item .link-to a{
+	font-size: 20px;
+}
+.hairset-page .box-items-hairset .item .link-to a span{
+	width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #29aae1;
+	float: left;
+	margin-right: 10px;
+}
+
+.hairset-page .box-items-hairset .item .link-to .price{
+	float:right;
+	color: #ff0000;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 2px;
+}
+
+.hairset-page .box-items-hairset .item.four .link-to .price span{
+	margin: 0 3px;
+}
+
+.hairset-page .box-items-hairset .item.four .link-to .price .icon-free{
+	position: relative;
+	top: -8px;
+}
+
+/*
+	.box-store-salon
+----------------------*/
+.hairset-page .box-store-salon{
+	margin-bottom: 30px;
+}
+
+.hairset-page .box-store-salon .title-main,
+.title-main-hairset-list{
+	height: 56px;
+	line-height: 60px;
+	background: #e3629f;
+	color: #fff;
+	font-size: 32px;
+	font-weight: bold;
+	margin: 0 0 30px 0;
+	padding-left: 25px;
+	box-sizing: border-box;
+}
+
+.hairset-page .box-store-salon .content{
+	padding: 40px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.hairset-page .box-store-salon .content .img-pos{
+	position: absolute;
+	width: 95px;
+}
+
+.hairset-page .box-store-salon .content .img-pos.top-left{
+	top: 0;
+	left: 0;
+}
+
+.hairset-page .box-store-salon .content .img-pos.top-right{
+	top: 0;
+	right: 0;
+}
+
+.hairset-page .box-store-salon .content .img-pos.bottom-right{
+	bottom: 0;
+	right: 0;
+}
+
+.hairset-page .box-store-salon .content .img-pos.bottom-left{
+	bottom: 0;
+	left: 0;
+}
+
+.hairset-page .box-store-salon .content .c-left{
+	width: 532px;
+	float: left;
+}
+
+.hairset-page .box-store-salon .content .c-left img{
+	width: 100%;
+}
+
+.hairset-page .box-store-salon .content .c-right{
+	width: 329px;
+	float: right;
+}
+
+.hairset-page .box-store-salon .content .c-right .image{
+	margin-bottom: 5px;
+}
+
+.hairset-page .box-store-salon .content .c-right .image img{
+	width: 100%;
+}
+
+.hairset-page .box-store-salon .content .c-right h3{
+	height: 50px;
+	line-height: 50px;
+	color: #221006;
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	background:url("../images/icon-kyoto-tower.png") no-repeat left center;
+	padding-left: 30px;
+}
+body.fr .hairset-page .box-store-salon .content .c-right h3,
+body.hi .hairset-page .box-store-salon .content .c-right h3{
+	font-size: 20px;
+}
+.hairset-page .box-store-salon .content .c-right .text-p{
+	font-size: 15px;
+}
+
+/* EN */
+body.en .hairset-page .box-items-hairset .item .info h3 span,
+body.vi .hairset-page .box-items-hairset .item .info h3 span{
+	padding:2px 5px;
+}
+body.hi .hairset-page .box-items-hairset .item .info h3 span{
+	padding: 5px 5px 1px;
+}
+body.en .hairset-page .box-banner .brief{
+	font-size: 27px;
+	line-height: 1.2;
+}
+body.hi .hairset-page .box-banner .brief{
+	font-size: 25px;
+}
+body.fr .hairset-page .box-banner .brief{
+	font-size: 38px;
+}
+body.en .hairset-page .box-items-hairset .item .info h3,
+body.en .hairset-page .box-items-hairset .item .info h4{
+	margin-bottom: 0;
+}
+	
+body.en .hairset-page .box-items-hairset .item.four .info .img-second{
+	bottom: 15px;
+}
+
+/* VI */
+body.vi .hairset-page .box-banner .brief{
+	left: 20px;
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+body.vi .hairset-page .box-items-hairset .item .info h3,
+body.vi .hairset-page .box-items-hairset .item .info h4{
+	margin-bottom: 0;
+}
+
+body.vi .hairset-page .box-items-hairset .item.four .info .img-second{
+	bottom: 15px;
+}
+/*
+    hairset Page
+===================================*/
+/*--- hairset-item ---*/
+.box-content-page.hairset .title{
+    width: auto;
+    height: 67px;
+    line-height: 70px;
+    background: #fbd2e4;
+    padding: 0 20px 0 30px;
+	box-sizing: border-box;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 17px;
+	border-radius: 10px;
+	position: relative;
+}
+
+.box-content-page.hairset .title img{
+	position: absolute;
+	top: -30px;
+	left: 12px;
+}
+
+.box-content-page.hairset .title span{
+	float: right;
+	color: #ff0000;
+}
+
+.box-content-page.hairset #groupContent-01,
+.box-content-page.hairset #groupContent-02,
+.box-content-page.hairset #groupContent-03{
+	width: 100%;
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+.box-content-page.hairset .content{
+	margin-bottom: 30px;
+}
+
+.box-content-page.hairset .content h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.box-content-page.hairset .hairset-item{
+	width: 31.805556%;
+    box-sizing: border-box;
+    margin: 0 22px 22px 0;
+}
+
+.box-content-page.hairset .hairset-item h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box-content-page.hairset .hairset-item.first{
+    clear: both;
+}
+
+.box-content-page.hairset .hairset-item.last{
+    margin-right: 0;
+}
+
+.box-content-page.hairset .hairset-item .main-image{
+	width:223px;
+	float:left;
+	margin-right:3px;
+	border: 2px solid #93539d;
+}
+
+.box-content-page.hairset .hairset-item .main-image img{
+	width:223px;
+	height:312px;
+}
+
+.box-content-page.hairset .hairset-item .list-image{
+	float:left;
+    text-align: center;
+}
+
+.box-content-page.hairset .hairset-item .list-image ul li{
+	list-style:none;
+	width:71px;
+    margin-bottom: 6px;
+	border: 2px solid #fff;
+}
+
+.box-content-page.hairset .hairset-item .list-image ul li:last-child{
+    margin-bottom: 0;
+}
+
+.box-content-page.hairset .hairset-item .list-image ul li img{
+	width:71px;
+	height:97px;
+	cursor:pointer;
+}
+
+.box-content-page.hairset .hairset-item .list-image ul li.active{
+    border: 2px solid #93539d;
+}
+
+/* RU */
+body.ru .hairset-page .box-banner .brief {
+	font-size: 15px;
+	line-height: 1.7;
+	left: 17px;
+}
+
+body.ru .hairset-page .box-desc h2 {
+	font-size: 26px;
+}
+
+body.ru .hairset-page .box-items-hairset .item .info {
+	height: 280px;
+}
+
+body.ru .hairset-page .box-items-hairset .item .info h3,
+body.ru .hairset-page .box-items-hairset .item .info h3 span {
+	font-size: 16px;
+}
+
+body.ru .hairset-page .box-items-hairset .item .info h3,
+body.ru .hairset-page .box-items-hairset .item .info h4 {
+	margin-bottom: 5px;
+}
+
+body.ru .hairset-page .box-items-hairset .item .info h4 {
+	font-size: 18px;
+	background-size: 21px;
+}
+
+body.ru .hairset-page .box-items-hairset .item .link-to a {
+	font-size: 18px;
+	margin-top: 3px;
+}
+
+body.ru .hairset-page .box-items-hairset .item .link-to a span {
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-left: 13px solid #29aae1;
+	position: relative;
+	top: 2px;
+}
+
+body.ru .hairset-page .box-items-hairset .item .link-to .price {
+	font-size: 23px;
+}
+
+body.ru .hairset-page .box-items-hairset .item.four .link-to .price .icon-free {
+	top: -2px;
+}
+
+body.ru .hairset-page .box-store-salon .title-main,
+body.ru .title-main-hairset-list {
+	line-height: 56px;
+}
+
+body.ru .hairset-page .box-store-salon .content .c-right h3 {
+	font-size: 18px;
+	background-size: 18px;
+	padding-left: 25px;
+}
+
+body.ru .hairset-page .box-store-salon .content .c-right .text-p {
+	font-size: 13px;
+}
+@media all and (min-width: 768px) and (max-width: 959px){
+	.layout-kimono-sp .main-content .hairset-page{
+		padding: 0 7px;
+		box-sizing: border-box;
+	}
+	.hairset-page .box-banner .brief{
+		font-size: 33px;
+		top: 80px;
+	}
+	body.en .hairset-page .box-banner .brief{
+		font-size: 22px;
+	}
+	body.vi .hairset-page .box-banner .brief{
+		left:6px;
+		font-size: 25px;
+	}
+	body.hi .hairset-page .box-banner .brief{
+		left:15px;
+		font-size: 20px;
+	}
+	.hairset-page .box-desc h2{
+		font-size: 30px;
+	}
+	.hairset-page .box-items-hairset .item .info h4{
+		margin-bottom: 7px;
+	}
+	.hairset-page .box-items-hairset .item{
+		width: 49.5%;
+		margin: 60px 0 0 0;
+	}
+	.hairset-page .box-items-hairset .one, .hairset-page .box-items-hairset .three{
+		float: left;
+	}
+	.hairset-page .box-items-hairset .two, .hairset-page .box-items-hairset .four{
+		float: right;
+	}
+	.hairset-page .box-items-hairset .item .info{
+		width: 100%;
+		height: 300px;
+	}
+	body.hi .hairset-page .box-items-hairset .item .info{
+		height: 340px;
+	}
+	body.vi .hairset-page .box-items-hairset .item .info{
+		height: 320px;
+	}
+	body.fr .hairset-page .box-items-hairset .item .info{
+		height: 400px;
+	}
+	.hairset-page .box-store-salon .content .c-left{
+		width: 58.216667%;
+	}
+	.hairset-page .box-store-salon .content .c-right{
+	    width: 34.270833%;
+	}
+	.hairset-page .box-store-salon .content .c-right h3{
+		line-height: 28px;
+	}
+	.box-content-page.hairset .hairset-item{
+		width: 31.67%;
+	}
+	.box-content-page.hairset .hairset-item .main-image{
+		width: 71%;
+		margin-right: 3.1%;
+	}
+	.box-content-page.hairset .hairset-item .main-image img,
+	.box-content-page.hairset .hairset-item .list-image ul li img{
+		width: 100%;
+		height: auto;
+	}
+	.box-content-page.hairset .hairset-item .list-image ul li img{
+		height: 78px;
+	}
+	.box-content-page.hairset .hairset-item .list-image{
+		float: right;
+		width: 24.1%;
+	}
+	.box-content-page.hairset .hairset-item .list-image ul li{
+		width: 100%;
+	}
+	.box-content-page.hairset .hairset-item{
+		margin: 0 2.29% 22px 0;
+	}
+	body.vi .hairset-page .box-items-hairset .item .link-to a{
+		font-size: 20px;
+	}
+	body.vi .hairset-page .box-items-hairset .item .link-to .price{
+		font-size: 24px;
+	}
+
+	/* RU */
+	body.ru .hairset-page .box-banner .brief {
+		font-size: 4vw;
+		line-height: 1.4;
+		top: 60px;
+	}
+
+	body.ru .hairset-page .box-items-hairset .item .info {
+		height: 355px;
+	}
+
+	body.ru .hairset-page .box-items-hairset .item .link-to a {
+		font-size: 14px;
+	}
+
+	body.ru .hairset-page .box-items-hairset .item .link-to .price {
+		font-size: 18px;
+	}
+
+	body.ru .hairset-page .box-items-hairset .item .link-to a span {
+		top:0;
+	}
+	body.hi .hairset-page .box-items-hairset .item .link-to a {
+		font-size: 14px;
+		margin-top: 9px;
+	}
+	body.hi .hairset-page .box-items-hairset .item .link-to a span {
+		border-top: 6px solid transparent;
+		border-bottom: 6px solid transparent;
+		border-left: 10px solid #29aae1;
+		margin-right: 5px;
+	}
+}
+@media all and (max-width: 767px) {
+	.box-content-page.hairset #groupContent-01,
+	.box-content-page.hairset #groupContent-02,
+	.box-content-page.hairset #groupContent-03{
+		justify-content: space-between;
+		-webkit-align-content: space-between;
+	}
+	.layout-kimono-sp .main-content .container {
+		width: 100%;
+	}
+	.hairset-page .box-desc{
+		padding: 0 10px;
+		box-sizing: border-box;
+	}
+	
+	.hairset-page .box-banner .brief{
+		top: 33%;
+		left: 2.5%;
+		font-size: 4vw;
+		line-height: 1.4;
+	}
+	
+	.hairset-page .box-desc h2{
+		font-size: 20px;
+		margin-bottom: 5px;
+	}
+	
+	.hairset-page .box-desc .text-p{
+		font-size: 12px;
+	}
+	
+	.hairset-page .box-items-hairset{
+		margin-bottom: 20px;
+	}
+	
+	.hairset-page .box-items-hairset .item{
+		width: 100%;
+		float: none;
+		margin: 0 0 45px 0;
+	}
+	
+	.hairset-page .box-items-hairset .item.four{
+		margin-bottom: 0;
+	}
+	
+	.hairset-page .box-items-hairset .item .info,
+	body.fr .hairset-page .box-items-hairset .item .info{
+		width: 100%;
+		height: auto;
+	}
+	
+	.hairset-page .box-items-hairset .item .info .img-second{
+		width: 100px;
+	}
+	
+	.hairset-page .box-items-hairset .item.two .info .img-second{
+		right: 0;
+	}
+	
+	.hairset-page .box-items-hairset .item.four .info .img-second{
+		right: 10px;
+		bottom: 10px;
+	}
+	
+	.hairset-page .box-items-hairset .item .info .text-p{
+		padding-right: 100px;
+	}
+	
+	.hairset-page .box-items-hairset .item.four .info .text-p {
+		padding-right: 120px;
+	}
+	
+	.hairset-page .box-items-hairset .item .info h3{
+		font-size: 16px;
+	}
+	
+	.hairset-page .box-items-hairset .item .info h3 span{
+		font-size: 18px;
+	}
+	
+	.hairset-page .box-items-hairset .item .info h4{
+		font-size: 20px;
+	}
+	
+	.hairset-page .box-items-hairset .item .link-to a{
+		font-size: 20px;
+	}
+	body.hi .hairset-page .box-items-hairset .item .link-to a {
+		font-size: 12px;
+		margin-top: 9px;
+	}
+	.hairset-page .box-items-hairset .item .link-to .price{
+		font-size: 26px;
+	}
+	
+	.hairset-page .box-store-salon .title-main,
+	.title-main-hairset-list{
+		margin-bottom: 10px;
+		font-size: 20px;
+		padding-left: 10px;
+		height: 50px;
+		line-height: 50px;
+	}
+	
+	.title-main-hairset-list{
+		margin-bottom: 10px;
+	}
+	
+	.hairset-page .box-store-salon .content,
+	.hairset-page .box-store-salon .content .c-left,
+	.hairset-page .box-store-salon .content .c-right{
+		width: 100%;
+		height: auto;
+	}
+	
+	.hairset-page .box-store-salon .content .c-left{
+		margin-bottom: 10px;
+	}
+	
+	.hairset-page .box-store-salon .content .img-pos{
+		width: 50px;
+	}
+	
+	.hairset-page .box-store-salon .content .c-right h3{
+		font-size: 18px;
+	}
+	body.fr .hairset-page .box-store-salon .content .c-right h3{
+		font-size: 17px;
+	}
+	.hairset-page .box-store-salon .content .c-right .text-p{
+		font-size: 13px;
+	}
+	
+	.hairset-page .box-items-hairset .item.four .link-to .price .icon-free{
+		top: -5px;
+	}
+	
+	.box-content-page.hairset .title{
+		margin-bottom: 7px;
+		font-size: 20px;
+		letter-spacing: 0px;
+		padding: 0 10px;
+		height: 50px;
+		line-height: 50px;
+	}
+	body.ms .title-main-hairset-list{
+		font-size: 20px !important;
+	}
+	.box-content-page.hairset .content{
+		padding:0 7px;
+		box-sizing:border-box;
+	}
+	
+	.hairset-page .box-store-salon .content{
+		padding: 20px;
+		box-sizing: border-box;
+	}
+	
+	.box-content-page.hairset .hairset-item{
+		width:100%;
+		float:none;
+		margin:0 0 14px 0;
+	}
+
+	.box-content-page.hairset .hairset-item .main-image{
+		width: 72.87581%;
+/*		margin-right: 1.30718%;*/
+	}
+
+	.box-content-page.hairset .hairset-item .main-image img{
+		width:100%;
+		height:auto;
+	}
+
+	.box-content-page.hairset .hairset-item .list-image{
+		width: 23.20261%;
+		padding-right: 0.7%;
+		float: right;
+	}
+
+	.box-content-page.hairset .hairset-item .list-image ul{
+		width:100%;
+	}
+
+	.box-content-page.hairset .hairset-item .list-image ul li{
+		width:100%;
+	}
+
+	.box-content-page.hairset .hairset-item .list-image ul li img{
+		width:100%;
+		height:auto;
+	}
+	
+	/* EN */
+	body.en .hairset-page .box-banner{
+		margin-bottom: 5px;
+	}
+	
+	body.en .hairset-page .box-banner .brief{
+		font-size: 3vw;
+		left: 1.5%;
+		top: 34%;
+	}
+	body.fr .hairset-page .box-banner .brief{
+		font-size: 4vw;
+	}
+	body.hi .hairset-page .box-banner .brief{
+		font-size: 2.5vw;
+	}
+	
+	/* VI */
+	body.vi .hairset-page .box-banner{
+		margin-bottom: 5px;
+	}
+	
+	body.vi .hairset-page .box-banner .brief{
+		font-size: 3.2vw;
+		left: 1.4%;
+		top: 33%;
+		line-height: 1.3;
+	}
+
+	/* RU */
+	body.ru .hairset-page .box-banner .brief {
+		top: 30%;
+		left: 2.5%;
+		line-height: 1.4;
+		font-size: 4vw;
+	}
+
+	body.ru .hairset-page .box-desc h2 {
+		font-size: 16px;
+		line-height: 1.4;
+	}
+
+	body.ru .hairset-page .box-items-hairset .item .info {
+		height: auto;
+	}
+
+	body.ru .hairset-page .box-items-hairset .item .link-to {
+		padding: 7px 5px 7px 10px;
+	}
+
+	body.ru .hairset-page .box-items-hairset .item .link-to a {
+		font-size: 13px;
+	}
+
+	body.ru .hairset-page .box-items-hairset .item .link-to a span {
+		border-top: 6px solid transparent;
+		border-bottom: 6px solid transparent;
+		border-left: 10px solid #29aae1;
+		position: relative;
+		top: 0;
+		margin-right: 5px;
+	}
+
+	body.ru .hairset-page .box-items-hairset .item .link-to .price {
+		font-size: 15px;
+	}
+
+	body.ru .hairset-page .box-store-salon .title-main,
+	body.ru .title-main-hairset-list {
+		line-height: 50px;
+	}
+
+	body.ru .hairset-page .box-store-salon .content .c-right h3{
+		font-size: 15px;
+	}
+
+	body.ru .box-content-page.hairset .title {
+		font-size: 13px;
+	}
+
+	body.ru .box-content-page.hairset .title span {
+		font-size: 15px;
+	}
+	body.hi .hairset-page .box-items-hairset .item .link-to a span {
+		border-top: 6px solid transparent;
+		border-bottom: 6px solid transparent;
+		border-left: 10px solid #29aae1;
+		margin-right: 5px;
+	}
+	body.hi .hairset-page .box-store-salon .content .c-right h3 {
+		font-size: 16px;
+	}
+	body.hi .title-main-hairset-list{
+		font-size: 16px !important;
+	}
+}
+@media all and (min-width: 480px) and (max-width: 767px){
+	.box-content-page.hairset .hairset-item{
+		float: left;
+		width: 49%;
+	}
+	.box-content-page.hairset .content div:nth-child(2n){
+		float:right;
+	}
+	.hairset-page .box-store-salon .content .c-left{
+		float:left;
+		width: 49%;
+	}
+	.hairset-page .box-store-salon .content .c-right{
+		float: right;
+		width: 49%;
+	}
+	.hairset-page .box-store-salon .content .c-right h3{
+		line-height: 27px;
+	}
+	.box-content-page.hairset .hairset-item .list-image ul li{
+		margin-bottom: 3px;
+	}
+
+	/* RU */
+	body.ru .hairset-page .box-items-hairset .item .link-to a {
+		font-size: 15px;
+	}
+
+	body.ru .hairset-page .box-items-hairset .item .link-to .price {
+		font-size: 20px;
+	}
+
+	body.ru .hairset-page .box-items-hairset .item .link-to a span {
+		border-top: 7px solid transparent;
+		border-bottom: 7px solid transparent;
+		border-left: 11px solid #29aae1;
+		top: 1px;
+	}
+
+	body.ru .hairset-page .box-items-hairset .item .info h3 {
+		position: relative;
+		padding-right: 110px;
+	}
+
+	body.ru .box-content-page.hairset .title {
+		font-size: 18px;
+	}
+
+	body.ru .box-content-page.hairset .title span {
+		font-size: 25px;
+	}
+}
+@media all and (max-width: 479px){
+	body.vi .hairset-page .box-items-hairset .item .link-to a{
+		font-size: 17px;
+	}
+	body.vi .hairset-page .box-items-hairset .item .link-to .price{
+		font-size: 19px;
+	}
+	body.en .hairset-page .box-store-salon .title-main, .title-main-hairset-list,
+	body.vi .hairset-page .box-store-salon .title-main, .title-main-hairset-list{
+		font-size: 16px !important;
+		padding-left: 5px !important;
+	}
+	body.id .hairset-page .box-items-hairset .item .link-to a{
+		font-size: 16px;
+		line-height: 20px;
+	}
+	body.fr .hairset-page .box-store-salon .title-main, .title-main-hairset-list{
+		font-size: 13px!important;
+	}
+}
+@media only screen and (max-device-width : 479px) and (orientation : landscape){
+	.hairset-page .box-banner .brief {
+		top: 40px;
+		left: 12px;
+	}
+
+	.hairset-page .box-store-salon .title-main,
+	.title-main-hairset-list{
+		font-size: 24px;
+		line-height: 55px;
+	}
+
+	.hairset-page .box-items-hairset .item .info .text-p{
+		padding-right: 115px;
+	}
+}
+@media all and (max-width: 375px) {
+	.box-content-page.hairset .hairset-item .list-image ul li {
+		margin-bottom: 4px;
+	}
+	body.cn .hairset-page .box-items-hairset .item .info h3 br{
+		display: block;
+	}
+}
+
+/*=======================================================================
+	STYLE FOR PAGE HIGHT HAIRSET
+=========================================================================*/
+.hight-hairset .banner{
+	margin-bottom: 16px;
+	position: relative;
+}
+.hight-hairset .brief{
+	position: absolute;
+	top: 33%;
+	left: 5%;
+	color: #ec1e79;
+	font-weight: bold;
+	line-height: 1.3;
+	font-size: 13px;
+	font-size: 4vw;
+}
+.hight-hairset .box-desc{
+	padding: 0 10px;
+	box-sizing: border-box;
+	margin-bottom: 45px;
+}
+.hight-hairset .box-desc h2{
+	font-size: 20px;
+	font-size: 6.2vw;
+	margin-bottom: 5px;
+	font-weight: bold;
+	line-height: 1.3;
+}
+.hight-hairset .box-desc p{
+	font-size: 12px;
+	font-size: 3.7vw;
+}
+
+/* .box-items-hairset */
+.hight-hairset .box-items-hairset .item{
+	margin: 0 0 45px 0;
+}
+.hight-hairset .box-items-hairset .item:last-child{
+	margin-bottom: 30px;
+}
+.hight-hairset .box-items-hairset .info{
+	background: #fbd2e4;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding: 15px 5px 15px 15px;
+	margin-bottom: 5px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	position: relative;
+}
+.hight-hairset .box-items-hairset .item.one .info{
+	height: 190px;
+}
+.hight-hairset .box-items-hairset .item.three .info{
+	height: 147px;
+}
+.hight-hairset .box-items-hairset .item.four .info{
+	height: 170px;
+}
+.hight-hairset .box-items-hairset .item.five .info{
+	height: 150px;
+}
+.hight-hairset .box-items-hairset .item.six .info{
+	height: 166px;
+}
+.hight-hairset .box-items-hairset .info > img{
+	position: absolute;
+}
+.hight-hairset .box-items-hairset .info .img-first{
+	width: 110px;
+	top: -25px;
+	left: 7px;
+}
+.hight-hairset .box-items-hairset .info .img-second{
+	width: 100px;
+	right: 0;
+	bottom: 0;
+}
+.hight-hairset .box-items-hairset .item.one .info .img-second{
+	width: 80px;
+	right: 10px;
+}
+.hight-hairset .box-items-hairset .item.six .info .img-second{
+	width: 120px;
+	right: 7px;
+	bottom: 6px;
+}
+.hight-hairset .box-items-hairset .info p{
+	padding-right: 100px;
+}
+.hight-hairset .box-items-hairset .info h3{
+	font-size: 14px;
+	font-weight: bold;
+	color: #ec1e79;
+	margin-bottom: 7px;
+	line-height: 1.4;
+}
+.hight-hairset .box-items-hairset .item.six .info h3{
+	padding-right: 130px;
+}
+.hight-hairset .box-items-hairset .info h3 span{
+	font-size: 16px;
+	color: #fff;
+	background: #ec1e79;
+	padding: 0 5px;
+	margin: 0 3px;
+}
+.hight-hairset .box-items-hairset .info h4{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 7px;
+	line-height: 1.4;
+}
+.hight-hairset .box-items-hairset .item.two .info h4,
+.hight-hairset .box-items-hairset .item.three .info h4{
+	padding-right: 0;
+}
+.hight-hairset .box-items-hairset .item.six .info h4{
+	background: url("../images/icon-hairpin.png") no-repeat right top;
+	background-size: 19px;
+	display: inline-block;
+	padding-right: 30px;
+}
+.hight-hairset .box-items-hairset .info p{
+	font-size: 8px;
+	line-height: 1.5;
+}
+.hight-hairset .box-items-hairset .item.two .info p{
+	padding-right: 110px;
+}
+.hight-hairset .box-items-hairset .item.six .info p{
+	padding-right: 130px;
+}
+.hight-hairset .box-items-hairset .link-to{
+	padding: 5px 5px 5px 15px;
+	line-height: 1;
+	box-sizing: border-box;
+	background: #e5e5e5;
+}
+.hight-hairset .box-items-hairset .link-to a{
+	float: left;
+	color: #29aae1;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 5px;
+}
+.hight-hairset .box-items-hairset .link-to a span{
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 15px solid #29aae1;
+	float: left;
+	margin-right: 10px;
+}
+.hight-hairset .box-items-hairset .link-to p{
+	float: right;
+	color: #ff0000;
+	font-weight: bold;
+	font-size: 26px;
+	margin-top: 2px;
+}
+.hight-hairset .box-items-hairset .item.six .link-to .icon-free{
+	position: relative;
+	top:-5px;
+}
+
+/* .box-list-products */
+.box-list-products .list-products{
+	margin-bottom: 40px;
+}
+.box-list-products .list-products:last-of-type{
+	margin-bottom: 20px;
+}
+.box-list-products .title-box{
+	background-color: #e3629f;
+	color: #ffffff;
+	padding: 5px 10px;
+	margin-bottom: 35px;
+	font-size: 16px;
+	font-size: 5vw;
+	font-weight: bold;
+	line-height: 1.3;
+}
+.box-list-products .title-list{
+	background: #fbd2e4;
+	color: #000;
+	font-size: 16px;
+	font-size: 5vw;
+	font-weight: bold;
+	padding: 8px 10px;
+	margin: 0 5px 5px 5px;
+	line-height: 1.3;
+	position: relative;
+	border-radius: 5px;
+}
+.box-list-products .title-list span{
+	float: right;
+	color: #ff0000;
+}
+.box-list-products .title-list img{
+	width: 120px;
+	position: absolute;
+	top: -18px;
+	left: 5px;
+}
+.box-list-products .product{
+	background-color: #fff5e1;
+	padding:10px;
+	margin-bottom: 10px;
+}
+.box-list-products .title-product{
+	font-size: 28px;
+	font-size: 9vw;
+	font-weight: bold;
+	color: #231814;
+	margin-bottom: 5px;
+	line-height: 1.3;
+}
+.box-list-products .wrap-product{
+	margin-bottom: 10px;
+}
+.box-list-products .main-image{
+	float: left;
+	width: 73%;
+	margin-right: 3.666666666666667%;
+	border: 2px solid #b4b4b4;
+	box-sizing: border-box;
+}
+.box-list-products .main-image img,
+.box-list-products .list-image ul li img{
+	width: 100%;
+}
+.box-list-products .list-image{
+	float: left;
+	width: 23.33333333333333%;
+}
+.box-list-products .list-image ul li{
+	border: 2px solid #fff5e1;
+	box-sizing: border-box;
+	margin-bottom: 7px;
+}
+.box-list-products .list-image ul li:last-child{
+	margin-bottom: 0;
+}
+.box-list-products .list-image ul li.active{
+	border: 2px solid #b4b4b4;
+}
+.box-list-products .desc{
+	margin-bottom: 30px;
+}
+.box-list-products .desc p{
+	color: #231815;
+	font-size: 15px;
+	font-size: 4.7vw;
+}
+.box-list-products .re-item{
+	margin-bottom: 10px;
+}
+.box-list-products .re-item h5{
+	font-size: 13px;
+	font-size: 4vw;
+	color: #B4B49B;
+	line-height: 1;
+	margin-bottom: 1px;
+}
+.box-list-products .re-item.scene p{
+	background-color: #B4B49B;
+	color: #fff;
+	line-height: 1;
+	padding: 5px;
+	font-size: 15px;
+	font-size: 4.7vw;
+}
+.box-list-products .re-item.kimono{
+	margin-bottom: 10px;
+}
+.box-list-products .re-item.kimono ul{
+	display: flex;
+	display: -webkit-flex;
+	flex-flow: row nowrap;
+	-webkit-flex-flow: row nowrap;
+	justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+}
+.box-list-products .re-item.kimono ul li{
+	margin-right: 2px;
+}
+.box-list-products .re-item.kimono ul li:last-child{
+	margin-right: 0;
+}
+.box-list-products .re-item.kimono ul li a{
+	display: block;
+	color: #fff;
+	font-size: 15px;
+	font-size: 4.7vw;
+	padding: 5px;
+	box-sizing: border-box;
+	line-height: 1;
+}
+.box-list-products .re-item.kimono ul li.homongi{
+	background-color: #425EA1;
+}
+.box-list-products .re-item.kimono ul li.sejin{
+	background-color: #9597C3;
+}
+.box-list-products .re-item.kimono ul li.sotsugyou{
+	background-color: #95973B;
+}
+.box-list-products .re-item.kimono ul li.irotomesode{
+	background-color: #E93175;
+}
+.box-list-products .re-item.kimono ul li.kurotomesode{
+	background-color: #FF7437;
+}
+.box-list-products .re-item.kimono ul li.disable{
+	background-color: #fff;
+}
+.box-list-products .re-item.kimono ul li.disable a{
+	color: #B4B49B;
+}
+
+/* .buttons-link */
+.box-list-products .buttons-link{
+	padding: 0 5px;
+	margin-bottom: 20px;
+}
+.box-list-products .buttons-link ul li{
+	margin-bottom: 5px;
+}
+.box-list-products .buttons-link ul li:last-child{
+	margin-bottom: 0;
+}
+.box-list-products .buttons-link ul li a{
+	display: block;
+	background-color: #F9A523;
+	color: #fff;
+	font-size: 20px;
+	font-size: 6vw;
+	font-weight: bold;
+	line-height: 1;
+	text-align: center;
+	padding: 13px 10px 9px;
+	box-sizing: border-box;
+	position: relative;
+}
+.box-list-products .buttons-link ul li a:after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border-left: 10px solid #fff;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	position: absolute;
+	top: 32%;
+	right: 5px;
+}
+.bnt-link-reserve-page{
+	background-color: #f4a21b;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	position: relative;
+	margin: 0 7px 30px 7px;
+}
+.bnt-link-reserve-page a{
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+	display: block;
+}
+.bnt-link-reserve-page a:after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border-left: 10px solid #fff;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	position: absolute;
+	top: 38%;
+	right: 10px;
+}
+
+/*
+	New style for kimono hairset page
+=============================================================*/
+.item-hairdo-style .new-title{
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0 7px;
+}
+.item-hairdo-style .title-item-01{
+	color: #f7931d;
+}
+.item-hairdo-style .title-item-02{
+	color: #6f2d7c;
+}
+.item-hairdo-style .title-item-03{
+	color: #ed028c;
+}
+.item-hairdo-style .title-item-04{
+	color: #00aeef;
+}
+.item-hairdo-style .title-item-05{
+	color: #ee1d23;
+}
+.item-hairdo-style .sub-title{
+	color: #fff;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 7px;
+	margin-bottom: 15px;
+}
+.item-hairdo-style .sub-title span{
+	float: right;
+}
+.item-hairdo-style .sub-title var{
+	font-size: 13px;
+	font-weight: normal;
+	margin-left: 5px;
+}
+.item-hairdo-style .note{
+	padding: 0 7px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	color: #000;
+}
+.item-hairdo-style .sub-title-01{
+	background-color: #f7931d;
+}
+.item-hairdo-style .sub-title-02{
+	background-color: #6f2d7c;
+}
+.item-hairdo-style .sub-title-03{
+	background-color: #ed028c;
+}
+.item-hairdo-style .sub-title-04{
+	background-color: #00aeef;
+}
+.item-hairdo-style .sub-title-05{
+	background-color: #ee1d23;
+}
+.item-hairdo-style .list-images li{
+	width: 100%;
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	align-items: flex-end;
+	-webkit-align-items: flex-end;
+	margin: 0 0 15px 0;
+}
+.item-hairdo-style .list-images .sub-item-text{
+	display: block;
+}
+.item-hairdo-style .sub-item-text .brief{
+	background: url(../images/img-sub-item-text.jpg) no-repeat right top;
+	padding: 5px 65px 0 0;
+}
+.item-hairdo-style .sub-item-text .new-title{
+	font-size: 15px;
+}
+.item-hairdo-style .sub-item-text .item-title{
+	padding: 0;
+}
+.item-hairdo-style .sub-item-text .sub-title{
+	padding: 0 5px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0;
+}
+.item-hairdo-style .sub-item-text .text{
+	color: #232024;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+.item-hairdo-style .image{
+	border: 4px solid #ccc;
+	box-sizing: border-box;
+}
+.item-hairdo-style-01 .image{
+	border-color: #f7931d;
+}
+.item-hairdo-style-02 .image{
+	border-color: #6f2d7c;
+}
+.item-hairdo-style-03 .image{
+	border-color: #ed028c;
+}
+.item-hairdo-style-04 .image{
+	border-color: #00aeef;
+}
+.item-hairdo-style-05 .image{
+	border-color: #ee1d23;
+}
+.item-hairdo-style .image-main{
+	width: calc(55% + 4px);
+	width: 55%;
+	margin-right: -4px;
+}
+.item-hairdo-style .image-sub{
+	width: 45%;
+}
+.item-hairdo-style .image img{
+	width: 100%;
+}
+
+/* hairset item */
+.section-hairset-items{
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+.section-hairset-items .item{
+	position: relative;
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	align-items: center;
+	-webkit-align-items: center;
+	background-color: #fddbf2;
+	width: 100%;
+	margin: 45px 0 0 0;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+.section-hairset-items .item .img-absolute{
+	position: absolute;
+	top: -30px;
+	left: 0;
+	width: 40%;
+}
+.section-hairset-items .item-6{
+	align-items: flex-end;
+	-webkit-align-items: flex-end;
+	background-color: transparent;
+	margin-top: 20px;
+}
+.section-hairset-items .info{
+	width: calc(70% - 10px);
+	margin-right: 10px;
+	height: 100%;
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+}
+.section-hairset-items .item-6 .info{
+	width: 100%;
+	margin: 0;
+	justify-content: flex-end;
+	-webkit-justify-content: flex-end;
+}
+.section-hairset-items .sub-title{
+	font-size: 13px;
+	margin: 10px 0;
+	color: #ec1e79;
+	font-weight: bold;
+}
+.section-hairset-items .item-title{
+	font-size: 23px;
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 10px;
+	letter-spacing: -1px;
+}
+.section-hairset-items .text{
+	font-size: 13px;
+	line-height: 1.7;
+	margin-bottom: 10px;
+}
+.section-hairset-items .note{
+	color: red;
+}
+.section-hairset-items .contact{
+	text-align: right;
+}
+.section-hairset-items .link{
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+}
+.section-hairset-items .link a{
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	align-items: center;
+	-webkit-align-items: center;
+	color: #29aae1;
+	font-size: 20px;
+	font-weight: bold;
+}
+.section-hairset-items .link a:before{
+	content: "";
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 15px solid #29aae1;
+	margin-right: 5px;
+}
+.section-hairset-items .price{
+	color: red;
+	font-weight: bold;
+	font-size: 23px;
+}
+.section-hairset-items .image{
+	width: 30%;
+}
+.section-hairset-items .image img{
+	width: 100%;
+}
+
+@media (min-width: 750px) {
+	.hight-hairset .brief{
+		font-size: 41px;
+	}
+	.hight-hairset .box-desc{
+		margin-bottom: 60px;
+	}
+	.hight-hairset .box-desc h2{
+		font-size: 36px;
+	}
+	.hight-hairset .box-desc p{
+		font-size: 14px;
+	}
+
+	/* .box-items-hairset */
+	.hight-hairset .box-items-hairset .item{
+		margin: 0 24px 75px 0;
+		width: 468px;
+		float: left;
+	}
+	.hight-hairset .box-items-hairset .item.one .info,
+	.hight-hairset .box-items-hairset .item.two .info{
+		height: 290px;
+	}
+	.hight-hairset .box-items-hairset .item.three .info,
+	.hight-hairset .box-items-hairset .item.four .info{
+		height: 234px;
+	}
+	.hight-hairset .box-items-hairset .item.five .info,
+	.hight-hairset .box-items-hairset .item.six .info{
+		height: 223px;
+	}
+	.hight-hairset .box-items-hairset .item:nth-last-child(-n+2){
+		margin-bottom: 50px;
+	}
+	.hight-hairset .box-items-hairset .item:nth-child(2n+2){
+		margin-right: 0;
+	}
+	.hight-hairset .box-items-hairset .info .img-first{
+		width: 160px;
+		top: -36px;
+		left: 0;
+	}
+	.hight-hairset .box-items-hairset .item.one .info .img-second{
+		width: 114px;
+		right: 20px;
+		bottom: 0;
+		top: inherit;
+	}
+	.hight-hairset .box-items-hairset .item.two .info .img-second{
+		width: 147px;
+	}
+	.hight-hairset .box-items-hairset .item.three .info .img-second{
+		width: 160px;
+	}
+	.hight-hairset .box-items-hairset .item.four .info .img-second{
+		width: 152px;
+		right: 15px;
+		bottom: 0;
+		top:inherit;
+	}
+	.hight-hairset .box-items-hairset .item.five .info .img-second{
+		width: 150px;
+	}
+	.hight-hairset .box-items-hairset .item.six .info .img-second{
+		width: 165px;
+		right: 10px;
+	}
+	.hight-hairset .box-items-hairset .info h3{
+		font-size: 20px;
+	}
+	.hight-hairset .box-items-hairset .item.one .info h3{
+		padding-right: 0;
+	}
+	.hight-hairset .box-items-hairset .item.four .info h3{
+		padding-right: 0;
+	}
+	.hight-hairset .box-items-hairset .item.six .info h3{
+		padding-right: 175px;
+	}
+	.hight-hairset .box-items-hairset .info h3 span{
+		font-size: 20px;
+	}
+	.hight-hairset .box-items-hairset .info h4{
+		font-size: 30px;
+	}
+	.hight-hairset .box-items-hairset .info p{
+		font-size: 12px;
+	}
+	.hight-hairset .box-items-hairset .item.one .info p{
+		padding-right: 150px;
+	}
+	.hight-hairset .box-items-hairset .item.two .info p{
+		padding-right: 145px;
+	}
+	.hight-hairset .box-items-hairset .item.three .info p{
+		padding-right: 163px;
+	}
+	.hight-hairset .box-items-hairset .item.four .info p{
+		padding-right: 165px;
+	}
+	.hight-hairset .box-items-hairset .item.five .info p{
+		padding-right: 150px;
+	}
+	.hight-hairset .box-items-hairset .item.six .info p{
+		padding-right: 190px;
+	}
+	.hight-hairset .box-items-hairset .link-to a{
+		font-size: 22px;
+	}
+	.hight-hairset .box-items-hairset .link-to p{
+		font-size: 30px;
+	}
+	.hight-hairset .box-items-hairset .link-to a span{
+		border-top-width: 10px;
+		border-bottom-width: 10px;
+		border-left-width: 15px;
+	}
+
+	/* .box-list-products */
+	.box-list-products .content-list{
+		display: flex;
+		display: -webkit-flex;
+		flex-flow: row wrap;
+		-webkit-flex-flow: row wrap;
+		padding: 0 10px;
+		box-sizing: border-box;
+	}
+	.box-list-products .list-products{
+		background: none;
+		padding-bottom: 0;
+		margin-bottom: 40px;
+	}
+	.box-list-products .list-products:last-child{
+		margin-bottom: 10px;
+	}
+	.box-list-products .title-box{
+		font-size: 30px;
+		padding: 12px 10px 9px 10px;
+		margin-bottom: 37px;
+	}
+	.box-list-products .title-list{
+		font-size: 30px;
+		padding: 13px 10px;
+		margin: 0 10px 20px 10px;
+	}
+	.box-list-products .title-list img{
+		width: 230px;
+		top: -36px;
+		left: 10px;
+	}
+	.box-list-products .product{
+		display: flex;
+		display: -webkit-flex;
+		flex-direction: column;
+		-webkit-flex-direction: column;
+		width: 280px;
+		margin: 0 20px 20px 0;
+	}
+	.box-list-products .title-product{
+		font-size: 28px;
+		display: flex;
+		display: -webkit-flex;
+		flex-grow: 1;
+		-webkit-flex-grow: 1;
+		align-items: flex-start;
+		-webkit-align-items: flex-start;
+	}
+	.box-list-products .product:nth-child(3n+3){
+		margin-right: 0;
+	}
+	.box-list-products .product:nth-child(3n+4){
+		clear: both;
+	}
+	.box-list-products .desc p{
+		font-size: 13px;
+	}
+	.box-list-products .re-item h5{
+		font-size: 11px;
+	}
+	.box-list-products .re-item.scene p{
+		font-size: 15px;
+		padding: 4px 5px 2px 5px;
+	}
+	.box-list-products .re-item.kimono ul li a{
+		font-size: 14px;
+	}
+
+	/* .buttons-link */
+	.box-list-products .buttons-link{
+		margin-bottom: 40px;
+	}
+	.box-list-products .buttons-link ul{
+		display: flex;
+		display: -webkit-flex;
+		flex-flow: row nowrap;
+		-webkit-flex-flow: row nowrap;
+		justify-content: space-between;
+		-webkit-justify-content: space-between;
+	}
+	.box-list-products .buttons-link ul li{
+		width: 49.5%;
+	}
+	.box-list-products .buttons-link ul li a{
+		padding: 21px 10px 17px;
+		font-size: 32px;
+	}
+	.box-list-products .buttons-link ul li a:after{
+		border-left-width: 14px;
+		border-top-width: 12px;
+		border-bottom-width: 12px;
+		top: 33%;
+	}
+
+	/*
+	New style for kimono hairset page
+	=============================================================*/
+	.item-hairdo-style .new-title{
+		font-size: 25px;
+		padding: 0 10px;
+	}
+	.item-hairdo-style .sub-title{
+		height: 45px;
+		line-height: 45px;
+		font-weight: normal;
+	}
+	.item-hairdo-style .sub-title var{
+		font-size: 20px;
+	}
+	.item-hairdo-style .list-images{
+		display: flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		margin-left: -30px;
+	}
+	.item-hairdo-style .list-images li{
+		width: calc(50% - 30px);
+		margin: 0 0 30px 30px;
+	}
+	.box-content-page.hairset .item-hairdo-style .content{
+		margin-bottom: 0;
+	}
+
+	/* hairset item */
+	.section-hairset-items .sub-title{
+		font-size: 15px;
+	}
+	.section-hairset-items{
+		margin: 0 0 20px -20px;
+	}
+	.section-hairset-items .item{
+		width: calc(50% - 20px);
+		margin: 50px 0 0 20px;
+	}
+	.section-hairset-items .item .img-absolute{
+		top: -40px;
+	}
+	.bnt-link-reserve-page{
+		width: 50%;
+		margin: 0 auto 30px;
+		height: 65px;
+		line-height: 65px;
+	}
+	.bnt-link-reserve-page a{
+		font-size: 30px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 959px) {
+	.hight-hairset .box-items-hairset .info h3,
+	.hight-hairset .box-items-hairset .info h3 span{
+		font-size: 16px;
+	}
+	.hight-hairset .box-items-hairset .info h4{
+		font-size: 24px;
+	}
+	.hight-hairset .box-items-hairset .item.one .info,
+	.hight-hairset .box-items-hairset .item.two .info{
+		height: 300px;
+	}
+	.hight-hairset .box-items-hairset .item.three .info,
+	.hight-hairset .box-items-hairset .item.four .info{
+		height:260px;
+	}
+	.hight-hairset .box-items-hairset .item.five .info,
+	.hight-hairset .box-items-hairset .item.six .info{
+		height: 230px;
+	}
+	.hight-hairset .box-items-hairset .item.six .info .img-second{
+		bottom: 9px;
+	}
+	.hight-hairset .brief{
+		font-size: 32px;
+	}
+	.hight-hairset .box-desc h2{
+		font-size: 31px;
+	}
+	.hight-hairset .box-items-hairset .item{
+		width: 49%;
+		margin-right: 2%;
+		margin-bottom: 60px;
+	}
+	.hight-hairset .box-items-hairset .item:nth-last-child(-n+2){
+		margin-bottom: 40px;
+	}
+	.hight-hairset .box-items-hairset .info{
+		height: 330px;
+	}
+	.box-list-products .product{
+		width: 29.27807486631016%;
+		margin: 0 2.005347593582888% 2.005347593582888% 0;
+	}
+	.box-list-products .title-product{
+		font-size: 18px;
+	}
+	.box-list-products .list-image ul li{
+		margin-bottom: 6px;
+	}
+	.box-list-products .desc p{
+		font-size: 12px;
+	}
+	.box-list-products .re-item h5{
+		font-size: 9px;
+	}
+	.box-list-products .re-item.scene p,
+	.box-list-products .re-item.kimono ul li{
+		font-size: 10px;
+	}
+	.box-list-products .buttons-link ul li a{
+		font-size: 24px;
+	}
+	.box-list-products .buttons-link{
+		margin-bottom: 30px;
+	}
+	body.cn .hairset-page .box-items-hairset .item.two .info h3 br{
+		display: block;
+	}
+}

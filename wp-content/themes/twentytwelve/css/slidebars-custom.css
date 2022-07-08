@@ -1,0 +1,586 @@
+/*-----------------------------------------------------------------------------*/
+/* reset */
+/*-----------------------------------------------------------------------------*/
+.sb-slidebar * {
+    padding:0;
+    margin:0;
+    border: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;    
+}
+
+.sb-slidebar a{
+    text-decoration: none;    
+}
+
+/*-----------------------------------------------------------------------------*/
+/* custom sb-site, sb-slidebar */
+/*-----------------------------------------------------------------------------*/
+/*#sb-site{
+	min-height: 0 !important;
+}
+html.sb-active #sb-site{
+	background: #733d6d;
+}*/
+#wrap-sub-menu, #menu-close{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;    
+}
+#wrap-sub-menu{
+    float:left;
+    width: 85%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#wrap-sub-menu ul.sub-menu li.mnnav-icon-home{
+	display: none;
+}
+#wrap-sub-menu ul.sub-menu > li > ul.sub-menu > li > a{
+	padding-left: 15px;
+	font-weight: normal;
+}
+body.en ul.sub-menu > li > ul.sub-menu > li.display-none > a,
+body.tw ul.sub-menu > li > ul.sub-menu > li.display-none > a{
+    display: block;
+}
+ul.sub-menu > li > ul.sub-menu > li.display-none > a,
+body.ms ul.sub-menu > li > ul.sub-menu > li.display-none > a,
+body.th ul.sub-menu > li > ul.sub-menu > li.display-none > a,
+body.hi ul.sub-menu > li > ul.sub-menu > li.display-none > a,
+body.cn ul.sub-menu > li > ul.sub-menu > li.display-none > a{
+	display: none;
+}
+.nav-item a > var.text-new{
+	color:yellow;
+	margin-left:6%;
+	font-weight:bold;
+}
+#menu-close{
+    float:right;
+    width: 15%;
+    height: 100%;
+    background: #42153c;    
+}
+@media all and (max-width: 767px){
+	#btn-close{
+		display: block;
+		background-position: center center;
+		background-image: url('../images/close-btn.png');    
+		background-repeat: no-repeat;
+		color: #fff;
+		margin: 0 auto;
+		margin-top:10px;
+		width: 32px;
+		height: 32px;
+		text-indent: -999px;
+		cursor: pointer;
+	}
+	.sb-slidebar{
+		background-color: #63265b;
+		width: 100%;
+	}
+    #wrap-sub-menu{
+        width: 85%;
+        height: auto;
+		float:right;
+    }
+        
+    #menu-close{
+        width: 15%;
+    }
+	
+	.no-scroll {
+		overflow-y: hidden;
+	}
+	ul.sub-menu li ul.sub-menu {
+	  top: 0px;
+	  display: block;
+	  z-index: 999;
+	  width: 365px! important;
+	}
+	#wrap-sub-menu ul.sub-menu li ul.sub-menu li.menu-sp-sub a{
+		padding-left: 30px;
+	}
+	#wrap-sub-menu ul.sub-menu li ul.sub-menu li.remove-click span{
+		display: none;
+	}
+	.nav {
+		position:relative;
+		display:inline-block;
+		font-size:14px;
+		font-weight:900;
+	}
+	.nav-list {
+		text-align:left;
+	display: block !important;
+	}
+	#menu-close-new{
+		width: 10%;
+		float: left;
+	}
+	.menu-nav-list{
+		width: 90%;
+		float: left;
+	}
+	.main-menu-mobile{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 999999;
+		display: none;
+		background: rgba(0,0,0,0.8);
+	}
+
+	#btn-close-new{
+		display: block;
+		background-position: center center;
+		background-image: url('../images/close-btn.png');    
+		background-repeat: no-repeat;
+		color: #fff;
+		margin: 0 auto;
+		margin-top:10px;
+		width: 32px;
+		height: 32px;
+		text-indent: -999px;
+		cursor: pointer;
+	}
+	.nav-item {
+		float:left;
+		*display:inline;
+		zoom:1;
+		position:relative;
+	}
+	.nav-item a {
+		display:block;
+		color:#FFF;
+		font-size: 18px;
+		padding:15px 20px;
+		background:#4e0037;
+	}
+	.nav-item a span{
+		font-size: 11px;
+		color: yellow;
+		margin-left: 5px;
+	}
+	body.en .nav-item a span.store,
+	body.vi .nav-item a span.store,
+	body.tw .nav-item a span.store,
+	body.ko .nav-item a span.store,
+	body.ru .nav-item a span.store,
+	body.th .nav-item a span.store{
+		color: #fff;
+		width: 50%;
+		font-size: 13px;
+	}
+	body.en .nav-item a span.text,
+	body.vi .nav-item a span.text,
+	body.tw .nav-item a span.text{
+		width: 50%;
+		float: right;
+	}
+	body.en ul.sub-menu > li:nth-child(5) > a > span.text,
+	body.vi ul.sub-menu > li:nth-child(5) > a > span.text{
+		bottom: 12px;
+		position: relative;
+	}
+	/* Navigation submenu */
+	.nav-submenu {
+		display:none;
+		position:absolute;
+		left:0;
+		width:180px;
+	}
+	.nav-submenu-item a {
+		background:#93539d;
+		display:block;
+		padding: 12px 7px 15px;
+	}
+	body.en .nav-submenu-item a,
+	body.vi .nav-submenu-item a{
+		padding: 12px 7px 15px 15px;
+	}
+	.nav-submenu-item ul li a {
+	  background: #ef99f4;
+	  display: block;
+	  border-left: 15px solid #93539d;
+	  font-size: 9px;
+	  font-size: 2.7vw;
+	  line-height: 22px;
+	}
+
+	/* Mobile navigation, clickable area for revealing <ul> */
+	.nav-click {
+		position:absolute;
+		top:0;
+		right:0;
+		display:none;
+		height:49px;
+		width:50px;
+		cursor:pointer;
+	}
+	.nav-click i {
+		display:block;
+		height:18px;
+		width:12px;
+		background:url(../images/arrow-r.png) no-repeat center center;
+		margin: 15px 0 0 20px;
+	}
+	.nav-rotate {
+		-webkit-transform:rotate(90deg);
+		-moz-transform:rotate(90deg);
+		-ms-transform:rotate(90deg);
+		-o-transform:rotate(90deg);
+		transform:rotate(90deg);
+	}
+	.nav-submenu-item{
+		position:relative;
+		}
+	ul.sub-menu li ul.sub-menu {
+		position: relative;
+		left:0;
+		width: 100% !important;
+	  }
+	  .nav-submenu-item.kimono-menu-custom var{
+		  /*top: -20px;*/
+		  position: relative;
+	  }
+	  body.ko .nav-submenu-item.kimono-menu-custom var{
+		  top: initial;
+	  }
+	  .nav-submenu-item ul li a{
+		  font-size: 16px;
+	  }
+	body.tw .nav-submenu-item ul li a var,
+	body.tw .nav-submenu-item ul li a{
+		font-size: 13px;
+	}
+	.nav-mobile {
+		display:block;
+	}
+	.nav {
+		width:100%;
+		padding:50px 0 0;
+	}
+	.nav-list {
+		display:none;
+	}
+	.nav-item {
+		width:100%;
+		float:none;
+	}
+	.nav-item > a {
+		padding:15px;
+	}
+	.nav-click {
+		display:block;
+	}
+	.nav-mobile-open {
+		border-radius:5px 5px 0 0;
+		-webkit-border-radius:5px 5px 0 0;
+		-moz-border-radius:5px 5px 0 0;
+	}
+	.nav-submenu {
+		position:static;
+		width:100%;
+	}
+	.nav-item:last-child a{
+		background:#fca825;
+		border-bottom:none;
+		}
+	.nav-submenu-item ul li a var{
+		color: #fbfbfc;
+		text-align: right;
+		float: right;
+		font-weight: bold;
+		padding-right:20px;
+		font-size: 16px;
+	}
+	body.cn .nav-submenu-item ul li a var{
+		padding-right:24px;
+	}
+	body.en .nav-submenu-item ul li a var{
+		padding-right: 20px;
+	}
+	body.id .nav-submenu-item ul li a var,
+	body.ms .nav-submenu-item ul li a var{
+		padding-right: 25px;
+	}
+	body.hi .nav-submenu-item ul li a var{
+		padding-right: 30px;
+	}
+	.nav-submenu-item ul li a span{
+		background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png') no-repeat;
+		background-position: -94px -3149px; 
+		width: 80px;
+		height: 24px;
+		margin: 0 2px 0 0;
+		float: left;
+	}
+	.nav-submenu-item ul li.standard a span{
+		background-position: 0px -3149px;
+	}
+	.nav-submenu-item ul li.premium a span{
+		background-position: 0px -3191px;
+	}
+	.nav-submenu-item ul li.mamechiyo-kimono a span{
+		background-position: 0px -3232px;
+	}
+	.nav-submenu-item ul li.furisode-hanhaba a span{
+		background-position: 0px -5400px;
+	}
+	.nav-submenu-item ul li.furisode-fukuro a span{
+		background-position: 0px -5435px;
+	}
+	.nav-submenu-item ul li.men-kimono a span{
+		background-position: 0px -3274px;
+	}
+	.nav-submenu-item ul li.children-kimono a span{
+		background-position: -94px -3232px;
+	}
+	.nav-submenu-item ul li.couple a span{
+		background-position: 0px -3315px;
+	}
+	
+	body.tw .nav-submenu-item ul li.standard a span{
+		background-position: 0px -3580px;
+	}
+	body.tw .nav-submenu-item ul li.premium a span{
+		background-position: 0px -3618px;
+	}
+	body.tw .nav-submenu-item ul li.mamechiyo-kimono a span{
+		background-position: 0px -3654px;
+	}
+	body.tw .nav-submenu-item ul li.men-kimono a span{
+		background-position: 0px -3692px;
+	}
+	body.tw .nav-submenu-item ul li.couple a span{
+		background-position: 0px -3728px;
+	}
+
+	body.ru .nav-submenu-item ul li a span,
+	body.en .nav-submenu-item ul li a span,
+	body.vi .nav-submenu-item ul li a span,
+	body.tw .nav-submenu-item ul li a span,
+	body.ko .nav-submenu-item ul li a span,
+	body.th .nav-submenu-item ul li a span,
+	body.ms .nav-submenu-item ul li a span{
+		background: url('/wordpress/wp-content/themes/twentytwelve/images/icon/spriteme.png') no-repeat;
+		background-position: -155px -1686px;
+		background-size: initial !important;
+		height: 27px !important;
+		width: 50px !important;
+	}
+	body.ru .nav-submenu-item ul li.standard a span,
+	body.en .nav-submenu-item ul li.standard a span,
+	body.vi .nav-submenu-item ul li.standard a span,
+	body.tw .nav-submenu-item ul li.standard a span,
+	body.ko .nav-submenu-item ul li.standard a span,
+	body.th .nav-submenu-item ul li.standard a span,
+	body.ms .nav-submenu-item ul li.standard a span{
+		background-position: -98px -1647px;
+	}
+	body.ru .nav-submenu-item ul li.premium a span,
+	body.en .nav-submenu-item ul li.premium a span,
+	body.vi .nav-submenu-item ul li.premium a span,
+	body.tw .nav-submenu-item ul li.premium a span,
+	body.ko .nav-submenu-item ul li.premium a span,
+	body.th .nav-submenu-item ul li.premium a span,
+	body.ms .nav-submenu-item ul li.premium a span{
+		background-position: -98px -1688px;
+	}
+	body.ru .nav-submenu-item ul li.mamechiyo-kimono a span,
+	body.en .nav-submenu-item ul li.mamechiyo-kimono a span,
+	body.vi .nav-submenu-item ul li.mamechiyo-kimono a span,
+	body.tw .nav-submenu-item ul li.mamechiyo-kimono a span,
+	body.ko .nav-submenu-item ul li.mamechiyo-kimono a span,
+	body.th .nav-submenu-item ul li.mamechiyo-kimono a span,
+	body.ms .nav-submenu-item ul li.mamechiyo-kimono a span{
+		background-position: -98px -1729px;
+	}
+	body.en ru.nav-submenu-item ul li.men-kimono a span,
+	body.en .nav-submenu-item ul li.men-kimono a span,
+	body.vi .nav-submenu-item ul li.men-kimono a span,
+	body.tw .nav-submenu-item ul li.men-kimono a span,
+	body.ko .nav-submenu-item ul li.men-kimono a span,
+	body.th .nav-submenu-item ul li.men-kimono a span,
+	body.ms .nav-submenu-item ul li.men-kimono a span{
+		background-position: -98px -1770px;
+	}
+	body.en .nav-submenu-item ul li.children-kimono a span,
+	body.vi .nav-submenu-item ul li.children-kimono a span,
+	body.tw .nav-submenu-item ul li.children-kimono a span,
+	body.ko .nav-submenu-item ul li.children-kimono a span,
+	body.ru .nav-submenu-item ul li.children-kimono a span,
+	body.th .nav-submenu-item ul li.children-kimono a span,
+	body.ms .nav-submenu-item ul li.children-kimono a span{
+		background-position: -153px -1771px;
+	}
+	body.ru .nav-submenu-item ul li.couple a span,
+	body.en .nav-submenu-item ul li.couple a span,
+	body.vi .nav-submenu-item ul li.couple a span,
+	body.tw .nav-submenu-item ul li.couple a span,
+	body.ko .nav-submenu-item ul li.couple a span,
+	body.th.nav-submenu-item ul li.couple a span,
+	body.ms.nav-submenu-item ul li.couple a span{
+		background-position: -98px -1811px;
+	}
+	body.ru .nav-submenu-item ul li.furisode-hanhaba a span,
+	body.en .nav-submenu-item ul li.furisode-hanhaba a span,
+	body.vi .nav-submenu-item ul li.furisode-hanhaba a span,
+	body.tw .nav-submenu-item ul li.furisode-hanhaba a span,
+	body.ko .nav-submenu-item ul li.furisode-hanhaba a span,
+	body.th .nav-submenu-item ul li.furisode-hanhaba a span,
+	body.ms .nav-submenu-item ul li.furisode-hanhaba a span{
+		background-position: -97px -5476px;
+	}
+	body.ru .nav-submenu-item ul li.furisode-fukuro  a span,
+	body.en .nav-submenu-item ul li.furisode-fukuro  a span,
+	body.vi .nav-submenu-item ul li.furisode-fukuro  a span,
+	body.tw .nav-submenu-item ul li.furisode-fukuro  a span,
+	body.ko .nav-submenu-item ul li.furisode-fukuro  a span,
+	body.th .nav-submenu-item ul li.furisode-fukuro  a span,
+	body.ms .nav-submenu-item ul li.furisode-fukuro  a span{
+		background-position: -97px -5511px;
+	}
+}
+@media all and (min-width: 481px){
+	.nav-submenu-item.kimono-menu-custom br{
+		display: none;
+	}
+	.nav-submenu-item.kimono-menu-custom var{
+		top: auto;
+	}
+}
+@media all and (max-width: 480px){
+    #wrap-sub-menu{	
+        width: 90%;
+        height: auto;		
+    }	
+    #menu-close{
+        width: 10%;
+    }
+	
+	.no-scroll {
+		overflow-y: hidden;
+	}
+	
+	.nav-submenu-item ul li a,
+	.nav-submenu-item ul li a var{
+		font-size: 12px;
+	}
+	body.id .nav-submenu-item ul li a,
+	body.id .nav-submenu-item ul li a var,
+	body.ms .nav-submenu-item ul li a,
+	body.ms .nav-submenu-item ul li a var{
+		font-size: 10px;
+	}
+	body.id .nav-submenu-item ul li a var,
+	body.ms .nav-submenu-item ul li a var{
+		padding-right:26px;
+	}
+	body.ru .nav-submenu-item ul li a{
+		font-size: 10px;
+	}
+	.nav-item a{
+		font-size: 16px;
+	}
+	body.ru .nav-item a{
+		font-size: 14px;
+	}
+}
+@media all and (max-width: 320px){
+	
+	#btn-close-new{
+		background-size: 70%;
+		margin-top:0;
+	}
+	.nav-click i {
+		background:url(../images/arrow-r.png) no-repeat center center;
+		background-size: 90%;
+	}
+	.nav-submenu-item ul li a var,
+	.nav-submenu-item ul li a {
+		font-size: 8px !important;
+	  }
+	body.en .nav-submenu-item ul li a var,
+	body.vi .nav-submenu-item ul li a var,
+	body.tw .nav-submenu-item ul li a var,
+	body.en .nav-submenu-item ul li a,
+	body.vi .nav-submenu-item ul li a,
+	body.tw .nav-submenu-item ul li a{
+		font-size: 12px !important;
+	  }
+	body.en .nav-submenu-item ul li a{
+		font-size: 11px !important;
+	}
+	body.id .nav-submenu-item ul li a,
+	body.ms .nav-submenu-item ul li a{
+		font-size: 9px !important;
+	}
+	body.en .nav-submenu-item ul li a var{
+		font-size: 10px !important;
+	}
+	body.id .nav-submenu-item ul li a var,
+	body.ms .nav-submenu-item ul li a var{
+		font-size: 8px !important;
+	}
+	body.id .nav-submenu-item ul li a var,
+	body.ms .nav-submenu-item ul li a var{
+		padding-right: 25px;
+	}
+	body.vi .nav-submenu-item ul li a var,
+	body.vi .nav-submenu-item ul li a {
+		font-size: 11px !important;
+	}
+	body.cn .nav-submenu-item ul li a var,
+	body.cn .nav-submenu-item ul li a {
+		font-size: 11px !important;
+	}
+	.nav-item a {
+		font-size: 14px !important;
+	  }
+}
+@media only screen and (max-device-width : 480px) 
+and (orientation : landscape)
+{
+	.nav-submenu-item ul li a var {
+		font-size: 12px;
+	  }
+	body.id .nav-submenu-item ul li a var,
+	body.ms .nav-submenu-item ul li a var{
+		font-size: 10px;
+		padding-right:27px;
+	}
+	.nav-submenu-item ul li a {
+		font-size: 12px;
+	  }
+	.nav-item a {
+		font-size: 16px;
+	  }
+}
+
+/*-----------------------------------------------------------------------------*/
+/* taiwan menu */
+/*-----------------------------------------------------------------------------*/
+.tw ul.sub-menu.nav-submenu{
+	display: none;
+}
+#wrap-sub-menu ul#menu-headermenu-1 li{
+    border-top:1px solid #42153c;
+}
+#wrap-sub-menu ul#menu-headermenu-1 li a{
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#wrap-sub-menu ul#menu-headermenu-1.sub-menu > li > ul.sub-menu > li > a{
+	padding-left: 35px;
+	font-weight: normal;
+}

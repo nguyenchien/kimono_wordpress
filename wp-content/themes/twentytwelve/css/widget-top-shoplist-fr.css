@@ -1,0 +1,45 @@
+@media (min-width: 750px){
+    .top-shoplist-kyotostation-detail .list-shoplist-wg-other .item-shoplist-wg-other .item-sub-list-other{
+        height: 184px;
+    }
+    .top-shoplist-kyotostation-detail .list-shoplist-wg-other .item-shoplist-wg-other .item-sub-list-other:last-child{
+        height: 212px;
+    }
+    .top-shoplist-kyotostation .list-shoplist-wg-other .item-shoplist-wg-other .item-sub-list-other .link-shoplist-wg{
+        height: 171px;
+    }
+    .top-shoplist-kyotostation .list-shoplist-wg-other .item-shoplist-wg-other .item-sub-list-other:last-child .link-shoplist-wg{
+        height: 184px;
+    }
+    .top-shoplist-gion .list-shoplist-wg-other .item-shoplist-wg-other .item-sub-list-other .link-shoplist-wg{
+         height: 170px;
+     }
+    .top-shoplist-gion .list-shoplist-wg-other .item-shoplist-wg-other .item-sub-list-other:last-child .link-shoplist-wg{
+        height: 184px;
+    }
+    .top-shoplist-gion-detail .list-shoplist-wg-other .item-shoplist-wg-other .item-sub-list-other .link-shoplist-wg{
+        height: 155px;
+    }
+    .top-shoplist-gion-detail .list-shoplist-wg-other .item-shoplist-wg-other .item-sub-list-other:last-child .link-shoplist-wg{
+        height: 169px;
+    }
+    .top-shoplist-arashiyama .list-shoplist-wg-other .sub-list-other .item-sub-list-other .link-shoplist-wg {
+        height: 198px;
+    }
+    .top-shoplist-kiyomizu .widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other:first-child{
+        width: 40%;
+    }
+    .top-shoplist-kiyomizu .list-shoplist-wg-other .item-shoplist-wg-other:first-child .link-shoplist-wg{
+        height: 170px
+    }
+    .top-shoplist-kiyomizu-detail .list-shoplist-wg .item-shoplist-wg .text-shop-wg .title-shopname-wg,
+    .top-shoplist-kiyomizu-detail .sub-data-shoplist-wg .sub-item-shop-wg .link-shoplist-wg{
+        font-size: 10px;
+    }
+    .shoplist-other.top-shoplist-kiyomizu-detail .list-shoplist-wg-other .sub-list-other .item-sub-list-other .link-shoplist-wg {
+        height: 170px;
+    }
+    .shoplist-other.top-shoplist-arashiyama-detail .list-shoplist-wg-other .item-shoplist-wg-other.item-icon .link-shoplist-wg{
+        height: 169px;
+    }
+}

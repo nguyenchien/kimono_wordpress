@@ -1,0 +1,31 @@
+.right-new-shop-formal-v2 .list-step-date .note-date{
+    left: 20px;
+}
+.right-new-shop-formal-v2 .slider-gallery .slick-next:before{
+    transform: rotate(0deg);
+}
+.right-new-shop-formal-v2 .slider-gallery .slick-prev:before {
+    transform: rotate(0deg);
+}
+.right-new-shop-formal-v2 .slider-gallery .slick-prev:before, .slider-gallery .slick-next:before {
+    color: #ffffff;
+}
+.right-new-shop-formal-v2 .wrap-top-plan-circle-fm-v2 .wrap-review .intro .review-title {
+    font-size: 38px;
+}
+.right-new-shop-formal-v2 .des-intro-wargo {
+    font-size: 22px;
+}
+.right-new-shop-formal-v2 .des-intro-wargo-bottom {
+    font-size: 16px;
+}
+.right-new-shop-formal-v2 .ginza-honten .box-col-apa .col-apa .content-apa {
+    line-height: 2.2;
+}
+.right-new-shop-formal-v2 .wrap-top-plan-circle-fm-v2 .wrap-review .intro .text-des-top-plan{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.ginza-honten .box-col-apa{
+    height: auto!important;
+}

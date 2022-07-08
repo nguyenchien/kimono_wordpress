@@ -1,0 +1,284 @@
+
+/* 
+    Created on : Mar 29, 2016, 2:00:26 PM
+    Author     : dai huynh
+*/
+/*
+Pages apply: /homongi, kurotomesode, irotomesode, seijin, sotsugyou, shichigosan/
+*/
+.wrap-high-grade-plan .wrap-details-page{
+	margin-bottom: 10px;
+}
+.wrap-high-grade-plan .wrap-details-page .show-picture{
+	float: left;
+	width: 275px;
+	margin-right: 6px;
+}
+.wrap-high-grade-plan .wrap-details-page .show-picture img{
+	width: 275px;
+	height: auto;
+}
+.wrap-high-grade-plan .wrap-details-page .right-content-details{
+	float: left;
+	width: 679px;
+	border: 3px solid #4e0037;
+	box-sizing: border-box;
+	padding: 20px 40px 15px 30px;
+	background-color: #ece6eb;
+}
+.wrap-high-grade-plan .wrap-details-page .right-content-details .top-title{
+	margin-bottom: 15px;
+}
+.wrap-high-grade-plan .wrap-details-page .right-content-details .top-title h2{
+	 font-size: 45px;
+	 font-weight: bold;
+	 line-height: 1;
+	 margin-bottom: 15px;
+ }
+.wrap-high-grade-plan .wrap-details-page .right-content-details .top-title p.description{
+	font-size: 12px;
+	word-wrap: break-word;
+}
+.wrap-high-grade-plan .wrap-options-blue{
+	margin-bottom: 15px;
+}
+.wrap-high-grade-plan .wrap-options-blue .titles-blue p {
+	float: left;
+}
+.wrap-high-grade-plan .wrap-options-blue .titles-blue p.bold {
+	background-color: #323c8c;
+	width: auto;
+	padding: 0 10px;
+	height: 26px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	position: relative;
+	line-height: 30px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+}
+.wrap-high-grade-plan .wrap-options-blue .titles-blue p.brief {
+	margin: 0px 0 0 12px;
+	color: #ff0101;
+	font-size: 16px;
+	font-weight: bold;
+}
+.wrap-high-grade-plan .wrap-options-blue .titles-blue p.bold:after {
+	width: 7px;
+	height: 9px;
+	position: absolute;
+	content: " ";
+	background: url("../images/spriteme-sp.png") no-repeat;
+	background-size: 7px;
+	right: -7px;
+	bottom: -1px;
+	background-position: 0px -833px;
+}
+.wrap-high-grade-plan .wrap-options-blue .list-blue {
+	border: 2px solid #323c8c;
+	border-radius: 0 8px 8px 8px;
+	padding: 3px 0px 5px 25px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+.wrap-high-grade-plan .wrap-options-blue .list-blue ul{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-align-items: flex-end;
+	align-items: flex-end;
+}
+.wrap-high-grade-plan .wrap-options-blue .list-blue ul li{
+	text-align: center;
+	position: relative;
+}
+.wrap-high-grade-plan .wrap-options-blue .list-blue ul li .group-icon .icon-fa{
+	color: #323c8c;
+	font-size: 38px;
+	line-height: 1;
+	position: relative;
+	top:4px;
+}
+.wrap-high-grade-plan .wrap-options-blue .list-blue ul li:nth-child(2) .group-icon .icon-fa{
+	top:-5px;
+}
+.wrap-high-grade-plan .wrap-options-blue .list-blue ul li:nth-child(3),
+.wrap-high-grade-plan .wrap-options-blue .list-blue ul li:nth-child(4){
+	border-left: 2px dotted #323c8c;
+	padding-left: 30px;
+}
+.wrap-high-grade-plan .wrap-options-blue .list-blue ul li:nth-child(3) .group-icon .icon-fa,
+.wrap-high-grade-plan .wrap-options-blue .list-blue ul li:nth-child(4) .group-icon .icon-fa{
+	top:2px;
+}
+.wrap-high-grade-plan .wrap-options-blue .list-blue ul li:nth-child(1) .group-icon .icon-fa{
+	font-size: 45px;
+}
+.wrap-high-grade-plan .wrap-options-blue .list-blue ul li:nth-child(2) .group-icon .icon-fa{
+	font-size: 48px;
+}
+
+.wrap-high-grade-plan .wrap-options-blue .list-blue ul li .group-icon .text-shop{
+	color: #323c8c;
+	font-size: 17px;
+	line-height: 1.1;
+}
+.wrap-high-grade-plan .link-to-page{
+	text-align: right;
+}
+.wrap-high-grade-plan .link-to-page a{
+	background-color: #fca826;
+	padding: 0 50px 0 20px;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	display: inline-block;
+	font-size: 25px;
+	font-weight: bold;
+	position: relative;
+}
+.wrap-high-grade-plan .link-to-page a:before{
+	content: " ";
+	border-width: 10px;
+	border-style: solid;
+	position: absolute;
+	right: 5px;
+	top: 25%;
+	margin-left: 5px;
+	border-color: transparent  transparent transparent #fff;
+}
+/*--An Hiển shop and Link--*/
+.wrap-high-grade-plan .wrap-options-blue.pc,
+.wrap-high-grade-plan .link-to-page.pc{
+	display: block;
+}
+.wrap-high-grade-plan .wrap-options-blue.sp,
+.wrap-high-grade-plan .link-to-page.sp{
+	display: none;
+}
+@media (min-width: 768px) and (max-width: 959px){
+	.wrap-high-grade-plan{
+		padding: 0 7px;
+		box-sizing: border-box;
+		margin-bottom: 10px !important;
+	}
+	.wrap-high-grade-plan .wrap-details-page {
+		margin-bottom: 15px;
+	}
+	.wrap-high-grade-plan .wrap-details-page .show-picture{
+		width: 30%;
+		margin-right: 2%;
+	}
+	.wrap-high-grade-plan .wrap-details-page .right-content-details {
+		width: 68%;
+		padding: 15px;
+		box-sizing: border-box;
+	}
+	.wrap-high-grade-plan .wrap-options-blue .list-blue ul li .group-icon .text-shop {
+		font-size: 15px;
+	}
+	.wrap-high-grade-plan .wrap-options-blue .list-blue ul li:nth-child(3),
+	.wrap-high-grade-plan .wrap-options-blue .list-blue ul li:nth-child(4) {
+		padding-left: 18px;
+	}
+}
+@media (max-width: 767px){
+	/*--An Hiển shop and Link--*/
+	.wrap-high-grade-plan .wrap-options-blue.pc,
+	.wrap-high-grade-plan .link-to-page.pc{
+		display: none;
+	}
+	.wrap-high-grade-plan .wrap-options-blue.sp,
+	.wrap-high-grade-plan .link-to-page.sp{
+		display: block;
+	}
+	.wrap-high-grade-plan{
+		padding: 0 7px;
+		box-sizing: border-box;
+		margin-bottom: 10px !important;
+	}
+	.wrap-high-grade-plan .wrap-both{
+		padding: 9px;
+		box-sizing: border-box;
+		background-color: #f1ebf0;
+	}
+	.wrap-high-grade-plan .wrap-details-page {
+		margin-bottom: 15px;
+	}
+	.wrap-high-grade-plan .wrap-details-page .show-picture{
+		width: 40%;
+		margin-right: 2.5%;
+	}
+	.wrap-high-grade-plan .wrap-details-page .right-content-details {
+		width: 57%;
+		border: none;
+		box-sizing: border-box;
+		padding: 0;
+		background-color: transparent;
+	}
+	.wrap-high-grade-plan .wrap-details-page .right-content-details .top-title h2 {
+		font-size: 22px;
+		font-size: 7vw;
+		padding-top: 10px;
+		margin-bottom: 10px;
+	}
+	.wrap-high-grade-plan .wrap-details-page .right-content-details .top-title {
+		margin-bottom: 0;
+	}
+	.wrap-high-grade-plan .wrap-options-blue .list-blue ul li .group-icon .text-shop {
+		font-size: 14px;
+	}
+	.wrap-high-grade-plan .wrap-options-blue .list-blue ul li:nth-child(3),
+	.wrap-high-grade-plan .wrap-options-blue .list-blue ul li:nth-child(4) {
+		padding-left: 5%;
+	}
+	.wrap-high-grade-plan .link-to-page a {
+		display: block;
+		text-align: center;
+	}
+}
+@media (min-width: 320px) and (max-width: 479px){
+	.wrap-high-grade-plan .wrap-details-page .right-content-details .top-title p.description {
+		font-size: 10px;
+	}
+	.wrap-high-grade-plan .wrap-options-blue .list-blue {
+		padding: 3px 0px 5px 15px;
+	}
+	.wrap-high-grade-plan .wrap-options-blue .titles-blue p.bold {
+		font-size: 12px;
+	}
+	.wrap-high-grade-plan .wrap-options-blue .titles-blue p.brief {
+		font-size: 8px;
+		margin: 10px 0 0 5px;
+	}
+	.wrap-high-grade-plan .wrap-options-blue .list-blue ul li .group-icon .icon-fa {
+		font-size: 20px;
+	}
+	.wrap-high-grade-plan .wrap-options-blue .list-blue ul li:nth-child(1) .group-icon .icon-fa {
+		font-size: 24px;
+	}
+	.wrap-high-grade-plan .wrap-options-blue .list-blue ul li:nth-child(2) .group-icon .icon-fa {
+		font-size: 27px;
+	}
+	.wrap-high-grade-plan .wrap-options-blue .list-blue ul li:nth-child(3),
+	.wrap-high-grade-plan .wrap-options-blue .list-blue ul li:nth-child(4) {
+		padding-left: 4%;
+	}
+	.wrap-high-grade-plan .wrap-options-blue .list-blue ul li:nth-child(1) .group-icon .icon-fa,
+	.wrap-high-grade-plan .wrap-options-blue .list-blue ul li:nth-child(3) .group-icon .icon-fa,
+	.wrap-high-grade-plan .wrap-options-blue .list-blue ul li:nth-child(4) .group-icon .icon-fa {
+		top: 2px;
+	}
+	.wrap-high-grade-plan .wrap-options-blue .list-blue ul li:nth-child(2) .group-icon .icon-fa {
+		top: 0px;
+	}
+	.wrap-high-grade-plan .wrap-options-blue .list-blue ul li .group-icon .text-shop {
+		font-size: 8px;
+	}
+	.wrap-high-grade-plan .link-to-page a {
+		font-size: 20px;;
+	}
+}

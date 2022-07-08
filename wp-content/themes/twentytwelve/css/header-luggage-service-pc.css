@@ -1,0 +1,102 @@
+.title-general {
+    background-color: #4e0037;
+}
+.right-column-nimotsu{
+    margin-left: 10px;
+}
+.fixed-body {
+    overflow: hidden;
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9;
+    padding-bottom: 10px;
+}
+.wrap-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+.text-align-center{
+    text-align: center;
+}
+/*===Header===*/
+.wrap-nav{
+    background-color: #4e0037;
+    padding: 20px 0;
+}
+.list-menu .item{
+    margin-right: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.list-menu .item a{
+    color: #fff;
+}
+.title-lug{
+    font-size: 24px;
+    font-weight: bold;
+    color: #8d8502;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+.title-lug small{
+    font-size: 15px;
+    margin-left: 5px;
+}
+.wrap-des-lug{
+    font-size: 12px;
+}
+.des-lug{
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    line-height: 1.8;
+}
+
+.content-about-wargo:not(:last-child){
+    margin-bottom: 30px;
+}
+.wrap-about-wargo .wrap-content .box-icon{
+    width: 35%;
+    margin-right: 20px;
+}
+.wrap-about-wargo .wrap-content .box-content{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.wrap-logo-menu .logo{
+    text-align: left;
+}
+.wrap-logo-menu .logo img{
+    width: 70%;
+}
+.box-detail-service{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.wrap-grid-booking{
+    margin-bottom: 30px;
+}
+.wrap-choose-shop-modal .area-shop-list-item .wrap-shop-name-modal{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.wrap-shop-name-modal .shop-name-modal{
+    font-size: 16px;
+}
+.area-shop-list-item{
+    margin-bottom: 15px;
+}
+.wrap-choose-shop-modal .shop-list .shop-list-item{
+    margin-bottom: 0;
+}

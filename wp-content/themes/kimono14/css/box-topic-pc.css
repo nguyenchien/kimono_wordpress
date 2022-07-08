@@ -1,0 +1,14 @@
+.topics-title-top-page-title h2 span.ja {
+    font-size: 13px;
+}
+.wrap-topics{
+    flex-direction: inherit;
+    -webkit-flex-direction: inherit;
+    margin-left: -10px;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+.wrap-topics .topic-item{
+    width: calc(100% *(1/2) - 10px);
+    margin:0 0 10px 10px;
+}

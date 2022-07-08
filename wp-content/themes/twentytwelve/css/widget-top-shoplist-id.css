@@ -1,0 +1,23 @@
+@media (min-width: 750px){
+    .top-shoplist-kyotostation .sub-list-other .item-sub-list-other .text-des-shop-wg{
+        height: 28px;
+    }
+    .top-shoplist-gion .item-shoplist-wg-other .sub-list-other .text-des-shop-wg{
+        height: 30px;
+    }
+    .top-shoplist-kiyomizu .widget-top-shoplist .list-shoplist-wg-other .item-shoplist-wg-other:first-child{
+        width: 38%;
+    }
+    .top-shoplist-kiyomizu .list-shoplist-wg-other .item-shoplist-wg-other .item-sub-list-other .link-shoplist-wg{
+        height: 170px;
+    }
+    .top-shoplist-arashiyama .list-shoplist-wg-other .sub-list-other .item-sub-list-other .link-shoplist-wg {
+        height: 198px;
+    }
+    .top-shoplist-arashiyama .list-shoplist-wg-other .sub-list-other .item-sub-list-other  .text-shop-wg{
+        padding: 4px;
+    }
+    .top-shoplist-arashiyama-detail .item-shoplist-wg-other .sub-list-other .link-shoplist-wg{
+        height: 169px;
+    }
+}

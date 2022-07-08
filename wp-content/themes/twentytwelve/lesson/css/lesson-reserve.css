@@ -1,0 +1,378 @@
+.lesson-reserve-contact .container-padding{
+    padding: 0 10px;
+}
+.lesson-reserve-contact input, textarea, table{
+    width: 100%;
+    box-sizing: border-box;
+}
+.lesson-reserve-contact input[type="radio"]{
+    width: auto;
+    margin: 0;
+    position: relative;
+    top:3px;
+}
+.lesson-reserve-contact .banner{
+    margin: 10px 0;
+}
+.lesson-reserve-contact .description{
+    margin-bottom: 20px;
+}
+.lesson-reserve-contact .description h2{
+    color: #639589;
+    font-weight: bold;
+    font-size: 18px;
+    font-size: 5.5vw;
+    margin-bottom: 5px;
+}
+.lesson-reserve-contact .description p{
+    color: #639589;
+    font-size: 12px;
+    font-size: 3.7vw;
+}
+.lesson-reserve-contact .item{
+    margin-bottom: 20px;
+}
+.lesson-reserve-contact .item h3{
+    background-color:#b3cac4;
+    color: #fff;
+    font-size: 14px;
+    font-size: 4.5vw;
+    line-height:1.4;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.lesson-reserve-contact .item h3 .icon-fa{
+    line-height: 1;
+    font-size: 20px;
+    font-size: 6vw;
+    float: left;
+    margin-right: 5px;
+}
+.lesson-reserve-contact .item h3 var{
+    font-size: 9px;
+    font-size: 2.8vw;
+    margin-left: 5px;
+}
+.lesson-reserve-contact .wrap-button-lesson .link-more{
+    padding: 0;
+    float: none;
+}
+.wrap-button-lesson input[type="submit"]{
+    width: 100%;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-size: 5vw;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 10px;
+    line-height: 1;
+    font-weight: bold;
+}
+.lesson-reserve-contact .wrap-button-lesson .link-more:after{
+    top:30%;
+}
+/* .application-contact */
+.application-contact .wpcf7-list-item{
+    margin-right: 30px;
+}
+.application-contact .wpcf7-list-item.last{
+    margin-right: 0;
+}
+.application-contact .wpcf7-list-item span{
+    color: #000000;
+    font-size: 11px;
+}
+
+/* .hope-the-shop */
+.hope-the-shop .list-shop li{
+    border-bottom: 1px solid #c8c8c8;
+    padding: 10px 0;
+}
+.hope-the-shop .list-shop li:first-child{
+    padding-top: 5px;
+}
+.hope-the-shop .list-shop li:last-child{
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.hope-the-shop .text,
+.hope-the-shop .shops{
+    float: left;
+}
+.hope-the-shop .text{
+    width: 15%;
+    color: #c8c8c8;
+    font-size: 12px;
+    margin-top: 2px;
+}
+.hope-the-shop .shops{
+    width: 85%;
+}
+.hope-the-shop div.shop{
+    margin-bottom: 10px;
+}
+.hope-the-shop div.shop:last-of-type{
+    margin-bottom: -5px;
+}
+.hope-the-shop .shop input[type="radio"]{
+    position: relative;
+    top:-10px;
+}
+.hope-the-shop .shop .icon{
+    font-size: 26px;
+    color: #c8c8c8;
+    position: relative;
+    top:-5px;
+    margin: 0 5px;
+}
+.hope-the-shop .shop .icon.icon-icon-shinsaibashi-06,
+.hope-the-shop .shop .icon.icon-shop-08{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.hope-the-shop .shop .wpcf7-list-item-label{
+    display: none;
+}
+.hope-the-shop .shop .shop-name{
+    display: inline-block;
+    color: #000;
+    font-size: 11px;
+}
+
+/* .your-information */
+.your-information .form-input-sp{
+    display:block;
+}
+.your-information .form-input-pc{
+    display: none;
+}
+.your-information .form-input-sp li{
+    margin-bottom: 20px;
+}
+.your-information .form-input-sp .row input, textarea,
+.your-information .form-input-pc td input, textarea,
+.your-information .capcha input{
+    border-color: #c6d7d1;
+    padding: 5px;
+    width: 90%;
+}
+.your-information .form-input-sp .text,
+.your-information .form-input-pc td.bg-e0eae9,
+.your-information .capcha .text{
+    background-color: #e0eae9;
+    color: #639589;
+}
+.your-information .form-input-sp .text,
+.your-information .capcha .text{
+    font-size: 11px;
+    margin-bottom: 7px;
+    border: 1px solid #cdddda;
+    padding: 4px 10px;
+    box-sizing: border-box;
+}
+.your-information .form-input-sp .text span,
+.your-information .form-input-pc td.bg-e0eae9 span,
+.your-information .capcha .text span{
+    background-color: #e5789f;
+    color: #fff;
+    font-size: 9px;
+    border-radius: 5px;
+    padding: 1px 5px;
+    margin-left: 5px;
+    box-sizing: border-box;
+    line-height: 1;
+}
+.your-information .form-input-sp .row{
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.your-information .form-input-sp .row label{
+    color: #639589;
+    font-size: 12px;
+    display: block;
+}
+.your-information .capcha{
+    margin-bottom: 20px;
+}
+.your-information .capcha .text{
+    width: 45%;
+    margin-right: 5%;
+    float: left;
+}
+.your-information .capcha .tag-input{
+    width: 50%;
+    float: left;
+}
+.your-information .capcha input{
+    width: 75%;
+}
+.your-information .capcha .wpcf7-not-valid-tip{
+    display: block;
+}
+.lesson-reserve-contact .wpcf7-not-valid-tip{
+    font-size: 12px;
+}
+.lesson-reserve-contact .screen-reader-response{
+    visibility: hidden;
+}
+.lesson-reserve-contact .wpcf7-mail-sent-ok,
+.lesson-reserve-contact .wpcf7-validation-errors{
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 750px){
+    .lesson-reserve-contact .container-padding{
+        padding: 0 20px;
+    }
+    .lesson-reserve-contact .banner{
+        margin: 15px 0;
+    }
+    .lesson-reserve-contact .description h2{
+        font-size: 36px;
+    }
+    .lesson-reserve-contact .description p{
+        font-size: 15px;
+    }
+    .lesson-reserve-contact .item{
+        margin-bottom: 40px;
+    }
+    .lesson-reserve-contact .item h3{
+        font-size: 26px;
+        padding: 7px 10px;
+        margin-bottom: 20px;
+    }
+    .lesson-reserve-contact .item h3 var{
+        font-size: 20px;
+    }
+    .lesson-reserve-contact .item h3 .icon-fa{
+        font-size: 34px;
+        margin: 0 20px 0 10px;
+    }
+    .application-contact .wpcf7-list-item{
+        margin-right: 150px;
+    }
+    .lesson-reserve-contact input[type="radio"]{
+        top: 2px;
+    }
+    .application-contact .wpcf7-list-item span{
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    .hope-the-shop .text{
+        width: 7%;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 12px;
+    }
+    .hope-the-shop ul li:first-child .text{
+        margin-top: 20px;
+    }
+    .hope-the-shop .shops{
+        width: 93%;
+    }
+    .hope-the-shop div.shop{
+        float: left;
+        margin: 0 100px 0 0;
+        min-width: 234px;
+    }
+    .hope-the-shop .shop:last-child{
+        margin-right: 0;
+    }
+    .hope-the-shop .shop input[type="radio"]{
+        top:-8px;
+    }
+    .hope-the-shop .shop .icon{
+        font-size: 46px;
+        margin: 0 10px;
+        top: 4px;
+    }
+    .hope-the-shop .shop .icon.icon-icon-shinsaibashi-06{
+        font-size: 36px;
+    }
+    .hope-the-shop .shop .icon.icon-shop-08{
+        font-size: 40px;
+    }
+    .hope-the-shop .shop .shop-name{
+        font-size: 15px;
+    }
+
+    /* .your-information */
+    .your-information .form-input-sp{
+        display:none;
+    }
+    .your-information .form-input-pc{
+        display: block;
+        margin-bottom: 40px;
+    }
+    .your-information .form-input-pc td{
+        padding: 10px;
+        border: 1px solid #639589;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+    .your-information .form-input-pc td.bg-e0eae9{
+        width: 15%;
+    }
+    .your-information .form-input-pc td.tag-input{
+        width: 60%;
+        padding: 10px 20px;
+        box-sizing: border-box;
+    }
+    .your-information .capcha{
+        margin-bottom: 30px;
+    }
+    .your-information .capcha .text{
+        width: 20%;
+        margin-right: 0;
+        font-size: 16px;
+        border: none;
+        background-color: transparent;
+    }
+    .your-information .capcha .tag-input{
+        width: 80%;
+    }
+    .your-information .form-input-pc td.bg-e0eae9 span,
+    .your-information .capcha .text span{
+        font-size: 11px;
+        padding: 1px 8px;
+    }
+    .your-information .form-input-pc td input,
+    .your-information .capcha input{
+        padding: 7px;
+        box-sizing: border-box;
+    }
+    .your-information .form-input-pc td input{
+        width: 80%;
+    }
+    .your-information .form-input-pc td textarea{
+        width: 95%;
+        height: 130px;
+    }
+    .your-information .capcha input{
+        width: 50%;
+    }
+    .wrap-button-lesson input[type="submit"]{
+        font-size: 35px;
+        padding: 17px;
+    }
+    .lesson-reserve-contact .wrap-button-lesson .link-more:after{
+        border-left-width: 12px;
+        border-top-width: 12px;
+        border-bottom-width: 12px;
+        top:22px;
+        right: 20px;
+    }
+    .lesson-reserve-contact .wpcf7-mail-sent-ok,
+    .lesson-reserve-contact .wpcf7-not-valid-tip,
+    .lesson-reserve-contact .wpcf7-validation-errors{
+        font-size: 13px;
+    }
+    .lesson-reserve-contact .wpcf7-validation-errors{
+        color: #ff0000;
+    }
+}

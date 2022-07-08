@@ -1,0 +1,37 @@
+.plan-info .plan-desc{
+    font-size: 17px;
+}
+/*sendai-parco2*/
+.wrap-shop-intro.sendai-parco2 .intro-title {
+    font-size: 44px;
+}
+.wrap-top-plan-circle-fm-v2.sendai-parco2 .wrap-text-scene-above {
+    font-size: 28px;
+}
+.wrap-spots-shop-fm-v2.sendai-parco2 .title-big-spots {
+    font-size: 31px;
+}
+    /*kurashiki*/
+.wrap-spots-shop-fm-v2.kurashiki .title-big-spots {
+    font-size: 30px ;
+}
+.bg-light-orange-kurashiki .notes-bottom {
+    font-size: 16px;
+}
+/*===kamakura===*/
+.kamakura .plan-img .plan-name{
+    font-size: 33px;
+}
+.kamakura .plan-info .plan-desc {
+    font-size: 15px;
+}
+/*kanazawa*/
+.kanazawa .wrap-shop-intro .intro-title {
+    font-size: 43px;
+}
+.kanazawa .wrap-top-plan-circle-fm-v2.asakusa .wrap-text-scene-above {
+    font-size: 35px;
+}
+.kanazawa .wrap-spots-shop-fm-v2.asakusa .title-big-spots {
+    font-size: 24px;
+}

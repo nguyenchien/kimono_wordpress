@@ -1,0 +1,300 @@
+/*
+Created on : 24/10/2016, 8:22:00 AM
+Author : dai
+Links: /event/registration, ...
+*/
+
+.wrap-wg-registration{
+    width: 100%;
+}
+.banner-top-registration{
+    margin-bottom: 10px;
+}
+.banner-top-registration .banner-top-event{
+    margin-bottom: 10px;
+}
+.banner-top-registration .des{
+    font-size: 10px;
+    font-size: 3vw;
+}
+.banner-top-registration .des-reg-bottom{
+    padding: 15px 5px 0;
+    box-sizing: border-box;
+    width: 100%;
+    border-top: 1px dotted #956395;
+    margin: 10px 0 15px;
+}
+.banner-top-registration .des-reg-bottom ul.box-des-reg{
+    width: 100%;
+}
+.banner-top-registration .des-reg-bottom ul.box-des-reg li{
+    display: block;
+    margin-bottom: 15px;
+}
+.banner-top-registration .des-reg-bottom h3.title-reg{
+    background-color: #956395;
+    padding: 5px 5px 3px;
+    width: 50%;
+    margin-right: 2%;
+    float: left;
+    box-sizing: border-box;
+    color: #fff;
+    line-height: 1;
+    font-size: 18px;
+    text-align: center;
+    font-size: 5.5vw;
+    font-weight: bold;
+}
+.banner-top-registration .des-reg-bottom p.text-reg{
+    float: left;
+    width: 48%;
+}
+.banner-top-registration .des-reg-bottom p.text-reg .text-date,
+.banner-top-registration .des-reg-bottom p.text-reg .text-time{
+    display: block;
+    font-size: 13px;
+    font-size: 4vw;
+    line-height: 1;
+}
+.banner-top-registration .des-reg-bottom p.text-reg .text-date{
+    margin-bottom: 3px;
+    color: #e60000;
+    font-weight: bold;
+}
+.banner-top-registration .des-reg-bottom p.text-reg .text-time{
+    color: #000;
+}
+.banner-top-registration .des-reg-bottom h3.title-r{
+    color: #956395;
+    font-weight: bold;
+    font-size: 26px;
+    font-size: 8vw;
+    line-height: 1;
+    margin-bottom: 2px;
+}
+.banner-top-registration .des-reg-bottom p.des-r{
+    color: #956395;
+    font-size: 16px;
+    font-size: 5vw;
+}
+.banner-bottom-registration .map-area-reg{
+    background-color: #C7C7C7;
+    color: #000;
+    text-align: center;
+    height: 150px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+.banner-bottom-registration .area-info-reg .area-icon-reg{
+    width: 14%;
+    float: left;
+    margin-right: 2%;
+}
+.banner-bottom-registration .area-info-reg .area-icon-reg span.fa-icon.icon-icon-kamakura {
+    font-size: 55px;
+    font-size: 17vw;
+    left: -5px;
+    top: -5px;
+    display: flex;
+    display: -webkit-flex;
+    color: #723C6B;
+    position: relative;
+}
+.banner-bottom-registration .area-info-reg .info-reg {
+    float: left;
+    width: 84%;
+}
+.banner-bottom-registration .area-info-reg .info-reg h3 {
+    color: #723C6B;
+    font-weight: bold;
+    font-size: 15px;
+    font-size: 4.5vw;
+    line-height: 1;
+}
+.banner-bottom-registration .area-info-reg .info-reg h5 {
+    background-color: #723C6B;
+    font-size: 13px;
+    font-size: 3vw;
+    line-height: 1;
+    color: #fff;
+    padding: 3px 5px 1px;
+}
+.banner-bottom-registration .area-info-reg .info-reg p.text-reg {
+    font-size: 10px;
+    font-size: 3vw;
+}
+.banner-bottom-registration .area-info-reg .time,
+.banner-bottom-registration .area-info-reg  .info-bottom-reg{
+    clear: both;
+    width: 100%;
+}
+.banner-bottom-registration .area-info-reg{
+    margin-bottom: 20px;
+}
+.banner-bottom-registration .area-info-reg .time{
+    font-size: 10px;
+    font-size: 3vw;
+    font-weight: bold;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+.banner-bottom-registration .area-info-reg  .info-bottom-reg{
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+.banner-bottom-registration .area-info-reg  .info-bottom-reg p.top-text-reg {
+    background: url(../images/spriteme-sp.png) no-repeat;
+    background-size: 11px;
+    background-position: 0px -711px;
+    font-size: 8px;
+    font-size: 3vw;
+    padding: 8px 0 0 16px;
+    margin-bottom: 3px;
+}
+.banner-bottom-registration .area-info-reg  .info-bottom-reg p.bottom-text-reg {
+    font-size: 8px;
+    font-size: 3vw;
+}
+/*--thank you page--*/
+.event-page .content{
+    margin-bottom: 20px;
+    padding: 0 7px;
+    box-sizing: border-box;
+}
+.event-page .content .thanks{
+    margin-bottom: 15px;
+}
+.wrap-btn button.btn-thanks{
+    width: 100%;
+    background-color: #fca726;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+    font-size: 4vw;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1;
+    padding: 12px 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+.event-page .banner-top-registration .des-reg-bottom ul.box-des-reg li:last-child{
+    margin-bottom: 0;
+}
+@media (min-width: 750px){
+    .wrap-wg-registration{
+        width: 960px;
+        margin: 0 auto;
+    }
+    .banner-top-registration .des{
+        display: none;
+    }
+    .banner-top-registration .des-reg-bottom{
+        padding: 15px 0 10px;
+        border-top: none;
+        border-bottom: 1px dotted #956395;
+        margin: 10px 0 15px;
+    }
+    .banner-top-registration .des-reg-bottom ul.box-des-reg li{
+        display: inline-block;
+        margin-bottom: 0;
+        float: left;
+    }
+    .banner-top-registration .des-reg-bottom ul.box-des-reg li:first-child{
+        width: 400px;
+        margin-right: 30px;
+    }
+    .banner-top-registration .des-reg-bottom ul.box-des-reg li:last-child{
+        width: 525px;
+    }
+    .banner-top-registration .des-reg-bottom h3.title-reg{
+        padding: 6px 5px 0;
+        width: 100%;
+        margin: 0 0 10px;
+        float: none;
+        font-size: 33px;
+    }
+    .banner-top-registration .des-reg-bottom p.text-reg{
+        float: none;
+        width: 100%;
+    }
+    .banner-top-registration .des-reg-bottom p.text-reg .text-date,
+    .banner-top-registration .des-reg-bottom p.text-reg .text-time{
+        display: inline-block;
+        font-size: 20px;
+        float: left;
+    }
+    .banner-top-registration .des-reg-bottom p.text-reg .text-date{
+        margin-bottom: 3px;
+        color: #e60000;
+        font-weight: bold;
+    }
+    .banner-top-registration .des-reg-bottom p.text-reg .text-time{
+        color: #000;
+    }
+    .banner-top-registration .des-reg-bottom h3.title-r{
+        font-size: 43px;
+        margin-bottom: 2px;
+        color: #e62e8b;
+    }
+    .banner-top-registration .des-reg-bottom p.des-r{
+        font-size: 26px;
+        color: #e62e8b;
+    }
+    .banner-bottom-registration{
+        margin-bottom: 20px;
+    }
+    .banner-bottom-registration .map-area-reg{
+        height: 210px;
+        margin: 0;
+        width: 49%;
+        float: right;
+    }
+    .banner-bottom-registration .area-info-reg{
+        float: left;
+        width: 49%;
+        margin-right: 2%;
+    }
+
+    .banner-bottom-registration .area-info-reg .area-icon-reg span.fa-icon.icon-icon-kamakura {
+        font-size: 60px;
+        left: 0;
+    }
+    .banner-bottom-registration .area-info-reg .info-reg h3 {
+        font-size: 25px;
+    }
+    .banner-bottom-registration .area-info-reg .info-reg h5 {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+    .banner-bottom-registration .area-info-reg .time,
+    .banner-bottom-registration .area-info-reg  .info-bottom-reg{
+        clear: both;
+        width: 100%;
+    }
+    .banner-bottom-registration .area-info-reg .time{
+        font-size: 13px;
+    }
+    .banner-bottom-registration .area-info-reg .info-reg p.text-reg,
+    .banner-bottom-registration .area-info-reg  .info-bottom-reg p.top-text-reg,
+    .banner-bottom-registration .area-info-reg  .info-bottom-reg p.bottom-text-reg {
+        font-size: 12px;
+    }
+    /*--thank you page--*/
+    .event-page .content{
+        padding: 0;
+    }
+    .wrap-btn button.btn-thanks{
+        font-size: 24px;
+        padding: 18px 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 959px){
+
+}

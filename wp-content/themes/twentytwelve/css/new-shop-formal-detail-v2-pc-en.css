@@ -1,0 +1,255 @@
+/*lettter-spacing*/
+*{
+    letter-spacing: 0!important;
+}
+
+.wrap-btn-v2-map .btn-v2 .text-link{
+    line-height: 1;
+}
+.wrap-general-google-map-btn.asakusa .wrap-link-btn.otherlang .box-link-btn .link-to-btn{
+    font-size: 17px;
+}
+.wrap-link-btn.otherlang .box-link-btn .link-to-btn:after{
+    top: 24px;
+}
+/*Custom css for multilang*/
+.wrap-experience .ex-title{
+    font-size: 30px;
+}
+.wrap-blog-shop-fm-v2.asakusa{
+    margin-bottom: 70px;
+}
+.wrap-shop-intro .intro-title,
+.plan-info .plan-name{
+    font-size: 27px;
+}
+.wrap-shop-intro .intro-title:after{
+    right: -32px;
+}
+.wrap-shop-intro .intro-title:before {
+    left: -32px;
+}
+.wrap-top-plan-circle-fm-v2 .list-scene-v2 .item-scene-v2 .inside-circle .num-circle{
+    font-size: 19px;
+}
+.wrap-top-plan-circle-fm-v2 .list-scene-v2 .item-scene-v2.color-circle-03 .num-circle{
+    font-size: 21px;
+}
+.kurashiki .box-intro-bottom .title-intro-bottom{
+    font-size: 23px;
+}
+.list-option-new-shop-left{
+    -webkit-box-flex: 6;
+    -ms-flex: 6;
+    flex: 6;
+    margin-right: 20px;
+}
+.wrap-list-option-detail-new-1 .list-option-detail-new:first-child{
+    width: 375px;
+    margin-left: 0;
+}
+.wrap-list-option-detail-new-1 .list-option-detail-new:last-child{
+    width: 220px;
+}
+.wrap-list-option-detail-new-1 .otherlang.list-option-detail-new:last-child{
+    width: 310px;
+}
+.asakusa .list-option-detail-custom .otherlang.items-option-detail-new{
+    padding: 13px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.list-option-detail-new-machi .icon-arrow-r-link{
+    width: 90px;
+}
+.list-option-detail-new-machi .text-link{
+    font-size: 14px;
+}
+.plan-info .plan-intro{
+    font-size: 20px;
+}
+.wrap-btn-v2 .btn-v2 a,
+.wrap-btn-v2 .btn-v2-reserve,
+.content-reason .including-bottom a{
+    font-size: 16px;
+}
+.item-ginza-store .text-price-store{
+    font-size: 11px;
+}
+.plan-info .wrap-btn a{
+    width: 65%;
+}
+.btn-v2 .text-link{
+    padding-left: 24px;
+}
+.wrap-reason-choose-fm-v2.asakusa .wrap-reason-03-ginza-yukata .inner .price{
+    font-size: 80px;
+}
+.content-reason .title-including{
+    line-height: 1.5;
+}
+.wrap-scene-btn a{
+    line-height: 1.2;
+}
+.plan-info .plan-desc{
+    font-size: 16px;
+    line-height: 1.6;
+}
+.title-general-v2.title-general-v2-access .text-title-general-v2 .sub-text-title-v2{
+    font-size: 15px;
+}
+.content-reason .title-including .including-name{
+    font-size: 25px;
+}
+.wrap-blog-shop-fm-v2 .sub-item-info .link-to{
+    font-size: 14px;
+}
+.notes-bottom{
+    font-size: 13px;
+}
+.wrap-spots-shop-fm-v2.asakusa ul.list-content-spots .item-content-spots .text-content-spots .title-text{
+    line-height: 1.2;
+    padding-bottom: 10px;
+}
+.right-column-asakusa,
+.wrap-top-plan-circle-fm-v2 .list-scene-v2 .item-scene-v2 .inside-circle .num-circle{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*===Ginza honten===*/
+.right-new-shop-formal-v2 .wrap-top-plan-circle-fm-v2 .wrap-circle-top-plan .circle-top-plan{
+    font-size: 18px;
+}
+.right-new-shop-formal-v2 .wrap-top-plan-circle-fm-v2 .list-scene-v2 .item-scene-v2 .inside-circle .num-circle {
+    font-size: 20px;
+}
+.right-new-shop-formal-v2 .items-text-detail-new{
+    font-size: 11px;
+}
+.right-new-shop-formal-v2 .list-option-new-shop-second .items-text-detail-new{
+    font-size: 14px;
+}
+.right-new-shop-formal-v2 .wrap-plans-shop-fm-v2 .plan-text span{
+    min-width: 140px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 1.1;
+}
+.right-new-shop-formal-v2 .wrap-special-event-fm-v2 .info-event{
+    font-size: 16px;
+}
+.right-new-shop-formal-v2 .box-point-event .price-item .price{
+    font-size: 23px;
+}
+.right-new-shop-formal-v2 .box-point-event .title-point-price{
+    font-size: 15px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-new-shop-formal-v2 .wrap-list-info-r6-ginza .main-content .lg-text{
+    font-size: 30px;
+}
+.right-new-shop-formal-v2 .detail-link{
+    font-size: 14px;
+}
+.right-new-shop-formal-v2 .wrap-spots-shop-fm-v2 .title-big-spots{
+    font-size: 20px;
+}
+.right-new-shop-formal-v2 .des-intro-wargo {
+    font-size: 19px;
+}
+.right-new-shop-formal-v2 .list-step-date .note-date {
+    font-size: 12px;
+    top: -39px;
+}
+.right-new-shop-formal-v2 .box-howto-reserve.last .wrap-r-icon p {
+    top: 35px;
+}
+.right-new-shop-formal-v2 .box-howto-reserve .wrap-r-icon p {
+    font-size: 14px;
+    text-align: center;
+    top: 21px;
+}
+.right-new-shop-formal-v2 .wrap-btn-v2-ginza-shop .btn-v2 .text-link{
+    font-size: 16px;
+}
+.right-new-shop-formal-v2 .right-new-shop-formal-v2 .detail-link {
+    font-size: 13px;
+}
+.right-new-shop-formal-v2 .notes-bottom {
+    font-size: 12px;
+}
+.right-new-shop-formal-v2 .wrap-banner-photo-session .box-photo-sesstion .des-photo-session p {
+    line-height: 1.5;
+    font-size: 14px;
+}
+.right-new-shop-formal-v2 .box-r6 .intro {
+    font-size: 17px;
+}
+.right-new-shop-formal-v2 .box-r6 .box-title {
+    font-size: 16px;
+}
+.right-new-shop-formal-v2 .wrap-list-info-r6-ginza .main-content .sm-text {
+    font-size: 22px;
+}
+.right-new-shop-formal-v2 .box-howto-reserve .wrap-circle-link .circle-link .des-circle {
+    font-size: 14px;
+}
+.right-new-shop-formal-v2 .wrap-set-content-fm-v2.ginza-honten .right-text-set{
+    font-size: 11px;
+}
+.right-new-shop-formal-v2 .wrap-flow-delivery .group-step-flow .title-group-step{
+}
+.right-new-shop-formal-v2 .box-howto-reserve.last .wrap-r-icon p{
+    text-align: center;
+}
+.right-new-shop-formal-v2 .content-reason .title-including .including-name {
+    font-size: 23px;
+}
+.right-new-shop-formal-v2 .content-reason .including-info{
+    font-size: 17px;
+}
+.right-new-shop-formal-v2 .wrap-confidence .wrap-data-confidence .title-data-confidence{
+    font-size: 16px;
+}
+.right-new-shop-formal-v2 .wrap-top-plan-circle-fm-v2 .wrap-review .intro .review-title{
+    font-size: 33px;
+}
+.right-new-shop-formal-v2 .wrap-review .intro p{
+    margin-top: 5px;
+}
+.right-new-shop-formal-v2 .wrap-text-ju-sho{
+    font-size: 16px;
+}
+.right-new-shop-formal-v2 .box-point-event .price-item-min:before{
+    top: -7px;
+}
+.right-new-shop-formal-v2 .wrap-confidence .text-big-confidence .yellow{
+    font-size: 27px;
+}
+.right-new-shop-formal-v2 .inner .join {
+    font-size: 13px;
+    text-align: center;
+}
+.right-new-shop-formal-v2 .slider-gallery .slick-next:before{
+     transform: rotate(0deg);
+ }
+.right-new-shop-formal-v2 .slider-gallery .slick-prev:before {
+    transform: rotate(0deg);
+}
+.right-new-shop-formal-v2 .slider-gallery .slick-prev:before, .slider-gallery .slick-next:before {
+    color: #ffffff;
+}
+.right-new-shop-formal-v2 .wrap-spots-shop-fm-v2 .title-big-spots br{
+    display: none;
+}
+.right-new-shop-formal-v2 .ginza-honten .box-col-apa .col-apa .content-apa {
+    line-height: 2.2;
+}
+.ginza-honten .box-col-apa{
+    height: auto!important;
+}

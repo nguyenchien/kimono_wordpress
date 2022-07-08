@@ -1,0 +1,179 @@
+.padding-row{
+    padding: 0 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.sm-text-cp{
+    font-size: 11px;
+}
+.tt-blue-color{
+    color: #1B1464;
+}
+.tt-red-color{
+    color: #C1272D;
+}
+.tt-gold-color{
+    color: #A67C52;
+}
+.campaign-2019-sales .wrap-bg-current{
+    padding: 40px 0;
+}
+.campaign-2019-sales .title-cp-sales{
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+.campaign-2019-sales .title-cp-sales .text-lg{
+    color: #c1272D;
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.campaign-2019-sales .title-cp-sales .text-sm{
+    font-size: 35px;
+}
+.campaign-2019-sales .line-cp-title{
+    margin-bottom: 30px;
+}
+.campaign-2019-sales .line-cp-title img{
+    width: 100%;
+}
+.campaign-2019-sales .wrap-info-current{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+.campaign-2019-sales .wrap-bg-pattern{
+    background-image: url(../../../../../images/campaign-2019-sales/bg-pattern-cp.jpg);
+    background-size: contain;
+    width: 100%;
+    padding: 50px 0 100px;
+}
+.campaign-2019-sales .wrap-section-cp p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+.campaign-2019-sales .sub-title-cp{
+    margin-bottom: 20px;
+}
+.campaign-2019-sales .wrap-content-cp-sale .tt-blue-color,
+.campaign-2019-sales .wrap-content-cp-sale .tt-red-color,
+.campaign-2019-sales .wrap-content-cp-sale .tt-gold-color{
+    background-repeat: no-repeat;
+    background-size: 750px;
+    height: 120px;
+    text-align: center;
+    background-position: center;
+}
+.campaign-2019-sales .wrap-content-cp-sale .tt-blue-color{
+    background-image: url(../../../../../images/campaign-2019-sales/bg-subtitle-cp-01.svg);
+}
+.campaign-2019-sales .wrap-content-cp-sale .tt-red-color{
+    background-image: url(../../../../../images/campaign-2019-sales/bg-subtitle-cp-02.svg);
+}
+.campaign-2019-sales .wrap-content-cp-sale .tt-gold-color{
+    background-image: url(../../../../../images/campaign-2019-sales/bg-subtitle-cp-03.svg);
+}
+.campaign-2019-sales .wrap-content-cp-sale{
+    margin-bottom: 30px;
+    position: relative;
+}
+.campaign-2019-sales .wrap-content-cp-sale-girl .info-cp-sale{
+    width: 700px;
+}
+.campaign-2019-sales .wrap-content-cp-sale .wrap-img-girl{
+    position: absolute;
+    right: -70px;
+    top: -203px;
+}
+.campaign-2019-sales .wrap-content-cp-sale .wrap-img-girl img{
+    width: 245px;
+    height: 605px;
+}
+.campaign-2019-sales .wrap-content-cp-sale .sm-title p{
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 1;
+    position: relative;
+    top: 25px;
+}
+.campaign-2019-sales .wrap-content-cp-sale p{
+    line-height: 2;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.campaign-2019-sales .wrap-content-cp-sale .banner-cp-sale{
+    margin: 40px 0 70px;
+    padding: 0 50px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.campaign-2019-sales .wrap-content-cp-sale .banner-cp-sale img{
+    width: 100%;
+}
+.campaign-2019-sales .wrap-cp-number{
+    border: 1px solid #000;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 80px 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.campaign-2019-sales .wrap-cp-number .title-ct-number{
+    border-bottom: 1px solid #000;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 100%;
+}
+.campaign-2019-sales .wrap-cp-number .wrap-info-ct-num .icon-call{
+    margin-right: 30px;
+}
+.campaign-2019-sales .wrap-cp-number .wrap-info-ct-num .icon-call img{
+    width: 110px;
+}
+.campaign-2019-sales .wrap-cp-number .wrap-info-ct-num .info-call .call-num{
+    letter-spacing: 5px;
+    font-size: 60px;
+}
+.campaign-2019-sales .wrap-cp-number .wrap-info-ct-num .info-call .text-call{
+    letter-spacing: 3px;
+    font-size: 22px;
+}
+.campaign-2019-sales .wrap-btn-top-cp{
+    background-color: #B3B3B3;
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto 70px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.campaign-2019-sales .wrap-content-cp-sale .info-cp-sale .bold-lg{
+    font-weight: bold;
+    font-size: 20px;
+}
+.wrap-banner-bt-cp{
+    margin: 40px 0 60px
+}

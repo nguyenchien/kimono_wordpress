@@ -1,0 +1,125 @@
+.kimono-commemorative-photo .shop-instruction{
+    margin-bottom: 10px;
+}
+.kimono-commemorative-photo h2 {
+    background-color: #c81065;
+    width: 100%;
+    font-size: 44px;
+    font-family: Meiryo, arial;
+    line-height: 54px;
+    color: #fff;
+    font-weight: bold;
+    height: 54px;
+    padding-left: 55px;
+    box-sizing: border-box;
+}
+body.tw .kimono-commemorative-photo h2{
+    font-size: 30px;
+}
+.kimono-commemorative-photo h2.access{
+    padding-left:0;
+}
+.kimono-commemorative-photo h2.access span {
+    font-size: 14px;
+    line-height: 21px;
+    display: inline-block;
+    margin-left: 5px;
+}
+.kimono-commemorative-photo h2 span.icon-user {
+    display: inline-block;
+    float: left;
+    height: 52px;
+    width: 33px;
+    margin-right: 5px;
+    background-image: url(../../../../../images/icons/icon-access-child.png);
+    background-repeat: no-repeat;
+    background-position: 2px -110px;
+}
+.kimono-commemorative-photo .shop-instruction .map {
+    width: 513px;
+    height: 450px;
+    border: 4px solid #fff;
+    margin-right: 34px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    float:left;
+}
+.kimono-commemorative-photo .shop-instruction .instruction {
+    width: 405px;
+    margin-top: 8px;
+    float: right;
+    color: #444;
+    font-family: Meiryo, arial;
+}
+.kimono-commemorative-photo .shop-instruction .instruction p.title {
+    font-family: Meiryo, arial;
+    font-size: 16px;
+    line-height: 1.4;
+    padding-left: 25px;
+    margin-bottom: 5px;
+    text-align: left;
+    background: url('../images/spriteme-sp.png') no-repeat;
+    background-size: 20px;
+    display: inline;
+}
+.kimono-commemorative-photo .shop-instruction .instruction p.title.train {
+    background-position: 0px -1425px;
+}
+/*css smartphone*/
+@media only screen and (max-width: 959px) and (min-width: 768px) {
+    .kimono-commemorative-photo h2{
+        margin-bottom: 10px;
+    }
+    .kimono-commemorative-photo .shop-instruction .map{
+        height: 200px;
+    }
+    .kimono-commemorative-photo .shop-instruction .map,
+    .kimono-commemorative-photo .shop-instruction .instruction{
+        width: 100%;
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 10px;
+        border: 0;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .kimono-commemorative-photo .shop-instruction{
+        padding:0 7px;
+        box-sizing: border-box;
+    }
+    .kimono-commemorative-photo h2 {
+        font-size: 30px;
+        line-height: 45px;
+        height: 45px;
+        margin-bottom:10px;
+        padding-left: 35px;
+        background-size: 200px;
+    }
+    .kimono-commemorative-photo h2 span.icon-user {
+        height: 40px;
+        width: 34px;
+        background-position: 2px -82px;
+        background-size: 200px;
+    }
+    .kimono-commemorative-photo .shop-instruction .map {
+        width: 100%;
+        height: 200px !important;
+        margin-top: 8px;
+        box-sizing: border-box;
+        border: 0;
+        margin: 0;
+    }
+    .kimono-commemorative-photo .shop-instruction .instruction {
+        float: left!important;
+        width: 100%!important;
+        padding: 0 7px;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .kimono-commemorative-photo h2{
+        font-size: 20px;
+        height: 40px;
+    }
+}

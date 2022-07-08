@@ -1,0 +1,172 @@
+/*===Grid Booking===*/
+.wrap-reservation-status-fm-v2 .wrap-title-v2 {
+    margin-bottom: 0;
+}
+.wrap-reservation-status-fm-v2 .text-above-grid-booking {
+    font-size: 13px;
+    line-height: 1.8
+}
+.wrap-reservation-status-fm-v2 .wrap-choose-info .title-choose {
+    margin-bottom: 5px
+}
+.wrap-reservation-status-fm-v2 .wrap-choose-date .dropdown-choose-grid .text-date-choosed,
+.wrap-reservation-status-fm-v2 .wrap-choose-info .wrap-choose-date .box-dropdown {
+    width: 100%
+}
+.wrap-reservation-status-fm-v2 .new-reserve-status .des-notify {
+    font-size: 13px;
+    margin-top: 10px
+}
+.wrap-reservation-status-fm-v2 .wrap-choose-date .dropdown-choose-grid .text-date-choosed {
+    padding: 3px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid #909090;
+    background-color: #fff;
+}
+.wrap-reservation-status-fm-v2 .wrap-booking-content .wrap-choose-info {
+    padding: 0;
+    margin-bottom: 10px;
+    border-bottom: none
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner .paged #page-next:before,
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner .paged #page-pre:before {
+    width: 0;
+    height: 0;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    display: inline-block;
+    border-style: none;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    top: 0
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner .paged #page-pre {
+    padding-left: 17px;
+    font-size: 12px
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner .paged #page-next {
+    padding-right: 17px;
+    font-size: 12px
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner .paged #page-pre:before {
+    border-right: 12px solid #674e9f;
+    top: 3px
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner .paged #page-next:before {
+    border-left: 12px solid #674e9f;
+    top: 3px
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table,.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table td {
+    border: 1px solid #fff
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table .thead th{
+    background-color: #fff;
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table .thead td {
+    background-color: #b48c00;
+    border-right: 1px
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table .time-hour {
+    color: #909090;
+    font-size: 13px;
+    border-bottom: 1px solid #fff;
+    padding: 5px 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table .odd .time-hour {
+    background-color: rgba(180,140,0,.2)
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table .even .time-hour {
+    background-color: rgba(180,140,0,.35)
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table .price-follow-hour {
+    display: block;
+    border: none;
+    font-size: 9px!important;
+    background-color: #909090;
+    color: #fff;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 3px
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table .wday .price-follow-hour,
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table .sat .price-follow-hour,
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table .sun .price-follow-hour{
+    background-color: transparent !important;
+    border: 1px solid #fff !important;
+    line-height: 1.2 !important;
+    margin-top: 3px !important;
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table .price-follow-hour br {
+    display: none
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table td {
+    font-size: 11px
+}
+.wrap-reservation-status-fm-v2 .new-reserve-status .wrap-grid-booking-inner table td span {
+    font-size: 15px;
+    font-weight: 700
+}
+.wrap-reservation-status-fm-v2 .new-reserve-status .wrap-grid-booking-inner table .thead span {
+    font-size: 10px;
+    font-weight: 400
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table tbody .odd td {
+    background-color: rgba(180,140,0,.05)
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table tbody .even td {
+    background-color: rgba(180,140,0,.1)
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table .thead td.sat {
+    background-color: #3479b5;
+    color: #fff
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table .thead td.sun {
+    background-color: #d95417;
+    color: #fff
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table .thead td.sat,
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table .thead td.sun {
+    border-color: #fff
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table tbody td {
+    color: #595959
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table tbody tr.thead td {
+    color: #fff
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table tbody td.sat {
+    color: #3479b5
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table tbody td.sun {
+    color: #d95417
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table tbody .odd td.sat {
+    background-color: rgba(52,121,181,.05)
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table tbody .even td.sat {
+    background-color: rgba(52,121,181,.1)
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table tbody .odd td.sun {
+    background-color: rgba(217,84,23,.05)
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner table tbody .even td.sun {
+    background-color: rgba(217,84,23,.1)
+}
+.wrap-reservation-status-fm-v2 .wrap-grid-booking-inner .th-display-hour-wrapper {
+    color: #595959;
+    font-size: 13px
+}
+.wrap-btn-v2 .btn-v2-01 {
+    background-color: #f29544;
+}
+.wrap-reservation-status-fm-v2 .wrap-list-choose-shop{
+    display: none;
+}
+/*===End Grid booking===*/

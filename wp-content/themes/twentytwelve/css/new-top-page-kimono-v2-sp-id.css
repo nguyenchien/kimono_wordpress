@@ -1,0 +1,156 @@
+.right-column-top-v2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrap-text-des-logo .text-des-logo-wago,
+.section-plan-group .plan-info .wrap-btn a,
+.title-general-v2 .text-title-general-v2 .sub-text-title-v2,
+.section-faq-top .new-box-article-fm-maedori .box-faqs-item .text-faqs-title,
+.section-faq-top .new-box-article-fm-maedori .box-faqs-item-container .box-faqs-item-content,
+.section-column-spot .wrap-column-list .read-more,
+.box-intro-bottom .title-intro-bottom,
+.btn-link-v2 .link-to-v2,
+.wrap-list-spot-link-area .group-spot-link-area .spot-link-area,
+.wrap-list-spot-link-area .title-spot-link-area,
+.section-photo-instagram .wrap-title-slider-gallery .wrap-content-right .text-content-right,
+.wrap-title-ranking-number .title-number-ranking,
+.widget-top-shoplist-kimono-v2 .list-shoplist-wg .item-shoplist-wg .text-des-shop-wg,
+.section-column-spot .sub-title,
+.section-shop-list .list-shop-list .item .title,
+.title-general-new-style,
+.section-shop-list .list-shop-list .item-link-page .link-to-page a,
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-label-shop,
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-shop-wg .title-shopname-wg,
+.widget-top-shoplist .list-shoplist-wg-other .item-sub-list-other .text-shop-wg .title-shopname-wg,
+.sub-data-shoplist-wg .sub-item-shop-wg .link-shoplist-wg {
+    letter-spacing: 0;
+}
+.section-about-wargo .wrap-banner-tkh-new-kimono .des-banner-tkh,
+.section-news .wrap-news-formal .date-news,
+.section-news .wrap-news-formal .brief-news{
+    letter-spacing: 0!important;
+}
+.section-intro-top .box-intro-top .intro-title{
+    font-size: 14px;
+}
+.section-news .wrap-news-formal .date-news,
+.section-news .wrap-news-formal .brief-news{
+    font-size: 12px !important;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .text-label-shop{
+    font-size: 11px;
+    text-align: center;
+}
+.widget-top-shoplist .list-shoplist-wg .item-shoplist-wg .lg-label-shop.custom{
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+}
+.section-plan-group .plan-info .plan-name{
+    font-size: 21px;
+}
+.section-plan-group .plan-info .plan-name:before{
+    left: 0;
+}
+.section-plan-group .plan-info .plan-name:after{
+    right: 0;
+}
+.btn-link-v2 .link-to-v2{
+    font-size: 15px;
+}
+.title-main-spot-ranking{
+    font-size: 18px;
+}
+.sub-title-spot-ranking{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.wrap-title-ranking-number .title-number-ranking{
+    font-size: 19px;
+}
+.wrap-title-ranking-number .title-number-ranking.other{
+    font-size: 17px;
+}
+.wrap-des-spot-ranking .des-spot-ranking,
+.wrap-list-spot-link-area .sub-des-spot-link{
+    font-size: 11px;
+}
+.wrap-text-des-logo .text-des-logo-wago{
+    font-size: 15px;
+}
+.section-plan-group .wrap-descrition-plans p{
+    font-size: 14px;
+}
+.section-column-spot .title-main{
+    font-size: 16px;
+}
+.title-general-v2{
+    padding: 10px 20px 6px;
+}
+.title-general-v2 .text-title-general-v2 .en-text-title{
+    font-size: 19px;
+}
+.list-sec-banner-general{
+    margin-left: 0;
+}
+.list-sec-banner-general .item-sec-banner{
+    width: 100%;
+    margin: 0 0 10px;
+}
+.section-about-wargo .wrap-banner-tkh-new-kimono .des-banner-tkh,
+.section-plan-group .plan-info .plan-desc,
+.section-topics .list-sec-banner-general .item-sec-banner .des-sec-banner,
+.box-intro-bottom .des-intro-bottom,
+.section-column-spot .sub-title,
+.list-sec-banner-general .item-sec-banner .des-sec-banner,
+.section-intro-top .box-intro-top .des-intro{
+    font-size: 13px;
+    line-height: 1.6;
+}
+.section-plan-group .plan-info .wrap-btn a{
+    font-size: 15px;
+}
+.section-shop-list .list-shop-list .box-info .wrap-btn-shop-list{
+    padding: 4px 5px;
+    margin-right: 5px;
+}
+.section-shop-list .list-shop-list .box-info .wrap-btn-shop-list a p{
+    font-size: 9px;
+}
+.section-shop-list .list-shop-list .item .info p{
+    font-size: 10px;
+}
+.section-shop-list .list-shop-list .item .info-title{
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.box-intro-bottom .title-intro-bottom{
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.section-topics .list-sec-banner-general .item-sec-banner .link-page-banner img{
+    margin-bottom: 5px;
+}
+.section-faq-top .new-box-article-fm-maedori .box-faqs-item .text-faqs-title{
+    font-size: 13px;
+    padding: 9px 8px 9px 43px;
+}
+.section-faq-top .wrap-des-infor-faq-top .des-infor-faq-top{
+    font-size: 14px;
+}
+.section-faq-top .new-box-article-fm-maedori .box-faqs-item-container .box-faqs-item-content{
+    font-size: 12px;
+}
+.section-photo-instagram .wrap-title-slider-gallery .wrap-content-right{
+    height: 63px;
+}
+.section-photo-instagram .wrap-title-slider-gallery .wrap-content-right .text-content-right{
+    text-align: center;
+    top: -10px;
+}
+.wrap-list-spot-link-area .title-spot-link-area{
+    font-size: 17px;
+}

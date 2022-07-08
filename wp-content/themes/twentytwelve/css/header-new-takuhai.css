@@ -1,0 +1,30 @@
+.box-header .wrap-info .option-check{
+	margin-left: 15px;
+}
+.wrap-text-opt-chk-tkh p:first-child{
+	margin-bottom: 5px;
+}
+.box-header .option-check .list-opt-check .item-opt-check .icon {
+	font-size: 25px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.box-header .option-check .list-opt-check .item-opt-check .text-opt-check {
+	font-size: 17px;
+}
+@media (min-width: 750px){
+	.btn-top-search{
+		background-color: #ffff00;
+		outline: solid 1.5px #4e0037;
+		color: #4e0037;
+	}
+	.bottom-header .wrap-logo img {
+		width: 60%;
+	}
+	.bottom-header .wrap-languages{
+		-ms-flex-item-align: inherit;
+		-ms-grid-row-align: inherit;
+		align-self: inherit;
+	}
+}

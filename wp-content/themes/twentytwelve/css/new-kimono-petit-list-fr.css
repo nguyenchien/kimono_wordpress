@@ -1,0 +1,17 @@
+@media (max-width: 767px){
+    .wrap-choose-sl-wg-petit .wraper-sl{
+        width: 48%;
+    }
+    .wrap-choose-sl-wg-petit .wraper-sl .label-sl{
+        width: 68px;
+        font-size: 13px;
+    }
+    .wrap-choose-sl-wg-petit .wraper-sl .sl-choose-people{
+        font-size: 12px;
+    }
+}
+@media (min-width: 750px){
+    .wrap-choose-sl-wg-petit .wraper-sl .label-sl {
+        width: 85px;
+    }
+}

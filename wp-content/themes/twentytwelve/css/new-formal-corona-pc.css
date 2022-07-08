@@ -1,0 +1,119 @@
+.container-box > .wrap-column-content, .wrap-boths-column {
+    display: block;
+}
+.container-box > .wrap-column-content:after, .wrap-boths-column:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.wrap-boths-column .left-column {
+    float: left;
+    display: block;
+}
+.wrap-boths-column .right-column {
+    float: right;
+    display: block;
+    flex: unset;
+    margin-left:45px;
+}
+.cancelpolicy_of_coronavirus .wrap-header{
+    background-color: #c1a530;
+    padding: 25px;
+    font-size: 25px;
+    line-height: 2;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-family: "ten-mincho", serif;
+}
+.cancelpolicy_of_coronavirus .wrap-header .text-header {
+    line-height: 1.4;
+}
+.cancelpolicy_of_coronavirus .des-title-header{
+    font-size: 16px;
+    color: #282828;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: solid 2px #ddd;
+    letter-spacing: 1px;
+}
+.cancelpolicy_of_coronavirus .wrap-corona-virus hr{
+    margin-bottom: 40px;
+}
+.cancelpolicy_of_coronavirus .content-table + .content-table {
+    margin-top: 30px;
+}
+.cancelpolicy_of_coronavirus .wrap-content-corona .title-table{
+    font-size: 25px;
+    color: #5b5b5b;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-family: "ten-mincho", serif;
+}
+.cancelpolicy_of_coronavirus .wrap-table .header-table .text-header:first-child{
+    width: 245px;
+}
+.cancelpolicy_of_coronavirus .wrap-table .text-header{
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #fae3ce;
+    padding: 20px 6px;
+}
+.cancelpolicy_of_coronavirus .wrap-table td.text-header:first-child {
+    padding-left: 20px;
+}
+.cancelpolicy_of_coronavirus .wrap-table tr th{
+    font-weight: bold;
+}
+.cancelpolicy_of_coronavirus .wrap-table tr td, .wrap-table tr th{
+    border: 1px solid;
+}
+.cancelpolicy_of_coronavirus .wrap-table tr td:nth-child(2){
+    text-align: center;
+    width: 280px;
+    font-size: 16px;
+}
+.cancelpolicy_of_coronavirus .wrap-table tr td:nth-child(3){
+    padding: 25px 18px;
+    font-size: 16px;
+    width: 425px;
+}
+.cancelpolicy_of_coronavirus .wrap-table .text-note{
+    line-height: 1.5;
+}
+.cancelpolicy_of_coronavirus .wrap-table .text-red{
+    color: #b30000;
+}
+.cancelpolicy_of_coronavirus .table{
+    margin-bottom: 25px;
+}
+.intro-conrona{
+    font-size: 16px;
+    color: #282828;
+}
+.intro-conrona .text-red{
+    color: #b30000;
+}
+.intro-conrona .text-1,
+.intro-conrona .text-2{
+    margin-bottom: 30px;
+}
+/*== sidebar left ==*/
+.wrap-category .item-box-category .title-category {
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    border-bottom: 1px dashed #999;
+    padding: 10px
+}
+.wrap-category .list-box-category .item-box-category .title-category .text-category,
+.wrap-category .list-box-category .item-box-category .title-category a {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-weight: 700;
+}
+.list-box-category .item-box-category .title-category a {
+    color: #000;
+}

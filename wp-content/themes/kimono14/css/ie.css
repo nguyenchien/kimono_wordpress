@@ -1,0 +1,28 @@
+/*
+Styles for older IE versions (previous to IE9).
+*/
+
+/* TONA FIXED */
+p.tn-deskfone { line-height: 70px\9;}
+div.tn-contact-font p.tn-deskfone-ft { line-height: 70px\9; margin-top: 10px\9;}
+div.logo-footer h3.title_fttop span.num{ padding-top: 20px\9}
+.ie8 div.logo-footer h3.title_fttop span.num{ padding-top: 0px;}
+.ie7 div.logo-footer h3.title_fttop span.num{ padding-top: 0px;}
+ /* IE7, IE8 */
+.ie7 table.plan .hour .slot,
+.ie8 table.plan .hour .slot{
+    float: left;
+}
+
+/* 7ie */
+.ie7 div.box-logo{ width: 489px;}
+.ie7 div.menu-footermenu-container{
+    float: right;
+    height: 40px;
+}
+.ie7 ul.tn-link-footer li{
+    float: left;
+}
+
+.ie9 div.banner_mainform h1{ margin-top: 33px;}
+/* END TONA */

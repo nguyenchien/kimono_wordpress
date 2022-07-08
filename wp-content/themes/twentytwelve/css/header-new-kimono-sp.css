@@ -1,0 +1,117 @@
+/*=== Top header ===*/
+.top-header{
+    background-color: #3b002a;
+}
+.top-header .wrap-congress-store .top-text-cg-store {
+    color: #3b002a;
+}
+.wrap-toggle-menu {
+    width: 57px;
+    height: 50px;
+    background-color: #3b002a;
+}
+.wrap-toggle-menu .icon-toggle {
+    font-size: 38px;
+}
+.wrap-toggle-menu .text-menu {
+    font-size: 11px;
+}
+.bottom-header .wrap-logo img {
+    width: 97%;
+    margin-left: 3%;
+}
+.bottom-header .icon-choosed .add-num-cart {
+    background-color: #3b002a;
+    border: 1px solid #3b002a;
+}
+.bottom-header .wrap-cart-favorite {
+    -ms-flex-item-align: inherit;
+    -ms-grid-row-align: inherit;
+    align-self: inherit;
+}
+.box-header .visitor .left-vst .text-vst {
+    color: #feea60;
+    font-size: 24px;
+    margin-right: 2px;
+}
+body.en.th .box-header .visitor .left-vst .text-vst{
+    font-size: 18px;
+}
+/*=== Menu header ===*/
+.list-menu-new-kimono .item-menu-formal a {
+    padding: 10px 3px;
+}
+.fixed-header {
+    z-index: 999;
+}
+.wrap-title-list-cart{
+    background-color: #3b002a;
+}
+.list-cart-selected .content-list-cart.new-kimono .item-cart .person_count {
+    font-size: 12px;
+    color: #3d3d3d;
+}
+.list-cart-selected .content-list-cart.new-kimono .person_count .count-person {
+    margin-right: 3px;
+}
+.list-cart-selected .content-list-cart.new-kimono .item-cart {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.list-menu-formal .item-menu-formal.formal a,
+.list-menu-formal .item-menu-formal.tkh a{
+    position: relative;
+}
+.list-menu-formal .item-menu-formal a .bg-icon-new{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-size: 35px;
+    opacity: 0.4;
+}
+.list-menu-formal .item-menu-formal.formal a .bg-icon-new{
+    background-image: url(../../../../../images/new-kimono/icon-fm.svg);
+}
+.list-menu-formal .item-menu-formal.takuhai a .bg-icon-new{
+    background-image: url(../../../../../images/new-kimono/icon-tkh.svg);
+}
+.wrap-title-top-kimono.container-box{
+    padding: 0 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+.title-top-kimono{
+    font-size: 12px;
+}
+@media (max-width: 767px){
+    .top-header {
+        padding: 9px 5px;
+    }
+    .list-menu-formal .item-menu-formal.last-sp a {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .bottom-header {
+        height: 67px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .fixed-header {
+        border-bottom: 2px solid #3b002a;
+    }
+}
+
+@media not all and (min-resolution:.001dpcm) { @media {
+
+    .wrap-list-lang .qtranxs_language_chooser li a[title='Русский'] {
+        letter-spacing: -4px;
+    }
+}}

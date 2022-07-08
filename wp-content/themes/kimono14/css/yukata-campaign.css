@@ -1,0 +1,122 @@
+
+/* 
+    Created on : Mar 29, 2016, 2:00:26 PM
+    Author     : dai huynh
+*/
+/*
+Pages apply: /homongi, kurotomesode, irotomesode, seijin, sotsugyou, shichigosan/
+*/
+.dx-prefix-flex{
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	-webkit-align-content: space-between;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+.wrap-yukata-campaign .container-yukata-campaign{
+	width: 100%;
+}
+.wrap-yukata-campaign .container-padding{
+	width: 100%;
+	padding: 0 7px;
+	box-sizing: border-box;
+}
+h2.title-yukata-campaign{
+	background-color: #956395;
+	padding: 7px;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 15px;
+	font-size: 4vw;
+	font-weight: bold;
+	line-height: 1;
+	margin-bottom: 10px;
+}
+/*--display block and none--*/
+.wrap-yukata-campaign .wrap-banner-top img.pc,
+.wrap-yukata-campaign .how-to-use img.pc{
+	display: none;
+}
+.wrap-step-how-to-use img.sp{
+	margin-bottom: 10px;
+}
+.wrap-step-how-to-use img.sp.step-02{
+	margin-bottom: 0;
+}
+.wrap-button-yukata-campaign{
+	margin: 10px 0;
+}
+.wrap-button-yukata-campaign a.link-more{
+	display: block;
+	background-color: #fff;
+	color: #F9A523;
+	border: 2px solid #F9A523;
+	font-size: 20px;
+	font-size: 6vw;
+	font-weight: bold;
+	line-height: 1;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-bottom: 5px;
+	text-decoration: none;
+	position: relative;
+}
+.wrap-button-yukata-campaign a.link-more.bg-F9A523{
+	background-color: #F9A523;
+	color: #fff;
+}
+.wrap-button-yukata-campaign a.link-more:after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border-left: 10px solid #F9A523;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	position: absolute;
+	top: 32%;
+	right: 5px;
+}
+.wrap-button-yukata-campaign a.link-more.bg-F9A523:after{
+	border-left: 10px solid #fff;
+}
+@media (min-width: 750px){
+	.wrap-yukata-campaign .container-yukata-campaign{
+		width: 960px;
+		margin: 0 auto;
+	}
+	.wrap-yukata-campaign .container-padding{
+		padding: 0;
+	}
+	/*--display block and none--*/
+	.wrap-yukata-campaign .wrap-banner-top img.pc,
+	.wrap-yukata-campaign .how-to-use img.pc{
+		display: block;
+	}
+	.wrap-yukata-campaign .wrap-banner-top img.sp,
+	.wrap-yukata-campaign .how-to-use img.sp{
+		display: none;
+	}
+	h2.title-yukata-campaign{
+		font-size: 26px;
+		margin-bottom: 0;
+		margin-top: -7px;
+	}
+	.wrap-step-how-to-use{
+		margin-top: -12px;
+	}
+	.wrap-button-yukata-campaign a.link-more{
+		font-size: 35px;
+	}
+	.wrap-button-yukata-campaign a.link-more:last-child{
+		margin-right: 0;
+	}
+	.wrap-button-yukata-campaign a.link-more:after{
+		top: 19px;
+	}
+	.wrap-button-yukata-campaign a.link-more.bg-F9A523 {
+		width: 100%;
+	}
+}

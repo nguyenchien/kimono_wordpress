@@ -1,0 +1,252 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "new-formal-rental";
+  src:url("/wordpress/wp-content/themes/twentytwelve/css/font/new-formal-rental.eot");
+  src:url("/wordpress/wp-content/themes/twentytwelve/css/font/new-formal-rental.eot?#iefix") format("embedded-opentype"),
+    url("/wordpress/wp-content/themes/twentytwelve/css/font/new-formal-rental.woff") format("woff"),
+    url("/wordpress/wp-content/themes/twentytwelve/css/font/new-formal-rental.ttf") format("truetype"),
+    url("/wordpress/wp-content/themes/twentytwelve/css/font/new-formal-rental.svg#new-formal-rental") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "new-formal-rental" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-formal-"]:before,
+[class*=" icon-formal-"]:before {
+  font-family: "new-formal-rental" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-formal-checked:before {
+  content: "\61" !important;
+}
+.icon-formal-girl:before {
+  content: "\62" !important;
+}
+.icon-formal-globe:before {
+  content: "\63" !important;
+}
+.icon-formal-heart:before {
+  content: "\64" !important;
+}
+.icon-formal-search:before {
+  content: "\65" !important;
+}
+.icon-formal-shop-1:before {
+  content: "\66" !important;
+}
+.icon-formal-shop-2:before {
+  content: "\67" !important;
+}
+.icon-formal-shop-3:before {
+  content: "\68" !important;
+}
+.icon-formal-shop-4:before {
+  content: "\69" !important;
+}
+.icon-formal-shop-5:before {
+  content: "\6a" !important;
+}
+.icon-formal-shop-6:before {
+  content: "\6b" !important;
+}
+.icon-formal-shop-7:before {
+  content: "\6c" !important;
+}
+.icon-formal-shop-8:before {
+  content: "\6d" !important;
+}
+.icon-formal-shop-9:before {
+  content: "\6e" !important;
+}
+.icon-formal-shop-10:before {
+  content: "\6f" !important;
+}
+.icon-formal-shop-11:before {
+  content: "\70" !important;
+}
+.icon-formal-shop-14:before {
+  content: "\71" !important;
+}
+.icon-formal-shop-15:before {
+  content: "\72" !important;
+}
+.icon-formal-shop-16:before {
+  content: "\73" !important;
+}
+.icon-formal-wear:before {
+  content: "\74" !important;
+}
+.icon-formal-wear-courier:before {
+  content: "\75";
+}
+.icon-formal-wear-event:before {
+  content: "\76" !important;
+}
+.icon-formal-link-external:before {
+  content: "\78" !important;
+}
+.icon-formal-menu-toggle-close:before {
+  content: "\79" !important;
+}
+.icon-formal-menu-toggle-open:before {
+  content: "\7a" !important;
+}
+.icon-formal-status-booking-1:before {
+  content: "\41" !important;
+}
+.icon-formal-status-booking:before {
+  content: "\42" !important;
+}
+.icon-formal-shopping-cart:before {
+  content: "\43" !important;
+}
+.icon-formal-delete:before {
+  content: "\44" !important;
+}
+.icon-formal-filter-filled:before {
+  content: "\45" !important;
+}
+.icon-formal-howto:before {
+  content: "\47" !important;
+}
+.icon-formal-shopping-cart-2:before {
+  content: "\48" !important;
+}
+.icon-formal-calendar:before {
+  content: "\77" !important;
+}
+.icon-formal-shop-17:before {
+  content: "\46" !important;
+}
+.icon-formal-popup-close:before {
+  content: "\49" !important;
+}
+.icon-formal-arrow-back:before {
+  content: "\4a" !important;
+}
+.icon-formal-check-ok:before {
+  content: "\4c" !important;
+}
+.icon-formal-heart-2:before {
+  content: "\4b" !important;
+}
+.icon-formal-cancel:before {
+  content: "\4d" !important;
+}
+.icon-formal-warning:before {
+  content: "\4f" !important;
+}
+.icon-formal-contamination:before {
+  content: "\50" !important;
+}
+.icon-formal-truck:before {
+  content: "\4e" !important;
+}
+.icon-formal-crown:before {
+  content: "\57" !important;
+}
+.icon-formal-faqs:before {
+  content: "\58" !important;
+}
+.icon-formal-bag-sale:before {
+  content: "\53" !important;
+}
+.icon-formal-knowledge:before {
+  content: "\54" !important;
+}
+.icon-formal-staff-blog:before {
+  content: "\55" !important;
+}
+.icon-formal-heart-3:before {
+  content: "\56" !important;
+}
+.icon-formal-crown:before {
+  content: "\57" !important;
+}
+.icon-formal-faqs:before {
+  content: "\58" !important;
+}
+.icon-formal-faqs-2:before {
+  content: "\59" !important;
+}
+.icon-formal-phone:before {
+  content: "\5a" !important;
+}
+.icon-formal-recommend:before {
+  content: "\30" !important;
+}
+.icon-formal-checked-1:before {
+  content: "\31" !important;
+}
+.icon-formal-uncheck:before {
+  content: "\32" !important;
+}
+.icon-formal-news:before {
+  content: "\33" !important;
+}
+.icon-formal-camera:before {
+  content: "\34" !important;
+}
+.icon-formal-kimono:before {
+  content: "\35" !important;
+}
+.icon-formal-restaurant:before {
+  content: "\36" !important;
+}
+.icon-formal-message:before {
+  content: "\37" !important;
+}
+.icon-formal-grid-view-three:before {
+  content: "\51" !important;
+}
+.icon-formal-grid-view-two:before {
+  content: "\52" !important;
+}
+.icon-formal-cm-add:before {
+  content: "\38" !important;
+    font-size: 30px;
+}
+.icon-formal-cm-login:before {
+  content: "\39" !important;
+  font-size: 30px;
+}
+.icon-formal-cm-user-info:before {
+  content: "\21" !important;
+}
+.icon-formal-logout:before {
+  content: "\22" !important;
+}
+.icon-formal-mypage:before {
+  content: "\23" !important;
+}
+.icon-formal-logout:before {
+  content: "\22" !important;
+}
+.icon-formal-mypage:before {
+  content: "\23" !important;
+}
+.icon-formal-close-popup-yukata:before {
+  content: "\24" !important;
+}

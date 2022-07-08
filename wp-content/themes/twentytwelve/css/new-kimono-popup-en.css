@@ -1,0 +1,71 @@
+/*=== Kimono Popup EN ===*/
+.wrap-booking-flow-new-kimono .list-choosing li,
+.wrap-kimono-booking .shop-list-item .box-des-shop{
+    font-size: 12px;
+}
+.wrap-booking-flow-new-kimono .step-breadcrumb{
+    font-size: 14px;
+}
+.wrap-kimono-booking .shop-list-item .info-choose-shop{
+    font-size: 14px;
+    line-height: 1.2;
+}
+.list-choose-shop .item-choose-shop .area-shop-name{
+    font-size: 16px;
+}
+.wrap-booking-flow-new-kimono .wrap-plans-list-new-kimono{
+    padding: 0;
+}
+.wrap-booking-flow-new-kimono .notice-about-plans{
+    font-size: 12px;
+}
+.wrap-plans-list-new-kimono .wrap-plan-info {
+    padding: 15px 10px;
+}
+.wrap-plans-list-new-kimono .wg-webpirce-box .box-webprice {
+    padding: 2px 3px;
+    margin-right: 5px;
+}
+.wrap-plans-list-new-kimono .wg-webpirce-box .box-price .lg-pirce var {
+    font-size: 13px;
+}
+.wrap-plans-list-new-kimono .wg-webpirce-box .box-price .lg-pirce {
+    font-size: 28px;
+}
+.wrap-plans-list-new-kimono .wrap-choose-sl-wg .wraper-sl {
+    width: 100%;
+}
+.wrap-choose-sl-wg-child-popup .wraper-sl-g-b .box-sl-choose-g-b{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+@media (max-width: 360px){
+    .wrap-booking-flow-new-kimono .step-breadcrumb {
+        font-size: 12px;
+    }
+    .wrap-plans-list-new-kimono .wg-webpirce-box .box-price .lg-pirce {
+        font-size: 20px;
+    }
+    .wrap-grid-booking .btn-formal {
+        width: 100%;
+    }
+}
+@media (min-width: 750px){
+    .wrap-booking-flow-new-kimono .step-breadcrumb {
+        font-size: 16px;
+    }
+    .wrap-booking-flow-new-kimono .btn-link-step {
+        font-size: 13px;
+        font-weight: normal;
+    }
+    .wrap-kimono-booking .shop-list-item .info-choose-shop {
+        font-size: 16px;
+    }
+    .wrap-reserve-kimono .btn-formal{
+        font-size: 20px;
+    }
+    .wrap-plans-list-new-kimono .wrap-choose-sl-wg .wraper-sl-g-b .box-sl-choose-g-b:not(:last-child){
+        margin-right: 10px;
+    }
+}

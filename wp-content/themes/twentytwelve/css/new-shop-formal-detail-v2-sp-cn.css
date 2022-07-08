@@ -1,0 +1,44 @@
+.right-new-shop-formal-v2 .list-option-detail-new-machi .text-link {
+    font-size: 12px;
+    margin-left: -5px;
+}
+.right-new-shop-formal-v2 .list-step-date .note-date{
+    margin-left: 6px;
+}
+.right-new-shop-formal-v2 .wrap-buttons.flexbox {
+    flex-direction: column;
+}
+.right-new-shop-formal-v2 .box-howto-reserve .group-icon .wrap-r-icon p{
+    top: 15px;
+}
+.right-new-shop-formal-v2 .wrap-flow-delivery .text-flow-deivery p {
+    font-size: 11px;
+}
+.right-new-shop-formal-v2 .wrap-top-plan-circle-fm-v2 .wrap-review .intro .review-title {
+    font-size: 25px;
+}
+.right-new-shop-formal-v2 .des-intro-wargo {
+    font-size: 15px;
+}
+.right-new-shop-formal-v2 .des-intro-wargo-bottom {
+    font-size: 14px;
+}
+.right-new-shop-formal-v2 .wrap-plans-shop-fm-v2 .plan-text span{
+    font-size: 13px;
+}
+.right-new-shop-formal-v2 .slider-gallery .slick-next:before{
+    transform: rotate(0deg);
+    color: #ffffff;
+}
+.right-new-shop-formal-v2 .slider-gallery .slick-prev:before{
+    transform: rotate(0deg);
+}
+.right-new-shop-formal-v2 .ginza-honten .box-col-apa .col-apa .content-apa {
+    line-height: 2;
+}
+.ginza-honten .box-col-apa {
+    height: 700px!important;
+}
+.ginza-honten .box-col-apa .col-apa .content-apa {
+    margin: 90px 0!important;
+}

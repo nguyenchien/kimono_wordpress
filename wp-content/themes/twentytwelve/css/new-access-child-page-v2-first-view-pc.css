@@ -1,0 +1,459 @@
+@keyframes placeHolderShimmer{
+    0%{
+        background-position: -468px 0
+    }
+    100%{
+        background-position: 468px 0
+    }
+}
+.main-banner-top-page {
+    min-height: 380px;
+    background: url('../../../../../images/loading.gif') no-repeat center center #eee;
+}
+.main-banner-top-page.imagesLoaded {
+    min-height: unset;
+    background: unset !important;
+}
+.main-banner-top-page.imagesLoaded img {
+    opacity: 1;
+}
+.main-banner-top-page + article {
+    opacity: 0;
+}
+.main-banner-top-page.imagesLoaded + article {
+    opacity: 1;
+}
+.hidden-sidebar, .pc {
+    display: block;
+}
+.sp {
+    display: none;
+}
+.right-column-asakusa .new-access-child-page {
+    padding-left:0;
+}
+/**/
+* {
+    min-height: 0;
+    min-width: 0;
+}
+.banner-top-highend-v2:not(.for-bottom){
+    min-height: 300px;
+    background: url('../../../../../images/loading.gif') no-repeat center center #eee;
+}
+.banner-top-highend-v2.imagesLoaded {
+    min-height: unset;
+    background: unset !important;
+}
+.wrap-new-main-banner-access.full-width{
+    margin-bottom: 40px;
+}
+.right-column-asakusa{
+    margin-left: 65px;
+}
+.shop-info{
+    margin-bottom: 40px;
+}
+.shop-info .main-image{
+    margin-bottom: 10px;
+}
+.kurashiki .shop-info .main-image,
+.shinjuku-station .shop-info .main-image{
+    margin-bottom: 0;
+}
+.wrap-top-plan-circle-fm-v2.asakusa .wrap-text-scene-above{
+    font-size: 32px;
+    font-weight: bold;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.wrap-top-plan-circle-fm-v2 .wrap-scene-btn{
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.wrap-scene-btn a{
+    width: 230px;
+    background: url(../../../../../images/new-kimono/access/bg-btn-bubble.svg) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    font-size: 29px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 140px;
+}
+.wrap-top-plan-circle-fm-v2.kamakura .wrap-scene-btn a{
+    background: url(../../../../../images/new-kimono/access/bg-btn-bubble-kamakura.svg) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+.wrap-top-plan-circle-fm-v2.kanazawa .wrap-scene-btn a{
+    background: url(../../../../../images/new-kimono/access/bg-btn-bubble-kanazawa.svg) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+.wrap-top-plan-circle-fm-v2.kurashiki .wrap-scene-btn a{
+    background: url(../../../../../images/new-kimono/access/bg-btn-bubble-kurashiki.svg) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+.wrap-top-plan-circle-fm-v2.shinjuku-station .wrap-scene-btn a{
+    background: url(../../../../../images/new-kimono/access/bg-btn-bubble-shinjuku.svg) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+.wrap-top-plan-circle-fm-v2.sapporo-susukinostation .wrap-scene-btn a{
+    background: url(../../../../../images/new-kimono/access/bg-btn-bubble-sapporo.svg) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+.wrap-scene-btn a:not(:last-child){
+    margin-right: 60px;
+}
+/* Button */
+.wrap-btn-v2 .btn-v2-asakusa{
+    background-color: #F29544;
+}
+.wrap-btn-v2 .btn-v2-kamakura,
+.wrap-btn-v2 .btn-v2-01.btn-v2-01-kamakura,
+.wrap-btn-v2 .btn-v2-01.bg-ginza-kamakura,
+.wrap-btn-v2 .btn-v2-01.btn-v2-kamakura{
+    background-color: #c17954;
+}
+.wrap-btn-v2 .btn-v2-kanazawa,
+.wrap-btn-v2 .btn-v2-01.btn-v2-01-kanazawa,
+.wrap-btn-v2 .btn-v2-01.bg-ginza-kanazawa,
+.wrap-btn-v2 .btn-v2-01.btn-v2-kanazawa{
+    background-color: #a5ae33;
+}
+.wrap-btn-v2 .btn-v2-kurashiki,
+.wrap-btn-v2 .btn-v2-01.btn-v2-01-kurashiki,
+.wrap-btn-v2 .btn-v2-01.bg-ginza-kurashiki,
+.wrap-btn-v2 .btn-v2-01.btn-v2-kurashiki{
+    background-color: #33b699;
+}
+.wrap-btn-v2 .btn-v2-shinjuku-station,
+.wrap-btn-v2 .btn-v2-01.btn-v2-01-shinjuku-station,
+.wrap-btn-v2 .btn-v2-01.bg-ginza-shinjuku-station,
+.wrap-btn-v2 .btn-v2-01.btn-v2-shinjuku-station{
+    background-color: #d84d96;
+}
+.wrap-btn-v2 .btn-v2-sendai-parco2,
+.wrap-btn-v2 .btn-v2-01.btn-v2-01-sendai-parco2,
+.wrap-btn-v2 .btn-v2-01.bg-ginza-sendai-parco2,
+.wrap-btn-v2 .btn-v2-01.btn-v2-sendai-parco2{
+    background-color: #00A7B0;
+}
+.wrap-btn-v2 .btn-v2-sapporo-susukinostation,
+.wrap-btn-v2 .btn-v2-01.btn-v2-01-sapporo-susukinostation,
+.wrap-btn-v2 .btn-v2-01.bg-sapporo-susukinostation,
+.wrap-btn-v2 .btn-v2-01.btn-v2-sapporo-susukinostation{
+    background-color: #535FA3;
+}
+.btn-v2-asakusa .pattern:before {
+    border-color: #dac680 transparent transparent transparent;
+}
+.btn-v2-asakusa.btn-v2-kurashiki .pattern:before,
+.btn-v2-kurashiki .pattern:before{
+    border-color: #f6eca5 transparent transparent transparent;
+}
+.btn-v2-asakusa .pattern:after {
+    border-color: transparent transparent transparent #b3a6cf;
+}
+.btn-v2-asakusa.btn-v2-kurashiki .pattern:after,
+.btn-v2-kurashiki .pattern:after{
+    border-color: transparent transparent transparent #99c4e9;
+}
+.wrap-btn-v2-asakusa .btn-v2:last-child{
+    margin-left: 0;
+}
+.wrap-btn-v2-asakusa .btn-v2 .text-link{
+    font-weight: bold;
+}
+.wrap-sidebar-products-pkr-fm-v2 .wrap-btn-v2-ginza .text-link{
+    padding-left: 30px;
+}
+.shinjuku-station .wrap-grid-booking-access .wrap-btn-v2:first-child,
+.kanazawa .wrap-grid-booking-access .wrap-btn-v2:first-child,
+.kurashiki .wrap-grid-booking-access .wrap-btn-v2:first-child{
+    margin-right: 15px;
+}
+.shinjuku-station .wrap-grid-booking-access .btn-shinjuku-custom .btn-v2-shinjuku-station .text-link,
+.sapporo-susukinostation .wrap-grid-booking-access .btn-shinjuku-custom.sapporo-susukinostation .btn-v2-sapporo-susukinostation .text-link,
+.sendai-parco2 .wrap-grid-booking-access .btn-shinjuku-custom.sendai-parco2 .btn-v2-sendai-parco2 .text-link,
+.kanazawa .wrap-grid-booking-access .btn-shinjuku-custom .btn-v2-kanazawa .text-link,
+.kurashiki .wrap-grid-booking-access .btn-shinjuku-custom .btn-v2-kurashiki .text-link{
+    padding-left: 0;
+}
+/*Shop intro*/
+.wrap-shop-intro{
+    margin-bottom: 50px;
+}
+.wrap-shop-intro .intro-title{
+    font-weight: bold;
+    font-size: 39px;
+    display: table;
+    margin: 0 auto 30px auto;
+    text-align: center;
+    position: relative;
+}
+.wrap-shop-intro-kurashiki .intro-title{
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+.wrap-shop-intro.wrap-shop-intro-sapporo .intro-title{
+    font-size: 34px;
+}
+.wrap-shop-intro .intro-title:before,
+.wrap-shop-intro .intro-title:after{
+    position: absolute;
+    content: '';
+    background: url('../../../../../images/new-kimono/access/flower-pt.svg') no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    top: -16px;
+}
+.kamakura .wrap-shop-intro .intro-title:before,
+.kamakura .wrap-shop-intro .intro-title:after{
+    background: url('../../../../../images/new-kimono/access/flower-pt-kamakura.svg') no-repeat;
+}
+.kanazawa .wrap-shop-intro .intro-title:before,
+.kanazawa .wrap-shop-intro .intro-title:after{
+    background: url('../../../../../images/new-kimono/access/flower-pt-kanazawa.svg') no-repeat;
+}
+.kurashiki .wrap-shop-intro .intro-title:before,
+.kurashiki .wrap-shop-intro .intro-title:after{
+    background: url('../../../../../images/new-kimono/access/flower-pt-kurashiki.svg') no-repeat;
+}
+.shinjuku-station .wrap-shop-intro .intro-title:before,
+.shinjuku-station .wrap-shop-intro .intro-title:after{
+    background: url('../../../../../images/new-kimono/access/flower-pt-shinjuku.svg') no-repeat;
+}
+.sapporo-susukinostation .wrap-shop-intro .intro-title:before,
+.sapporo-susukinostation .wrap-shop-intro .intro-title:after{
+    background: url('../../../../../images/new-kimono/access/flower-pt-sapporo.svg') no-repeat;
+}
+.wrap-shop-intro .intro-title:before{
+    left: -85px;
+}
+.shinjuku-station .wrap-shop-intro .intro-title:before{
+    left: -34px;
+    z-index: -9999;
+}
+.sapporo-susukinostation .wrap-shop-intro-sapporo .intro-title:before{
+    left: -50px;
+}
+.wrap-shop-intro .intro-title:after{
+    right: -85px;
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.shinjuku-station .wrap-shop-intro .intro-title:after{
+    right: -34px;
+    z-index: -9999;
+}
+.sapporo-susukinostation .wrap-shop-intro-sapporo .intro-title:after{
+    right: -42px;
+}
+.wrap-shop-intro p{
+    line-height: 1.8;
+    font-size: 18px;
+}
+.top-shop .shop-info .shop-has-slide  {
+    height:0;
+    overflow: hidden;
+}
+.top-shop .shop-info.imagesLoaded .shop-has-slide {
+    height:auto;
+}
+/*== sidebar ==*/
+.title-general {
+    background-color: #4e0037;
+    color: #fcfbe0;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 12px 10px;
+    width: 100%;
+    font-family: Georgia,serif;
+    font-style: italic;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-general .sub-text-title {
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    padding-bottom: 6px;
+    font-size: 10px;
+    line-height: 1.3;
+    font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3",Arial,"Hiragino Kaku Gothic Pro","Lucida Grande",Verdana,"ＭＳ Ｐゴシック","MS PGothic",sans-serif
+}
+
+.title-general .sub-text-title-new {
+    text-align: left;
+    max-width: 140px;
+}
+
+.title-general .sub-text-title-new.shoplist-tt {
+    max-width: 70px;
+    padding-bottom: 0
+}
+.title-list, .title-step-booking {
+    font-family: "Noto Sans JP", メイリオ, Meiryo, "ヒラギノ角ゴ Pro W3", Arial, "Hiragino Kaku Gothic Pro", "Lucida Grande", Verdana, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;    padding: 10px;
+    font-size: 24px;
+    color: #fff;
+    font-style: normal;
+}
+.title-general-icon {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+.title-general-icon .icon {
+    font-size: 25px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.title-general .icon-title-general, .title-step-booking .icon-title-step-booking {
+    margin-right: 15px;
+    display: -webkit-box;
+    display: flex;
+    display: -ms-flexbox;
+}
+.toggle-icon-arrow:after {
+    display: inline-block;
+    position: relative;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    border-right: 3px solid rgba(253,252,225,1);
+    border-bottom: 3px solid rgba(253,252,225,1);
+    -webkit-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+.title-general.active .toggle-icon-arrow:after{
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.wrap-new-kimono-sidebar-left .item-box-category .price-sidebar-left {
+    color: #ff0000;
+    font-size: 16px;
+}
+.wrap-category {
+    margin-bottom: 10px
+}
+.wrap-category .list-box-category .item-box-category {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.wrap-category .item-box-category .title-category {
+    color: #6b7a83;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    border-bottom: 1px dashed #999;
+    padding: 7px 5px 7px 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 51px;
+}
+.wrap-category .item-box-category.text-shoplist-category-kimono .title-category {
+    border-bottom: none
+}
+.wrap-category .list-box-category .item-box-category .title-category .text-category,.wrap-category .list-box-category .item-box-category .title-category a {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-weight: 700
+}
+
+.wrap-category .list-box-category .item-box-category .title-category .text-category {
+    margin-left: 10px
+}
+.wrap-category .item-box-category .title-category:hover {
+    background-color: #ff0;
+}
+.wrap-category .list-box-category .item-box-category .title-category a {
+    color: #5c5c5c;
+    font-size: 14px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.wrap-category .list-box-category .item-box-category .sub-cates {
+    display: none
+}
+.wrap-category .list-box-category .item-box-category .title-category var {
+    font-size: 11px;
+    font-style: normal;
+    margin-left: 3px
+}
+
+.wrap-category .list-box-category .item-box-category .title-category .wrap-arrow {
+    width: 30px;
+    height: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+
+.wrap-category .list-box-category .item-box-category .title-category .arrow {
+    content: "";
+    right: 0;
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    border-right: 1px solid #5c5c5c;
+    border-bottom: 1px solid #5c5c5c;
+    cursor: pointer;
+    margin-right: 5px
+}
+.wrap-category .list-box-category .item-box-category .title-category-single .arrow,.wrap-category.scene .item-box-category.active .title-category .arrow {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg)
+}

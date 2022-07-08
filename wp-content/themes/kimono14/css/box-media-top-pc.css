@@ -1,0 +1,19 @@
+.box-media-top {
+    margin-bottom: 20px;
+}
+.box-media-top .content {
+    padding: 0;
+}
+.box-media-top .content ul {
+    margin-left: -15px;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+.box-media-top .content ul li {
+    width: calc(100% *(1/2) - 15px);
+    margin-left: 15px;
+}
+.box-media-top .more a {
+    font-size: 18px;
+}

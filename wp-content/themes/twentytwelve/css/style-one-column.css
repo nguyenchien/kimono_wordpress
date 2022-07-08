@@ -1,0 +1,534 @@
+
+div.general_title_box.general_title_box_bring{
+	background-color: #1c403d;
+}
+
+div.general_title_box h3 span{
+	display: none;
+}
+div.content_box div.content_box_gell img.box-main-full{
+	width:231px;
+	height: 204px;
+}
+div.content_box div.content_box_gell ul li a img{
+	width: 110px;
+	height: 152px;
+}
+div.content_box div.content_box_gell ul li.last a img{
+	width: 111px;
+}
+div.content_box div.content_box_gell ul{
+	padding-top: 10px;
+}
+div.content_box div.content_box_gell ul li{
+	float: left;
+	margin-right: 8px;
+}
+div.content_box div.content_box_gell ul li.last{
+	margin-right: 0px;
+}
+div.content_box_info_subpage h4{
+	padding: 12px 0 4px 10px;
+	font-family: "Meiryo", arial;
+	font-size: 18px;
+	color: #000;
+	font-weight: bold;
+}
+div.content_box_info_subpage ul.view_icon li{
+	display: block;
+	float: left;
+	margin-left: 8px;
+}
+div.content_box_info_subpage ul.view_icon li a img{
+	width: 80px;
+	height: 79px;
+}
+div.content_box_info_subpage ul.view_icon li p{
+	line-height: 22px;
+	font-size: 14px;
+}
+div.content_box_info_subpage ul.view_price li{
+	padding-top: 10px;
+}
+div.content_box_info_subpage ul.view_price li p.price_small span var{
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 1px;
+}
+div.content_box_info_subpage ul.view_price li.price_large{
+	padding-top: 5px;
+	padding-left: 3px;
+}
+div.view_link_goto_page a.goto_page:hover span:before{
+	border-left: 8px solid #38a1e6;
+}
+div.view_link_goto_page a.goto_page:hover{
+	color: #38a1e6;
+}
+div.box-about-kimono{
+	font-family: "Meiryo", arial;
+	padding:10px;
+}
+body.cn div.box-about-kimono{
+	font-family: inherit;
+}
+div.box-about-kimono dl{
+	padding-bottom: 10px;
+}
+div.box-about-kimono dl dt{
+	font-size: 30px;
+	line-height: 30px;
+	min-height: 25px;
+	font-weight: bold;
+	color: #000000;
+}
+div.box-about-kimono dl dt span{
+	display: inline-block;
+	padding-left: 5px;
+	color: #ff0000;
+}
+div.box-about-kimono dl dt var{
+	color: #444;
+	font-size: 10px;
+	line-height: 10px;
+	font-weight: normal;
+}
+div.box-about-kimono dl dd{
+	color: #444;
+	font-size: 14px;
+	line-height: 18px;
+}
+div.box-sidebar-new{
+	border: 2px solid #4e0037;
+	margin-bottom: 10px;
+}
+div.box-sidebar-new p{
+	display: block;
+	height: 39px;
+	background: #4e0037;
+	text-indent: 10px;
+	padding-top: 10px;
+	color: #fefeff;
+	font-size: 18px;
+	font-family: "Meiryo", arial;
+	font-weight: bold;
+}
+ul.sidebar-kimono-page{
+	padding: 6px 10px 5px 10px;
+}
+ul.sidebar-kimono-page li a:hover{
+	color: #4e0037;
+}
+ul.sidebar-kimono-page li.active a{
+	color: #4e0037;
+	font-weight: bold;
+}
+ul.sidebar-kimono-page li a{
+	background: url("../images/howto-faqs-sidebar-content-icon.png") center left no-repeat;
+	padding-left: 13px;
+	font-family: Meiryo, Arial;
+	font-size: 14px;
+	color: #000;
+	line-height: 25px;
+}
+
+/*
+    Plan Page
+=======================*/
+.box-content-page .sect-kimomo-normal ul li.item{
+	width: 301px;
+	float: left;
+	margin: 0 28px 40px 0;
+}
+
+.box-content-page .sect-kimomo-normal ul li.item.last{
+	margin-right: 0;
+}
+
+.box-content-page .sect-kimomo-normal ul li.item .kimono-image{
+	width: 301px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.box-content-page .sect-kimomo-normal ul li.item .kimono-image .large{
+	width: 223px;
+	height: 298px;
+	float: left;
+	margin-right:3px;
+	border: 1px solid #ccc;
+	position: relative;
+	line-height: 297px;
+	overflow:hidden;
+}
+
+.box-content-page .sect-kimomo-normal ul li.item .kimono-image .large img{
+	width: 223px;
+	height:auto;
+	vertical-align: middle;
+}
+
+.box-content-page .sect-kimomo-normal ul li.item .kimono-image .thumb{
+	width: 73px;
+	float: left;
+	text-align: center;
+}
+.box-content-page .sect-kimomo-normal ul li.item .kimono-image .thumb ul li img{
+	width: 71px;
+	height: auto;
+	vertical-align: middle;
+}
+
+.box-content-page .sect-kimomo-normal ul li.item .kimono-image .thumb ul li:last-child{
+	margin-bottom:0;
+}
+
+.box-content-page .sect-kimomo-normal ul li.item .kimono-info{
+	/*clear: both;*/
+	/*margin-bottom: 5px;*/
+}
+
+.box-content-page .sect-kimomo-normal ul li.item .kimono-info .name{
+	/*color: #000;*/
+	/*font-size: 24px;*/
+	/*line-height:1.1;*/
+}
+
+.box-content-page .sect-kimomo-normal ul li.item .kimono-info .caption{
+	color: #444;
+	font-size: 14px;
+}
+
+.box-content-page .sect-kimomo-normal ul li.item .link-reserve{
+	background: #fca825;
+	height:50px;
+	line-height: 50px;
+}
+
+.box-content-page .sect-kimomo-normal ul li.item .link-reserve a{
+	display: block;
+	color: #fff;
+	font-size: 22px;
+	font-weight:bold;
+	padding-left: 32px;
+	background: url("../images/spriteme-sp.png");
+	background-repeat: no-repeat;
+	background-size: 18px;
+    background-position: 13px -1513px;
+}
+
+/*--- .#tab-sex ---*/
+.box-content-page .sect-kimomo-normal.couple-sex #tab-sex{
+	border-bottom: 7px solid #4e0037;
+	margin-bottom: 10px;
+}
+
+.box-content-page .sect-kimomo-normal.couple-sex #tab-sex li{
+	width:49.89745%;
+	float: left;
+	margin-right: 2px;
+	background: #e3d0db;
+}
+
+.box-content-page .sect-kimomo-normal.couple-sex #tab-sex li:last-child{
+	margin-right:0;
+}
+
+.box-content-page .sect-kimomo-normal.couple-sex #tab-sex li a{
+	height:73px;
+	line-height:73px;
+	display: block;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.box-content-page .sect-kimomo-normal.couple-sex #tab-sex li a span{
+	font-size: 18px;
+	font-weight: normal;
+	margin-left: 3px;
+}
+
+.box-content-page .sect-kimomo-normal.couple-sex #tab-sex li.active{
+	background: #4e0037;
+}
+
+.box-content-page .sect-kimomo-normal.couple-sex #tab-sex li.active a{
+	color: #fff;
+}
+
+li.item_even:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+/*--- .paging-kimono ---*/
+.box-content-page .bg-pagging{
+	display:none;
+}
+
+.box-content-page .paging-kimono{
+	margin-bottom:40px;
+}
+
+.box-content-page .paging-kimono ul{
+    float: left;
+}
+
+.box-content-page .paging-kimono ul li{
+    float: left;
+    border: 1px solid #9e9e9e;
+    margin-right: -1px;
+}
+
+.box-content-page .paging-kimono ul li a{
+    display: block;
+    color: #9e9e9e;
+    background: #fff;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 9px 18px;
+}
+
+.box-content-page .paging-kimono ul li.selected a{
+    background: #733d6e;
+    color: #fff;
+}
+.box-content-page .paging-kimono ul li.first, 
+.box-content-page .paging-kimono ul li.last, 
+.box-content-page .paging-kimono ul li.hidden{
+    display: none;
+}
+
+/*====================================
+    section-flow-exper
+======================================*/
+.box-content-page.one-day .section-flow-exper .item{
+    margin-bottom: 20px;
+    background: url("../images/arrow-flow-renting.png") no-repeat 14px bottom;
+    padding-bottom: 15px;
+}
+
+.box-content-page.one-day .section-flow-exper .item-05{
+    background: none;
+}
+
+.box-content-page.one-day .section-flow-exper .item h3{
+    font-size: 30px;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+}
+
+.box-content-page.one-day .section-flow-exper .item h3 var{
+    width: 50px;
+    height: 50px;
+    background: #4e0037;
+    color: #fff;
+    font-size: 30px;
+    line-height: 54px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.box-content-page.one-day .section-flow-exper .item .con-item{
+    border-left: 8px solid #4e0037;
+    margin: 0 0 0 21px;
+    padding: 0 0 25px 31px
+}
+
+.box-content-page.one-day .section-flow-exper .item-05 .con-item{
+    border: none;
+    padding-left: 40px;
+    padding-bottom:5px;
+}
+
+.box-content-page.one-day .section-flow-exper .item .con-item .row{
+    margin-bottom: 10px;
+}
+
+.box-content-page.one-day .section-flow-exper .item .con-item .row .point{
+    border: 1px solid #b5b5b5;
+    padding:6px;
+    margin-top: 6px;
+}
+
+.box-content-page.one-day .section-flow-exper .item .con-item .row h4{
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box-content-page.one-day .section-flow-exper .item-02 .con-item .row h4 var{
+    color: #444;
+    font-size: 14px;
+    margin-left: 6px;
+    font-weight: bold;
+}
+
+.box-content-page.one-day .section-flow-exper .item .con-item .row p{
+    color: #444;
+    font-size: 14px;
+}
+
+/*====================================
+    section-dress-exper
+======================================*/
+ul.ul-oneday-page li.old{
+	color: #000;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 10px 0;
+}
+ul.ul-oneday-page li.old var{
+	display: inline-block;
+	background: #ffee63;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+	font-size: 30px;
+	margin-right: 12px;
+}
+ul.ul-oneday-page li.even img{
+	float: left;
+	margin-right: 20px;
+}
+ul.ul-oneday-page li.even p{
+	font-size: 14px;
+	color: #000;
+}
+ul.ul-oneday-page-block2{
+	margin-top: 10px;
+}
+ul.ul-oneday-page-block2 li{
+	float: left;
+	width: 347px;
+}
+ul.ul-oneday-page-block2 li.old{
+	margin-right: 18px;
+}
+ul.ul-oneday-page-block2 li dl{
+	padding: 0;
+}
+ul.ul-oneday-page-block2 li dl dt{
+	padding-left: 0px;
+	font-size: 18px;
+	color: #000;
+	font-weight: bold;
+	margin-top: 16px;
+	margin-bottom: 10px;
+}
+ul.ul-oneday-page-block2 li dl dt var{
+	display: inline-block;
+	background: #ffee63;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+ul.ul-oneday-page-block2 li dl dd{
+	padding-left: 0px;
+	background: #ae5da1;
+	color: #fff;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 10px;
+	line-height: 20px;
+	min-height: 95px;
+}
+ul.ul-oneday-page-block2 li dl p{
+	font-size: 10px;
+}
+
+.box-content-page.tenimotsu{
+	margin-bottom: 50px;
+}
+.box-img-tenimotsu ul li.item {
+    display: inline-block;
+    width: 313px;
+	vertical-align: top;
+}
+.box-img-tenimotsu span.price{
+	color:#ff0000;
+}
+h4.tenimotsu-titlle-pare{
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
+	color: black;
+	padding: 22px 0 3px 0;
+}
+p.tenimotsu-promo{
+	  font-weight: bold;
+  color: #000000;
+  font-size: 14px;
+}
+.tenimotsu-info{
+	font-size: 14px;
+	color: #444444;
+}
+.box-time-tenimotsu, .box-img-tenimotsu{
+	font-family: 'Meiryo', "Meiryo", arial !important;
+	margin-top: 10px;
+}
+.box-time-tenimotsu ul li{
+	display: inline-block;
+	width: 219px;
+	margin-left: 23px;
+}
+.box-time-tenimotsu ul li:first-child{
+	margin-left: 0px;
+}
+.box-time-tenimotsu .shop-title-tenimotsu{
+	float:left;
+}
+.box-time-tenimotsu .shop-title-tenimotsu span{
+	font-weight: bold;
+	font-size: 18px;
+	color: #000000;
+}
+.box-time-tenimotsu img{
+	float:left;
+	margin-left: 2px;
+}
+.box-time-tenimotsu img.icon-kiyomizuzaka{
+	margin-top: -7px;
+}
+.box-time-tenimotsu img.icon-kyotostation{
+	margin-top: -5px;
+}
+.box-time-tenimotsu img.icon-kinkakuji{
+	margin-top: -4px;
+}
+.box-time-tenimotsu .shop-title-tenimotsu .time{
+	font-weight: normal;
+	font-size: 14px;
+	color:#444444;
+}
+.note-tenimotsu{
+	font-family: 'Meiryo', "Meiryo", arial !important;
+	font-size: 14px;
+	color: #444444;
+}
+@media all and (max-width: 480px){
+	body.vi .cont-page-howto .sect-flow-renting .item h2{
+		font-size: 19px;
+	}
+}
+@media all and (max-width: 320px){
+	body.vi .cont-page-howto .sect-flow-renting .item h2{
+		font-size: 16px;
+	}
+}

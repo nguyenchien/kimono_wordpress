@@ -1,0 +1,283 @@
+.footer-formal{
+    background-color: #ececec;
+}
+.footer-formal-bg{
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+.more-link{
+    white-space: nowrap;
+}
+.top-footer-menu-name{
+    font-size: 14px;
+    color: #686868;
+    padding: 24px 0 24px 40px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+.top-footer-menu-item.active .top-footer-menu-name{
+    font-weight: bold;
+}
+.top-footer-menu-name:before{
+    position: absolute;
+    content: '';
+    left: 10px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    border-left: 1px solid #686868;
+    border-bottom: 1px solid #686868;
+    width: 11px;
+    height: 11px;
+}
+.top-footer-menu-item.active .top-footer-menu-name:before{
+    -webkit-transform: rotate(-225deg);
+    -ms-transform: rotate(-225deg);
+    transform: rotate(-225deg);
+    margin-top: 7px;
+}
+.top-footer-sub-menu{
+    overflow: hidden;
+    max-height: 0;
+    margin: 0;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    -o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+.top-footer-menu-item.active .top-footer-sub-menu{
+    -webkit-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+    transition: 0.4s ease;
+    padding-top: 20px;
+    max-height: 1000px;
+    overflow: hidden;
+}
+.top-footer-sub-item{
+    margin-bottom: 10px;
+    padding-left: 35px;
+}
+.top-footer-sub-item a{
+    color: #686868;
+    font-size: 12px;
+}
+.mid-footer-menu-item{
+    padding: 15px 10px;
+    border-bottom: 1px solid #ccc;
+}
+.mid-footer-menu-item a{
+    font-size: 11px;
+    color: #686868;
+    white-space: nowrap;
+}
+.footer-copyright{
+    padding: 15px 0 30px 0;
+}
+.copyright-text{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 11px;
+    color: #686868;
+}
+.top-footer-sub-menu .area-shop-item > a {
+    font-size: 14px;
+    color: #686868;
+    font-weight: bold;
+}
+.area-shop-item .area-shoplist {
+    padding-top: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .footer-container{
+        padding: 0 10px;
+    }
+}
+@media (min-width: 750px){
+    .top-footer-sub-menu{
+        max-height: none;
+    }
+    .footer-formal{
+        padding: 50px 0 20px 0;
+    }
+    .footer-formal .row{
+        padding: 0;
+    }
+    .top-footer-menu-list{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .top-footer-menu-name{
+        border-bottom: none;
+    }
+    .top-footer-sub-menu{
+        max-height: initial;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .top-footer-sub-item{
+        padding: 0;
+        width: 50%;
+    }
+    .top-footer-sub-item a{
+        font-size: 11px;
+    }
+    .top-footer-menu-name{
+        font-size: 14px;
+        padding: 0 0 5px 0;
+        border-color: #686868;
+    }
+    .top-footer-menu-name:before{
+        display: none;
+    }
+    .top-footer-menu{
+        margin-bottom: 10px;
+    }
+    .top-footer-menu-item{
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        margin-right: 50px;
+    }
+    .top-footer-menu-item:last-child{
+        margin-right: 0;
+    }
+    .top-footer-menu-item.storelist{
+        -webkit-box-flex: 3;
+        -ms-flex: 3;
+        flex: 3;
+        width: 600px;
+    }
+    .wrap-footer-formal .top-footer-menu-item.storelist{
+        width: 570px;
+    }
+    .top-footer-menu-item.reservation{
+        -webkit-box-flex: 2;
+        -ms-flex: 2;
+        flex: 2;
+    }
+    .top-footer-menu-item.service .top-footer-sub-item,
+    .top-footer-menu-item.help .top-footer-sub-item,
+    .top-footer-menu-item.sns .top-footer-sub-item{
+        width: 100%;
+    }
+    .reservation .top-footer-sub-menu{
+        flex-wrap: wrap;
+    }
+    .reservation .top-footer-sub-item{
+        width: initial;
+    }
+    .sub-right-col .top-footer-sub-item{
+        text-align: left;
+    }
+    .mid-footer-menu-list{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 2px 0;
+        /*border-top: 1px solid #ccc;*/
+        /*border-bottom: 1px solid #ccc;*/
+        background-color: #fff;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .mid-footer-menu-item:first-child{
+        padding-left: 5px;
+    }
+    .mid-footer-menu-item:last-child{
+        border: none;
+    }
+    .mid-footer-menu-item{
+        border: none;
+        padding: 0 10px;
+        /*-webkit-box-flex: 1;*/
+        /*-ms-flex: 1;*/
+        /*flex: 1;*/
+        /*text-align: center;*/
+        /*-webkit-box-align: center;*/
+        /*-ms-flex-align: center;*/
+        /*align-items: center;*/
+        /*display: -webkit-box;*/
+        /*display: -ms-flexbox;*/
+        /*display: flex;*/
+    }
+    .copyright-text{
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    .footer-copyright{
+        padding-bottom: 0;
+    }
+    .copyright-text br{
+        display: none;
+    }
+    /*======*/
+    .wrap-footer-formal .top-footer-menu-item.sns{
+        min-width: 120px;
+        margin-left: 0;
+    }
+    .top-footer-sub-menu .area-list-col {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+    }
+    .top-footer-sub-menu .area-shop-item {
+        margin-bottom: 15px;
+    }
+    .area-shop-item .area-shoplist {
+        padding-left: 10px;
+    }
+    .footer-formal .top-footer-sub-menu{
+        padding-left: 0;
+    }
+    .footer-formal .top-footer-menu-item:not(:last-child){
+        -webkit-box-flex: unset;
+        -ms-flex: unset;
+        flex: unset;
+        margin-right: 30px;
+    }
+    .area-shop-item .area-shoplist{
+        padding-left: 20px;
+    }
+    .footer-formal .top-footer-menu-name{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .footer-formal .top-footer-menu-item.reservation{
+        width: 200px;
+    }
+    .footer-formal .top-footer-menu-item.service{
+        width: 170px
+    }
+    .footer-formal .top-footer-menu-item.help{
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+    .top-footer-sub-menu .area-list-col{
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+    }
+    .area-list-col .area-shop-item .top-footer-sub-item{
+        width: 100%;
+    }
+    .footer-formal .top-footer-menu-item.sns .top-footer-sub-menu{
+        margin: 0 0 20px 0;
+    }
+}

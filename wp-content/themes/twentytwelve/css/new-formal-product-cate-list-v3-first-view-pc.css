@@ -1,0 +1,165 @@
+.title-name-formal {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+/*Banner top*/
+.banner-section{
+    margin-bottom: 70px;
+}
+.wrap-banner-top {
+    width: 100%;
+}
+.wrap-banner-top .list-banner-fm .item {
+    min-height: 500px;
+}
+.wrap-banner-top .list-banner-fm img {
+    width: 100%;
+}
+/*==.intro-section===*/
+.intro-section{
+    margin-bottom: 80px;
+}
+.intro-section .items-option-point {
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.intro-section .items-option-point:not(:last-child){
+    border-right: 1px solid #000;
+}
+.intro-section .icon-option-point {
+    background-image: url(../../../../../images/formal-rental/formal-list-v3/prime-point-pc.svg);
+    background-position: 0 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+.intro-section .icon-option-point.option-point-02 {
+    background-position: 0 -110px;
+}
+.intro-section .icon-option-point.option-point-03 {
+    background-position: 0 -230px;
+}
+.intro-section .icon-option-point.option-point-04 {
+    background-position: 0 -348px;
+}
+.intro-section .icon-option-point.option-point-05 {
+    background-position: 0 -470px;
+}
+.intro-section .icon-option-point.option-point-06 {
+    background-position: 0 -582px;
+}
+.intro-section .infor-option-point {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    color: #000;
+    text-align: center;
+}
+.intro-section .infor-option-point .infor-bottom{
+    font-size: 16px;
+}
+.intro-section .infor-option-point .infor-bottom var,
+.intro-section .infor-option-point .infor-bottom{
+    font-weight: bold;
+}
+.intro-section .list-items-option-point{
+    margin-bottom: 50px;
+    padding: 0 20px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.right-column-list.right-cate-list-v3{
+    margin-left: 50px;
+}
+.wrap-title-fm,
+.wrap-title-fm-other{
+    font-family: "ten-mincho", serif;
+}
+.wrap-title-fm-other{
+    margin-bottom: 30px;
+}
+.wrap-title-fm-other .sub-title {
+    color: #c1a530;
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.wrap-title-fm-other .main-title {
+    font-size: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    text-align: center;
+    line-height: 1.4;
+}
+.wrap-title-fm-other .main-title:before,
+.wrap-title-fm-other .main-title:after {
+    content: "";
+    display: inline-block;
+    width: 35px;
+    height: 2px;
+    background-color: #000;
+}
+.wrap-title-fm-other .main-title:before{
+    margin-right: 5px;
+}
+.wrap-title-fm-other .main-title:after{
+    margin-left: 5px;
+}
+.wrap-title-fm .sub-title{
+    color: #78bfc3;
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.wrap-title-fm .sub-title{
+    color: #ffbfaa;
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 4px 1px 3px #fff;
+}
+.wrap-title-fm .main-title{
+    font-size: 20px;
+    text-align: center;
+    color: #5b5b5b;
+}
+.kurotomesode .wrap-title-fm .sub-title {
+    color: #883f7c;
+}
+.list-banner-fm .slick-slide:not(.slick-current) {
+    opacity: .6;
+}
+.wrap-boths-column .right-column-list.right-cate-list-v2{
+    margin-left: 85px;
+}
+.irotomesode .wrap-title-fm .sub-title {
+    color: #78bfc3;
+}
